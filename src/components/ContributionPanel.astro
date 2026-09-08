@@ -1,0 +1,92 @@
+---
+import type { FeatureSignal } from '../lib/signals/model';
+
+interface Props {
+  feature: FeatureSignal;
+}
+
+const { feature } = Astro.props;
+const workerUrl = import.meta.env.PUBLIC_WORKER_URL ?? '';
+---
+
+<section
+  class="panel contribution-panel"
+  aria-labelledby="contribute-title"
+  data-contribution
+  data-worker-url={workerUrl}
+  data-issue-number={feature.issue.number}
+  data-issue-url={feature.issue.url}
+>
+  <div>
+    <p class="kicker">GitHub write actions</p>
+    <h2 id="contribute-title">Support this signal</h2>
+  </div>
+  <p>
+    The optional GitHub App requests narrow issue write access. Tokens stay in
+    the Worker; this static page never receives one.
+  </p>
+  <p class="form-status" aria-live="polite" data-auth-status>
+    Checking whether secure GitHub actions are configured…
+  </p>
+  <div class="action-row">
+    <a class="button" href={feature.issue.url} target="_blank" rel="noreferrer"
+      >Open on GitHub <span aria-hidden="true">↗</span></a
+    >
+    <a class="button button--primary" href="#" data-login hidden>Sign in with GitHub</a>
+    <button class="button button--primary" type="button" data-vote hidden>
+      Add my +1
+    </button>
+  </div>
+
+  <form action={feature.issue.url} method="get" data-use-case-form>
+    <fieldset class="panel">
+      <legend><strong>Submit a structured use case</strong></legend>
+      <div class="field">
+        <label for={`goal-${feature.id}`}>What I want to do with this feature</label>
+        <textarea
+          id={`goal-${feature.id}`}
+          name="goal"
+          required
+          minlength="30"
+          maxlength="3000"
+          aria-describedby={`goal-hint-${feature.id}`}
+        ></textarea>
+        <span id={`goal-hint-${feature.id}`} class="field__hint">
+          Include a concrete product, user, or implementation scenario.
+        </span>
+      </div>
+      <div class="field">
+        <label for={`workaround-${feature.id}`}
+          >What I’m having to do in the meantime</label
+        >
+        <textarea
+          id={`workaround-${feature.id}`}
+          name="workaround"
+          maxlength="3000"
+          aria-describedby={`workaround-hint-${feature.id}`}
+        ></textarea>
+        <span id={`workaround-hint-${feature.id}`} class="field__hint">
+          Optional. Describe a fallback, polyfill, duplicated implementation,
+          degraded experience, excess payload, or blocker.
+        </span>
+      </div>
+      <div>
+        <span class="field__label">Exact Markdown preview</span>
+        <pre class="markdown-preview" data-markdown-preview><code></code></pre>
+      </div>
+      <p class="form-status" aria-live="polite" data-submit-status>
+        Without the Worker, use “Open on GitHub” and paste the preview.
+      </p>
+      <div class="action-row">
+        <button class="button button--primary" type="submit" data-submit>
+          Submit on GitHub
+        </button>
+        <a class="button button--quiet" href={feature.issue.url}>GitHub fallback</a>
+      </div>
+    </fieldset>
+  </form>
+</section>
+
+<script>
+  import '../scripts/contribution';
+</script>

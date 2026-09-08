@@ -1,0 +1,72 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  current?: 'report' | 'browse' | 'methodology';
+}
+
+const { title, description, current } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#3158c7" />
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+    <link rel="icon" href={`${base}favicon.ico`} />
+    <link rel="canonical" href={canonical} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="visually-hidden" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href={base}>Developer Signals</a>
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li>
+              <a href={base} aria-current={current === 'report' ? 'page' : undefined}
+                >Top 25</a
+              >
+            </li>
+            <li>
+              <a
+                href={`${base}features/`}
+                aria-current={current === 'browse' ? 'page' : undefined}>Browse all</a
+              >
+            </li>
+            <li>
+              <a
+                href={`${base}methodology/`}
+                aria-current={current === 'methodology' ? 'page' : undefined}
+                >Methodology</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" class="page-shell">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p>Independent prioritization signal; not a browser roadmap.</p>
+        <p>
+          GitHub remains the system of record. <a
+            href="https://github.com/web-platform-dx/developer-signals"
+            >View source repository</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

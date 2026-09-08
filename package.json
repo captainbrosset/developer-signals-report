@@ -2,6 +2,7 @@
   "name": "developer-signals-analysis",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
   "engines": {
     "node": ">=22.12.0"
   },
@@ -9,10 +10,29 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check": "astro check",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ingest": "tsx scripts/ingest.ts",
+    "enrich": "tsx scripts/enrich.ts",
+    "generate:fixture": "tsx scripts/generate-fixture.ts",
+    "rebuild:report": "tsx scripts/rebuild-report.ts",
+    "worker:check": "tsc --noEmit -p worker/tsconfig.json",
+    "validate": "npm run test && npm run check && npm run worker:check && npm run build"
   },
   "dependencies": {
-    "astro": "^7.3.1"
+    "astro": "^7.2.10",
+    "web-features": "^3.36.0",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@cloudflare/workers-types": "^5.20260901.1",
+    "@types/node": "^24.3.0",
+    "tsx": "^4.23.13",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.11"
   },
   "allowScripts": {
     "esbuild": true

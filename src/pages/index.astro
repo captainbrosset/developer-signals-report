@@ -1,17 +1,41 @@
 ---
+import FeatureExplorer from '../components/FeatureExplorer.astro';
+import StatusBanner from '../components/StatusBanner.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { reportSchema } from '../lib/signals/model';
+import reportData from '../data/report.json';
 
+const report = reportSchema.parse(reportData);
+const top = report.features.slice(0, 25);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout
+  title="Developer Signals — top web platform priorities"
+  description="An auditable top-25 report of developer demand, use-case evidence, and workaround burden for limited-availability web features."
+  current="report"
+>
+  <section class="hero">
+    <p class="hero__eyebrow">Static, source-linked, updated daily</p>
+    <h1>Which web features need attention next?</h1>
+    <p class="hero__lede">
+      A transparent ranking of open developer-signal issues, balancing broad
+      demand with distinct use cases and the real burden of today’s workarounds.
+    </p>
+    <div class="hero__actions">
+      <a class="button button--primary" href="#top-features">Explore the top 25</a>
+      <a class="button" href={`${import.meta.env.BASE_URL}features/`}>Browse every feature</a>
+      <a class="button button--quiet" href={`${import.meta.env.BASE_URL}methodology/`}
+        >Audit the formula</a
+      >
+    </div>
+    <StatusBanner metadata={report.metadata} />
+  </section>
+
+  <div id="top-features">
+    <FeatureExplorer
+      features={top}
+      heading="Top 25 priority signals"
+      description="Composite ranking by default. Search, filter, or switch to a raw evidence sort."
+    />
+  </div>
+</BaseLayout>

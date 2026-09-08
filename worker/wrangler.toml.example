@@ -1,0 +1,21 @@
+name = "developer-signals-actions"
+main = "src/index.ts"
+compatibility_date = "2026-09-01"
+workers_dev = false
+
+[vars]
+ALLOWED_ORIGIN = "https://signals.example.com"
+ALLOWED_ISSUES = "215,245,278"
+GITHUB_CLIENT_ID = "replace-with-github-app-client-id"
+
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "replace-with-session-kv-id"
+
+[[kv_namespaces]]
+binding = "RATE_LIMITS"
+id = "replace-with-rate-limit-kv-id"
+
+# Set with `wrangler secret put`:
+# GITHUB_CLIENT_SECRET
+# SESSION_SECRET (at least 32 random characters)

@@ -1,0 +1,232 @@
+---
+import ContributionPanel from '../../components/ContributionPanel.astro';
+import ScoreBreakdown from '../../components/ScoreBreakdown.astro';
+import TrendChart from '../../components/TrendChart.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { reportSchema, type FeatureSignal } from '../../lib/signals/model';
+import reportData from '../../data/report.json';
+
+const report = reportSchema.parse(reportData);
+
+export function getStaticPaths() {
+  const parsed = reportSchema.parse(reportData);
+  return parsed.features.map((feature) => ({
+    params: { slug: feature.slug },
+    props: { feature },
+  }));
+}
+
+interface Props {
+  feature: FeatureSignal;
+}
+
+const { feature } = Astro.props;
+const qualified = feature.comments.filter(
+  (comment) => comment.classification === 'qualified',
+);
+const excluded = feature.comments.filter(
+  (comment) => comment.classification === 'excluded',
+);
+const themeGroups = new Map<string, typeof qualified>();
+for (const comment of qualified) {
+  for (const theme of comment.themes) {
+    themeGroups.set(theme, [...(themeGroups.get(theme) ?? []), comment]);
+  }
+}
+const workaroundComments = qualified.filter(
+  (comment) => comment.workaroundSeverity !== 'none',
+);
+const exclusionCounts = Object.entries(
+  excluded.reduce<Record<string, number>>((counts, comment) => {
+    const reason = comment.exclusionReason ?? 'other';
+    counts[reason] = (counts[reason] ?? 0) + 1;
+    return counts;
+  }, {}),
+);
+const dateFormatter = new Intl.DateTimeFormat('en', { dateStyle: 'medium' });
+---
+
+<BaseLayout
+  title={`${feature.title} — Developer Signals`}
+  description={feature.summary}
+  current="browse"
+>
+  <section class="hero">
+    <p class="hero__eyebrow">Priority #{report.features.findIndex((item) => item.id === feature.id) + 1}</p>
+    <h1>{feature.title}</h1>
+    <p class="hero__lede">{feature.summary}</p>
+    <div class="chip-list">
+      <span class="chip">{feature.supportState.replace('-', ' ')}</span>
+      {feature.categories.map((category) => <span class="chip">{category}</span>)}
+      <span class={`chip chip--${feature.confidence.level}`}>
+        {feature.confidence.level} confidence
+      </span>
+    </div>
+    <div class="hero__actions">
+      <a class="button button--primary" href="#contribute-title">Vote or contribute</a>
+      <a class="button" href={feature.issue.url} target="_blank" rel="noreferrer"
+        >Open issue #{feature.issue.number} <span aria-hidden="true">↗</span></a
+      >
+      {feature.featureUrl && (
+        <a class="button button--quiet" href={feature.featureUrl}>Web-features metadata</a>
+      )}
+    </div>
+  </section>
+
+  <div class="detail-grid">
+    <div class="content-stack">
+      <section class="panel" aria-labelledby="score-title">
+        <div>
+          <p class="kicker">Auditable priority</p>
+          <h2 id="score-title">{feature.score.composite.toFixed(1)} / 100</h2>
+        </div>
+        <p class="metrics">
+          <span><strong>{feature.votes}</strong> votes</span>
+          <span><strong>{feature.qualifiedAuthors}</strong> qualified authors</span>
+          <span><strong>{feature.workaroundAuthors}</strong> workaround authors</span>
+          <span>
+            Missing: <strong>{feature.missingBrowsers.join(', ') || 'no core browser'}</strong>
+          </span>
+        </p>
+        <ScoreBreakdown feature={feature} open />
+      </section>
+
+      <section class="panel" aria-labelledby="use-cases-title">
+        <div>
+          <p class="kicker">Linked original evidence</p>
+          <h2 id="use-cases-title">Qualified use cases</h2>
+        </div>
+        {
+          [...themeGroups.entries()].map(([theme, comments], groupIndex) => (
+            <section>
+              <h3>{theme}</h3>
+              <ul class="evidence-list" data-use-case-list={groupIndex === 0 ? '' : undefined}>
+                {comments.map((comment) => (
+                  <li class="evidence">
+                    {comment.summaryKind === 'ai-generated' && (
+                      <span class="generated-label">AI-generated summary</span>
+                    )}
+                    {comment.summaryKind === 'editorial' && (
+                      <span class="generated-label">Editorial summary</span>
+                    )}
+                    <p>{comment.generatedSummary ?? comment.parsedGoal}</p>
+                    <p class="evidence__meta">
+                      @{comment.author} · {comment.positiveReactions} comment +1 ·{' '}
+                      <a href={comment.sourceUrl}>Read source comment</a>
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))
+        }
+      </section>
+
+      <section class="panel" aria-labelledby="workarounds-title">
+        <div>
+          <p class="kicker">Current developer cost</p>
+          <h2 id="workarounds-title">Workarounds</h2>
+        </div>
+        {
+          workaroundComments.length ? (
+            <ul class="evidence-list">
+              {workaroundComments.map((comment) => (
+                <li class="evidence">
+                  <span class="chip">{comment.workaroundSeverity} burden</span>
+                  <p>{comment.parsedWorkaround}</p>
+                  <p class="evidence__meta">
+                    @{comment.author} ·{' '}
+                    <a href={comment.sourceUrl}>Read source comment</a>
+                  </p>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p>No qualified author described a workaround in this snapshot.</p>
+          )
+        }
+      </section>
+
+      <ContributionPanel feature={feature} />
+    </div>
+
+    <aside class="sidebar-stack" aria-label="Feature evidence context">
+      <section class="panel">
+        <h2>Recent movement</h2>
+        <dl class="metrics">
+          <div>
+            <dt>7-day votes</dt>
+            <dd><strong>{feature.trend.votes7d >= 0 ? '+' : ''}{feature.trend.votes7d}</strong></dd>
+          </div>
+          <div>
+            <dt>30-day votes</dt>
+            <dd><strong>{feature.trend.votes30d >= 0 ? '+' : ''}{feature.trend.votes30d}</strong></dd>
+          </div>
+          <div>
+            <dt>7-day score</dt>
+            <dd><strong>{feature.trend.score7d >= 0 ? '+' : ''}{feature.trend.score7d.toFixed(1)}</strong></dd>
+          </div>
+          <div>
+            <dt>30-day score</dt>
+            <dd><strong>{feature.trend.score30d >= 0 ? '+' : ''}{feature.trend.score30d.toFixed(1)}</strong></dd>
+          </div>
+        </dl>
+        <TrendChart snapshots={feature.snapshots} />
+        <div class="field">
+          <span class="field__label">Snapshot history</span>
+          <div class="scroll-region">
+            <table class="trend-table">
+              <thead>
+                <tr><th>Date</th><th>Votes</th><th>Uses</th><th>Score</th></tr>
+              </thead>
+              <tbody>
+                {feature.snapshots.map((snapshot) => (
+                  <tr>
+                    <td>{dateFormatter.format(new Date(`${snapshot.date}T00:00:00Z`))}</td>
+                    <td>{snapshot.votes}</td>
+                    <td>{snapshot.qualifiedAuthors}</td>
+                    <td>{snapshot.components.composite.toFixed(1)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Confidence</h2>
+        <p><strong>{feature.confidence.level}</strong> ({Math.round(feature.confidence.score * 100)}%)</p>
+        <p class="muted">{feature.confidence.rationale}</p>
+        <p>
+          Confidence describes evidence coverage; it does not change the priority score.
+        </p>
+      </section>
+
+      <section class="panel">
+        <h2>Excluded from scoring</h2>
+        <p>
+          {excluded.length} comment{excluded.length === 1 ? '' : 's'} excluded by
+          deterministic rules or author deduplication.
+        </p>
+        <ul>
+          {exclusionCounts.map(([reason, count]) => (
+            <li>{reason.replace('-', ' ')}: {count}</li>
+          ))}
+        </ul>
+        <details>
+          <summary>Inspect excluded comments</summary>
+          <ul class="evidence-list">
+            {excluded.map((comment) => (
+              <li class="evidence">
+                <strong>{comment.exclusionReason?.replace('-', ' ')}</strong>
+                <p>{comment.body.slice(0, 180)}{comment.body.length > 180 ? '…' : ''}</p>
+                <a href={comment.sourceUrl}>View source</a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      </section>
+    </aside>
+  </div>
+</BaseLayout>

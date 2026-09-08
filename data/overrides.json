@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "overrides": [
+    {
+      "sourceId": "fixture-jpegxl-debate",
+      "classification": "excluded",
+      "exclusionReason": "debate-only",
+      "rationale": "Fixture example: standards debate without a developer scenario.",
+      "reviewer": "project-maintainers",
+      "reviewedAt": "2026-09-01"
+    }
+  ]
+}

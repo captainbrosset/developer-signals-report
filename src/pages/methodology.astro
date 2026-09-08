@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import {
+  COMMENT_REACTION_BOOST,
+  FORMULA_TEXT,
+  FORMULA_VERSION,
+  NORMALIZATION_REFERENCES,
+  QUALIFICATION_VERSION,
+  SCORE_WEIGHTS,
+  WORKAROUND_WEIGHTS,
+} from '../lib/signals/constants';
+---
+
+<BaseLayout
+  title="Methodology — Developer Signals"
+  description="Versioned qualification and scoring methodology for the Developer Signals report."
+  current="methodology"
+>
+  <section class="hero">
+    <p class="hero__eyebrow">Formula {FORMULA_VERSION}</p>
+    <h1>Methodology</h1>
+    <p class="hero__lede">
+      This report is a reproducible prioritization signal, not a browser roadmap.
+      Raw evidence remains visible and linked so readers can disagree with the model.
+    </p>
+  </section>
+
+  <article class="prose">
+    <h2>Composite priority</h2>
+    <p class="formula"><code>{FORMULA_TEXT}</code></p>
+    <p>
+      Scores are published on a 0–100 scale. The weights are
+      {` ${SCORE_WEIGHTS.votes * 100}% votes, ${SCORE_WEIGHTS.useCases * 100}% use-case evidence, and ${SCORE_WEIGHTS.workarounds * 100}% workaround burden.`}
+      Issue age is never a positive or negative input.
+    </p>
+
+    <h2>Normalization</h2>
+    <p>
+      Each raw metric uses <code>min(1, log1p(value) / log1p(reference))</code>.
+      Version {FORMULA_VERSION} reference values are
+      {` ${NORMALIZATION_REFERENCES.votes} votes, ${NORMALIZATION_REFERENCES.useCases} effective qualified authors, and ${NORMALIZATION_REFERENCES.workaroundBurden} weighted workaround points.`}
+      The logarithm preserves differences at low evidence levels without letting
+      a viral outlier flatten the rest of the report.
+    </p>
+
+    <h2>Qualified use cases</h2>
+    <p>
+      Qualification rules version {QUALIFICATION_VERSION} parse the repository’s
+      two headings, require a concrete developer goal or scenario, and require
+      enough original content to convey the need.
+    </p>
+    <ul>
+      <li>Bots, minimized content, moderation, and thread-management messages are excluded.</li>
+      <li>Template-only, generic support, and standards-debate-only comments are excluded.</li>
+      <li>Authors are deduplicated per feature; only their strongest qualifying contribution counts.</li>
+      <li>
+        Positive reactions on qualifying comments add
+        {` ${COMMENT_REACTION_BOOST.perReaction} evidence points each, capped at ${COMMENT_REACTION_BOOST.maximumPerAuthor} per author and ${COMMENT_REACTION_BOOST.maximumShareOfQualifiedAuthors * 100}% of the author count.`}
+      </li>
+    </ul>
+
+    <h2>Workaround burden</h2>
+    <p>
+      Deterministic phrases classify each qualified author’s strongest evidence.
+      Fixed weights are:
+    </p>
+    <ul>
+      {Object.entries(WORKAROUND_WEIGHTS).map(([severity, weight]) => (
+        <li><strong>{severity}</strong>: {weight}</li>
+      ))}
+    </ul>
+    <p>
+      Categories cover minor fallbacks, polyfills or custom implementations,
+      duplicated systems or excess payload, and blocked scenarios with no viable fallback.
+    </p>
+
+    <h2>Confidence and trends</h2>
+    <p>
+      Confidence summarizes evidence volume, vote breadth, and the share of
+      reviewed comments that qualify. It is displayed but never added to priority.
+      Daily snapshots retain raw metrics and their formula version; the interface
+      shows seven- and thirty-day changes without making momentum the default sort.
+    </p>
+
+    <h2>Overrides and optional AI</h2>
+    <p>
+      Version-controlled manual overrides run last and must include a rationale,
+      reviewer, and date. Optional AI enrichment is disabled by default, schema
+      constrained, and limited to classification, themes, and clearly labeled
+      summaries. It cannot assign an opaque numeric quality score or replace the
+      linked source comment.
+    </p>
+
+    <h2>Change governance</h2>
+    <p>
+      Weight, reference, or qualification changes require a version increment,
+      regenerated snapshots, sensitivity tests, and a documented change entry.
+      The initial weights are hypotheses; feedback belongs in the project issue tracker.
+    </p>
+    <h3>History</h3>
+    <ul>
+      <li><strong>1.0.0 — 2026-09-08:</strong> Initial MVP formula and qualification rules.</li>
+    </ul>
+  </article>
+</BaseLayout>

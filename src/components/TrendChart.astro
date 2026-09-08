@@ -1,0 +1,98 @@
+---
+import type { ScoreSnapshot } from '../lib/signals/model';
+
+interface Props {
+  snapshots: ScoreSnapshot[];
+}
+
+const { snapshots } = Astro.props;
+const width = 320;
+const height = 96;
+const padding = 8;
+const votes = snapshots.map((snapshot) => snapshot.votes);
+const scores = snapshots.map((snapshot) => snapshot.components.composite);
+const votePoints = makePoints(votes);
+const scorePoints = makePoints(scores);
+const first = snapshots[0];
+const last = snapshots.at(-1) ?? first;
+const dateFormatter = new Intl.DateTimeFormat('en', {
+  month: 'short',
+  day: 'numeric',
+  timeZone: 'UTC',
+});
+
+function makePoints(values: number[]): string {
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const range = max - min;
+  return values
+    .map((value, index) => {
+      const x =
+        values.length === 1
+          ? width / 2
+          : padding + (index / (values.length - 1)) * (width - padding * 2);
+      const y =
+        range === 0
+          ? height / 2
+          : padding + ((max - value) / range) * (height - padding * 2);
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    })
+    .join(' ');
+}
+---
+
+<figure class="trend-chart">
+  <figcaption>
+    <strong>Daily snapshot trend</strong>
+    <span>
+      Votes and priority score are scaled independently to show their direction
+      of change.
+    </span>
+  </figcaption>
+  {
+    snapshots.length > 1 ? (
+      <svg
+        viewBox={`0 0 ${width} ${height}`}
+        role="img"
+        aria-labelledby="trend-chart-title trend-chart-description"
+      >
+        <title id="trend-chart-title">Vote and priority score history</title>
+        <desc id="trend-chart-description">
+          From {first.date} to {last.date}, votes changed from {first.votes} to{' '}
+          {last.votes}, and the priority score changed from{' '}
+          {first.components.composite.toFixed(1)} to{' '}
+          {last.components.composite.toFixed(1)}.
+        </desc>
+        <line
+          class="trend-chart__grid"
+          x1={padding}
+          y1={height / 2}
+          x2={width - padding}
+          y2={height / 2}
+        />
+        <polyline class="trend-chart__line trend-chart__line--votes" points={votePoints} />
+        <polyline class="trend-chart__line trend-chart__line--score" points={scorePoints} />
+      </svg>
+    ) : (
+      <div class="trend-chart__empty">
+        History starts with this snapshot. The scheduled refresh will add one
+        point per day.
+      </div>
+    )
+  }
+  <div class="trend-chart__legend" aria-hidden="true">
+    <span><i class="trend-chart__key trend-chart__key--votes" /> Votes: {last.votes}</span>
+    <span>
+      <i class="trend-chart__key trend-chart__key--score" /> Priority:{' '}
+      {last.components.composite.toFixed(1)}
+    </span>
+  </div>
+  <div class="trend-chart__dates">
+    <time datetime={first.date}>
+      {dateFormatter.format(new Date(`${first.date}T00:00:00Z`))}
+    </time>
+    <time datetime={last.date}>
+      {dateFormatter.format(new Date(`${last.date}T00:00:00Z`))}
+    </time>
+  </div>
+</figure>

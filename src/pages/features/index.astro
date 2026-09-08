@@ -1,0 +1,30 @@
+---
+import FeatureExplorer from '../../components/FeatureExplorer.astro';
+import StatusBanner from '../../components/StatusBanner.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { reportSchema } from '../../lib/signals/model';
+import reportData from '../../data/report.json';
+
+const report = reportSchema.parse(reportData);
+---
+
+<BaseLayout
+  title="Browse all developer signals"
+  description="Search, filter, sort, and inspect all eligible web platform developer signals."
+  current="browse"
+>
+  <section class="hero">
+    <p class="hero__eyebrow">All eligible features</p>
+    <h1>Browse the full evidence set</h1>
+    <p class="hero__lede">
+      Ranking is only one lens. Use alternate sorts and shareable filters to
+      inspect votes, use cases, workaround burden, confidence, and momentum.
+    </p>
+    <StatusBanner metadata={report.metadata} />
+  </section>
+  <FeatureExplorer
+    features={report.features}
+    heading="All feature signals"
+    description="Every open feature included in this generated report."
+  />
+</BaseLayout>

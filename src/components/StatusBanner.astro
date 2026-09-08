@@ -1,0 +1,49 @@
+---
+import type { Report } from '../lib/signals/model';
+
+interface Props {
+  metadata: Report['metadata'];
+}
+
+const { metadata } = Astro.props;
+const generated = new Date(metadata.generatedAt);
+const stale = new Date(metadata.staleAfter);
+const formatter = new Intl.DateTimeFormat('en', {
+  dateStyle: 'medium',
+  timeStyle: 'short',
+  timeZone: 'UTC',
+});
+---
+
+<aside
+  class="status-banner"
+  aria-labelledby="data-status-title"
+  data-data-status
+  data-stale-after={metadata.staleAfter}
+>
+  <span class="status-banner__icon" aria-hidden="true">◷</span>
+  <strong id="data-status-title">
+    {metadata.fixture ? 'Public API sample for local development' : 'Daily report data'}
+  </strong>
+  <p>
+    Generated <time datetime={generated.toISOString()}>{formatter.format(generated)} UTC</time>.
+    <span data-freshness>Expected fresh through <time datetime={stale.toISOString()}
+        >{formatter.format(stale)} UTC</time
+      >.</span
+    >
+    {metadata.warnings[0] && ` ${metadata.warnings[0]}`}
+  </p>
+</aside>
+
+<script>
+  const banner = document.querySelector<HTMLElement>('[data-data-status]');
+  const freshness = banner?.querySelector<HTMLElement>('[data-freshness]');
+  if (banner && freshness) {
+    const staleAfter = Date.parse(banner.dataset.staleAfter ?? '');
+    if (Number.isFinite(staleAfter) && Date.now() > staleAfter) {
+      banner.dataset.stale = 'true';
+      freshness.textContent =
+        'This report is stale. Verify current totals on GitHub before making decisions.';
+    }
+  }
+</script>

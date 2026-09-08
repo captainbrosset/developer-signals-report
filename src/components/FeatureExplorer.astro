@@ -1,0 +1,178 @@
+---
+import type { FeatureSignal } from '../lib/signals/model';
+import ScoreBreakdown from './ScoreBreakdown.astro';
+
+interface Props {
+  features: FeatureSignal[];
+  heading: string;
+  description: string;
+}
+
+const { features, heading, description } = Astro.props;
+const categories = [...new Set(features.flatMap((feature) => feature.categories))].sort();
+const base = import.meta.env.BASE_URL;
+---
+
+<section class="explorer" data-feature-explorer>
+  <div class="section-heading">
+    <div>
+      <h2>{heading}</h2>
+      <p>{description}</p>
+    </div>
+  </div>
+
+  <form class="filter-form" method="get" action={Astro.url.pathname} data-filter-form>
+    <div class="field field--wide">
+      <label for="feature-search">Search features and summaries</label>
+      <input
+        id="feature-search"
+        name="q"
+        type="search"
+        enterkeyhint="search"
+        autocomplete="off"
+        placeholder="Try “layout”, “image”, or “date”"
+      />
+    </div>
+    <div class="field">
+      <label for="category-filter">Category</label>
+      <select id="category-filter" name="category">
+        <option value="">All categories</option>
+        {categories.map((category) => <option value={category}>{category}</option>)}
+      </select>
+    </div>
+    <div class="field">
+      <label for="browser-filter">Missing browser / engine</label>
+      <select id="browser-filter" name="browser">
+        <option value="">Any browser</option>
+        <option value="chrome">Chrome</option>
+        <option value="edge">Edge</option>
+        <option value="firefox">Firefox</option>
+        <option value="safari">Safari</option>
+        <option value="engine:blink">Blink engine</option>
+        <option value="engine:gecko">Gecko engine</option>
+        <option value="engine:webkit">WebKit engine</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="confidence-filter">Confidence</label>
+      <select id="confidence-filter" name="confidence">
+        <option value="">Any confidence</option>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="support-filter">My support</label>
+      <select id="support-filter" name="supported">
+        <option value="">All features</option>
+        <option value="mine">Supported by me in this session</option>
+      </select>
+      <span class="field__hint">Available after voting through the optional Worker.</span>
+    </div>
+    <div class="field">
+      <label for="sort-order">Sort by</label>
+      <select id="sort-order" name="sort">
+        <option value="priority">Priority score</option>
+        <option value="votes">Votes</option>
+        <option value="use-cases">Qualified use cases</option>
+        <option value="workarounds">Workaround burden</option>
+        <option value="momentum">30-day momentum</option>
+        <option value="name">Feature name</option>
+      </select>
+    </div>
+    <div class="action-row">
+      <button class="button button--primary" type="submit">Apply filters</button>
+      <a class="button button--quiet" href={Astro.url.pathname}>Reset</a>
+    </div>
+  </form>
+
+  <p class="result-summary" aria-live="polite" data-result-summary>
+    Showing {features.length} features.
+  </p>
+  <ol class="feature-list" data-feature-list>
+    {
+      features.map((feature, index) => (
+        <li
+          class="feature-card"
+          data-feature-card
+          data-id={feature.id}
+          data-search={`${feature.title} ${feature.summary} ${feature.categories.join(' ')}`.toLowerCase()}
+          data-categories={feature.categories.join('|')}
+          data-browsers={feature.missingBrowsers.join('|')}
+          data-engines={[
+            ...(feature.missingBrowsers.some((browser) =>
+              ['chrome', 'edge'].includes(browser)
+            )
+              ? ['blink']
+              : []),
+            ...(feature.missingBrowsers.includes('firefox') ? ['gecko'] : []),
+            ...(feature.missingBrowsers.includes('safari') ? ['webkit'] : []),
+          ].join('|')}
+          data-confidence={feature.confidence.level}
+          data-issue={feature.issue.number}
+          data-priority={feature.score.composite}
+          data-votes={feature.votes}
+          data-use-cases={feature.qualifiedAuthors}
+          data-workarounds={feature.workaroundBurdenRaw}
+          data-momentum={feature.trend.score30d}
+          data-name={feature.title.toLowerCase()}
+        >
+          <article>
+            <div class="feature-card__main">
+              <span class="feature-card__rank" aria-label={`Composite rank ${index + 1}`}>
+                {index + 1}
+              </span>
+              <div class="feature-card__body">
+                <h3 class="feature-card__title">
+                  <a href={`${base}features/${feature.slug}/`}>
+                    {feature.title}
+                  </a>
+                </h3>
+                <p class="feature-card__summary">{feature.summary}</p>
+                <div class="chip-list" aria-label="Feature status">
+                  <span class="chip">{feature.supportState.replace('-', ' ')}</span>
+                  {feature.categories.slice(0, 2).map((category) => (
+                    <span class="chip">{category}</span>
+                  ))}
+                  <span class={`chip chip--${feature.confidence.level}`}>
+                    {feature.confidence.level} confidence
+                  </span>
+                </div>
+                <p class="metrics">
+                  <span><strong>{feature.votes}</strong> votes</span>
+                  <span>
+                    <strong>{feature.qualifiedAuthors}</strong> qualified use cases
+                  </span>
+                  <span>
+                    <strong>{feature.workaroundBurdenRaw}</strong> workaround burden
+                  </span>
+                  <span>
+                    <strong>{feature.trend.score30d >= 0 ? '+' : ''}{feature.trend.score30d.toFixed(1)}</strong>
+                    score / 30d
+                  </span>
+                  <span>
+                    Missing: <strong>{feature.missingBrowsers.join(', ') || 'none'}</strong>
+                  </span>
+                </p>
+              </div>
+              <div class="score-badge">
+                <strong>{feature.score.composite.toFixed(1)}</strong>
+                <span>priority</span>
+              </div>
+            </div>
+            <ScoreBreakdown feature={feature} />
+          </article>
+        </li>
+      ))
+    }
+  </ol>
+  <div class="empty-state" data-empty-state hidden>
+    <h3>No matching features</h3>
+    <p>Try removing a filter or using a broader search term.</p>
+  </div>
+</section>
+
+<script>
+  import '../scripts/explorer';
+</script>

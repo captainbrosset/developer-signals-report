@@ -1,0 +1,41 @@
+name: Optional AI enrichment
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Maximum comments to enrich
+        required: true
+        default: "25"
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run enrich
+        env:
+          ENABLE_AI_ENRICHMENT: "true"
+          AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_MODEL: ${{ vars.AI_MODEL }}
+          AI_LIMIT: ${{ inputs.limit }}
+      - run: npm run check
+      - name: Commit reviewable enrichment
+        shell: bash
+        run: |
+          if ! git diff --quiet -- data/ai-enrichment.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/ai-enrichment.json
+            git commit -m "chore(data): update optional AI enrichment"
+            git push
+          fi

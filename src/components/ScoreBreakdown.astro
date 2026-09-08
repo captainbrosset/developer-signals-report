@@ -1,0 +1,63 @@
+---
+import { FORMULA_VERSION, SCORE_WEIGHTS } from '../lib/signals/constants';
+import type { FeatureSignal } from '../lib/signals/model';
+
+interface Props {
+  feature: FeatureSignal;
+  open?: boolean;
+}
+
+const { feature, open = false } = Astro.props;
+const components = [
+  {
+    label: 'Vote demand',
+    value: feature.score.voteDemand,
+    weight: SCORE_WEIGHTS.votes,
+    raw: `${feature.votes} issue +1 reactions`,
+  },
+  {
+    label: 'Use-case evidence',
+    value: feature.score.useCaseEvidence,
+    weight: SCORE_WEIGHTS.useCases,
+    raw: `${feature.qualifiedAuthors} distinct qualified authors + ${feature.reactionBoost} bounded boost`,
+  },
+  {
+    label: 'Workaround burden',
+    value: feature.score.workaroundBurden,
+    weight: SCORE_WEIGHTS.workarounds,
+    raw: `${feature.workaroundAuthors} authors, weighted burden ${feature.workaroundBurdenRaw}`,
+  },
+];
+---
+
+<details class="score-details" open={open}>
+  <summary>How the {feature.score.composite.toFixed(1)} score is composed</summary>
+  <div class="score-details__content">
+    <div class="score-grid">
+      {
+        components.map((component) => (
+          <div class="score-component">
+            <div class="score-component__heading">
+              <strong>{component.label}</strong>
+              <span>{component.value.toFixed(1)}/100</span>
+            </div>
+            <progress
+              max="100"
+              value={component.value}
+              aria-label={`${component.label}: ${component.value.toFixed(1)} out of 100`}
+            >
+              {component.value.toFixed(1)}
+            </progress>
+            <small>
+              {Math.round(component.weight * 100)}% weight · {component.raw}
+            </small>
+          </div>
+        ))
+      }
+    </div>
+    <p class="muted">
+      Formula {FORMULA_VERSION}. Components use published logarithmic reference
+      values. <a href={`${import.meta.env.BASE_URL}methodology/`}>Read the exact method</a>.
+    </p>
+  </div>
+</details>

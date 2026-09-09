@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-08T13:52:37.972Z",
-    "staleAfter": "2026-09-10T13:52:37.972Z",
+    "generatedAt": "2026-09-09T09:03:03.221Z",
+    "staleAfter": "2026-09-11T09:03:03.221Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,22 +10,29 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-08T13:52:37.972Z"
+        "retrievedAt": "2026-09-09T09:03:03.221Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-08T13:52:37.972Z"
+        "retrievedAt": "2026-09-09T09:03:03.221Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-08T13:52:37.972Z"
+        "retrievedAt": "2026-09-09T09:03:03.221Z"
       }
     ],
     "warnings": [
-      "cross-document-view-transitions: feed votes 54 differed from GitHub 55; GitHub value used.",
-      "sanitizer: feed votes 77 differed from GitHub 78; GitHub value used."
+      "border-shape: feed votes 18 differed from GitHub 21; GitHub value used.",
+      "corner-shape: feed votes 122 differed from GitHub 123; GitHub value used.",
+      "flexbox-flex-wrap-balance: feed votes 4 differed from GitHub 5; GitHub value used.",
+      "function: feed votes 92 differed from GitHub 94; GitHub value used.",
+      "if: feed votes 94 differed from GitHub 95; GitHub value used.",
+      "move-before: feed votes 29 differed from GitHub 30; GitHub value used.",
+      "random-function: feed votes 16 differed from GitHub 17; GitHub value used.",
+      "sanitizer: feed votes 78 differed from GitHub 79; GitHub value used.",
+      "temporal: feed votes 207 differed from GitHub 210; GitHub value used."
     ]
   },
   "features": [
@@ -1069,21 +1076,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 207,
+      "votes": 210,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 85.9,
+        "voteDemand": 86.1,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 13.8,
-        "composite": 51.9
+        "composite": 52
       },
       "confidence": {
         "level": "low",
         "score": 0.38,
-        "rationale": "1 distinct qualified author; 207 issue votes; 20% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 210 issue votes; 20% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1180,20 +1187,20 @@
       "snapshots": [
         {
           "date": "2026-09-08",
-          "votes": 207,
+          "votes": 210,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 85.9,
+            "voteDemand": 86.1,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 13.8,
-            "composite": 51.9
+            "composite": 52
           }
         }
       ],
-      "lastActivityAt": "2026-09-08T10:08:00Z"
+      "lastActivityAt": "2026-09-08T16:07:49Z"
     },
     {
       "id": "function",
@@ -1216,21 +1223,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 92,
+      "votes": 94,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 72.9,
+        "voteDemand": 73.3,
         "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
-        "composite": 47.7
+        "composite": 47.9
       },
       "confidence": {
         "level": "medium",
         "score": 0.43,
-        "rationale": "2 distinct qualified authors; 92 issue votes; 25% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 94 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1381,16 +1388,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 92,
+          "votes": 94,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 72.9,
+            "voteDemand": 73.3,
             "useCaseEvidence": 32.2,
             "workaroundBurden": 0,
-            "composite": 47.7
+            "composite": 47.9
           }
         }
       ],
@@ -1531,13 +1538,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 94,
+      "votes": 95,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 73.3,
+        "voteDemand": 73.4,
         "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
         "composite": 43.8
@@ -1545,7 +1552,7 @@
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 94 issue votes; 25% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 95 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1627,13 +1634,13 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 94,
+          "votes": 95,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 73.3,
+            "voteDemand": 73.4,
             "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
             "composite": 43.8
@@ -1916,21 +1923,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 122,
+      "votes": 123,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 77.4,
+        "voteDemand": 77.5,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 38.7
+        "composite": 38.8
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 122 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 123 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1942,16 +1949,16 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 122,
+          "votes": 123,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 77.4,
+            "voteDemand": 77.5,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 38.7
+            "composite": 38.8
           }
         }
       ],
@@ -2351,9 +2358,23 @@
             "workaroundBurden": 0,
             "composite": 35.9
           }
+        },
+        {
+          "date": "2026-09-08",
+          "votes": 14,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 40.2,
+            "workaroundBurden": 0,
+            "composite": 35.9
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:12Z"
+      "lastActivityAt": "2026-09-08T16:07:56Z"
     },
     {
       "id": "popover-hint",
@@ -2436,21 +2457,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 78,
+      "votes": 79,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 70.3,
+        "voteDemand": 70.5,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 35.1
+        "composite": 35.2
       },
       "confidence": {
         "level": "low",
         "score": 0.28,
-        "rationale": "0 distinct qualified authors; 78 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 79 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2480,16 +2501,16 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 78,
+          "votes": 79,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 70.3,
+            "voteDemand": 70.5,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 35.1
+            "composite": 35.2
           }
         }
       ],
@@ -3140,7 +3161,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-08T10:07:58Z"
+      "lastActivityAt": "2026-09-08T16:07:43Z"
     },
     {
       "id": "cross-document-view-transitions",
@@ -4250,6 +4271,67 @@
       "lastActivityAt": "2026-08-26T12:09:34Z"
     },
     {
+      "id": "move-before",
+      "slug": "move-before",
+      "title": "moveBefore()",
+      "summary": "The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 273,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/273"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/move-before/",
+      "categories": [
+        "DOM"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 30,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 55.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 30 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 30,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:02Z"
+    },
+    {
       "id": "custom-media-queries",
       "slug": "custom-media-queries",
       "title": "Custom media queries",
@@ -4428,67 +4510,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:34Z"
-    },
-    {
-      "id": "move-before",
-      "slug": "move-before",
-      "title": "moveBefore()",
-      "summary": "The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 273,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/273"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/move-before/",
-      "categories": [
-        "DOM"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 29,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 54.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 29 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 29,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 54.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:02Z"
     },
     {
       "id": "sizes-auto",
@@ -5606,6 +5627,68 @@
       "lastActivityAt": "2026-08-26T12:10:05Z"
     },
     {
+      "id": "border-shape",
+      "slug": "border-shape",
+      "title": "border-shape",
+      "summary": "The border-shape CSS property sets the geometry of the border box, changing the shape of any applicable border, border image, focus outline, or shadow.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 555,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/555"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/border-shape/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:49:33Z"
+    },
+    {
       "id": "scroll-markers",
       "slug": "scroll-markers",
       "title": "Scroll markers",
@@ -6220,68 +6303,6 @@
       "lastActivityAt": "2026-08-25T16:53:32Z"
     },
     {
-      "id": "border-shape",
-      "slug": "border-shape",
-      "title": "border-shape",
-      "summary": "The border-shape CSS property sets the geometry of the border box, changing the shape of any applicable border, border image, focus outline, or shadow.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 555,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/555"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/border-shape/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 18,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 47.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 23.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 18,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 47.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 23.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:33Z"
-    },
-    {
       "id": "marker",
       "slug": "marker",
       "title": "::marker",
@@ -6527,6 +6548,69 @@
       "lastActivityAt": "2026-08-14T14:44:59Z"
     },
     {
+      "id": "random-function",
+      "slug": "random-function",
+      "title": "random()",
+      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 514,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 17,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 46.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 17,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 46.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:36Z"
+    },
+    {
       "id": "reading-flow",
       "slug": "reading-flow",
       "title": "reading-flow",
@@ -6748,69 +6832,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:11Z"
-    },
-    {
-      "id": "random-function",
-      "slug": "random-function",
-      "title": "random()",
-      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 514,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 16,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 45.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 16,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:36Z"
     },
     {
       "id": "supports-at-rule",
@@ -7138,7 +7159,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-08T10:07:59Z"
+      "lastActivityAt": "2026-09-08T16:07:48Z"
     },
     {
       "id": "manifest",
@@ -7264,67 +7285,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:33Z"
-    },
-    {
-      "id": "progress-function",
-      "slug": "progress-function",
-      "title": "progress()",
-      "summary": "The progress() CSS function returns a ratio for the relative position of one value between two other values, clamped between 0 and 1. You can use it to interpolate a value for other calculations.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 444,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/444"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/progress-function/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 14,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 43.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:23Z"
     },
     {
       "id": "translator",
@@ -9362,67 +9322,6 @@
       "lastActivityAt": "2026-08-14T14:48:48Z"
     },
     {
-      "id": "media-pseudos",
-      "slug": "media-pseudos",
-      "title": "Media element pseudo-classes",
-      "summary": "The :playing, :paused, :seeking, :buffering, :stalled, :muted, and :volume-locked CSS pseudo-classes match <audio> and <video> elements based on their state.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 166,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/166"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/media-pseudos/",
-      "categories": [
-        "Media elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "edge"
-      ],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T09:10:38Z"
-    },
-    {
       "id": "payment-request",
       "slug": "payment-request",
       "title": "Payment request",
@@ -11228,7 +11127,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-08T10:08:01Z"
+      "lastActivityAt": "2026-09-08T16:07:53Z"
     },
     {
       "id": "webauthn-signals",
@@ -12296,6 +12195,68 @@
       "lastActivityAt": "2026-09-03T14:36:21Z"
     },
     {
+      "id": "flexbox-flex-wrap-balance",
+      "slug": "flexbox-flex-wrap-balance",
+      "title": "flex-wrap: balance",
+      "summary": "The flex-wrap: balance CSS declaration distributes items in a multi-line flex container such that each line has about the same number of items.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 906,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/906"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/flexbox-flex-wrap-balance/",
+      "categories": [
+        "Flexbox"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 5,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 28.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 14.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.12,
+        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:51Z"
+    },
+    {
       "id": "geolocation-element",
       "slug": "geolocation-element",
       "title": "<geolocation>",
@@ -12890,9 +12851,23 @@
             "workaroundBurden": 0,
             "composite": 12.9
           }
+        },
+        {
+          "date": "2026-09-08",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:01Z"
+      "lastActivityAt": "2026-09-08T16:07:54Z"
     },
     {
       "id": "anchor-positioning-transforms",
@@ -13387,68 +13362,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:58Z"
-    },
-    {
-      "id": "flexbox-flex-wrap-balance",
-      "slug": "flexbox-flex-wrap-balance",
-      "title": "flex-wrap: balance",
-      "summary": "The flex-wrap: balance CSS declaration distributes items in a multi-line flex container such that each line has about the same number of items.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 906,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/906"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/flexbox-flex-wrap-balance/",
-      "categories": [
-        "Flexbox"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 4,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 25.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 12.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.1,
-        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:51Z"
     },
     {
       "id": "gamepad-touch",
@@ -14350,9 +14263,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-08",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T09:10:37Z"
+      "lastActivityAt": "2026-09-08T16:07:44Z"
     },
     {
       "id": "beforeunload",
@@ -20833,9 +20760,82 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-09-08",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:10Z"
+      "lastActivityAt": "2026-09-08T16:07:55Z"
+    },
+    {
+      "id": "container-timing",
+      "slug": "container-timing",
+      "title": "Container timing performance entries",
+      "summary": "Developer demand and implementation evidence for Container Timing.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 918,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/918"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-timing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-08",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-08T16:07:58Z"
     },
     {
       "id": "content-index",
@@ -21702,6 +21702,65 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:27Z"
+    },
+    {
+      "id": "import-defer",
+      "slug": "import-defer",
+      "title": "import defer",
+      "summary": "Developer demand and implementation evidence for Import Defer.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 919,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/919"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/import-defer/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-08",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-08T16:08:01Z"
     },
     {
       "id": "interaction-contentful-paint",
@@ -24431,9 +24490,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-09-08",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:13Z"
+      "lastActivityAt": "2026-09-08T16:07:57Z"
     },
     {
       "id": "writingsuggestions",

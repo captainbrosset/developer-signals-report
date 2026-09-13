@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-12T08:42:58.653Z",
-    "staleAfter": "2026-09-14T08:42:58.653Z",
+    "generatedAt": "2026-09-13T09:38:29.692Z",
+    "staleAfter": "2026-09-15T09:38:29.692Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,86 +10,70 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-12T08:42:58.653Z"
+        "retrievedAt": "2026-09-13T09:38:29.692Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-12T08:42:58.653Z"
+        "retrievedAt": "2026-09-13T09:38:29.692Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-12T08:42:58.653Z"
+        "retrievedAt": "2026-09-13T09:38:29.692Z"
       }
     ],
     "warnings": [
-      "accent-color: feed votes 21 differed from GitHub 23; GitHub value used.",
-      "alpha: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "alternative-style-sheets: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "anchor-positioning: feed votes 247 differed from GitHub 250; GitHub value used.",
-      "attr: feed votes 111 differed from GitHub 113; GitHub value used.",
-      "autofill: feed votes 8 differed from GitHub 10; GitHub value used.",
-      "border-shape: feed votes 22 differed from GitHub 26; GitHub value used.",
-      "calc-size: feed votes 42 differed from GitHub 43; GitHub value used.",
-      "colrv1: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "container-anchor-position-queries: feed votes 24 differed from GitHub 25; GitHub value used.",
-      "container-scroll-state-queries: feed votes 70 differed from GitHub 72; GitHub value used.",
-      "context-fill-stroke: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "corner-shape: feed votes 124 differed from GitHub 127; GitHub value used.",
-      "cross-document-view-transitions: feed votes 55 differed from GitHub 57; GitHub value used.",
-      "css-modules: feed votes 32 differed from GitHub 33; GitHub value used.",
-      "cursor: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "custom-media-queries: feed votes 29 differed from GitHub 30; GitHub value used.",
-      "customizable-select: feed votes 217 differed from GitHub 225; GitHub value used.",
-      "datalist: feed votes 42 differed from GitHub 43; GitHub value used.",
-      "dialog-closedby: feed votes 69 differed from GitHub 73; GitHub value used.",
-      "document-picture-in-picture: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "dynamic-range-limit: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "flexbox-flex-wrap-balance: feed votes 6 differed from GitHub 11; GitHub value used.",
-      "focusgroup: feed votes 13 differed from GitHub 16; GitHub value used.",
-      "function: feed votes 97 differed from GitHub 104; GitHub value used.",
-      "gap-decorations: feed votes 34 differed from GitHub 38; GitHub value used.",
-      "hanging-punctuation: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "has-slotted: feed votes 43 differed from GitHub 44; GitHub value used.",
-      "heading-offset: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "hidden-until-found: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "if: feed votes 96 differed from GitHub 102; GitHub value used.",
-      "input-color: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "install: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "interactivity: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "interest-invokers: feed votes 39 differed from GitHub 43; GitHub value used.",
-      "interpolate-size: feed votes 79 differed from GitHub 82; GitHub value used.",
-      "jpegxl: feed votes 494 differed from GitHub 496; GitHub value used.",
-      "justify-self-block: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "line-clamp: feed votes 39 differed from GitHub 40; GitHub value used.",
-      "loading-lazy-media: feed votes 28 differed from GitHub 30; GitHub value used.",
-      "margin-trim: feed votes 31 differed from GitHub 35; GitHub value used.",
-      "marker: feed votes 18 differed from GitHub 20; GitHub value used.",
-      "masonry: feed votes 117 differed from GitHub 118; GitHub value used.",
-      "mixin: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "move-before: feed votes 30 differed from GitHub 31; GitHub value used.",
-      "notifications: feed votes 18 differed from GitHub 19; GitHub value used.",
-      "popover-hint: feed votes 82 differed from GitHub 84; GitHub value used.",
-      "prefers-reduced-data: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "reading-flow: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "referencetarget: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "resize: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "sanitizer: feed votes 81 differed from GitHub 84; GitHub value used.",
-      "scroll-driven-animations: feed votes 71 differed from GitHub 73; GitHub value used.",
-      "scroll-into-view-container: feed votes 25 differed from GitHub 27; GitHub value used.",
-      "scroll-target-group: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "stretch: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "supports-at-rule: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "switch-control: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "template-for: feed votes 2 differed from GitHub 5; GitHub value used.",
-      "temporal: feed votes 214 differed from GitHub 223; GitHub value used.",
-      "text-box: feed votes 79 differed from GitHub 81; GitHub value used.",
-      "text-wrap-pretty: feed votes 26 differed from GitHub 28; GitHub value used.",
-      "top-level-await: feed votes 56 differed from GitHub 57; GitHub value used.",
-      "web-midi: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "webgpu: feed votes 58 differed from GitHub 59; GitHub value used.",
-      "wheel-events: feed votes 3 differed from GitHub 4; GitHub value used."
+      "accent-color: feed votes 23 differed from GitHub 24; GitHub value used.",
+      "anchor-positioning: feed votes 250 differed from GitHub 251; GitHub value used.",
+      "attr: feed votes 113 differed from GitHub 114; GitHub value used.",
+      "background-fetch: feed votes 7 differed from GitHub 8; GitHub value used.",
+      "badging: feed votes 7 differed from GitHub 8; GitHub value used.",
+      "border-shape: feed votes 26 differed from GitHub 27; GitHub value used.",
+      "canvas-2d-color-management: feed votes 3 differed from GitHub 4; GitHub value used.",
+      "canvas-html: feed votes 12 differed from GitHub 13; GitHub value used.",
+      "container-anchor-position-queries: feed votes 25 differed from GitHub 26; GitHub value used.",
+      "controls-list: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "corner-shape: feed votes 127 differed from GitHub 128; GitHub value used.",
+      "cross-document-view-transitions: feed votes 57 differed from GitHub 59; GitHub value used.",
+      "customizable-select: feed votes 225 differed from GitHub 226; GitHub value used.",
+      "datalist: feed votes 43 differed from GitHub 46; GitHub value used.",
+      "display-contents: feed votes 12 differed from GitHub 13; GitHub value used.",
+      "eyedropper: feed votes 9 differed from GitHub 10; GitHub value used.",
+      "function: feed votes 104 differed from GitHub 105; GitHub value used.",
+      "iframe-credentialless: feed votes 4 differed from GitHub 5; GitHub value used.",
+      "import-defer: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "input-color: feed votes 10 differed from GitHub 11; GitHub value used.",
+      "install: feed votes 8 differed from GitHub 9; GitHub value used.",
+      "interactivity: feed votes 10 differed from GitHub 11; GitHub value used.",
+      "interest-invokers: feed votes 43 differed from GitHub 44; GitHub value used.",
+      "jpegxl: feed votes 496 differed from GitHub 497; GitHub value used.",
+      "local-network-access: feed votes 4 differed from GitHub 5; GitHub value used.",
+      "meta-application-title: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "meta-theme-color: feed votes 10 differed from GitHub 11; GitHub value used.",
+      "navigator-install: feed votes 18 differed from GitHub 19; GitHub value used.",
+      "notifications: feed votes 19 differed from GitHub 20; GitHub value used.",
+      "overlay: feed votes 19 differed from GitHub 20; GitHub value used.",
+      "popover-hint: feed votes 84 differed from GitHub 85; GitHub value used.",
+      "requestidlecallback: feed votes 10 differed from GitHub 11; GitHub value used.",
+      "sanitizer: feed votes 84 differed from GitHub 85; GitHub value used.",
+      "scheduler: feed votes 19 differed from GitHub 20; GitHub value used.",
+      "scoped-custom-element-registries: feed votes 26 differed from GitHub 27; GitHub value used.",
+      "share: feed votes 21 differed from GitHub 22; GitHub value used.",
+      "show-picker-input: feed votes 11 differed from GitHub 12; GitHub value used.",
+      "show-picker-select: feed votes 9 differed from GitHub 10; GitHub value used.",
+      "speech-recognition: feed votes 19 differed from GitHub 20; GitHub value used.",
+      "switch-control: feed votes 12 differed from GitHub 13; GitHub value used.",
+      "template-for: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "temporal: feed votes 223 differed from GitHub 226; GitHub value used.",
+      "text-box: feed votes 81 differed from GitHub 82; GitHub value used.",
+      "text-modules: feed votes 8 differed from GitHub 9; GitHub value used.",
+      "top-level-await: feed votes 57 differed from GitHub 58; GitHub value used.",
+      "touch-events: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "usermedia: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "webauthn-signals: feed votes 7 differed from GitHub 8; GitHub value used.",
+      "webgpu: feed votes 59 differed from GitHub 60; GitHub value used.",
+      "widows-orphans: feed votes 8 differed from GitHub 9; GitHub value used."
     ]
   },
   "features": [
@@ -115,7 +99,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 496,
+      "votes": 497,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.88,
       "workaroundBurdenRaw": 0,
@@ -129,7 +113,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 496 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 497 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -734,7 +718,7 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 496,
+          "votes": 497,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.88,
           "workaroundBurdenRaw": 0,
@@ -769,21 +753,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 223,
+      "votes": 226,
       "qualifiedAuthors": 2,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 87.1,
+        "voteDemand": 87.3,
         "useCaseEvidence": 31.4,
         "workaroundBurden": 23.5,
-        "composite": 58.1
+        "composite": 58.2
       },
       "confidence": {
         "level": "medium",
         "score": 0.45,
-        "rationale": "2 distinct qualified authors; 223 issue votes; 33% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 226 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -936,9 +920,23 @@
             "workaroundBurden": 23.5,
             "composite": 58.1
           }
+        },
+        {
+          "date": "2026-09-12",
+          "votes": 226,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 87.3,
+            "useCaseEvidence": 31.4,
+            "workaroundBurden": 23.5,
+            "composite": 58.2
+          }
         }
       ],
-      "lastActivityAt": "2026-09-11T22:20:25Z"
+      "lastActivityAt": "2026-09-12T09:39:06Z"
     },
     {
       "id": "attr",
@@ -963,13 +961,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 113,
+      "votes": 114,
       "qualifiedAuthors": 4,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 76.2,
+        "voteDemand": 76.3,
         "useCaseEvidence": 46,
         "workaroundBurden": 13.8,
         "composite": 56.3
@@ -977,7 +975,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.63,
-        "rationale": "4 distinct qualified authors; 113 issue votes; 80% of reviewed comments qualified."
+        "rationale": "4 distinct qualified authors; 114 issue votes; 80% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1075,13 +1073,13 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 113,
+          "votes": 114,
           "qualifiedAuthors": 4,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 76.2,
+            "voteDemand": 76.3,
             "useCaseEvidence": 46,
             "workaroundBurden": 13.8,
             "composite": 56.3
@@ -1113,7 +1111,7 @@
         "firefox",
         "safari"
       ],
-      "votes": 250,
+      "votes": 251,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
@@ -1127,7 +1125,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 250 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 251 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1156,7 +1154,7 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 250,
+          "votes": 251,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
@@ -1325,21 +1323,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 104,
+      "votes": 105,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 74.9,
+        "voteDemand": 75,
         "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
-        "composite": 48.7
+        "composite": 48.8
       },
       "confidence": {
         "level": "medium",
         "score": 0.43,
-        "rationale": "2 distinct qualified authors; 104 issue votes; 22% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 105 issue votes; 22% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1521,16 +1519,16 @@
         },
         {
           "date": "2026-09-09",
-          "votes": 104,
+          "votes": 105,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 74.9,
+            "voteDemand": 75,
             "useCaseEvidence": 32.2,
             "workaroundBurden": 0,
-            "composite": 48.7
+            "composite": 48.8
           }
         }
       ],
@@ -1554,21 +1552,21 @@
       ],
       "supportState": "limited",
       "missingBrowsers": [],
-      "votes": 43,
+      "votes": 46,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.36,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 60.9,
+        "voteDemand": 61.9,
         "useCaseEvidence": 42.1,
         "workaroundBurden": 0,
-        "composite": 45.2
+        "composite": 45.7
       },
       "confidence": {
         "level": "medium",
-        "score": 0.57,
-        "rationale": "3 distinct qualified authors; 43 issue votes; 100% of reviewed comments qualified."
+        "score": 0.58,
+        "rationale": "3 distinct qualified authors; 46 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1635,16 +1633,16 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 43,
+          "votes": 46,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.36,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 60.9,
+            "voteDemand": 61.9,
             "useCaseEvidence": 42.1,
             "workaroundBurden": 0,
-            "composite": 45.2
+            "composite": 45.7
           }
         }
       ],
@@ -1804,13 +1802,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 225,
+      "votes": 226,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 87.2,
+        "voteDemand": 87.3,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
         "composite": 43.6
@@ -1818,7 +1816,7 @@
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 225 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 226 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1830,13 +1828,13 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 225,
+          "votes": 226,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 87.2,
+            "voteDemand": 87.3,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
             "composite": 43.6
@@ -1947,21 +1945,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 59,
+      "votes": 60,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 65.9,
+        "voteDemand": 66.1,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 39.9
+        "composite": 40
       },
       "confidence": {
         "level": "low",
-        "score": 0.37,
-        "rationale": "1 distinct qualified author; 59 issue votes; 33% of reviewed comments qualified."
+        "score": 0.38,
+        "rationale": "1 distinct qualified author; 60 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2020,16 +2018,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 59,
+          "votes": 60,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 65.9,
+            "voteDemand": 66.1,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 39.9
+            "composite": 40
           }
         }
       ],
@@ -2056,21 +2054,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 127,
+      "votes": 128,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 78,
+        "voteDemand": 78.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 39
+        "composite": 39.1
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 127 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 128 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2082,16 +2080,16 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 127,
+          "votes": 128,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78,
+            "voteDemand": 78.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 39
+            "composite": 39.1
           }
         }
       ],
@@ -2529,21 +2527,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 84,
+      "votes": 85,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 71.5,
+        "voteDemand": 71.7,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 35.7
+        "composite": 35.8
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 84 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 85 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2555,16 +2553,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 84,
+          "votes": 85,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 71.5,
+            "voteDemand": 71.7,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 35.7
+            "composite": 35.8
           }
         }
       ],
@@ -2590,26 +2588,26 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 84,
+      "votes": 85,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 71.5,
+        "voteDemand": 71.7,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 35.7
+        "composite": 35.8
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 84 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 85 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 5,
+        "votes7d": 6,
         "votes30d": 0,
-        "score7d": 0.5,
+        "score7d": 0.6,
         "score30d": 0
       },
       "comments": [
@@ -2665,16 +2663,16 @@
         },
         {
           "date": "2026-09-09",
-          "votes": 84,
+          "votes": 85,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 71.5,
+            "voteDemand": 71.7,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 35.7
+            "composite": 35.8
           }
         }
       ],
@@ -2700,21 +2698,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 81,
+      "votes": 82,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 70.9,
+        "voteDemand": 71.1,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 35.4
+        "composite": 35.5
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 81 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 82 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2772,16 +2770,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 81,
+          "votes": 82,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 70.9,
+            "voteDemand": 71.1,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 35.4
+            "composite": 35.5
           }
         }
       ],
@@ -3286,21 +3284,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 57,
+      "votes": 59,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 65.3,
+        "voteDemand": 65.9,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 32.7
+        "composite": 32.9
       },
       "confidence": {
         "level": "low",
-        "score": 0.26,
-        "rationale": "0 distinct qualified authors; 57 issue votes; 0% of reviewed comments qualified."
+        "score": 0.27,
+        "rationale": "0 distinct qualified authors; 59 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3318,7 +3316,7 @@
           "body": "## What I want to do with this feature\n\nFancier transitions on my website.\n\n## What I'm having to do in the meantime\n\nWaiting for Firefox to support these so that my transitions show up there as well.",
           "parsedGoal": "Fancier transitions on my website.",
           "parsedWorkaround": "Waiting for Firefox to support these so that my transitions show up there as well.",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -3330,16 +3328,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 57,
+          "votes": 59,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 65.3,
+            "voteDemand": 65.9,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 32.7
+            "composite": 32.9
           }
         }
       ],
@@ -3365,21 +3363,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 57,
+      "votes": 58,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 65.3,
+        "voteDemand": 65.6,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 32.7
+        "composite": 32.8
       },
       "confidence": {
         "level": "low",
-        "score": 0.26,
-        "rationale": "0 distinct qualified authors; 57 issue votes; 0% of reviewed comments qualified."
+        "score": 0.27,
+        "rationale": "0 distinct qualified authors; 58 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3430,9 +3428,23 @@
             "workaroundBurden": 0,
             "composite": 32.7
           }
+        },
+        {
+          "date": "2026-09-12",
+          "votes": 58,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 65.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 32.8
+          }
         }
       ],
-      "lastActivityAt": "2026-09-11T10:03:19Z"
+      "lastActivityAt": "2026-09-12T09:39:05Z"
     },
     {
       "id": "arianotify",
@@ -3681,21 +3693,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 43,
+      "votes": 44,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 60.9,
+        "voteDemand": 61.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 30.4
+        "composite": 30.6
       },
       "confidence": {
         "level": "low",
         "score": 0.25,
-        "rationale": "0 distinct qualified authors; 43 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 44 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3725,16 +3737,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 43,
+          "votes": 44,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 60.9,
+            "voteDemand": 61.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 30.4
+            "composite": 30.6
           }
         }
       ],
@@ -4898,6 +4910,83 @@
       "lastActivityAt": "2026-09-03T14:35:55Z"
     },
     {
+      "id": "show-picker-input",
+      "slug": "show-picker-input",
+      "title": "showPicker() for <input>",
+      "summary": "The showPicker() method for <input> elements shows the user interface for picking a value. For example, for <input type=\"date\"> it shows the interface for picking a date.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 162,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/162"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/show-picker-input/",
+      "categories": [
+        "Forms"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 12,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 27.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.41,
+        "rationale": "1 distinct qualified author; 12 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABQpCkMg",
+          "author": "aronduby",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/162#issuecomment-5411742770",
+          "createdAt": "2026-08-25T14:16:53Z",
+          "body": "We have custom `date` and `datetime-local` inputs that supports `strtotime` type parsing that allows the user to do things like \"2 weeks from now\", along with a button that shows a calendar picker, basically using a 3rd party plugin to emulate this. During an accessibility review we realized that the plugin we're using to do the calendar picking was not accessible, and I was quite excited to see the ability to do the calendar picker natively, but after some additional eval-ing Safari's implementation of this makes it unusable, so we're back to 3rd party plugin or rolling our own.\n\nHere's the biggest issues I found dealing with Safari that is keeping this from being usable for us:\n - It silently fails on mobile - calling the method for safari on ios doesn't show the popup but also doesn't error\n - On desktop it will open the input, but it doesn't move focus into it nor does it put it into the tab order so you can't get to it without using the mouse\n - When its opened, its quite awkward to close and requires additional interaction with the main input\n - Using it with a `datetime-local` input has additional oddities\n   - on desktop it doesn't show anything for the time\n   - on ios the showPicker doesn't do anything as noted, but if you click the input it shows the popup and that does have the time",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "accessibility",
+            "date & time"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "We have custom date and datetime-local inputs that supports strtotime type parsing that allows the user to do things like \"2 weeks from now\", along with a button that shows a cale…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 12,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 27.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:14Z"
+    },
+    {
       "id": "sizes-auto",
       "slug": "sizes-auto",
       "title": "<img sizes=\"auto\" loading=\"lazy\">",
@@ -5040,6 +5129,103 @@
       "lastActivityAt": "2026-08-27T13:13:33Z"
     },
     {
+      "id": "meta-theme-color",
+      "slug": "meta-theme-color",
+      "title": "<meta name=\"theme-color\">",
+      "summary": "The name=\"theme-color\" attribute for the <meta> HTML element suggests a color that the browser can use to customize the display of the page or the browser user interface.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 145,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/145"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/meta-theme-color/",
+      "categories": [
+        "HTML"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 11,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 40,
+        "useCaseEvidence": 20.4,
+        "workaroundBurden": 0,
+        "composite": 27.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.3,
+        "rationale": "1 distinct qualified author; 11 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7cawkx",
+          "author": "itsjavi",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/145#issuecomment-3698002225",
+          "createdAt": "2025-12-30T01:31:46Z",
+          "body": "## What I want to do with this feature\n\nRight now it is hard to keep that color in sync with CSS.\nwhy isn't `theme-color` part of the CSS spec, same as `color-scheme`?\n\n```css\n:root {\n   --bg-color: #FFF8B2;\n   theme-color: var(--bg-color); /** initial | unset | auto | <color> **/\n}\n\nbody {\n   background-color: var(--bg-color);\n}\n```\n\n## What I'm having to do in the meantime\nEvery time colors change in my CSS, I have to remember to manually edit the theme color in the meta tag and also in the web manifest.",
+          "parsedGoal": "Right now it is hard to keep that color in sync with CSS. why isn't theme-color part of the CSS spec, same as color-scheme? code sample",
+          "parsedWorkaround": "Every time colors change in my CSS, I have to remember to manually edit the theme color in the meta tag and also in the web manifest.",
+          "positiveReactions": 2,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABK7Vl_A",
+          "author": "tinacious",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/145#issuecomment-5028275708",
+          "createdAt": "2026-07-20T23:28:59Z",
+          "body": "This feature used to be supported on mobile Safari and it would be great to have it back! This would help out with making the browser chrome less contrasting when building \"fake fullscreen\" experiences considering the limitations on iOS since mobile Safari on iPhone doesn't allow us to call `requestFullscreen()` on an HTML element ([ref](https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen#browser_compatibility)). I guess this seems like a lot to work around mobile Safari being the Internet Explorer of 2026 but it would be nice to have this theme colour customization back. I'd be happy to have it either as the original meta tag or equivalent functionality in CSS. Thank you!",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "This feature used to be supported on mobile Safari and it would be great to have it back! This would help out with making the browser chrome less contrasting when building \"fake f…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 11,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 27.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:04Z"
+    },
+    {
       "id": "text-wrap-pretty",
       "slug": "text-wrap-pretty",
       "title": "text-wrap: pretty",
@@ -5101,38 +5287,102 @@
       "lastActivityAt": "2026-08-26T12:10:42Z"
     },
     {
-      "id": "show-picker-input",
-      "slug": "show-picker-input",
-      "title": "showPicker() for <input>",
-      "summary": "The showPicker() method for <input> elements shows the user interface for picking a value. For example, for <input type=\"date\"> it shows the interface for picking a date.",
+      "id": "border-shape",
+      "slug": "border-shape",
+      "title": "border-shape",
+      "summary": "The border-shape CSS property sets the geometry of the border box, changing the shape of any applicable border, border image, focus outline, or shadow.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 162,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/162"
+        "number": 555,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/555"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/show-picker-input/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/border-shape/",
       "categories": [
-        "Forms"
+        "Other"
       ],
       "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 11,
-      "qualifiedAuthors": 1,
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 27,
+      "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 19.8,
+        "voteDemand": 53.6,
+        "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 26.9
+        "composite": 26.8
       },
       "confidence": {
         "level": "low",
-        "score": 0.4,
-        "rationale": "1 distinct qualified author; 11 issue votes; 100% of reviewed comments qualified."
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 27,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:49:33Z"
+    },
+    {
+      "id": "scoped-custom-element-registries",
+      "slug": "scoped-custom-element-registries",
+      "title": "Scoped custom element registries",
+      "summary": "The CustomElementRegistry() constructor creates a new custom element registry that's separate from the global window.customElements registry. Creating more than one registry is useful for multiple custom elements that have the same tag name to coexist.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 364,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/364"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scoped-custom-element-registries/",
+      "categories": [
+        "Custom elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 27,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -5142,40 +5392,72 @@
       },
       "comments": [
         {
-          "id": "IC_kwDOLb9kWM8AAAABQpCkMg",
-          "author": "aronduby",
+          "id": "IC_kwDOLb9kWM7ZU_xS",
+          "author": "wkillerud",
           "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/162#issuecomment-5411742770",
-          "createdAt": "2026-08-25T14:16:53Z",
-          "body": "We have custom `date` and `datetime-local` inputs that supports `strtotime` type parsing that allows the user to do things like \"2 weeks from now\", along with a button that shows a calendar picker, basically using a 3rd party plugin to emulate this. During an accessibility review we realized that the plugin we're using to do the calendar picking was not accessible, and I was quite excited to see the ability to do the calendar picker natively, but after some additional eval-ing Safari's implementation of this makes it unusable, so we're back to 3rd party plugin or rolling our own.\n\nHere's the biggest issues I found dealing with Safari that is keeping this from being usable for us:\n - It silently fails on mobile - calling the method for safari on ios doesn't show the popup but also doesn't error\n - On desktop it will open the input, but it doesn't move focus into it nor does it put it into the tab order so you can't get to it without using the mouse\n - When its opened, its quite awkward to close and requires additional interaction with the main input\n - Using it with a `datetime-local` input has additional oddities\n   - on desktop it doesn't show anything for the time\n   - on ios the showPicker doesn't do anything as noted, but if you click the input it shows the popup and that does have the time",
-          "positiveReactions": 0,
-          "classification": "qualified",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3646159954",
+          "createdAt": "2025-12-12T11:47:06Z",
+          "body": "## What I want to do with this feature\n\nWe're running a micro frontend architecture with parts of the page composed from different teams' apps at runtime. The parts are independently deployed, and isolated today using a declarative shadow DOM boundary.\n\nWe also have a shared design system with a web components base. Since every part of the micro frontend shares the global custom element registry, to update the design system when there are breaking changes requires a huge coordination effort that scoped custom element registries would solve.\n\n## What I'm having to do in the meantime\n\nWe try our best to avoid breaking changes, and so far have taken the coordination cost the few times we do have breaking changes.\n\nWe have considered versioning through different custom element names (`my-component-2`).",
+          "parsedGoal": "We're running a micro frontend architecture with parts of the page composed from different teams' apps at runtime. The parts are independently deployed, and isolated today using a declarative shadow DOM boundary. We also have a shared design system with a web components base. Since every part of the micro frontend shares the global custom element registry, to update the design system when there are breaking changes requires a huge coordination effort that scoped custom element registries would solve.",
+          "parsedWorkaround": "We try our best to avoid breaking changes, and so far have taken the coordination cost the few times we do have breaking changes. We have considered versioning through different custom element names (my-component-2).",
+          "positiveReactions": 4,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
           "themes": [
-            "accessibility",
             "date & time"
           ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "We have custom date and datetime-local inputs that supports strtotime type parsing that allows the user to do things like \"2 weeks from now\", along with a button that shows a cale…",
-          "summaryKind": "source-excerpt"
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7rmANr",
+          "author": "benjamind",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3952608107",
+          "createdAt": "2026-02-24T14:55:53Z",
+          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\nI have the same use case as above at a cross organizational level at Adobe. It's a major headache not having Scoped Custom Element Registries.\n\nBut also another use case within a single application that can create dependencies in multiple different versions of a design system within the same app for reasons of reproducibility (consistent reproduction of an old ux even though a new version is available).\n\n## What I'm having to do in the meantime\n\nIt's blocking us completely in the cross org context in some cases. We do have some janky workarounds for limited subsets of components where we rewrite tag names at registration time, but due to transitive dependencies this limits the possible component usage in the micro frontends being vended by teams.",
+          "parsedGoal": "I have the same use case as above at a cross organizational level at Adobe. It's a major headache not having Scoped Custom Element Registries. But also another use case within a single application that can create dependencies in multiple different versions of a design system within the same app for reasons of reproducibility (consistent reproduction of an old ux even though a new version is available).",
+          "parsedWorkaround": "It's blocking us completely in the cross org context in some cases. We do have some janky workarounds for limited subsets of components where we rewrite tag names at registration time, but due to transitive dependencies this limits the possible component usage in the micro frontends being vended by teams.",
+          "positiveReactions": 3,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM767Fel",
+          "author": "Kai-Richardson",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-4209792933",
+          "createdAt": "2026-04-08T21:29:12Z",
+          "body": "This is shipping as experimental in Firefox 150: https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/150",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
         {
-          "date": "2026-08-26",
-          "votes": 11,
-          "qualifiedAuthors": 1,
+          "date": "2026-09-03",
+          "votes": 27,
+          "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 19.8,
+            "voteDemand": 53.6,
+            "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 26.9
+            "composite": 26.8
           }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:10:14Z"
+      "lastActivityAt": "2026-09-03T14:35:30Z"
     },
     {
       "id": "scroll-into-view-container",
@@ -5240,276 +5522,6 @@
       "lastActivityAt": "2026-09-03T14:35:28Z"
     },
     {
-      "id": "border-shape",
-      "slug": "border-shape",
-      "title": "border-shape",
-      "summary": "The border-shape CSS property sets the geometry of the border box, changing the shape of any applicable border, border image, focus outline, or shadow.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 555,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/555"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/border-shape/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 26,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:33Z"
-    },
-    {
-      "id": "scoped-custom-element-registries",
-      "slug": "scoped-custom-element-registries",
-      "title": "Scoped custom element registries",
-      "summary": "The CustomElementRegistry() constructor creates a new custom element registry that's separate from the global window.customElements registry. Creating more than one registry is useful for multiple custom elements that have the same tag name to coexist.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 364,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/364"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scoped-custom-element-registries/",
-      "categories": [
-        "Custom elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 26,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7ZU_xS",
-          "author": "wkillerud",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3646159954",
-          "createdAt": "2025-12-12T11:47:06Z",
-          "body": "## What I want to do with this feature\n\nWe're running a micro frontend architecture with parts of the page composed from different teams' apps at runtime. The parts are independently deployed, and isolated today using a declarative shadow DOM boundary.\n\nWe also have a shared design system with a web components base. Since every part of the micro frontend shares the global custom element registry, to update the design system when there are breaking changes requires a huge coordination effort that scoped custom element registries would solve.\n\n## What I'm having to do in the meantime\n\nWe try our best to avoid breaking changes, and so far have taken the coordination cost the few times we do have breaking changes.\n\nWe have considered versioning through different custom element names (`my-component-2`).",
-          "parsedGoal": "We're running a micro frontend architecture with parts of the page composed from different teams' apps at runtime. The parts are independently deployed, and isolated today using a declarative shadow DOM boundary. We also have a shared design system with a web components base. Since every part of the micro frontend shares the global custom element registry, to update the design system when there are breaking changes requires a huge coordination effort that scoped custom element registries would solve.",
-          "parsedWorkaround": "We try our best to avoid breaking changes, and so far have taken the coordination cost the few times we do have breaking changes. We have considered versioning through different custom element names (my-component-2).",
-          "positiveReactions": 4,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7rmANr",
-          "author": "benjamind",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3952608107",
-          "createdAt": "2026-02-24T14:55:53Z",
-          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\nI have the same use case as above at a cross organizational level at Adobe. It's a major headache not having Scoped Custom Element Registries.\n\nBut also another use case within a single application that can create dependencies in multiple different versions of a design system within the same app for reasons of reproducibility (consistent reproduction of an old ux even though a new version is available).\n\n## What I'm having to do in the meantime\n\nIt's blocking us completely in the cross org context in some cases. We do have some janky workarounds for limited subsets of components where we rewrite tag names at registration time, but due to transitive dependencies this limits the possible component usage in the micro frontends being vended by teams.",
-          "parsedGoal": "I have the same use case as above at a cross organizational level at Adobe. It's a major headache not having Scoped Custom Element Registries. But also another use case within a single application that can create dependencies in multiple different versions of a design system within the same app for reasons of reproducibility (consistent reproduction of an old ux even though a new version is available).",
-          "parsedWorkaround": "It's blocking us completely in the cross org context in some cases. We do have some janky workarounds for limited subsets of components where we rewrite tag names at registration time, but due to transitive dependencies this limits the possible component usage in the micro frontends being vended by teams.",
-          "positiveReactions": 3,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM767Fel",
-          "author": "Kai-Richardson",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-4209792933",
-          "createdAt": "2026-04-08T21:29:12Z",
-          "body": "This is shipping as experimental in Firefox 150: https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/150",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:30Z"
-    },
-    {
-      "id": "meta-theme-color",
-      "slug": "meta-theme-color",
-      "title": "<meta name=\"theme-color\">",
-      "summary": "The name=\"theme-color\" attribute for the <meta> HTML element suggests a color that the browser can use to customize the display of the page or the browser user interface.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 145,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/145"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/meta-theme-color/",
-      "categories": [
-        "HTML"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 10,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 0,
-        "composite": 26.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.3,
-        "rationale": "1 distinct qualified author; 10 issue votes; 50% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7cawkx",
-          "author": "itsjavi",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/145#issuecomment-3698002225",
-          "createdAt": "2025-12-30T01:31:46Z",
-          "body": "## What I want to do with this feature\n\nRight now it is hard to keep that color in sync with CSS.\nwhy isn't `theme-color` part of the CSS spec, same as `color-scheme`?\n\n```css\n:root {\n   --bg-color: #FFF8B2;\n   theme-color: var(--bg-color); /** initial | unset | auto | <color> **/\n}\n\nbody {\n   background-color: var(--bg-color);\n}\n```\n\n## What I'm having to do in the meantime\nEvery time colors change in my CSS, I have to remember to manually edit the theme color in the meta tag and also in the web manifest.",
-          "parsedGoal": "Right now it is hard to keep that color in sync with CSS. why isn't theme-color part of the CSS spec, same as color-scheme? code sample",
-          "parsedWorkaround": "Every time colors change in my CSS, I have to remember to manually edit the theme color in the meta tag and also in the web manifest.",
-          "positiveReactions": 2,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABK7Vl_A",
-          "author": "tinacious",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/145#issuecomment-5028275708",
-          "createdAt": "2026-07-20T23:28:59Z",
-          "body": "This feature used to be supported on mobile Safari and it would be great to have it back! This would help out with making the browser chrome less contrasting when building \"fake fullscreen\" experiences considering the limitations on iOS since mobile Safari on iPhone doesn't allow us to call `requestFullscreen()` on an HTML element ([ref](https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen#browser_compatibility)). I guess this seems like a lot to work around mobile Safari being the Internet Explorer of 2026 but it would be nice to have this theme colour customization back. I'd be happy to have it either as the original meta tag or equivalent functionality in CSS. Thank you!",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "This feature used to be supported on mobile Safari and it would be great to have it back! This would help out with making the browser chrome less contrasting when building \"fake f…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 10,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 26.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:04Z"
-    },
-    {
       "id": "container-anchor-position-queries",
       "slug": "container-anchor-position-queries",
       "title": "Anchor position container queries",
@@ -5530,21 +5542,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 25,
+      "votes": 26,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 52.4,
+        "voteDemand": 53,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 26.2
+        "composite": 26.5
       },
       "confidence": {
         "level": "low",
         "score": 0.21,
-        "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -5556,16 +5568,16 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 25,
+          "votes": 26,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 52.4,
+            "voteDemand": 53,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 26.2
+            "composite": 26.5
           }
         }
       ],
@@ -5634,6 +5646,65 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:39Z"
+    },
+    {
+      "id": "accent-color",
+      "slug": "accent-color",
+      "title": "accent-color",
+      "summary": "The accent-color CSS property sets a color for checkboxes, radio buttons, and other form controls.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 146,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/146"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/accent-color/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 24,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 24 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 24,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:05Z"
     },
     {
       "id": "scroll-target-group",
@@ -5760,65 +5831,6 @@
       "lastActivityAt": "2026-09-03T14:35:24Z"
     },
     {
-      "id": "accent-color",
-      "slug": "accent-color",
-      "title": "accent-color",
-      "summary": "The accent-color CSS property sets a color for checkboxes, radio buttons, and other form controls.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 146,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/146"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/accent-color/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 23,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 51.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 23,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 51.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:05Z"
-    },
-    {
       "id": "style-query-range-syntax",
       "slug": "style-query-range-syntax",
       "title": "Range syntax for style queries",
@@ -5879,6 +5891,67 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:35Z"
+    },
+    {
+      "id": "share",
+      "slug": "share",
+      "title": "navigator.share()",
+      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 76,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 22,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 50.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:47Z"
     },
     {
       "id": "scroll-markers",
@@ -5943,18 +6016,18 @@
       "lastActivityAt": "2026-09-03T14:35:17Z"
     },
     {
-      "id": "share",
-      "slug": "share",
-      "title": "navigator.share()",
-      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
+      "id": "badging",
+      "slug": "badging",
+      "title": "Badging",
+      "summary": "The navigator.setAppBadge() method allows installed web applications to display an application badge, typically a dot or number shown alongside the application's icon on the device's home screen or application dock.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 76,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
+        "number": 117,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/117"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/badging/",
       "categories": [
         "Other"
       ],
@@ -5962,21 +6035,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 21,
-      "qualifiedAuthors": 0,
+      "votes": 8,
+      "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 49.7,
-        "useCaseEvidence": 0,
+        "voteDemand": 35.3,
+        "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 24.9
+        "composite": 24.6
       },
       "confidence": {
         "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+        "score": 0.38,
+        "rationale": "1 distinct qualified author; 8 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -5984,24 +6057,41 @@
         "score7d": 0,
         "score30d": 0
       },
-      "comments": [],
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABQq7tng",
+          "author": "johnkw",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/117#issuecomment-5413727646",
+          "createdAt": "2026-08-25T16:49:37Z",
+          "body": "Badging would certainly be a neat thing to give web developers access to.\n\nBut the absolutely overriding and dominant use case (for me anyway, and seemingly for most of the internet posts on this) is just needing the taskbar to be illuminated once a Notification happens, and until that window is selected.  It's all \"someone sent a message while I was away and I came back to my screen and never saw it\", which could be addressed by this if web developers make use of Badging.\n\nSo is there another feature request on the much simpler issue of just making the taskbar illuminate every time there's a Notification?  Firefox already supports proper taskbar blinking in `window.alert()`, it just fails to make use of it for Notifications for some reason.  I suppose rather than being always enabled, it could be an option, although it's hard to think of a reason why you'd ever want to intentionally miss notifications by having the taskbar not be illuminated.\n\nEdit: I should add that Firefox even gets the illumination correct across windows and tabs for `window.alert()`. So if a window is minimized it illuminates, and then if it's some other tab than the current tab, the tab itself is also illuminated. That behavior is great, except that of course `window.alert()` is basically never used in real websites because the popup modal itself is so terrible.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "Badging would certainly be a neat thing to give web developers access to. But the absolutely overriding and dominant use case (for me anyway, and seemingly for most of the interne…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
       "snapshots": [
         {
-          "date": "2026-08-14",
-          "votes": 21,
-          "qualifiedAuthors": 0,
+          "date": "2026-08-25",
+          "votes": 8,
+          "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
+            "voteDemand": 35.3,
+            "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 24.9
+            "composite": 24.6
           }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:45:47Z"
+      "lastActivityAt": "2026-08-25T16:53:32Z"
     },
     {
       "id": "document-picture-in-picture",
@@ -6275,21 +6365,21 @@
       ],
       "supportState": "limited",
       "missingBrowsers": [],
-      "votes": 19,
+      "votes": 20,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 48.2,
+        "voteDemand": 49,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 24.1
+        "composite": 24.5
       },
       "confidence": {
         "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -6301,16 +6391,16 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 19,
+          "votes": 20,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 48.2,
+            "voteDemand": 49,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 24.1
+            "composite": 24.5
           }
         }
       ],
@@ -6337,21 +6427,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 19,
+      "votes": 20,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 48.2,
+        "voteDemand": 49,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 24.1
+        "composite": 24.5
       },
       "confidence": {
         "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -6363,16 +6453,16 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 19,
+          "votes": 20,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 48.2,
+            "voteDemand": 49,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 24.1
+            "composite": 24.5
           }
         }
       ],
@@ -6398,21 +6488,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 19,
+      "votes": 20,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 48.2,
+        "voteDemand": 49,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 24.1
+        "composite": 24.5
       },
       "confidence": {
         "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -6424,16 +6514,16 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 19,
+          "votes": 20,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 48.2,
+            "voteDemand": 49,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 24.1
+            "composite": 24.5
           }
         }
       ],
@@ -6460,21 +6550,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 19,
+      "votes": 20,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 48.2,
+        "voteDemand": 49,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 24.1
+        "composite": 24.5
       },
       "confidence": {
         "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -6521,98 +6611,20 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 19,
+          "votes": 20,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 48.2,
+            "voteDemand": 49,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 24.1
+            "composite": 24.5
           }
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:27Z"
-    },
-    {
-      "id": "badging",
-      "slug": "badging",
-      "title": "Badging",
-      "summary": "The navigator.setAppBadge() method allows installed web applications to display an application badge, typically a dot or number shown alongside the application's icon on the device's home screen or application dock.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 117,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/117"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/badging/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 7,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 0,
-        "composite": 23.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.38,
-        "rationale": "1 distinct qualified author; 7 issue votes; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABQq7tng",
-          "author": "johnkw",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/117#issuecomment-5413727646",
-          "createdAt": "2026-08-25T16:49:37Z",
-          "body": "Badging would certainly be a neat thing to give web developers access to.\n\nBut the absolutely overriding and dominant use case (for me anyway, and seemingly for most of the internet posts on this) is just needing the taskbar to be illuminated once a Notification happens, and until that window is selected.  It's all \"someone sent a message while I was away and I came back to my screen and never saw it\", which could be addressed by this if web developers make use of Badging.\n\nSo is there another feature request on the much simpler issue of just making the taskbar illuminate every time there's a Notification?  Firefox already supports proper taskbar blinking in `window.alert()`, it just fails to make use of it for Notifications for some reason.  I suppose rather than being always enabled, it could be an option, although it's hard to think of a reason why you'd ever want to intentionally miss notifications by having the taskbar not be illuminated.\n\nEdit: I should add that Firefox even gets the illumination correct across windows and tabs for `window.alert()`. So if a window is minimized it illuminates, and then if it's some other tab than the current tab, the tab itself is also illuminated. That behavior is great, except that of course `window.alert()` is basically never used in real websites because the popup modal itself is so terrible.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "Badging would certainly be a neat thing to give web developers access to. But the absolutely overriding and dominant use case (for me anyway, and seemingly for most of the interne…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-25",
-          "votes": 7,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 23.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-25T16:53:32Z"
     },
     {
       "id": "navigator-install",
@@ -6637,21 +6649,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 18,
+      "votes": 19,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 47.4,
+        "voteDemand": 48.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 23.7
+        "composite": 24.1
       },
       "confidence": {
         "level": "low",
         "score": 0.19,
-        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -6663,16 +6675,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 18,
+          "votes": 19,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 47.4,
+            "voteDemand": 48.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 23.7
+            "composite": 24.1
           }
         }
       ],
@@ -7442,9 +7454,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-12",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-11T10:03:20Z"
+      "lastActivityAt": "2026-09-12T09:39:05Z"
     },
     {
       "id": "manifest",
@@ -7747,6 +7773,73 @@
       "lastActivityAt": "2026-08-14T14:45:17Z"
     },
     {
+      "id": "canvas-html",
+      "slug": "canvas-html",
+      "title": "HTML in canvas",
+      "summary": "A <canvas> HTML element with the layoutsubtree attribute can draw descendant elements in its rendering context. You can use it to style and layout text in a canvas, expose canvas content to browser features (like accessibility, translate, or find-in-page), and apply 2D and 3D effects to HTML.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 569,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/569"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/canvas-html/",
+      "categories": [
+        "HTML elements",
+        "Canvas",
+        "WebGL",
+        "WebGPU"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 13,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:16Z"
+    },
+    {
       "id": "closewatcher",
       "slug": "closewatcher",
       "title": "CloseWatcher",
@@ -7867,6 +7960,70 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:41Z"
+    },
+    {
+      "id": "display-contents",
+      "slug": "display-contents",
+      "title": "display: contents",
+      "summary": "The display: contents CSS declaration sets an element to display only its contents, not itself.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 296,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/296"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-contents/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 13,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:18Z"
     },
     {
       "id": "edit-context",
@@ -8029,6 +8186,70 @@
       "lastActivityAt": "2026-09-03T14:36:26Z"
     },
     {
+      "id": "switch-control",
+      "slug": "switch-control",
+      "title": "<input type=\"checkbox\" switch>",
+      "summary": "The switch attribute, when present on an <input type=\"checkbox\"> HTML element, renders a switch control with an on and off state instead of a checkbox control.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 875,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/875"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/switch-control/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 13,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:34:32Z"
+    },
+    {
       "id": "app-file-handlers",
       "slug": "app-file-handlers",
       "title": "File handlers",
@@ -8091,73 +8312,6 @@
       "lastActivityAt": "2026-08-26T12:10:20Z"
     },
     {
-      "id": "canvas-html",
-      "slug": "canvas-html",
-      "title": "HTML in canvas",
-      "summary": "A <canvas> HTML element with the layoutsubtree attribute can draw descendant elements in its rendering context. You can use it to style and layout text in a canvas, expose canvas content to browser features (like accessibility, translate, or find-in-page), and apply 2D and 3D effects to HTML.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 569,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/569"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/canvas-html/",
-      "categories": [
-        "HTML elements",
-        "Canvas",
-        "WebGL",
-        "WebGPU"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 12,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:16Z"
-    },
-    {
       "id": "cookie-store",
       "slug": "cookie-store",
       "title": "Cookie store",
@@ -8218,70 +8372,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:56Z"
-    },
-    {
-      "id": "display-contents",
-      "slug": "display-contents",
-      "title": "display: contents",
-      "summary": "The display: contents CSS declaration sets an element to display only its contents, not itself.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 296,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/296"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-contents/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 12,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:18Z"
     },
     {
       "id": "fetch-request-streams",
@@ -8425,70 +8515,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:20Z"
-    },
-    {
-      "id": "switch-control",
-      "slug": "switch-control",
-      "title": "<input type=\"checkbox\" switch>",
-      "summary": "The switch attribute, when present on an <input type=\"checkbox\"> HTML element, renders a switch control with an on and off state instead of a checkbox control.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 875,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/875"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/switch-control/",
-      "categories": [
-        "Forms",
-        "HTML elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 12,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:32Z"
     },
     {
       "id": "getboxquads",
@@ -8746,6 +8772,189 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:51Z"
+    },
+    {
+      "id": "input-color",
+      "slug": "input-color",
+      "title": "<input type=\"color\">",
+      "summary": "The <input type=\"color\"> HTML element shows a color picker from which users can choose a color value.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 22,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/22"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-color/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 11,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 40,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:08:45Z"
+    },
+    {
+      "id": "interactivity",
+      "slug": "interactivity",
+      "title": "interactivity",
+      "summary": "The interactivity: inert CSS declaration makes an element and its descendants inert, like when using the inert HTML attribute. Inert elements can't be focused or clicked, their text can't be selected or found using the browser's find-in-page feature.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 305,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/305"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/interactivity/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 11,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 40,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:48:48Z"
+    },
+    {
+      "id": "requestidlecallback",
+      "slug": "requestidlecallback",
+      "title": "requestIdleCallback()",
+      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 52,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 11,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 40,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
       "id": "scroll-marker-targets",
@@ -9087,6 +9296,86 @@
       "lastActivityAt": "2026-09-12T00:12:01Z"
     },
     {
+      "id": "eyedropper",
+      "slug": "eyedropper",
+      "title": "Eyedropper",
+      "summary": "The EyeDropper API opens an eyedropper tool, a color picker that allows users to select a color from their screen.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 158,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/158"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/eyedropper/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 10,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 38.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 19.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABOIsi8g",
+          "author": "dogakorkmaz35",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/158#issuecomment-5243609842",
+          "createdAt": "2026-08-10T17:21:55Z",
+          "body": "## What I want to do with this feature\n\nWe created a color input for our website, we hooked EyeDropper API to a button which toggles EyeDropper.open() and saves it's result's sRGBHex property to our color state.\n\n## What I'm having to do in the meantime\n\nWe are hiding eye-dropping feature when user's browser does not support the API, thus making color selection popup only other available option.",
+          "parsedGoal": "We created a color input for our website, we hooked EyeDropper API to a button which toggles EyeDropper.open() and saves it's result's sRGBHex property to our color state.",
+          "parsedWorkaround": "We are hiding eye-dropping feature when user's browser does not support the API, thus making color selection popup only other available option.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:47:03Z"
+    },
+    {
       "id": "initial-letter",
       "slug": "initial-letter",
       "title": "initial-letter",
@@ -9147,128 +9436,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:30Z"
-    },
-    {
-      "id": "input-color",
-      "slug": "input-color",
-      "title": "<input type=\"color\">",
-      "summary": "The <input type=\"color\"> HTML element shows a color picker from which users can choose a color value.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 22,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/22"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-color/",
-      "categories": [
-        "Forms",
-        "HTML elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 10,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 19.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:08:45Z"
-    },
-    {
-      "id": "interactivity",
-      "slug": "interactivity",
-      "title": "interactivity",
-      "summary": "The interactivity: inert CSS declaration makes an element and its descendants inert, like when using the inert HTML attribute. Inert elements can't be focused or clicked, their text can't be selected or found using the browser's find-in-page feature.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 305,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/305"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/interactivity/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 10,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 19.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:48:48Z"
     },
     {
       "id": "object-view-box",
@@ -9351,20 +9518,20 @@
       "lastActivityAt": "2026-08-26T12:10:23Z"
     },
     {
-      "id": "requestidlecallback",
-      "slug": "requestidlecallback",
-      "title": "requestIdleCallback()",
-      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+      "id": "show-picker-select",
+      "slug": "show-picker-select",
+      "title": "showPicker() for <select>",
+      "summary": "The showPicker() method for <select> elements shows the dropdown menu or other user interface for picking one of the options.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 52,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
+        "number": 226,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/226"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/show-picker-select/",
       "categories": [
-        "Other"
+        "Forms"
       ],
       "supportState": "limited",
       "missingBrowsers": [
@@ -9395,7 +9562,7 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-08-14",
+          "date": "2026-09-03",
           "votes": 10,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -9409,7 +9576,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:45:23Z"
+      "lastActivityAt": "2026-09-03T14:34:25Z"
     },
     {
       "id": "text-fit",
@@ -9693,86 +9860,6 @@
       "lastActivityAt": "2026-08-14T14:49:22Z"
     },
     {
-      "id": "eyedropper",
-      "slug": "eyedropper",
-      "title": "Eyedropper",
-      "summary": "The EyeDropper API opens an eyedropper tool, a color picker that allows users to select a color from their screen.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 158,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/158"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/eyedropper/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABOIsi8g",
-          "author": "dogakorkmaz35",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/158#issuecomment-5243609842",
-          "createdAt": "2026-08-10T17:21:55Z",
-          "body": "## What I want to do with this feature\n\nWe created a color input for our website, we hooked EyeDropper API to a button which toggles EyeDropper.open() and saves it's result's sRGBHex property to our color state.\n\n## What I'm having to do in the meantime\n\nWe are hiding eye-dropping feature when user's browser does not support the API, thus making color selection popup only other available option.",
-          "parsedGoal": "We created a color input for our website, we hooked EyeDropper API to a button which toggles EyeDropper.open() and saves it's result's sRGBHex property to our color state.",
-          "parsedWorkaround": "We are hiding eye-dropping feature when user's browser does not support the API, thus making color selection popup only other available option.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:47:03Z"
-    },
-    {
       "id": "gamepad-haptics",
       "slug": "gamepad-haptics",
       "title": "Gamepad haptic feedback",
@@ -9832,6 +9919,70 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:23Z"
+    },
+    {
+      "id": "install",
+      "slug": "install",
+      "title": "<install>",
+      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 522,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:27Z"
     },
     {
       "id": "justify-self-block",
@@ -10017,23 +10168,25 @@
       "lastActivityAt": "2026-08-26T12:08:36Z"
     },
     {
-      "id": "show-picker-select",
-      "slug": "show-picker-select",
-      "title": "showPicker() for <select>",
-      "summary": "The showPicker() method for <select> elements shows the dropdown menu or other user interface for picking one of the options.",
+      "id": "text-modules",
+      "slug": "text-modules",
+      "title": "Text import attributes",
+      "summary": "Module import … with { type: \"text\" } statements load text data as a string value.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 226,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/226"
+        "number": 899,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/899"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/show-picker-select/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-modules/",
       "categories": [
-        "Forms"
+        "JavaScript modules"
       ],
       "supportState": "limited",
       "missingBrowsers": [
+        "chrome",
+        "edge",
         "safari"
       ],
       "votes": 9,
@@ -10061,7 +10214,49 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-03",
+          "date": "2026-09-08",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        },
+        {
+          "date": "2026-09-12",
           "votes": 9,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -10075,7 +10270,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:34:25Z"
+      "lastActivityAt": "2026-09-12T09:39:07Z"
     },
     {
       "id": "view-transitions-element-scoped",
@@ -10213,6 +10408,67 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:56Z"
+    },
+    {
+      "id": "widows-orphans",
+      "slug": "widows-orphans",
+      "title": "Widows and orphans",
+      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 11,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
+      "categories": [
+        "Layout"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:08:38Z"
     },
     {
       "id": "font-metric-overrides",
@@ -10417,6 +10673,88 @@
       "lastActivityAt": "2026-08-26T12:09:50Z"
     },
     {
+      "id": "background-fetch",
+      "slug": "background-fetch",
+      "title": "Background fetch",
+      "summary": "Background fetch downloads data in the background even when the web page is closed.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 97,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/97"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/background-fetch/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 8,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 17.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABNrelfw",
+          "author": "shane-smith",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/97#issuecomment-5212972415",
+          "createdAt": "2026-08-07T05:49:29Z",
+          "body": "## What I want to do with this feature\n\nOur PWA has several documents and images that need to be available offline. When a user opts-in to download the manifest, I'd like that download to continue even if they close the application. Similarly, when they revisit the app and an update to those documents and images is detected, I want that update to be able to continue even after they close the application again.\n\n## What I'm having to do in the meantime\n\nI am required to download everything while they have the PWA open, using a wake lock to prevent the screen from going to sleep, and if they interrupt the download I need to then try to recover next time the app is opened to resume from where it was last interrupted.\n\nThis would be a lot more seamless if I could allow them to download everything in the background, and perhaps have a persistent notification displayed while that is taking place so they can override and cancel it if they want to - or perhaps pause it, so they can resume later.",
+          "parsedGoal": "Our PWA has several documents and images that need to be available offline. When a user opts-in to download the manifest, I'd like that download to continue even if they close the application. Similarly, when they revisit the app and an update to those documents and images is detected, I want that update to be able to continue even after they close the application again.",
+          "parsedWorkaround": "I am required to download everything while they have the PWA open, using a wake lock to prevent the screen from going to sleep, and if they interrupt the download I need to then try to recover next time the app is opened to resume from where it was last interrupted. This would be a lot more seamless if I could allow them to download everything in the background, and perhaps have a persistent notification displayed while that is taking place so they can override and cancel it if they want to - or perhaps pause it, so they can resume later.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time",
+            "media",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:46:05Z"
+    },
+    {
       "id": "heading-offset",
       "slug": "heading-offset",
       "title": "Heading offset",
@@ -10479,70 +10817,6 @@
         }
       ],
       "lastActivityAt": "2026-09-05T09:30:24Z"
-    },
-    {
-      "id": "install",
-      "slug": "install",
-      "title": "<install>",
-      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 522,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:27Z"
     },
     {
       "id": "meta-text-scale",
@@ -10869,97 +11143,6 @@
       "lastActivityAt": "2026-08-14T14:45:59Z"
     },
     {
-      "id": "text-modules",
-      "slug": "text-modules",
-      "title": "Text import attributes",
-      "summary": "Module import … with { type: \"text\" } statements load text data as a string value.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 899,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/899"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-modules/",
-      "categories": [
-        "JavaScript modules"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "safari"
-      ],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-08",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        },
-        {
-          "date": "2026-09-09",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        },
-        {
-          "date": "2026-09-11",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-11T10:03:22Z"
-    },
-    {
       "id": "ua-client-hints",
       "slug": "ua-client-hints",
       "title": "User agent client hints",
@@ -11083,20 +11266,20 @@
       "lastActivityAt": "2026-09-03T14:35:00Z"
     },
     {
-      "id": "widows-orphans",
-      "slug": "widows-orphans",
-      "title": "Widows and orphans",
-      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
+      "id": "webauthn-signals",
+      "slug": "webauthn-signals",
+      "title": "Web authentication signal methods",
+      "summary": "The signalUnknownCredential(), signalAllAcceptedCredentials(), and signalCurrentUserDetails() methods of PublicKeyCredential inform authenticators of the state of public key credentials, so that incorrect or revoked credentials may be updated, removed, or hidden.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 11,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
+        "number": 381,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/381"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webauthn-signals/",
       "categories": [
-        "Layout"
+        "WebAuthn"
       ],
       "supportState": "limited",
       "missingBrowsers": [
@@ -11127,7 +11310,7 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-08-26",
+          "date": "2026-09-03",
           "votes": 8,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -11141,7 +11324,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:08:38Z"
+      "lastActivityAt": "2026-09-03T14:35:01Z"
     },
     {
       "id": "alternative-style-sheets",
@@ -11205,88 +11388,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:40Z"
-    },
-    {
-      "id": "background-fetch",
-      "slug": "background-fetch",
-      "title": "Background fetch",
-      "summary": "Background fetch downloads data in the background even when the web page is closed.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 97,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/97"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/background-fetch/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 7,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 16.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABNrelfw",
-          "author": "shane-smith",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/97#issuecomment-5212972415",
-          "createdAt": "2026-08-07T05:49:29Z",
-          "body": "## What I want to do with this feature\n\nOur PWA has several documents and images that need to be available offline. When a user opts-in to download the manifest, I'd like that download to continue even if they close the application. Similarly, when they revisit the app and an update to those documents and images is detected, I want that update to be able to continue even after they close the application again.\n\n## What I'm having to do in the meantime\n\nI am required to download everything while they have the PWA open, using a wake lock to prevent the screen from going to sleep, and if they interrupt the download I need to then try to recover next time the app is opened to resume from where it was last interrupted.\n\nThis would be a lot more seamless if I could allow them to download everything in the background, and perhaps have a persistent notification displayed while that is taking place so they can override and cancel it if they want to - or perhaps pause it, so they can resume later.",
-          "parsedGoal": "Our PWA has several documents and images that need to be available offline. When a user opts-in to download the manifest, I'd like that download to continue even if they close the application. Similarly, when they revisit the app and an update to those documents and images is detected, I want that update to be able to continue even after they close the application again.",
-          "parsedWorkaround": "I am required to download everything while they have the PWA open, using a wake lock to prevent the screen from going to sleep, and if they interrupt the download I need to then try to recover next time the app is opened to resume from where it was last interrupted. This would be a lot more seamless if I could allow them to download everything in the background, and perhaps have a persistent notification displayed while that is taking place so they can override and cancel it if they want to - or perhaps pause it, so they can resume later.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time",
-            "media",
-            "installed apps"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:46:05Z"
     },
     {
       "id": "battery",
@@ -11659,67 +11760,6 @@
       "lastActivityAt": "2026-08-14T14:49:05Z"
     },
     {
-      "id": "webauthn-signals",
-      "slug": "webauthn-signals",
-      "title": "Web authentication signal methods",
-      "summary": "The signalUnknownCredential(), signalAllAcceptedCredentials(), and signalCurrentUserDetails() methods of PublicKeyCredential inform authenticators of the state of public key credentials, so that incorrect or revoked credentials may be updated, removed, or hidden.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 381,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/381"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webauthn-signals/",
-      "categories": [
-        "WebAuthn"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 7,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 16.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:01Z"
-    },
-    {
       "id": "window-management",
       "slug": "window-management",
       "title": "Window management",
@@ -11880,6 +11920,68 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:19Z"
+    },
+    {
+      "id": "controls-list",
+      "slug": "controls-list",
+      "title": "controlslist",
+      "summary": "The controlslist attribute for <audio> or <video> hides parts of the browser's built-in controls. For example, controlslist=\"nofullscreen\" removes the button to play the video in fullscreen.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 68,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/68"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/controls-list/",
+      "categories": [
+        "Media elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:11Z"
     },
     {
       "id": "hidden-until-found",
@@ -12437,6 +12539,129 @@
       "lastActivityAt": "2026-09-03T14:34:47Z"
     },
     {
+      "id": "template-for",
+      "slug": "template-for",
+      "title": "<template for>",
+      "summary": "The <template for=\"…\"> HTML element replaces the content at a named range or insertion point, marked by the processing instructions <?start name=\"…\"> and <?end> or <?marker name=\"…\">. You can use this to stream or \"patch\" partial updates into the document out of order.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 908,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/908"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/template-for/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-05",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-05T09:30:22Z"
+    },
+    {
+      "id": "touch-events",
+      "slug": "touch-events",
+      "title": "Touch events",
+      "summary": "Touch events touchstart, touchmove, touchend, and touchcancel fire when users interact with a touch-sensitive surface, such as a screen or drawing tablet. These events are similar to mouse events.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 18,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/18"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/touch-events/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:44:54Z"
+    },
+    {
       "id": "alpha",
       "slug": "alpha",
       "title": "alpha()",
@@ -12572,68 +12797,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:37Z"
-    },
-    {
-      "id": "controls-list",
-      "slug": "controls-list",
-      "title": "controlslist",
-      "summary": "The controlslist attribute for <audio> or <video> hides parts of the browser's built-in controls. For example, controlslist=\"nofullscreen\" removes the button to play the video in fullscreen.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 68,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/68"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/controls-list/",
-      "categories": [
-        "Media elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:11Z"
     },
     {
       "id": "css-typed-om",
@@ -13086,20 +13249,20 @@
       "lastActivityAt": "2026-08-14T14:45:02Z"
     },
     {
-      "id": "template-for",
-      "slug": "template-for",
-      "title": "<template for>",
-      "summary": "The <template for=\"…\"> HTML element replaces the content at a named range or insertion point, marked by the processing instructions <?start name=\"…\"> and <?end> or <?marker name=\"…\">. You can use this to stream or \"patch\" partial updates into the document out of order.",
+      "id": "iframe-credentialless",
+      "slug": "iframe-credentialless",
+      "title": "Credentialless iframes",
+      "summary": "The credentialless attribute for the <iframe> HTML element loads third-party content in an ephemeral context and does not send any credentials such as cookies. When using cross-origin isolation, this allows you to embed content that does not send Cross-Origin-Embedder-Policy headers.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 908,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/908"
+        "number": 188,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/188"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/template-for/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/iframe-credentialless/",
       "categories": [
-        "Other"
+        "Security"
       ],
       "supportState": "limited",
       "missingBrowsers": [
@@ -13131,7 +13294,7 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-05",
+          "date": "2026-08-26",
           "votes": 5,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -13145,26 +13308,27 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-05T09:30:22Z"
+      "lastActivityAt": "2026-08-26T12:10:29Z"
     },
     {
-      "id": "touch-events",
-      "slug": "touch-events",
-      "title": "Touch events",
-      "summary": "Touch events touchstart, touchmove, touchend, and touchcancel fire when users interact with a touch-sensitive surface, such as a screen or drawing tablet. These events are similar to mouse events.",
+      "id": "local-network-access",
+      "slug": "local-network-access",
+      "title": "Local network access",
+      "summary": "The \"local-network-access\" user permission (and certain actions that imply this permission, such as a fetch() request with { targetAddressSpace: \"local\" }) allows a site to send requests to servers on a user's local network.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 18,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/18"
+        "number": 367,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/367"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/touch-events/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/local-network-access/",
       "categories": [
         "Other"
       ],
       "supportState": "limited",
       "missingBrowsers": [
+        "firefox",
         "safari"
       ],
       "votes": 5,
@@ -13206,7 +13370,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:44:54Z"
+      "lastActivityAt": "2026-08-14T14:49:13Z"
     },
     {
       "id": "window-controls-overlay",
@@ -13517,6 +13681,67 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:24Z"
+    },
+    {
+      "id": "canvas-2d-color-management",
+      "slug": "canvas-2d-color-management",
+      "title": "Color management for 2D canvas",
+      "summary": "The optional colorSpace parameter of a 2D canvas's getContext() method chooses the color representation, such as \"srgb\" or \"display-p3\".",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 144,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/144"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/canvas-2d-color-management/",
+      "categories": [
+        "Canvas"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 4,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 12.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.1,
+        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:03Z"
     },
     {
       "id": "color-mix-variadic",
@@ -13890,130 +14115,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:47:52Z"
-    },
-    {
-      "id": "iframe-credentialless",
-      "slug": "iframe-credentialless",
-      "title": "Credentialless iframes",
-      "summary": "The credentialless attribute for the <iframe> HTML element loads third-party content in an ephemeral context and does not send any credentials such as cookies. When using cross-origin isolation, this allows you to embed content that does not send Cross-Origin-Embedder-Policy headers.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 188,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/188"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/iframe-credentialless/",
-      "categories": [
-        "Security"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 4,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 25.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 12.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.1,
-        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:29Z"
-    },
-    {
-      "id": "local-network-access",
-      "slug": "local-network-access",
-      "title": "Local network access",
-      "summary": "The \"local-network-access\" user permission (and certain actions that imply this permission, such as a fetch() request with { targetAddressSpace: \"local\" }) allows a site to send requests to servers on a user's local network.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 367,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/367"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/local-network-access/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 4,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 25.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 12.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.1,
-        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:13Z"
     },
     {
       "id": "mask-border",
@@ -14804,67 +14905,6 @@
       "lastActivityAt": "2026-08-14T14:44:45Z"
     },
     {
-      "id": "canvas-2d-color-management",
-      "slug": "canvas-2d-color-management",
-      "title": "Color management for 2D canvas",
-      "summary": "The optional colorSpace parameter of a 2D canvas's getContext() method chooses the color representation, such as \"srgb\" or \"display-p3\".",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 144,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/144"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/canvas-2d-color-management/",
-      "categories": [
-        "Canvas"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:03Z"
-    },
-    {
       "id": "column-pseudo",
       "slug": "column-pseudo",
       "title": "::column",
@@ -15252,6 +15292,68 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:33Z"
+    },
+    {
+      "id": "meta-application-title",
+      "slug": "meta-application-title",
+      "title": "<meta name=\"application-title\">",
+      "summary": "The name=\"application-title\" attribute for the <meta> HTML element sets an installed web application's title bar text.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 280,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/280"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/meta-application-title/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:08Z"
     },
     {
       "id": "path-shape",
@@ -15828,6 +15930,70 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:45Z"
+    },
+    {
+      "id": "usermedia",
+      "slug": "usermedia",
+      "title": "<usermedia>",
+      "summary": "The <usermedia> HTML element represents a button that, upon activation, toggles camera or microphone streams. If needed, it may prompt the user to choose whether to grant the page access to the camera and microphone.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 581,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/581"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/usermedia/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:50:19Z"
     },
     {
       "id": "word-break-auto-phrase",
@@ -16655,68 +16821,6 @@
       "lastActivityAt": "2026-09-03T14:36:30Z"
     },
     {
-      "id": "meta-application-title",
-      "slug": "meta-application-title",
-      "title": "<meta name=\"application-title\">",
-      "summary": "The name=\"application-title\" attribute for the <meta> HTML element sets an installed web application's title bar text.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 280,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/280"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/meta-application-title/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:08Z"
-    },
-    {
       "id": "navigation-precommit-handlers",
       "slug": "navigation-precommit-handlers",
       "title": "Navigation precommit handlers",
@@ -17434,70 +17538,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:54Z"
-    },
-    {
-      "id": "usermedia",
-      "slug": "usermedia",
-      "title": "<usermedia>",
-      "summary": "The <usermedia> HTML element represents a button that, upon activation, toggles camera or microphone streams. If needed, it may prompt the user to choose whether to grant the page access to the camera and microphone.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 581,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/581"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/usermedia/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:50:19Z"
     },
     {
       "id": "viewport-segments",
@@ -18920,6 +18960,107 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:17Z"
+    },
+    {
+      "id": "import-defer",
+      "slug": "import-defer",
+      "title": "import defer",
+      "summary": "Developer demand and implementation evidence for Import Defer.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 919,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/919"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/import-defer/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-08",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-12T09:39:08Z"
     },
     {
       "id": "ink",
@@ -22044,93 +22185,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:27Z"
-    },
-    {
-      "id": "import-defer",
-      "slug": "import-defer",
-      "title": "import defer",
-      "summary": "Developer demand and implementation evidence for Import Defer.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 919,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/919"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/import-defer/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-08",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
-          "date": "2026-09-09",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
-          "date": "2026-09-11",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-11T10:03:23Z"
     },
     {
       "id": "interaction-contentful-paint",

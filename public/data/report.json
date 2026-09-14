@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-13T09:38:29.692Z",
-    "staleAfter": "2026-09-15T09:38:29.692Z",
+    "generatedAt": "2026-09-14T10:00:16.175Z",
+    "staleAfter": "2026-09-16T10:00:16.175Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,70 +10,33 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-13T09:38:29.692Z"
+        "retrievedAt": "2026-09-14T10:00:16.175Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-13T09:38:29.692Z"
+        "retrievedAt": "2026-09-14T10:00:16.175Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-13T09:38:29.692Z"
+        "retrievedAt": "2026-09-14T10:00:16.175Z"
       }
     ],
     "warnings": [
-      "accent-color: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "anchor-positioning: feed votes 250 differed from GitHub 251; GitHub value used.",
-      "attr: feed votes 113 differed from GitHub 114; GitHub value used.",
-      "background-fetch: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "badging: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "border-shape: feed votes 26 differed from GitHub 27; GitHub value used.",
-      "canvas-2d-color-management: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "canvas-html: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "container-anchor-position-queries: feed votes 25 differed from GitHub 26; GitHub value used.",
-      "controls-list: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "corner-shape: feed votes 127 differed from GitHub 128; GitHub value used.",
-      "cross-document-view-transitions: feed votes 57 differed from GitHub 59; GitHub value used.",
-      "customizable-select: feed votes 225 differed from GitHub 226; GitHub value used.",
-      "datalist: feed votes 43 differed from GitHub 46; GitHub value used.",
-      "display-contents: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "eyedropper: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "function: feed votes 104 differed from GitHub 105; GitHub value used.",
-      "iframe-credentialless: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "import-defer: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "input-color: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "install: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "interactivity: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "interest-invokers: feed votes 43 differed from GitHub 44; GitHub value used.",
-      "jpegxl: feed votes 496 differed from GitHub 497; GitHub value used.",
-      "local-network-access: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "meta-application-title: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "meta-theme-color: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "navigator-install: feed votes 18 differed from GitHub 19; GitHub value used.",
-      "notifications: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "overlay: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "popover-hint: feed votes 84 differed from GitHub 85; GitHub value used.",
-      "requestidlecallback: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "sanitizer: feed votes 84 differed from GitHub 85; GitHub value used.",
-      "scheduler: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "scoped-custom-element-registries: feed votes 26 differed from GitHub 27; GitHub value used.",
-      "share: feed votes 21 differed from GitHub 22; GitHub value used.",
-      "show-picker-input: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "show-picker-select: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "speech-recognition: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "switch-control: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "template-for: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "temporal: feed votes 223 differed from GitHub 226; GitHub value used.",
-      "text-box: feed votes 81 differed from GitHub 82; GitHub value used.",
-      "text-modules: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "top-level-await: feed votes 57 differed from GitHub 58; GitHub value used.",
-      "touch-events: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "usermedia: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "webauthn-signals: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "webgpu: feed votes 59 differed from GitHub 60; GitHub value used.",
-      "widows-orphans: feed votes 8 differed from GitHub 9; GitHub value used."
+      "anchor-positioning: feed votes 251 differed from GitHub 253; GitHub value used.",
+      "border-shape: feed votes 27 differed from GitHub 28; GitHub value used.",
+      "box-decoration-break: feed votes 7 differed from GitHub 8; GitHub value used.",
+      "calc-size: feed votes 43 differed from GitHub 45; GitHub value used.",
+      "cross-document-view-transitions: feed votes 59 differed from GitHub 60; GitHub value used.",
+      "customizable-select: feed votes 226 differed from GitHub 228; GitHub value used.",
+      "function: feed votes 105 differed from GitHub 106; GitHub value used.",
+      "if: feed votes 102 differed from GitHub 103; GitHub value used.",
+      "iframe-credentialless: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "jpegxl: feed votes 497 differed from GitHub 498; GitHub value used.",
+      "masonry: feed votes 118 differed from GitHub 119; GitHub value used.",
+      "template-for: feed votes 6 differed from GitHub 9; GitHub value used.",
+      "temporal: feed votes 226 differed from GitHub 227; GitHub value used."
     ]
   },
   "features": [
@@ -99,7 +62,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 497,
+      "votes": 498,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.88,
       "workaroundBurdenRaw": 0,
@@ -113,7 +76,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 497 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 498 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -453,7 +416,7 @@
           "body": "# What I want to do with this feature\n\nServe medical data compressed in JPEG XL without conversion loss or shipping a slow wasm shim.\n\nJPEG XL is now an official part of the DICOM standard: https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_8.2.15.html\n\n# What I'm having to do in the meantime\n\nWe have to either down-convert to JPEG, which introduces artifacts and may obscure findings, or PNG which is slow to encode and creates much larger payloads. WebP is not an option, as that is 8bit only.",
           "parsedGoal": "Serve medical data compressed in JPEG XL without conversion loss or shipping a slow wasm shim. JPEG XL is now an official part of the DICOM standard: https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect8.2.15.html",
           "parsedWorkaround": "We have to either down-convert to JPEG, which introduces artifacts and may obscure findings, or PNG which is slow to encode and creates much larger payloads. WebP is not an option, as that is 8bit only.",
-          "positiveReactions": 18,
+          "positiveReactions": 19,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -468,7 +431,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3860413967",
           "createdAt": "2026-02-06T13:20:38Z",
           "body": "> [@jyrkialakuijala](https://github.com/jyrkialakuijala), where else has JPEG XL already been adopted?\n\nThe gentle push for JPEG XL on the web is no longer just a pure web developer request; it is a need arising from broader cross-industry interoperability. When global digital standards, like DICOM, PDF, PDF/A, EPUB, DNG, TWAIN, IIIF, and others converge on JPEG XL, web's lack of native support creates a bottleneck for data exchange.\n\n### The Interoperability Gap\nThe following sectors have already integrated JPEG XL, leaving the web stack as the _missing link_ in their workflows:\n\n**Medical Imaging (DICOM)**: In digital pathology, where preserving fine detail is critical, the medical community is calling for JPEG XL to enable high-fidelity, browser-based telemedicine.\n\n**Professional Photography**: The industry’s heavy hitters -- Adobe (DNG 1.7), Apple (ProRAW), and Samsung (ExpertRAW) -- have transitioned to JPEG XL. For modern flagship smartphones, JPEG XL based formats are now the standard for high-performance raw photography.\n\n**Digital Documents (PDF & EPUB)**: Both the PDF and EPUB standards have adopted JPEG XL to ensure the next generation of digital books and documents offers high-fidelity imagery at low bandwidth.\n\n**Geospatial & Archival (GDAL, COG, TIFF)**: Mapping and archival standards use JPEG XL to handle massive datasets and lossless or high-quality preservation efficiently.\n\n### The Cost of Non-Adoption\nWithout native web support, these industries are forced into lossy conversions when moving content for example between HTML, PDF, and EPUB. This not only degrades image quality but also creates a burden of manual verification to ensure that critical data -- whether a medical scan, cultural heritage scan, or a legal document -- remains intact during the transition.",
-          "positiveReactions": 23,
+          "positiveReactions": 24,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -718,7 +681,7 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 497,
+          "votes": 498,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.88,
           "workaroundBurdenRaw": 0,
@@ -753,7 +716,7 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 226,
+      "votes": 227,
       "qualifiedAuthors": 2,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
@@ -767,7 +730,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.45,
-        "rationale": "2 distinct qualified authors; 226 issue votes; 33% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 227 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -934,9 +897,23 @@
             "workaroundBurden": 23.5,
             "composite": 58.2
           }
+        },
+        {
+          "date": "2026-09-13",
+          "votes": 227,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 87.3,
+            "useCaseEvidence": 31.4,
+            "workaroundBurden": 23.5,
+            "composite": 58.2
+          }
         }
       ],
-      "lastActivityAt": "2026-09-12T09:39:06Z"
+      "lastActivityAt": "2026-09-13T10:40:15Z"
     },
     {
       "id": "attr",
@@ -1111,21 +1088,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 251,
+      "votes": 253,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 88.9,
+        "voteDemand": 89.1,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 13.8,
-        "composite": 54.4
+        "composite": 54.5
       },
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 251 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 253 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1154,16 +1131,16 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 251,
+          "votes": 253,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 88.9,
+            "voteDemand": 89.1,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 13.8,
-            "composite": 54.4
+            "composite": 54.5
           }
         }
       ],
@@ -1192,21 +1169,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 118,
+      "votes": 119,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 1.25,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 76.9,
+        "voteDemand": 77,
         "useCaseEvidence": 32.9,
         "workaroundBurden": 27.5,
-        "composite": 54.1
+        "composite": 54.2
       },
       "confidence": {
         "level": "medium",
         "score": 0.48,
-        "rationale": "2 distinct qualified authors; 118 issue votes; 50% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 119 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1287,16 +1264,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 118,
+          "votes": 119,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 1.25,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 76.9,
+            "voteDemand": 77,
             "useCaseEvidence": 32.9,
             "workaroundBurden": 27.5,
-            "composite": 54.1
+            "composite": 54.2
           }
         }
       ],
@@ -1323,13 +1300,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 105,
+      "votes": 106,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 75,
+        "voteDemand": 75.2,
         "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
         "composite": 48.8
@@ -1337,7 +1314,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.43,
-        "rationale": "2 distinct qualified authors; 105 issue votes; 22% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 106 issue votes; 22% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1519,13 +1496,13 @@
         },
         {
           "date": "2026-09-09",
-          "votes": 105,
+          "votes": 106,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 75,
+            "voteDemand": 75.2,
             "useCaseEvidence": 32.2,
             "workaroundBurden": 0,
             "composite": 48.8
@@ -1669,21 +1646,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 102,
+      "votes": 103,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 74.6,
+        "voteDemand": 74.7,
         "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
-        "composite": 44.4
+        "composite": 44.5
       },
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 102 issue votes; 25% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 103 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1765,16 +1742,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 102,
+          "votes": 103,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 74.6,
+            "voteDemand": 74.7,
             "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
-            "composite": 44.4
+            "composite": 44.5
           }
         }
       ],
@@ -1802,21 +1779,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 226,
+      "votes": 228,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 87.3,
+        "voteDemand": 87.4,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 43.6
+        "composite": 43.7
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 226 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 228 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1828,16 +1805,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 226,
+          "votes": 228,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 87.3,
+            "voteDemand": 87.4,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 43.6
+            "composite": 43.7
           }
         }
       ],
@@ -2315,21 +2292,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 43,
+      "votes": 45,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 60.9,
+        "voteDemand": 61.6,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 37.4
+        "composite": 37.7
       },
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "1 distinct qualified author; 43 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 45 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2360,16 +2337,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 43,
+          "votes": 45,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 60.9,
+            "voteDemand": 61.6,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 37.4
+            "composite": 37.7
           }
         }
       ],
@@ -3284,21 +3261,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 59,
+      "votes": 60,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 65.9,
+        "voteDemand": 66.1,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 32.9
+        "composite": 33.1
       },
       "confidence": {
         "level": "low",
         "score": 0.27,
-        "rationale": "0 distinct qualified authors; 59 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 60 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3328,16 +3305,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 59,
+          "votes": 60,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 65.9,
+            "voteDemand": 66.1,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 32.9
+            "composite": 33.1
           }
         }
       ],
@@ -3442,9 +3419,23 @@
             "workaroundBurden": 0,
             "composite": 32.8
           }
+        },
+        {
+          "date": "2026-09-13",
+          "votes": 58,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 65.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 32.8
+          }
         }
       ],
-      "lastActivityAt": "2026-09-12T09:39:05Z"
+      "lastActivityAt": "2026-09-13T10:40:13Z"
     },
     {
       "id": "arianotify",
@@ -5129,6 +5120,68 @@
       "lastActivityAt": "2026-08-27T13:13:33Z"
     },
     {
+      "id": "border-shape",
+      "slug": "border-shape",
+      "title": "border-shape",
+      "summary": "The border-shape CSS property sets the geometry of the border box, changing the shape of any applicable border, border image, focus outline, or shadow.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 555,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/555"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/border-shape/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 28,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 54.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 28 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 28,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:49:33Z"
+    },
+    {
       "id": "meta-theme-color",
       "slug": "meta-theme-color",
       "title": "<meta name=\"theme-color\">",
@@ -5285,68 +5338,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:42Z"
-    },
-    {
-      "id": "border-shape",
-      "slug": "border-shape",
-      "title": "border-shape",
-      "summary": "The border-shape CSS property sets the geometry of the border box, changing the shape of any applicable border, border image, focus outline, or shadow.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 555,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/555"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/border-shape/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 27,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 27,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:33Z"
     },
     {
       "id": "scoped-custom-element-registries",
@@ -7468,9 +7459,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-13",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-12T09:39:05Z"
+      "lastActivityAt": "2026-09-13T10:40:15Z"
     },
     {
       "id": "manifest",
@@ -10168,6 +10173,68 @@
       "lastActivityAt": "2026-08-26T12:08:36Z"
     },
     {
+      "id": "template-for",
+      "slug": "template-for",
+      "title": "<template for>",
+      "summary": "The <template for=\"…\"> HTML element replaces the content at a named range or insertion point, marked by the processing instructions <?start name=\"…\"> and <?end> or <?marker name=\"…\">. You can use this to stream or \"patch\" partial updates into the document out of order.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 908,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/908"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/template-for/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-05",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-05T09:30:22Z"
+    },
+    {
       "id": "text-modules",
       "slug": "text-modules",
       "title": "Text import attributes",
@@ -10268,9 +10335,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-09-13",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-09-12T09:39:07Z"
+      "lastActivityAt": "2026-09-13T10:40:16Z"
     },
     {
       "id": "view-transitions-element-scoped",
@@ -10753,6 +10834,67 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:05Z"
+    },
+    {
+      "id": "box-decoration-break",
+      "slug": "box-decoration-break",
+      "title": "box-decoration-break",
+      "summary": "The box-decoration-break CSS property sets whether box decorations, such as borders or backgrounds, of an element divided across a page, column, or region wraps each fragment or splits across the break.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 41,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/41"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/box-decoration-break/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 8,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 17.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:12Z"
     },
     {
       "id": "heading-offset",
@@ -11452,67 +11594,6 @@
       "lastActivityAt": "2026-08-14T14:45:15Z"
     },
     {
-      "id": "box-decoration-break",
-      "slug": "box-decoration-break",
-      "title": "box-decoration-break",
-      "summary": "The box-decoration-break CSS property sets whether box decorations, such as borders or backgrounds, of an element divided across a page, column, or region wraps each fragment or splits across the break.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 41,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/41"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/box-decoration-break/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 7,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 16.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:12Z"
-    },
-    {
       "id": "colrv1",
       "slug": "colrv1",
       "title": "COLRv1",
@@ -12151,6 +12232,68 @@
       "lastActivityAt": "2026-08-26T12:10:18Z"
     },
     {
+      "id": "iframe-credentialless",
+      "slug": "iframe-credentialless",
+      "title": "Credentialless iframes",
+      "summary": "The credentialless attribute for the <iframe> HTML element loads third-party content in an ephemeral context and does not send any credentials such as cookies. When using cross-origin isolation, this allows you to embed content that does not send Cross-Origin-Embedder-Policy headers.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 188,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/188"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/iframe-credentialless/",
+      "categories": [
+        "Security"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:29Z"
+    },
+    {
       "id": "page-lifecycle",
       "slug": "page-lifecycle",
       "title": "Page lifecycle",
@@ -12537,68 +12680,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:47Z"
-    },
-    {
-      "id": "template-for",
-      "slug": "template-for",
-      "title": "<template for>",
-      "summary": "The <template for=\"…\"> HTML element replaces the content at a named range or insertion point, marked by the processing instructions <?start name=\"…\"> and <?end> or <?marker name=\"…\">. You can use this to stream or \"patch\" partial updates into the document out of order.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 908,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/908"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/template-for/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 6,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 31.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 15.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.13,
-        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-05",
-          "votes": 6,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 15.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-05T09:30:22Z"
     },
     {
       "id": "touch-events",
@@ -13247,68 +13328,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:02Z"
-    },
-    {
-      "id": "iframe-credentialless",
-      "slug": "iframe-credentialless",
-      "title": "Credentialless iframes",
-      "summary": "The credentialless attribute for the <iframe> HTML element loads third-party content in an ephemeral context and does not send any credentials such as cookies. When using cross-origin isolation, this allows you to embed content that does not send Cross-Origin-Embedder-Policy headers.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 188,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/188"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/iframe-credentialless/",
-      "categories": [
-        "Security"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:29Z"
     },
     {
       "id": "local-network-access",
@@ -19058,9 +19077,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-09-13",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-09-12T09:39:08Z"
+      "lastActivityAt": "2026-09-13T10:40:17Z"
     },
     {
       "id": "ink",

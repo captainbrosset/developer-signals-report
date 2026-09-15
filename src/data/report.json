@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-14T10:00:16.175Z",
-    "staleAfter": "2026-09-16T10:00:16.175Z",
+    "generatedAt": "2026-09-15T09:30:31.239Z",
+    "staleAfter": "2026-09-17T09:30:31.239Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,33 +10,21 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-14T10:00:16.175Z"
+        "retrievedAt": "2026-09-15T09:30:31.239Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-14T10:00:16.175Z"
+        "retrievedAt": "2026-09-15T09:30:31.239Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-14T10:00:16.175Z"
+        "retrievedAt": "2026-09-15T09:30:31.239Z"
       }
     ],
     "warnings": [
-      "anchor-positioning: feed votes 251 differed from GitHub 253; GitHub value used.",
-      "border-shape: feed votes 27 differed from GitHub 28; GitHub value used.",
-      "box-decoration-break: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "calc-size: feed votes 43 differed from GitHub 45; GitHub value used.",
-      "cross-document-view-transitions: feed votes 59 differed from GitHub 60; GitHub value used.",
-      "customizable-select: feed votes 226 differed from GitHub 228; GitHub value used.",
-      "function: feed votes 105 differed from GitHub 106; GitHub value used.",
-      "if: feed votes 102 differed from GitHub 103; GitHub value used.",
-      "iframe-credentialless: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "jpegxl: feed votes 497 differed from GitHub 498; GitHub value used.",
-      "masonry: feed votes 118 differed from GitHub 119; GitHub value used.",
-      "template-for: feed votes 6 differed from GitHub 9; GitHub value used.",
-      "temporal: feed votes 226 differed from GitHub 227; GitHub value used."
+      "link-parameters: feed votes 0 differed from GitHub 3; GitHub value used."
     ]
   },
   "features": [
@@ -716,26 +704,26 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 227,
+      "votes": 229,
       "qualifiedAuthors": 2,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 87.3,
+        "voteDemand": 87.5,
         "useCaseEvidence": 31.4,
         "workaroundBurden": 23.5,
-        "composite": 58.2
+        "composite": 58.3
       },
       "confidence": {
         "level": "medium",
         "score": 0.45,
-        "rationale": "2 distinct qualified authors; 227 issue votes; 33% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 229 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
+        "votes7d": 19,
         "votes30d": 0,
-        "score7d": 0,
+        "score7d": 6.3,
         "score30d": 0
       },
       "comments": [
@@ -911,9 +899,23 @@
             "workaroundBurden": 23.5,
             "composite": 58.2
           }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 229,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 87.5,
+            "useCaseEvidence": 31.4,
+            "workaroundBurden": 23.5,
+            "composite": 58.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-13T10:40:15Z"
+      "lastActivityAt": "2026-09-15T07:26:44Z"
     },
     {
       "id": "attr",
@@ -1061,9 +1063,23 @@
             "workaroundBurden": 13.8,
             "composite": 56.3
           }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 114,
+          "qualifiedAuthors": 4,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 76.3,
+            "useCaseEvidence": 46,
+            "workaroundBurden": 13.8,
+            "composite": 56.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:15Z"
+      "lastActivityAt": "2026-09-15T07:26:42Z"
     },
     {
       "id": "anchor-positioning",
@@ -1300,21 +1316,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 106,
+      "votes": 109,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 75.2,
+        "voteDemand": 75.6,
         "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
-        "composite": 48.8
+        "composite": 49.1
       },
       "confidence": {
         "level": "medium",
         "score": 0.43,
-        "rationale": "2 distinct qualified authors; 106 issue votes; 22% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 109 issue votes; 22% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1496,16 +1512,16 @@
         },
         {
           "date": "2026-09-09",
-          "votes": 106,
+          "votes": 109,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 75.2,
+            "voteDemand": 75.6,
             "useCaseEvidence": 32.2,
             "workaroundBurden": 0,
-            "composite": 48.8
+            "composite": 49.1
           }
         }
       ],
@@ -1646,21 +1662,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 103,
+      "votes": 104,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 74.7,
+        "voteDemand": 74.9,
         "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
-        "composite": 44.5
+        "composite": 44.6
       },
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 103 issue votes; 25% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 104 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1742,16 +1758,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 103,
+          "votes": 104,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 74.7,
+            "voteDemand": 74.9,
             "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
-            "composite": 44.5
+            "composite": 44.6
           }
         }
       ],
@@ -1779,21 +1795,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 228,
+      "votes": 231,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 87.4,
+        "voteDemand": 87.6,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 43.7
+        "composite": 43.8
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 228 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 231 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1805,16 +1821,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 228,
+          "votes": 231,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 87.4,
+            "voteDemand": 87.6,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 43.7
+            "composite": 43.8
           }
         }
       ],
@@ -1842,21 +1858,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 82,
+      "votes": 83,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 71.1,
+        "voteDemand": 71.3,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 43.4
+        "composite": 43.5
       },
       "confidence": {
         "level": "medium",
         "score": 0.53,
-        "rationale": "1 distinct qualified author; 82 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 83 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1887,16 +1903,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 82,
+          "votes": 83,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 71.1,
+            "voteDemand": 71.3,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 43.4
+            "composite": 43.5
           }
         }
       ],
@@ -1922,21 +1938,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 60,
+      "votes": 61,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 66.1,
+        "voteDemand": 66.4,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 40
+        "composite": 40.1
       },
       "confidence": {
         "level": "low",
         "score": 0.38,
-        "rationale": "1 distinct qualified author; 60 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 61 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1995,16 +2011,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 60,
+          "votes": 61,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 66.1,
+            "voteDemand": 66.4,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 40
+            "composite": 40.1
           }
         }
       ],
@@ -2071,6 +2087,87 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:01Z"
+    },
+    {
+      "id": "calc-size",
+      "slug": "calc-size",
+      "title": "calc-size()",
+      "summary": "The calc-size() CSS function computes mathematical expressions that include height and width keyword values, for example calc-size(fit-content, size / 2). Not to be confused with the calc() CSS function, which cannot use keyword values.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 252,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/252"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/calc-size/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 47,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 62.3,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 38.1
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.49,
+        "rationale": "1 distinct qualified author; 47 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7o3z9Q",
+          "author": "aarfing",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-3906944848",
+          "createdAt": "2026-02-16T07:51:23Z",
+          "body": "## What I want to do with this feature\n\nI want to be able to animate a `<details>` being opened, not knowing the height of the content in it.\n\n## What I'm having to do in the meantime\n\nIt's not a blocker, but I have to use a fair amount of javascript and animate `max-height` to do something pretty basic.",
+          "parsedGoal": "I want to be able to animate a <details> being opened, not knowing the height of the content in it.",
+          "parsedWorkaround": "It's not a blocker, but I have to use a fair amount of javascript and animate max-height to do something pretty basic.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I want to be able to animate a <details> being opened, not knowing the height of the content in it.",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 47,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 62.3,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 38.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:34:44Z"
     },
     {
       "id": "filter-function",
@@ -2270,87 +2367,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:09Z"
-    },
-    {
-      "id": "calc-size",
-      "slug": "calc-size",
-      "title": "calc-size()",
-      "summary": "The calc-size() CSS function computes mathematical expressions that include height and width keyword values, for example calc-size(fit-content, size / 2). Not to be confused with the calc() CSS function, which cannot use keyword values.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 252,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/252"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/calc-size/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 45,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 61.6,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 0,
-        "composite": 37.7
-      },
-      "confidence": {
-        "level": "medium",
-        "score": 0.49,
-        "rationale": "1 distinct qualified author; 45 issue votes; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7o3z9Q",
-          "author": "aarfing",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-3906944848",
-          "createdAt": "2026-02-16T07:51:23Z",
-          "body": "## What I want to do with this feature\n\nI want to be able to animate a `<details>` being opened, not knowing the height of the content in it.\n\n## What I'm having to do in the meantime\n\nIt's not a blocker, but I have to use a fair amount of javascript and animate `max-height` to do something pretty basic.",
-          "parsedGoal": "I want to be able to animate a <details> being opened, not knowing the height of the content in it.",
-          "parsedWorkaround": "It's not a blocker, but I have to use a fair amount of javascript and animate max-height to do something pretty basic.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I want to be able to animate a <details> being opened, not knowing the height of the content in it.",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 45,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 61.6,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 37.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:44Z"
     },
     {
       "id": "referencetarget",
@@ -2891,6 +2907,101 @@
       "lastActivityAt": "2026-08-14T14:46:01Z"
     },
     {
+      "id": "border-shape",
+      "slug": "border-shape",
+      "title": "border-shape",
+      "summary": "The border-shape CSS property sets the geometry of the border box, changing the shape of any applicable border, border image, focus outline, or shadow.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 555,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/555"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/border-shape/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 30,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 55.2,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 34.6
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.46,
+        "rationale": "1 distinct qualified author; 30 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 7.5,
+        "score30d": 7.5
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUYXNNw",
+          "author": "phantomxx29474",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/555#issuecomment-5662690615",
+          "createdAt": "2026-09-14T10:41:18Z",
+          "body": "### What I want to do with this feature:\n\nThe most obvious use case for the border-shape property is for an element to still retain its shapes as well as its shadows and borders without the element masking or clipping them out. Developers have been relying on various hacks on psuedo elements, masks and box-shadows to achieve these effects that they desire when using the clip-path property. The clip-path property's only disadvantage is that as soon as the developer draws a certain shape of any kind, it also removes box shadows and borders from that element.  \n\nThe border-shape property is a very powerful and solves this problem, that way developers can be able to draw shapes of an element and still retain their box shadows and borders without relying on the previous hacks that we used in the past. I am certain for sure that developers will be very happy if this property is supported in alll major browsers, since the shape() for the clip-path property became officially baseline thanks to Interop 2026. \n\n## What I'm having to do in the meantime:\nI will have to rely on other elements to the element to draw the shape using the clip-path property and use the previous hacks that I previously mentioned. \n\nAlso here are some videos and sources that explain the disadvantages of the previous hacks that we used and the border-shape property's capabilities:\n\nhttps://youtu.be/1rC4tPgpusU?si=yVTUBQ6ANTaIHQCv\n\nhttps://youtu.be/Z2iPLBS1bSY?si=9e121DNunT5GTlnZ\n\nhttps://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/\n\nhttps://una.im/border-shape\n\nDevelopers are very happy that the property was first implemented from Chrome and are waiting for other browsers to implement this feature alongside with the corner-shape property. ",
+          "parsedGoal": "The most obvious use case for the border-shape property is for an element to still retain its shapes as well as its shadows and borders without the element masking or clipping them out. Developers have been relying on various hacks on psuedo elements, masks and box-shadows to achieve these effects that they desire when using the clip-path property. The clip-path property's only disadvantage is that as soon as the developer draws a certain shape of any kind, it also removes box shadows and borders from that element. The border-shape property is a very powerful and solves this problem, that way developers can be able to draw shapes of an element and still retain their box shadows and borders without relying on the previous hacks that we used in the past. I am certain for sure that developers will be very happy if this property is supported in alll major browsers, since the shape() for the clip-path property became officially baseline thanks to Interop 2026.",
+          "parsedWorkaround": "I will have to rely on other elements to the element to draw the shape using the clip-path property and use the previous hacks that I previously mentioned. Also here are some videos and sources that explain the disadvantages of the previous hacks that we used and the border-shape property's capabilities: https://youtu.be/1rC4tPgpusU?si=yVTUBQ6ANTaIHQCv https://youtu.be/Z2iPLBS1bSY?si=9e121DNunT5GTlnZ https://css-tricks.com/get-ready-for-the-powerful-css-border-shape-property/ https://una.im/border-shape Developers are very happy that the property was first implemented from Chrome and are waiting for other browsers to implement this feature alongside with the corner-shape property.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "The most obvious use case for the border-shape property is for an element to still retain its shapes as well as its shadows and borders without the element masking or clipping the…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 28,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.1
+          }
+        },
+        {
+          "date": "2026-09-14",
+          "votes": 30,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.2,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 34.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-14T11:59:20Z"
+    },
+    {
       "id": "dialog-closedby",
       "slug": "dialog-closedby",
       "title": "<dialog closedby>",
@@ -3357,9 +3468,9 @@
         "rationale": "0 distinct qualified authors; 58 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
+        "votes7d": 2,
         "votes30d": 0,
-        "score7d": 0,
+        "score7d": 0.3,
         "score30d": 0
       },
       "comments": [],
@@ -3433,9 +3544,23 @@
             "workaroundBurden": 0,
             "composite": 32.8
           }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 58,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 65.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 32.8
+          }
         }
       ],
-      "lastActivityAt": "2026-09-13T10:40:13Z"
+      "lastActivityAt": "2026-09-15T07:26:40Z"
     },
     {
       "id": "arianotify",
@@ -3931,6 +4056,87 @@
       "lastActivityAt": "2026-09-03T14:36:28Z"
     },
     {
+      "id": "margin-trim",
+      "slug": "margin-trim",
+      "title": "margin-trim",
+      "summary": "The margin-trim CSS property removes the margins of child elements when they meet the edges of the container.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 201,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/201"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/margin-trim/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 39,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 59.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 29.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.24,
+        "rationale": "0 distinct qualified authors; 39 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABIWbS-w",
+          "author": "Psychpsyo",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/201#issuecomment-4855354107",
+          "createdAt": "2026-07-01T13:18:34Z",
+          "body": "## What I want to do with this feature\n\nThere is many times where the margins at the top and bottom of the first and last element in some box are annoying and I find myself adding both `margin-trim`, as well as some workaround. Really hope `margin-trim` gets here soon, so I can remove those workarounds from my code.\nI'm also more than mildly annoyed by the fact that the [margin collapsing quirk](https://github.com/whatwg/html/issues/10296) has to exist, which could've been fixed, had `margin-trim` been a thing 25 years ago. So this property has a special place in my heart :)\n\n## What I'm having to do in the meantime\n```css\n::first-child { margin-block-start: 0; }\n::last-child { margin-block-end: 0; }\n```",
+          "parsedGoal": "There is many times where the margins at the top and bottom of the first and last element in some box are annoying and I find myself adding both margin-trim, as well as some workaround. Really hope margin-trim gets here soon, so I can remove those workarounds from my code. I'm also more than mildly annoyed by the fact that the margin collapsing quirk has to exist, which could've been fixed, had margin-trim been a thing 25 years ago. So this property has a special place in my heart :)",
+          "parsedWorkaround": "code sample",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 39,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 59.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:34Z"
+    },
+    {
       "id": "gap-decorations",
       "slug": "gap-decorations",
       "title": "Gap decorations",
@@ -3993,87 +4199,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:49Z"
-    },
-    {
-      "id": "margin-trim",
-      "slug": "margin-trim",
-      "title": "margin-trim",
-      "summary": "The margin-trim CSS property removes the margins of child elements when they meet the edges of the container.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 201,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/201"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/margin-trim/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 35,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 57.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 28.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 35 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABIWbS-w",
-          "author": "Psychpsyo",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/201#issuecomment-4855354107",
-          "createdAt": "2026-07-01T13:18:34Z",
-          "body": "## What I want to do with this feature\n\nThere is many times where the margins at the top and bottom of the first and last element in some box are annoying and I find myself adding both `margin-trim`, as well as some workaround. Really hope `margin-trim` gets here soon, so I can remove those workarounds from my code.\nI'm also more than mildly annoyed by the fact that the [margin collapsing quirk](https://github.com/whatwg/html/issues/10296) has to exist, which could've been fixed, had `margin-trim` been a thing 25 years ago. So this property has a special place in my heart :)\n\n## What I'm having to do in the meantime\n```css\n::first-child { margin-block-start: 0; }\n::last-child { margin-block-end: 0; }\n```",
-          "parsedGoal": "There is many times where the margins at the top and bottom of the first and last element in some box are annoying and I find myself adding both margin-trim, as well as some workaround. Really hope margin-trim gets here soon, so I can remove those workarounds from my code. I'm also more than mildly annoyed by the fact that the margin collapsing quirk has to exist, which could've been fixed, had margin-trim been a thing 25 years ago. So this property has a special place in my heart :)",
-          "parsedWorkaround": "code sample",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 35,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 57.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:34Z"
     },
     {
       "id": "local-fonts",
@@ -4237,6 +4362,67 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:05Z"
+    },
+    {
+      "id": "move-before",
+      "slug": "move-before",
+      "title": "moveBefore()",
+      "summary": "The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 273,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/273"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/move-before/",
+      "categories": [
+        "DOM"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 32,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 56.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 28.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 32 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 32,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:02Z"
     },
     {
       "id": "element",
@@ -4580,23 +4766,26 @@
       "lastActivityAt": "2026-09-03T14:36:36Z"
     },
     {
-      "id": "move-before",
-      "slug": "move-before",
-      "title": "moveBefore()",
-      "summary": "The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.",
+      "id": "custom-media-queries",
+      "slug": "custom-media-queries",
+      "title": "Custom media queries",
+      "summary": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 273,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/273"
+        "number": 445,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/445"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/move-before/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/custom-media-queries/",
       "categories": [
-        "DOM"
+        "Media queries"
       ],
       "supportState": "limited",
       "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
         "safari"
       ],
       "votes": 31,
@@ -4621,7 +4810,42 @@
         "score7d": 0,
         "score30d": 0
       },
-      "comments": [],
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFrw1og",
+          "author": "jklue",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546",
+          "createdAt": "2026-06-11T01:40:15Z",
+          "body": "## What I want to do with this feature\n\nWrite simpler media queries saving time, bandwidth, energy, and complexity.\n\n## What I'm having to do in the meantime\n\nWrite out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
+          "parsedGoal": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
+          "parsedWorkaround": "Write out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
+          "positiveReactions": 3,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABLYWBKg",
+          "author": "TheJaredWilcurt",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5058691370",
+          "createdAt": "2026-07-23T13:02:30Z",
+          "body": "In Firefox 148+ you can enable support for this feature to start testing it out.\n\n* Go to `about:config`\n* Search for `layout.css.custom-media.enabled`\n* Set to `true`\n\nSuch a great feature, excited for wide adoption.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
       "snapshots": [
         {
           "date": "2026-09-03",
@@ -4638,7 +4862,87 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:35:02Z"
+      "lastActivityAt": "2026-09-03T14:36:18Z"
+    },
+    {
+      "id": "loading-lazy-media",
+      "slug": "loading-lazy-media",
+      "title": "Lazy-loading media",
+      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 534,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
+      "categories": [
+        "Media elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 31,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 55.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 31 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
+          "author": "robole",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
+          "createdAt": "2026-07-02T09:28:45Z",
+          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It looks blank if you do provide an image to the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
+          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
+          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It looks blank if you do provide an image to the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:55Z"
     },
     {
       "id": "beforeinstallprompt",
@@ -4720,185 +5024,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:34Z"
-    },
-    {
-      "id": "custom-media-queries",
-      "slug": "custom-media-queries",
-      "title": "Custom media queries",
-      "summary": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 445,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/445"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/custom-media-queries/",
-      "categories": [
-        "Media queries"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 30,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 55.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 30 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFrw1og",
-          "author": "jklue",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546",
-          "createdAt": "2026-06-11T01:40:15Z",
-          "body": "## What I want to do with this feature\n\nWrite simpler media queries saving time, bandwidth, energy, and complexity.\n\n## What I'm having to do in the meantime\n\nWrite out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
-          "parsedGoal": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
-          "parsedWorkaround": "Write out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
-          "positiveReactions": 3,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABLYWBKg",
-          "author": "TheJaredWilcurt",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5058691370",
-          "createdAt": "2026-07-23T13:02:30Z",
-          "body": "In Firefox 148+ you can enable support for this feature to start testing it out.\n\n* Go to `about:config`\n* Search for `layout.css.custom-media.enabled`\n* Set to `true`\n\nSuch a great feature, excited for wide adoption.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 30,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:18Z"
-    },
-    {
-      "id": "loading-lazy-media",
-      "slug": "loading-lazy-media",
-      "title": "Lazy-loading media",
-      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 534,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
-      "categories": [
-        "Media elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 30,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 55.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 30 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
-          "author": "robole",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
-          "createdAt": "2026-07-02T09:28:45Z",
-          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It looks blank if you do provide an image to the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
-          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
-          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It looks blank if you do provide an image to the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 30,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:55Z"
     },
     {
       "id": "show-picker-input",
@@ -5120,68 +5245,6 @@
       "lastActivityAt": "2026-08-27T13:13:33Z"
     },
     {
-      "id": "border-shape",
-      "slug": "border-shape",
-      "title": "border-shape",
-      "summary": "The border-shape CSS property sets the geometry of the border box, changing the shape of any applicable border, border image, focus outline, or shadow.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 555,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/555"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/border-shape/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 28,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 54.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 28 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 28,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 54.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:33Z"
-    },
-    {
       "id": "meta-theme-color",
       "slug": "meta-theme-color",
       "title": "<meta name=\"theme-color\">",
@@ -5338,6 +5401,68 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:42Z"
+    },
+    {
+      "id": "container-anchor-position-queries",
+      "slug": "container-anchor-position-queries",
+      "title": "Anchor position container queries",
+      "summary": "Anchor position container queries with the @container anchored(fallback: …) at-rule apply styles to an element based on the element's anchor position.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 466,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/466"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-anchor-position-queries/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 27,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 27,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:49:16Z"
     },
     {
       "id": "scoped-custom-element-registries",
@@ -5513,20 +5638,20 @@
       "lastActivityAt": "2026-09-03T14:35:28Z"
     },
     {
-      "id": "container-anchor-position-queries",
-      "slug": "container-anchor-position-queries",
-      "title": "Anchor position container queries",
-      "summary": "Anchor position container queries with the @container anchored(fallback: …) at-rule apply styles to an element based on the element's anchor position.",
+      "id": "stretch",
+      "slug": "stretch",
+      "title": "stretch",
+      "summary": "The stretch CSS keyword expands a box as needed to fit its contents until the maximum size is reached, without preserving the content's preferred aspect ratio.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 466,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/466"
+        "number": 319,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/319"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-anchor-position-queries/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/stretch/",
       "categories": [
-        "Other"
+        "Layout"
       ],
       "supportState": "limited",
       "missingBrowsers": [
@@ -5558,7 +5683,7 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-08-14",
+          "date": "2026-09-03",
           "votes": 26,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -5572,7 +5697,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:49:16Z"
+      "lastActivityAt": "2026-09-03T14:35:24Z"
     },
     {
       "id": "scroll-buttons",
@@ -5760,68 +5885,6 @@
       "lastActivityAt": "2026-09-03T14:35:29Z"
     },
     {
-      "id": "stretch",
-      "slug": "stretch",
-      "title": "stretch",
-      "summary": "The stretch CSS keyword expands a box as needed to fit its contents until the maximum size is reached, without preserving the content's preferred aspect ratio.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 319,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/319"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/stretch/",
-      "categories": [
-        "Layout"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 24,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 51.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 24 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 24,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 51.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:24Z"
-    },
-    {
       "id": "style-query-range-syntax",
       "slug": "style-query-range-syntax",
       "title": "Range syntax for style queries",
@@ -5943,6 +6006,67 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:47Z"
+    },
+    {
+      "id": "scheduler",
+      "slug": "scheduler",
+      "title": "Scheduler API",
+      "summary": "The scheduler API provides a way to prioritize all tasks belonging to an application.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 254,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/254"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scheduler/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:48:18Z"
     },
     {
       "id": "scroll-markers",
@@ -6458,67 +6582,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:43Z"
-    },
-    {
-      "id": "scheduler",
-      "slug": "scheduler",
-      "title": "Scheduler API",
-      "summary": "The scheduler API provides a way to prioritize all tasks belonging to an application.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 254,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/254"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scheduler/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:48:18Z"
     },
     {
       "id": "speech-recognition",
@@ -7280,6 +7343,70 @@
       "lastActivityAt": "2026-09-03T14:35:11Z"
     },
     {
+      "id": "mixin",
+      "slug": "mixin",
+      "title": "@mixin",
+      "summary": "The @mixin and @apply CSS at-rules define reusable style declaration fragments and apply them inside rules, optionally passing arguments.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 877,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/877"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/mixin/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 16,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 45.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 16,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:33Z"
+    },
+    {
       "id": "app-launch-handler",
       "slug": "app-launch-handler",
       "title": "Launch handler",
@@ -7473,9 +7600,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-13T10:40:15Z"
+      "lastActivityAt": "2026-09-15T07:26:43Z"
     },
     {
       "id": "manifest",
@@ -7537,70 +7678,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:06Z"
-    },
-    {
-      "id": "mixin",
-      "slug": "mixin",
-      "title": "@mixin",
-      "summary": "The @mixin and @apply CSS at-rules define reusable style declaration fragments and apply them inside rules, optionally passing arguments.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 877,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/877"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/mixin/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 15,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 44.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:33Z"
     },
     {
       "id": "translator",
@@ -8374,9 +8451,23 @@
             "workaroundBurden": 0,
             "composite": 20.6
           }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:09:56Z"
+      "lastActivityAt": "2026-09-15T07:26:39Z"
     },
     {
       "id": "fetch-request-streams",
@@ -8439,6 +8530,68 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:25Z"
+    },
+    {
+      "id": "flexbox-flex-wrap-balance",
+      "slug": "flexbox-flex-wrap-balance",
+      "title": "flex-wrap: balance",
+      "summary": "The flex-wrap: balance CSS declaration distributes items in a multi-line flex container such that each line has about the same number of items.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 906,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/906"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/flexbox-flex-wrap-balance/",
+      "categories": [
+        "Flexbox"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:51Z"
     },
     {
       "id": "periodic-background-sync",
@@ -8520,6 +8673,67 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:20Z"
+    },
+    {
+      "id": "requestidlecallback",
+      "slug": "requestidlecallback",
+      "title": "requestIdleCallback()",
+      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 52,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
       "id": "getboxquads",
@@ -8717,20 +8931,20 @@
       "lastActivityAt": "2026-08-26T12:08:44Z"
     },
     {
-      "id": "flexbox-flex-wrap-balance",
-      "slug": "flexbox-flex-wrap-balance",
-      "title": "flex-wrap: balance",
-      "summary": "The flex-wrap: balance CSS declaration distributes items in a multi-line flex container such that each line has about the same number of items.",
+      "id": "initial-letter",
+      "slug": "initial-letter",
+      "title": "initial-letter",
+      "summary": "The initial-letter CSS property sets the number of lines the first letter of an element occupies. You can use the property to make a raised capital or drop cap.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 906,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/906"
+        "number": 189,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/189"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/flexbox-flex-wrap-balance/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/initial-letter/",
       "categories": [
-        "Flexbox"
+        "CSS"
       ],
       "supportState": "limited",
       "missingBrowsers": [
@@ -8762,7 +8976,7 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-03",
+          "date": "2026-08-26",
           "votes": 11,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -8776,7 +8990,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:35:51Z"
+      "lastActivityAt": "2026-08-26T12:10:30Z"
     },
     {
       "id": "input-color",
@@ -8899,67 +9113,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:48Z"
-    },
-    {
-      "id": "requestidlecallback",
-      "slug": "requestidlecallback",
-      "title": "requestIdleCallback()",
-      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 52,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 11,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
       "id": "scroll-marker-targets",
@@ -9381,20 +9534,84 @@
       "lastActivityAt": "2026-08-14T14:47:03Z"
     },
     {
-      "id": "initial-letter",
-      "slug": "initial-letter",
-      "title": "initial-letter",
-      "summary": "The initial-letter CSS property sets the number of lines the first letter of an element occupies. You can use the property to make a raised capital or drop cap.",
+      "id": "install",
+      "slug": "install",
+      "title": "<install>",
+      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 189,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/189"
+        "number": 522,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/initial-letter/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
       "categories": [
-        "CSS"
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 10,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 38.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 19.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:27Z"
+    },
+    {
+      "id": "justify-self-block",
+      "slug": "justify-self-block",
+      "title": "justify-self in block layouts",
+      "summary": "The justify-self CSS property aligns an item along a container's inline axis in block layouts, like it does in grid layouts. Likewise, the justify-items property sets a default justify-self value for all items in a container in a block layout.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 442,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/442"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/justify-self-block/",
+      "categories": [
+        "Layout"
       ],
       "supportState": "limited",
       "missingBrowsers": [
@@ -9426,7 +9643,7 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-08-26",
+          "date": "2026-09-03",
           "votes": 10,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -9440,7 +9657,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:10:30Z"
+      "lastActivityAt": "2026-09-03T14:34:53Z"
     },
     {
       "id": "object-view-box",
@@ -9926,132 +10143,6 @@
       "lastActivityAt": "2026-08-26T12:09:23Z"
     },
     {
-      "id": "install",
-      "slug": "install",
-      "title": "<install>",
-      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 522,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:27Z"
-    },
-    {
-      "id": "justify-self-block",
-      "slug": "justify-self-block",
-      "title": "justify-self in block layouts",
-      "summary": "The justify-self CSS property aligns an item along a container's inline axis in block layouts, like it does in grid layouts. Likewise, the justify-items property sets a default justify-self value for all items in a container in a block layout.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 442,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/442"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/justify-self-block/",
-      "categories": [
-        "Layout"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:53Z"
-    },
-    {
       "id": "payment-request",
       "slug": "payment-request",
       "title": "Payment request",
@@ -10273,9 +10364,9 @@
         "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
+        "votes7d": 2,
         "votes30d": 0,
-        "score7d": 0,
+        "score7d": 1.8,
         "score30d": 0
       },
       "comments": [],
@@ -10349,9 +10440,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-09-13T10:40:16Z"
+      "lastActivityAt": "2026-09-15T07:26:45Z"
     },
     {
       "id": "view-transitions-element-scoped",
@@ -14860,9 +14965,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-08T16:07:44Z"
+      "lastActivityAt": "2026-09-15T07:26:41Z"
     },
     {
       "id": "beforeunload",
@@ -15233,6 +15352,65 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:28Z"
+    },
+    {
+      "id": "link-parameters",
+      "slug": "link-parameters",
+      "title": "Link parameters",
+      "summary": "Developer demand and implementation evidence for Link Parameters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 923,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-15",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T07:26:47Z"
     },
     {
       "id": "long-animation-frames",
@@ -17925,6 +18103,100 @@
       "lastActivityAt": "2026-09-03T14:35:43Z"
     },
     {
+      "id": "webgl-multi-draw",
+      "slug": "webgl-multi-draw",
+      "title": "WEBGL_multi_draw WebGL extension",
+      "summary": "The WEBGL_multi_draw extension for WebGL 1.0 and 2.0 contexts renders more than one primitive with a single function call.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 130,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/130"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webgl-multi-draw/",
+      "categories": [
+        "WebGL extensions"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 0,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 6.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.24,
+        "rationale": "1 distinct qualified author; 0 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 6.9,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUlCxdg",
+          "author": "SocietyReboot",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/130#issuecomment-5675987318",
+          "createdAt": "2026-09-15T06:45:38Z",
+          "body": "## What I want to do with this feature\n\nI'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other chromium based browsers.\n\n## What I'm having to do in the meantime\n\nI have to make a limited - scaled down version for Firefox using another feature.\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\n\nWith this feature, instances of different geometries that share the same material can all be rendered with a single draw call.\nThis feature, is 1.5× faster on integrated GPUs and 2× on discrete GPUs vs the closest method three.js uses (BatchMesh).",
+          "parsedGoal": "I'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other chromium based browsers.",
+          "parsedWorkaround": "I have to make a limited - scaled down version for Firefox using another feature. With this feature, instances of different geometries that share the same material can all be rendered with a single draw call. This feature, is 1.5× faster on integrated GPUs and 2× on discrete GPUs vs the closest method three.js uses (BatchMesh).",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "performance"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other …",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 0,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 6.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T06:45:39Z"
+    },
+    {
       "id": "alignment-baseline",
       "slug": "alignment-baseline",
       "title": "alignment-baseline",
@@ -19015,9 +19287,9 @@
         "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
+        "votes7d": 1,
         "votes30d": 0,
-        "score7d": 0,
+        "score7d": 5.6,
         "score30d": 0
       },
       "comments": [],
@@ -19091,9 +19363,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-09-13T10:40:17Z"
+      "lastActivityAt": "2026-09-15T07:26:46Z"
     },
     {
       "id": "ink",
@@ -24204,67 +24490,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:51Z"
-    },
-    {
-      "id": "webgl-multi-draw",
-      "slug": "webgl-multi-draw",
-      "title": "WEBGL_multi_draw WebGL extension",
-      "summary": "The WEBGL_multi_draw extension for WebGL 1.0 and 2.0 contexts renders more than one primitive with a single function call.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 130,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/130"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webgl-multi-draw/",
-      "categories": [
-        "WebGL extensions"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:51Z"
     },
     {
       "id": "webxr-anchors",

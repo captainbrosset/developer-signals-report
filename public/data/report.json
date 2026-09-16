@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-15T09:30:31.239Z",
-    "staleAfter": "2026-09-17T09:30:31.239Z",
+    "generatedAt": "2026-09-16T09:23:32.716Z",
+    "staleAfter": "2026-09-18T09:23:32.716Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,21 +10,21 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-15T09:30:31.239Z"
+        "retrievedAt": "2026-09-16T09:23:32.716Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-15T09:30:31.239Z"
+        "retrievedAt": "2026-09-16T09:23:32.716Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-15T09:30:31.239Z"
+        "retrievedAt": "2026-09-16T09:23:32.716Z"
       }
     ],
     "warnings": [
-      "link-parameters: feed votes 0 differed from GitHub 3; GitHub value used."
+      "corner-shape: feed votes 128 differed from GitHub 129; GitHub value used."
     ]
   },
   "features": [
@@ -717,13 +717,13 @@
       },
       "confidence": {
         "level": "medium",
-        "score": 0.45,
-        "rationale": "2 distinct qualified authors; 229 issue votes; 33% of reviewed comments qualified."
+        "score": 0.44,
+        "rationale": "2 distinct qualified authors; 229 issue votes; 29% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 19,
+        "votes7d": 18,
         "votes30d": 0,
-        "score7d": 6.3,
+        "score7d": 6.2,
         "score30d": 0
       },
       "comments": [
@@ -827,6 +827,22 @@
           "workaroundSeverity": "moderate",
           "generatedSummary": "I work on an app used by folks across the country with a lot of client-set dates and datetimes. These date(time)s have no need to be timezone-aware, so using Temporal (without int…",
           "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUnMS8g",
+          "author": "Ugoku",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5678240498",
+          "createdAt": "2026-09-15T09:56:54Z",
+          "body": "### What I want to do with this feature\n\nI want to use a better API than the Date API, without resorting to 3rd party libraries\n\n### Workarounds currently used\n\nWe currently use the legacy Moment.js library, which is 150 KB in size and no longer maintained.",
+          "parsedGoal": "I want to use a better API than the Date API, without resorting to 3rd party libraries Workarounds currently used We currently use the legacy Moment.js library, which is 150 KB in size and no longer maintained.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -913,9 +929,23 @@
             "workaroundBurden": 23.5,
             "composite": 58.3
           }
+        },
+        {
+          "date": "2026-09-16",
+          "votes": 229,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 87.5,
+            "useCaseEvidence": 31.4,
+            "workaroundBurden": 23.5,
+            "composite": 58.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-15T07:26:44Z"
+      "lastActivityAt": "2026-09-16T06:15:08Z"
     },
     {
       "id": "attr",
@@ -2047,13 +2077,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 128,
+      "votes": 129,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 78.2,
+        "voteDemand": 78.3,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
         "composite": 39.1
@@ -2061,7 +2091,7 @@
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 128 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 129 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2073,13 +2103,13 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 128,
+          "votes": 129,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.2,
+            "voteDemand": 78.3,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
             "composite": 39.1
@@ -2121,9 +2151,9 @@
         "composite": 38.1
       },
       "confidence": {
-        "level": "medium",
-        "score": 0.49,
-        "rationale": "1 distinct qualified author; 47 issue votes; 100% of reviewed comments qualified."
+        "level": "low",
+        "score": 0.39,
+        "rationale": "1 distinct qualified author; 47 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2149,6 +2179,23 @@
           "workaroundSeverity": "none",
           "generatedSummary": "I want to be able to animate a <details> being opened, not knowing the height of the content in it.",
           "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUxO9Jw",
+          "author": "davewhitley",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-5688769831",
+          "createdAt": "2026-09-15T22:09:27Z",
+          "body": "## What I want to do with this feature\n\nAccordion height opening with animation, with just css.\n\n## What I'm having to do in the meantime\n\nI don't want to use JS for this.",
+          "parsedGoal": "Accordion height opening with animation, with just css.",
+          "parsedWorkaround": "I don't want to use JS for this.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -2165,9 +2212,23 @@
             "workaroundBurden": 0,
             "composite": 38.1
           }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 47,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 62.3,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 38.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:34:44Z"
+      "lastActivityAt": "2026-09-15T22:09:27Z"
     },
     {
       "id": "filter-function",
@@ -2501,6 +2562,116 @@
       "lastActivityAt": "2026-09-08T16:07:56Z"
     },
     {
+      "id": "sanitizer",
+      "slug": "sanitizer",
+      "title": "Sanitizer API",
+      "summary": "The Document.parseHTML() static method and the setHTML() method of Element and ShadowRoot objects parse and insert HTML into the DOM in a way that can prevent cross-site scripting attacks. The Sanitizer API can customize the sanitization process.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 363,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/363"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/sanitizer/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 87,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 72,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 36
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.29,
+        "rationale": "0 distinct qualified authors; 87 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 8,
+        "votes30d": 0,
+        "score7d": 0.8,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABNvgAEw",
+          "author": "rugk",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/363#issuecomment-5217189907",
+          "createdAt": "2026-08-07T12:43:13Z",
+          "body": "## What I want to do with this feature\n\nSanitizing user HTML, e.g. for https://privatebin.net/\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\nEmbed and maintain (aka keep updated etc.)/integrate an external library aka DOMPurify: https://github.com/cure53/DOMPurify/",
+          "parsedGoal": "Sanitizing user HTML, e.g. for https://privatebin.net/",
+          "parsedWorkaround": "Embed and maintain (aka keep updated etc.)/integrate an external library aka DOMPurify: https://github.com/cure53/DOMPurify/",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABThfoTw",
+          "author": "spmonahan",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/363#issuecomment-5605156943",
+          "createdAt": "2026-09-09T16:22:44Z",
+          "body": "## What I want to do with this feature\n\nI need to reliably santize HTML content client side.\n\n## What I'm having to do in the meantime\n\nUse DOMPurify to get these features. DOMPurify works fine but it's not the lightest library, particularly when compared with something built into the platform.",
+          "parsedGoal": "I need to reliably santize HTML content client side.",
+          "parsedWorkaround": "Use DOMPurify to get these features. DOMPurify works fine but it's not the lightest library, particularly when compared with something built into the platform.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 79,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 70.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 35.2
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "votes": 87,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 72,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 36
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-09T16:22:44Z"
+    },
+    {
       "id": "popover-hint",
       "slug": "popover-hint",
       "title": "popover=\"hint\"",
@@ -2562,116 +2733,6 @@
       "lastActivityAt": "2026-09-03T14:35:58Z"
     },
     {
-      "id": "sanitizer",
-      "slug": "sanitizer",
-      "title": "Sanitizer API",
-      "summary": "The Document.parseHTML() static method and the setHTML() method of Element and ShadowRoot objects parse and insert HTML into the DOM in a way that can prevent cross-site scripting attacks. The Sanitizer API can customize the sanitization process.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 363,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/363"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/sanitizer/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 85,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 71.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 35.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.29,
-        "rationale": "0 distinct qualified authors; 85 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 6,
-        "votes30d": 0,
-        "score7d": 0.6,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABNvgAEw",
-          "author": "rugk",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/363#issuecomment-5217189907",
-          "createdAt": "2026-08-07T12:43:13Z",
-          "body": "## What I want to do with this feature\n\nSanitizing user HTML, e.g. for https://privatebin.net/\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\nEmbed and maintain (aka keep updated etc.)/integrate an external library aka DOMPurify: https://github.com/cure53/DOMPurify/",
-          "parsedGoal": "Sanitizing user HTML, e.g. for https://privatebin.net/",
-          "parsedWorkaround": "Embed and maintain (aka keep updated etc.)/integrate an external library aka DOMPurify: https://github.com/cure53/DOMPurify/",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABThfoTw",
-          "author": "spmonahan",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/363#issuecomment-5605156943",
-          "createdAt": "2026-09-09T16:22:44Z",
-          "body": "## What I want to do with this feature\n\nI need to reliably santize HTML content client side.\n\n## What I'm having to do in the meantime\n\nUse DOMPurify to get these features. DOMPurify works fine but it's not the lightest library, particularly when compared with something built into the platform.",
-          "parsedGoal": "I need to reliably santize HTML content client side.",
-          "parsedWorkaround": "Use DOMPurify to get these features. DOMPurify works fine but it's not the lightest library, particularly when compared with something built into the platform.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 79,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 70.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 35.2
-          }
-        },
-        {
-          "date": "2026-09-09",
-          "votes": 85,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 71.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 35.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-09T16:22:44Z"
-    },
-    {
       "id": "text-box",
       "slug": "text-box",
       "title": "text-box",
@@ -2691,21 +2752,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 82,
+      "votes": 83,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 71.1,
+        "voteDemand": 71.3,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 35.5
+        "composite": 35.6
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 82 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 83 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2763,20 +2824,149 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 82,
+          "votes": 83,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 71.1,
+            "voteDemand": 71.3,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 35.5
+            "composite": 35.6
           }
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:57Z"
+    },
+    {
+      "id": "custom-media-queries",
+      "slug": "custom-media-queries",
+      "title": "Custom media queries",
+      "summary": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 445,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/445"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/custom-media-queries/",
+      "categories": [
+        "Media queries"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 32,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 56.2,
+        "useCaseEvidence": 20.4,
+        "workaroundBurden": 0,
+        "composite": 35.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.34,
+        "rationale": "1 distinct qualified author; 32 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 7.4,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFrw1og",
+          "author": "jklue",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546",
+          "createdAt": "2026-06-11T01:40:15Z",
+          "body": "## What I want to do with this feature\n\nWrite simpler media queries saving time, bandwidth, energy, and complexity.\n\n## What I'm having to do in the meantime\n\nWrite out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
+          "parsedGoal": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
+          "parsedWorkaround": "Write out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
+          "positiveReactions": 3,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABLYWBKg",
+          "author": "TheJaredWilcurt",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5058691370",
+          "createdAt": "2026-07-23T13:02:30Z",
+          "body": "In Firefox 148+ you can enable support for this feature to start testing it out.\n\n* Go to `about:config`\n* Search for `layout.css.custom-media.enabled`\n* Set to `true`\n\nSuch a great feature, excited for wide adoption.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUtG6Aw",
+          "author": "ramiy",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5684443651",
+          "createdAt": "2026-09-15T16:57:04Z",
+          "body": "**[Open Props](https://open-props.style/)** v1.6.0 (by Adam Argyle) [implemented this feature](https://github.com/argyleink/open-props/blob/main/src/props.media.css) in September 2023, supporting custom-media over 3 years.\n\nAt Elementor, we [implemented this feature](https://github.com/elementor/hello-theme/pull/659) (May 2026) on our \"Hello Theme\" which is used by **over 3 million websites**. Currently, we only expose all the available `@custom-media`, not using them in `@media` as this feature is not yet supported by browsers.\n\nI'm hoping browsers will adopt this feature soon. This will help us control all the breakpoint using a few simple variables.",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "Open Props v1.6.0 (by Adam Argyle) implemented this feature in September 2023, supporting custom-media over 3 years. At Elementor, we implemented this feature (May 2026) on our \"H…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 32,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.2,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 35.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T16:57:05Z"
     },
     {
       "id": "fullscreen",
@@ -3002,6 +3192,103 @@
       "lastActivityAt": "2026-09-14T11:59:20Z"
     },
     {
+      "id": "container-scroll-state-queries",
+      "slug": "container-scroll-state-queries",
+      "title": "Container scroll-state queries",
+      "summary": "Container scroll-state queries with the @container scroll-state(...) at-rule apply styles to an element based on the sticky positioning, snapped, and scrollable state of the container.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 272,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/272"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-scroll-state-queries/",
+      "categories": [
+        "Container queries"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 73,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 69.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 34.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.28,
+        "rationale": "0 distinct qualified authors; 73 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABHrAB_w",
+          "author": "slyrat",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4809818623",
+          "createdAt": "2026-06-26T13:00:55Z",
+          "body": "## What I want to do with this feature\n\nBeing able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.\n\n## What I'm having to do in the meantime\nUse js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such. ",
+          "parsedGoal": "Being able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.",
+          "parsedWorkaround": "Use js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABI5WLGA",
+          "author": "simison",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4891970328",
+          "createdAt": "2026-07-06T10:55:07Z",
+          "body": "## What I want to do with this feature\n\nShow fade indicator when a list of tabs in the [WordPress Tabs component](https://wordpress.github.io/gutenberg/?path=/docs/design-system-components-tabs--docs#size-and-overflow-playground) does not fit within the container:\n\n<img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />\n\n## What I'm having to do in the meantime\n\nComplicated `ResizeObserver` or `IntersectionObserver` tracking and `scrollWidth` calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
+          "parsedGoal": "Show fade indicator when a list of tabs in the WordPress Tabs component does not fit within the container: <img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />",
+          "parsedWorkaround": "Complicated ResizeObserver or IntersectionObserver tracking and scrollWidth calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 73,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 69.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 34.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:03Z"
+    },
+    {
       "id": "dialog-closedby",
       "slug": "dialog-closedby",
       "title": "<dialog closedby>",
@@ -3141,103 +3428,6 @@
       "lastActivityAt": "2026-08-29T07:58:42Z"
     },
     {
-      "id": "container-scroll-state-queries",
-      "slug": "container-scroll-state-queries",
-      "title": "Container scroll-state queries",
-      "summary": "Container scroll-state queries with the @container scroll-state(...) at-rule apply styles to an element based on the sticky positioning, snapped, and scrollable state of the container.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 272,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/272"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-scroll-state-queries/",
-      "categories": [
-        "Container queries"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 72,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 69,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 34.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.28,
-        "rationale": "0 distinct qualified authors; 72 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABHrAB_w",
-          "author": "slyrat",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4809818623",
-          "createdAt": "2026-06-26T13:00:55Z",
-          "body": "## What I want to do with this feature\n\nBeing able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.\n\n## What I'm having to do in the meantime\nUse js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such. ",
-          "parsedGoal": "Being able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.",
-          "parsedWorkaround": "Use js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABI5WLGA",
-          "author": "simison",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4891970328",
-          "createdAt": "2026-07-06T10:55:07Z",
-          "body": "## What I want to do with this feature\n\nShow fade indicator when a list of tabs in the [WordPress Tabs component](https://wordpress.github.io/gutenberg/?path=/docs/design-system-components-tabs--docs#size-and-overflow-playground) does not fit within the container:\n\n<img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />\n\n## What I'm having to do in the meantime\n\nComplicated `ResizeObserver` or `IntersectionObserver` tracking and `scrollWidth` calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
-          "parsedGoal": "Show fade indicator when a list of tabs in the WordPress Tabs component does not fit within the container: <img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />",
-          "parsedWorkaround": "Complicated ResizeObserver or IntersectionObserver tracking and scrollWidth calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 72,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 69,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 34.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:03Z"
-    },
-    {
       "id": "speculation-rules",
       "slug": "speculation-rules",
       "title": "Speculation rules",
@@ -3372,26 +3562,26 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 60,
+      "votes": 61,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 66.1,
+        "voteDemand": 66.4,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 33.1
+        "composite": 33.2
       },
       "confidence": {
         "level": "low",
         "score": 0.27,
-        "rationale": "0 distinct qualified authors; 60 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 61 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
+        "votes7d": 1,
         "votes30d": 0,
-        "score7d": 0,
+        "score7d": 0.1,
         "score30d": 0
       },
       "comments": [
@@ -3411,6 +3601,23 @@
             "developer experience"
           ],
           "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUwpbKw",
+          "author": "sophb-chan",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/248#issuecomment-5688154923",
+          "createdAt": "2026-09-15T21:11:57Z",
+          "body": "## What I want to do with this feature\n\nSmooth, animated transitions between pages\n\n## What I'm having to do in the meantime\n\nUse a system where the page contents are inside divs, scripts assigned to the page are loaded when it's selected, and using hashes to select the correct page, with an extra system to scroll to elements with specific `id`s since overriding the behavior of hashes breaks that feature.",
+          "parsedGoal": "Smooth, animated transitions between pages",
+          "parsedWorkaround": "Use a system where the page contents are inside divs, scripts assigned to the page are loaded when it's selected, and using hashes to select the correct page, with an extra system to scroll to elements with specific ids since overriding the behavior of hashes breaks that feature.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "performance"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -3427,9 +3634,23 @@
             "workaroundBurden": 0,
             "composite": 33.1
           }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 61,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 66.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 33.2
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:34:43Z"
+      "lastActivityAt": "2026-09-15T21:11:57Z"
     },
     {
       "id": "top-level-await",
@@ -3558,9 +3779,23 @@
             "workaroundBurden": 0,
             "composite": 32.8
           }
+        },
+        {
+          "date": "2026-09-16",
+          "votes": 58,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 65.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 32.8
+          }
         }
       ],
-      "lastActivityAt": "2026-09-15T07:26:40Z"
+      "lastActivityAt": "2026-09-16T06:15:06Z"
     },
     {
       "id": "arianotify",
@@ -3698,14 +3933,14 @@
       ],
       "votes": 19,
       "qualifiedAuthors": 1,
-      "reactionBoost": 0,
+      "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
         "voteDemand": 48.2,
-        "useCaseEvidence": 19.8,
+        "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
-        "composite": 31
+        "composite": 31.2
       },
       "confidence": {
         "level": "low",
@@ -3728,7 +3963,7 @@
           "body": "## What I want to do with this feature\n\n- Use different images/photos/illustrations that are tuned for the corresponding mode.\n- Use an alternative version of the logo, for example, Datadog logo has a strict guidelines where on dark backgrounds it must use a different shape: https://www.datadoghq.com/about/resources/\n- Adjusting icons/images to have a better contrast with the inverted background while keeping the same color (adding outlines, shadows, or something else that makes the image stand out against an otherwise similarly-bright background)\n\nWhile these could be adjusted with media queries, often a page could have sections that has inverted colors (navigation menus, sidebars, etc), and any image inside will need to be adjusted based on the `color-scheme` used on the container.\n\n<details>\n\n<summary>Aside from images, I also want to use it with any CSS properties and values.</summary>\n\n(hiding in the details, as I originally misread the topic to consider all the `light-dark()` use cases and not just images, haha)\n\nUse cases that I saw in the wild:\n\n- Adjusting the `filter` property — making things ligher/darker, adjusting contrast and saturation, etc. Same for `mix-blend-mode`, `background-blend-mode` and other similar properties.\n- Optical adjustments via `transform` or adjusting the width of borders/shadows.\n- Changing the `opacity` of something (often, also for optical/brightness adjustments).\n- Adjusting the presence/size/spread of some box or text shadow.\n- `display` value, like when you need to show a specific image or element for the corresponding color scheme (we can do responsive images based on media queries, but not on a component-level `color-scheme`, and sometimes you want to change the copy or something else too).\n\n</details>\n\n## What I'm having to do in the meantime\n\nhttps://blog.kizu.dev/querying-the-color-scheme/ — defining `light-dark()` for a registered custom property, and then reading its value back via a container style query and styling things via it.\n\nA similar approach that requires custom functions and `if()` but works on the element with the `color-scheme` itself — https://www.bram.us/2025/09/30/css-custom-light-dark/ by @bramus\n\nIn production, currently it is often something that uses space toggles and uses them as the source of truth, defining all values as `var(--LIGHT, url(foo.png)) var(--DARK, url(bar.png))` etc.\n",
           "parsedGoal": "- Use different images/photos/illustrations that are tuned for the corresponding mode. - Use an alternative version of the logo, for example, Datadog logo has a strict guidelines where on dark backgrounds it must use a different shape: https://www.datadoghq.com/about/resources/ - Adjusting icons/images to have a better contrast with the inverted background while keeping the same color (adding outlines, shadows, or something else that makes the image stand out against an otherwise similarly-bright background) While these could be adjusted with media queries, often a page could have sections that has inverted colors (navigation menus, sidebars, etc), and any image inside will need to be adjusted based on the color-scheme used on the container. <details> <summary>Aside from images, I also want to use it with any CSS properties and values.</summary> (hiding in the details, as I originally misread the topic to consider all the light-dark() use cases and not just images, haha) Use cases that I saw in the wild: - Adjusting the filter property — making things ligher/darker, adjusting contrast and saturation, etc. Same for mix-blend-mode, background-blend-mode and other similar properties. - Optical adjustments via transform or adjusting the width of borders/shadows. - Changing the opacity of something (often, also for optical/brightness adjustments). - Adjusting the presence/size/spread of some box or text shadow. - display value, like when you need to show a specific image or element for the corresponding color scheme (we can do responsive images based on media queries, but not on a component-level color-scheme, and sometimes you want to change the copy or something else too). </details>",
           "parsedWorkaround": "https://blog.kizu.dev/querying-the-color-scheme/ — defining light-dark() for a registered custom property, and then reading its value back via a container style query and styling things via it. A similar approach that requires custom functions and if() but works on the element with the color-scheme itself — https://www.bram.us/2025/09/30/css-custom-light-dark/ by @bramus In production, currently it is often something that uses space toggles and uses them as the source of truth, defining all values as var(--LIGHT, url(foo.png)) var(--DARK, url(bar.png)) etc.",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "qualified",
           "themes": [
             "layout & design",
@@ -3775,14 +4010,14 @@
           "date": "2026-08-14",
           "votes": 19,
           "qualifiedAuthors": 1,
-          "reactionBoost": 0,
+          "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
             "voteDemand": 48.2,
-            "useCaseEvidence": 19.8,
+            "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
-            "composite": 31
+            "composite": 31.2
           }
         }
       ],
@@ -3953,21 +4188,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 40,
+      "votes": 41,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 59.7,
+        "voteDemand": 60.1,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 29.9
+        "composite": 30.1
       },
       "confidence": {
         "level": "low",
         "score": 0.24,
-        "rationale": "0 distinct qualified authors; 40 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 41 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4040,16 +4275,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 40,
+          "votes": 41,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 59.7,
+            "voteDemand": 60.1,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 29.9
+            "composite": 30.1
           }
         }
       ],
@@ -4764,105 +4999,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:36Z"
-    },
-    {
-      "id": "custom-media-queries",
-      "slug": "custom-media-queries",
-      "title": "Custom media queries",
-      "summary": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 445,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/445"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/custom-media-queries/",
-      "categories": [
-        "Media queries"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 31,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 55.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 31 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFrw1og",
-          "author": "jklue",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546",
-          "createdAt": "2026-06-11T01:40:15Z",
-          "body": "## What I want to do with this feature\n\nWrite simpler media queries saving time, bandwidth, energy, and complexity.\n\n## What I'm having to do in the meantime\n\nWrite out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
-          "parsedGoal": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
-          "parsedWorkaround": "Write out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
-          "positiveReactions": 3,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABLYWBKg",
-          "author": "TheJaredWilcurt",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5058691370",
-          "createdAt": "2026-07-23T13:02:30Z",
-          "body": "In Firefox 148+ you can enable support for this feature to start testing it out.\n\n* Go to `about:config`\n* Search for `layout.css.custom-media.enabled`\n* Set to `true`\n\nSuch a great feature, excited for wide adoption.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:18Z"
     },
     {
       "id": "loading-lazy-media",
@@ -5638,6 +5774,70 @@
       "lastActivityAt": "2026-09-03T14:35:28Z"
     },
     {
+      "id": "scroll-buttons",
+      "slug": "scroll-buttons",
+      "title": "::scroll-button",
+      "summary": "The ::scroll-button(<dir>) CSS pseudo-element is a focusable button which scrolls its originating scroll container element in the specified direction.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 316,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/316"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-buttons/",
+      "categories": [
+        "Scrolling"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 26,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:39Z"
+    },
+    {
       "id": "stretch",
       "slug": "stretch",
       "title": "stretch",
@@ -5698,70 +5898,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:24Z"
-    },
-    {
-      "id": "scroll-buttons",
-      "slug": "scroll-buttons",
-      "title": "::scroll-button",
-      "summary": "The ::scroll-button(<dir>) CSS pseudo-element is a focusable button which scrolls its originating scroll container element in the specified direction.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 316,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/316"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-buttons/",
-      "categories": [
-        "Scrolling"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 25,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 52.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 25,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 52.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:39Z"
     },
     {
       "id": "accent-color",
@@ -5947,6 +6083,68 @@
       "lastActivityAt": "2026-09-03T14:35:35Z"
     },
     {
+      "id": "scroll-markers",
+      "slug": "scroll-markers",
+      "title": "Scroll markers",
+      "summary": "A scroll marker scrolls a container to a scroll target. The ::scroll-marker CSS pseudo-element selects a scroll marker in a ::scroll-marker-group pseudo-element, generated before or after the scroll container. You can use them to navigate and style tables of contents, tab panels, and carousels.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 289,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/289"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-markers/",
+      "categories": [
+        "Scroll markers"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 22,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 50.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:17Z"
+    },
+    {
       "id": "share",
       "slug": "share",
       "title": "navigator.share()",
@@ -6067,68 +6265,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:18Z"
-    },
-    {
-      "id": "scroll-markers",
-      "slug": "scroll-markers",
-      "title": "Scroll markers",
-      "summary": "A scroll marker scrolls a container to a scroll target. The ::scroll-marker CSS pseudo-element selects a scroll marker in a ::scroll-marker-group pseudo-element, generated before or after the scroll container. You can use them to navigate and style tables of contents, tab panels, and carousels.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 289,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/289"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-markers/",
-      "categories": [
-        "Scroll markers"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 21,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:17Z"
     },
     {
       "id": "badging",
@@ -7614,9 +7750,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-16",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-15T07:26:43Z"
+      "lastActivityAt": "2026-09-16T06:15:07Z"
     },
     {
       "id": "manifest",
@@ -7678,6 +7828,70 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:06Z"
+    },
+    {
+      "id": "switch-control",
+      "slug": "switch-control",
+      "title": "<input type=\"checkbox\" switch>",
+      "summary": "The switch attribute, when present on an <input type=\"checkbox\"> HTML element, renders a switch control with an on and off state instead of a checkbox control.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 875,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/875"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/switch-control/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:34:32Z"
     },
     {
       "id": "translator",
@@ -8268,27 +8482,24 @@
       "lastActivityAt": "2026-09-03T14:36:26Z"
     },
     {
-      "id": "switch-control",
-      "slug": "switch-control",
-      "title": "<input type=\"checkbox\" switch>",
-      "summary": "The switch attribute, when present on an <input type=\"checkbox\"> HTML element, renders a switch control with an on and off state instead of a checkbox control.",
+      "id": "requestidlecallback",
+      "slug": "requestidlecallback",
+      "title": "requestIdleCallback()",
+      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 875,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/875"
+        "number": 52,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/switch-control/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
       "categories": [
-        "Forms",
-        "HTML elements"
+        "Other"
       ],
       "supportState": "limited",
       "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
+        "safari"
       ],
       "votes": 13,
       "qualifiedAuthors": 0,
@@ -8315,7 +8526,7 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-03",
+          "date": "2026-08-14",
           "votes": 13,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -8329,7 +8540,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:34:32Z"
+      "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
       "id": "app-file-handlers",
@@ -8673,67 +8884,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:20Z"
-    },
-    {
-      "id": "requestidlecallback",
-      "slug": "requestidlecallback",
-      "title": "requestIdleCallback()",
-      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 52,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 12,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
       "id": "getboxquads",
@@ -9237,6 +9387,68 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:58Z"
+    },
+    {
+      "id": "app-share-targets",
+      "slug": "app-share-targets",
+      "title": "Share targets",
+      "summary": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 107,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/107"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-share-targets/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 10,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 38.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 19.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:35Z"
     },
     {
       "id": "autofill",
@@ -9940,68 +10152,6 @@
       "lastActivityAt": "2026-08-25T07:16:48Z"
     },
     {
-      "id": "app-share-targets",
-      "slug": "app-share-targets",
-      "title": "Share targets",
-      "summary": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 107,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/107"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-share-targets/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:35Z"
-    },
-    {
       "id": "caret-shape",
       "slug": "caret-shape",
       "title": "caret-shape",
@@ -10364,9 +10514,9 @@
         "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
+        "votes7d": 1,
         "votes30d": 0,
-        "score7d": 1.8,
+        "score7d": 0.8,
         "score30d": 0
       },
       "comments": [],
@@ -10454,9 +10604,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-09-16",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-09-15T07:26:45Z"
+      "lastActivityAt": "2026-09-16T06:15:09Z"
     },
     {
       "id": "view-transitions-element-scoped",
@@ -11064,6 +11228,83 @@
         }
       ],
       "lastActivityAt": "2026-09-05T09:30:24Z"
+    },
+    {
+      "id": "link-parameters",
+      "slug": "link-parameters",
+      "title": "Link parameters",
+      "summary": "Developer demand and implementation evidence for Link Parameters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 923,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 8,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 17.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
+          "author": "tylersticka",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
+          "createdAt": "2026-09-15T17:38:35Z",
+          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
+          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-15",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T17:54:21Z"
     },
     {
       "id": "meta-text-scale",
@@ -15354,65 +15595,6 @@
       "lastActivityAt": "2026-08-26T12:10:28Z"
     },
     {
-      "id": "link-parameters",
-      "slug": "link-parameters",
-      "title": "Link parameters",
-      "summary": "Developer demand and implementation evidence for Link Parameters.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 923,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-15",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T07:26:47Z"
-    },
-    {
       "id": "long-animation-frames",
       "slug": "long-animation-frames",
       "title": "Long animation frames",
@@ -15551,6 +15733,86 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:08Z"
+    },
+    {
+      "id": "opaquerange",
+      "slug": "opaquerange",
+      "title": "OpaqueRange",
+      "summary": "The createValueRange() for form elements, such as <textarea> or <input type=\"text\">, gets an OpaqueRange object that represents a live span of text. You can use this for range-based operations on the input text, such as setting custom highlights or placing autocomplete popovers.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 579,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/579"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/opaquerange/",
+      "categories": [
+        "Selection"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABPqoagQ",
+          "author": "sahajoydev289-coder",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/579#issuecomment-5346302593",
+          "createdAt": "2026-08-19T18:23:53Z",
+          "body": "HBIE",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:35Z"
     },
     {
       "id": "path-shape",
@@ -17079,86 +17341,6 @@
       "lastActivityAt": "2026-08-14T14:49:29Z"
     },
     {
-      "id": "opaquerange",
-      "slug": "opaquerange",
-      "title": "OpaqueRange",
-      "summary": "The createValueRange() for form elements, such as <textarea> or <input type=\"text\">, gets an OpaqueRange object that represents a live span of text. You can use this for range-based operations on the input text, such as setting custom highlights or placing autocomplete popovers.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 579,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/579"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/opaquerange/",
-      "categories": [
-        "Selection"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABPqoagQ",
-          "author": "sahajoydev289-coder",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/579#issuecomment-5346302593",
-          "createdAt": "2026-08-19T18:23:53Z",
-          "body": "HBIE",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "minimized",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:35Z"
-    },
-    {
       "id": "password-credentials",
       "slug": "password-credentials",
       "title": "Password credentials",
@@ -18151,9 +18333,9 @@
           "authorAssociation": "NONE",
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/130#issuecomment-5675987318",
           "createdAt": "2026-09-15T06:45:38Z",
-          "body": "## What I want to do with this feature\n\nI'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other chromium based browsers.\n\n## What I'm having to do in the meantime\n\nI have to make a limited - scaled down version for Firefox using another feature.\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\n\nWith this feature, instances of different geometries that share the same material can all be rendered with a single draw call.\nThis feature, is 1.5× faster on integrated GPUs and 2× on discrete GPUs vs the closest method three.js uses (BatchMesh).",
+          "body": "## What I want to do with this feature\n\nI'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other chromium based browsers.\n\n## What I'm having to do in the meantime\n\nI have to make a limited - scaled down version for Firefox using another feature.\nAlso if the performance is low I might have to suggest using a different browser.\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\n\nWith this feature, instances of different geometries that share the same material can all be rendered with a single draw call.\nThis feature, is 1.5x faster on integrated GPUs and 2x on discrete GPUs vs the closest method three.js uses (BatchMesh).",
           "parsedGoal": "I'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other chromium based browsers.",
-          "parsedWorkaround": "I have to make a limited - scaled down version for Firefox using another feature. With this feature, instances of different geometries that share the same material can all be rendered with a single draw call. This feature, is 1.5× faster on integrated GPUs and 2× on discrete GPUs vs the closest method three.js uses (BatchMesh).",
+          "parsedWorkaround": "I have to make a limited - scaled down version for Firefox using another feature. Also if the performance is low I might have to suggest using a different browser. With this feature, instances of different geometries that share the same material can all be rendered with a single draw call. This feature, is 1.5x faster on integrated GPUs and 2x on discrete GPUs vs the closest method three.js uses (BatchMesh).",
           "positiveReactions": 0,
           "classification": "qualified",
           "themes": [
@@ -18194,7 +18376,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-15T06:45:39Z"
+      "lastActivityAt": "2026-09-15T14:58:50Z"
     },
     {
       "id": "alignment-baseline",
@@ -19377,9 +19559,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-09-16",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-09-15T07:26:46Z"
+      "lastActivityAt": "2026-09-16T06:15:10Z"
     },
     {
       "id": "ink",

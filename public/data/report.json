@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-16T09:23:32.716Z",
-    "staleAfter": "2026-09-18T09:23:32.716Z",
+    "generatedAt": "2026-09-17T09:33:08.681Z",
+    "staleAfter": "2026-09-19T09:33:08.681Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,21 +10,27 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-16T09:23:32.716Z"
+        "retrievedAt": "2026-09-17T09:33:08.681Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-16T09:23:32.716Z"
+        "retrievedAt": "2026-09-17T09:33:08.681Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-16T09:23:32.716Z"
+        "retrievedAt": "2026-09-17T09:33:08.681Z"
       }
     ],
     "warnings": [
-      "corner-shape: feed votes 128 differed from GitHub 129; GitHub value used."
+      "anchor-positioning: feed votes 253 differed from GitHub 254; GitHub value used.",
+      "corner-shape: feed votes 129 differed from GitHub 130; GitHub value used.",
+      "notifications: feed votes 20 differed from GitHub 21; GitHub value used.",
+      "sanitizer: feed votes 87 differed from GitHub 88; GitHub value used.",
+      "scroll-markers: feed votes 22 differed from GitHub 24; GitHub value used.",
+      "temporal: feed votes 229 differed from GitHub 230; GitHub value used.",
+      "ua-client-hints: feed votes 8 differed from GitHub 9; GitHub value used."
     ]
   },
   "features": [
@@ -704,26 +710,26 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 229,
-      "qualifiedAuthors": 2,
+      "votes": 230,
+      "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
         "voteDemand": 87.5,
-        "useCaseEvidence": 31.4,
+        "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
-        "composite": 58.3
+        "composite": 61.2
       },
       "confidence": {
         "level": "medium",
-        "score": 0.44,
-        "rationale": "2 distinct qualified authors; 229 issue votes; 29% of reviewed comments qualified."
+        "score": 0.5,
+        "rationale": "3 distinct qualified authors; 230 issue votes; 38% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 18,
+        "votes7d": 19,
         "votes30d": 0,
-        "score7d": 6.2,
+        "score7d": 9.1,
         "score30d": 0
       },
       "comments": [
@@ -843,6 +849,25 @@
             "date & time"
           ],
           "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVCEaXQ",
+          "author": "mirojones",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5706422877",
+          "createdAt": "2026-09-17T00:11:55Z",
+          "body": "## What I want to do with this feature\n\nI want to use `Temporal.Duration` to display the time passed on a video in MM:SS format.\n\n## What I'm having to do in the meantime\n\nI use `Math.floor()` and `/` to convert the `currentTime` to a human-readable format.",
+          "parsedGoal": "I want to use Temporal.Duration to display the time passed on a video in MM:SS format.",
+          "parsedWorkaround": "I use Math.floor() and / to convert the currentTime to a human-readable format.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "date & time",
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I want to use Temporal.Duration to display the time passed on a video in MM:SS format.",
+          "summaryKind": "source-excerpt"
         }
       ],
       "snapshots": [
@@ -943,9 +968,23 @@
             "workaroundBurden": 23.5,
             "composite": 58.3
           }
+        },
+        {
+          "date": "2026-09-17",
+          "votes": 230,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 87.5,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.2
+          }
         }
       ],
-      "lastActivityAt": "2026-09-16T06:15:08Z"
+      "lastActivityAt": "2026-09-17T00:11:55Z"
     },
     {
       "id": "attr",
@@ -1134,7 +1173,7 @@
         "firefox",
         "safari"
       ],
-      "votes": 253,
+      "votes": 254,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
@@ -1148,7 +1187,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 253 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 254 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1177,7 +1216,7 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 253,
+          "votes": 254,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
@@ -1324,6 +1363,148 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:32Z"
+    },
+    {
+      "id": "corner-shape",
+      "slug": "corner-shape",
+      "title": "corner-shape",
+      "summary": "The corner-shape CSS property sets the shape of an element's corners when using border-radius, allowing for shapes other than rounded corners. For example, corner-shape: squircle is a shape in between a square and rounded corner.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 398,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/398"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/corner-shape/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 130,
+      "qualifiedAuthors": 2,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 78.4,
+        "useCaseEvidence": 31.4,
+        "workaroundBurden": 0,
+        "composite": 50.2
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.48,
+        "rationale": "2 distinct qualified authors; 130 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 11.1,
+        "score30d": 11.1
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABU6dz4A",
+          "author": "80GritPolymath",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5698450400",
+          "createdAt": "2026-09-16T13:41:22Z",
+          "body": "## What I want to do with this feature\n\nBetter HUD-style UI elements.\n\n## What I'm having to do in the meantime\n\nSVG shapes for containers.",
+          "parsedGoal": "Better HUD-style UI elements.",
+          "parsedWorkaround": "SVG shapes for containers.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABU6261g",
+          "author": "jakearchibald",
+          "authorAssociation": "COLLABORATOR",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5698861782",
+          "createdAt": "2026-09-16T14:09:30Z",
+          "body": "For folks wanting this feature, I'm curious to know if [`border-shape`](https://github.com/web-platform-dx/developer-signals/issues/555) would serve you better, and if not, why.\n\nMy gut feeling is that supporting `corner-shape` in addition to `border-shape` would be a small lift, but in case it comes down to a choice, I want all the data 😄 ",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "For folks wanting this feature, I'm curious to know if border-shape would serve you better, and if not, why. My gut feeling is that supporting corner-shape in addition to border-s…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABU7theA",
+          "author": "matthewmorete",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5699756408",
+          "createdAt": "2026-09-16T15:09:25Z",
+          "body": "border-shape is significantly more powerful so if there was a choice between the two I'd prefer border-shape. But for some common use cases corner-shape is so much easier to use.\nBevel corners with border-shape requires at least 8 commands and 8 var calls to get the same control that corner-shape gets in 2 short properties.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABU_1yQQ",
+          "author": "Afif13",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5704086081",
+          "createdAt": "2026-09-16T20:31:30Z",
+          "body": "I am 1000% for using only border-shape, but I want to highlight a specific use case only doable with corner-shape. The latter works with border-style, so we can, for example, have a \"double\" or \"dotted\" configuration using corner-shape and not with border-shape.\n\n<img width=\"584\" height=\"309\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4882ee19-c846-4356-bdd5-3421d5f8ddf1\" />\n\nAs for syntax complexity, there will be a lot of generators for different shape() (I've already made a few of them), so it won't be a big deal in the future.\n",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "layout & design",
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I am 1000% for using only border-shape, but I want to highlight a specific use case only doable with corner-shape. The latter works with border-style, so we can, for example, have…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 129,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 78.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 39.1
+          }
+        },
+        {
+          "date": "2026-09-16",
+          "votes": 130,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 78.4,
+            "useCaseEvidence": 31.4,
+            "workaroundBurden": 0,
+            "composite": 50.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-16T20:31:30Z"
     },
     {
       "id": "function",
@@ -2057,68 +2238,6 @@
       "lastActivityAt": "2026-09-03T14:34:29Z"
     },
     {
-      "id": "corner-shape",
-      "slug": "corner-shape",
-      "title": "corner-shape",
-      "summary": "The corner-shape CSS property sets the shape of an element's corners when using border-radius, allowing for shapes other than rounded corners. For example, corner-shape: squircle is a shape in between a square and rounded corner.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 398,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/398"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/corner-shape/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 129,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 78.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 39.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.3,
-        "rationale": "0 distinct qualified authors; 129 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 129,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 78.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 39.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:01Z"
-    },
-    {
       "id": "calc-size",
       "slug": "calc-size",
       "title": "calc-size()",
@@ -2581,26 +2700,26 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 87,
+      "votes": 88,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 72,
+        "voteDemand": 72.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 36
+        "composite": 36.1
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 87 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 88 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 8,
+        "votes7d": 9,
         "votes30d": 0,
-        "score7d": 0.8,
+        "score7d": 0.9,
         "score30d": 0
       },
       "comments": [
@@ -2656,16 +2775,16 @@
         },
         {
           "date": "2026-09-09",
-          "votes": 87,
+          "votes": 88,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 72,
+            "voteDemand": 72.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 36
+            "composite": 36.1
           }
         }
       ],
@@ -3795,7 +3914,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-16T06:15:06Z"
+      "lastActivityAt": "2026-09-16T10:20:51Z"
     },
     {
       "id": "arianotify",
@@ -5959,6 +6078,68 @@
       "lastActivityAt": "2026-08-26T12:10:05Z"
     },
     {
+      "id": "scroll-markers",
+      "slug": "scroll-markers",
+      "title": "Scroll markers",
+      "summary": "A scroll marker scrolls a container to a scroll target. The ::scroll-marker CSS pseudo-element selects a scroll marker in a ::scroll-marker-group pseudo-element, generated before or after the scroll container. You can use them to navigate and style tables of contents, tab panels, and carousels.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 289,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/289"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-markers/",
+      "categories": [
+        "Scroll markers"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 24,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 24 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 24,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:17Z"
+    },
+    {
       "id": "scroll-target-group",
       "slug": "scroll-target-group",
       "title": "scroll-target-group",
@@ -6083,68 +6264,6 @@
       "lastActivityAt": "2026-09-03T14:35:35Z"
     },
     {
-      "id": "scroll-markers",
-      "slug": "scroll-markers",
-      "title": "Scroll markers",
-      "summary": "A scroll marker scrolls a container to a scroll target. The ::scroll-marker CSS pseudo-element selects a scroll marker in a ::scroll-marker-group pseudo-element, generated before or after the scroll container. You can use them to navigate and style tables of contents, tab panels, and carousels.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 289,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/289"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-markers/",
-      "categories": [
-        "Scroll markers"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 22,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 50.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:17Z"
-    },
-    {
       "id": "share",
       "slug": "share",
       "title": "navigator.share()",
@@ -6204,6 +6323,65 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:47Z"
+    },
+    {
+      "id": "notifications",
+      "slug": "notifications",
+      "title": "Notifications",
+      "summary": "The Notification() constructor shows a message to the user, typically using the notification system of the host operating system.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 23,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/23"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/notifications/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:44:59Z"
     },
     {
       "id": "scheduler",
@@ -6597,65 +6775,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:50Z"
-    },
-    {
-      "id": "notifications",
-      "slug": "notifications",
-      "title": "Notifications",
-      "summary": "The Notification() constructor shows a message to the user, typically using the notification system of the host operating system.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 23,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/23"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/notifications/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:44:59Z"
     },
     {
       "id": "overlay",
@@ -7766,7 +7885,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-16T06:15:07Z"
+      "lastActivityAt": "2026-09-16T10:20:52Z"
     },
     {
       "id": "manifest",
@@ -10620,7 +10739,69 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-16T06:15:09Z"
+      "lastActivityAt": "2026-09-16T10:20:54Z"
+    },
+    {
+      "id": "ua-client-hints",
+      "slug": "ua-client-hints",
+      "title": "User agent client hints",
+      "summary": "The Sec-CH-UA HTTP request header and the navigator.userAgentData API expose browser and platform information used to vary responses and application logic. User agent client hints are similar to user agent strings but more privacy-preserving and safer to parse.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 242,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/242"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/ua-client-hints/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:46:45Z"
     },
     {
       "id": "view-transitions-element-scoped",
@@ -11629,68 +11810,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:59Z"
-    },
-    {
-      "id": "ua-client-hints",
-      "slug": "ua-client-hints",
-      "title": "User agent client hints",
-      "summary": "The Sec-CH-UA HTTP request header and the navigator.userAgentData API expose browser and platform information used to vary responses and application logic. User agent client hints are similar to user agent strings but more privacy-preserving and safer to parse.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 242,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/242"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/ua-client-hints/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:46:45Z"
     },
     {
       "id": "wasm-memory64",
@@ -19575,7 +19694,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-16T06:15:10Z"
+      "lastActivityAt": "2026-09-16T10:20:55Z"
     },
     {
       "id": "ink",

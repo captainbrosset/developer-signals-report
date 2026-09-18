@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-17T09:33:08.681Z",
-    "staleAfter": "2026-09-19T09:33:08.681Z",
+    "generatedAt": "2026-09-18T09:05:25.002Z",
+    "staleAfter": "2026-09-20T09:05:25.002Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,27 +10,32 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-17T09:33:08.681Z"
+        "retrievedAt": "2026-09-18T09:05:25.002Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-17T09:33:08.681Z"
+        "retrievedAt": "2026-09-18T09:05:25.002Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-17T09:33:08.681Z"
+        "retrievedAt": "2026-09-18T09:05:25.002Z"
       }
     ],
     "warnings": [
-      "anchor-positioning: feed votes 253 differed from GitHub 254; GitHub value used.",
-      "corner-shape: feed votes 129 differed from GitHub 130; GitHub value used.",
-      "notifications: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "sanitizer: feed votes 87 differed from GitHub 88; GitHub value used.",
-      "scroll-markers: feed votes 22 differed from GitHub 24; GitHub value used.",
-      "temporal: feed votes 229 differed from GitHub 230; GitHub value used.",
-      "ua-client-hints: feed votes 8 differed from GitHub 9; GitHub value used."
+      "anchor-positioning: feed votes 254 differed from GitHub 255; GitHub value used.",
+      "attr: feed votes 114 differed from GitHub 115; GitHub value used.",
+      "container-timing: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "customizable-select: feed votes 231 differed from GitHub 233; GitHub value used.",
+      "function: feed votes 109 differed from GitHub 110; GitHub value used.",
+      "gap-decorations: feed votes 38 differed from GitHub 39; GitHub value used.",
+      "if: feed votes 104 differed from GitHub 105; GitHub value used.",
+      "line-clamp: feed votes 41 differed from GitHub 42; GitHub value used.",
+      "link-parameters: feed votes 8 differed from GitHub 9; GitHub value used.",
+      "reading-flow: feed votes 18 differed from GitHub 19; GitHub value used.",
+      "temporal: feed votes 230 differed from GitHub 231; GitHub value used.",
+      "wasm-jspi: feed votes 4 differed from GitHub 5; GitHub value used."
     ]
   },
   "features": [
@@ -710,13 +715,13 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 230,
+      "votes": 231,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 87.5,
+        "voteDemand": 87.6,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
         "composite": 61.2
@@ -724,10 +729,10 @@
       "confidence": {
         "level": "medium",
         "score": 0.5,
-        "rationale": "3 distinct qualified authors; 230 issue votes; 38% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 231 issue votes; 38% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 19,
+        "votes7d": 20,
         "votes30d": 0,
         "score7d": 9.1,
         "score30d": 0
@@ -971,20 +976,20 @@
         },
         {
           "date": "2026-09-17",
-          "votes": 230,
+          "votes": 231,
           "qualifiedAuthors": 3,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 1,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 87.5,
+            "voteDemand": 87.6,
             "useCaseEvidence": 39.6,
             "workaroundBurden": 23.5,
             "composite": 61.2
           }
         }
       ],
-      "lastActivityAt": "2026-09-17T00:11:55Z"
+      "lastActivityAt": "2026-09-17T10:30:08Z"
     },
     {
       "id": "attr",
@@ -1009,26 +1014,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 114,
+      "votes": 115,
       "qualifiedAuthors": 4,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 76.3,
+        "voteDemand": 76.5,
         "useCaseEvidence": 46,
         "workaroundBurden": 13.8,
-        "composite": 56.3
+        "composite": 56.4
       },
       "confidence": {
         "level": "medium",
         "score": 0.63,
-        "rationale": "4 distinct qualified authors; 114 issue votes; 80% of reviewed comments qualified."
+        "rationale": "4 distinct qualified authors; 115 issue votes; 80% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
+        "votes7d": 1,
         "votes30d": 0,
-        "score7d": 0,
+        "score7d": 0.1,
         "score30d": 0
       },
       "comments": [
@@ -1135,16 +1140,16 @@
         },
         {
           "date": "2026-09-15",
-          "votes": 114,
+          "votes": 115,
           "qualifiedAuthors": 4,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 76.3,
+            "voteDemand": 76.5,
             "useCaseEvidence": 46,
             "workaroundBurden": 13.8,
-            "composite": 56.3
+            "composite": 56.4
           }
         }
       ],
@@ -1173,21 +1178,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 254,
+      "votes": 255,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 89.1,
+        "voteDemand": 89.2,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 13.8,
-        "composite": 54.5
+        "composite": 54.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 254 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 255 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1216,16 +1221,16 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 254,
+          "votes": 255,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 89.1,
+            "voteDemand": 89.2,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 13.8,
-            "composite": 54.5
+            "composite": 54.6
           }
         }
       ],
@@ -1387,25 +1392,25 @@
       ],
       "votes": 130,
       "qualifiedAuthors": 2,
-      "reactionBoost": 0,
+      "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
         "voteDemand": 78.4,
-        "useCaseEvidence": 31.4,
+        "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
-        "composite": 50.2
+        "composite": 50.5
       },
       "confidence": {
         "level": "medium",
-        "score": 0.48,
-        "rationale": "2 distinct qualified authors; 130 issue votes; 50% of reviewed comments qualified."
+        "score": 0.46,
+        "rationale": "2 distinct qualified authors; 130 issue votes; 40% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 1,
         "votes30d": 1,
-        "score7d": 11.1,
-        "score30d": 11.1
+        "score7d": 11.4,
+        "score30d": 11.4
       },
       "comments": [
         {
@@ -1432,7 +1437,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5698861782",
           "createdAt": "2026-09-16T14:09:30Z",
           "body": "For folks wanting this feature, I'm curious to know if [`border-shape`](https://github.com/web-platform-dx/developer-signals/issues/555) would serve you better, and if not, why.\n\nMy gut feeling is that supporting `corner-shape` in addition to `border-shape` would be a small lift, but in case it comes down to a choice, I want all the data 😄 ",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "qualified",
           "themes": [
             "developer experience"
@@ -1463,7 +1468,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5704086081",
           "createdAt": "2026-09-16T20:31:30Z",
           "body": "I am 1000% for using only border-shape, but I want to highlight a specific use case only doable with corner-shape. The latter works with border-style, so we can, for example, have a \"double\" or \"dotted\" configuration using corner-shape and not with border-shape.\n\n<img width=\"584\" height=\"309\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4882ee19-c846-4356-bdd5-3421d5f8ddf1\" />\n\nAs for syntax complexity, there will be a lot of generators for different shape() (I've already made a few of them), so it won't be a big deal in the future.\n",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "qualified",
           "themes": [
             "layout & design",
@@ -1472,6 +1477,21 @@
           "workaroundSeverity": "none",
           "generatedSummary": "I am 1000% for using only border-shape, but I want to highlight a specific use case only doable with corner-shape. The latter works with border-style, so we can, for example, have…",
           "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVNv35w",
+          "author": "yisibl",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5718669287",
+          "createdAt": "2026-09-17T17:36:08Z",
+          "body": "I'd like to add that both Firefox and Safari are implementing `corner-shape`; especially [Safari](https://github.com/WebKit/WebKit/pulls?q=is%3Apr+state%3Aclosed+corner-shape) should be reaching the “Ship” status soon. \ncc @smfr",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -1502,9 +1522,23 @@
             "workaroundBurden": 0,
             "composite": 50.2
           }
+        },
+        {
+          "date": "2026-09-17",
+          "votes": 130,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 78.4,
+            "useCaseEvidence": 32.2,
+            "workaroundBurden": 0,
+            "composite": 50.5
+          }
         }
       ],
-      "lastActivityAt": "2026-09-16T20:31:30Z"
+      "lastActivityAt": "2026-09-17T17:36:08Z"
     },
     {
       "id": "function",
@@ -1527,13 +1561,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 109,
+      "votes": 110,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 75.6,
+        "voteDemand": 75.8,
         "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
         "composite": 49.1
@@ -1541,7 +1575,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.43,
-        "rationale": "2 distinct qualified authors; 109 issue votes; 22% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 110 issue votes; 22% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1723,13 +1757,13 @@
         },
         {
           "date": "2026-09-09",
-          "votes": 109,
+          "votes": 110,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 75.6,
+            "voteDemand": 75.8,
             "useCaseEvidence": 32.2,
             "workaroundBurden": 0,
             "composite": 49.1
@@ -1873,13 +1907,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 104,
+      "votes": 105,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 74.9,
+        "voteDemand": 75,
         "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
         "composite": 44.6
@@ -1887,7 +1921,7 @@
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 104 issue votes; 25% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 105 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1969,13 +2003,13 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 104,
+          "votes": 105,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 74.9,
+            "voteDemand": 75,
             "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
             "composite": 44.6
@@ -2006,21 +2040,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 231,
+      "votes": 233,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 87.6,
+        "voteDemand": 87.8,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 43.8
+        "composite": 43.9
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 231 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 233 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2032,16 +2066,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 231,
+          "votes": 233,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 87.6,
+            "voteDemand": 87.8,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 43.8
+            "composite": 43.9
           }
         }
       ],
@@ -3912,9 +3946,23 @@
             "workaroundBurden": 0,
             "composite": 32.8
           }
+        },
+        {
+          "date": "2026-09-17",
+          "votes": 58,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 65.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 32.8
+          }
         }
       ],
-      "lastActivityAt": "2026-09-16T10:20:51Z"
+      "lastActivityAt": "2026-09-17T10:30:06Z"
     },
     {
       "id": "arianotify",
@@ -4223,68 +4271,6 @@
       "lastActivityAt": "2026-09-03T14:35:33Z"
     },
     {
-      "id": "fedcm",
-      "slug": "fedcm",
-      "title": "Federated credential management",
-      "summary": "The IdentityCredential API delegates authentication to a third-party identity provider, instead of using third-party cookies. Also known as FedCM.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 208,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/208"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/fedcm/",
-      "categories": [
-        "Credential management"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 41,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 60.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 30.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.24,
-        "rationale": "0 distinct qualified authors; 41 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 41,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 60.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 30.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:39Z"
-    },
-    {
       "id": "line-clamp",
       "slug": "line-clamp",
       "title": "line-clamp",
@@ -4307,21 +4293,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 41,
+      "votes": 42,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 60.1,
+        "voteDemand": 60.5,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 30.1
+        "composite": 30.3
       },
       "confidence": {
         "level": "low",
         "score": 0.24,
-        "rationale": "0 distinct qualified authors; 41 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 42 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4394,6 +4380,68 @@
       "snapshots": [
         {
           "date": "2026-09-03",
+          "votes": 42,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 60.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 30.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:28Z"
+    },
+    {
+      "id": "fedcm",
+      "slug": "fedcm",
+      "title": "Federated credential management",
+      "summary": "The IdentityCredential API delegates authentication to a third-party identity provider, instead of using third-party cookies. Also known as FedCM.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 208,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/208"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/fedcm/",
+      "categories": [
+        "Credential management"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 41,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 60.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 30.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.24,
+        "rationale": "0 distinct qualified authors; 41 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
           "votes": 41,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -4407,7 +4455,71 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:28Z"
+      "lastActivityAt": "2026-08-26T12:10:39Z"
+    },
+    {
+      "id": "gap-decorations",
+      "slug": "gap-decorations",
+      "title": "Gap decorations",
+      "summary": "The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 362,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/362"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gap-decorations/",
+      "categories": [
+        "Grid",
+        "Flexbox",
+        "Multi-column"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 39,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 59.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 29.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.24,
+        "rationale": "0 distinct qualified authors; 39 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 39,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 59.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:49Z"
     },
     {
       "id": "margin-trim",
@@ -4489,70 +4601,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:34Z"
-    },
-    {
-      "id": "gap-decorations",
-      "slug": "gap-decorations",
-      "title": "Gap decorations",
-      "summary": "The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 362,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/362"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gap-decorations/",
-      "categories": [
-        "Grid",
-        "Flexbox",
-        "Multi-column"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 38,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 58.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 29.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.24,
-        "rationale": "0 distinct qualified authors; 38 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 38,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 58.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 29.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:49Z"
     },
     {
       "id": "local-fonts",
@@ -7021,21 +7069,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 18,
+      "votes": 19,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 47.4,
+        "voteDemand": 48.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 23.7
+        "composite": 24.1
       },
       "confidence": {
         "level": "low",
         "score": 0.19,
-        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -7047,16 +7095,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 18,
+          "votes": 19,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 47.4,
+            "voteDemand": 48.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 23.7
+            "composite": 24.1
           }
         }
       ],
@@ -7883,9 +7931,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-17",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-16T10:20:52Z"
+      "lastActivityAt": "2026-09-17T10:30:07Z"
     },
     {
       "id": "manifest",
@@ -10412,6 +10474,83 @@
       "lastActivityAt": "2026-08-26T12:09:23Z"
     },
     {
+      "id": "link-parameters",
+      "slug": "link-parameters",
+      "title": "Link parameters",
+      "summary": "Developer demand and implementation evidence for Link Parameters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 923,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
+          "author": "tylersticka",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
+          "createdAt": "2026-09-15T17:38:35Z",
+          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
+          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-15",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T17:54:21Z"
+    },
+    {
       "id": "payment-request",
       "slug": "payment-request",
       "title": "Payment request",
@@ -10737,9 +10876,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-09-17",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-09-16T10:20:54Z"
+      "lastActivityAt": "2026-09-17T10:30:09Z"
     },
     {
       "id": "ua-client-hints",
@@ -11409,83 +11562,6 @@
         }
       ],
       "lastActivityAt": "2026-09-05T09:30:24Z"
-    },
-    {
-      "id": "link-parameters",
-      "slug": "link-parameters",
-      "title": "Link parameters",
-      "summary": "Developer demand and implementation evidence for Link Parameters.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 923,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
-          "author": "tylersticka",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
-          "createdAt": "2026-09-15T17:38:35Z",
-          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
-          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
-          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-15",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T17:54:21Z"
     },
     {
       "id": "meta-text-scale",
@@ -13857,6 +13933,97 @@
       "lastActivityAt": "2026-08-14T14:49:13Z"
     },
     {
+      "id": "wasm-jspi",
+      "slug": "wasm-jspi",
+      "title": "JavaScript promise integration (WebAssembly)",
+      "summary": "The JavaScript promise integration (JSPI) suspends a WebAssembly module when it calls a JavaScript method that returns a promise. The module resumes when the promise is resolved. You can use this to call asynchronous Web APIs from synchronous WebAssembly.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 521,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/521"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/wasm-jspi/",
+      "categories": [
+        "WebAssembly"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 5,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 28.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 14.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.12,
+        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 1.5,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVWKzlA",
+          "author": "phantomxx29474",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/521#issuecomment-5727499156",
+          "createdAt": "2026-09-18T08:41:49Z",
+          "body": "Safari is going to join us.\n\nhttps://youtube.com/shorts/Tsw1GuR60RI?si=wbUaJM8y1hku05s2",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T08:41:49Z"
+    },
+    {
       "id": "window-controls-overlay",
       "slug": "window-controls-overlay",
       "title": "Window Controls Overlay",
@@ -15069,67 +15236,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:36Z"
-    },
-    {
-      "id": "wasm-jspi",
-      "slug": "wasm-jspi",
-      "title": "JavaScript promise integration (WebAssembly)",
-      "summary": "The JavaScript promise integration (JSPI) suspends a WebAssembly module when it calls a JavaScript method that returns a promise. The module resumes when the promise is resolved. You can use this to call asynchronous Web APIs from synchronous WebAssembly.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 521,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/521"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/wasm-jspi/",
-      "categories": [
-        "WebAssembly"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 4,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 25.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 12.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.1,
-        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:19Z"
     },
     {
       "id": "webnn",
@@ -19054,6 +19160,65 @@
       "lastActivityAt": "2026-08-14T14:46:21Z"
     },
     {
+      "id": "container-timing",
+      "slug": "container-timing",
+      "title": "Container timing performance entries",
+      "summary": "Developer demand and implementation evidence for Container Timing.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 918,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/918"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-timing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-08",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-08T16:07:58Z"
+    },
+    {
       "id": "cross-fade",
       "slug": "cross-fade",
       "title": "cross-fade()",
@@ -19692,9 +19857,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-09-17",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-09-16T10:20:55Z"
+      "lastActivityAt": "2026-09-17T10:30:10Z"
     },
     {
       "id": "ink",
@@ -21894,65 +22073,6 @@
         }
       ],
       "lastActivityAt": "2026-09-08T16:07:55Z"
-    },
-    {
-      "id": "container-timing",
-      "slug": "container-timing",
-      "title": "Container timing performance entries",
-      "summary": "Developer demand and implementation evidence for Container Timing.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 918,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/918"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-timing/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-08",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-08T16:07:58Z"
     },
     {
       "id": "content-index",

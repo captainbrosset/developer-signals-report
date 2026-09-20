@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-19T08:53:08.853Z",
-    "staleAfter": "2026-09-21T08:53:08.853Z",
+    "generatedAt": "2026-09-20T09:22:16.581Z",
+    "staleAfter": "2026-09-22T09:22:16.581Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,61 +10,26 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-19T08:53:08.853Z"
+        "retrievedAt": "2026-09-20T09:22:16.581Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-19T08:53:08.853Z"
+        "retrievedAt": "2026-09-20T09:22:16.581Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-19T08:53:08.853Z"
+        "retrievedAt": "2026-09-20T09:22:16.581Z"
       }
     ],
     "warnings": [
-      "alignment-baseline: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "anchor-positioning: feed votes 255 differed from GitHub 257; GitHub value used.",
-      "attr: feed votes 115 differed from GitHub 116; GitHub value used.",
-      "calc-size: feed votes 47 differed from GitHub 48; GitHub value used.",
-      "colrv1: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "connection-allowlists: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "customizable-select: feed votes 234 differed from GitHub 236; GitHub value used.",
-      "datalist: feed votes 47 differed from GitHub 48; GitHub value used.",
-      "dialog-closedby: feed votes 73 differed from GitHub 74; GitHub value used.",
-      "display-ruby: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "document-picture-in-picture: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "flexbox-flex-wrap-balance: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "focusgroup: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "font-family-ui: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "font-language-override: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "font-metric-overrides: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "font-palette-animation: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "font-synthesis-position: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "font-variant-emoji: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "font-variant-position: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "frame-sizing: feed votes 3 differed from GitHub 5; GitHub value used.",
-      "html-setters: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "html-streaming-setters: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "import-defer: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "input-date-time-month: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "input-date-time-week: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "line-clamp: feed votes 43 differed from GitHub 44; GitHub value used.",
-      "link-parameters: feed votes 9 differed from GitHub 11; GitHub value used.",
-      "loading-lazy-media: feed votes 31 differed from GitHub 32; GitHub value used.",
-      "meta-application-title: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "meta-text-scale: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "ruby-overhang: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "scoped-custom-element-registries: feed votes 27 differed from GitHub 28; GitHub value used.",
-      "scroll-driven-animations: feed votes 73 differed from GitHub 74; GitHub value used.",
-      "selection: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "speculation-rules: feed votes 27 differed from GitHub 28; GitHub value used.",
-      "spelling-grammar-error: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "switch-control: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "template-for: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "temporal: feed votes 232 differed from GitHub 233; GitHub value used.",
-      "text-box: feed votes 83 differed from GitHub 84; GitHub value used."
+      "hanging-punctuation: feed votes 16 differed from GitHub 17; GitHub value used.",
+      "if: feed votes 105 differed from GitHub 106; GitHub value used.",
+      "move-before: feed votes 32 differed from GitHub 33; GitHub value used.",
+      "random-function: feed votes 17 differed from GitHub 18; GitHub value used.",
+      "share: feed votes 22 differed from GitHub 23; GitHub value used.",
+      "text-spacing-trim: feed votes 4 differed from GitHub 5; GitHub value used."
     ]
   },
   "features": [
@@ -761,9 +726,9 @@
         "rationale": "3 distinct qualified authors; 233 issue votes; 38% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 10,
+        "votes7d": 7,
         "votes30d": 0,
-        "score7d": 3.2,
+        "score7d": 3.1,
         "score30d": 0
       },
       "comments": [
@@ -1030,9 +995,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.3
           }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 233,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 87.8,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-18T16:17:47Z"
+      "lastActivityAt": "2026-09-19T09:47:27Z"
     },
     {
       "id": "attr",
@@ -1479,7 +1458,7 @@
           "body": "## What I want to do with this feature\n\nBetter HUD-style UI elements.\n\n## What I'm having to do in the meantime\n\nSVG shapes for containers.",
           "parsedGoal": "Better HUD-style UI elements.",
           "parsedWorkaround": "SVG shapes for containers.",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -1964,21 +1943,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 105,
+      "votes": 106,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 75,
+        "voteDemand": 75.2,
         "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
-        "composite": 44.6
+        "composite": 44.7
       },
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 105 issue votes; 25% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 106 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2060,16 +2039,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 105,
+          "votes": 106,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 75,
+            "voteDemand": 75.2,
             "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
-            "composite": 44.6
+            "composite": 44.7
           }
         }
       ],
@@ -4594,6 +4573,99 @@
       "lastActivityAt": "2026-08-14T14:48:05Z"
     },
     {
+      "id": "move-before",
+      "slug": "move-before",
+      "title": "moveBefore()",
+      "summary": "The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 273,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/273"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/move-before/",
+      "categories": [
+        "DOM"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 33,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 56.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 28.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 33 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 0.3,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVlJsxA",
+          "author": "KavyanshKhaitan2",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/273#issuecomment-5743209668",
+          "createdAt": "2026-09-19T15:47:25Z",
+          "body": "## What I want to do with this feature\nI am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\nI am currently using a polyfill that re-renders everything every time `moveBefore` is supposed to be called.\n```js\n<script>\n    // MoveBefore polyfill for Safari (suggested by @Luke / U0BFDHWUSPM)\n    (function () {\n        // 1. Check if the native method is already supported\n        if (typeof Element.prototype.moveBefore === 'function') return;\n\n        // 2. Define the fallback function matching the moveBefore signature\n        const moveBeforeFallback = function (nodeToMove, referenceNode) {\n            if (!nodeToMove) {\n            throw new TypeError(\"Failed to execute 'moveBefore': 1 argument required, but only 0 present.\");\n            }\n            // Element.insertBefore(node, null) behaves exactly like appendChild\n            return this.insertBefore(nodeToMove, referenceNode);\n        };\n\n        // 3. Apply the fallback across all valid ParentNode prototypes\n        if (typeof Element !== 'undefined') {\n            Element.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof Document !== 'undefined') {\n            Document.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof DocumentFragment !== 'undefined') {\n            DocumentFragment.prototype.moveBefore = moveBeforeFallback;\n        }\n    })();\n</script>\n```\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
+          "parsedGoal": "I am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.",
+          "parsedWorkaround": "I am currently using a polyfill that re-renders everything every time moveBefore is supposed to be called. code sample",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "moderate"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 32,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 33,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-19T15:49:25Z"
+    },
+    {
       "id": "loading-lazy-media",
       "slug": "loading-lazy-media",
       "title": "Lazy-loading media",
@@ -4686,67 +4758,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:18:00Z"
-    },
-    {
-      "id": "move-before",
-      "slug": "move-before",
-      "title": "moveBefore()",
-      "summary": "The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 273,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/273"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/move-before/",
-      "categories": [
-        "DOM"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 32,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 56.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 28.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 32 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 32,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 56.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:02Z"
     },
     {
       "id": "element",
@@ -6134,6 +6145,81 @@
       "lastActivityAt": "2026-09-03T14:35:17Z"
     },
     {
+      "id": "share",
+      "slug": "share",
+      "title": "navigator.share()",
+      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 76,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 23,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.4,
+        "score30d": 0.4
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 23,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:17Z"
+    },
+    {
       "id": "style-query-range-syntax",
       "slug": "style-query-range-syntax",
       "title": "Range syntax for style queries",
@@ -6194,81 +6280,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:35Z"
-    },
-    {
-      "id": "share",
-      "slug": "share",
-      "title": "navigator.share()",
-      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 76,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 22,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 50.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:17Z"
     },
     {
       "id": "document-picture-in-picture",
@@ -7023,6 +7034,69 @@
       "lastActivityAt": "2026-09-03T14:35:21Z"
     },
     {
+      "id": "random-function",
+      "slug": "random-function",
+      "title": "random()",
+      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 514,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 18,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 47.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 18,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:36Z"
+    },
+    {
       "id": "focusgroup",
       "slug": "focusgroup",
       "title": "focusgroup",
@@ -7088,6 +7162,69 @@
       "lastActivityAt": "2026-09-03T14:36:22Z"
     },
     {
+      "id": "hanging-punctuation",
+      "slug": "hanging-punctuation",
+      "title": "Hanging punctuation",
+      "summary": "The hanging-punctuation CSS property puts punctuation characters outside of the box to align the text with the rest of the document.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 302,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/302"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/hanging-punctuation/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 17,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 46.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 17,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 46.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:49:40Z"
+    },
+    {
       "id": "link-rel-prefetch",
       "slug": "link-rel-prefetch",
       "title": "<link rel=\"prefetch\">",
@@ -7147,69 +7284,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:39Z"
-    },
-    {
-      "id": "random-function",
-      "slug": "random-function",
-      "title": "random()",
-      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 514,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 17,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 46.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 23.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 17,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 46.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 23.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:36Z"
     },
     {
       "id": "supports-at-rule",
@@ -7429,69 +7503,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:40Z"
-    },
-    {
-      "id": "hanging-punctuation",
-      "slug": "hanging-punctuation",
-      "title": "Hanging punctuation",
-      "summary": "The hanging-punctuation CSS property puts punctuation characters outside of the box to align the text with the rest of the document.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 302,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/302"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/hanging-punctuation/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 16,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 45.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 16,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:40Z"
     },
     {
       "id": "input-color-alpha",
@@ -7871,9 +7882,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-18T16:17:41Z"
+      "lastActivityAt": "2026-09-19T09:47:26Z"
     },
     {
       "id": "manifest",
@@ -10527,9 +10552,9 @@
         "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
+        "votes7d": 1,
         "votes30d": 0,
-        "score7d": 1.6,
+        "score7d": 0.8,
         "score30d": 0
       },
       "comments": [],
@@ -10659,9 +10684,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-18T16:18:01Z"
+      "lastActivityAt": "2026-09-19T09:47:28Z"
     },
     {
       "id": "web-midi",
@@ -10880,6 +10919,83 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:23Z"
+    },
+    {
+      "id": "media-pseudos",
+      "slug": "media-pseudos",
+      "title": "Media element pseudo-classes",
+      "summary": "The :playing, :paused, :seeking, :buffering, :stalled, :muted, and :volume-locked CSS pseudo-classes match <audio> and <video> elements based on their state.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 166,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/166"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/media-pseudos/",
+      "categories": [
+        "Media elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "edge"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABTRUGWg",
+          "author": "github-actions",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/166#issuecomment-5588190810",
+          "createdAt": "2026-09-08T16:07:46Z",
+          "body": "This feature reached Baseline status on Aug 28, 2026, which means it's now fully supported across browsers. Developer signals are no longer needed for this feature, so this issue can be closed.\n\nThank you to everyone who provided feedback! 🎉",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "bot",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-19",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-19T09:47:25Z"
     },
     {
       "id": "meta-text-scale",
@@ -13799,6 +13915,68 @@
       "lastActivityAt": "2026-08-14T14:49:13Z"
     },
     {
+      "id": "text-spacing-trim",
+      "slug": "text-spacing-trim",
+      "title": "text-spacing-trim",
+      "summary": "The text-spacing-trim CSS property controls spacing around CJK characters, avoiding excessive whitespace when using full-width punctuation characters.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 236,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/236"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-spacing-trim/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 5,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 28.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 14.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.12,
+        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:34:36Z"
+    },
+    {
       "id": "window-controls-overlay",
       "slug": "window-controls-overlay",
       "title": "Window Controls Overlay",
@@ -15166,68 +15344,6 @@
       "lastActivityAt": "2026-09-03T14:34:26Z"
     },
     {
-      "id": "text-spacing-trim",
-      "slug": "text-spacing-trim",
-      "title": "text-spacing-trim",
-      "summary": "The text-spacing-trim CSS property controls spacing around CJK characters, avoiding excessive whitespace when using full-width punctuation characters.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 236,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/236"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-spacing-trim/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 4,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 25.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 12.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.1,
-        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:36Z"
-    },
-    {
       "id": "webnn",
       "slug": "webnn",
       "title": "WebNN",
@@ -15815,9 +15931,9 @@
         "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
+        "votes7d": 2,
         "votes30d": 0,
-        "score7d": 11.1,
+        "score7d": 5.5,
         "score30d": 0
       },
       "comments": [],
@@ -15947,9 +16063,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-18T16:18:13Z"
+      "lastActivityAt": "2026-09-19T09:47:29Z"
     },
     {
       "id": "long-animation-frames",

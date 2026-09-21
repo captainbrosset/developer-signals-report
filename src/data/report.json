@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-20T09:22:16.581Z",
-    "staleAfter": "2026-09-22T09:22:16.581Z",
+    "generatedAt": "2026-09-21T10:05:32.795Z",
+    "staleAfter": "2026-09-23T10:05:32.795Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,26 +10,29 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-20T09:22:16.581Z"
+        "retrievedAt": "2026-09-21T10:05:32.795Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-20T09:22:16.581Z"
+        "retrievedAt": "2026-09-21T10:05:32.795Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-20T09:22:16.581Z"
+        "retrievedAt": "2026-09-21T10:05:32.795Z"
       }
     ],
     "warnings": [
-      "hanging-punctuation: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "if: feed votes 105 differed from GitHub 106; GitHub value used.",
-      "move-before: feed votes 32 differed from GitHub 33; GitHub value used.",
-      "random-function: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "share: feed votes 22 differed from GitHub 23; GitHub value used.",
-      "text-spacing-trim: feed votes 4 differed from GitHub 5; GitHub value used."
+      "app-share-targets: feed votes 10 differed from GitHub 11; GitHub value used.",
+      "container-anchor-position-queries: feed votes 27 differed from GitHub 28; GitHub value used.",
+      "corner-shape: feed votes 130 differed from GitHub 132; GitHub value used.",
+      "frame-sizing: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "html-setters: feed votes 1 differed from GitHub 2; GitHub value used.",
+      "if: feed votes 106 differed from GitHub 107; GitHub value used.",
+      "jpegxl: feed votes 498 differed from GitHub 499; GitHub value used.",
+      "sizes-auto: feed votes 29 differed from GitHub 31; GitHub value used.",
+      "window-drag: feed votes 0 differed from GitHub 1; GitHub value used."
     ]
   },
   "features": [
@@ -55,13 +58,13 @@
         "edge",
         "firefox"
       ],
-      "votes": 498,
+      "votes": 499,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.88,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 99.9,
+        "voteDemand": 100,
         "useCaseEvidence": 59,
         "workaroundBurden": 0,
         "composite": 70.6
@@ -69,7 +72,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 498 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 499 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -674,13 +677,13 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 498,
+          "votes": 499,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.88,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 99.9,
+            "voteDemand": 100,
             "useCaseEvidence": 59,
             "workaroundBurden": 0,
             "composite": 70.6
@@ -726,7 +729,7 @@
         "rationale": "3 distinct qualified authors; 233 issue votes; 38% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 7,
+        "votes7d": 6,
         "votes30d": 0,
         "score7d": 3.1,
         "score30d": 0
@@ -1009,9 +1012,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.3
           }
+        },
+        {
+          "date": "2026-09-20",
+          "votes": 233,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 87.8,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-19T09:47:27Z"
+      "lastActivityAt": "2026-09-20T10:09:30Z"
     },
     {
       "id": "attr",
@@ -1426,27 +1443,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 130,
+      "votes": 132,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 78.4,
+        "voteDemand": 78.7,
         "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
-        "composite": 50.5
+        "composite": 50.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.46,
-        "rationale": "2 distinct qualified authors; 130 issue votes; 40% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 132 issue votes; 40% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 11.4,
-        "score30d": 11.4
+        "votes7d": 3,
+        "votes30d": 3,
+        "score7d": 11.5,
+        "score30d": 11.5
       },
       "comments": [
         {
@@ -1561,16 +1578,16 @@
         },
         {
           "date": "2026-09-17",
-          "votes": 130,
+          "votes": 132,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.4,
+            "voteDemand": 78.7,
             "useCaseEvidence": 32.2,
             "workaroundBurden": 0,
-            "composite": 50.5
+            "composite": 50.6
           }
         }
       ],
@@ -1943,21 +1960,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 106,
+      "votes": 107,
       "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
+      "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 75.2,
-        "useCaseEvidence": 20.4,
+        "voteDemand": 75.3,
+        "useCaseEvidence": 20.9,
         "workaroundBurden": 0,
-        "composite": 44.7
+        "composite": 45
       },
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 106 issue votes; 25% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 107 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2009,7 +2026,7 @@
           "body": "## What I want to do with this feature\n\nI have some places where typography scales based on the selected size of the image next to it. I know the size of the image as a variable already, I'd love to be able to set weight, letter-spacing, etc. based on the image size.\n\n## What I'm having to do in the meantime\n\nI opted to just pick values that are a happy medium, so the styles look a bit weird at the more extreme image sizes. I could use JS but I'd prefer a CSS-only solution!",
           "parsedGoal": "I have some places where typography scales based on the selected size of the image next to it. I know the size of the image as a variable already, I'd love to be able to set weight, letter-spacing, etc. based on the image size.",
           "parsedWorkaround": "I opted to just pick values that are a happy medium, so the styles look a bit weird at the more extreme image sizes. I could use JS but I'd prefer a CSS-only solution!",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "qualified",
           "themes": [
             "media"
@@ -2039,16 +2056,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 106,
+          "votes": 107,
           "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
+          "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 75.2,
-            "useCaseEvidence": 20.4,
+            "voteDemand": 75.3,
+            "useCaseEvidence": 20.9,
             "workaroundBurden": 0,
-            "composite": 44.7
+            "composite": 45
           }
         }
       ],
@@ -5101,6 +5118,67 @@
       "lastActivityAt": "2026-09-03T14:36:36Z"
     },
     {
+      "id": "sizes-auto",
+      "slug": "sizes-auto",
+      "title": "<img sizes=\"auto\" loading=\"lazy\">",
+      "summary": "The sizes=\"auto\" attribute for the <img> HTML element sets the layout size for the image based on the computed layout size when choosing a source from the srcset. This attribute only applies to images with the loading=\"lazy\" attribute.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 250,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/250"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/sizes-auto/",
+      "categories": [
+        "Images"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 31,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 55.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 31 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:34:43Z"
+    },
+    {
       "id": "beforeinstallprompt",
       "slug": "beforeinstallprompt",
       "title": "beforeinstallprompt",
@@ -5259,67 +5337,6 @@
       "lastActivityAt": "2026-08-26T12:10:14Z"
     },
     {
-      "id": "sizes-auto",
-      "slug": "sizes-auto",
-      "title": "<img sizes=\"auto\" loading=\"lazy\">",
-      "summary": "The sizes=\"auto\" attribute for the <img> HTML element sets the layout size for the image based on the computed layout size when choosing a source from the srcset. This attribute only applies to images with the loading=\"lazy\" attribute.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 250,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/250"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/sizes-auto/",
-      "categories": [
-        "Images"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 29,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 54.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 29 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 29,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 54.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:43Z"
-    },
-    {
       "id": "barcode",
       "slug": "barcode",
       "title": "Barcode detector",
@@ -5399,6 +5416,82 @@
         }
       ],
       "lastActivityAt": "2026-08-27T13:13:33Z"
+    },
+    {
+      "id": "container-anchor-position-queries",
+      "slug": "container-anchor-position-queries",
+      "title": "Anchor position container queries",
+      "summary": "Anchor position container queries with the @container anchored(fallback: …) at-rule apply styles to an element based on the element's anchor position.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 466,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/466"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-anchor-position-queries/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 28,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 54.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 28 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.3,
+        "score30d": 0.3
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 27,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.8
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 28,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:50Z"
     },
     {
       "id": "meta-theme-color",
@@ -5668,82 +5761,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:42Z"
-    },
-    {
-      "id": "container-anchor-position-queries",
-      "slug": "container-anchor-position-queries",
-      "title": "Anchor position container queries",
-      "summary": "Anchor position container queries with the @container anchored(fallback: …) at-rule apply styles to an element based on the element's anchor position.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 466,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/466"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-anchor-position-queries/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 27,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 27,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.8
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 27,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:50Z"
     },
     {
       "id": "scroll-into-view-container",
@@ -6022,6 +6039,98 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:29Z"
+    },
+    {
+      "id": "widows-orphans",
+      "slug": "widows-orphans",
+      "title": "Widows and orphans",
+      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 11,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
+      "categories": [
+        "Layout"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 10,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 38.6,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 26.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.4,
+        "rationale": "1 distinct qualified author; 10 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 7.7,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVqrhWA",
+          "author": "saschaleib",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/11#issuecomment-5749006680",
+          "createdAt": "2026-09-20T09:40:06Z",
+          "body": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established _best practices_.\n\nWhile more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.\n\nAs someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible `::before` and `::after` blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if `orphans` and `widows` would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "installed apps"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of th…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "votes": 10,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-20T09:40:06Z"
     },
     {
       "id": "accent-color",
@@ -7896,9 +8005,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-20",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-19T09:47:26Z"
+      "lastActivityAt": "2026-09-20T10:09:29Z"
     },
     {
       "id": "manifest",
@@ -9293,6 +9416,101 @@
       "lastActivityAt": "2026-08-26T12:09:53Z"
     },
     {
+      "id": "app-share-targets",
+      "slug": "app-share-targets",
+      "title": "Share targets",
+      "summary": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 107,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/107"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-share-targets/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 11,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 40,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 0.7,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVyNBfQ",
+          "author": "mlantin",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/107#issuecomment-5756895613",
+          "createdAt": "2026-09-21T07:25:39Z",
+          "body": "## What I want to do with this feature\n\nI have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.\n\n## What I'm having to do in the meantime\n\nThe only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media.\n\nI could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
+          "parsedGoal": "I have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.",
+          "parsedWorkaround": "The only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media. I could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-21T07:25:39Z"
+    },
+    {
       "id": "initial-letter",
       "slug": "initial-letter",
       "title": "initial-letter",
@@ -9676,68 +9894,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:58Z"
-    },
-    {
-      "id": "app-share-targets",
-      "slug": "app-share-targets",
-      "title": "Share targets",
-      "summary": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 107,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/107"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-share-targets/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 10,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 19.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:35Z"
     },
     {
       "id": "autofill",
@@ -10698,9 +10854,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-20",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-19T09:47:28Z"
+      "lastActivityAt": "2026-09-20T10:09:31Z"
     },
     {
       "id": "web-midi",
@@ -11318,67 +11488,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:56Z"
-    },
-    {
-      "id": "widows-orphans",
-      "slug": "widows-orphans",
-      "title": "Widows and orphans",
-      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 11,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
-      "categories": [
-        "Layout"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:08:38Z"
     },
     {
       "id": "background-clip-text",
@@ -12568,6 +12677,102 @@
       "lastActivityAt": "2026-08-26T12:09:11Z"
     },
     {
+      "id": "frame-sizing",
+      "slug": "frame-sizing",
+      "title": "Responsive iframes",
+      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 914,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 0,
+        "score7d": 4.6,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
+          "author": "crutchcorn",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
+          "createdAt": "2026-09-19T05:24:54Z",
+          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
+          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
+          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-19T05:25:46Z"
+    },
+    {
       "id": "hidden-until-found",
       "slug": "hidden-until-found",
       "title": "hidden=\"until-found\"",
@@ -13569,102 +13774,6 @@
       "lastActivityAt": "2026-09-03T14:36:21Z"
     },
     {
-      "id": "frame-sizing",
-      "slug": "frame-sizing",
-      "title": "Responsive iframes",
-      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 914,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 2,
-        "votes30d": 0,
-        "score7d": 3.3,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
-          "author": "crutchcorn",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
-          "createdAt": "2026-09-19T05:24:54Z",
-          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
-          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
-          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-19T05:25:46Z"
-    },
-    {
       "id": "geolocation-element",
       "slug": "geolocation-element",
       "title": "<geolocation>",
@@ -14019,7 +14128,38 @@
         "score7d": 0,
         "score30d": 0
       },
-      "comments": [],
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVqz6dw",
+          "author": "satydevrk62-creator",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/182#issuecomment-5749144183",
+          "createdAt": "2026-09-20T10:09:35Z",
+          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVq0I0A",
+          "author": "satydevrk62-creator",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/182#issuecomment-5749147856",
+          "createdAt": "2026-09-20T10:10:19Z",
+          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
       "snapshots": [
         {
           "date": "2026-08-26",
@@ -14034,9 +14174,23 @@
             "workaroundBurden": 0,
             "composite": 14.4
           }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:10:27Z"
+      "lastActivityAt": "2026-09-21T05:18:25Z"
     },
     {
       "id": "anchor-positioning-transforms",
@@ -16077,9 +16231,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-20",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-19T09:47:29Z"
+      "lastActivityAt": "2026-09-20T10:09:32Z"
     },
     {
       "id": "long-animation-frames",
@@ -17619,6 +17787,65 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:10Z"
+    },
+    {
+      "id": "html-setters",
+      "slug": "html-setters",
+      "title": "HTML setter methods",
+      "summary": "Developer demand and implementation evidence for Html Setters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 930,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/930"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/html-setters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 2,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 8.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.07,
+        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:18:09Z"
     },
     {
       "id": "longtasks",
@@ -19907,65 +20134,6 @@
       "lastActivityAt": "2026-08-26T12:09:17Z"
     },
     {
-      "id": "html-setters",
-      "slug": "html-setters",
-      "title": "HTML setter methods",
-      "summary": "Developer demand and implementation evidence for Html Setters.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 930,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/930"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/html-setters/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:18:09Z"
-    },
-    {
       "id": "html-streaming-setters",
       "slug": "html-streaming-setters",
       "title": "HTML streaming setters",
@@ -21874,6 +22042,84 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:38Z"
+    },
+    {
+      "id": "window-drag",
+      "slug": "window-drag",
+      "title": "window-drag",
+      "summary": "The window-drag: move CSS declaration sets an element as a window drag handle, like a device's app title bar. You can use this to add click-and-drag areas to an installed progressive web app, often alongside window controls overlay.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 913,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/913"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-drag/",
+      "categories": [
+        "CSS",
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-08T16:07:57Z"
     },
     {
       "id": "app-migration",
@@ -25828,84 +26074,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:01Z"
-    },
-    {
-      "id": "window-drag",
-      "slug": "window-drag",
-      "title": "window-drag",
-      "summary": "The window-drag: move CSS declaration sets an element as a window drag handle, like a device's app title bar. You can use this to add click-and-drag areas to an installed progressive web app, often alongside window controls overlay.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 913,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/913"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-drag/",
-      "categories": [
-        "CSS",
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
-          "date": "2026-09-08",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-08T16:07:57Z"
     },
     {
       "id": "writingsuggestions",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-21T10:05:32.795Z",
-    "staleAfter": "2026-09-23T10:05:32.795Z",
+    "generatedAt": "2026-09-22T09:23:54.297Z",
+    "staleAfter": "2026-09-24T09:23:54.297Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,29 +10,25 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-21T10:05:32.795Z"
+        "retrievedAt": "2026-09-22T09:23:54.297Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-21T10:05:32.795Z"
+        "retrievedAt": "2026-09-22T09:23:54.297Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-21T10:05:32.795Z"
+        "retrievedAt": "2026-09-22T09:23:54.297Z"
       }
     ],
     "warnings": [
-      "app-share-targets: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "container-anchor-position-queries: feed votes 27 differed from GitHub 28; GitHub value used.",
-      "corner-shape: feed votes 130 differed from GitHub 132; GitHub value used.",
-      "frame-sizing: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "html-setters: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "if: feed votes 106 differed from GitHub 107; GitHub value used.",
-      "jpegxl: feed votes 498 differed from GitHub 499; GitHub value used.",
-      "sizes-auto: feed votes 29 differed from GitHub 31; GitHub value used.",
-      "window-drag: feed votes 0 differed from GitHub 1; GitHub value used."
+      "customizable-select: feed votes 236 differed from GitHub 237; GitHub value used.",
+      "loading-lazy-media: feed votes 32 differed from GitHub 33; GitHub value used.",
+      "permissions-policy: feed votes 6 differed from GitHub 7; GitHub value used.",
+      "temporal: feed votes 235 differed from GitHub 237; GitHub value used.",
+      "webgpu: feed votes 61 differed from GitHub 62; GitHub value used."
     ]
   },
   "features": [
@@ -58,7 +54,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 499,
+      "votes": 500,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.88,
       "workaroundBurdenRaw": 0,
@@ -67,12 +63,12 @@
         "voteDemand": 100,
         "useCaseEvidence": 59,
         "workaroundBurden": 0,
-        "composite": 70.6
+        "composite": 70.7
       },
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 499 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 500 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -677,7 +673,7 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 499,
+          "votes": 500,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.88,
           "workaroundBurdenRaw": 0,
@@ -686,7 +682,7 @@
             "voteDemand": 100,
             "useCaseEvidence": 59,
             "workaroundBurden": 0,
-            "composite": 70.6
+            "composite": 70.7
           }
         }
       ],
@@ -712,26 +708,26 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 233,
+      "votes": 237,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 87.8,
+        "voteDemand": 88,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
-        "composite": 61.3
+        "composite": 61.4
       },
       "confidence": {
         "level": "medium",
-        "score": 0.5,
-        "rationale": "3 distinct qualified authors; 233 issue votes; 38% of reviewed comments qualified."
+        "score": 0.49,
+        "rationale": "3 distinct qualified authors; 237 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 6,
+        "votes7d": 10,
         "votes30d": 0,
-        "score7d": 3.1,
+        "score7d": 3.2,
         "score30d": 0
       },
       "comments": [
@@ -870,6 +866,23 @@
           "workaroundSeverity": "none",
           "generatedSummary": "I want to use Temporal.Duration to display the time passed on a video in MM:SS format.",
           "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABV8dzEw",
+          "author": "anthonymhumphreys",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5767656211",
+          "createdAt": "2026-09-21T21:18:17Z",
+          "body": "### What I want to do with this feature\n\nconst tmpdzt = Object.freeze(dzt);\n\n### What I'm having to do in the meantime\n\nconst tmpEpochMilliSecs = dzt.epochMilliseconds",
+          "parsedGoal": "const tmpdzt = Object.freeze(dzt);",
+          "parsedWorkaround": "const tmpEpochMilliSecs = dzt.epochMilliseconds",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -1026,9 +1039,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.3
           }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 237,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.4
+          }
         }
       ],
-      "lastActivityAt": "2026-09-20T10:09:30Z"
+      "lastActivityAt": "2026-09-21T21:18:36Z"
     },
     {
       "id": "attr",
@@ -2093,7 +2120,7 @@
         "firefox",
         "safari"
       ],
-      "votes": 236,
+      "votes": 237,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
@@ -2107,10 +2134,10 @@
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 236 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 237 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
+        "votes7d": 4,
         "votes30d": 0,
         "score7d": 0.1,
         "score30d": 0
@@ -2133,7 +2160,7 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 236,
+          "votes": 237,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
@@ -2250,21 +2277,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 61,
+      "votes": 62,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 66.4,
+        "voteDemand": 66.6,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 40.1
+        "composite": 40.3
       },
       "confidence": {
         "level": "low",
         "score": 0.38,
-        "rationale": "1 distinct qualified author; 61 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 62 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2323,16 +2350,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 61,
+          "votes": 62,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 66.4,
+            "voteDemand": 66.6,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 40.1
+            "composite": 40.3
           }
         }
       ],
@@ -4590,6 +4617,100 @@
       "lastActivityAt": "2026-08-14T14:48:05Z"
     },
     {
+      "id": "loading-lazy-media",
+      "slug": "loading-lazy-media",
+      "title": "Lazy-loading media",
+      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 534,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
+      "categories": [
+        "Media elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 33,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 56.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 28.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 33 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 0,
+        "score7d": 0.5,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
+          "author": "robole",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
+          "createdAt": "2026-07-02T09:28:45Z",
+          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It looks blank if you do provide an image to the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
+          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
+          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It looks blank if you do provide an image to the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 33,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:18:00Z"
+    },
+    {
       "id": "move-before",
       "slug": "move-before",
       "title": "moveBefore()",
@@ -4681,100 +4802,6 @@
         }
       ],
       "lastActivityAt": "2026-09-19T15:49:25Z"
-    },
-    {
-      "id": "loading-lazy-media",
-      "slug": "loading-lazy-media",
-      "title": "Lazy-loading media",
-      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 534,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
-      "categories": [
-        "Media elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 32,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 56.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 28.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 32 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 0,
-        "score7d": 0.2,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
-          "author": "robole",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
-          "createdAt": "2026-07-02T09:28:45Z",
-          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It looks blank if you do provide an image to the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
-          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
-          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It looks blank if you do provide an image to the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 32,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 56.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:18:00Z"
     },
     {
       "id": "element",
@@ -6039,98 +6066,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:29Z"
-    },
-    {
-      "id": "widows-orphans",
-      "slug": "widows-orphans",
-      "title": "Widows and orphans",
-      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 11,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
-      "categories": [
-        "Layout"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 10,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 0,
-        "composite": 26.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.4,
-        "rationale": "1 distinct qualified author; 10 issue votes; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 0,
-        "score7d": 7.7,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVqrhWA",
-          "author": "saschaleib",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/11#issuecomment-5749006680",
-          "createdAt": "2026-09-20T09:40:06Z",
-          "body": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established _best practices_.\n\nWhile more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.\n\nAs someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible `::before` and `::after` blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if `orphans` and `widows` would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "installed apps"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of th…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-09-20",
-          "votes": 10,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-20T09:40:06Z"
     },
     {
       "id": "accent-color",
@@ -8019,9 +7954,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-20T10:09:29Z"
+      "lastActivityAt": "2026-09-21T15:14:24Z"
     },
     {
       "id": "manifest",
@@ -8922,6 +8871,101 @@
       "lastActivityAt": "2026-08-26T12:10:20Z"
     },
     {
+      "id": "app-share-targets",
+      "slug": "app-share-targets",
+      "title": "Share targets",
+      "summary": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 107,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/107"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-share-targets/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 0,
+        "score7d": 1.3,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVyNBfQ",
+          "author": "mlantin",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/107#issuecomment-5756895613",
+          "createdAt": "2026-09-21T07:25:39Z",
+          "body": "## What I want to do with this feature\n\nI have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.\n\n## What I'm having to do in the meantime\n\nThe only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media.\n\nI could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
+          "parsedGoal": "I have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.",
+          "parsedWorkaround": "The only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media. I could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-21T07:25:39Z"
+    },
+    {
       "id": "cookie-store",
       "slug": "cookie-store",
       "title": "Cookie store",
@@ -9416,101 +9460,6 @@
       "lastActivityAt": "2026-08-26T12:09:53Z"
     },
     {
-      "id": "app-share-targets",
-      "slug": "app-share-targets",
-      "title": "Share targets",
-      "summary": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 107,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/107"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-share-targets/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 11,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 0,
-        "score7d": 0.7,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVyNBfQ",
-          "author": "mlantin",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/107#issuecomment-5756895613",
-          "createdAt": "2026-09-21T07:25:39Z",
-          "body": "## What I want to do with this feature\n\nI have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.\n\n## What I'm having to do in the meantime\n\nThe only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media.\n\nI could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
-          "parsedGoal": "I have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.",
-          "parsedWorkaround": "The only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media. I could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media",
-            "installed apps"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-21",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-21T07:25:39Z"
-    },
-    {
       "id": "initial-letter",
       "slug": "initial-letter",
       "title": "initial-letter",
@@ -9894,6 +9843,104 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:58Z"
+    },
+    {
+      "id": "rhythmic-sizing",
+      "slug": "rhythmic-sizing",
+      "title": "Rhythmic sizing",
+      "summary": "The line-height-step CSS property creates consistent vertical rhythm by setting the spacing between body text baselines. It rounds taller lines like headings up to the next multiple of the body text spacing.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 315,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/315"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/rhythmic-sizing/",
+      "categories": [
+        "Text"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 4,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 19.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.35,
+        "rationale": "1 distinct qualified author; 4 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 7,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABV4Jt7Q",
+          "author": "firefoxic",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/315#issuecomment-5763132909",
+          "createdAt": "2026-09-21T15:35:19Z",
+          "body": "This issue is about rhythmic sizing, but its text is a bit outdated: `line-height-step` will most likely never be implemented (and with `lh` and `rlh` available it is no longer needed anyway) — the engines have dropped it.\n\nThe `block-step-*` properties are what is really needed. My comment is about these properties specifically.\n\n## What I want to do with this feature\n\nMy main use case is a grid of product cards. The card titles differ in height and are never a multiple of `rlh`, because they have a line height of their own and the text varies in length, wrapping to a different number of lines. As a result, the product descriptions and specs end up shifted off the baseline grid of the body text by a different distance in every card. In other words, plain text in neighbouring cards is misaligned. Designers and project managers often ask to do something about it, but nothing can be done about it without JS, which makes the interface janky and sluggish (and because of that the rhythm has to be given up).\n\nBut cards are not the only use case. Here are a few more:\n\n- multi-column layout (rarely, but I do have to resort to it);\n- long-form text simply always looks better when the text itself, the headings, images, quotes, lists and everything else follow the same rhythm;\n- for Japanese and Chinese typography, rhythm is not mere decoration;\n- EPUB with two pages displayed side by side badly needs these properties too.\n\n## What I'm having to do in the meantime\n\nIn the [demo](https://firefoxic.github.io/block-step-demo/) I have put together three minimal implementations of the workarounds: one JS emulation and two CSS hacks (neither is in Baseline at the moment). All three are worse than a single line of `block-step: 1rlh`:\n\n- **JS with `ResizeObserver`** runs only after layout: the page is first painted without rhythm, then it jumps, and everything is recalculated on every resize and whenever fonts or images load.\n- **`calc-size()` with `round()`** is Chromium-only. It doesn't see the block's own margins and borders, so they have to be written into the formula by hand, and the extra space ends up inside the block rather than in its margins.\n- **The scroll-driven animations hack** forces `overflow: hidden` on the block and takes over its `::before`, so it doesn't work on `<img>`, and it doesn't work in Firefox at all.\n\nSo in practice I mostly end up giving up on rhythm altogether.\n",
+          "parsedGoal": "My main use case is a grid of product cards. The card titles differ in height and are never a multiple of rlh, because they have a line height of their own and the text varies in length, wrapping to a different number of lines. As a result, the product descriptions and specs end up shifted off the baseline grid of the body text by a different distance in every card. In other words, plain text in neighbouring cards is misaligned. Designers and project managers often ask to do something about it, but nothing can be done about it without JS, which makes the interface janky and sluggish (and because of that the rhythm has to be given up). But cards are not the only use case. Here are a few more: - multi-column layout (rarely, but I do have to resort to it); - long-form text simply always looks better when the text itself, the headings, images, quotes, lists and everything else follow the same rhythm; - for Japanese and Chinese typography, rhythm is not mere decoration; - EPUB with two pages displayed side by side badly needs these properties too.",
+          "parsedWorkaround": "In the demo I have put together three minimal implementations of the workarounds: one JS emulation and two CSS hacks (neither is in Baseline at the moment). All three are worse than a single line of block-step: 1rlh: - JS with ResizeObserver runs only after layout: the page is first painted without rhythm, then it jumps, and everything is recalculated on every resize and whenever fonts or images load. - calc-size() with round() is Chromium-only. It doesn't see the block's own margins and borders, so they have to be written into the formula by hand, and the extra space ends up inside the block rather than in its margins. - The scroll-driven animations hack forces overflow: hidden on the block and takes over its ::before, so it doesn't work on <img>, and it doesn't work in Firefox at all. So in practice I mostly end up giving up on rhythm altogether.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "layout & design",
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "My main use case is a grid of product cards. The card titles differ in height and are never a multiple of rlh, because they have a line height of their own and the text varies in …",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 4,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 19.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-21T15:35:20Z"
     },
     {
       "id": "autofill",
@@ -10868,9 +10915,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-20T10:09:31Z"
+      "lastActivityAt": "2026-09-21T15:14:26Z"
     },
     {
       "id": "web-midi",
@@ -10948,6 +11009,113 @@
         }
       ],
       "lastActivityAt": "2026-08-25T07:16:48Z"
+    },
+    {
+      "id": "widows-orphans",
+      "slug": "widows-orphans",
+      "title": "Widows and orphans",
+      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 11,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
+      "categories": [
+        "Layout"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 10,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 38.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 19.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 0.8,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVqrhWA",
+          "author": "saschaleib",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/11#issuecomment-5749006680",
+          "createdAt": "2026-09-20T09:40:06Z",
+          "body": "## What I want to do with this feature\n\nLet me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established _best practices_.\n\nWhile more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.\n\n## What I'm having to do in the meantime\n\nAs someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible `::before` and `::after` blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if `orphans` and `widows` would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
+          "parsedGoal": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established best practices. While more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.",
+          "parsedWorkaround": "As someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible ::before and ::after blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if orphans and widows would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "votes": 10,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-21T15:10:30Z"
     },
     {
       "id": "caret-shape",
@@ -12453,6 +12621,86 @@
       "lastActivityAt": "2026-08-14T14:49:05Z"
     },
     {
+      "id": "permissions-policy",
+      "slug": "permissions-policy",
+      "title": "Permissions policy",
+      "summary": "The Permissions-Policy response header and the allow attribute for <iframe> elements sets whether a policy-controlled feature, such as an API, may be used in a document.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 479,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/479"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/permissions-policy/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 7,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 33.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 16.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7yAjXC",
+          "author": "GwynethLlewelyn",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/479#issuecomment-4060231106",
+          "createdAt": "2026-03-14T10:23:02Z",
+          "body": "## What I want to do with this feature\n\nEssentially, replace the now-deprecated `Feature-policy` with just **one** header, i.e., `Permissions-Policy`.\n\n## What I'm having to do in the meantime\n\nEven though [caniuse.com](https://caniuse.com) reports that 75% of all browsers support `Permissions-Policy`, it's obvious that all these are Chromium-based browsers. Apple's Safari, which powers a billion Apple devices, does not recognise `Permissions-Policy`, and even `Feature-policy` has limited support.\n\nIt's always annoying to have to send _two_ headers that specify very similar configurations/settings because of a change in specifications. Since, as said, `Feature-policy` is limited in many browsers, a better approach, IMHO, would be to lobby for direct implementation of  `Permissions-Policy` instead, skipping whatever developer time was allocated by the browser developer to 'finish up' the now-deprecated `Feature-policy` header.\n\n('Annoying' in this context should be read as 'wasting unnecessary bytes on the payload')\n\nOne interesting possibility would be to have all policies 'off' by default and only modify those that are to be 'on'. Unfortunately, the number of policies that _most_ developers expect to be present (such as support for Aria, or full-screen, or even snapshots...) is quite extensive as well, so any thoughts of saving bytes sent on the headers would probably be moot.\n\nAlternatives would be to either have abbreviations for each setting (at the cost of making the headers less legible) or a very compact representation format, such as allowing an alternative directive configuration string using just two letters for each directive that is set to `'*'`, e.g., \"_ARCMCP\" would turn 'on' the policies for `aria-notify`, `camera`, and `compute-pressure`. The first character, `'_'` is just a marker to say 'alternative configuration string follows', and the rest is just a sequence of two ASCII characters for each policy to be turned 'on' — which, in turn, would naturally require a specification of which policy each pair of characters encodes...",
+          "parsedGoal": "Essentially, replace the now-deprecated Feature-policy with just one header, i.e., Permissions-Policy.",
+          "parsedWorkaround": "Even though caniuse.com reports that 75% of all browsers support Permissions-Policy, it's obvious that all these are Chromium-based browsers. Apple's Safari, which powers a billion Apple devices, does not recognise Permissions-Policy, and even Feature-policy has limited support. It's always annoying to have to send two headers that specify very similar configurations/settings because of a change in specifications. Since, as said, Feature-policy is limited in many browsers, a better approach, IMHO, would be to lobby for direct implementation of Permissions-Policy instead, skipping whatever developer time was allocated by the browser developer to 'finish up' the now-deprecated Feature-policy header. ('Annoying' in this context should be read as 'wasting unnecessary bytes on the payload') One interesting possibility would be to have all policies 'off' by default and only modify those that are to be 'on'. Unfortunately, the number of policies that most developers expect to be present (such as support for Aria, or full-screen, or even snapshots...) is quite extensive as well, so any thoughts of saving bytes sent on the headers would probably be moot. Alternatives would be to either have abbreviations for each setting (at the cost of making the headers less legible) or a very compact representation format, such as allowing an alternative directive configuration string using just two letters for each directive that is set to '', e.g., \"ARCMCP\" would turn 'on' the policies for aria-notify, camera, and compute-pressure. The first character, '' is just a marker to say 'alternative configuration string follows', and the rest is just a sequence of two ASCII characters for each policy to be turned 'on' — which, in turn, would naturally require a specification of which policy each pair of characters encodes...",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:47:26Z"
+    },
+    {
       "id": "window-management",
       "slug": "window-management",
       "title": "Window management",
@@ -13127,86 +13375,6 @@
       "lastActivityAt": "2026-08-26T12:09:19Z"
     },
     {
-      "id": "permissions-policy",
-      "slug": "permissions-policy",
-      "title": "Permissions policy",
-      "summary": "The Permissions-Policy response header and the allow attribute for <iframe> elements sets whether a policy-controlled feature, such as an API, may be used in a document.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 479,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/479"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/permissions-policy/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 6,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 31.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 15.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.13,
-        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7yAjXC",
-          "author": "GwynethLlewelyn",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/479#issuecomment-4060231106",
-          "createdAt": "2026-03-14T10:23:02Z",
-          "body": "## What I want to do with this feature\n\nEssentially, replace the now-deprecated `Feature-policy` with just **one** header, i.e., `Permissions-Policy`.\n\n## What I'm having to do in the meantime\n\nEven though [caniuse.com](https://caniuse.com) reports that 75% of all browsers support `Permissions-Policy`, it's obvious that all these are Chromium-based browsers. Apple's Safari, which powers a billion Apple devices, does not recognise `Permissions-Policy`, and even `Feature-policy` has limited support.\n\nIt's always annoying to have to send _two_ headers that specify very similar configurations/settings because of a change in specifications. Since, as said, `Feature-policy` is limited in many browsers, a better approach, IMHO, would be to lobby for direct implementation of  `Permissions-Policy` instead, skipping whatever developer time was allocated by the browser developer to 'finish up' the now-deprecated `Feature-policy` header.\n\n('Annoying' in this context should be read as 'wasting unnecessary bytes on the payload')\n\nOne interesting possibility would be to have all policies 'off' by default and only modify those that are to be 'on'. Unfortunately, the number of policies that _most_ developers expect to be present (such as support for Aria, or full-screen, or even snapshots...) is quite extensive as well, so any thoughts of saving bytes sent on the headers would probably be moot.\n\nAlternatives would be to either have abbreviations for each setting (at the cost of making the headers less legible) or a very compact representation format, such as allowing an alternative directive configuration string using just two letters for each directive that is set to `'*'`, e.g., \"_ARCMCP\" would turn 'on' the policies for `aria-notify`, `camera`, and `compute-pressure`. The first character, `'_'` is just a marker to say 'alternative configuration string follows', and the rest is just a sequence of two ASCII characters for each policy to be turned 'on' — which, in turn, would naturally require a specification of which policy each pair of characters encodes...",
-          "parsedGoal": "Essentially, replace the now-deprecated Feature-policy with just one header, i.e., Permissions-Policy.",
-          "parsedWorkaround": "Even though caniuse.com reports that 75% of all browsers support Permissions-Policy, it's obvious that all these are Chromium-based browsers. Apple's Safari, which powers a billion Apple devices, does not recognise Permissions-Policy, and even Feature-policy has limited support. It's always annoying to have to send two headers that specify very similar configurations/settings because of a change in specifications. Since, as said, Feature-policy is limited in many browsers, a better approach, IMHO, would be to lobby for direct implementation of Permissions-Policy instead, skipping whatever developer time was allocated by the browser developer to 'finish up' the now-deprecated Feature-policy header. ('Annoying' in this context should be read as 'wasting unnecessary bytes on the payload') One interesting possibility would be to have all policies 'off' by default and only modify those that are to be 'on'. Unfortunately, the number of policies that most developers expect to be present (such as support for Aria, or full-screen, or even snapshots...) is quite extensive as well, so any thoughts of saving bytes sent on the headers would probably be moot. Alternatives would be to either have abbreviations for each setting (at the cost of making the headers less legible) or a very compact representation format, such as allowing an alternative directive configuration string using just two letters for each directive that is set to '', e.g., \"ARCMCP\" would turn 'on' the policies for aria-notify, camera, and compute-pressure. The first character, '' is just a marker to say 'alternative configuration string follows', and the rest is just a sequence of two ASCII characters for each policy to be turned 'on' — which, in turn, would naturally require a specification of which policy each pair of characters encodes...",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 6,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 15.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:47:26Z"
-    },
-    {
       "id": "presentation-api",
       "slug": "presentation-api",
       "title": "Presentation API",
@@ -13449,6 +13617,113 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:44:54Z"
+    },
+    {
+      "id": "window-controls-overlay",
+      "slug": "window-controls-overlay",
+      "title": "Window Controls Overlay",
+      "summary": "The display_override: [\"window-controls-overlay\"] web application manifest member shows content in the title bar area of a progressive web app that is installed on a desktop device.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 182,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/182"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-controls-overlay/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 1.3,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVqz6dw",
+          "author": "satydevrk62-creator",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/182#issuecomment-5749144183",
+          "createdAt": "2026-09-20T10:09:35Z",
+          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVq0I0A",
+          "author": "satydevrk62-creator",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/182#issuecomment-5749147856",
+          "createdAt": "2026-09-20T10:10:19Z",
+          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-21T05:18:25Z"
     },
     {
       "id": "autocapitalize",
@@ -14084,113 +14359,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:36Z"
-    },
-    {
-      "id": "window-controls-overlay",
-      "slug": "window-controls-overlay",
-      "title": "Window Controls Overlay",
-      "summary": "The display_override: [\"window-controls-overlay\"] web application manifest member shows content in the title bar area of a progressive web app that is installed on a desktop device.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 182,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/182"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-controls-overlay/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVqz6dw",
-          "author": "satydevrk62-creator",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/182#issuecomment-5749144183",
-          "createdAt": "2026-09-20T10:09:35Z",
-          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "minimized",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVq0I0A",
-          "author": "satydevrk62-creator",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/182#issuecomment-5749147856",
-          "createdAt": "2026-09-20T10:10:19Z",
-          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "minimized",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        },
-        {
-          "date": "2026-09-21",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-21T05:18:25Z"
     },
     {
       "id": "anchor-positioning-transforms",
@@ -15230,70 +15398,6 @@
       "lastActivityAt": "2026-09-18T16:17:36Z"
     },
     {
-      "id": "rhythmic-sizing",
-      "slug": "rhythmic-sizing",
-      "title": "Rhythmic sizing",
-      "summary": "The line-height-step CSS property creates consistent vertical rhythm by setting the spacing between body text baselines. It rounds taller lines like headings up to the next multiple of the body text spacing.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 315,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/315"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/rhythmic-sizing/",
-      "categories": [
-        "Text"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 4,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 25.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 12.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.1,
-        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:38Z"
-    },
-    {
       "id": "savedata",
       "slug": "savedata",
       "title": "Save-Data",
@@ -16245,9 +16349,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-20T10:09:32Z"
+      "lastActivityAt": "2026-09-21T15:14:27Z"
     },
     {
       "id": "long-animation-frames",

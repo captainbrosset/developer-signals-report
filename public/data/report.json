@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-23T09:24:17.858Z",
-    "staleAfter": "2026-09-25T09:24:17.858Z",
+    "generatedAt": "2026-09-24T09:24:27.069Z",
+    "staleAfter": "2026-09-26T09:24:27.069Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,54 +10,35 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-23T09:24:17.858Z"
+        "retrievedAt": "2026-09-24T09:24:27.069Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-23T09:24:17.858Z"
+        "retrievedAt": "2026-09-24T09:24:27.069Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-23T09:24:17.858Z"
+        "retrievedAt": "2026-09-24T09:24:27.069Z"
       }
     ],
     "warnings": [
-      "accent-color: feed votes 24 differed from GitHub 25; GitHub value used.",
-      "attr: feed votes 116 differed from GitHub 117; GitHub value used.",
-      "autocapitalize: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "background-clip-text: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "case-sensitive-attributes: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "css-modules: feed votes 33 differed from GitHub 34; GitHub value used.",
-      "css-typed-om: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "customizable-select: feed votes 237 differed from GitHub 238; GitHub value used.",
-      "devicepixelratio: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "dialog-closedby: feed votes 74 differed from GitHub 75; GitHub value used.",
-      "focusgroup: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "fullscreen: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "gpc: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "html-setters: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "input-date-time-month: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "interest-invokers: feed votes 44 differed from GitHub 45; GitHub value used.",
-      "jpegxl: feed votes 500 differed from GitHub 501; GitHub value used.",
-      "loading-lazy-media: feed votes 33 differed from GitHub 34; GitHub value used.",
-      "meta-theme-color: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "mixin: feed votes 16 differed from GitHub 18; GitHub value used.",
-      "popover-hint: feed votes 85 differed from GitHub 87; GitHub value used.",
-      "presentation-api: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "random-function: feed votes 18 differed from GitHub 19; GitHub value used.",
-      "reading-flow: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "scroll-markers: feed votes 24 differed from GitHub 25; GitHub value used.",
-      "scroll-promises: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "scroll-target-group: feed votes 25 differed from GitHub 26; GitHub value used.",
-      "selection: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "stretch: feed votes 26 differed from GitHub 27; GitHub value used.",
-      "style-query-range-syntax: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "switch-control: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "ua-client-hints: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "user-select: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "webgpu: feed votes 62 differed from GitHub 63; GitHub value used."
+      "audio-session: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "capture-stream-audio-video: feed votes 1 differed from GitHub 2; GitHub value used.",
+      "customizable-select: feed votes 238 differed from GitHub 239; GitHub value used.",
+      "eyedropper: feed votes 10 differed from GitHub 11; GitHub value used.",
+      "frame-sizing: feed votes 6 differed from GitHub 8; GitHub value used.",
+      "grid-lanes: feed votes 119 differed from GitHub 120; GitHub value used.",
+      "html-setters: feed votes 3 differed from GitHub 4; GitHub value used.",
+      "input-color: feed votes 11 differed from GitHub 12; GitHub value used.",
+      "languagedetector: feed votes 1 differed from GitHub 2; GitHub value used.",
+      "marker: feed votes 20 differed from GitHub 21; GitHub value used.",
+      "sanitizer: feed votes 88 differed from GitHub 90; GitHub value used.",
+      "speech-recognition: feed votes 20 differed from GitHub 21; GitHub value used.",
+      "translator: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "web-midi: feed votes 10 differed from GitHub 11; GitHub value used.",
+      "webcodecs: feed votes 9 differed from GitHub 10; GitHub value used."
     ]
   },
   "features": [
@@ -1096,9 +1077,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.4
           }
+        },
+        {
+          "date": "2026-09-23",
+          "votes": 237,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.4
+          }
         }
       ],
-      "lastActivityAt": "2026-09-22T10:24:26Z"
+      "lastActivityAt": "2026-09-23T10:19:28Z"
     },
     {
       "id": "attr",
@@ -1382,13 +1377,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 119,
+      "votes": 120,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 1.25,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 77,
+        "voteDemand": 77.1,
         "useCaseEvidence": 32.9,
         "workaroundBurden": 27.5,
         "composite": 54.2
@@ -1396,7 +1391,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.48,
-        "rationale": "2 distinct qualified authors; 119 issue votes; 50% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 120 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1477,13 +1472,13 @@
       "snapshots": [
         {
           "date": "2026-09-18",
-          "votes": 119,
+          "votes": 120,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 1.25,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 77,
+            "voteDemand": 77.1,
             "useCaseEvidence": 32.9,
             "workaroundBurden": 27.5,
             "composite": 54.2
@@ -2163,26 +2158,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 238,
+      "votes": 239,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 88.1,
+        "voteDemand": 88.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 44
+        "composite": 44.1
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 238 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 239 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 5,
+        "votes7d": 6,
         "votes30d": 0,
-        "score7d": 0.1,
+        "score7d": 0.2,
         "score30d": 0
       },
       "comments": [],
@@ -2203,16 +2198,16 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 238,
+          "votes": 239,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 88.1,
+            "voteDemand": 88.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 44
+            "composite": 44.1
           }
         }
       ],
@@ -2871,27 +2866,27 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 88,
+      "votes": 90,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 72.2,
+        "voteDemand": 72.6,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 36.1
+        "composite": 36.3
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 88 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 90 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
-        "votes30d": 9,
-        "score7d": 0,
-        "score30d": 0.9
+        "votes7d": 2,
+        "votes30d": 11,
+        "score7d": 0.2,
+        "score30d": 1.1
       },
       "comments": [
         {
@@ -2960,16 +2955,16 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 88,
+          "votes": 90,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 72.2,
+            "voteDemand": 72.6,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 36.1
+            "composite": 36.3
           }
         }
       ],
@@ -6465,6 +6460,67 @@
       "lastActivityAt": "2026-08-14T14:48:26Z"
     },
     {
+      "id": "marker",
+      "slug": "marker",
+      "title": "::marker",
+      "summary": "The ::marker CSS pseudo-element selects list item markers for styling numbers or bullets.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 128,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/128"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/marker/",
+      "categories": [
+        "Lists"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:50Z"
+    },
+    {
       "id": "notifications",
       "slug": "notifications",
       "title": "Notifications",
@@ -6583,6 +6639,103 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:18Z"
+    },
+    {
+      "id": "speech-recognition",
+      "slug": "speech-recognition",
+      "title": "Speech recognition",
+      "summary": "The SpeechRecognition API converts audio into text using the device's speech recognition service.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 318,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/318"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/speech-recognition/",
+      "categories": [
+        "Speech"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABKk7J1g",
+          "author": "freierprogrammierer-de",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/318#issuecomment-5004773846",
+          "createdAt": "2026-07-17T15:22:51Z",
+          "body": "## What I want to do with this feature\n\nfor a chatbot web app, let the user speak his/her question into the input field\n\n## What I'm having to do in the meantime\n\nuse Chrome",
+          "parsedGoal": "for a chatbot web app, let the user speak his/her question into the input field",
+          "parsedWorkaround": "use Chrome",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABQ7e6XQ",
+          "author": "solonovamax",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/318#issuecomment-5431081565",
+          "createdAt": "2026-08-26T21:03:02Z",
+          "body": "## What I want to do with this feature\n\nAllow users to record notes without having to type, specifically useful for when assembling something which can be messy (i.e. uses grease on the components) and requiring the user to type significantly slows things down due to them needing to take off their gloves, clean their hands, etc.\n\n## What I'm having to do in the meantime\n\nundecided, possibly force the use of chrome, possibly do this client-side with js & wasm for the model (not as a polyfill but just with my own implementation), possibly do this server-side, or possibly just not implement the feature at all.",
+          "parsedGoal": "Allow users to record notes without having to type, specifically useful for when assembling something which can be messy (i.e. uses grease on the components) and requiring the user to type significantly slows things down due to them needing to take off their gloves, clean their hands, etc.",
+          "parsedWorkaround": "undecided, possibly force the use of chrome, possibly do this client-side with js & wasm for the model (not as a polyfill but just with my own implementation), possibly do this server-side, or possibly just not implement the feature at all.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "moderate"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:27Z"
     },
     {
       "id": "badging",
@@ -6774,67 +6927,6 @@
       "lastActivityAt": "2026-09-18T16:17:19Z"
     },
     {
-      "id": "marker",
-      "slug": "marker",
-      "title": "::marker",
-      "summary": "The ::marker CSS pseudo-element selects list item markers for styling numbers or bullets.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 128,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/128"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/marker/",
-      "categories": [
-        "Lists"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:50Z"
-    },
-    {
       "id": "overlay",
       "slug": "overlay",
       "title": "overlay",
@@ -6958,103 +7050,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:21Z"
-    },
-    {
-      "id": "speech-recognition",
-      "slug": "speech-recognition",
-      "title": "Speech recognition",
-      "summary": "The SpeechRecognition API converts audio into text using the device's speech recognition service.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 318,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/318"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/speech-recognition/",
-      "categories": [
-        "Speech"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABKk7J1g",
-          "author": "freierprogrammierer-de",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/318#issuecomment-5004773846",
-          "createdAt": "2026-07-17T15:22:51Z",
-          "body": "## What I want to do with this feature\n\nfor a chatbot web app, let the user speak his/her question into the input field\n\n## What I'm having to do in the meantime\n\nuse Chrome",
-          "parsedGoal": "for a chatbot web app, let the user speak his/her question into the input field",
-          "parsedWorkaround": "use Chrome",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABQ7e6XQ",
-          "author": "solonovamax",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/318#issuecomment-5431081565",
-          "createdAt": "2026-08-26T21:03:02Z",
-          "body": "## What I want to do with this feature\n\nAllow users to record notes without having to type, specifically useful for when assembling something which can be messy (i.e. uses grease on the components) and requiring the user to type significantly slows things down due to them needing to take off their gloves, clean their hands, etc.\n\n## What I'm having to do in the meantime\n\nundecided, possibly force the use of chrome, possibly do this client-side with js & wasm for the model (not as a polyfill but just with my own implementation), possibly do this server-side, or possibly just not implement the feature at all.",
-          "parsedGoal": "Allow users to record notes without having to type, specifically useful for when assembling something which can be messy (i.e. uses grease on the components) and requiring the user to type significantly slows things down due to them needing to take off their gloves, clean their hands, etc.",
-          "parsedWorkaround": "undecided, possibly force the use of chrome, possibly do this client-side with js & wasm for the model (not as a polyfill but just with my own implementation), possibly do this server-side, or possibly just not implement the feature at all.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "moderate"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:27Z"
     },
     {
       "id": "navigator-install",
@@ -7784,6 +7779,102 @@
       "lastActivityAt": "2026-09-03T14:34:32Z"
     },
     {
+      "id": "translator",
+      "slug": "translator",
+      "title": "Translator",
+      "summary": "The Translator API translates some text from one natural language to another, using machine translation.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 512,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/512"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/translator/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 20.4,
+        "workaroundBurden": 0,
+        "composite": 22.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.27,
+        "rationale": "1 distinct qualified author; 6 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFD7Sew",
+          "author": "CyberMew",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/512#issuecomment-4634628731",
+          "createdAt": "2026-06-05T19:05:39Z",
+          "body": "My use case would be: Translator for subtitles. With AI translation it has more context as compared to traditional translation. Being able to do it locally would help with security/privacy and users will have a piece of mind without needing network access. I understand chrome already has support for this, so it would be good to have feature parity and extensions will work across browsers. ",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "security"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "My use case would be: Translator for subtitles. With AI translation it has more context as compared to traditional translation. Being able to do it locally would help with securit…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABSmQLOw",
+          "author": "sophb-chan",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/512#issuecomment-5543037755",
+          "createdAt": "2026-09-04T15:52:09Z",
+          "body": "## What I want to do with this feature\n\n- UI translation for languages with no available locale\n\nImagine a Russian user lands on my website, but I only have locales for English, Spanish and Portuguese. This feature could automatically generate a Russian locale if needed.\n\n## What I'm having to do in the meantime\n\nUse external APIs, which aren't consistent in the long-term. Free APIs could become paid, paid APIs could have price changes, rate-limits can change, and so on.",
+          "parsedGoal": "- UI translation for languages with no available locale Imagine a Russian user lands on my website, but I only have locales for English, Spanish and Portuguese. This feature could automatically generate a Russian locale if needed.",
+          "parsedWorkaround": "Use external APIs, which aren't consistent in the long-term. Free APIs could become paid, paid APIs could have price changes, rate-limits can change, and so on.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-04",
+          "votes": 6,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 22.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-04T15:52:09Z"
+    },
+    {
       "id": "app-launch-handler",
       "slug": "app-launch-handler",
       "title": "Launch handler",
@@ -8089,9 +8180,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-23",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-22T10:24:25Z"
+      "lastActivityAt": "2026-09-23T10:19:27Z"
     },
     {
       "id": "manifest",
@@ -8153,102 +8258,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:06Z"
-    },
-    {
-      "id": "translator",
-      "slug": "translator",
-      "title": "Translator",
-      "summary": "The Translator API translates some text from one natural language to another, using machine translation.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 512,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/512"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/translator/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 5,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 0,
-        "composite": 21.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.26,
-        "rationale": "1 distinct qualified author; 5 issue votes; 50% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFD7Sew",
-          "author": "CyberMew",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/512#issuecomment-4634628731",
-          "createdAt": "2026-06-05T19:05:39Z",
-          "body": "My use case would be: Translator for subtitles. With AI translation it has more context as compared to traditional translation. Being able to do it locally would help with security/privacy and users will have a piece of mind without needing network access. I understand chrome already has support for this, so it would be good to have feature parity and extensions will work across browsers. ",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "security"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "My use case would be: Translator for subtitles. With AI translation it has more context as compared to traditional translation. Being able to do it locally would help with securit…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABSmQLOw",
-          "author": "sophb-chan",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/512#issuecomment-5543037755",
-          "createdAt": "2026-09-04T15:52:09Z",
-          "body": "## What I want to do with this feature\n\n- UI translation for languages with no available locale\n\nImagine a Russian user lands on my website, but I only have locales for English, Spanish and Portuguese. This feature could automatically generate a Russian locale if needed.\n\n## What I'm having to do in the meantime\n\nUse external APIs, which aren't consistent in the long-term. Free APIs could become paid, paid APIs could have price changes, rate-limits can change, and so on.",
-          "parsedGoal": "- UI translation for languages with no available locale Imagine a Russian user lands on my website, but I only have locales for English, Spanish and Portuguese. This feature could automatically generate a Russian locale if needed.",
-          "parsedWorkaround": "Use external APIs, which aren't consistent in the long-term. Free APIs could become paid, paid APIs could have price changes, rate-limits can change, and so on.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-04",
-          "votes": 5,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 21.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-04T15:52:09Z"
     },
     {
       "id": "screen-capture",
@@ -9161,6 +9170,66 @@
       "lastActivityAt": "2026-08-26T12:10:25Z"
     },
     {
+      "id": "input-color",
+      "slug": "input-color",
+      "title": "<input type=\"color\">",
+      "summary": "The <input type=\"color\"> HTML element shows a color picker from which users can choose a color value.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 22,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/22"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-color/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:08:45Z"
+    },
+    {
       "id": "periodic-background-sync",
       "slug": "periodic-background-sync",
       "title": "Periodic background sync",
@@ -9517,6 +9586,86 @@
       "lastActivityAt": "2026-08-26T12:09:53Z"
     },
     {
+      "id": "eyedropper",
+      "slug": "eyedropper",
+      "title": "Eyedropper",
+      "summary": "The EyeDropper API opens an eyedropper tool, a color picker that allows users to select a color from their screen.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 158,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/158"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/eyedropper/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 11,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 40,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABOIsi8g",
+          "author": "dogakorkmaz35",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/158#issuecomment-5243609842",
+          "createdAt": "2026-08-10T17:21:55Z",
+          "body": "## What I want to do with this feature\n\nWe created a color input for our website, we hooked EyeDropper API to a button which toggles EyeDropper.open() and saves it's result's sRGBHex property to our color state.\n\n## What I'm having to do in the meantime\n\nWe are hiding eye-dropping feature when user's browser does not support the API, thus making color selection popup only other available option.",
+          "parsedGoal": "We created a color input for our website, we hooked EyeDropper API to a button which toggles EyeDropper.open() and saves it's result's sRGBHex property to our color state.",
+          "parsedWorkaround": "We are hiding eye-dropping feature when user's browser does not support the API, thus making color selection popup only other available option.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:47:03Z"
+    },
+    {
       "id": "initial-letter",
       "slug": "initial-letter",
       "title": "initial-letter",
@@ -9577,66 +9726,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:30Z"
-    },
-    {
-      "id": "input-color",
-      "slug": "input-color",
-      "title": "<input type=\"color\">",
-      "summary": "The <input type=\"color\"> HTML element shows a color picker from which users can choose a color value.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 22,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/22"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-color/",
-      "categories": [
-        "Forms",
-        "HTML elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 11,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:08:45Z"
     },
     {
       "id": "interactivity",
@@ -9962,6 +10051,83 @@
       "lastActivityAt": "2026-08-14T14:46:58Z"
     },
     {
+      "id": "web-midi",
+      "slug": "web-midi",
+      "title": "Web MIDI",
+      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 50,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 11,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 40,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
+          "author": "pitrackster",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
+          "createdAt": "2026-08-25T07:16:48Z",
+          "body": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-25",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-25T07:16:48Z"
+    },
+    {
       "id": "rhythmic-sizing",
       "slug": "rhythmic-sizing",
       "title": "Rhythmic sizing",
@@ -10273,86 +10439,6 @@
         }
       ],
       "lastActivityAt": "2026-09-12T00:12:01Z"
-    },
-    {
-      "id": "eyedropper",
-      "slug": "eyedropper",
-      "title": "Eyedropper",
-      "summary": "The EyeDropper API opens an eyedropper tool, a color picker that allows users to select a color from their screen.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 158,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/158"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/eyedropper/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 10,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 19.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABOIsi8g",
-          "author": "dogakorkmaz35",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/158#issuecomment-5243609842",
-          "createdAt": "2026-08-10T17:21:55Z",
-          "body": "## What I want to do with this feature\n\nWe created a color input for our website, we hooked EyeDropper API to a button which toggles EyeDropper.open() and saves it's result's sRGBHex property to our color state.\n\n## What I'm having to do in the meantime\n\nWe are hiding eye-dropping feature when user's browser does not support the API, thus making color selection popup only other available option.",
-          "parsedGoal": "We created a color input for our website, we hooked EyeDropper API to a button which toggles EyeDropper.open() and saves it's result's sRGBHex property to our color state.",
-          "parsedWorkaround": "We are hiding eye-dropping feature when user's browser does not support the API, thus making color selection popup only other available option.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:47:03Z"
     },
     {
       "id": "install",
@@ -11000,9 +11086,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-23",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-22T10:24:27Z"
+      "lastActivityAt": "2026-09-23T10:19:29Z"
     },
     {
       "id": "ua-client-hints",
@@ -11067,25 +11167,23 @@
       "lastActivityAt": "2026-08-14T14:46:45Z"
     },
     {
-      "id": "web-midi",
-      "slug": "web-midi",
-      "title": "Web MIDI",
-      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
+      "id": "webcodecs",
+      "slug": "webcodecs",
+      "title": "WebCodecs",
+      "summary": "The WebCodecs API provides low-level access to individual video frames and chunks of audio samples, for full control over the way media is processed.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 50,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
+        "number": 151,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/151"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webcodecs/",
       "categories": [
         "Other"
       ],
       "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
+      "missingBrowsers": [],
       "votes": 10,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
@@ -11110,24 +11208,24 @@
       },
       "comments": [
         {
-          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
-          "author": "pitrackster",
+          "id": "IC_kwDOLb9kWM8AAAABLcpirA",
+          "author": "bivens-dev",
           "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
-          "createdAt": "2026-08-25T07:16:48Z",
-          "body": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/151#issuecomment-5063205548",
+          "createdAt": "2026-07-23T20:40:34Z",
+          "body": "Lack of ImageDecoder support in Safari is blocking the Flutter project from shipping their newest rendering engine to the web as outlined here https://github.com/flutter/flutter/issues/187212",
           "positiveReactions": 0,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
-            "developer experience"
+            "media"
           ],
           "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
         {
-          "date": "2026-08-25",
+          "date": "2026-08-14",
           "votes": 10,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -11141,7 +11239,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-25T07:16:48Z"
+      "lastActivityAt": "2026-08-14T14:46:56Z"
     },
     {
       "id": "widows-orphans",
@@ -11715,81 +11813,6 @@
       "lastActivityAt": "2026-09-03T14:35:46Z"
     },
     {
-      "id": "webcodecs",
-      "slug": "webcodecs",
-      "title": "WebCodecs",
-      "summary": "The WebCodecs API provides low-level access to individual video frames and chunks of audio samples, for full control over the way media is processed.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 151,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/151"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webcodecs/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABLcpirA",
-          "author": "bivens-dev",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/151#issuecomment-5063205548",
-          "createdAt": "2026-07-23T20:40:34Z",
-          "body": "Lack of ImageDecoder support in Safari is blocking the Flutter project from shipping their newest rendering engine to the web as outlined here https://github.com/flutter/flutter/issues/187212",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:46:56Z"
-    },
-    {
       "id": "background-fetch",
       "slug": "background-fetch",
       "title": "Background fetch",
@@ -12055,6 +12078,102 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:40Z"
+    },
+    {
+      "id": "frame-sizing",
+      "slug": "frame-sizing",
+      "title": "Responsive iframes",
+      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 914,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 8,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 17.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 5,
+        "votes30d": 0,
+        "score7d": 6.6,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
+          "author": "crutchcorn",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
+          "createdAt": "2026-09-19T05:24:54Z",
+          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
+          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
+          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-19T05:25:46Z"
     },
     {
       "id": "heading-offset",
@@ -13178,102 +13297,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:22Z"
-    },
-    {
-      "id": "frame-sizing",
-      "slug": "frame-sizing",
-      "title": "Responsive iframes",
-      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 914,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 6,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 31.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 15.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.13,
-        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 3,
-        "votes30d": 0,
-        "score7d": 4.6,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
-          "author": "crutchcorn",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
-          "createdAt": "2026-09-19T05:24:54Z",
-          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
-          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
-          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 6,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 15.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-19T05:25:46Z"
     },
     {
       "id": "hidden-until-found",
@@ -15189,6 +15212,65 @@
       "lastActivityAt": "2026-08-26T12:09:10Z"
     },
     {
+      "id": "html-setters",
+      "slug": "html-setters",
+      "title": "HTML setter methods",
+      "summary": "Developer demand and implementation evidence for Html Setters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 930,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/930"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/html-setters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 4,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 12.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.1,
+        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:18:09Z"
+    },
+    {
       "id": "mask-border",
       "slug": "mask-border",
       "title": "mask-border",
@@ -16165,65 +16247,6 @@
       "lastActivityAt": "2026-09-03T14:35:54Z"
     },
     {
-      "id": "html-setters",
-      "slug": "html-setters",
-      "title": "HTML setter methods",
-      "summary": "Developer demand and implementation evidence for Html Setters.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 930,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/930"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/html-setters/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:18:09Z"
-    },
-    {
       "id": "hyphenate-limit-chars",
       "slug": "hyphenate-limit-chars",
       "title": "Hyphenate limit chars",
@@ -16507,9 +16530,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-23",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-22T10:24:28Z"
+      "lastActivityAt": "2026-09-23T10:19:30Z"
     },
     {
       "id": "long-animation-frames",
@@ -17676,6 +17713,67 @@
       "lastActivityAt": "2026-08-26T12:10:15Z"
     },
     {
+      "id": "capture-stream-audio-video",
+      "slug": "capture-stream-audio-video",
+      "title": "captureStream() for <audio> and <video>",
+      "summary": "The captureStream() method for <audio> and <video> elements returns a MediaStream for the media element's content. You can use this to record media or send it elsewhere, such as a canvas or WebRTC connection.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 77,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/77"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/capture-stream-audio-video/",
+      "categories": [
+        "Media elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 2,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 8.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.07,
+        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:18Z"
+    },
+    {
       "id": "digital-goods",
       "slug": "digital-goods",
       "title": "Digital goods",
@@ -18108,6 +18206,86 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:17:08Z"
+    },
+    {
+      "id": "languagedetector",
+      "slug": "languagedetector",
+      "title": "Language detector",
+      "summary": "The LanguageDetector API identifies the likely natural language that some text is written in. You can use this API to supplement machine translation when the source source language is not known.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 511,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/511"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/languagedetector/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 2,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 8.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.07,
+        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABSmTHng",
+          "author": "sophb-chan",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/511#issuecomment-5543085982",
+          "createdAt": "2026-09-04T15:56:22Z",
+          "body": "## What I want to do with this feature\n\n- Live chat translation\n\nIf a chatting platform has messages in another language, the language could be detected and translated back into the language that the user has defined as their primary language.\n\n## What I'm having to do in the meantime\n\nCurrently, the lack of widespread support for this feature makes this functionality only available in certain browsers. I'll still using this API in case of larger adoption, but in the meantime, it'll only be available for the browsers that support it.",
+          "parsedGoal": "- Live chat translation If a chatting platform has messages in another language, the language could be detected and translated back into the language that the user has defined as their primary language.",
+          "parsedWorkaround": "Currently, the lack of widespread support for this feature makes this functionality only available in certain browsers. I'll still using this API in case of larger adoption, but in the meantime, it'll only be available for the browsers that support it.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-04",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-04T15:56:22Z"
     },
     {
       "id": "longtasks",
@@ -19500,6 +19678,69 @@
       "lastActivityAt": "2026-09-18T16:17:39Z"
     },
     {
+      "id": "audio-session",
+      "slug": "audio-session",
+      "title": "Audio session",
+      "summary": "The navigator.audioSession API controls how audio playback interacts with other applications. For example, playing music can pause audio from other applications, while ambient audio can play at the same time.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 200,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/200"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/audio-session/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:47:36Z"
+    },
+    {
       "id": "baseline-source",
       "slug": "baseline-source",
       "title": "baseline-source",
@@ -19559,67 +19800,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:47:33Z"
-    },
-    {
-      "id": "capture-stream-audio-video",
-      "slug": "capture-stream-audio-video",
-      "title": "captureStream() for <audio> and <video>",
-      "summary": "The captureStream() method for <audio> and <video> elements returns a MediaStream for the media element's content. You can use this to record media or send it elsewhere, such as a canvas or WebRTC connection.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 77,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/77"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/capture-stream-audio-video/",
-      "categories": [
-        "Media elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:18Z"
     },
     {
       "id": "case-sensitive-attributes",
@@ -20762,86 +20942,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:17Z"
-    },
-    {
-      "id": "languagedetector",
-      "slug": "languagedetector",
-      "title": "Language detector",
-      "summary": "The LanguageDetector API identifies the likely natural language that some text is written in. You can use this API to supplement machine translation when the source source language is not known.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 511,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/511"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/languagedetector/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABSmTHng",
-          "author": "sophb-chan",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/511#issuecomment-5543085982",
-          "createdAt": "2026-09-04T15:56:22Z",
-          "body": "## What I want to do with this feature\n\n- Live chat translation\n\nIf a chatting platform has messages in another language, the language could be detected and translated back into the language that the user has defined as their primary language.\n\n## What I'm having to do in the meantime\n\nCurrently, the lack of widespread support for this feature makes this functionality only available in certain browsers. I'll still using this API in case of larger adoption, but in the meantime, it'll only be available for the browsers that support it.",
-          "parsedGoal": "- Live chat translation If a chatting platform has messages in another language, the language could be detected and translated back into the language that the user has defined as their primary language.",
-          "parsedWorkaround": "Currently, the lack of widespread support for this feature makes this functionality only available in certain browsers. I'll still using this API in case of larger adoption, but in the meantime, it'll only be available for the browsers that support it.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-04",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-04T15:56:22Z"
     },
     {
       "id": "link-rel-expect",
@@ -22448,69 +22548,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:50Z"
-    },
-    {
-      "id": "audio-session",
-      "slug": "audio-session",
-      "title": "Audio session",
-      "summary": "The navigator.audioSession API controls how audio playback interacts with other applications. For example, playing music can pause audio from other applications, while ambient audio can play at the same time.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 200,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/200"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/audio-session/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:47:36Z"
     },
     {
       "id": "background-attachment",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-24T09:24:27.069Z",
-    "staleAfter": "2026-09-26T09:24:27.069Z",
+    "generatedAt": "2026-09-25T09:42:07.837Z",
+    "staleAfter": "2026-09-27T09:42:07.837Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,35 +10,32 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-24T09:24:27.069Z"
+        "retrievedAt": "2026-09-25T09:42:07.837Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-24T09:24:27.069Z"
+        "retrievedAt": "2026-09-25T09:42:07.837Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-24T09:24:27.069Z"
+        "retrievedAt": "2026-09-25T09:42:07.837Z"
       }
     ],
     "warnings": [
-      "audio-session: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "capture-stream-audio-video: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "customizable-select: feed votes 238 differed from GitHub 239; GitHub value used.",
-      "eyedropper: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "frame-sizing: feed votes 6 differed from GitHub 8; GitHub value used.",
-      "grid-lanes: feed votes 119 differed from GitHub 120; GitHub value used.",
-      "html-setters: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "input-color: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "languagedetector: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "marker: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "sanitizer: feed votes 88 differed from GitHub 90; GitHub value used.",
-      "speech-recognition: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "translator: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "web-midi: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "webcodecs: feed votes 9 differed from GitHub 10; GitHub value used."
+      "anchor-positioning: feed votes 257 differed from GitHub 258; GitHub value used.",
+      "battery: feed votes 7 differed from GitHub 6; GitHub value used.",
+      "corner-shape: feed votes 132 differed from GitHub 134; GitHub value used.",
+      "grid-lanes: feed votes 120 differed from GitHub 121; GitHub value used.",
+      "install: feed votes 10 differed from GitHub 12; GitHub value used.",
+      "jpegxl: feed votes 501 differed from GitHub 503; GitHub value used.",
+      "navigator-install: feed votes 19 differed from GitHub 21; GitHub value used.",
+      "requestidlecallback: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "scroll-buttons: feed votes 26 differed from GitHub 27; GitHub value used.",
+      "scroll-initial-target: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "web-midi: feed votes 11 differed from GitHub 12; GitHub value used.",
+      "webgpu-subgroups: feed votes 2 differed from GitHub 3; GitHub value used."
     ]
   },
   "features": [
@@ -64,7 +61,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 501,
+      "votes": 503,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.88,
       "workaroundBurdenRaw": 0,
@@ -78,7 +75,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 501 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 503 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -683,7 +680,7 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 501,
+          "votes": 503,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.88,
           "workaroundBurdenRaw": 0,
@@ -735,9 +732,9 @@
         "rationale": "3 distinct qualified authors; 237 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 8,
+        "votes7d": 6,
         "votes30d": 0,
-        "score7d": 3.1,
+        "score7d": 0.2,
         "score30d": 0
       },
       "comments": [
@@ -1091,9 +1088,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.4
           }
+        },
+        {
+          "date": "2026-09-24",
+          "votes": 237,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.4
+          }
         }
       ],
-      "lastActivityAt": "2026-09-23T10:19:28Z"
+      "lastActivityAt": "2026-09-24T10:33:45Z"
     },
     {
       "id": "attr",
@@ -1282,27 +1293,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 257,
+      "votes": 258,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 89.3,
+        "voteDemand": 89.4,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 13.8,
-        "composite": 54.6
+        "composite": 54.7
       },
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 257 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 258 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
-        "votes30d": 2,
-        "score7d": 0,
-        "score30d": 0
+        "votes7d": 3,
+        "votes30d": 3,
+        "score7d": 0.1,
+        "score30d": 0.1
       },
       "comments": [
         {
@@ -1339,16 +1350,16 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 257,
+          "votes": 258,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 89.3,
+            "voteDemand": 89.4,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 13.8,
-            "composite": 54.6
+            "composite": 54.7
           }
         }
       ],
@@ -1377,21 +1388,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 120,
+      "votes": 121,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 1.25,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 77.1,
+        "voteDemand": 77.3,
         "useCaseEvidence": 32.9,
         "workaroundBurden": 27.5,
-        "composite": 54.2
+        "composite": 54.3
       },
       "confidence": {
         "level": "medium",
         "score": 0.48,
-        "rationale": "2 distinct qualified authors; 120 issue votes; 50% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 121 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1472,16 +1483,16 @@
       "snapshots": [
         {
           "date": "2026-09-18",
-          "votes": 120,
+          "votes": 121,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 1.25,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 77.1,
+            "voteDemand": 77.3,
             "useCaseEvidence": 32.9,
             "workaroundBurden": 27.5,
-            "composite": 54.2
+            "composite": 54.3
           }
         }
       ],
@@ -1508,27 +1519,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 132,
+      "votes": 134,
       "qualifiedAuthors": 2,
-      "reactionBoost": 0.08,
+      "reactionBoost": 0.12,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 78.7,
-        "useCaseEvidence": 32.2,
+        "voteDemand": 78.9,
+        "useCaseEvidence": 32.5,
         "workaroundBurden": 0,
-        "composite": 50.6
+        "composite": 50.8
       },
       "confidence": {
         "level": "medium",
         "score": 0.46,
-        "rationale": "2 distinct qualified authors; 132 issue votes; 40% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 134 issue votes; 40% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
-        "votes30d": 3,
-        "score7d": 11.5,
-        "score30d": 11.5
+        "votes7d": 5,
+        "votes30d": 5,
+        "score7d": 11.7,
+        "score30d": 11.7
       },
       "comments": [
         {
@@ -1586,7 +1597,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5704086081",
           "createdAt": "2026-09-16T20:31:30Z",
           "body": "I am 1000% for using only border-shape, but I want to highlight a specific use case only doable with corner-shape. The latter works with border-style, so we can, for example, have a \"double\" or \"dotted\" configuration using corner-shape and not with border-shape.\n\n<img width=\"584\" height=\"309\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4882ee19-c846-4356-bdd5-3421d5f8ddf1\" />\n\nAs for syntax complexity, there will be a lot of generators for different shape() (I've already made a few of them), so it won't be a big deal in the future.\n",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "qualified",
           "themes": [
             "layout & design",
@@ -1643,16 +1654,16 @@
         },
         {
           "date": "2026-09-17",
-          "votes": 132,
+          "votes": 134,
           "qualifiedAuthors": 2,
-          "reactionBoost": 0.08,
+          "reactionBoost": 0.12,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.7,
-            "useCaseEvidence": 32.2,
+            "voteDemand": 78.9,
+            "useCaseEvidence": 32.5,
             "workaroundBurden": 0,
-            "composite": 50.6
+            "composite": 50.8
           }
         }
       ],
@@ -5499,6 +5510,116 @@
       "lastActivityAt": "2026-08-26T12:10:14Z"
     },
     {
+      "id": "web-midi",
+      "slug": "web-midi",
+      "title": "Web MIDI",
+      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 50,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 12,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 27.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.31,
+        "rationale": "1 distinct qualified author; 12 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 7.6,
+        "score30d": 7.6
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
+          "author": "pitrackster",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
+          "createdAt": "2026-08-25T07:16:48Z",
+          "body": "## What I want to do with this feature\n\nFirefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "parsedGoal": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. I want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABWtCQ9A",
+          "author": "Jaefae",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332",
+          "createdAt": "2026-09-24T17:04:21Z",
+          "body": "## What I want to do with this feature\nI'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.\n## What I'm having to do in the meantime\nAs of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
+          "parsedGoal": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
+          "parsedWorkaround": "As of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the app…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-25",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 12,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 27.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-25T07:04:27Z"
+    },
+    {
       "id": "barcode",
       "slug": "barcode",
       "title": "Barcode detector",
@@ -5828,6 +5949,84 @@
       "lastActivityAt": "2026-08-26T12:10:42Z"
     },
     {
+      "id": "scroll-buttons",
+      "slug": "scroll-buttons",
+      "title": "::scroll-button",
+      "summary": "The ::scroll-button(<dir>) CSS pseudo-element is a focusable button which scrolls its originating scroll container element in the specified direction.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 316,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/316"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-buttons/",
+      "categories": [
+        "Scrolling"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 27,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 0.3,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 27,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:43Z"
+    },
+    {
       "id": "scroll-into-view-container",
       "slug": "scroll-into-view-container",
       "title": "scrollIntoView() container",
@@ -5964,84 +6163,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:17:48Z"
-    },
-    {
-      "id": "scroll-buttons",
-      "slug": "scroll-buttons",
-      "title": "::scroll-button",
-      "summary": "The ::scroll-button(<dir>) CSS pseudo-element is a focusable button which scrolls its originating scroll container element in the specified direction.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 316,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/316"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-buttons/",
-      "categories": [
-        "Scrolling"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 26,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:43Z"
     },
     {
       "id": "scroll-target-group",
@@ -6364,6 +6485,67 @@
       "lastActivityAt": "2026-09-18T16:17:17Z"
     },
     {
+      "id": "marker",
+      "slug": "marker",
+      "title": "::marker",
+      "summary": "The ::marker CSS pseudo-element selects list item markers for styling numbers or bullets.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 128,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/128"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/marker/",
+      "categories": [
+        "Lists"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 22,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 50.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:50Z"
+    },
+    {
       "id": "document-picture-in-picture",
       "slug": "document-picture-in-picture",
       "title": "Document picture-in-picture",
@@ -6460,23 +6642,26 @@
       "lastActivityAt": "2026-08-14T14:48:26Z"
     },
     {
-      "id": "marker",
-      "slug": "marker",
-      "title": "::marker",
-      "summary": "The ::marker CSS pseudo-element selects list item markers for styling numbers or bullets.",
+      "id": "navigator-install",
+      "slug": "navigator-install",
+      "title": "navigator.install()",
+      "summary": "The navigator.install() method triggers a request to install a progressive web app.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 128,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/128"
+        "number": 467,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/467"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/marker/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/navigator-install/",
       "categories": [
-        "Lists"
+        "Progressive web app"
       ],
       "supportState": "limited",
       "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
         "safari"
       ],
       "votes": 21,
@@ -6504,7 +6689,7 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-08-26",
+          "date": "2026-09-03",
           "votes": 21,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -6518,7 +6703,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:09:50Z"
+      "lastActivityAt": "2026-09-03T14:36:34Z"
     },
     {
       "id": "notifications",
@@ -7050,70 +7235,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:21Z"
-    },
-    {
-      "id": "navigator-install",
-      "slug": "navigator-install",
-      "title": "navigator.install()",
-      "summary": "The navigator.install() method triggers a request to install a progressive web app.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 467,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/467"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/navigator-install/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 19,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 48.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 19,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 48.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:34Z"
     },
     {
       "id": "random-function",
@@ -8194,9 +8315,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-24",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-23T10:19:27Z"
+      "lastActivityAt": "2026-09-24T10:33:44Z"
     },
     {
       "id": "manifest",
@@ -8258,6 +8393,67 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:06Z"
+    },
+    {
+      "id": "requestidlecallback",
+      "slug": "requestidlecallback",
+      "title": "requestIdleCallback()",
+      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 52,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
       "id": "screen-capture",
@@ -8814,67 +9010,6 @@
       "lastActivityAt": "2026-09-03T14:36:26Z"
     },
     {
-      "id": "requestidlecallback",
-      "slug": "requestidlecallback",
-      "title": "requestIdleCallback()",
-      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 52,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:23Z"
-    },
-    {
       "id": "app-file-handlers",
       "slug": "app-file-handlers",
       "title": "File handlers",
@@ -9228,6 +9363,84 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:45Z"
+    },
+    {
+      "id": "install",
+      "slug": "install",
+      "title": "<install>",
+      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 522,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 0,
+        "score7d": 1.3,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:18:14Z"
     },
     {
       "id": "periodic-background-sync",
@@ -10051,83 +10264,6 @@
       "lastActivityAt": "2026-08-14T14:46:58Z"
     },
     {
-      "id": "web-midi",
-      "slug": "web-midi",
-      "title": "Web MIDI",
-      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 50,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 11,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
-          "author": "pitrackster",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
-          "createdAt": "2026-08-25T07:16:48Z",
-          "body": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-25",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-25T07:16:48Z"
-    },
-    {
       "id": "rhythmic-sizing",
       "slug": "rhythmic-sizing",
       "title": "Rhythmic sizing",
@@ -10439,84 +10575,6 @@
         }
       ],
       "lastActivityAt": "2026-09-12T00:12:01Z"
-    },
-    {
-      "id": "install",
-      "slug": "install",
-      "title": "<install>",
-      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 522,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 10,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 19.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:18:14Z"
     },
     {
       "id": "justify-self-block",
@@ -11100,9 +11158,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-24",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-23T10:19:29Z"
+      "lastActivityAt": "2026-09-24T10:33:46Z"
     },
     {
       "id": "ua-client-hints",
@@ -12626,68 +12698,6 @@
       "lastActivityAt": "2026-08-26T12:08:40Z"
     },
     {
-      "id": "battery",
-      "slug": "battery",
-      "title": "Battery status",
-      "summary": "The navigator.getBattery() API obtains information about the device's battery, including charge level and status. Also known as the Battery API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 45,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/45"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/battery/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 7,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 16.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:15Z"
-    },
-    {
       "id": "compression-dictionary-transport",
       "slug": "compression-dictionary-transport",
       "title": "Compression Dictionary Transport",
@@ -13174,6 +13184,68 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:37Z"
+    },
+    {
+      "id": "battery",
+      "slug": "battery",
+      "title": "Battery status",
+      "summary": "The navigator.getBattery() API obtains information about the device's battery, including charge level and status. Also known as the Battery API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 45,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/45"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/battery/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:15Z"
     },
     {
       "id": "controls-list",
@@ -16544,9 +16616,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-24",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-23T10:19:30Z"
+      "lastActivityAt": "2026-09-24T10:33:47Z"
     },
     {
       "id": "long-animation-frames",
@@ -17000,6 +17086,68 @@
       "lastActivityAt": "2026-08-14T14:45:35Z"
     },
     {
+      "id": "scroll-initial-target",
+      "slug": "scroll-initial-target",
+      "title": "scroll-initial-target",
+      "summary": "The scroll-initial-target: nearest CSS declaration sets the initial scroll position of its scroll container to the top of the element, much like scrolling to a URL fragment.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 275,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/275"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-initial-target/",
+      "categories": [
+        "Scrolling"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:04Z"
+    },
+    {
       "id": "serializable-errors",
       "slug": "serializable-errors",
       "title": "Serializable errors",
@@ -17262,6 +17410,68 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:18:15Z"
+    },
+    {
+      "id": "webgpu-subgroups",
+      "slug": "webgpu-subgroups",
+      "title": "WebGPU subgroups",
+      "summary": "The subgroups extension for the WebGPU Shading Language (WGSL) enables SIMD parallelism. Using subgroups, threads in a workgroup can efficiently communicate and perform collective operations.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 501,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/501"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webgpu-subgroups/",
+      "categories": [
+        "WebGPU"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:43Z"
     },
     {
       "id": "word-break-auto-phrase",
@@ -18612,68 +18822,6 @@
       "lastActivityAt": "2026-08-14T14:44:55Z"
     },
     {
-      "id": "scroll-initial-target",
-      "slug": "scroll-initial-target",
-      "title": "scroll-initial-target",
-      "summary": "The scroll-initial-target: nearest CSS declaration sets the initial scroll position of its scroll container to the top of the element, much like scrolling to a URL fragment.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 275,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/275"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-initial-target/",
-      "categories": [
-        "Scrolling"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:04Z"
-    },
-    {
       "id": "scroll-promises",
       "slug": "scroll-promises",
       "title": "Scroll method promises",
@@ -19445,68 +19593,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:47Z"
-    },
-    {
-      "id": "webgpu-subgroups",
-      "slug": "webgpu-subgroups",
-      "title": "WebGPU subgroups",
-      "summary": "The subgroups extension for the WebGPU Shading Language (WGSL) enables SIMD parallelism. Using subgroups, threads in a workgroup can efficiently communicate and perform collective operations.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 501,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/501"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webgpu-subgroups/",
-      "categories": [
-        "WebGPU"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:43Z"
     },
     {
       "id": "webgl-multi-draw",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-25T09:42:07.837Z",
-    "staleAfter": "2026-09-27T09:42:07.837Z",
+    "generatedAt": "2026-09-26T09:26:25.435Z",
+    "staleAfter": "2026-09-28T09:26:25.435Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,32 +10,42 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-25T09:42:07.837Z"
+        "retrievedAt": "2026-09-26T09:26:25.435Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-25T09:42:07.837Z"
+        "retrievedAt": "2026-09-26T09:26:25.435Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-25T09:42:07.837Z"
+        "retrievedAt": "2026-09-26T09:26:25.435Z"
       }
     ],
     "warnings": [
-      "anchor-positioning: feed votes 257 differed from GitHub 258; GitHub value used.",
-      "battery: feed votes 7 differed from GitHub 6; GitHub value used.",
-      "corner-shape: feed votes 132 differed from GitHub 134; GitHub value used.",
-      "grid-lanes: feed votes 120 differed from GitHub 121; GitHub value used.",
-      "install: feed votes 10 differed from GitHub 12; GitHub value used.",
-      "jpegxl: feed votes 501 differed from GitHub 503; GitHub value used.",
-      "navigator-install: feed votes 19 differed from GitHub 21; GitHub value used.",
-      "requestidlecallback: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "scroll-buttons: feed votes 26 differed from GitHub 27; GitHub value used.",
-      "scroll-initial-target: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "web-midi: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "webgpu-subgroups: feed votes 2 differed from GitHub 3; GitHub value used."
+      "ambient-light: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "anchor-positioning: feed votes 258 differed from GitHub 259; GitHub value used.",
+      "attr: feed votes 117 differed from GitHub 118; GitHub value used.",
+      "cookie-store: feed votes 12 differed from GitHub 13; GitHub value used.",
+      "custom-media-queries: feed votes 32 differed from GitHub 33; GitHub value used.",
+      "customizable-select: feed votes 239 differed from GitHub 240; GitHub value used.",
+      "datalist: feed votes 48 differed from GitHub 49; GitHub value used.",
+      "edit-context: feed votes 13 differed from GitHub 15; GitHub value used.",
+      "focusgroup: feed votes 18 differed from GitHub 19; GitHub value used.",
+      "gap-decorations: feed votes 39 differed from GitHub 41; GitHub value used.",
+      "heading-offset: feed votes 8 differed from GitHub 9; GitHub value used.",
+      "input-color-alpha: feed votes 16 differed from GitHub 17; GitHub value used.",
+      "interest-invokers: feed votes 45 differed from GitHub 46; GitHub value used.",
+      "jpegxl: feed votes 503 differed from GitHub 504; GitHub value used.",
+      "link-parameters: feed votes 11 differed from GitHub 12; GitHub value used.",
+      "media-session: feed votes 1 differed from GitHub 2; GitHub value used.",
+      "popover-hint: feed votes 87 differed from GitHub 88; GitHub value used.",
+      "reading-flow: feed votes 20 differed from GitHub 21; GitHub value used.",
+      "speak-as: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "temporal: feed votes 237 differed from GitHub 238; GitHub value used.",
+      "text-fit: feed votes 10 differed from GitHub 11; GitHub value used.",
+      "translator: feed votes 6 differed from GitHub 7; GitHub value used."
     ]
   },
   "features": [
@@ -61,7 +71,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 503,
+      "votes": 504,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.88,
       "workaroundBurdenRaw": 0,
@@ -75,7 +85,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 503 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 504 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -680,7 +690,7 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 503,
+          "votes": 504,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.88,
           "workaroundBurdenRaw": 0,
@@ -715,24 +725,24 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 237,
+      "votes": 238,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 88,
+        "voteDemand": 88.1,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
-        "composite": 61.4
+        "composite": 61.5
       },
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 237 issue votes; 33% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 238 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 6,
+        "votes7d": 5,
         "votes30d": 0,
         "score7d": 0.2,
         "score30d": 0
@@ -1102,9 +1112,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.4
           }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 238,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88.1,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.5
+          }
         }
       ],
-      "lastActivityAt": "2026-09-24T10:33:45Z"
+      "lastActivityAt": "2026-09-25T10:37:14Z"
     },
     {
       "id": "attr",
@@ -1129,26 +1153,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 117,
+      "votes": 118,
       "qualifiedAuthors": 4,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 76.7,
+        "voteDemand": 76.9,
         "useCaseEvidence": 46,
         "workaroundBurden": 13.8,
-        "composite": 56.5
+        "composite": 56.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.63,
-        "rationale": "4 distinct qualified authors; 117 issue votes; 80% of reviewed comments qualified."
+        "rationale": "4 distinct qualified authors; 118 issue votes; 80% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
+        "votes7d": 4,
         "votes30d": 0,
-        "score7d": 0.2,
+        "score7d": 0.3,
         "score30d": 0
       },
       "comments": [
@@ -1255,16 +1279,16 @@
         },
         {
           "date": "2026-09-15",
-          "votes": 117,
+          "votes": 118,
           "qualifiedAuthors": 4,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 76.7,
+            "voteDemand": 76.9,
             "useCaseEvidence": 46,
             "workaroundBurden": 13.8,
-            "composite": 56.5
+            "composite": 56.6
           }
         }
       ],
@@ -1293,7 +1317,7 @@
         "firefox",
         "safari"
       ],
-      "votes": 258,
+      "votes": 259,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
@@ -1307,11 +1331,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 258 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 259 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
-        "votes30d": 3,
+        "votes7d": 4,
+        "votes30d": 4,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -1350,7 +1374,7 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 258,
+          "votes": 259,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
@@ -1919,21 +1943,21 @@
       ],
       "supportState": "limited",
       "missingBrowsers": [],
-      "votes": 48,
+      "votes": 49,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.36,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 62.6,
+        "voteDemand": 62.9,
         "useCaseEvidence": 42.1,
         "workaroundBurden": 0,
-        "composite": 46
+        "composite": 46.2
       },
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "3 distinct qualified authors; 48 issue votes; 100% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 49 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2000,16 +2024,16 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 48,
+          "votes": 49,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.36,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 62.6,
+            "voteDemand": 62.9,
             "useCaseEvidence": 42.1,
             "workaroundBurden": 0,
-            "composite": 46
+            "composite": 46.2
           }
         }
       ],
@@ -2169,7 +2193,7 @@
         "firefox",
         "safari"
       ],
-      "votes": 239,
+      "votes": 240,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
@@ -2183,10 +2207,10 @@
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 239 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 240 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 6,
+        "votes7d": 7,
         "votes30d": 0,
         "score7d": 0.2,
         "score30d": 0
@@ -2209,7 +2233,7 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 239,
+          "votes": 240,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
@@ -3001,21 +3025,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 87,
+      "votes": 88,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 72,
+        "voteDemand": 72.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 36
+        "composite": 36.1
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 87 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 88 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3027,16 +3051,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 87,
+          "votes": 88,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 72,
+            "voteDemand": 72.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 36
+            "composite": 36.1
           }
         }
       ],
@@ -3148,6 +3172,135 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:57Z"
+    },
+    {
+      "id": "custom-media-queries",
+      "slug": "custom-media-queries",
+      "title": "Custom media queries",
+      "summary": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 445,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/445"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/custom-media-queries/",
+      "categories": [
+        "Media queries"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 33,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 56.7,
+        "useCaseEvidence": 20.4,
+        "workaroundBurden": 0,
+        "composite": 35.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.34,
+        "rationale": "1 distinct qualified author; 33 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 0,
+        "score7d": 7.6,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFrw1og",
+          "author": "jklue",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546",
+          "createdAt": "2026-06-11T01:40:15Z",
+          "body": "## What I want to do with this feature\n\nWrite simpler media queries saving time, bandwidth, energy, and complexity.\n\n## What I'm having to do in the meantime\n\nWrite out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
+          "parsedGoal": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
+          "parsedWorkaround": "Write out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
+          "positiveReactions": 3,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABLYWBKg",
+          "author": "TheJaredWilcurt",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5058691370",
+          "createdAt": "2026-07-23T13:02:30Z",
+          "body": "In Firefox 148+ you can enable support for this feature to start testing it out.\n\n* Go to `about:config`\n* Search for `layout.css.custom-media.enabled`\n* Set to `true`\n\nSuch a great feature, excited for wide adoption.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUtG6Aw",
+          "author": "ramiy",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5684443651",
+          "createdAt": "2026-09-15T16:57:04Z",
+          "body": "**[Open Props](https://open-props.style/)** v1.6.0 (by Adam Argyle) [implemented this feature](https://github.com/argyleink/open-props/blob/main/src/props.media.css) in September 2023, supporting custom-media over 3 years.\n\nAt Elementor, we [implemented this feature](https://github.com/elementor/hello-theme/pull/659) (May 2026) on our \"Hello Theme\" which is used by **over 3 million websites**. Currently, we only expose all the available `@custom-media`, not using them in `@media` as this feature is not yet supported by browsers.\n\nI'm hoping browsers will adopt this feature soon. This will help us control all the breakpoint using a few simple variables.",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "Open Props v1.6.0 (by Adam Argyle) implemented this feature in September 2023, supporting custom-media over 3 years. At Elementor, we implemented this feature (May 2026) on our \"H…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 33,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.7,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 35.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T16:57:05Z"
     },
     {
       "id": "fullscreen",
@@ -3276,135 +3429,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:01Z"
-    },
-    {
-      "id": "custom-media-queries",
-      "slug": "custom-media-queries",
-      "title": "Custom media queries",
-      "summary": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 445,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/445"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/custom-media-queries/",
-      "categories": [
-        "Media queries"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 32,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 56.2,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 0,
-        "composite": 35.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.34,
-        "rationale": "1 distinct qualified author; 32 issue votes; 33% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 0,
-        "score7d": 7.4,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFrw1og",
-          "author": "jklue",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546",
-          "createdAt": "2026-06-11T01:40:15Z",
-          "body": "## What I want to do with this feature\n\nWrite simpler media queries saving time, bandwidth, energy, and complexity.\n\n## What I'm having to do in the meantime\n\nWrite out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
-          "parsedGoal": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
-          "parsedWorkaround": "Write out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
-          "positiveReactions": 3,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABLYWBKg",
-          "author": "TheJaredWilcurt",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5058691370",
-          "createdAt": "2026-07-23T13:02:30Z",
-          "body": "In Firefox 148+ you can enable support for this feature to start testing it out.\n\n* Go to `about:config`\n* Search for `layout.css.custom-media.enabled`\n* Set to `true`\n\nSuch a great feature, excited for wide adoption.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABUtG6Aw",
-          "author": "ramiy",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5684443651",
-          "createdAt": "2026-09-15T16:57:04Z",
-          "body": "**[Open Props](https://open-props.style/)** v1.6.0 (by Adam Argyle) [implemented this feature](https://github.com/argyleink/open-props/blob/main/src/props.media.css) in September 2023, supporting custom-media over 3 years.\n\nAt Elementor, we [implemented this feature](https://github.com/elementor/hello-theme/pull/659) (May 2026) on our \"Hello Theme\" which is used by **over 3 million websites**. Currently, we only expose all the available `@custom-media`, not using them in `@media` as this feature is not yet supported by browsers.\n\nI'm hoping browsers will adopt this feature soon. This will help us control all the breakpoint using a few simple variables.",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "Open Props v1.6.0 (by Adam Argyle) implemented this feature in September 2023, supporting custom-media over 3 years. At Elementor, we implemented this feature (May 2026) on our \"H…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        },
-        {
-          "date": "2026-09-15",
-          "votes": 32,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 56.2,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 35.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T16:57:05Z"
     },
     {
       "id": "border-shape",
@@ -4111,21 +4135,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 45,
+      "votes": 46,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 61.6,
+        "voteDemand": 61.9,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 30.8
+        "composite": 31
       },
       "confidence": {
         "level": "low",
         "score": 0.25,
-        "rationale": "0 distinct qualified authors; 45 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 46 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4155,16 +4179,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 45,
+          "votes": 46,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 61.6,
+            "voteDemand": 61.9,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 30.8
+            "composite": 31
           }
         }
       ],
@@ -4380,21 +4404,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 39,
+      "votes": 41,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 59.3,
+        "voteDemand": 60.1,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 29.7
+        "composite": 30.1
       },
       "confidence": {
         "level": "low",
         "score": 0.24,
-        "rationale": "0 distinct qualified authors; 39 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 41 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4406,16 +4430,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 39,
+          "votes": 41,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 59.3,
+            "voteDemand": 60.1,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 29.7
+            "composite": 30.1
           }
         }
       ],
@@ -4501,6 +4525,118 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:34Z"
+    },
+    {
+      "id": "edit-context",
+      "slug": "edit-context",
+      "title": "EditContext",
+      "summary": "The EditContext API allows you to build rich text editors that support advanced text input, such as Input Method Editor (IME) composition, an emoji picker, or other platform-specific editing UI.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 228,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/228"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/edit-context/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 15,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 44.6,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 29.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.32,
+        "rationale": "1 distinct qualified author; 15 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 8,
+        "score30d": 8
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABKBPCRQ",
+          "author": "codecnotsupported",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/228#issuecomment-4967350853",
+          "createdAt": "2026-07-14T09:17:39Z",
+          "body": "Not a personal request but I thought it would be relevant.\nhttps://github.com/rust-windowing/winit/issues/4424\n\n## What I want to do with this feature\n\nIME support for canvas elements that render using non-web-native way. (E.g. WebGL/WebGPU)\n\n## What I'm having to do in the meantime\nTo quote @mitoma\n\n\"In egui, this limitation is worked around by adding a hidden input element to capture text input and then forwarding the events. ([ref](https://github.com/emilk/egui/pull/253/files)) While this approach works, it is quite hacky. I also tried implementing a patch for winit in the past ([example commit](https://github.com/mitoma/winit/commit/0b899ebbd49b78e071155c83c8819b8c5212f8f7)), but found it difficult to make the same mechanism work reliably in fullscreen mode.\"\n",
+          "parsedGoal": "IME support for canvas elements that render using non-web-native way. (E.g. WebGL/WebGPU)",
+          "parsedWorkaround": "To quote @mitoma \"In egui, this limitation is worked around by adding a hidden input element to capture text input and then forwarding the events. (ref) While this approach works, it is quite hacky. I also tried implementing a patch for winit in the past (example commit), but found it difficult to make the same mechanism work reliably in fullscreen mode.\"",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABW_1taA",
+          "author": "emmauss",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/228#issuecomment-5838302568",
+          "createdAt": "2026-09-25T19:25:38Z",
+          "body": "## What I want to do with this feature\nCustom IME support for Avalonia on WASM backends. Avalonia renders pixel perfect controls using Skia on WASM, and requires editContext in order to unify text editing behavior on all our platforms. We already have a beta implementation of IME over EditContext that works on Chromium browsers.\n\n## What I'm having to do in the meantime\nUsing a hidden input element and forwarding text events. This is honestly too hacky and breaks on mobile devices where there's advance IME features like composition.",
+          "parsedGoal": "Custom IME support for Avalonia on WASM backends. Avalonia renders pixel perfect controls using Skia on WASM, and requires editContext in order to unify text editing behavior on all our platforms. We already have a beta implementation of IME over EditContext that works on Chromium browsers.",
+          "parsedWorkaround": "Using a hidden input element and forwarding text events. This is honestly too hacky and breaks on mobile devices where there's advance IME features like composition.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "Custom IME support for Avalonia on WASM backends. Avalonia renders pixel perfect controls using Skia on WASM, and requires editContext in order to unify text editing behavior on a…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 15,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 29.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-25T19:25:38Z"
     },
     {
       "id": "local-fonts",
@@ -6765,6 +6901,69 @@
       "lastActivityAt": "2026-08-14T14:44:59Z"
     },
     {
+      "id": "reading-flow",
+      "slug": "reading-flow",
+      "title": "reading-flow",
+      "summary": "The reading-flow CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation. The reading-order property overrides this order.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 290,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/290"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/reading-flow/",
+      "categories": [
+        "CSS",
+        "Reading order"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:21Z"
+    },
+    {
       "id": "scheduler",
       "slug": "scheduler",
       "title": "Scheduler API",
@@ -7174,42 +7373,44 @@
       "lastActivityAt": "2026-08-26T12:10:43Z"
     },
     {
-      "id": "reading-flow",
-      "slug": "reading-flow",
-      "title": "reading-flow",
-      "summary": "The reading-flow CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation. The reading-order property overrides this order.",
+      "id": "focusgroup",
+      "slug": "focusgroup",
+      "title": "focusgroup",
+      "summary": "The focusgroup global HTML attribute combines descendant elements into a single tab stop, with arrow-key navigation between them, for toolbars, tabs, menus, radio groups, and other composite controls. It's an alternative to the sequential navigation of tabindex.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 290,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/290"
+        "number": 546,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/546"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/reading-flow/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/focusgroup/",
       "categories": [
-        "CSS",
+        "HTML",
         "Reading order"
       ],
       "supportState": "limited",
       "missingBrowsers": [
+        "chrome",
+        "edge",
         "firefox",
         "safari"
       ],
-      "votes": 20,
+      "votes": 19,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 49,
+        "voteDemand": 48.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 24.5
+        "composite": 24.1
       },
       "confidence": {
         "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -7221,20 +7422,20 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 20,
+          "votes": 19,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 49,
+            "voteDemand": 48.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 24.5
+            "composite": 24.1
           }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:35:21Z"
+      "lastActivityAt": "2026-09-03T14:36:22Z"
     },
     {
       "id": "random-function",
@@ -7300,44 +7501,41 @@
       "lastActivityAt": "2026-09-03T14:35:36Z"
     },
     {
-      "id": "focusgroup",
-      "slug": "focusgroup",
-      "title": "focusgroup",
-      "summary": "The focusgroup global HTML attribute combines descendant elements into a single tab stop, with arrow-key navigation between them, for toolbars, tabs, menus, radio groups, and other composite controls. It's an alternative to the sequential navigation of tabindex.",
+      "id": "translator",
+      "slug": "translator",
+      "title": "Translator",
+      "summary": "The Translator API translates some text from one natural language to another, using machine translation.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 546,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/546"
+        "number": 512,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/512"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/focusgroup/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/translator/",
       "categories": [
-        "HTML",
-        "Reading order"
+        "Other"
       ],
       "supportState": "limited",
       "missingBrowsers": [
-        "chrome",
-        "edge",
         "firefox",
         "safari"
       ],
-      "votes": 18,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
+      "votes": 7,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 47.4,
-        "useCaseEvidence": 0,
+        "voteDemand": 33.4,
+        "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
-        "composite": 23.7
+        "composite": 23.9
       },
       "confidence": {
         "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
+        "score": 0.28,
+        "rationale": "1 distinct qualified author; 7 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -7345,24 +7543,58 @@
         "score7d": 0,
         "score30d": 0
       },
-      "comments": [],
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFD7Sew",
+          "author": "CyberMew",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/512#issuecomment-4634628731",
+          "createdAt": "2026-06-05T19:05:39Z",
+          "body": "My use case would be: Translator for subtitles. With AI translation it has more context as compared to traditional translation. Being able to do it locally would help with security/privacy and users will have a piece of mind without needing network access. I understand chrome already has support for this, so it would be good to have feature parity and extensions will work across browsers. ",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "security"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "My use case would be: Translator for subtitles. With AI translation it has more context as compared to traditional translation. Being able to do it locally would help with securit…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABSmQLOw",
+          "author": "sophb-chan",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/512#issuecomment-5543037755",
+          "createdAt": "2026-09-04T15:52:09Z",
+          "body": "## What I want to do with this feature\n\n- UI translation for languages with no available locale\n\nImagine a Russian user lands on my website, but I only have locales for English, Spanish and Portuguese. This feature could automatically generate a Russian locale if needed.\n\n## What I'm having to do in the meantime\n\nUse external APIs, which aren't consistent in the long-term. Free APIs could become paid, paid APIs could have price changes, rate-limits can change, and so on.",
+          "parsedGoal": "- UI translation for languages with no available locale Imagine a Russian user lands on my website, but I only have locales for English, Spanish and Portuguese. This feature could automatically generate a Russian locale if needed.",
+          "parsedWorkaround": "Use external APIs, which aren't consistent in the long-term. Free APIs could become paid, paid APIs could have price changes, rate-limits can change, and so on.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
       "snapshots": [
         {
-          "date": "2026-09-03",
-          "votes": 18,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
+          "date": "2026-09-04",
+          "votes": 7,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 47.4,
-            "useCaseEvidence": 0,
+            "voteDemand": 33.4,
+            "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
-            "composite": 23.7
+            "composite": 23.9
           }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:22Z"
+      "lastActivityAt": "2026-09-04T15:52:09Z"
     },
     {
       "id": "mixin",
@@ -7551,6 +7783,70 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:40Z"
+    },
+    {
+      "id": "input-color-alpha",
+      "slug": "input-color-alpha",
+      "title": "alpha and colorspace attributes for <input type=color>",
+      "summary": "The ability to control the opacity of a color picked using <input type=\"color\"> and determine the colorspace of the selected color.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 397,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/397"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-color-alpha/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 17,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 46.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 17,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 46.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:11Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -7772,70 +8068,6 @@
       "lastActivityAt": "2026-08-14T14:48:40Z"
     },
     {
-      "id": "input-color-alpha",
-      "slug": "input-color-alpha",
-      "title": "alpha and colorspace attributes for <input type=color>",
-      "summary": "The ability to control the opacity of a color picked using <input type=\"color\"> and determine the colorspace of the selected color.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 397,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/397"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-color-alpha/",
-      "categories": [
-        "Forms",
-        "HTML elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 16,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 45.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 16,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:11Z"
-    },
-    {
       "id": "switch-control",
       "slug": "switch-control",
       "title": "<input type=\"checkbox\" switch>",
@@ -7898,102 +8130,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:32Z"
-    },
-    {
-      "id": "translator",
-      "slug": "translator",
-      "title": "Translator",
-      "summary": "The Translator API translates some text from one natural language to another, using machine translation.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 512,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/512"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/translator/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 6,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 31.3,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 0,
-        "composite": 22.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.27,
-        "rationale": "1 distinct qualified author; 6 issue votes; 50% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFD7Sew",
-          "author": "CyberMew",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/512#issuecomment-4634628731",
-          "createdAt": "2026-06-05T19:05:39Z",
-          "body": "My use case would be: Translator for subtitles. With AI translation it has more context as compared to traditional translation. Being able to do it locally would help with security/privacy and users will have a piece of mind without needing network access. I understand chrome already has support for this, so it would be good to have feature parity and extensions will work across browsers. ",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "security"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "My use case would be: Translator for subtitles. With AI translation it has more context as compared to traditional translation. Being able to do it locally would help with securit…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABSmQLOw",
-          "author": "sophb-chan",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/512#issuecomment-5543037755",
-          "createdAt": "2026-09-04T15:52:09Z",
-          "body": "## What I want to do with this feature\n\n- UI translation for languages with no available locale\n\nImagine a Russian user lands on my website, but I only have locales for English, Spanish and Portuguese. This feature could automatically generate a Russian locale if needed.\n\n## What I'm having to do in the meantime\n\nUse external APIs, which aren't consistent in the long-term. Free APIs could become paid, paid APIs could have price changes, rate-limits can change, and so on.",
-          "parsedGoal": "- UI translation for languages with no available locale Imagine a Russian user lands on my website, but I only have locales for English, Spanish and Portuguese. This feature could automatically generate a Russian locale if needed.",
-          "parsedWorkaround": "Use external APIs, which aren't consistent in the long-term. Free APIs could become paid, paid APIs could have price changes, rate-limits can change, and so on.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-04",
-          "votes": 6,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-04T15:52:09Z"
     },
     {
       "id": "app-launch-handler",
@@ -8329,9 +8465,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-24T10:33:44Z"
+      "lastActivityAt": "2026-09-25T10:37:13Z"
     },
     {
       "id": "manifest",
@@ -8663,6 +8813,82 @@
       "lastActivityAt": "2026-08-14T14:48:15Z"
     },
     {
+      "id": "cookie-store",
+      "slug": "cookie-store",
+      "title": "Cookie store",
+      "summary": "The CookieStore API is an asynchronous and promise-based API for managing cookies. It does not rely on document and so is available to service workers as well.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 135,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/135"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/cookie-store/",
+      "categories": [
+        "Cookies"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 13,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 0.6,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T07:26:39Z"
+    },
+    {
       "id": "display-animation",
       "slug": "display-animation",
       "title": "display animation",
@@ -8786,86 +9012,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:18Z"
-    },
-    {
-      "id": "edit-context",
-      "slug": "edit-context",
-      "title": "EditContext",
-      "summary": "The EditContext API allows you to build rich text editors that support advanced text input, such as Input Method Editor (IME) composition, an emoji picker, or other platform-specific editing UI.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 228,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/228"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/edit-context/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABKBPCRQ",
-          "author": "codecnotsupported",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/228#issuecomment-4967350853",
-          "createdAt": "2026-07-14T09:17:39Z",
-          "body": "Not a personal request but I thought it would be relevant.\nhttps://github.com/rust-windowing/winit/issues/4424\n\n## What I want to do with this feature\n\nIME support for canvas elements that render using non-web-native way. (E.g. WebGL/WebGPU)\n\n## What I'm having to do in the meantime\nTo quote @mitoma\n\n\"In egui, this limitation is worked around by adding a hidden input element to capture text input and then forwarding the events. ([ref](https://github.com/emilk/egui/pull/253/files)) While this approach works, it is quite hacky. I also tried implementing a patch for winit in the past ([example commit](https://github.com/mitoma/winit/commit/0b899ebbd49b78e071155c83c8819b8c5212f8f7)), but found it difficult to make the same mechanism work reliably in fullscreen mode.\"\n",
-          "parsedGoal": "IME support for canvas elements that render using non-web-native way. (E.g. WebGL/WebGPU)",
-          "parsedWorkaround": "To quote @mitoma \"In egui, this limitation is worked around by adding a hidden input element to capture text input and then forwarding the events. (ref) While this approach works, it is quite hacky. I also tried implementing a patch for winit in the past (example commit), but found it difficult to make the same mechanism work reliably in fullscreen mode.\"",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:47:59Z"
     },
     {
       "id": "flexbox-flex-wrap-balance",
@@ -9167,82 +9313,6 @@
       "lastActivityAt": "2026-09-21T07:25:39Z"
     },
     {
-      "id": "cookie-store",
-      "slug": "cookie-store",
-      "title": "Cookie store",
-      "summary": "The CookieStore API is an asynchronous and promise-based API for managing cookies. It does not rely on document and so is available to service workers as well.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 135,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/135"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/cookie-store/",
-      "categories": [
-        "Cookies"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 12,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        },
-        {
-          "date": "2026-09-15",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T07:26:39Z"
-    },
-    {
       "id": "fetch-request-streams",
       "slug": "fetch-request-streams",
       "title": "Fetch upload streams",
@@ -9441,6 +9511,83 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:18:14Z"
+    },
+    {
+      "id": "link-parameters",
+      "slug": "link-parameters",
+      "title": "Link parameters",
+      "summary": "Developer demand and implementation evidence for Link Parameters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 923,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
+          "author": "tylersticka",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
+          "createdAt": "2026-09-15T17:38:35Z",
+          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
+          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-15",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T17:54:21Z"
     },
     {
       "id": "periodic-background-sync",
@@ -10003,83 +10150,6 @@
       "lastActivityAt": "2026-08-14T14:48:48Z"
     },
     {
-      "id": "link-parameters",
-      "slug": "link-parameters",
-      "title": "Link parameters",
-      "summary": "Developer demand and implementation evidence for Link Parameters.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 923,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 11,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
-          "author": "tylersticka",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
-          "createdAt": "2026-09-15T17:38:35Z",
-          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
-          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
-          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-15",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T17:54:21Z"
-    },
-    {
       "id": "scroll-marker-targets",
       "slug": "scroll-marker-targets",
       "title": "Scroll marker target pseudo-classes",
@@ -10200,6 +10270,82 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:36Z"
+    },
+    {
+      "id": "text-fit",
+      "slug": "text-fit",
+      "title": "text-fit",
+      "summary": "The text-fit CSS property scales text to fill the inline size of its container. You can use this to grow or shrink headlines, captions, or pull quotes to fit a container.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 846,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/846"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-fit/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 11,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 40,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.7,
+        "score30d": 0.7
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T10:06:28Z"
     },
     {
       "id": "virtual-keyboard",
@@ -10842,82 +10988,6 @@
       "lastActivityAt": "2026-09-05T09:30:22Z"
     },
     {
-      "id": "text-fit",
-      "slug": "text-fit",
-      "title": "text-fit",
-      "summary": "The text-fit CSS property scales text to fill the inline size of its container. You can use this to grow or shrink headlines, captions, or pull quotes to fit a container.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 846,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/846"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-fit/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 10,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 19.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T10:06:28Z"
-    },
-    {
       "id": "text-modules",
       "slug": "text-modules",
       "title": "Text import attributes",
@@ -10956,9 +11026,9 @@
         "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
+        "votes7d": 0,
         "votes30d": 0,
-        "score7d": 0.8,
+        "score7d": 0,
         "score30d": 0
       },
       "comments": [],
@@ -11172,9 +11242,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-24T10:33:46Z"
+      "lastActivityAt": "2026-09-25T10:37:15Z"
     },
     {
       "id": "ua-client-hints",
@@ -11621,6 +11705,70 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:23Z"
+    },
+    {
+      "id": "heading-offset",
+      "slug": "heading-offset",
+      "title": "Heading offset",
+      "summary": "The headingoffset HTML attribute offsets the heading level of descendant <h1>–<h6> elements. The headingreset HTML attribute prevents heading offset computation from traversing beyond the element.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 876,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/876"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/heading-offset/",
+      "categories": [
+        "HTML"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-05",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-05T09:30:24Z"
     },
     {
       "id": "media-pseudos",
@@ -12246,70 +12394,6 @@
         }
       ],
       "lastActivityAt": "2026-09-19T05:25:46Z"
-    },
-    {
-      "id": "heading-offset",
-      "slug": "heading-offset",
-      "title": "Heading offset",
-      "summary": "The headingoffset HTML attribute offsets the heading level of descendant <h1>–<h6> elements. The headingreset HTML attribute prevents heading offset computation from traversing beyond the element.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 876,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/876"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/heading-offset/",
-      "categories": [
-        "HTML"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-05",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-05T09:30:24Z"
     },
     {
       "id": "overflow-clip-margin",
@@ -16011,6 +16095,88 @@
       "lastActivityAt": "2026-08-14T14:45:01Z"
     },
     {
+      "id": "ambient-light",
+      "slug": "ambient-light",
+      "title": "Ambient light sensor",
+      "summary": "The AmbientLightSensor API returns the current light level in lux of the ambient light level around the device.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 292,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/292"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/ambient-light/",
+      "categories": [
+        "Sensors"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABGB-rDQ",
+          "author": "jmedure",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/292#issuecomment-4699695885",
+          "createdAt": "2026-06-13T20:26:43Z",
+          "body": "## What I want to do with this feature\n\n- dark mode and light mode are insufficiently naturing honoring\n- I want to use ambient light sensor to provide a more nuanced real-time themeing experience\n\n## What I'm having to do in the meantime\n\n- in the meantime I'm using entered or location enabled location data to derive sun/light at a user's location, in order to reflect light/weather in their locale.",
+          "parsedGoal": "- dark mode and light mode are insufficiently naturing honoring - I want to use ambient light sensor to provide a more nuanced real-time themeing experience",
+          "parsedWorkaround": "- in the meantime I'm using entered or location enabled location data to derive sun/light at a user's location, in order to reflect light/weather in their locale.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:14Z"
+    },
+    {
       "id": "beforeunload",
       "slug": "beforeunload",
       "title": "beforeunload",
@@ -16414,9 +16580,9 @@
         "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
+        "votes7d": 0,
         "votes30d": 0,
-        "score7d": 5.5,
+        "score7d": 0,
         "score30d": 0
       },
       "comments": [],
@@ -16630,9 +16796,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-24T10:33:47Z"
+      "lastActivityAt": "2026-09-25T10:37:16Z"
     },
     {
       "id": "long-animation-frames",
@@ -17272,6 +17452,70 @@
       "lastActivityAt": "2026-08-26T12:10:08Z"
     },
     {
+      "id": "speak-as",
+      "slug": "speak-as",
+      "title": "speak-as",
+      "summary": "The speak-as CSS property sets how any element's content is spoken. Not to be confused with the speak-as descriptor of @counter-style at-rules.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 84,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/84"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/speak-as/",
+      "categories": [
+        "Speech",
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:20Z"
+    },
+    {
       "id": "url-integrity",
       "slug": "url-integrity",
       "title": "integrity() for url()",
@@ -17595,88 +17839,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:41Z"
-    },
-    {
-      "id": "ambient-light",
-      "slug": "ambient-light",
-      "title": "Ambient light sensor",
-      "summary": "The AmbientLightSensor API returns the current light level in lux of the ambient light level around the device.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 292,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/292"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/ambient-light/",
-      "categories": [
-        "Sensors"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABGB-rDQ",
-          "author": "jmedure",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/292#issuecomment-4699695885",
-          "createdAt": "2026-06-13T20:26:43Z",
-          "body": "## What I want to do with this feature\n\n- dark mode and light mode are insufficiently naturing honoring\n- I want to use ambient light sensor to provide a more nuanced real-time themeing experience\n\n## What I'm having to do in the meantime\n\n- in the meantime I'm using entered or location enabled location data to derive sun/light at a user's location, in order to reflect light/weather in their locale.",
-          "parsedGoal": "- dark mode and light mode are insufficiently naturing honoring - I want to use ambient light sensor to provide a more nuanced real-time themeing experience",
-          "parsedWorkaround": "- in the meantime I'm using entered or location enabled location data to derive sun/light at a user's location, in order to reflect light/weather in their locale.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:14Z"
     },
     {
       "id": "app-shortcuts",
@@ -18638,6 +18800,65 @@
       "lastActivityAt": "2026-09-03T14:36:30Z"
     },
     {
+      "id": "media-session",
+      "slug": "media-session",
+      "title": "Media session",
+      "summary": "The navigator.mediaSession API integrates with platform UI for media playback. It can be used to set metadata such as title and artwork, and to handle user actions like playing, pausing, or seeking.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 65,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/65"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/media-session/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 2,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 8.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.07,
+        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:36Z"
+    },
+    {
       "id": "navigation-precommit-handlers",
       "slug": "navigation-precommit-handlers",
       "title": "Navigation precommit handlers",
@@ -19009,70 +19230,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:40Z"
-    },
-    {
-      "id": "speak-as",
-      "slug": "speak-as",
-      "title": "speak-as",
-      "summary": "The speak-as CSS property sets how any element's content is spoken. Not to be confused with the speak-as descriptor of @counter-style at-rules.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 84,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/84"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/speak-as/",
-      "categories": [
-        "Speech",
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:20Z"
     },
     {
       "id": "text-justify",
@@ -19822,9 +19979,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:47:36Z"
+      "lastActivityAt": "2026-09-25T11:01:42Z"
     },
     {
       "id": "baseline-source",
@@ -21216,65 +21387,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:58Z"
-    },
-    {
-      "id": "media-session",
-      "slug": "media-session",
-      "title": "Media session",
-      "summary": "The navigator.mediaSession API integrates with platform UI for media playback. It can be used to set metadata such as title and artwork, and to handle user actions like playing, pausing, or seeking.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 65,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/65"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/media-session/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:36Z"
     },
     {
       "id": "non-cookie-storage-access",

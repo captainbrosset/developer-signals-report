@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-26T09:26:25.435Z",
-    "staleAfter": "2026-09-28T09:26:25.435Z",
+    "generatedAt": "2026-09-27T10:06:16.045Z",
+    "staleAfter": "2026-09-29T10:06:16.045Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,42 +10,27 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-26T09:26:25.435Z"
+        "retrievedAt": "2026-09-27T10:06:16.045Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-26T09:26:25.435Z"
+        "retrievedAt": "2026-09-27T10:06:16.045Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-26T09:26:25.435Z"
+        "retrievedAt": "2026-09-27T10:06:16.045Z"
       }
     ],
     "warnings": [
-      "ambient-light: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "anchor-positioning: feed votes 258 differed from GitHub 259; GitHub value used.",
-      "attr: feed votes 117 differed from GitHub 118; GitHub value used.",
-      "cookie-store: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "custom-media-queries: feed votes 32 differed from GitHub 33; GitHub value used.",
-      "customizable-select: feed votes 239 differed from GitHub 240; GitHub value used.",
-      "datalist: feed votes 48 differed from GitHub 49; GitHub value used.",
-      "edit-context: feed votes 13 differed from GitHub 15; GitHub value used.",
-      "focusgroup: feed votes 18 differed from GitHub 19; GitHub value used.",
-      "gap-decorations: feed votes 39 differed from GitHub 41; GitHub value used.",
-      "heading-offset: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "input-color-alpha: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "interest-invokers: feed votes 45 differed from GitHub 46; GitHub value used.",
-      "jpegxl: feed votes 503 differed from GitHub 504; GitHub value used.",
-      "link-parameters: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "media-session: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "popover-hint: feed votes 87 differed from GitHub 88; GitHub value used.",
-      "reading-flow: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "speak-as: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "temporal: feed votes 237 differed from GitHub 238; GitHub value used.",
-      "text-fit: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "translator: feed votes 6 differed from GitHub 7; GitHub value used."
+      "border-shape: feed votes 31 differed from GitHub 32; GitHub value used.",
+      "gamepad-haptics: feed votes 9 differed from GitHub 10; GitHub value used.",
+      "gap-decorations: feed votes 41 differed from GitHub 42; GitHub value used.",
+      "input-color: feed votes 12 differed from GitHub 13; GitHub value used.",
+      "input-date-time-month: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "input-date-time-week: feed votes 1 differed from GitHub 2; GitHub value used.",
+      "margin-trim: feed votes 39 differed from GitHub 40; GitHub value used."
     ]
   },
   "features": [
@@ -1126,9 +1111,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.5
           }
+        },
+        {
+          "date": "2026-09-26",
+          "votes": 238,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88.1,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.5
+          }
         }
       ],
-      "lastActivityAt": "2026-09-25T10:37:14Z"
+      "lastActivityAt": "2026-09-26T10:20:58Z"
     },
     {
       "id": "attr",
@@ -3451,27 +3450,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 31,
+      "votes": 32,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 55.7,
+        "voteDemand": 56.2,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 34.8
+        "composite": 35.1
       },
       "confidence": {
         "level": "medium",
         "score": 0.47,
-        "rationale": "1 distinct qualified author; 31 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 32 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
-        "votes30d": 3,
-        "score7d": 7.7,
-        "score30d": 7.7
+        "votes7d": 4,
+        "votes30d": 4,
+        "score7d": 8,
+        "score30d": 8
       },
       "comments": [
         {
@@ -3510,16 +3509,16 @@
         },
         {
           "date": "2026-09-14",
-          "votes": 31,
+          "votes": 32,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 55.7,
+            "voteDemand": 56.2,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 34.8
+            "composite": 35.1
           }
         }
       ],
@@ -4404,21 +4403,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 41,
+      "votes": 42,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 60.1,
+        "voteDemand": 60.5,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 30.1
+        "composite": 30.3
       },
       "confidence": {
         "level": "low",
         "score": 0.24,
-        "rationale": "0 distinct qualified authors; 41 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 42 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4430,16 +4429,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 41,
+          "votes": 42,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 60.1,
+            "voteDemand": 60.5,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 30.1
+            "composite": 30.3
           }
         }
       ],
@@ -4467,21 +4466,21 @@
         "edge",
         "firefox"
       ],
-      "votes": 39,
+      "votes": 40,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 59.3,
+        "voteDemand": 59.7,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 29.7
+        "composite": 29.9
       },
       "confidence": {
         "level": "low",
         "score": 0.24,
-        "rationale": "0 distinct qualified authors; 39 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 40 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4511,16 +4510,16 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 39,
+          "votes": 40,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 59.3,
+            "voteDemand": 59.7,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 29.7
+            "composite": 29.9
           }
         }
       ],
@@ -8479,9 +8478,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-26",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-25T10:37:13Z"
+      "lastActivityAt": "2026-09-26T10:20:57Z"
     },
     {
       "id": "manifest",
@@ -9156,6 +9169,66 @@
       "lastActivityAt": "2026-09-03T14:36:26Z"
     },
     {
+      "id": "input-color",
+      "slug": "input-color",
+      "title": "<input type=\"color\">",
+      "summary": "The <input type=\"color\"> HTML element shows a color picker from which users can choose a color value.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 22,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/22"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-color/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 13,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:08:45Z"
+    },
+    {
       "id": "app-file-handlers",
       "slug": "app-file-handlers",
       "title": "File handlers",
@@ -9373,66 +9446,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:25Z"
-    },
-    {
-      "id": "input-color",
-      "slug": "input-color",
-      "title": "<input type=\"color\">",
-      "summary": "The <input type=\"color\"> HTML element shows a color picker from which users can choose a color value.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 22,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/22"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-color/",
-      "categories": [
-        "Forms",
-        "HTML elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 12,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:08:45Z"
     },
     {
       "id": "install",
@@ -10723,6 +10736,99 @@
       "lastActivityAt": "2026-09-12T00:12:01Z"
     },
     {
+      "id": "gamepad-haptics",
+      "slug": "gamepad-haptics",
+      "title": "Gamepad haptic feedback",
+      "summary": "The gamepad.vibrationActuator property represents a gamepad's haptics hardware, which allows you to control the vibration motors in a gamepad.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 87,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/87"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gamepad-haptics/",
+      "categories": [
+        "Gamepad"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 10,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 38.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 19.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.8,
+        "score30d": 0.8
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABXJofPA",
+          "author": "Rowan-Mulder",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/87#issuecomment-5848571708",
+          "createdAt": "2026-09-26T18:03:55Z",
+          "body": "## What I want to do with this feature\n- Minimize the border between native and browser games\n- Repurpose my old Xbox360 controller as a massage gun to aid Bell's palsy aches.\n\n## What I'm having to do in the meantime\n- Advice users to use Chrome for full support, as there is no other feature currently that allows control of the haptic feedback.",
+          "parsedGoal": "- Minimize the border between native and browser games - Repurpose my old Xbox360 controller as a massage gun to aid Bell's palsy aches.",
+          "parsedWorkaround": "- Advice users to use Chrome for full support, as there is no other feature currently that allows control of the haptic feedback.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-09-26",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-26T18:03:55Z"
+    },
+    {
       "id": "justify-self-block",
       "slug": "justify-self-block",
       "title": "justify-self in block layouts",
@@ -11256,9 +11362,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-26",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-25T10:37:15Z"
+      "lastActivityAt": "2026-09-26T10:20:59Z"
     },
     {
       "id": "ua-client-hints",
@@ -11644,67 +11764,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:22Z"
-    },
-    {
-      "id": "gamepad-haptics",
-      "slug": "gamepad-haptics",
-      "title": "Gamepad haptic feedback",
-      "summary": "The gamepad.vibrationActuator property represents a gamepad's haptics hardware, which allows you to control the vibration motors in a gamepad.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 87,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/87"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gamepad-haptics/",
-      "categories": [
-        "Gamepad"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:23Z"
     },
     {
       "id": "heading-offset",
@@ -16810,9 +16869,82 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-26",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-25T10:37:16Z"
+      "lastActivityAt": "2026-09-26T10:21:02Z"
+    },
+    {
+      "id": "input-date-time-month",
+      "slug": "input-date-time-month",
+      "title": "<input type=\"month\">",
+      "summary": "Developer demand and implementation evidence for Input Date Time Month.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 925,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/925"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-month/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:08Z"
     },
     {
       "id": "long-animation-frames",
@@ -18521,18 +18653,18 @@
       "lastActivityAt": "2026-09-03T14:35:10Z"
     },
     {
-      "id": "input-date-time-month",
-      "slug": "input-date-time-month",
-      "title": "<input type=\"month\">",
-      "summary": "Developer demand and implementation evidence for Input Date Time Month.",
+      "id": "input-date-time-week",
+      "slug": "input-date-time-week",
+      "title": "<input type=\"week\">",
+      "summary": "Developer demand and implementation evidence for Input Date Time Week.",
       "summaryKind": "editorial",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 925,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/925"
+        "number": 926,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/926"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-month/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-week/",
       "categories": [
         "Other"
       ],
@@ -18577,7 +18709,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-18T16:17:08Z"
+      "lastActivityAt": "2026-09-18T16:17:11Z"
     },
     {
       "id": "languagedetector",
@@ -21012,9 +21144,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-09-26",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-09-18T16:18:12Z"
+      "lastActivityAt": "2026-09-26T10:21:00Z"
     },
     {
       "id": "ink",
@@ -21077,65 +21223,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:54Z"
-    },
-    {
-      "id": "input-date-time-week",
-      "slug": "input-date-time-week",
-      "title": "<input type=\"week\">",
-      "summary": "Developer demand and implementation evidence for Input Date Time Week.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 926,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/926"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-week/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:11Z"
     },
     {
       "id": "insertable-streams",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-27T10:06:16.045Z",
-    "staleAfter": "2026-09-29T10:06:16.045Z",
+    "generatedAt": "2026-09-28T11:05:30.974Z",
+    "staleAfter": "2026-09-30T11:05:30.974Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,27 +10,25 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-27T10:06:16.045Z"
+        "retrievedAt": "2026-09-28T11:05:30.974Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-27T10:06:16.045Z"
+        "retrievedAt": "2026-09-28T11:05:30.974Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-27T10:06:16.045Z"
+        "retrievedAt": "2026-09-28T11:05:30.974Z"
       }
     ],
     "warnings": [
-      "border-shape: feed votes 31 differed from GitHub 32; GitHub value used.",
-      "gamepad-haptics: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "gap-decorations: feed votes 41 differed from GitHub 42; GitHub value used.",
-      "input-color: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "input-date-time-month: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "input-date-time-week: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "margin-trim: feed votes 39 differed from GitHub 40; GitHub value used."
+      "anchor-positioning: feed votes 259 differed from GitHub 260; GitHub value used.",
+      "customizable-select: feed votes 240 differed from GitHub 241; GitHub value used.",
+      "input-color: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "sanitizer: feed votes 90 differed from GitHub 91; GitHub value used.",
+      "temporal: feed votes 238 differed from GitHub 239; GitHub value used."
     ]
   },
   "features": [
@@ -710,13 +708,13 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 238,
+      "votes": 239,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 88.1,
+        "voteDemand": 88.2,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
         "composite": 61.5
@@ -724,10 +722,10 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 238 issue votes; 33% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 239 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 5,
+        "votes7d": 6,
         "votes30d": 0,
         "score7d": 0.2,
         "score30d": 0
@@ -1125,9 +1123,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.5
           }
+        },
+        {
+          "date": "2026-09-27",
+          "votes": 239,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88.2,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.5
+          }
         }
       ],
-      "lastActivityAt": "2026-09-26T10:20:58Z"
+      "lastActivityAt": "2026-09-27T10:53:11Z"
     },
     {
       "id": "attr",
@@ -1316,13 +1328,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 259,
+      "votes": 260,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 89.4,
+        "voteDemand": 89.5,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 13.8,
         "composite": 54.7
@@ -1330,11 +1342,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 259 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 260 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 4,
-        "votes30d": 4,
+        "votes7d": 5,
+        "votes30d": 5,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -1373,13 +1385,13 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 259,
+          "votes": 260,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 89.4,
+            "voteDemand": 89.5,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 13.8,
             "composite": 54.7
@@ -2192,13 +2204,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 240,
+      "votes": 241,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 88.2,
+        "voteDemand": 88.3,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
         "composite": 44.1
@@ -2206,10 +2218,10 @@
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 240 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 241 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 7,
+        "votes7d": 8,
         "votes30d": 0,
         "score7d": 0.2,
         "score30d": 0
@@ -2232,13 +2244,13 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 240,
+          "votes": 241,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 88.2,
+            "voteDemand": 88.3,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
             "composite": 44.1
@@ -2900,27 +2912,27 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 90,
+      "votes": 91,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 72.6,
+        "voteDemand": 72.7,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 36.3
+        "composite": 36.4
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 90 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 91 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
-        "votes30d": 11,
-        "score7d": 0.2,
-        "score30d": 1.1
+        "votes7d": 3,
+        "votes30d": 12,
+        "score7d": 0.3,
+        "score30d": 1.2
       },
       "comments": [
         {
@@ -2989,16 +3001,16 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 90,
+          "votes": 91,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 72.6,
+            "voteDemand": 72.7,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 36.3
+            "composite": 36.4
           }
         }
       ],
@@ -8492,9 +8504,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-27",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-26T10:20:57Z"
+      "lastActivityAt": "2026-09-27T10:53:10Z"
     },
     {
       "id": "manifest",
@@ -8556,6 +8582,66 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:06Z"
+    },
+    {
+      "id": "input-color",
+      "slug": "input-color",
+      "title": "<input type=\"color\">",
+      "summary": "The <input type=\"color\"> HTML element shows a color picker from which users can choose a color value.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 22,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/22"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-color/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:08:45Z"
     },
     {
       "id": "requestidlecallback",
@@ -9167,66 +9253,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:26Z"
-    },
-    {
-      "id": "input-color",
-      "slug": "input-color",
-      "title": "<input type=\"color\">",
-      "summary": "The <input type=\"color\"> HTML element shows a color picker from which users can choose a color value.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 22,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/22"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-color/",
-      "categories": [
-        "Forms",
-        "HTML elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:08:45Z"
     },
     {
       "id": "app-file-handlers",
@@ -11376,9 +11402,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-27",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-26T10:20:59Z"
+      "lastActivityAt": "2026-09-27T10:53:12Z"
     },
     {
       "id": "ua-client-hints",
@@ -16883,9 +16923,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-27",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-26T10:21:02Z"
+      "lastActivityAt": "2026-09-27T10:53:13Z"
     },
     {
       "id": "input-date-time-month",

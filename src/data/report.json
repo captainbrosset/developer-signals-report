@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-28T11:05:30.974Z",
-    "staleAfter": "2026-09-30T11:05:30.974Z",
+    "generatedAt": "2026-09-29T10:48:20.509Z",
+    "staleAfter": "2026-10-01T10:48:20.509Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,25 +10,24 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-28T11:05:30.974Z"
+        "retrievedAt": "2026-09-29T10:48:20.509Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-28T11:05:30.974Z"
+        "retrievedAt": "2026-09-29T10:48:20.509Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-28T11:05:30.974Z"
+        "retrievedAt": "2026-09-29T10:48:20.509Z"
       }
     ],
     "warnings": [
-      "anchor-positioning: feed votes 259 differed from GitHub 260; GitHub value used.",
-      "customizable-select: feed votes 240 differed from GitHub 241; GitHub value used.",
-      "input-color: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "sanitizer: feed votes 90 differed from GitHub 91; GitHub value used.",
-      "temporal: feed votes 238 differed from GitHub 239; GitHub value used."
+      "baseline-source: feed votes 1 differed from GitHub 2; GitHub value used.",
+      "explicit-resource-management: feed votes 16 differed from GitHub 17; GitHub value used.",
+      "filter-function: feed votes 41 differed from GitHub 42; GitHub value used.",
+      "link-parameters: feed votes 12 differed from GitHub 13; GitHub value used."
     ]
   },
   "features": [
@@ -708,7 +707,7 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 239,
+      "votes": 240,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
@@ -722,12 +721,12 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 239 issue votes; 33% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 240 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 6,
+        "votes7d": 3,
         "votes30d": 0,
-        "score7d": 0.2,
+        "score7d": 0.1,
         "score30d": 0
       },
       "comments": [
@@ -1137,9 +1136,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.5
           }
+        },
+        {
+          "date": "2026-09-28",
+          "votes": 240,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88.2,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.5
+          }
         }
       ],
-      "lastActivityAt": "2026-09-27T10:53:11Z"
+      "lastActivityAt": "2026-09-28T12:04:37Z"
     },
     {
       "id": "attr",
@@ -1328,13 +1341,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 260,
+      "votes": 261,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 89.5,
+        "voteDemand": 89.6,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 13.8,
         "composite": 54.7
@@ -1342,11 +1355,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 260 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 261 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 5,
-        "votes30d": 5,
+        "votes7d": 6,
+        "votes30d": 6,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -1385,13 +1398,13 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 260,
+          "votes": 261,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 89.5,
+            "voteDemand": 89.6,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 13.8,
             "composite": 54.7
@@ -2204,26 +2217,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 241,
+      "votes": 242,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 88.3,
+        "voteDemand": 88.4,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 44.1
+        "composite": 44.2
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 241 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 242 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 8,
+        "votes7d": 9,
         "votes30d": 0,
-        "score7d": 0.2,
+        "score7d": 0.3,
         "score30d": 0
       },
       "comments": [],
@@ -2244,16 +2257,16 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 241,
+          "votes": 242,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 88.3,
+            "voteDemand": 88.4,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 44.1
+            "composite": 44.2
           }
         }
       ],
@@ -2281,21 +2294,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 83,
+      "votes": 84,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 71.3,
+        "voteDemand": 71.5,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 43.5
+        "composite": 43.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.53,
-        "rationale": "1 distinct qualified author; 83 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 84 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2326,16 +2339,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 83,
+          "votes": 84,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 71.3,
+            "voteDemand": 71.5,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 43.5
+            "composite": 43.6
           }
         }
       ],
@@ -2583,21 +2596,21 @@
         "edge",
         "firefox"
       ],
-      "votes": 41,
+      "votes": 42,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 60.1,
+        "voteDemand": 60.5,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 38
+        "composite": 38.1
       },
       "confidence": {
         "level": "medium",
-        "score": 0.48,
-        "rationale": "1 distinct qualified author; 41 issue votes; 100% of reviewed comments qualified."
+        "score": 0.49,
+        "rationale": "1 distinct qualified author; 42 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2626,16 +2639,16 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 41,
+          "votes": 42,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 60.1,
+            "voteDemand": 60.5,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 38
+            "composite": 38.1
           }
         }
       ],
@@ -3556,21 +3569,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 75,
+      "votes": 76,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 69.7,
+        "voteDemand": 69.9,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 34.8
+        "composite": 34.9
       },
       "confidence": {
         "level": "low",
         "score": 0.28,
-        "rationale": "0 distinct qualified authors; 75 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 76 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3582,16 +3595,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 75,
+          "votes": 76,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 69.7,
+            "voteDemand": 69.9,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 34.8
+            "composite": 34.9
           }
         }
       ],
@@ -3618,21 +3631,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 75,
+      "votes": 76,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 69.7,
+        "voteDemand": 69.9,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 34.8
+        "composite": 34.9
       },
       "confidence": {
         "level": "low",
         "score": 0.28,
-        "rationale": "0 distinct qualified authors; 75 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 76 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3660,16 +3673,16 @@
       "snapshots": [
         {
           "date": "2026-08-29",
-          "votes": 75,
+          "votes": 76,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 69.7,
+            "voteDemand": 69.9,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 34.8
+            "composite": 34.9
           }
         }
       ],
@@ -4650,6 +4663,100 @@
       "lastActivityAt": "2026-09-25T19:25:38Z"
     },
     {
+      "id": "loading-lazy-media",
+      "slug": "loading-lazy-media",
+      "title": "Lazy-loading media",
+      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 534,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
+      "categories": [
+        "Media elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 35,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 57.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 28.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 35 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 4,
+        "votes30d": 0,
+        "score7d": 0.9,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
+          "author": "robole",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
+          "createdAt": "2026-07-02T09:28:45Z",
+          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It looks blank if you do provide an image to the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
+          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
+          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It looks blank if you do provide an image to the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 35,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 57.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:18:00Z"
+    },
+    {
       "id": "local-fonts",
       "slug": "local-fonts",
       "title": "Local fonts",
@@ -4813,100 +4920,6 @@
       "lastActivityAt": "2026-08-14T14:48:05Z"
     },
     {
-      "id": "loading-lazy-media",
-      "slug": "loading-lazy-media",
-      "title": "Lazy-loading media",
-      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 534,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
-      "categories": [
-        "Media elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 34,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 57.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 28.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 34 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 3,
-        "votes30d": 0,
-        "score7d": 0.7,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
-          "author": "robole",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
-          "createdAt": "2026-07-02T09:28:45Z",
-          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It looks blank if you do provide an image to the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
-          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
-          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It looks blank if you do provide an image to the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 34,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 57.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:18:00Z"
-    },
-    {
       "id": "move-before",
       "slug": "move-before",
       "title": "moveBefore()",
@@ -4998,6 +5011,67 @@
         }
       ],
       "lastActivityAt": "2026-09-19T15:49:25Z"
+    },
+    {
+      "id": "sizes-auto",
+      "slug": "sizes-auto",
+      "title": "<img sizes=\"auto\" loading=\"lazy\">",
+      "summary": "The sizes=\"auto\" attribute for the <img> HTML element sets the layout size for the image based on the computed layout size when choosing a source from the srcset. This attribute only applies to images with the loading=\"lazy\" attribute.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 250,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/250"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/sizes-auto/",
+      "categories": [
+        "Images"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 32,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 56.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 28.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 32 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 32,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:34:43Z"
     },
     {
       "id": "element",
@@ -5339,67 +5413,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:36Z"
-    },
-    {
-      "id": "sizes-auto",
-      "slug": "sizes-auto",
-      "title": "<img sizes=\"auto\" loading=\"lazy\">",
-      "summary": "The sizes=\"auto\" attribute for the <img> HTML element sets the layout size for the image based on the computed layout size when choosing a source from the srcset. This attribute only applies to images with the loading=\"lazy\" attribute.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 250,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/250"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/sizes-auto/",
-      "categories": [
-        "Images"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 31,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 55.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 31 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:43Z"
     },
     {
       "id": "meta-theme-color",
@@ -6789,6 +6802,117 @@
       "lastActivityAt": "2026-08-14T14:48:26Z"
     },
     {
+      "id": "layout-instability",
+      "slug": "layout-instability",
+      "title": "Layout instability",
+      "summary": "The layout-shift performance entry and LayoutShift API measures the layout stability of web pages based on movements of the elements on the page. They're used to calculate Cumulative Layout Shift (CLS), a common metric for perceived stability.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 122,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/122"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/layout-instability/",
+      "categories": [
+        "Performance"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 0.4,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFmDemg",
+          "author": "stormsson",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-4670414490",
+          "createdAt": "2026-06-10T12:55:10Z",
+          "body": "## What I want to do with this feature\n\nMeasure performance metrics on different browsers\n\n## What I'm having to do in the meantime\n\nRelying on external tools / solutions that involves a much more complex  workflow instead of just reading the data from the API",
+          "parsedGoal": "Measure performance metrics on different browsers",
+          "parsedWorkaround": "Relying on external tools / solutions that involves a much more complex workflow instead of just reading the data from the API",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "performance"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABShiYKg",
+          "author": "ryantownsend",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-5538093098",
+          "createdAt": "2026-09-04T08:54:17Z",
+          "body": "## What I want to do with this feature\n\nAccurately measure user experience across all browser engines.\n\n## What I'm having to do in the meantime\n\nReal User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently.\n\nThis isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
+          "parsedGoal": "Accurately measure user experience across all browser engines.",
+          "parsedWorkaround": "Real User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently. This isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-04",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:19Z"
+    },
+    {
       "id": "navigator-install",
       "slug": "navigator-install",
       "title": "navigator.install()",
@@ -7211,117 +7335,6 @@
       "lastActivityAt": "2026-08-25T16:53:32Z"
     },
     {
-      "id": "layout-instability",
-      "slug": "layout-instability",
-      "title": "Layout instability",
-      "summary": "The layout-shift performance entry and LayoutShift API measures the layout stability of web pages based on movements of the elements on the page. They're used to calculate Cumulative Layout Shift (CLS), a common metric for perceived stability.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 122,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/122"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/layout-instability/",
-      "categories": [
-        "Performance"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFmDemg",
-          "author": "stormsson",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-4670414490",
-          "createdAt": "2026-06-10T12:55:10Z",
-          "body": "## What I want to do with this feature\n\nMeasure performance metrics on different browsers\n\n## What I'm having to do in the meantime\n\nRelying on external tools / solutions that involves a much more complex  workflow instead of just reading the data from the API",
-          "parsedGoal": "Measure performance metrics on different browsers",
-          "parsedWorkaround": "Relying on external tools / solutions that involves a much more complex workflow instead of just reading the data from the API",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "performance"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABShiYKg",
-          "author": "ryantownsend",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-5538093098",
-          "createdAt": "2026-09-04T08:54:17Z",
-          "body": "## What I want to do with this feature\n\nAccurately measure user experience across all browser engines.\n\n## What I'm having to do in the meantime\n\nReal User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently.\n\nThis isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
-          "parsedGoal": "Accurately measure user experience across all browser engines.",
-          "parsedWorkaround": "Real User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently. This isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-04",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:19Z"
-    },
-    {
       "id": "overlay",
       "slug": "overlay",
       "title": "overlay",
@@ -7733,6 +7746,102 @@
       "lastActivityAt": "2026-08-26T12:09:08Z"
     },
     {
+      "id": "explicit-resource-management",
+      "slug": "explicit-resource-management",
+      "title": "Explicit resource management",
+      "summary": "The using and await using declarations and the dispose and asyncDispose symbols manage the lifecycle of resources such as file handles and streams. The DisposableStack and AsyncDisposableStack objects can group, dispose, and coordinate dependencies between multiple disposable resources.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 366,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/366"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/explicit-resource-management/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 17,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 46.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7Zgypq",
+          "author": "akaltar",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3649251946",
+          "createdAt": "2025-12-13T11:51:09Z",
+          "body": "## What I want to do with this feature\n\nLots of resources on the web end up being stateful, from the DOM itself, to WebAudio components and WebGL components. It'd make managing them much more developer-friendly\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\nI'm manually managing this in different ways depending on the context, but it's more error-prone, and more diverse across different frameworks and systems. It's hard to always make sure to clean things up, it's very difficult to know what even is stateful. I think this proposal could pave the way to a much more robust web",
+          "parsedGoal": "Lots of resources on the web end up being stateful, from the DOM itself, to WebAudio components and WebGL components. It'd make managing them much more developer-friendly",
+          "parsedWorkaround": "I'm manually managing this in different ways depending on the context, but it's more error-prone, and more diverse across different frameworks and systems. It's hard to always make sure to clean things up, it's very difficult to know what even is stateful. I think this proposal could pave the way to a much more robust web",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7g4yIo",
+          "author": "1valdis",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3772981800",
+          "createdAt": "2026-01-20T13:49:13Z",
+          "body": "## What I want to do with this feature\n\nAs part of development for the Satellite.js library, I'm creating a WebAssembly option to propagate orbits of satellites, instead of just pure JS one. For this I make use of unmanaged memory in C++. I expose the results of propagation as views into WASM memory. To use orbit propagation in WASM, user needs to instantiate a class; in its constructor the class allocates unmanaged memory to work with it on hot path later. This memory needs to be `free`d when the user is done. In the future major version of the library, as part of the WASM API, the objects that work with unmanaged memory will use Explicit Resource Management to clean up the unmanaged memory after themselves when they leave the scope, and users will be encouraged to declare such objects with `using`.\n\n## What I'm having to do in the meantime\n\nAs an alternative, I expose the explicit `.dispose()` method that the users will have to call in `try...finally`.",
+          "parsedGoal": "As part of development for the Satellite.js library, I'm creating a WebAssembly option to propagate orbits of satellites, instead of just pure JS one. For this I make use of unmanaged memory in C++. I expose the results of propagation as views into WASM memory. To use orbit propagation in WASM, user needs to instantiate a class; in its constructor the class allocates unmanaged memory to work with it on hot path later. This memory needs to be freed when the user is done. In the future major version of the library, as part of the WASM API, the objects that work with unmanaged memory will use Explicit Resource Management to clean up the unmanaged memory after themselves when they leave the scope, and users will be encouraged to declare such objects with using.",
+          "parsedWorkaround": "As an alternative, I expose the explicit .dispose() method that the users will have to call in try...finally.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 17,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 46.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:48:40Z"
+    },
+    {
       "id": "hanging-punctuation",
       "slug": "hanging-punctuation",
       "title": "Hanging punctuation",
@@ -7981,102 +8090,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:48Z"
-    },
-    {
-      "id": "explicit-resource-management",
-      "slug": "explicit-resource-management",
-      "title": "Explicit resource management",
-      "summary": "The using and await using declarations and the dispose and asyncDispose symbols manage the lifecycle of resources such as file handles and streams. The DisposableStack and AsyncDisposableStack objects can group, dispose, and coordinate dependencies between multiple disposable resources.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 366,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/366"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/explicit-resource-management/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 16,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 45.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7Zgypq",
-          "author": "akaltar",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3649251946",
-          "createdAt": "2025-12-13T11:51:09Z",
-          "body": "## What I want to do with this feature\n\nLots of resources on the web end up being stateful, from the DOM itself, to WebAudio components and WebGL components. It'd make managing them much more developer-friendly\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\nI'm manually managing this in different ways depending on the context, but it's more error-prone, and more diverse across different frameworks and systems. It's hard to always make sure to clean things up, it's very difficult to know what even is stateful. I think this proposal could pave the way to a much more robust web",
-          "parsedGoal": "Lots of resources on the web end up being stateful, from the DOM itself, to WebAudio components and WebGL components. It'd make managing them much more developer-friendly",
-          "parsedWorkaround": "I'm manually managing this in different ways depending on the context, but it's more error-prone, and more diverse across different frameworks and systems. It's hard to always make sure to clean things up, it's very difficult to know what even is stateful. I think this proposal could pave the way to a much more robust web",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7g4yIo",
-          "author": "1valdis",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3772981800",
-          "createdAt": "2026-01-20T13:49:13Z",
-          "body": "## What I want to do with this feature\n\nAs part of development for the Satellite.js library, I'm creating a WebAssembly option to propagate orbits of satellites, instead of just pure JS one. For this I make use of unmanaged memory in C++. I expose the results of propagation as views into WASM memory. To use orbit propagation in WASM, user needs to instantiate a class; in its constructor the class allocates unmanaged memory to work with it on hot path later. This memory needs to be `free`d when the user is done. In the future major version of the library, as part of the WASM API, the objects that work with unmanaged memory will use Explicit Resource Management to clean up the unmanaged memory after themselves when they leave the scope, and users will be encouraged to declare such objects with `using`.\n\n## What I'm having to do in the meantime\n\nAs an alternative, I expose the explicit `.dispose()` method that the users will have to call in `try...finally`.",
-          "parsedGoal": "As part of development for the Satellite.js library, I'm creating a WebAssembly option to propagate orbits of satellites, instead of just pure JS one. For this I make use of unmanaged memory in C++. I expose the results of propagation as views into WASM memory. To use orbit propagation in WASM, user needs to instantiate a class; in its constructor the class allocates unmanaged memory to work with it on hot path later. This memory needs to be freed when the user is done. In the future major version of the library, as part of the WASM API, the objects that work with unmanaged memory will use Explicit Resource Management to clean up the unmanaged memory after themselves when they leave the scope, and users will be encouraged to declare such objects with using.",
-          "parsedWorkaround": "As an alternative, I expose the explicit .dispose() method that the users will have to call in try...finally.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 16,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:48:40Z"
     },
     {
       "id": "switch-control",
@@ -8518,9 +8531,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-28",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-27T10:53:10Z"
+      "lastActivityAt": "2026-09-28T12:04:36Z"
     },
     {
       "id": "manifest",
@@ -8584,6 +8611,129 @@
       "lastActivityAt": "2026-08-26T12:09:06Z"
     },
     {
+      "id": "requestidlecallback",
+      "slug": "requestidlecallback",
+      "title": "requestIdleCallback()",
+      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 52,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 15,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 44.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:23Z"
+    },
+    {
+      "id": "flexbox-flex-wrap-balance",
+      "slug": "flexbox-flex-wrap-balance",
+      "title": "flex-wrap: balance",
+      "summary": "The flex-wrap: balance CSS declaration distributes items in a multi-line flex container such that each line has about the same number of items.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 906,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/906"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/flexbox-flex-wrap-balance/",
+      "categories": [
+        "Flexbox"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:51Z"
+    },
+    {
       "id": "input-color",
       "slug": "input-color",
       "title": "<input type=\"color\">",
@@ -8642,67 +8792,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:45Z"
-    },
-    {
-      "id": "requestidlecallback",
-      "slug": "requestidlecallback",
-      "title": "requestIdleCallback()",
-      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 52,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 14,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 43.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
       "id": "screen-capture",
@@ -9113,68 +9202,6 @@
       "lastActivityAt": "2026-09-03T14:36:18Z"
     },
     {
-      "id": "flexbox-flex-wrap-balance",
-      "slug": "flexbox-flex-wrap-balance",
-      "title": "flex-wrap: balance",
-      "summary": "The flex-wrap: balance CSS declaration distributes items in a multi-line flex container such that each line has about the same number of items.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 906,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/906"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/flexbox-flex-wrap-balance/",
-      "categories": [
-        "Flexbox"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:51Z"
-    },
-    {
       "id": "image-function",
       "slug": "image-function",
       "title": "image()",
@@ -9253,6 +9280,114 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:26Z"
+    },
+    {
+      "id": "link-parameters",
+      "slug": "link-parameters",
+      "title": "Link parameters",
+      "summary": "Developer demand and implementation evidence for Link Parameters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 923,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 13,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 0.6,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
+          "author": "tylersticka",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
+          "createdAt": "2026-09-15T17:38:35Z",
+          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
+          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABXkEX2w",
+          "author": "kizu",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5876291547",
+          "createdAt": "2026-09-28T18:43:17Z",
+          "body": "## What I want to do with this feature\n\nCreate reusable and parametrized SVG images that could have a CSS-based API to adjust various parameters inside, not just colors.\n\n## What I'm having to do in the meantime\n\nFor anything non-color related, right now the only way is to hack around the dimensions of the used element and apply media queries/css math conditions: https://kizu.dev/svg-linked-parameters-workaround/ (the examples are _mostly_ using colors, but I have many use cases where I want to adjust something like stroke width, presence of markers, etc.)",
+          "parsedGoal": "Create reusable and parametrized SVG images that could have a CSS-based API to adjust various parameters inside, not just colors.",
+          "parsedWorkaround": "For anything non-color related, right now the only way is to hack around the dimensions of the used element and apply media queries/css math conditions: https://kizu.dev/svg-linked-parameters-workaround/ (the examples are mostly using colors, but I have many use cases where I want to adjust something like stroke width, presence of markers, etc.)",
+          "positiveReactions": 3,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-15",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        },
+        {
+          "date": "2026-09-28",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-28T18:43:18Z"
     },
     {
       "id": "app-file-handlers",
@@ -9550,83 +9685,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:18:14Z"
-    },
-    {
-      "id": "link-parameters",
-      "slug": "link-parameters",
-      "title": "Link parameters",
-      "summary": "Developer demand and implementation evidence for Link Parameters.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 923,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 12,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
-          "author": "tylersticka",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
-          "createdAt": "2026-09-15T17:38:35Z",
-          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
-          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
-          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-15",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T17:54:21Z"
     },
     {
       "id": "periodic-background-sync",
@@ -11416,9 +11474,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-28",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-27T10:53:12Z"
+      "lastActivityAt": "2026-09-28T12:04:38Z"
     },
     {
       "id": "ua-client-hints",
@@ -11804,6 +11876,102 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:22Z"
+    },
+    {
+      "id": "frame-sizing",
+      "slug": "frame-sizing",
+      "title": "Responsive iframes",
+      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 914,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 6,
+        "votes30d": 0,
+        "score7d": 7.4,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
+          "author": "crutchcorn",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
+          "createdAt": "2026-09-19T05:24:54Z",
+          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
+          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
+          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-19T05:25:46Z"
     },
     {
       "id": "heading-offset",
@@ -12397,102 +12565,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:40Z"
-    },
-    {
-      "id": "frame-sizing",
-      "slug": "frame-sizing",
-      "title": "Responsive iframes",
-      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 914,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 5,
-        "votes30d": 0,
-        "score7d": 6.6,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
-          "author": "crutchcorn",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
-          "createdAt": "2026-09-19T05:24:54Z",
-          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
-          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
-          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-19T05:25:46Z"
     },
     {
       "id": "overflow-clip-margin",
@@ -16937,9 +17009,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-28",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-27T10:53:13Z"
+      "lastActivityAt": "2026-09-28T12:04:39Z"
     },
     {
       "id": "input-date-time-month",
@@ -18147,6 +18233,67 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:05Z"
+    },
+    {
+      "id": "baseline-source",
+      "slug": "baseline-source",
+      "title": "baseline-source",
+      "summary": "The baseline-source CSS property controls how inline-level boxes with multiple lines of text are aligned with the surrounding text. By default, which typographic baseline is used depends on the display property value.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 192,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/192"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/baseline-source/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 2,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 8.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.07,
+        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:47:33Z"
     },
     {
       "id": "canvas-2d-alpha",
@@ -20182,67 +20329,6 @@
         }
       ],
       "lastActivityAt": "2026-09-25T11:01:42Z"
-    },
-    {
-      "id": "baseline-source",
-      "slug": "baseline-source",
-      "title": "baseline-source",
-      "summary": "The baseline-source CSS property controls how inline-level boxes with multiple lines of text are aligned with the surrounding text. By default, which typographic baseline is used depends on the display property value.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 192,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/192"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/baseline-source/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:47:33Z"
     },
     {
       "id": "case-sensitive-attributes",

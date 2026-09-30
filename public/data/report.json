@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-29T10:48:20.509Z",
-    "staleAfter": "2026-10-01T10:48:20.509Z",
+    "generatedAt": "2026-09-30T10:36:04.538Z",
+    "staleAfter": "2026-10-02T10:36:04.538Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,24 +10,28 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-29T10:48:20.509Z"
+        "retrievedAt": "2026-09-30T10:36:04.538Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-29T10:48:20.509Z"
+        "retrievedAt": "2026-09-30T10:36:04.538Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-29T10:48:20.509Z"
+        "retrievedAt": "2026-09-30T10:36:04.538Z"
       }
     ],
     "warnings": [
-      "baseline-source: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "explicit-resource-management: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "filter-function: feed votes 41 differed from GitHub 42; GitHub value used.",
-      "link-parameters: feed votes 12 differed from GitHub 13; GitHub value used."
+      "blocking-render: feed votes 4 differed from GitHub 5; GitHub value used.",
+      "clipboardchange: feed votes 1 differed from GitHub 2; GitHub value used.",
+      "html-media-capture: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "iframe-credentialless: feed votes 6 differed from GitHub 7; GitHub value used.",
+      "interpolate-size: feed votes 84 differed from GitHub 86; GitHub value used.",
+      "jpegxl: feed votes 504 differed from GitHub 505; GitHub value used.",
+      "languagedetector: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "loading-lazy-media: feed votes 35 differed from GitHub 36; GitHub value used."
     ]
   },
   "features": [
@@ -53,7 +57,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 504,
+      "votes": 505,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.88,
       "workaroundBurdenRaw": 0,
@@ -67,7 +71,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 504 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 505 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -672,7 +676,7 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 504,
+          "votes": 505,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.88,
           "workaroundBurdenRaw": 0,
@@ -1150,9 +1154,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.5
           }
+        },
+        {
+          "date": "2026-09-29",
+          "votes": 240,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88.2,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.5
+          }
         }
       ],
-      "lastActivityAt": "2026-09-28T12:04:37Z"
+      "lastActivityAt": "2026-09-29T11:38:03Z"
     },
     {
       "id": "attr",
@@ -2294,26 +2312,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 84,
+      "votes": 86,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 71.5,
+        "voteDemand": 71.8,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 43.6
+        "composite": 43.8
       },
       "confidence": {
         "level": "medium",
-        "score": 0.53,
-        "rationale": "1 distinct qualified author; 84 issue votes; 100% of reviewed comments qualified."
+        "score": 0.43,
+        "rationale": "1 distinct qualified author; 86 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
+        "votes7d": 2,
         "votes30d": 0,
-        "score7d": 0,
+        "score7d": 0.2,
         "score30d": 0
       },
       "comments": [
@@ -2326,7 +2344,7 @@
           "body": "## What I want to do with this feature\n\nThe ability to animate size from 0 to \"auto\" in CSS has been sorely missing pretty much since transition existed. I could immediately use it in several types of menus/navigations and other open/closable modules. Probably most notably \"interpolate-size: allow-keywords\" is the last feature missing from completely JS-free animated Accordions (with details+summary). I seriously can't wait to use it and throw out lots of legacy tricks and javascript, but unanimated modules in some bosses iPhones prevent it.\n\n## What I'm having to do in the meantime\n\nI animate to some set \"max-height\" and similar tricks, which are also somewhat flexible, but don't animate as well and can have drawbacks, like even bigger content then anticipated. Or (if even possible) I use otherwise unnecessary (and restricting) fixed size. Or I measure with Javascript (and re-measure after viewport-changes). Or I use fully Javascript animation (like jQuery slideToggle).\n",
           "parsedGoal": "The ability to animate size from 0 to \"auto\" in CSS has been sorely missing pretty much since transition existed. I could immediately use it in several types of menus/navigations and other open/closable modules. Probably most notably \"interpolate-size: allow-keywords\" is the last feature missing from completely JS-free animated Accordions (with details+summary). I seriously can't wait to use it and throw out lots of legacy tricks and javascript, but unanimated modules in some bosses iPhones prevent it.",
           "parsedWorkaround": "I animate to some set \"max-height\" and similar tricks, which are also somewhat flexible, but don't animate as well and can have drawbacks, like even bigger content then anticipated. Or (if even possible) I use otherwise unnecessary (and restricting) fixed size. Or I measure with Javascript (and re-measure after viewport-changes). Or I use fully Javascript animation (like jQuery slideToggle).",
-          "positiveReactions": 12,
+          "positiveReactions": 13,
           "classification": "qualified",
           "themes": [
             "media"
@@ -2334,6 +2352,23 @@
           "workaroundSeverity": "none",
           "generatedSummary": "The ability to animate size from 0 to \"auto\" in CSS has been sorely missing pretty much since transition existed. I could immediately use it in several types of menus/navigations …",
           "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABX3ohZw",
+          "author": "eriknicholas",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/253#issuecomment-5896806759",
+          "createdAt": "2026-09-29T19:06:16Z",
+          "body": "## What I want to do with this feature\n```CSS\nINPUT[type=\"checkbox\"]         + :is(FIELDSET,FIGURE,ASIDE,DIV) {\n             height: 0;\n         transition: height 0.8s ease-out;\n/* interpolate-size: allow-keywords; (\"on\" by default... to save Stack Overflow \n    from the thousand student questions about this every single semester.) */\n}\n\nINPUT[type=\"checkbox\"]:checked + :is(FIELDSET,FIGURE,ASIDE,DIV) {\n             height: auto;\n}\n```\n\n## What I'm having to do in the meantime\nCry in JavaScript.",
+          "parsedGoal": "code sample",
+          "parsedWorkaround": "Cry in JavaScript.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -2350,9 +2385,23 @@
             "workaroundBurden": 0,
             "composite": 43.6
           }
+        },
+        {
+          "date": "2026-09-29",
+          "votes": 86,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.2,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 71.8,
+            "useCaseEvidence": 22.5,
+            "workaroundBurden": 0,
+            "composite": 43.8
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:34:46Z"
+      "lastActivityAt": "2026-09-29T20:00:29Z"
     },
     {
       "id": "webgpu",
@@ -2374,21 +2423,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 63,
+      "votes": 64,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 66.9,
+        "voteDemand": 67.1,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 40.4
+        "composite": 40.5
       },
       "confidence": {
         "level": "low",
         "score": 0.38,
-        "rationale": "1 distinct qualified author; 63 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 64 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2447,16 +2496,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 63,
+          "votes": 64,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 66.9,
+            "voteDemand": 67.1,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 40.4
+            "composite": 40.5
           }
         }
       ],
@@ -4683,26 +4732,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 35,
+      "votes": 36,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 57.6,
+        "voteDemand": 58.1,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 28.8
+        "composite": 29
       },
       "confidence": {
         "level": "low",
         "score": 0.23,
-        "rationale": "0 distinct qualified authors; 35 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 36 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 4,
+        "votes7d": 5,
         "votes30d": 0,
-        "score7d": 0.9,
+        "score7d": 1.1,
         "score30d": 0
       },
       "comments": [
@@ -4741,16 +4790,16 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 35,
+          "votes": 36,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 57.6,
+            "voteDemand": 58.1,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 28.8
+            "composite": 29
           }
         }
       ],
@@ -8545,9 +8594,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-29",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-28T12:04:36Z"
+      "lastActivityAt": "2026-09-29T11:38:02Z"
     },
     {
       "id": "manifest",
@@ -11488,9 +11551,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-29",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-28T12:04:38Z"
+      "lastActivityAt": "2026-09-29T11:38:04Z"
     },
     {
       "id": "ua-client-hints",
@@ -13076,6 +13153,68 @@
       "lastActivityAt": "2026-08-14T14:49:05Z"
     },
     {
+      "id": "iframe-credentialless",
+      "slug": "iframe-credentialless",
+      "title": "Credentialless iframes",
+      "summary": "The credentialless attribute for the <iframe> HTML element loads third-party content in an ephemeral context and does not send any credentials such as cookies. When using cross-origin isolation, this allows you to embed content that does not send Cross-Origin-Embedder-Policy headers.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 188,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/188"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/iframe-credentialless/",
+      "categories": [
+        "Security"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 7,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 33.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 16.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:29Z"
+    },
+    {
       "id": "permissions-policy",
       "slug": "permissions-policy",
       "title": "Permissions policy",
@@ -13793,23 +13932,25 @@
       "lastActivityAt": "2026-08-26T12:10:18Z"
     },
     {
-      "id": "iframe-credentialless",
-      "slug": "iframe-credentialless",
-      "title": "Credentialless iframes",
-      "summary": "The credentialless attribute for the <iframe> HTML element loads third-party content in an ephemeral context and does not send any credentials such as cookies. When using cross-origin isolation, this allows you to embed content that does not send Cross-Origin-Embedder-Policy headers.",
+      "id": "html-media-capture",
+      "slug": "html-media-capture",
+      "title": "HTML media capture",
+      "summary": "The capture HTML attribute for <input type=\"file\"> elements allows the user to capture media using the device's camera or microphone.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 188,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/188"
+        "number": 27,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/27"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/iframe-credentialless/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/html-media-capture/",
       "categories": [
-        "Security"
+        "Other"
       ],
       "supportState": "limited",
       "missingBrowsers": [
+        "chrome",
+        "edge",
         "firefox",
         "safari"
       ],
@@ -13838,7 +13979,7 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-08-26",
+          "date": "2026-08-14",
           "votes": 6,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -13852,7 +13993,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:10:29Z"
+      "lastActivityAt": "2026-08-14T14:45:02Z"
     },
     {
       "id": "page-lifecycle",
@@ -14269,6 +14410,67 @@
       "lastActivityAt": "2026-09-21T05:18:25Z"
     },
     {
+      "id": "blocking-render",
+      "slug": "blocking-render",
+      "title": "blocking=\"render\"",
+      "summary": "The blocking=\"render\" attribute for <link>, <script>, and <style> elements blocks rendering until the external script or stylesheet has been loaded. For <link rel=\"expect\">, rendering is blocked until a specific element is in the DOM.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 180,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/180"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/blocking-render/",
+      "categories": [
+        "HTML"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 5,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 28.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 14.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.12,
+        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:24Z"
+    },
+    {
       "id": "cursor",
       "slug": "cursor",
       "title": "Cursor styles",
@@ -14657,70 +14859,6 @@
       "lastActivityAt": "2026-08-14T14:47:52Z"
     },
     {
-      "id": "html-media-capture",
-      "slug": "html-media-capture",
-      "title": "HTML media capture",
-      "summary": "The capture HTML attribute for <input type=\"file\"> elements allows the user to capture media using the device's camera or microphone.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 27,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/27"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/html-media-capture/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:02Z"
-    },
-    {
       "id": "local-network-access",
       "slug": "local-network-access",
       "title": "Local network access",
@@ -15044,67 +15182,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:54Z"
-    },
-    {
-      "id": "blocking-render",
-      "slug": "blocking-render",
-      "title": "blocking=\"render\"",
-      "summary": "The blocking=\"render\" attribute for <link>, <script>, and <style> elements blocks rendering until the external script or stylesheet has been loaded. For <link rel=\"expect\">, rendering is blocked until a specific element is in the DOM.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 180,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/180"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/blocking-render/",
-      "categories": [
-        "HTML"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 4,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 25.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 12.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.1,
-        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:24Z"
     },
     {
       "id": "canvas-2d-color-management",
@@ -17023,9 +17100,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-29",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-28T12:04:39Z"
+      "lastActivityAt": "2026-09-29T11:38:05Z"
     },
     {
       "id": "input-date-time-month",
@@ -17085,6 +17176,86 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:17:08Z"
+    },
+    {
+      "id": "languagedetector",
+      "slug": "languagedetector",
+      "title": "Language detector",
+      "summary": "The LanguageDetector API identifies the likely natural language that some text is written in. You can use this API to supplement machine translation when the source source language is not known.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 511,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/511"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/languagedetector/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABSmTHng",
+          "author": "sophb-chan",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/511#issuecomment-5543085982",
+          "createdAt": "2026-09-04T15:56:22Z",
+          "body": "## What I want to do with this feature\n\n- Live chat translation\n\nIf a chatting platform has messages in another language, the language could be detected and translated back into the language that the user has defined as their primary language.\n\n## What I'm having to do in the meantime\n\nCurrently, the lack of widespread support for this feature makes this functionality only available in certain browsers. I'll still using this API in case of larger adoption, but in the meantime, it'll only be available for the browsers that support it.",
+          "parsedGoal": "- Live chat translation If a chatting platform has messages in another language, the language could be detected and translated back into the language that the user has defined as their primary language.",
+          "parsedWorkaround": "Currently, the lack of widespread support for this feature makes this functionality only available in certain browsers. I'll still using this API in case of larger adoption, but in the meantime, it'll only be available for the browsers that support it.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-04",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-04T15:56:22Z"
     },
     {
       "id": "long-animation-frames",
@@ -18479,6 +18650,68 @@
       "lastActivityAt": "2026-08-26T12:09:18Z"
     },
     {
+      "id": "clipboardchange",
+      "slug": "clipboardchange",
+      "title": "clipboardchange",
+      "summary": "The clipboardchange event for navigator.clipboard fires when the user modifies the clipboard's contents.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 425,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/425"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/clipboardchange/",
+      "categories": [
+        "Clipboard"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 2,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 8.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.07,
+        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:38Z"
+    },
+    {
       "id": "digital-goods",
       "slug": "digital-goods",
       "title": "Digital goods",
@@ -18911,86 +19144,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:17:11Z"
-    },
-    {
-      "id": "languagedetector",
-      "slug": "languagedetector",
-      "title": "Language detector",
-      "summary": "The LanguageDetector API identifies the likely natural language that some text is written in. You can use this API to supplement machine translation when the source source language is not known.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 511,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/511"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/languagedetector/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABSmTHng",
-          "author": "sophb-chan",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/511#issuecomment-5543085982",
-          "createdAt": "2026-09-04T15:56:22Z",
-          "body": "## What I want to do with this feature\n\n- Live chat translation\n\nIf a chatting platform has messages in another language, the language could be detected and translated back into the language that the user has defined as their primary language.\n\n## What I'm having to do in the meantime\n\nCurrently, the lack of widespread support for this feature makes this functionality only available in certain browsers. I'll still using this API in case of larger adoption, but in the meantime, it'll only be available for the browsers that support it.",
-          "parsedGoal": "- Live chat translation If a chatting platform has messages in another language, the language could be detected and translated back into the language that the user has defined as their primary language.",
-          "parsedWorkaround": "Currently, the lack of widespread support for this feature makes this functionality only available in certain browsers. I'll still using this API in case of larger adoption, but in the meantime, it'll only be available for the browsers that support it.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-04",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-04T15:56:22Z"
     },
     {
       "id": "longtasks",
@@ -20578,68 +20731,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:30Z"
-    },
-    {
-      "id": "clipboardchange",
-      "slug": "clipboardchange",
-      "title": "clipboardchange",
-      "summary": "The clipboardchange event for navigator.clipboard fires when the user modifies the clipboard's contents.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 425,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/425"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/clipboardchange/",
-      "categories": [
-        "Clipboard"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:38Z"
     },
     {
       "id": "connection-allowlists",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-09-30T10:36:04.538Z",
-    "staleAfter": "2026-10-02T10:36:04.538Z",
+    "generatedAt": "2026-10-01T11:03:58.328Z",
+    "staleAfter": "2026-10-03T11:03:58.328Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,28 +10,28 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-09-30T10:36:04.538Z"
+        "retrievedAt": "2026-10-01T11:03:58.328Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-09-30T10:36:04.538Z"
+        "retrievedAt": "2026-10-01T11:03:58.328Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-09-30T10:36:04.538Z"
+        "retrievedAt": "2026-10-01T11:03:58.328Z"
       }
     ],
     "warnings": [
-      "blocking-render: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "clipboardchange: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "html-media-capture: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "iframe-credentialless: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "interpolate-size: feed votes 84 differed from GitHub 86; GitHub value used.",
-      "jpegxl: feed votes 504 differed from GitHub 505; GitHub value used.",
-      "languagedetector: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "loading-lazy-media: feed votes 35 differed from GitHub 36; GitHub value used."
+      "arianotify: feed votes 20 differed from GitHub 21; GitHub value used.",
+      "closewatcher: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "justify-self-block: feed votes 10 differed from GitHub 13; GitHub value used.",
+      "opaquerange: feed votes 3 differed from GitHub 5; GitHub value used.",
+      "overlay: feed votes 20 differed from GitHub 21; GitHub value used.",
+      "requestidlecallback: feed votes 15 differed from GitHub 16; GitHub value used.",
+      "scroll-initial-target: feed votes 3 differed from GitHub 4; GitHub value used.",
+      "temporal: feed votes 240 differed from GitHub 242; GitHub value used."
     ]
   },
   "features": [
@@ -711,26 +711,26 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 240,
+      "votes": 242,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 88.2,
+        "voteDemand": 88.4,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
-        "composite": 61.5
+        "composite": 61.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 240 issue votes; 33% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 242 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
+        "votes7d": 5,
         "votes30d": 0,
-        "score7d": 0.1,
+        "score7d": 0.2,
         "score30d": 0
       },
       "comments": [
@@ -876,7 +876,7 @@
           "authorAssociation": "NONE",
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5767656211",
           "createdAt": "2026-09-21T21:18:17Z",
-          "body": "### What I want to do with this feature\n\nconst tmpdzt = Object.freeze(dzt);\n\n### What I'm having to do in the meantime\n\nconst tmpEpochMilliSecs = dzt.epochMilliseconds",
+          "body": "## What I want to do with this feature\n\nconst tmpdzt = Object.freeze(dzt);\n\n## What I'm having to do in the meantime\n\nconst tmpEpochMilliSecs = dzt.epochMilliseconds",
           "parsedGoal": "const tmpdzt = Object.freeze(dzt);",
           "parsedWorkaround": "const tmpEpochMilliSecs = dzt.epochMilliseconds",
           "positiveReactions": 0,
@@ -884,6 +884,23 @@
           "exclusionReason": "insufficient-specificity",
           "themes": [
             "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABYNd1gA",
+          "author": "Cipscis",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/291#issuecomment-5919700352",
+          "createdAt": "2026-09-30T21:04:36Z",
+          "body": "## What I want to do with this feature\n\nI want to represent dates without time or time zone information attached.\n\n## What I'm having to do in the meantime\n\nI'm using a mix of custom `{ year: number; month: number; day: number; }` objects and `YYYY-mm-dd` strings, and need some custom functions for checking if a date in this representation aligns with the current day based on the user's time zone.",
+          "parsedGoal": "I want to represent dates without time or time zone information attached.",
+          "parsedWorkaround": "I'm using a mix of custom { year: number; month: number; day: number; } objects and YYYY-mm-dd strings, and need some custom functions for checking if a date in this representation aligns with the current day based on the user's time zone.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
           ],
           "workaroundSeverity": "none"
         }
@@ -1168,9 +1185,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.5
           }
+        },
+        {
+          "date": "2026-10-01",
+          "votes": 242,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88.4,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.6
+          }
         }
       ],
-      "lastActivityAt": "2026-09-29T11:38:03Z"
+      "lastActivityAt": "2026-10-01T06:55:16Z"
     },
     {
       "id": "attr",
@@ -1563,6 +1594,116 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:17:55Z"
+    },
+    {
+      "id": "customizable-select",
+      "slug": "customizable-select",
+      "title": "Customizable <select>",
+      "summary": "The <select> element's appearance, including the button, selected option, picker dropdown, and options, can be customized using CSS.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 278,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/278"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 242,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 88.4,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 51.1
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.54,
+        "rationale": "1 distinct qualified author; 242 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 6.9,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABYNirzg",
+          "author": "Cipscis",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/278#issuecomment-5919779790",
+          "createdAt": "2026-09-30T21:10:00Z",
+          "body": "## What I want to do with this feature\n\nI have a personal tasks and notes management app I work on. In this app, I can select a new status for a task via a custom dropdown that displays status icons. Dozens of these selectors can appear on the page at once.\n\n## What I'm having to do in the meantime\n\nI'm having to create a custom JavaScript-driven component, using CSS anchor positioning to position it. It's been up to my to ensure all the relevant accessibility features of a native `<select>` element are implemented in this custom JavaScript.",
+          "parsedGoal": "I have a personal tasks and notes management app I work on. In this app, I can select a new status for a task via a custom dropdown that displays status icons. Dozens of these selectors can appear on the page at once.",
+          "parsedWorkaround": "I'm having to create a custom JavaScript-driven component, using CSS anchor positioning to position it. It's been up to my to ensure all the relevant accessibility features of a native <select> element are implemented in this custom JavaScript.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I have a personal tasks and notes management app I work on. In this app, I can select a new status for a task via a custom dropdown that displays status icons. Dozens of these sel…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 233,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 87.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 43.9
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 242,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 44.2
+          }
+        },
+        {
+          "date": "2026-09-30",
+          "votes": 242,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88.4,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 51.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-30T21:10:00Z"
     },
     {
       "id": "corner-shape",
@@ -2212,83 +2353,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:20Z"
-    },
-    {
-      "id": "customizable-select",
-      "slug": "customizable-select",
-      "title": "Customizable <select>",
-      "summary": "The <select> element's appearance, including the button, selected option, picker dropdown, and options, can be customized using CSS.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 278,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/278"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/",
-      "categories": [
-        "Forms",
-        "HTML elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 242,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 88.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 44.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.3,
-        "rationale": "0 distinct qualified authors; 242 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 9,
-        "votes30d": 0,
-        "score7d": 0.3,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 233,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 87.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 43.9
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 242,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 44.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:42Z"
     },
     {
       "id": "interpolate-size",
@@ -4081,27 +4145,27 @@
         "edge",
         "safari"
       ],
-      "votes": 20,
+      "votes": 21,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 49,
+        "voteDemand": 49.7,
         "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
-        "composite": 31.6
+        "composite": 32
       },
       "confidence": {
         "level": "low",
         "score": 0.31,
-        "rationale": "1 distinct qualified author; 20 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 21 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.4,
+        "score30d": 0.4
       },
       "comments": [
         {
@@ -4172,16 +4236,16 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 20,
+          "votes": 21,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 49,
+            "voteDemand": 49.7,
             "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
-            "composite": 31.6
+            "composite": 32
           }
         }
       ],
@@ -7085,6 +7149,181 @@
       "lastActivityAt": "2026-08-14T14:44:59Z"
     },
     {
+      "id": "opaquerange",
+      "slug": "opaquerange",
+      "title": "OpaqueRange",
+      "summary": "The createValueRange() for form elements, such as <textarea> or <input type=\"text\">, gets an OpaqueRange object that represents a live span of text. You can use this for range-based operations on the input text, such as setting custom highlights or placing autocomplete popovers.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 579,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/579"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/opaquerange/",
+      "categories": [
+        "Selection"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 5,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 1,
+      "workaroundAuthors": 1,
+      "score": {
+        "voteDemand": 28.8,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 23.5,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.26,
+        "rationale": "1 distinct qualified author; 5 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 0,
+        "score7d": 13.8,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABPqoagQ",
+          "author": "sahajoydev289-coder",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/579#issuecomment-5346302593",
+          "createdAt": "2026-08-19T18:23:53Z",
+          "body": "HBIE",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABYNbDcg",
+          "author": "Cipscis",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/579#issuecomment-5919654770",
+          "createdAt": "2026-09-30T21:01:27Z",
+          "body": "## What I want to do with this feature\n\nI have a personal tasks and notes management web application I work on, where notes are added and edited in `<textarea>` elements whose contents are rendered using Markdown syntax. This includes some wikimedia-inspired customisation such as creating links to other pages using `[[identifier]]` syntax. I'd like to be able to place an autocomplete hint dropdown, or similar UI, at the caret position when one of these custom links is being written.\n\n## What I'm having to do in the meantime\n\nCurrently, with the way I'm editing content in a `<textarea>` element, I'm blocked from implementing this sort of functionality.",
+          "parsedGoal": "I have a personal tasks and notes management web application I work on, where notes are added and edited in <textarea> elements whose contents are rendered using Markdown syntax. This includes some wikimedia-inspired customisation such as creating links to other pages using [[identifier]] syntax. I'd like to be able to place an autocomplete hint dropdown, or similar UI, at the caret position when one of these custom links is being written.",
+          "parsedWorkaround": "Currently, with the way I'm editing content in a <textarea> element, I'm blocked from implementing this sort of functionality.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "layout & design",
+            "media"
+          ],
+          "workaroundSeverity": "blocked",
+          "generatedSummary": "I have a personal tasks and notes management web application I work on, where notes are added and edited in <textarea> elements whose contents are rendered using Markdown syntax. …",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-30",
+          "votes": 5,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 23.5,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-30T21:01:27Z"
+    },
+    {
+      "id": "overlay",
+      "slug": "overlay",
+      "title": "overlay",
+      "summary": "The overlay CSS property, used as an allow-discrete CSS transition, prevents a top layer element, such as a popover or a <dialog>, from being removed from the top layer before it has finished animating. You can't set the value of the overlay property; only use it as transition property.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 211,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/211"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/overlay/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:43Z"
+    },
+    {
       "id": "reading-flow",
       "slug": "reading-flow",
       "title": "reading-flow",
@@ -7382,68 +7621,6 @@
         }
       ],
       "lastActivityAt": "2026-08-25T16:53:32Z"
-    },
-    {
-      "id": "overlay",
-      "slug": "overlay",
-      "title": "overlay",
-      "summary": "The overlay CSS property, used as an allow-discrete CSS transition, prevents a top layer element, such as a popover or a <dialog>, from being removed from the top layer before it has finished animating. You can't set the value of the overlay property; only use it as transition property.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 211,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/211"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/overlay/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:43Z"
     },
     {
       "id": "focusgroup",
@@ -8141,6 +8318,67 @@
       "lastActivityAt": "2026-09-03T14:35:48Z"
     },
     {
+      "id": "requestidlecallback",
+      "slug": "requestidlecallback",
+      "title": "requestIdleCallback()",
+      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 52,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 16,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 45.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 16,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:23Z"
+    },
+    {
       "id": "switch-control",
       "slug": "switch-control",
       "title": "<input type=\"checkbox\" switch>",
@@ -8608,9 +8846,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-09-30",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-29T11:38:02Z"
+      "lastActivityAt": "2026-09-30T11:25:29Z"
     },
     {
       "id": "manifest",
@@ -8674,18 +8926,18 @@
       "lastActivityAt": "2026-08-26T12:09:06Z"
     },
     {
-      "id": "requestidlecallback",
-      "slug": "requestidlecallback",
-      "title": "requestIdleCallback()",
-      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+      "id": "closewatcher",
+      "slug": "closewatcher",
+      "title": "CloseWatcher",
+      "summary": "The CloseWatcher API listens and responds to close requests on in-page components, such as modals, popovers, and sidebars.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 52,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
+        "number": 249,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/249"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/closewatcher/",
       "categories": [
         "Other"
       ],
@@ -8693,21 +8945,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 15,
+      "votes": 14,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 44.6,
+        "voteDemand": 43.6,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 22.3
+        "composite": 21.8
       },
       "confidence": {
         "level": "low",
         "score": 0.18,
-        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -8719,20 +8971,20 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 15,
+          "votes": 14,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 44.6,
+            "voteDemand": 43.6,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 22.3
+            "composite": 21.8
           }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:45:23Z"
+      "lastActivityAt": "2026-08-14T14:48:15Z"
     },
     {
       "id": "flexbox-flex-wrap-balance",
@@ -9001,67 +9253,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:16Z"
-    },
-    {
-      "id": "closewatcher",
-      "slug": "closewatcher",
-      "title": "CloseWatcher",
-      "summary": "The CloseWatcher API listens and responds to close requests on in-page components, such as modals, popovers, and sidebars.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 249,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/249"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/closewatcher/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:48:15Z"
     },
     {
       "id": "cookie-store",
@@ -9343,6 +9534,100 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:26Z"
+    },
+    {
+      "id": "justify-self-block",
+      "slug": "justify-self-block",
+      "title": "justify-self in block layouts",
+      "summary": "The justify-self CSS property aligns an item along a container's inline axis in block layouts, like it does in grid layouts. Likewise, the justify-items property sets a default justify-self value for all items in a container in a block layout.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 442,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/442"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/justify-self-block/",
+      "categories": [
+        "Layout"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 13,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 0,
+        "score7d": 1.9,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABYEgzWg",
+          "author": "tmke8",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/442#issuecomment-5910311770",
+          "createdAt": "2026-09-30T11:33:00Z",
+          "body": "## What I want to do with this feature\n\nI want to use it in MathML Core to set the alignment of columns in `<mtable>`. See an example here: https://github.com/w3c/mathml-core/issues/156#issuecomment-3371106244\n\n## What I'm having to do in the meantime\n\nI currently have to set both `text-align` and `justify-items` such that `text-align` is picked up by Firefox (even though it should, by the spec, have no effect here) and `justify-items` is picked up by Chrome and Safari:\n\n```html\n<math display=\"block\">\n    <mtable displaystyle=\"true\" scriptlevel=\"0\" style=\"width: 100%\">\n        <mtr>\n            <mtd style=\"text-align: right;justify-items: end;padding-right: 0;\">\n                <mi>x</mi>\n            </mtd>\n            <mtd style=\"text-align: left;justify-items: start;padding-left: 0;\">\n                <mo>=</mo>\n                <mn>2</mn>\n                <mo stretchy=\"false\">(</mo>\n                <mi>x</mi>\n                <mo>+</mo>\n                <mi>y</mi>\n                <mo stretchy=\"false\">)</mo>\n            </mtd>\n        </mtr>\n        <mtr>\n            <mtd style=\"text-align: right;justify-items: end;padding-right: 0;\"></mtd>\n            <mtd style=\"text-align: left;justify-items: start;padding-left: 0;\">\n                <mo>=</mo>\n                <mn>2</mn>\n                <mi>x</mi>\n                <mo>+</mo>\n                <mn>2</mn>\n                <mi>y</mi>\n            </mtd>\n        </mtr>\n    </mtable>\n</math>\n```",
+          "parsedGoal": "I want to use it in MathML Core to set the alignment of columns in <mtable>. See an example here: https://github.com/w3c/mathml-core/issues/156#issuecomment-3371106244",
+          "parsedWorkaround": "I currently have to set both text-align and justify-items such that text-align is picked up by Firefox (even though it should, by the spec, have no effect here) and justify-items is picked up by Chrome and Safari: code sample",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-30",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-30T11:33:00Z"
     },
     {
       "id": "link-parameters",
@@ -10976,68 +11261,6 @@
       "lastActivityAt": "2026-09-26T18:03:55Z"
     },
     {
-      "id": "justify-self-block",
-      "slug": "justify-self-block",
-      "title": "justify-self in block layouts",
-      "summary": "The justify-self CSS property aligns an item along a container's inline axis in block layouts, like it does in grid layouts. Likewise, the justify-items property sets a default justify-self value for all items in a container in a block layout.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 442,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/442"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/justify-self-block/",
-      "categories": [
-        "Layout"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 10,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 19.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:53Z"
-    },
-    {
       "id": "object-view-box",
       "slug": "object-view-box",
       "title": "object-view-box",
@@ -11565,9 +11788,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-09-30",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-29T11:38:04Z"
+      "lastActivityAt": "2026-09-30T11:25:31Z"
     },
     {
       "id": "ua-client-hints",
@@ -16159,6 +16396,68 @@
       "lastActivityAt": "2026-08-14T14:45:16Z"
     },
     {
+      "id": "scroll-initial-target",
+      "slug": "scroll-initial-target",
+      "title": "scroll-initial-target",
+      "summary": "The scroll-initial-target: nearest CSS declaration sets the initial scroll position of its scroll container to the top of the element, much like scrolling to a URL fragment.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 275,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/275"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-initial-target/",
+      "categories": [
+        "Scrolling"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 4,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 12.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.1,
+        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:04Z"
+    },
+    {
       "id": "spelling-grammar-error",
       "slug": "spelling-grammar-error",
       "title": "::spelling-error and ::grammar-error",
@@ -17114,9 +17413,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-09-30",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-29T11:38:05Z"
+      "lastActivityAt": "2026-09-30T11:25:32Z"
     },
     {
       "id": "input-date-time-month",
@@ -17348,86 +17661,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:17:38Z"
-    },
-    {
-      "id": "opaquerange",
-      "slug": "opaquerange",
-      "title": "OpaqueRange",
-      "summary": "The createValueRange() for form elements, such as <textarea> or <input type=\"text\">, gets an OpaqueRange object that represents a live span of text. You can use this for range-based operations on the input text, such as setting custom highlights or placing autocomplete popovers.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 579,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/579"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/opaquerange/",
-      "categories": [
-        "Selection"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABPqoagQ",
-          "author": "sahajoydev289-coder",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/579#issuecomment-5346302593",
-          "createdAt": "2026-08-19T18:23:53Z",
-          "body": "HBIE",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "minimized",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:35Z"
     },
     {
       "id": "path-shape",
@@ -17707,68 +17940,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:35Z"
-    },
-    {
-      "id": "scroll-initial-target",
-      "slug": "scroll-initial-target",
-      "title": "scroll-initial-target",
-      "summary": "The scroll-initial-target: nearest CSS declaration sets the initial scroll position of its scroll container to the top of the element, much like scrolling to a URL fragment.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 275,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/275"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-initial-target/",
-      "categories": [
-        "Scrolling"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:04Z"
     },
     {
       "id": "serializable-errors",

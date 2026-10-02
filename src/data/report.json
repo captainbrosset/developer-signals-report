@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-01T11:03:58.328Z",
-    "staleAfter": "2026-10-03T11:03:58.328Z",
+    "generatedAt": "2026-10-02T10:36:41.173Z",
+    "staleAfter": "2026-10-04T10:36:41.173Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,28 +10,27 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-01T11:03:58.328Z"
+        "retrievedAt": "2026-10-02T10:36:41.173Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-01T11:03:58.328Z"
+        "retrievedAt": "2026-10-02T10:36:41.173Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-01T11:03:58.328Z"
+        "retrievedAt": "2026-10-02T10:36:41.173Z"
       }
     ],
     "warnings": [
-      "arianotify: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "closewatcher: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "justify-self-block: feed votes 10 differed from GitHub 13; GitHub value used.",
-      "opaquerange: feed votes 3 differed from GitHub 5; GitHub value used.",
-      "overlay: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "requestidlecallback: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "scroll-initial-target: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "temporal: feed votes 240 differed from GitHub 242; GitHub value used."
+      "anchor-positioning: feed votes 261 differed from GitHub 262; GitHub value used.",
+      "customizable-select: feed votes 242 differed from GitHub 243; GitHub value used.",
+      "display-animation: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "frame-sizing: feed votes 9 differed from GitHub 10; GitHub value used.",
+      "loading-lazy-media: feed votes 36 differed from GitHub 37; GitHub value used.",
+      "overlay: feed votes 21 differed from GitHub 22; GitHub value used.",
+      "reading-flow: feed votes 21 differed from GitHub 22; GitHub value used."
     ]
   },
   "features": [
@@ -1201,7 +1200,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-10-01T06:55:16Z"
+      "lastActivityAt": "2026-10-01T11:53:03Z"
     },
     {
       "id": "attr",
@@ -1390,7 +1389,7 @@
         "firefox",
         "safari"
       ],
-      "votes": 261,
+      "votes": 262,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
@@ -1399,18 +1398,18 @@
         "voteDemand": 89.6,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 13.8,
-        "composite": 54.7
+        "composite": 54.8
       },
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 261 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 262 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 6,
-        "votes30d": 6,
-        "score7d": 0.1,
-        "score30d": 0.1
+        "votes7d": 7,
+        "votes30d": 7,
+        "score7d": 0.2,
+        "score30d": 0.2
       },
       "comments": [
         {
@@ -1447,7 +1446,7 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 261,
+          "votes": 262,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
@@ -1456,7 +1455,7 @@
             "voteDemand": 89.6,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 13.8,
-            "composite": 54.7
+            "composite": 54.8
           }
         }
       ],
@@ -1617,7 +1616,7 @@
         "firefox",
         "safari"
       ],
-      "votes": 242,
+      "votes": 243,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
@@ -1626,17 +1625,17 @@
         "voteDemand": 88.4,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 51.1
+        "composite": 51.2
       },
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 242 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 243 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
+        "votes7d": 1,
         "votes30d": 0,
-        "score7d": 6.9,
+        "score7d": 7,
         "score30d": 0
       },
       "comments": [
@@ -1690,7 +1689,7 @@
         },
         {
           "date": "2026-09-30",
-          "votes": 242,
+          "votes": 243,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
@@ -1699,7 +1698,7 @@
             "voteDemand": 88.4,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 51.1
+            "composite": 51.2
           }
         }
       ],
@@ -1821,7 +1820,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5718669287",
           "createdAt": "2026-09-17T17:36:08Z",
           "body": "I'd like to add that both Firefox and Safari are implementing `corner-shape`; especially [Safari](https://github.com/WebKit/WebKit/pulls?q=is%3Apr+state%3Aclosed+corner-shape) should be reaching the “Ship” status soon. \ncc @smfr",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -4124,6 +4123,102 @@
       "lastActivityAt": "2026-09-15T21:11:57Z"
     },
     {
+      "id": "overlay",
+      "slug": "overlay",
+      "title": "overlay",
+      "summary": "The overlay CSS property, used as an allow-discrete CSS transition, prevents a top layer element, such as a popover or a <dialog>, from being removed from the top layer before it has finished animating. You can't set the value of the overlay property; only use it as transition property.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 211,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/211"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/overlay/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 22,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 50.4,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 32.2
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.45,
+        "rationale": "1 distinct qualified author; 22 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 7.3,
+        "score30d": 7.3
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABYZ89tg",
+          "author": "phantomxx29474",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/211#issuecomment-5932793270",
+          "createdAt": "2026-10-01T13:48:27Z",
+          "body": "## What I want to do with this feature\n\nWhile the overlay property is almost useless because developers can't change the open state for dialogs and popovers from their code editors. The property itself combined with animating display none and content-visibility hidden for popovers, dialogs and other popup elements with the @starting-style rule will be useful to developers can use to have a smooth transition within the top layer from the ::backdrop pseudo element.  Thus animating display animating display none and content-visibility hidden for popovers, dialogs and other popup elements will feel incomplete without the overlay property that developers use in transitions.\n\nAll of the browsers have support for the transition-behavior property for discrete animations and the @starting-style rule to apply styles before rendering the page.\n\nChromium Browsers with Safari have full support animating display none and content-visibility hidden for popovers, dialogs and other popup elements, but Firefox does not (though their developers have been working on it and are prototyping it which it can be enable by this flag layout.css.display-animations.enabled \n\nChromium Browsers are the only browsers that support the full set of animating display none and content-visibility hidden with the overlay property for dialogs. As of the moment developers are happy that we can animate display and discrete animations on the web. It would be nice if we can animate the backdrop and top layer over the content of the web. \n\n## What I'm having to do in the meantime\nI will wait for all the browsers, mostly Firefox to finally implement these modern features on the web in the mean time.",
+          "parsedGoal": "While the overlay property is almost useless because developers can't change the open state for dialogs and popovers from their code editors. The property itself combined with animating display none and content-visibility hidden for popovers, dialogs and other popup elements with the @starting-style rule will be useful to developers can use to have a smooth transition within the top layer from the ::backdrop pseudo element. Thus animating display animating display none and content-visibility hidden for popovers, dialogs and other popup elements will feel incomplete without the overlay property that developers use in transitions. All of the browsers have support for the transition-behavior property for discrete animations and the @starting-style rule to apply styles before rendering the page. Chromium Browsers with Safari have full support animating display none and content-visibility hidden for popovers, dialogs and other popup elements, but Firefox does not (though their developers have been working on it and are prototyping it which it can be enable by this flag layout.css.display-animations.enabled Chromium Browsers are the only browsers that support the full set of animating display none and content-visibility hidden with the overlay property for dialogs. As of the moment developers are happy that we can animate display and discrete animations on the web. It would be nice if we can animate the backdrop and top layer over the content of the web.",
+          "parsedWorkaround": "I will wait for all the browsers, mostly Firefox to finally implement these modern features on the web in the mean time.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "performance",
+            "layout & design"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "While the overlay property is almost useless because developers can't change the open state for dialogs and popovers from their code editors. The property itself combined with ani…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        },
+        {
+          "date": "2026-10-01",
+          "votes": 22,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 32.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-01T13:48:27Z"
+    },
+    {
       "id": "arianotify",
       "slug": "arianotify",
       "title": "ariaNotify()",
@@ -4664,6 +4759,100 @@
       "lastActivityAt": "2026-08-26T12:10:34Z"
     },
     {
+      "id": "loading-lazy-media",
+      "slug": "loading-lazy-media",
+      "title": "Lazy-loading media",
+      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 534,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
+      "categories": [
+        "Media elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 37,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 58.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 29.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.24,
+        "rationale": "0 distinct qualified authors; 37 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 6,
+        "votes30d": 0,
+        "score7d": 1.4,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
+          "author": "robole",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
+          "createdAt": "2026-07-02T09:28:45Z",
+          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It looks blank if you do provide an image to the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
+          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
+          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It looks blank if you do provide an image to the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 37,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 58.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:18:00Z"
+    },
+    {
       "id": "edit-context",
       "slug": "edit-context",
       "title": "EditContext",
@@ -4774,100 +4963,6 @@
         }
       ],
       "lastActivityAt": "2026-09-25T19:25:38Z"
-    },
-    {
-      "id": "loading-lazy-media",
-      "slug": "loading-lazy-media",
-      "title": "Lazy-loading media",
-      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 534,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
-      "categories": [
-        "Media elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 36,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 58.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 29
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 36 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 5,
-        "votes30d": 0,
-        "score7d": 1.1,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
-          "author": "robole",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
-          "createdAt": "2026-07-02T09:28:45Z",
-          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It looks blank if you do provide an image to the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
-          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
-          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It looks blank if you do provide an image to the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 36,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 58.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 29
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:18:00Z"
     },
     {
       "id": "local-fonts",
@@ -6819,6 +6914,69 @@
       "lastActivityAt": "2026-08-26T12:09:50Z"
     },
     {
+      "id": "reading-flow",
+      "slug": "reading-flow",
+      "title": "reading-flow",
+      "summary": "The reading-flow CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation. The reading-order property overrides this order.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 290,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/290"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/reading-flow/",
+      "categories": [
+        "CSS",
+        "Reading order"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 22,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 50.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:21Z"
+    },
+    {
       "id": "document-picture-in-picture",
       "slug": "document-picture-in-picture",
       "title": "Document picture-in-picture",
@@ -7260,131 +7418,6 @@
         }
       ],
       "lastActivityAt": "2026-09-30T21:01:27Z"
-    },
-    {
-      "id": "overlay",
-      "slug": "overlay",
-      "title": "overlay",
-      "summary": "The overlay CSS property, used as an allow-discrete CSS transition, prevents a top layer element, such as a popover or a <dialog>, from being removed from the top layer before it has finished animating. You can't set the value of the overlay property; only use it as transition property.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 211,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/211"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/overlay/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 21,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:43Z"
-    },
-    {
-      "id": "reading-flow",
-      "slug": "reading-flow",
-      "title": "reading-flow",
-      "summary": "The reading-flow CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation. The reading-order property overrides this order.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 290,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/290"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/reading-flow/",
-      "categories": [
-        "CSS",
-        "Reading order"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 21,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:21Z"
     },
     {
       "id": "scheduler",
@@ -8860,9 +8893,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-10-01",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-30T11:25:29Z"
+      "lastActivityAt": "2026-10-01T11:53:02Z"
     },
     {
       "id": "manifest",
@@ -8985,6 +9032,67 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:15Z"
+    },
+    {
+      "id": "display-animation",
+      "slug": "display-animation",
+      "title": "display animation",
+      "summary": "You can animate elements between display: none and any other display value or animate between content-visibility: hidden and any other content-visibility value. This also applies to transitions.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 210,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/210"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-animation/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:41Z"
     },
     {
       "id": "flexbox-flex-wrap-balance",
@@ -9329,67 +9437,6 @@
         }
       ],
       "lastActivityAt": "2026-09-15T07:26:39Z"
-    },
-    {
-      "id": "display-animation",
-      "slug": "display-animation",
-      "title": "display animation",
-      "summary": "You can animate elements between display: none and any other display value or animate between content-visibility: hidden and any other content-visibility value. This also applies to transitions.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 210,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/210"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-animation/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:41Z"
     },
     {
       "id": "display-contents",
@@ -11168,6 +11215,102 @@
       "lastActivityAt": "2026-09-12T00:12:01Z"
     },
     {
+      "id": "frame-sizing",
+      "slug": "frame-sizing",
+      "title": "Responsive iframes",
+      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 914,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 10,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 38.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 19.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 7,
+        "votes30d": 0,
+        "score7d": 8.2,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
+          "author": "crutchcorn",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
+          "createdAt": "2026-09-19T05:24:54Z",
+          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
+          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
+          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-19T05:25:46Z"
+    },
+    {
       "id": "gamepad-haptics",
       "slug": "gamepad-haptics",
       "title": "Gamepad haptic feedback",
@@ -11802,9 +11945,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-10-01",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-09-30T11:25:31Z"
+      "lastActivityAt": "2026-10-01T11:53:04Z"
     },
     {
       "id": "ua-client-hints",
@@ -12190,102 +12347,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:22Z"
-    },
-    {
-      "id": "frame-sizing",
-      "slug": "frame-sizing",
-      "title": "Responsive iframes",
-      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 914,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 6,
-        "votes30d": 0,
-        "score7d": 7.4,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
-          "author": "crutchcorn",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
-          "createdAt": "2026-09-19T05:24:54Z",
-          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
-          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
-          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-19T05:25:46Z"
     },
     {
       "id": "heading-offset",
@@ -17427,9 +17488,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-10-01",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-30T11:25:32Z"
+      "lastActivityAt": "2026-10-01T11:53:05Z"
     },
     {
       "id": "input-date-time-month",

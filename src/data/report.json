@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-03T09:57:20.499Z",
-    "staleAfter": "2026-10-05T09:57:20.499Z",
+    "generatedAt": "2026-10-04T10:40:32.311Z",
+    "staleAfter": "2026-10-06T10:40:32.311Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,24 +10,23 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-03T09:57:20.499Z"
+        "retrievedAt": "2026-10-04T10:40:32.311Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-03T09:57:20.499Z"
+        "retrievedAt": "2026-10-04T10:40:32.311Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-03T09:57:20.499Z"
+        "retrievedAt": "2026-10-04T10:40:32.311Z"
       }
     ],
     "warnings": [
-      "barcode: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "caret-shape: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "explicit-resource-management: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "webgpu-subgroups: feed votes 3 differed from GitHub 4; GitHub value used."
+      "switch-control: feed votes 16 differed from GitHub 17; GitHub value used.",
+      "temporal: feed votes 242 differed from GitHub 243; GitHub value used.",
+      "webgpu: feed votes 64 differed from GitHub 65; GitHub value used."
     ]
   },
   "features": [
@@ -707,7 +706,7 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 242,
+      "votes": 243,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
@@ -721,10 +720,10 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 242 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 243 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 4,
+        "votes7d": 5,
         "votes30d": 0,
         "score7d": 0.1,
         "score30d": 0
@@ -1209,9 +1208,23 @@
             "workaroundBurden": 23.5,
             "composite": 61.6
           }
+        },
+        {
+          "date": "2026-10-03",
+          "votes": 243,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88.4,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 61.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-02T11:25:03Z"
+      "lastActivityAt": "2026-10-03T10:41:54Z"
     },
     {
       "id": "attr",
@@ -1606,6 +1619,209 @@
       "lastActivityAt": "2026-09-18T16:17:55Z"
     },
     {
+      "id": "corner-shape",
+      "slug": "corner-shape",
+      "title": "corner-shape",
+      "summary": "The corner-shape CSS property sets the shape of an element's corners when using border-radius, allowing for shapes other than rounded corners. For example, corner-shape: squircle is a shape in between a square and rounded corner.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 398,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/398"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/corner-shape/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 134,
+      "qualifiedAuthors": 3,
+      "reactionBoost": 0.16,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 78.9,
+        "useCaseEvidence": 40.8,
+        "workaroundBurden": 0,
+        "composite": 53.7
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.53,
+        "rationale": "3 distinct qualified authors; 134 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 5,
+        "score7d": 2.7,
+        "score30d": 14.6
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABU6dz4A",
+          "author": "80GritPolymath",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5698450400",
+          "createdAt": "2026-09-16T13:41:22Z",
+          "body": "## What I want to do with this feature\n\nBetter HUD-style UI elements.\n\n## What I'm having to do in the meantime\n\nSVG shapes for containers.",
+          "parsedGoal": "Better HUD-style UI elements.",
+          "parsedWorkaround": "SVG shapes for containers.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABU6261g",
+          "author": "jakearchibald",
+          "authorAssociation": "COLLABORATOR",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5698861782",
+          "createdAt": "2026-09-16T14:09:30Z",
+          "body": "For folks wanting this feature, I'm curious to know if [`border-shape`](https://github.com/web-platform-dx/developer-signals/issues/555) would serve you better, and if not, why.\n\nMy gut feeling is that supporting `corner-shape` in addition to `border-shape` would be a small lift, but in case it comes down to a choice, I want all the data 😄 ",
+          "positiveReactions": 2,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "For folks wanting this feature, I'm curious to know if border-shape would serve you better, and if not, why. My gut feeling is that supporting corner-shape in addition to border-s…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABU7theA",
+          "author": "matthewmorete",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5699756408",
+          "createdAt": "2026-09-16T15:09:25Z",
+          "body": "border-shape is significantly more powerful so if there was a choice between the two I'd prefer border-shape. But for some common use cases corner-shape is so much easier to use.\nBevel corners with border-shape requires at least 8 commands and 8 var calls to get the same control that corner-shape gets in 2 short properties.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABU_1yQQ",
+          "author": "Afif13",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5704086081",
+          "createdAt": "2026-09-16T20:31:30Z",
+          "body": "I am 1000% for using only border-shape, but I want to highlight a specific use case only doable with corner-shape. The latter works with border-style, so we can, for example, have a \"double\" or \"dotted\" configuration using corner-shape and not with border-shape.\n\n<img width=\"584\" height=\"309\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4882ee19-c846-4356-bdd5-3421d5f8ddf1\" />\n\nAs for syntax complexity, there will be a lot of generators for different shape() (I've already made a few of them), so it won't be a big deal in the future.\n",
+          "positiveReactions": 2,
+          "classification": "qualified",
+          "themes": [
+            "layout & design",
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I am 1000% for using only border-shape, but I want to highlight a specific use case only doable with corner-shape. The latter works with border-style, so we can, for example, have…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVNv35w",
+          "author": "yisibl",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5718669287",
+          "createdAt": "2026-09-17T17:36:08Z",
+          "body": "I'd like to add that both Firefox and Safari are implementing `corner-shape`; especially [Safari](https://github.com/WebKit/WebKit/pulls?q=is%3Apr+state%3Aclosed+corner-shape) should be reaching the “Ship” status soon. \ncc @smfr",
+          "positiveReactions": 2,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABZEJbVg",
+          "author": "shiromu-kara",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5977037654",
+          "createdAt": "2026-10-04T05:45:24Z",
+          "body": "## What I want to do with this feature\nMy work consists of coding stream overlays and sometimes the design isn't just a simple rounded corner\n\n## What I'm having to do in the meantime\nI have to do 4 `mask-image`s -- 1 for each corner, even when I only need 1 corner -- and the results may leave a thin gap in the middle of the shape if not configured correctly. and since I'm mostly code with Firefox, the result may differ when viewed in Chromium(-based browsers), which what OBS and most people use\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
+          "parsedGoal": "My work consists of coding stream overlays and sometimes the design isn't just a simple rounded corner",
+          "parsedWorkaround": "I have to do 4 mask-images -- 1 for each corner, even when I only need 1 corner -- and the results may leave a thin gap in the middle of the shape if not configured correctly. and since I'm mostly code with Firefox, the result may differ when viewed in Chromium(-based browsers), which what OBS and most people use",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "My work consists of coding stream overlays and sometimes the design isn't just a simple rounded corner",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 129,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 78.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 39.1
+          }
+        },
+        {
+          "date": "2026-09-16",
+          "votes": 130,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 78.4,
+            "useCaseEvidence": 31.4,
+            "workaroundBurden": 0,
+            "composite": 50.2
+          }
+        },
+        {
+          "date": "2026-09-17",
+          "votes": 134,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0.16,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 78.9,
+            "useCaseEvidence": 32.9,
+            "workaroundBurden": 0,
+            "composite": 51
+          }
+        },
+        {
+          "date": "2026-10-04",
+          "votes": 134,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0.16,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 78.9,
+            "useCaseEvidence": 40.8,
+            "workaroundBurden": 0,
+            "composite": 53.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-04T05:45:57Z"
+    },
+    {
       "id": "customizable-select",
       "slug": "customizable-select",
       "title": "Customizable <select>",
@@ -1714,177 +1930,6 @@
         }
       ],
       "lastActivityAt": "2026-09-30T21:10:00Z"
-    },
-    {
-      "id": "corner-shape",
-      "slug": "corner-shape",
-      "title": "corner-shape",
-      "summary": "The corner-shape CSS property sets the shape of an element's corners when using border-radius, allowing for shapes other than rounded corners. For example, corner-shape: squircle is a shape in between a square and rounded corner.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 398,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/398"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/corner-shape/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 134,
-      "qualifiedAuthors": 2,
-      "reactionBoost": 0.16,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 78.9,
-        "useCaseEvidence": 32.9,
-        "workaroundBurden": 0,
-        "composite": 51
-      },
-      "confidence": {
-        "level": "medium",
-        "score": 0.46,
-        "rationale": "2 distinct qualified authors; 134 issue votes; 40% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 5,
-        "votes30d": 5,
-        "score7d": 11.9,
-        "score30d": 11.9
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABU6dz4A",
-          "author": "80GritPolymath",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5698450400",
-          "createdAt": "2026-09-16T13:41:22Z",
-          "body": "## What I want to do with this feature\n\nBetter HUD-style UI elements.\n\n## What I'm having to do in the meantime\n\nSVG shapes for containers.",
-          "parsedGoal": "Better HUD-style UI elements.",
-          "parsedWorkaround": "SVG shapes for containers.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABU6261g",
-          "author": "jakearchibald",
-          "authorAssociation": "COLLABORATOR",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5698861782",
-          "createdAt": "2026-09-16T14:09:30Z",
-          "body": "For folks wanting this feature, I'm curious to know if [`border-shape`](https://github.com/web-platform-dx/developer-signals/issues/555) would serve you better, and if not, why.\n\nMy gut feeling is that supporting `corner-shape` in addition to `border-shape` would be a small lift, but in case it comes down to a choice, I want all the data 😄 ",
-          "positiveReactions": 2,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "For folks wanting this feature, I'm curious to know if border-shape would serve you better, and if not, why. My gut feeling is that supporting corner-shape in addition to border-s…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABU7theA",
-          "author": "matthewmorete",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5699756408",
-          "createdAt": "2026-09-16T15:09:25Z",
-          "body": "border-shape is significantly more powerful so if there was a choice between the two I'd prefer border-shape. But for some common use cases corner-shape is so much easier to use.\nBevel corners with border-shape requires at least 8 commands and 8 var calls to get the same control that corner-shape gets in 2 short properties.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABU_1yQQ",
-          "author": "Afif13",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5704086081",
-          "createdAt": "2026-09-16T20:31:30Z",
-          "body": "I am 1000% for using only border-shape, but I want to highlight a specific use case only doable with corner-shape. The latter works with border-style, so we can, for example, have a \"double\" or \"dotted\" configuration using corner-shape and not with border-shape.\n\n<img width=\"584\" height=\"309\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4882ee19-c846-4356-bdd5-3421d5f8ddf1\" />\n\nAs for syntax complexity, there will be a lot of generators for different shape() (I've already made a few of them), so it won't be a big deal in the future.\n",
-          "positiveReactions": 2,
-          "classification": "qualified",
-          "themes": [
-            "layout & design",
-            "media"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I am 1000% for using only border-shape, but I want to highlight a specific use case only doable with corner-shape. The latter works with border-style, so we can, for example, have…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVNv35w",
-          "author": "yisibl",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/398#issuecomment-5718669287",
-          "createdAt": "2026-09-17T17:36:08Z",
-          "body": "I'd like to add that both Firefox and Safari are implementing `corner-shape`; especially [Safari](https://github.com/WebKit/WebKit/pulls?q=is%3Apr+state%3Aclosed+corner-shape) should be reaching the “Ship” status soon. \ncc @smfr",
-          "positiveReactions": 2,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 129,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 78.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 39.1
-          }
-        },
-        {
-          "date": "2026-09-16",
-          "votes": 130,
-          "qualifiedAuthors": 2,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 78.4,
-            "useCaseEvidence": 31.4,
-            "workaroundBurden": 0,
-            "composite": 50.2
-          }
-        },
-        {
-          "date": "2026-09-17",
-          "votes": 134,
-          "qualifiedAuthors": 2,
-          "reactionBoost": 0.16,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 78.9,
-            "useCaseEvidence": 32.9,
-            "workaroundBurden": 0,
-            "composite": 51
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-17T17:36:08Z"
     },
     {
       "id": "function",
@@ -2497,21 +2542,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 64,
+      "votes": 65,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 67.1,
+        "voteDemand": 67.4,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 40.5
+        "composite": 40.6
       },
       "confidence": {
         "level": "low",
         "score": 0.38,
-        "rationale": "1 distinct qualified author; 64 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 65 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2570,16 +2615,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 64,
+          "votes": 65,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 67.1,
+            "voteDemand": 67.4,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 40.5
+            "composite": 40.6
           }
         }
       ],
@@ -8376,6 +8421,70 @@
       "lastActivityAt": "2026-09-03T14:35:48Z"
     },
     {
+      "id": "switch-control",
+      "slug": "switch-control",
+      "title": "<input type=\"checkbox\" switch>",
+      "summary": "The switch attribute, when present on an <input type=\"checkbox\"> HTML element, renders a switch control with an on and off state instead of a checkbox control.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 875,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/875"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/switch-control/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 17,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 46.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 17,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 46.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:34:32Z"
+    },
+    {
       "id": "requestidlecallback",
       "slug": "requestidlecallback",
       "title": "requestIdleCallback()",
@@ -8435,70 +8544,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:23Z"
-    },
-    {
-      "id": "switch-control",
-      "slug": "switch-control",
-      "title": "<input type=\"checkbox\" switch>",
-      "summary": "The switch attribute, when present on an <input type=\"checkbox\"> HTML element, renders a switch control with an on and off state instead of a checkbox control.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 875,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/875"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/switch-control/",
-      "categories": [
-        "Forms",
-        "HTML elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 16,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 45.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 16,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:32Z"
     },
     {
       "id": "app-launch-handler",
@@ -8946,9 +8991,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-10-03",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-10-02T11:25:02Z"
+      "lastActivityAt": "2026-10-03T10:41:53Z"
     },
     {
       "id": "manifest",
@@ -12092,9 +12151,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-10-03",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-10-02T11:25:04Z"
+      "lastActivityAt": "2026-10-03T10:41:55Z"
     },
     {
       "id": "ua-client-hints",
@@ -17631,9 +17704,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-10-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-10-02T11:25:05Z"
+      "lastActivityAt": "2026-10-03T10:41:56Z"
     },
     {
       "id": "input-date-time-month",

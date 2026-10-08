@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-07T11:12:00.310Z",
-    "staleAfter": "2026-10-09T11:12:00.310Z",
+    "generatedAt": "2026-10-08T11:29:36.266Z",
+    "staleAfter": "2026-10-10T11:29:36.266Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,106 +10,32 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-07T11:12:00.310Z"
+        "retrievedAt": "2026-10-08T11:29:36.266Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-07T11:12:00.310Z"
+        "retrievedAt": "2026-10-08T11:29:36.266Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-07T11:12:00.310Z"
+        "retrievedAt": "2026-10-08T11:29:36.266Z"
       }
     ],
     "warnings": [
-      "accent-color: feed votes 28 differed from GitHub 30; GitHub value used.",
-      "alignment-baseline: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "anchor-positioning: feed votes 273 differed from GitHub 276; GitHub value used.",
-      "anchor-positioning-transforms: feed votes 7 differed from GitHub 9; GitHub value used.",
-      "attr: feed votes 126 differed from GitHub 128; GitHub value used.",
-      "background-clip-border-area: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "background-clip-text: feed votes 10 differed from GitHub 12; GitHub value used.",
-      "beforeunload: feed votes 4 differed from GitHub 6; GitHub value used.",
-      "border-shape: feed votes 35 differed from GitHub 36; GitHub value used.",
-      "box-decoration-break: feed votes 9 differed from GitHub 11; GitHub value used.",
-      "calc-size: feed votes 55 differed from GitHub 58; GitHub value used.",
-      "column-breaks: feed votes 4 differed from GitHub 6; GitHub value used.",
-      "column-pseudo: feed votes 5 differed from GitHub 7; GitHub value used.",
-      "container-anchor-position-queries: feed votes 32 differed from GitHub 34; GitHub value used.",
-      "corner-shape: feed votes 139 differed from GitHub 141; GitHub value used.",
-      "cross-document-view-transitions: feed votes 65 differed from GitHub 67; GitHub value used.",
-      "css-modules: feed votes 41 differed from GitHub 43; GitHub value used.",
-      "custom-media-queries: feed votes 36 differed from GitHub 38; GitHub value used.",
-      "customizable-select: feed votes 253 differed from GitHub 256; GitHub value used.",
-      "datalist: feed votes 50 differed from GitHub 52; GitHub value used.",
-      "dialog-closedby: feed votes 82 differed from GitHub 83; GitHub value used.",
-      "display-animation: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "edit-context: feed votes 18 differed from GitHub 19; GitHub value used.",
-      "eyedropper: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "fedcm: feed votes 46 differed from GitHub 47; GitHub value used.",
-      "filter-function: feed votes 43 differed from GitHub 44; GitHub value used.",
-      "fit-content-function: feed votes 6 differed from GitHub 8; GitHub value used.",
-      "flexbox-flex-wrap-balance: feed votes 19 differed from GitHub 22; GitHub value used.",
-      "font-family-ui: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "frame-sizing: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "function: feed votes 117 differed from GitHub 120; GitHub value used.",
-      "gap-decorations: feed votes 47 differed from GitHub 48; GitHub value used.",
-      "geolocation-element: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "grid-lanes: feed votes 124 differed from GitHub 125; GitHub value used.",
-      "hanging-punctuation: feed votes 19 differed from GitHub 21; GitHub value used.",
-      "heading-selectors: feed votes 13 differed from GitHub 15; GitHub value used.",
-      "if: feed votes 116 differed from GitHub 118; GitHub value used.",
-      "image-function: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "input-color: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "input-date-time-week: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "interpolate-size: feed votes 93 differed from GitHub 94; GitHub value used.",
-      "iterator-join: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "jpegxl: feed votes 511 differed from GitHub 515; GitHub value used.",
-      "layout-instability: feed votes 22 differed from GitHub 23; GitHub value used.",
-      "line-clamp: feed votes 53 differed from GitHub 57; GitHub value used.",
-      "link-parameters: feed votes 17 differed from GitHub 31; GitHub value used.",
-      "link-rel-prefetch: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "loading-lazy-media: feed votes 43 differed from GitHub 45; GitHub value used.",
-      "manifest: feed votes 17 differed from GitHub 19; GitHub value used.",
-      "margin-trim: feed votes 44 differed from GitHub 45; GitHub value used.",
-      "marker: feed votes 25 differed from GitHub 26; GitHub value used.",
-      "mask-border: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "meta-application-title: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "meta-theme-color: feed votes 13 differed from GitHub 15; GitHub value used.",
-      "mixin: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "move-before: feed votes 39 differed from GitHub 40; GitHub value used.",
-      "notifications: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "object-view-box: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "overflow-clip-margin: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "permissions-policy: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "pointer-lock: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "popover-hint: feed votes 92 differed from GitHub 93; GitHub value used.",
-      "prefers-reduced-data: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "requestidlecallback: feed votes 21 differed from GitHub 22; GitHub value used.",
-      "sanitizer: feed votes 103 differed from GitHub 106; GitHub value used.",
-      "scroll-buttons: feed votes 29 differed from GitHub 31; GitHub value used.",
-      "scroll-driven-animations: feed votes 77 differed from GitHub 78; GitHub value used.",
-      "scroll-into-view-container: feed votes 29 differed from GitHub 31; GitHub value used.",
-      "scroll-snap-events: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "selection: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "show-picker-input: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "stretch: feed votes 32 differed from GitHub 34; GitHub value used.",
-      "switch-control: feed votes 24 differed from GitHub 25; GitHub value used.",
-      "template-for: feed votes 15 differed from GitHub 17; GitHub value used.",
-      "temporal: feed votes 262 differed from GitHub 267; GitHub value used.",
-      "text-box: feed votes 86 differed from GitHub 88; GitHub value used.",
-      "text-fit: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "text-justify: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "text-size-adjust: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "text-wrap-pretty: feed votes 30 differed from GitHub 33; GitHub value used.",
-      "user-select: feed votes 21 differed from GitHub 22; GitHub value used.",
-      "web-otp: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "webgpu: feed votes 69 differed from GitHub 70; GitHub value used.",
-      "widows-orphans: feed votes 12 differed from GitHub 14; GitHub value used.",
-      "window-management: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "word-break-auto-phrase: feed votes 5 differed from GitHub 6; GitHub value used."
+      "caret-shape: feed votes 11 differed from GitHub 12; GitHub value used.",
+      "container-scroll-state-queries: feed votes 74 differed from GitHub 75; GitHub value used.",
+      "focusgroup: feed votes 20 differed from GitHub 21; GitHub value used.",
+      "gamut-mapping: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "interpolate-size: feed votes 94 differed from GitHub 95; GitHub value used.",
+      "link-parameters: feed votes 31 differed from GitHub 32; GitHub value used.",
+      "loading-lazy-media: feed votes 45 differed from GitHub 46; GitHub value used.",
+      "sanitizer: feed votes 106 differed from GitHub 107; GitHub value used.",
+      "scroll-driven-animations: feed votes 78 differed from GitHub 79; GitHub value used.",
+      "share: feed votes 28 differed from GitHub 29; GitHub value used.",
+      "text-fit: feed votes 14 differed from GitHub 15; GitHub value used.",
+      "transformstream-transformer-cancel: feed votes 1 differed from GitHub 2; GitHub value used."
     ]
   },
   "features": [
@@ -1333,9 +1259,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.4
           }
+        },
+        {
+          "date": "2026-10-07",
+          "votes": 267,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 89.9,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.4
+          }
         }
       ],
-      "lastActivityAt": "2026-10-06T12:15:58Z"
+      "lastActivityAt": "2026-10-07T12:07:07Z"
     },
     {
       "id": "attr",
@@ -2542,26 +2482,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 94,
+      "votes": 95,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 73.3,
+        "voteDemand": 73.4,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 44.5
+        "composite": 44.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.44,
-        "rationale": "1 distinct qualified author; 94 issue votes; 50% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 95 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 10,
+        "votes7d": 11,
         "votes30d": 0,
-        "score7d": 0.9,
+        "score7d": 1,
         "score30d": 0
       },
       "comments": [
@@ -2618,16 +2558,16 @@
         },
         {
           "date": "2026-09-29",
-          "votes": 94,
+          "votes": 95,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 73.3,
+            "voteDemand": 73.4,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 44.5
+            "composite": 44.6
           }
         }
       ],
@@ -3072,27 +3012,27 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 106,
+      "votes": 107,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 75.2,
+        "voteDemand": 75.3,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 37.6
+        "composite": 37.7
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 106 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 107 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 18,
-        "votes30d": 27,
-        "score7d": 1.5,
-        "score30d": 2.4
+        "votes7d": 19,
+        "votes30d": 28,
+        "score7d": 1.6,
+        "score30d": 2.5
       },
       "comments": [
         {
@@ -3161,16 +3101,16 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 106,
+          "votes": 107,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 75.2,
+            "voteDemand": 75.3,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 37.6
+            "composite": 37.7
           }
         }
       ],
@@ -3585,21 +3525,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 93,
+      "votes": 94,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 73.1,
+        "voteDemand": 73.3,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 36.5
+        "composite": 36.6
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 93 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 94 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3611,16 +3551,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 93,
+          "votes": 94,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 73.1,
+            "voteDemand": 73.3,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 36.5
+            "composite": 36.6
           }
         }
       ],
@@ -3910,21 +3850,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 78,
+      "votes": 79,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 70.3,
+        "voteDemand": 70.5,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 35.1
+        "composite": 35.2
       },
       "confidence": {
         "level": "low",
         "score": 0.28,
-        "rationale": "0 distinct qualified authors; 78 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 79 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3952,16 +3892,16 @@
       "snapshots": [
         {
           "date": "2026-08-29",
-          "votes": 78,
+          "votes": 79,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 70.3,
+            "voteDemand": 70.5,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 35.1
+            "composite": 35.2
           }
         }
       ],
@@ -4103,21 +4043,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 74,
+      "votes": 75,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 69.5,
+        "voteDemand": 69.7,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 34.7
+        "composite": 34.8
       },
       "confidence": {
         "level": "low",
         "score": 0.28,
-        "rationale": "0 distinct qualified authors; 74 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 75 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4164,16 +4104,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 74,
+          "votes": 75,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 69.5,
+            "voteDemand": 69.7,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 34.7
+            "composite": 34.8
           }
         }
       ],
@@ -4849,27 +4789,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 45,
+      "votes": 46,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 61.6,
+        "voteDemand": 61.9,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 30.8
+        "composite": 31
       },
       "confidence": {
         "level": "low",
         "score": 0.25,
-        "rationale": "0 distinct qualified authors; 45 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 46 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 8,
-        "votes30d": 14,
-        "score7d": 1.5,
-        "score30d": 2.9
+        "votes7d": 9,
+        "votes30d": 15,
+        "score7d": 1.7,
+        "score30d": 3.1
       },
       "comments": [
         {
@@ -4921,16 +4861,16 @@
         },
         {
           "date": "2026-10-03",
-          "votes": 45,
+          "votes": 46,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 61.6,
+            "voteDemand": 61.9,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 30.8
+            "composite": 31
           }
         }
       ],
@@ -6352,26 +6292,26 @@
       ],
       "supportState": "unknown",
       "missingBrowsers": [],
-      "votes": 31,
+      "votes": 32,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 55.7,
+        "voteDemand": 56.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 27.9
+        "composite": 28.1
       },
       "confidence": {
         "level": "low",
         "score": 0.23,
-        "rationale": "0 distinct qualified authors; 31 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 32 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 15,
+        "votes7d": 16,
         "votes30d": 0,
-        "score7d": 5.1,
+        "score7d": 5.3,
         "score30d": 0
       },
       "comments": [
@@ -6458,16 +6398,16 @@
         },
         {
           "date": "2026-10-06",
-          "votes": 31,
+          "votes": 32,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 55.7,
+            "voteDemand": 56.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 27.9
+            "composite": 28.1
           }
         }
       ],
@@ -6784,6 +6724,81 @@
       "lastActivityAt": "2026-09-03T14:35:30Z"
     },
     {
+      "id": "share",
+      "slug": "share",
+      "title": "navigator.share()",
+      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 76,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 29,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 54.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 29 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 7,
+        "votes30d": 7,
+        "score7d": 2.2,
+        "score30d": 2.2
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 29,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:17Z"
+    },
+    {
       "id": "document-picture-in-picture",
       "slug": "document-picture-in-picture",
       "title": "Document picture-in-picture",
@@ -6944,81 +6959,6 @@
       "lastActivityAt": "2026-09-03T14:36:34Z"
     },
     {
-      "id": "share",
-      "slug": "share",
-      "title": "navigator.share()",
-      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 76,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 28,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 54.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 28 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 6,
-        "votes30d": 6,
-        "score7d": 1.9,
-        "score30d": 1.9
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 28,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 54.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:17Z"
-    },
-    {
       "id": "scroll-target-group",
       "slug": "scroll-target-group",
       "title": "scroll-target-group",
@@ -7037,6 +6977,67 @@
       "supportState": "limited",
       "missingBrowsers": [
         "firefox",
+        "safari"
+      ],
+      "votes": 28,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 54.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 28 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 28,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:29Z"
+    },
+    {
+      "id": "marker",
+      "slug": "marker",
+      "title": "::marker",
+      "summary": "The ::marker CSS pseudo-element selects list item markers for styling numbers or bullets.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 128,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/128"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/marker/",
+      "categories": [
+        "Lists"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
         "safari"
       ],
       "votes": 27,
@@ -7064,7 +7065,7 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-03",
+          "date": "2026-08-26",
           "votes": 27,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -7075,67 +7076,6 @@
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
             "composite": 26.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:29Z"
-    },
-    {
-      "id": "marker",
-      "slug": "marker",
-      "title": "::marker",
-      "summary": "The ::marker CSS pseudo-element selects list item markers for styling numbers or bullets.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 128,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/128"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/marker/",
-      "categories": [
-        "Lists"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 26,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
           }
         }
       ],
@@ -7224,21 +7164,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 25,
+      "votes": 26,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 52.4,
+        "voteDemand": 53,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 26.2
+        "composite": 26.5
       },
       "confidence": {
         "level": "low",
         "score": 0.21,
-        "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -7250,16 +7190,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 25,
+          "votes": 26,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 52.4,
+            "voteDemand": 53,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 26.2
+            "composite": 26.5
           }
         }
       ],
@@ -8096,6 +8036,71 @@
       "lastActivityAt": "2026-08-26T12:09:08Z"
     },
     {
+      "id": "focusgroup",
+      "slug": "focusgroup",
+      "title": "focusgroup",
+      "summary": "The focusgroup global HTML attribute combines descendant elements into a single tab stop, with arrow-key navigation between them, for toolbars, tabs, menus, radio groups, and other composite controls. It's an alternative to the sequential navigation of tabindex.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 546,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/546"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/focusgroup/",
+      "categories": [
+        "HTML",
+        "Reading order"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:22Z"
+    },
+    {
       "id": "hanging-punctuation",
       "slug": "hanging-punctuation",
       "title": "Hanging punctuation",
@@ -8253,71 +8258,6 @@
         }
       ],
       "lastActivityAt": "2026-09-04T15:52:09Z"
-    },
-    {
-      "id": "focusgroup",
-      "slug": "focusgroup",
-      "title": "focusgroup",
-      "summary": "The focusgroup global HTML attribute combines descendant elements into a single tab stop, with arrow-key navigation between them, for toolbars, tabs, menus, radio groups, and other composite controls. It's an alternative to the sequential navigation of tabindex.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 546,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/546"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/focusgroup/",
-      "categories": [
-        "HTML",
-        "Reading order"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:22Z"
     },
     {
       "id": "frame-sizing",
@@ -9120,9 +9060,23 @@
             "workaroundBurden": 0,
             "composite": 24.1
           }
+        },
+        {
+          "date": "2026-10-07",
+          "votes": 19,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 48.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.1
+          }
         }
       ],
-      "lastActivityAt": "2026-10-06T12:15:58Z"
+      "lastActivityAt": "2026-10-07T12:07:06Z"
     },
     {
       "id": "manifest",
@@ -10189,6 +10143,70 @@
       "lastActivityAt": "2026-08-26T12:10:20Z"
     },
     {
+      "id": "display-contents",
+      "slug": "display-contents",
+      "title": "display: contents",
+      "summary": "The display: contents CSS declaration sets an element to display only its contents, not itself.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 296,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/296"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-contents/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 15,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 44.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:18Z"
+    },
+    {
       "id": "eyedropper",
       "slug": "eyedropper",
       "title": "Eyedropper",
@@ -10349,6 +10367,82 @@
       "lastActivityAt": "2026-09-03T14:36:26Z"
     },
     {
+      "id": "text-fit",
+      "slug": "text-fit",
+      "title": "text-fit",
+      "summary": "The text-fit CSS property scales text to fill the inline size of its container. You can use this to grow or shrink headlines, captions, or pull quotes to fit a container.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 846,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/846"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-fit/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 15,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 44.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 5,
+        "votes30d": 5,
+        "score7d": 3,
+        "score30d": 3
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T10:06:28Z"
+    },
+    {
       "id": "getboxquads",
       "slug": "getboxquads",
       "title": "getBoxQuads()",
@@ -10464,70 +10558,6 @@
       "lastActivityAt": "2026-08-19T21:40:02Z"
     },
     {
-      "id": "display-contents",
-      "slug": "display-contents",
-      "title": "display: contents",
-      "summary": "The display: contents CSS declaration sets an element to display only its contents, not itself.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 296,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/296"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-contents/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 14,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 43.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:18Z"
-    },
-    {
       "id": "selection",
       "slug": "selection",
       "title": "::selection",
@@ -10586,82 +10616,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:36Z"
-    },
-    {
-      "id": "text-fit",
-      "slug": "text-fit",
-      "title": "text-fit",
-      "summary": "The text-fit CSS property scales text to fill the inline size of its container. You can use this to grow or shrink headlines, captions, or pull quotes to fit a container.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 846,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/846"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-fit/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 14,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 43.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 4,
-        "votes30d": 4,
-        "score7d": 2.5,
-        "score30d": 2.5
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T10:06:28Z"
     },
     {
       "id": "widows-orphans",
@@ -11736,9 +11690,23 @@
             "workaroundBurden": 0,
             "composite": 21.2
           }
+        },
+        {
+          "date": "2026-10-07",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-06T12:15:59Z"
+      "lastActivityAt": "2026-10-07T12:07:08Z"
     },
     {
       "id": "background-clip-text",
@@ -11800,6 +11768,86 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:50Z"
+    },
+    {
+      "id": "caret-shape",
+      "slug": "caret-shape",
+      "title": "caret-shape",
+      "summary": "The caret-shape CSS property sets the shape of the insertion caret, the symbol that shows where the next character is to be inserted or deleted.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 424,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/424"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/caret-shape/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABGEIDrg",
+          "author": "WiseNat",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/424#issuecomment-4701946798",
+          "createdAt": "2026-06-14T13:50:04Z",
+          "body": "## What I want to do with this feature\n\nUse block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/\n\n## What I'm having to do in the meantime\n\nRelying on the default caret - there's no obvious alternatives at the moment. [CSS Tricks](https://css-tricks.com/almanac/properties/c/caret-shape/) outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
+          "parsedGoal": "Use block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/",
+          "parsedWorkaround": "Relying on the default caret - there's no obvious alternatives at the moment. CSS Tricks outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
+          "positiveReactions": 2,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:49:22Z"
     },
     {
       "id": "initial-letter",
@@ -12325,86 +12373,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:12Z"
-    },
-    {
-      "id": "caret-shape",
-      "slug": "caret-shape",
-      "title": "caret-shape",
-      "summary": "The caret-shape CSS property sets the shape of the insertion caret, the symbol that shows where the next character is to be inserted or deleted.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 424,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/424"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/caret-shape/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 11,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABGEIDrg",
-          "author": "WiseNat",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/424#issuecomment-4701946798",
-          "createdAt": "2026-06-14T13:50:04Z",
-          "body": "## What I want to do with this feature\n\nUse block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/\n\n## What I'm having to do in the meantime\n\nRelying on the default caret - there's no obvious alternatives at the moment. [CSS Tricks](https://css-tricks.com/almanac/properties/c/caret-shape/) outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
-          "parsedGoal": "Use block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/",
-          "parsedWorkaround": "Relying on the default caret - there's no obvious alternatives at the moment. CSS Tricks outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
-          "positiveReactions": 2,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:22Z"
     },
     {
       "id": "context-fill-stroke",
@@ -15364,6 +15332,103 @@
       "lastActivityAt": "2026-09-21T05:18:25Z"
     },
     {
+      "id": "transformstream-transformer-cancel",
+      "slug": "transformstream-transformer-cancel",
+      "title": "TransformStream transformer cancel() method",
+      "summary": "The cancel() method of a TransformStream transformer cleans up resources when the readable side cancels or the writable side aborts.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 321,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/321"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/transformstream-transformer-cancel/",
+      "categories": [
+        "Streams"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 2,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 15.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.31,
+        "rationale": "1 distinct qualified author; 2 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 10.2,
+        "score30d": 10.2
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABaHgjfQ",
+          "author": "dnl50",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/321#issuecomment-6047671165",
+          "createdAt": "2026-10-07T21:57:49Z",
+          "body": "## What I want to do with this feature\n\nI use a `TransformStream` for encrypting large amounts of data in a streaming fashion. Because I need to support funky ECC curves (Brainpool) and authenticated encryption (AES-GCM) to adhere to regulatory guidelines, the encryption is performed using OpenSSL via WASM. To encrypt data, the `start` method of the transformer instantiates a new instance of the encryptor class implemented in C++ using Emscriptens Javascript glue code. Without a `cancel` callback method, the encryptor instance leaves behind a memory leak filling up the WASM heap until no more memory can be allocated. The encryption is only one step of a whole pipeline:\n\n* Compression using zip.js (readable stream)\n* SHA512 hashing of the unencrypted ZIP using hash-wasm (transform stream)\n* encryption using OpenSSL over WASM (transform stream)\n* SHA512 hashing of the encrypted ZIP using hash-wasm (transform stream)\n* writing to OPFS (writable stream)\n\nSince this process can be aborted by the user to make changes to the input files and the encryption transformer passes whole chunks to WASM, cancelling the stream pipeline multiple times in a row can leak a lot of memory pretty fast.\n\n## What I'm having to do in the meantime\n\nIt seems like the only option is to convert the transform streams to writable streams, which makes the whole stream pipeline setup a lot less elgant.",
+          "parsedGoal": "I use a TransformStream for encrypting large amounts of data in a streaming fashion. Because I need to support funky ECC curves (Brainpool) and authenticated encryption (AES-GCM) to adhere to regulatory guidelines, the encryption is performed using OpenSSL via WASM. To encrypt data, the start method of the transformer instantiates a new instance of the encryptor class implemented in C++ using Emscriptens Javascript glue code. Without a cancel callback method, the encryptor instance leaves behind a memory leak filling up the WASM heap until no more memory can be allocated. The encryption is only one step of a whole pipeline: Compression using zip.js (readable stream) SHA512 hashing of the unencrypted ZIP using hash-wasm (transform stream) encryption using OpenSSL over WASM (transform stream) SHA512 hashing of the encrypted ZIP using hash-wasm (transform stream) writing to OPFS (writable stream) Since this process can be aborted by the user to make changes to the input files and the encryption transformer passes whole chunks to WASM, cancelling the stream pipeline multiple times in a row can leak a lot of memory pretty fast.",
+          "parsedWorkaround": "It seems like the only option is to convert the transform streams to writable streams, which makes the whole stream pipeline setup a lot less elgant.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I use a TransformStream for encrypting large amounts of data in a streaming fashion. Because I need to support funky ECC curves (Brainpool) and authenticated encryption (AES-GCM) …",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        },
+        {
+          "date": "2026-10-07",
+          "votes": 2,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 15.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-07T21:57:50Z"
+    },
+    {
       "id": "beforeunload",
       "slug": "beforeunload",
       "title": "beforeunload",
@@ -16088,9 +16153,23 @@
             "workaroundBurden": 0,
             "composite": 15.7
           }
+        },
+        {
+          "date": "2026-10-07",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
         }
       ],
-      "lastActivityAt": "2026-10-06T12:16:01Z"
+      "lastActivityAt": "2026-10-07T12:07:10Z"
     },
     {
       "id": "input-date-time-month",
@@ -24800,6 +24879,65 @@
       "lastActivityAt": "2026-08-26T12:09:55Z"
     },
     {
+      "id": "gamut-mapping",
+      "slug": "gamut-mapping",
+      "title": "Gamut mapping",
+      "summary": "Developer demand and implementation evidence for Gamut Mapping.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 945,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/945"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gamut-mapping/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-10-06",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-06T08:20:07Z"
+    },
+    {
       "id": "import-maps-multiple",
       "slug": "import-maps-multiple",
       "title": "Multiple import maps",
@@ -25114,9 +25252,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-07",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-06T12:16:00Z"
+      "lastActivityAt": "2026-10-07T12:07:09Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -26507,70 +26659,6 @@
       "lastActivityAt": "2026-09-18T16:17:49Z"
     },
     {
-      "id": "transformstream-transformer-cancel",
-      "slug": "transformstream-transformer-cancel",
-      "title": "TransformStream transformer cancel() method",
-      "summary": "The cancel() method of a TransformStream transformer cleans up resources when the readable side cancels or the writable side aborts.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 321,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/321"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/transformstream-transformer-cancel/",
-      "categories": [
-        "Streams"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:41Z"
-    },
-    {
       "id": "virtual-sensors",
       "slug": "virtual-sensors",
       "title": "Virtual sensors",
@@ -27618,65 +27706,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:37Z"
-    },
-    {
-      "id": "gamut-mapping",
-      "slug": "gamut-mapping",
-      "title": "Gamut mapping",
-      "summary": "Developer demand and implementation evidence for Gamut Mapping.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 945,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/945"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gamut-mapping/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-10-06",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-06T08:20:07Z"
     },
     {
       "id": "supports-named-feature",

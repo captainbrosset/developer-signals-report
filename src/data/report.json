@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-08T11:29:36.266Z",
-    "staleAfter": "2026-10-10T11:29:36.266Z",
+    "generatedAt": "2026-10-09T11:25:16.769Z",
+    "staleAfter": "2026-10-11T11:25:16.769Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,32 +10,41 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-08T11:29:36.266Z"
+        "retrievedAt": "2026-10-09T11:25:16.769Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-08T11:29:36.266Z"
+        "retrievedAt": "2026-10-09T11:25:16.769Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-08T11:29:36.266Z"
+        "retrievedAt": "2026-10-09T11:25:16.769Z"
       }
     ],
     "warnings": [
-      "caret-shape: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "container-scroll-state-queries: feed votes 74 differed from GitHub 75; GitHub value used.",
-      "focusgroup: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "gamut-mapping: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "interpolate-size: feed votes 94 differed from GitHub 95; GitHub value used.",
-      "link-parameters: feed votes 31 differed from GitHub 32; GitHub value used.",
-      "loading-lazy-media: feed votes 45 differed from GitHub 46; GitHub value used.",
-      "sanitizer: feed votes 106 differed from GitHub 107; GitHub value used.",
-      "scroll-driven-animations: feed votes 78 differed from GitHub 79; GitHub value used.",
-      "share: feed votes 28 differed from GitHub 29; GitHub value used.",
-      "text-fit: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "transformstream-transformer-cancel: feed votes 1 differed from GitHub 2; GitHub value used."
+      "anchor-positioning: feed votes 276 differed from GitHub 277; GitHub value used.",
+      "customizable-select: feed votes 256 differed from GitHub 258; GitHub value used.",
+      "devicepixelratio: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "explicit-resource-management: feed votes 19 differed from GitHub 20; GitHub value used.",
+      "flexbox-flex-wrap-balance: feed votes 22 differed from GitHub 23; GitHub value used.",
+      "frame-sizing: feed votes 20 differed from GitHub 21; GitHub value used.",
+      "gap-decorations: feed votes 48 differed from GitHub 49; GitHub value used.",
+      "import-defer: feed votes 6 differed from GitHub 7; GitHub value used.",
+      "is-error: feed votes 19 differed from GitHub 20; GitHub value used.",
+      "manifest: feed votes 19 differed from GitHub 20; GitHub value used.",
+      "notifications: feed votes 24 differed from GitHub 25; GitHub value used.",
+      "popover-hint: feed votes 94 differed from GitHub 95; GitHub value used.",
+      "requestidlecallback: feed votes 22 differed from GitHub 23; GitHub value used.",
+      "sanitizer: feed votes 107 differed from GitHub 109; GitHub value used.",
+      "scheduler: feed votes 23 differed from GitHub 24; GitHub value used.",
+      "share: feed votes 29 differed from GitHub 32; GitHub value used.",
+      "speculation-rules: feed votes 30 differed from GitHub 31; GitHub value used.",
+      "temporal: feed votes 267 differed from GitHub 270; GitHub value used.",
+      "touch-events: feed votes 7 differed from GitHub 8; GitHub value used.",
+      "webgpu: feed votes 70 differed from GitHub 71; GitHub value used.",
+      "wheel-events: feed votes 5 differed from GitHub 6; GitHub value used."
     ]
   },
   "features": [
@@ -715,27 +724,27 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 267,
+      "votes": 270,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 89.9,
+        "voteDemand": 90.1,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
-        "composite": 62.4
+        "composite": 62.5
       },
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 267 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 270 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 27,
-        "votes30d": 0,
+        "votes7d": 28,
+        "votes30d": 60,
         "score7d": 0.9,
-        "score30d": 0
+        "score30d": 10.5
       },
       "comments": [
         {
@@ -1273,9 +1282,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.4
           }
+        },
+        {
+          "date": "2026-10-08",
+          "votes": 270,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.1,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-07T12:07:07Z"
+      "lastActivityAt": "2026-10-08T12:17:37Z"
     },
     {
       "id": "attr",
@@ -1464,7 +1487,7 @@
         "firefox",
         "safari"
       ],
-      "votes": 276,
+      "votes": 277,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
@@ -1478,11 +1501,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 276 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 277 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 21,
-        "votes30d": 21,
+        "votes7d": 22,
+        "votes30d": 22,
         "score7d": 0.6,
         "score30d": 0.6
       },
@@ -1521,7 +1544,7 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 276,
+          "votes": 277,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
@@ -1690,27 +1713,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 141,
+      "votes": 142,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 79.7,
+        "voteDemand": 79.8,
         "useCaseEvidence": 40.8,
         "workaroundBurden": 0,
-        "composite": 54.1
+        "composite": 54.2
       },
       "confidence": {
         "level": "medium",
         "score": 0.53,
-        "rationale": "3 distinct qualified authors; 141 issue votes; 50% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 142 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 7,
-        "votes30d": 12,
-        "score7d": 3.1,
-        "score30d": 15
+        "votes7d": 8,
+        "votes30d": 13,
+        "score7d": 3.2,
+        "score30d": 15.1
       },
       "comments": [
         {
@@ -1857,16 +1880,16 @@
         },
         {
           "date": "2026-10-04",
-          "votes": 141,
+          "votes": 142,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 79.7,
+            "voteDemand": 79.8,
             "useCaseEvidence": 40.8,
             "workaroundBurden": 0,
-            "composite": 54.1
+            "composite": 54.2
           }
         }
       ],
@@ -1894,13 +1917,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 256,
+      "votes": 258,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 89.3,
+        "voteDemand": 89.4,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
         "composite": 51.6
@@ -1908,10 +1931,10 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 256 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 258 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 14,
+        "votes7d": 16,
         "votes30d": 0,
         "score7d": 7.4,
         "score30d": 0
@@ -1967,13 +1990,13 @@
         },
         {
           "date": "2026-09-30",
-          "votes": 256,
+          "votes": 258,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 89.3,
+            "voteDemand": 89.4,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
             "composite": 51.6
@@ -2593,21 +2616,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 70,
+      "votes": 71,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 68.6,
+        "voteDemand": 68.8,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 41.2
+        "composite": 41.3
       },
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 70 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 71 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2666,16 +2689,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 70,
+          "votes": 71,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 68.6,
+            "voteDemand": 68.8,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 41.2
+            "composite": 41.3
           }
         }
       ],
@@ -3012,27 +3035,27 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 107,
+      "votes": 109,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 75.3,
+        "voteDemand": 75.6,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 37.7
+        "composite": 37.8
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 107 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 109 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 19,
-        "votes30d": 28,
-        "score7d": 1.6,
-        "score30d": 2.5
+        "votes7d": 21,
+        "votes30d": 30,
+        "score7d": 1.7,
+        "score30d": 2.6
       },
       "comments": [
         {
@@ -3101,16 +3124,16 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 107,
+          "votes": 109,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 75.3,
+            "voteDemand": 75.6,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 37.7
+            "composite": 37.8
           }
         }
       ],
@@ -3377,6 +3400,67 @@
       "lastActivityAt": "2026-09-08T16:07:56Z"
     },
     {
+      "id": "popover-hint",
+      "slug": "popover-hint",
+      "title": "popover=\"hint\"",
+      "summary": "The popover=\"hint\" global HTML attribute creates a popover that is subordinate to popovers with a popover=\"auto\" attribute. You can use this to create tooltips that don't dismiss auto popovers.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 274,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/274"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/popover-hint/",
+      "categories": [
+        "HTML"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 95,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 73.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 36.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.3,
+        "rationale": "0 distinct qualified authors; 95 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 95,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 73.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 36.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:58Z"
+    },
+    {
       "id": "custom-media-queries",
       "slug": "custom-media-queries",
       "title": "Custom media queries",
@@ -3504,67 +3588,6 @@
         }
       ],
       "lastActivityAt": "2026-09-15T16:57:05Z"
-    },
-    {
-      "id": "popover-hint",
-      "slug": "popover-hint",
-      "title": "popover=\"hint\"",
-      "summary": "The popover=\"hint\" global HTML attribute creates a popover that is subordinate to popovers with a popover=\"auto\" attribute. You can use this to create tooltips that don't dismiss auto popovers.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 274,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/274"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/popover-hint/",
-      "categories": [
-        "HTML"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 94,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 73.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 36.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.3,
-        "rationale": "0 distinct qualified authors; 94 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 94,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 73.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 36.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:58Z"
     },
     {
       "id": "text-box",
@@ -3928,21 +3951,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 30,
+      "votes": 31,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 55.2,
+        "voteDemand": 55.7,
         "useCaseEvidence": 20.9,
         "workaroundBurden": 0,
-        "composite": 35
+        "composite": 35.2
       },
       "confidence": {
         "level": "low",
         "score": 0.33,
-        "rationale": "1 distinct qualified author; 30 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 31 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4007,16 +4030,16 @@
       "snapshots": [
         {
           "date": "2026-09-04",
-          "votes": 30,
+          "votes": 31,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 55.2,
+            "voteDemand": 55.7,
             "useCaseEvidence": 20.9,
             "workaroundBurden": 0,
-            "composite": 35
+            "composite": 35.2
           }
         }
       ],
@@ -4451,6 +4474,70 @@
       "lastActivityAt": "2026-09-03T14:36:28Z"
     },
     {
+      "id": "gap-decorations",
+      "slug": "gap-decorations",
+      "title": "Gap decorations",
+      "summary": "The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 362,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/362"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gap-decorations/",
+      "categories": [
+        "Grid",
+        "Flexbox",
+        "Multi-column"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 49,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 62.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 31.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.25,
+        "rationale": "0 distinct qualified authors; 49 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 49,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 62.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:49Z"
+    },
+    {
       "id": "interest-invokers",
       "slug": "interest-invokers",
       "title": "Interest invokers",
@@ -4529,70 +4616,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:33Z"
-    },
-    {
-      "id": "gap-decorations",
-      "slug": "gap-decorations",
-      "title": "Gap decorations",
-      "summary": "The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 362,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/362"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gap-decorations/",
-      "categories": [
-        "Grid",
-        "Flexbox",
-        "Multi-column"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 48,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 62.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 31.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.25,
-        "rationale": "0 distinct qualified authors; 48 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 48,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 62.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 31.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:49Z"
     },
     {
       "id": "fedcm",
@@ -6414,6 +6437,113 @@
       "lastActivityAt": "2026-10-06T18:52:29Z"
     },
     {
+      "id": "share",
+      "slug": "share",
+      "title": "navigator.share()",
+      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 76,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 32,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 56.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 28.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 32 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 10,
+        "score7d": 0.7,
+        "score30d": 2.9
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABabPA3w",
+          "author": "gdebojyoti",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/76#issuecomment-6068355295",
+          "createdAt": "2026-10-08T20:22:30Z",
+          "body": "## What I want to do with this feature\n\nShare game result (\"view of the game board\") via a snapshot at the end of the game (a web app).\n\n## What I'm having to do in the meantime\n\nThe feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
+          "parsedGoal": "Share game result (\"view of the game board\") via a snapshot at the end of the game (a web app).",
+          "parsedWorkaround": "The feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 29,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.4
+          }
+        },
+        {
+          "date": "2026-10-08",
+          "votes": 32,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-08T20:22:30Z"
+    },
+    {
       "id": "scroll-buttons",
       "slug": "scroll-buttons",
       "title": "::scroll-button",
@@ -6722,81 +6852,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:30Z"
-    },
-    {
-      "id": "share",
-      "slug": "share",
-      "title": "navigator.share()",
-      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 76,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 29,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 54.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 29 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 7,
-        "votes30d": 7,
-        "score7d": 2.2,
-        "score30d": 2.2
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 29,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 54.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:17Z"
     },
     {
       "id": "document-picture-in-picture",
@@ -7206,6 +7261,65 @@
       "lastActivityAt": "2026-09-03T14:35:35Z"
     },
     {
+      "id": "notifications",
+      "slug": "notifications",
+      "title": "Notifications",
+      "summary": "The Notification() constructor shows a message to the user, typically using the notification system of the host operating system.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 23,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/23"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/notifications/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 25,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 52.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 25,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 52.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:44:59Z"
+    },
+    {
       "id": "switch-control",
       "slug": "switch-control",
       "title": "<input type=\"checkbox\" switch>",
@@ -7383,23 +7497,25 @@
       "lastActivityAt": "2026-09-30T21:01:27Z"
     },
     {
-      "id": "notifications",
-      "slug": "notifications",
-      "title": "Notifications",
-      "summary": "The Notification() constructor shows a message to the user, typically using the notification system of the host operating system.",
+      "id": "scheduler",
+      "slug": "scheduler",
+      "title": "Scheduler API",
+      "summary": "The scheduler API provides a way to prioritize all tasks belonging to an application.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 23,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/23"
+        "number": 254,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/254"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/notifications/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scheduler/",
       "categories": [
         "Other"
       ],
       "supportState": "limited",
-      "missingBrowsers": [],
+      "missingBrowsers": [
+        "safari"
+      ],
       "votes": 24,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
@@ -7439,7 +7555,69 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:44:59Z"
+      "lastActivityAt": "2026-08-14T14:48:18Z"
+    },
+    {
+      "id": "flexbox-flex-wrap-balance",
+      "slug": "flexbox-flex-wrap-balance",
+      "title": "flex-wrap: balance",
+      "summary": "The flex-wrap: balance CSS declaration distributes items in a multi-line flex container such that each line has about the same number of items.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 906,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/906"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/flexbox-flex-wrap-balance/",
+      "categories": [
+        "Flexbox"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 23,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 23,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:51Z"
     },
     {
       "id": "layout-instability",
@@ -7616,18 +7794,18 @@
       "lastActivityAt": "2026-09-03T14:35:21Z"
     },
     {
-      "id": "scheduler",
-      "slug": "scheduler",
-      "title": "Scheduler API",
-      "summary": "The scheduler API provides a way to prioritize all tasks belonging to an application.",
+      "id": "requestidlecallback",
+      "slug": "requestidlecallback",
+      "title": "requestIdleCallback()",
+      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 254,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/254"
+        "number": 52,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scheduler/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
       "categories": [
         "Other"
       ],
@@ -7674,7 +7852,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:48:18Z"
+      "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
       "id": "speech-recognition",
@@ -7852,129 +8030,6 @@
       "lastActivityAt": "2026-08-25T16:53:32Z"
     },
     {
-      "id": "flexbox-flex-wrap-balance",
-      "slug": "flexbox-flex-wrap-balance",
-      "title": "flex-wrap: balance",
-      "summary": "The flex-wrap: balance CSS declaration distributes items in a multi-line flex container such that each line has about the same number of items.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 906,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/906"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/flexbox-flex-wrap-balance/",
-      "categories": [
-        "Flexbox"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 22,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 50.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:51Z"
-    },
-    {
-      "id": "requestidlecallback",
-      "slug": "requestidlecallback",
-      "title": "requestIdleCallback()",
-      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 52,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 22,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 50.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:23Z"
-    },
-    {
       "id": "user-select",
       "slug": "user-select",
       "title": "user-select",
@@ -8099,6 +8154,116 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:22Z"
+    },
+    {
+      "id": "frame-sizing",
+      "slug": "frame-sizing",
+      "title": "Responsive iframes",
+      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 914,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 9,
+        "votes30d": 18,
+        "score7d": 4.3,
+        "score30d": 13.8
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
+          "author": "crutchcorn",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
+          "createdAt": "2026-09-19T05:24:54Z",
+          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
+          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
+          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-06T08:20:06Z"
     },
     {
       "id": "hanging-punctuation",
@@ -8260,304 +8425,6 @@
       "lastActivityAt": "2026-09-04T15:52:09Z"
     },
     {
-      "id": "frame-sizing",
-      "slug": "frame-sizing",
-      "title": "Responsive iframes",
-      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 914,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 8,
-        "votes30d": 17,
-        "score7d": 3.9,
-        "score30d": 13.4
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
-          "author": "crutchcorn",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
-          "createdAt": "2026-09-19T05:24:54Z",
-          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
-          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
-          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        },
-        {
-          "date": "2026-10-06",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-06T08:20:06Z"
-    },
-    {
-      "id": "link-rel-prefetch",
-      "slug": "link-rel-prefetch",
-      "title": "<link rel=\"prefetch\">",
-      "summary": "The rel=\"prefetch\" attribute for the <link> HTML element is a hint to the browser that the user is likely to navigate to a resource, so the browser should preemptively fetch and cache the resource.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 306,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/306"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-rel-prefetch/",
-      "categories": [
-        "Resource hints"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:08:39Z"
-    },
-    {
-      "id": "mixin",
-      "slug": "mixin",
-      "title": "@mixin",
-      "summary": "The @mixin and @apply CSS at-rules define reusable style declaration fragments and apply them inside rules, optionally passing arguments.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 877,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/877"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/mixin/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:33Z"
-    },
-    {
-      "id": "random-function",
-      "slug": "random-function",
-      "title": "random()",
-      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 514,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:36Z"
-    },
-    {
       "id": "explicit-resource-management",
       "slug": "explicit-resource-management",
       "title": "Explicit resource management",
@@ -8577,21 +8444,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 19,
+      "votes": 20,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 48.2,
+        "voteDemand": 49,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 24.1
+        "composite": 24.5
       },
       "confidence": {
         "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -8638,16 +8505,16 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 19,
+          "votes": 20,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 48.2,
+            "voteDemand": 49,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 24.1
+            "composite": 24.5
           }
         }
       ],
@@ -8673,27 +8540,27 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 19,
+      "votes": 20,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 48.2,
+        "voteDemand": 49,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 24.1
+        "composite": 24.5
       },
       "confidence": {
         "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 4,
-        "votes30d": 0,
-        "score7d": 1.8,
-        "score30d": 0
+        "votes7d": 5,
+        "votes30d": 5,
+        "score7d": 2.2,
+        "score30d": 2.2
       },
       "comments": [],
       "snapshots": [
@@ -9074,9 +8941,84 @@
             "workaroundBurden": 0,
             "composite": 24.1
           }
+        },
+        {
+          "date": "2026-10-08",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-07T12:07:06Z"
+      "lastActivityAt": "2026-10-08T12:17:36Z"
+    },
+    {
+      "id": "link-rel-prefetch",
+      "slug": "link-rel-prefetch",
+      "title": "<link rel=\"prefetch\">",
+      "summary": "The rel=\"prefetch\" attribute for the <link> HTML element is a hint to the browser that the user is likely to navigate to a resource, so the browser should preemptively fetch and cache the resource.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 306,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/306"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-rel-prefetch/",
+      "categories": [
+        "Resource hints"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 20,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:08:39Z"
     },
     {
       "id": "manifest",
@@ -9098,21 +9040,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 19,
+      "votes": 20,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 48.2,
+        "voteDemand": 49,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 24.1
+        "composite": 24.5
       },
       "confidence": {
         "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -9124,20 +9066,147 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 19,
+          "votes": 20,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 48.2,
+            "voteDemand": 49,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 24.1
+            "composite": 24.5
           }
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:06Z"
+    },
+    {
+      "id": "mixin",
+      "slug": "mixin",
+      "title": "@mixin",
+      "summary": "The @mixin and @apply CSS at-rules define reusable style declaration fragments and apply them inside rules, optionally passing arguments.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 877,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/877"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/mixin/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 20,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:33Z"
+    },
+    {
+      "id": "random-function",
+      "slug": "random-function",
+      "title": "random()",
+      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 514,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 20,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:36Z"
     },
     {
       "id": "app-launch-handler",
@@ -11321,9 +11390,9 @@
       },
       "trend": {
         "votes7d": 3,
-        "votes30d": 0,
+        "votes30d": 6,
         "score7d": 1.9,
-        "score30d": 0
+        "score30d": 4.5
       },
       "comments": [],
       "snapshots": [
@@ -11704,9 +11773,23 @@
             "workaroundBurden": 0,
             "composite": 21.2
           }
+        },
+        {
+          "date": "2026-10-08",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-07T12:07:08Z"
+      "lastActivityAt": "2026-10-08T12:17:38Z"
     },
     {
       "id": "background-clip-text",
@@ -14238,6 +14321,67 @@
       "lastActivityAt": "2026-09-03T14:34:47Z"
     },
     {
+      "id": "touch-events",
+      "slug": "touch-events",
+      "title": "Touch events",
+      "summary": "Touch events touchstart, touchmove, touchend, and touchcancel fire when users interact with a touch-sensitive surface, such as a screen or drawing tablet. These events are similar to mouse events.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 18,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/18"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/touch-events/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 8,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 17.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:44:54Z"
+    },
+    {
       "id": "battery",
       "slug": "battery",
       "title": "Battery status",
@@ -14980,6 +15124,443 @@
       "lastActivityAt": "2026-08-14T14:45:02Z"
     },
     {
+      "id": "import-defer",
+      "slug": "import-defer",
+      "title": "import defer",
+      "summary": "Developer demand and implementation evidence for Import Defer.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 919,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/919"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/import-defer/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 7,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 33.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 16.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 4,
+        "votes30d": 7,
+        "score7d": 5.6,
+        "score30d": 16.7
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-08",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        },
+        {
+          "date": "2026-09-11",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        },
+        {
+          "date": "2026-09-12",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        },
+        {
+          "date": "2026-09-13",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        },
+        {
+          "date": "2026-09-16",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        },
+        {
+          "date": "2026-09-17",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-22",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-23",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-24",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-26",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-27",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-28",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-29",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-30",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-10-01",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-10-02",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-10-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-10-04",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        },
+        {
+          "date": "2026-10-07",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        },
+        {
+          "date": "2026-10-08",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-08T12:17:40Z"
+    },
+    {
       "id": "page-lifecycle",
       "slug": "page-lifecycle",
       "title": "Page lifecycle",
@@ -15162,67 +15743,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:43Z"
-    },
-    {
-      "id": "touch-events",
-      "slug": "touch-events",
-      "title": "Touch events",
-      "summary": "Touch events touchstart, touchmove, touchend, and touchcancel fire when users interact with a touch-sensitive surface, such as a screen or drawing tablet. These events are similar to mouse events.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 18,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/18"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/touch-events/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 7,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 16.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:44:54Z"
     },
     {
       "id": "window-controls-overlay",
@@ -15608,6 +16128,67 @@
       "lastActivityAt": "2026-08-26T12:08:50Z"
     },
     {
+      "id": "devicepixelratio",
+      "slug": "devicepixelratio",
+      "title": "devicePixelRatio",
+      "summary": "The window.devicePixelRatio property is the ratio of the size of one CSS pixel to the vertical size of one physical pixel on the current display device.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 16,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/16"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/devicepixelratio/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:44:51Z"
+    },
+    {
       "id": "fetchlater",
       "slug": "fetchlater",
       "title": "fetchLater",
@@ -15747,429 +16328,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:47:52Z"
-    },
-    {
-      "id": "import-defer",
-      "slug": "import-defer",
-      "title": "import defer",
-      "summary": "Developer demand and implementation evidence for Import Defer.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 919,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/919"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/import-defer/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 6,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 31.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 15.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.13,
-        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 3,
-        "votes30d": 0,
-        "score7d": 4.6,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-08",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
-          "date": "2026-09-09",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
-          "date": "2026-09-11",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
-          "date": "2026-09-12",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
-          "date": "2026-09-13",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
-          "date": "2026-09-15",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
-          "date": "2026-09-16",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
-          "date": "2026-09-17",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-20",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-21",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-22",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-23",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-24",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-25",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-26",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-27",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-28",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-29",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-30",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-10-01",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-10-02",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-10-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-10-04",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        },
-        {
-          "date": "2026-10-06",
-          "votes": 6,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 15.7
-          }
-        },
-        {
-          "date": "2026-10-07",
-          "votes": 6,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 15.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-07T12:07:10Z"
     },
     {
       "id": "input-date-time-month",
@@ -16633,6 +16791,65 @@
       "lastActivityAt": "2026-09-18T16:17:20Z"
     },
     {
+      "id": "wheel-events",
+      "slug": "wheel-events",
+      "title": "Wheel events",
+      "summary": "The wheel event fires when the user moves a mouse wheel or similar spatially rotating input device.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 26,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/26"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/wheel-events/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:01Z"
+    },
+    {
       "id": "word-break-auto-phrase",
       "slug": "word-break-auto-phrase",
       "title": "word-break: auto-phrase",
@@ -16879,67 +17096,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:03Z"
-    },
-    {
-      "id": "devicepixelratio",
-      "slug": "devicepixelratio",
-      "title": "devicePixelRatio",
-      "summary": "The window.devicePixelRatio property is the ratio of the size of one CSS pixel to the vertical size of one physical pixel on the current display device.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 16,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/16"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/devicepixelratio/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:44:51Z"
     },
     {
       "id": "display-mode",
@@ -18057,65 +18213,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:50:20Z"
-    },
-    {
-      "id": "wheel-events",
-      "slug": "wheel-events",
-      "title": "Wheel events",
-      "summary": "The wheel event fires when the user moves a mouse wheel or similar spatially rotating input device.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 26,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/26"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/wheel-events/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:01Z"
     },
     {
       "id": "alignment-baseline",
@@ -25266,9 +25363,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-08",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-07T12:07:09Z"
+      "lastActivityAt": "2026-10-08T12:17:39Z"
     },
     {
       "id": "khr-parallel-shader-compile",

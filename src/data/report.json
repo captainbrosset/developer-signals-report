@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-09T11:25:16.769Z",
-    "staleAfter": "2026-10-11T11:25:16.769Z",
+    "generatedAt": "2026-10-10T10:42:53.412Z",
+    "staleAfter": "2026-10-12T10:42:53.412Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,41 +10,24 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-09T11:25:16.769Z"
+        "retrievedAt": "2026-10-10T10:42:53.412Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-09T11:25:16.769Z"
+        "retrievedAt": "2026-10-10T10:42:53.412Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-09T11:25:16.769Z"
+        "retrievedAt": "2026-10-10T10:42:53.412Z"
       }
     ],
     "warnings": [
-      "anchor-positioning: feed votes 276 differed from GitHub 277; GitHub value used.",
-      "customizable-select: feed votes 256 differed from GitHub 258; GitHub value used.",
-      "devicepixelratio: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "explicit-resource-management: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "flexbox-flex-wrap-balance: feed votes 22 differed from GitHub 23; GitHub value used.",
-      "frame-sizing: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "gap-decorations: feed votes 48 differed from GitHub 49; GitHub value used.",
-      "import-defer: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "is-error: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "manifest: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "notifications: feed votes 24 differed from GitHub 25; GitHub value used.",
-      "popover-hint: feed votes 94 differed from GitHub 95; GitHub value used.",
-      "requestidlecallback: feed votes 22 differed from GitHub 23; GitHub value used.",
-      "sanitizer: feed votes 107 differed from GitHub 109; GitHub value used.",
-      "scheduler: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "share: feed votes 29 differed from GitHub 32; GitHub value used.",
-      "speculation-rules: feed votes 30 differed from GitHub 31; GitHub value used.",
-      "temporal: feed votes 267 differed from GitHub 270; GitHub value used.",
-      "touch-events: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "webgpu: feed votes 70 differed from GitHub 71; GitHub value used.",
-      "wheel-events: feed votes 5 differed from GitHub 6; GitHub value used."
+      "app-share-targets: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "frame-sizing: feed votes 21 differed from GitHub 22; GitHub value used.",
+      "install: feed votes 16 differed from GitHub 17; GitHub value used.",
+      "navigator-install: feed votes 28 differed from GitHub 30; GitHub value used."
     ]
   },
   "features": [
@@ -742,9 +725,9 @@
       },
       "trend": {
         "votes7d": 28,
-        "votes30d": 60,
+        "votes30d": 59,
         "score7d": 0.9,
-        "score30d": 10.5
+        "score30d": 10.4
       },
       "comments": [
         {
@@ -1296,9 +1279,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.5
           }
+        },
+        {
+          "date": "2026-10-09",
+          "votes": 270,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.1,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-08T12:17:37Z"
+      "lastActivityAt": "2026-10-09T12:08:20Z"
     },
     {
       "id": "attr",
@@ -2555,7 +2552,7 @@
           "body": "## What I want to do with this feature\n```CSS\nINPUT[type=\"checkbox\"]         + :is(FIELDSET,FIGURE,ASIDE,DIV) {\n             height: 0;\n         transition: height 0.8s ease-out;\n/* interpolate-size: allow-keywords; (\"on\" by default... to save Stack Overflow \n    from the thousand student questions about this every single semester.) */\n}\n\nINPUT[type=\"checkbox\"]:checked + :is(FIELDSET,FIGURE,ASIDE,DIV) {\n             height: auto;\n}\n```\n\n## What I'm having to do in the meantime\nCry in JavaScript.",
           "parsedGoal": "code sample",
           "parsedWorkaround": "Cry in JavaScript.",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -2838,21 +2835,21 @@
         "edge",
         "firefox"
       ],
-      "votes": 44,
+      "votes": 45,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 61.2,
+        "voteDemand": 61.6,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 38.5
+        "composite": 38.7
       },
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "1 distinct qualified author; 44 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 45 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2881,16 +2878,16 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 44,
+          "votes": 45,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 61.2,
+            "voteDemand": 61.6,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 38.5
+            "composite": 38.7
           }
         }
       ],
@@ -4474,6 +4471,86 @@
       "lastActivityAt": "2026-09-03T14:36:28Z"
     },
     {
+      "id": "interest-invokers",
+      "slug": "interest-invokers",
+      "title": "Interest invokers",
+      "summary": "Interest invokers, registered by the interestfor HTML attribute, trigger events and actions on a target element when a user shows interest in the element, through behaviors such as hover, focus, or long-press. Pseudo-elements apply styles to sources and targets of interest.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 464,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/464"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/interest-invokers/",
+      "categories": [
+        "HTML"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 50,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 63.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 31.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.26,
+        "rationale": "0 distinct qualified authors; 50 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7a_uDR",
+          "author": "jamesmstone",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/464#issuecomment-3674136785",
+          "createdAt": "2025-12-19T08:46:25Z",
+          "body": "## What I want to do with this feature\ntooltips\n\n## What I'm having to do in the meantime\n\n I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS ",
+          "parsedGoal": "tooltips",
+          "parsedWorkaround": "I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS",
+          "positiveReactions": 4,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 50,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 63.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:33Z"
+    },
+    {
       "id": "gap-decorations",
       "slug": "gap-decorations",
       "title": "Gap decorations",
@@ -4536,86 +4613,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:49Z"
-    },
-    {
-      "id": "interest-invokers",
-      "slug": "interest-invokers",
-      "title": "Interest invokers",
-      "summary": "Interest invokers, registered by the interestfor HTML attribute, trigger events and actions on a target element when a user shows interest in the element, through behaviors such as hover, focus, or long-press. Pseudo-elements apply styles to sources and targets of interest.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 464,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/464"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/interest-invokers/",
-      "categories": [
-        "HTML"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 49,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 62.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 31.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.25,
-        "rationale": "0 distinct qualified authors; 49 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7a_uDR",
-          "author": "jamesmstone",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/464#issuecomment-3674136785",
-          "createdAt": "2025-12-19T08:46:25Z",
-          "body": "## What I want to do with this feature\ntooltips\n\n## What I'm having to do in the meantime\n\n I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS ",
-          "parsedGoal": "tooltips",
-          "parsedWorkaround": "I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS",
-          "positiveReactions": 4,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 49,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 62.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 31.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:33Z"
     },
     {
       "id": "fedcm",
@@ -6743,6 +6740,70 @@
       "lastActivityAt": "2026-08-26T12:10:05Z"
     },
     {
+      "id": "navigator-install",
+      "slug": "navigator-install",
+      "title": "navigator.install()",
+      "summary": "The navigator.install() method triggers a request to install a progressive web app.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 467,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/467"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/navigator-install/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 30,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 55.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 30 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 30,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:34Z"
+    },
+    {
       "id": "scoped-custom-element-registries",
       "slug": "scoped-custom-element-registries",
       "title": "Scoped custom element registries",
@@ -6948,70 +7009,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:26Z"
-    },
-    {
-      "id": "navigator-install",
-      "slug": "navigator-install",
-      "title": "navigator.install()",
-      "summary": "The navigator.install() method triggers a request to install a progressive web app.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 467,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/467"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/navigator-install/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 28,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 54.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 28 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 28,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 54.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:34Z"
     },
     {
       "id": "scroll-target-group",
@@ -8030,6 +8027,145 @@
       "lastActivityAt": "2026-08-25T16:53:32Z"
     },
     {
+      "id": "frame-sizing",
+      "slug": "frame-sizing",
+      "title": "Responsive iframes",
+      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 914,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 22,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 50.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 10,
+        "votes30d": 19,
+        "score7d": 4.6,
+        "score30d": 14.1
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
+          "author": "crutchcorn",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
+          "createdAt": "2026-09-19T05:24:54Z",
+          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
+          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
+          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABarqSQg",
+          "author": "ahmadalfy",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-6085579330",
+          "createdAt": "2026-10-09T17:07:09Z",
+          "body": "@hatemhosny I think [Livecodes](https://github.com/live-codes/livecodes) would benefit from this feature.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        },
+        {
+          "date": "2026-10-09",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-09T17:07:09Z"
+    },
+    {
       "id": "user-select",
       "slug": "user-select",
       "title": "user-select",
@@ -8154,116 +8290,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:22Z"
-    },
-    {
-      "id": "frame-sizing",
-      "slug": "frame-sizing",
-      "title": "Responsive iframes",
-      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 914,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 21,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 9,
-        "votes30d": 18,
-        "score7d": 4.3,
-        "score30d": 13.8
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
-          "author": "crutchcorn",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
-          "createdAt": "2026-09-19T05:24:54Z",
-          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
-          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
-          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        },
-        {
-          "date": "2026-10-06",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-06T08:20:06Z"
     },
     {
       "id": "hanging-punctuation",
@@ -8955,9 +8981,23 @@
             "workaroundBurden": 0,
             "composite": 24.5
           }
+        },
+        {
+          "date": "2026-10-09",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-08T12:17:36Z"
+      "lastActivityAt": "2026-10-09T12:08:19Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -9679,6 +9719,84 @@
       "lastActivityAt": "2026-08-26T12:08:45Z"
     },
     {
+      "id": "install",
+      "slug": "install",
+      "title": "<install>",
+      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 522,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 17,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 46.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 7,
+        "votes30d": 0,
+        "score7d": 3.9,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 17,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 46.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:18:14Z"
+    },
+    {
       "id": "justify-self-block",
       "slug": "justify-self-block",
       "title": "justify-self in block layouts",
@@ -9909,84 +10027,6 @@
         }
       ],
       "lastActivityAt": "2026-09-15T07:26:39Z"
-    },
-    {
-      "id": "install",
-      "slug": "install",
-      "title": "<install>",
-      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 522,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 16,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 45.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 6,
-        "votes30d": 0,
-        "score7d": 3.5,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 16,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:18:14Z"
     },
     {
       "id": "column-breaks",
@@ -10627,6 +10667,101 @@
       "lastActivityAt": "2026-08-19T21:40:02Z"
     },
     {
+      "id": "app-share-targets",
+      "slug": "app-share-targets",
+      "title": "Share targets",
+      "summary": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 107,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/107"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-share-targets/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 4,
+        "votes30d": 0,
+        "score7d": 2.5,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVyNBfQ",
+          "author": "mlantin",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/107#issuecomment-5756895613",
+          "createdAt": "2026-09-21T07:25:39Z",
+          "body": "## What I want to do with this feature\n\nI have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.\n\n## What I'm having to do in the meantime\n\nThe only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media.\n\nI could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
+          "parsedGoal": "I have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.",
+          "parsedWorkaround": "The only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media. I could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-21T07:25:39Z"
+    },
+    {
       "id": "selection",
       "slug": "selection",
       "title": "::selection",
@@ -11052,101 +11187,6 @@
       "lastActivityAt": "2026-09-21T15:35:20Z"
     },
     {
-      "id": "app-share-targets",
-      "slug": "app-share-targets",
-      "title": "Share targets",
-      "summary": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 107,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/107"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-share-targets/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 3,
-        "votes30d": 0,
-        "score7d": 1.9,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVyNBfQ",
-          "author": "mlantin",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/107#issuecomment-5756895613",
-          "createdAt": "2026-09-21T07:25:39Z",
-          "body": "## What I want to do with this feature\n\nI have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.\n\n## What I'm having to do in the meantime\n\nThe only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media.\n\nI could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
-          "parsedGoal": "I have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.",
-          "parsedWorkaround": "The only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media. I could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media",
-            "installed apps"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-21",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-21T07:25:39Z"
-    },
-    {
       "id": "background-clip-border-area",
       "slug": "background-clip-border-area",
       "title": "background-clip: border-area",
@@ -11390,9 +11430,9 @@
       },
       "trend": {
         "votes7d": 3,
-        "votes30d": 6,
+        "votes30d": 5,
         "score7d": 1.9,
-        "score30d": 4.5
+        "score30d": 3.5
       },
       "comments": [],
       "snapshots": [
@@ -11787,9 +11827,23 @@
             "workaroundBurden": 0,
             "composite": 21.2
           }
+        },
+        {
+          "date": "2026-10-09",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-08T12:17:38Z"
+      "lastActivityAt": "2026-10-09T12:08:21Z"
     },
     {
       "id": "background-clip-text",
@@ -15556,9 +15610,23 @@
             "workaroundBurden": 0,
             "composite": 16.7
           }
+        },
+        {
+          "date": "2026-10-09",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
         }
       ],
-      "lastActivityAt": "2026-10-08T12:17:40Z"
+      "lastActivityAt": "2026-10-09T12:08:23Z"
     },
     {
       "id": "page-lifecycle",
@@ -25377,9 +25445,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-09",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-08T12:17:39Z"
+      "lastActivityAt": "2026-10-09T12:08:22Z"
     },
     {
       "id": "khr-parallel-shader-compile",

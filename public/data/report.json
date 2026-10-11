@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-10T10:42:53.412Z",
-    "staleAfter": "2026-10-12T10:42:53.412Z",
+    "generatedAt": "2026-10-11T10:55:28.964Z",
+    "staleAfter": "2026-10-13T10:55:28.964Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,24 +10,27 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-10T10:42:53.412Z"
+        "retrievedAt": "2026-10-11T10:55:28.964Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-10T10:42:53.412Z"
+        "retrievedAt": "2026-10-11T10:55:28.964Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-10T10:42:53.412Z"
+        "retrievedAt": "2026-10-11T10:55:28.964Z"
       }
     ],
     "warnings": [
-      "app-share-targets: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "frame-sizing: feed votes 21 differed from GitHub 22; GitHub value used.",
-      "install: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "navigator-install: feed votes 28 differed from GitHub 30; GitHub value used."
+      "corner-shape: feed votes 142 differed from GitHub 143; GitHub value used.",
+      "fetch-request-streams: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "frame-sizing: feed votes 22 differed from GitHub 25; GitHub value used.",
+      "grid-lanes: feed votes 125 differed from GitHub 126; GitHub value used.",
+      "loading-lazy-media: feed votes 46 differed from GitHub 47; GitHub value used.",
+      "switch-control: feed votes 25 differed from GitHub 26; GitHub value used.",
+      "webgl-multi-draw: feed votes 1 differed from GitHub 2; GitHub value used."
     ]
   },
   "features": [
@@ -724,7 +727,7 @@
         "rationale": "3 distinct qualified authors; 270 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 28,
+        "votes7d": 27,
         "votes30d": 59,
         "score7d": 0.9,
         "score30d": 10.4
@@ -1293,9 +1296,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.5
           }
+        },
+        {
+          "date": "2026-10-10",
+          "votes": 270,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.1,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-09T12:08:20Z"
+      "lastActivityAt": "2026-10-10T11:26:02Z"
     },
     {
       "id": "attr",
@@ -1579,21 +1596,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 125,
+      "votes": 126,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 1.25,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 77.8,
+        "voteDemand": 77.9,
         "useCaseEvidence": 32.9,
         "workaroundBurden": 27.5,
-        "composite": 54.5
+        "composite": 54.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.48,
-        "rationale": "2 distinct qualified authors; 125 issue votes; 50% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 126 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1674,16 +1691,16 @@
       "snapshots": [
         {
           "date": "2026-09-18",
-          "votes": 125,
+          "votes": 126,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 1.25,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 77.8,
+            "voteDemand": 77.9,
             "useCaseEvidence": 32.9,
             "workaroundBurden": 27.5,
-            "composite": 54.5
+            "composite": 54.6
           }
         }
       ],
@@ -1710,13 +1727,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 142,
+      "votes": 143,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 79.8,
+        "voteDemand": 79.9,
         "useCaseEvidence": 40.8,
         "workaroundBurden": 0,
         "composite": 54.2
@@ -1724,11 +1741,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.53,
-        "rationale": "3 distinct qualified authors; 142 issue votes; 50% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 143 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 8,
-        "votes30d": 13,
+        "votes7d": 9,
+        "votes30d": 14,
         "score7d": 3.2,
         "score30d": 15.1
       },
@@ -1877,13 +1894,13 @@
         },
         {
           "date": "2026-10-04",
-          "votes": 142,
+          "votes": 143,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 79.8,
+            "voteDemand": 79.9,
             "useCaseEvidence": 40.8,
             "workaroundBurden": 0,
             "composite": 54.2
@@ -4677,6 +4694,114 @@
       "lastActivityAt": "2026-08-26T12:10:39Z"
     },
     {
+      "id": "loading-lazy-media",
+      "slug": "loading-lazy-media",
+      "title": "Lazy-loading media",
+      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 534,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
+      "categories": [
+        "Media elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 47,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 62.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 31.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.25,
+        "rationale": "0 distinct qualified authors; 47 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 10,
+        "votes30d": 16,
+        "score7d": 1.8,
+        "score30d": 3.2
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
+          "author": "robole",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
+          "createdAt": "2026-07-02T09:28:45Z",
+          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It is blank if you unless you provide an image in the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
+          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
+          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It is blank if you unless you provide an image in the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 37,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 58.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29.3
+          }
+        },
+        {
+          "date": "2026-10-03",
+          "votes": 47,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 62.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-03T08:54:25Z"
+    },
+    {
       "id": "edit-context",
       "slug": "edit-context",
       "title": "EditContext",
@@ -4787,114 +4912,6 @@
         }
       ],
       "lastActivityAt": "2026-09-25T19:25:38Z"
-    },
-    {
-      "id": "loading-lazy-media",
-      "slug": "loading-lazy-media",
-      "title": "Lazy-loading media",
-      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 534,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
-      "categories": [
-        "Media elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 46,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 61.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 31
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.25,
-        "rationale": "0 distinct qualified authors; 46 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 9,
-        "votes30d": 15,
-        "score7d": 1.7,
-        "score30d": 3.1
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
-          "author": "robole",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
-          "createdAt": "2026-07-02T09:28:45Z",
-          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It is blank if you unless you provide an image in the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
-          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
-          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It is blank if you unless you provide an image in the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 37,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 58.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 29.3
-          }
-        },
-        {
-          "date": "2026-10-03",
-          "votes": 46,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 61.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 31
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-03T08:54:25Z"
     },
     {
       "id": "margin-trim",
@@ -7258,6 +7275,209 @@
       "lastActivityAt": "2026-09-03T14:35:35Z"
     },
     {
+      "id": "switch-control",
+      "slug": "switch-control",
+      "title": "<input type=\"checkbox\" switch>",
+      "summary": "The switch attribute, when present on an <input type=\"checkbox\"> HTML element, renders a switch control with an on and off state instead of a checkbox control.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 875,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/875"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/switch-control/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 26,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:34:32Z"
+    },
+    {
+      "id": "frame-sizing",
+      "slug": "frame-sizing",
+      "title": "Responsive iframes",
+      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 914,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 25,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 52.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 13,
+        "votes30d": 22,
+        "score7d": 5.6,
+        "score30d": 15.1
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
+          "author": "crutchcorn",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
+          "createdAt": "2026-09-19T05:24:54Z",
+          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
+          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
+          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABarqSQg",
+          "author": "ahmadalfy",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-6085579330",
+          "createdAt": "2026-10-09T17:07:09Z",
+          "body": "@hatemhosny I think [Livecodes](https://github.com/live-codes/livecodes) would benefit from this feature.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        },
+        {
+          "date": "2026-10-09",
+          "votes": 25,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 52.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-09T17:07:09Z"
+    },
+    {
       "id": "notifications",
       "slug": "notifications",
       "title": "Notifications",
@@ -7315,70 +7535,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:44:59Z"
-    },
-    {
-      "id": "switch-control",
-      "slug": "switch-control",
-      "title": "<input type=\"checkbox\" switch>",
-      "summary": "The switch attribute, when present on an <input type=\"checkbox\"> HTML element, renders a switch control with an on and off state instead of a checkbox control.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 875,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/875"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/switch-control/",
-      "categories": [
-        "Forms",
-        "HTML elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 25,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 52.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 25,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 52.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:32Z"
     },
     {
       "id": "opaquerange",
@@ -8025,145 +8181,6 @@
         }
       ],
       "lastActivityAt": "2026-08-25T16:53:32Z"
-    },
-    {
-      "id": "frame-sizing",
-      "slug": "frame-sizing",
-      "title": "Responsive iframes",
-      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 914,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 22,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 50.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 10,
-        "votes30d": 19,
-        "score7d": 4.6,
-        "score30d": 14.1
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
-          "author": "crutchcorn",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
-          "createdAt": "2026-09-19T05:24:54Z",
-          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
-          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
-          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABarqSQg",
-          "author": "ahmadalfy",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-6085579330",
-          "createdAt": "2026-10-09T17:07:09Z",
-          "body": "@hatemhosny I think [Livecodes](https://github.com/live-codes/livecodes) would benefit from this feature.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        },
-        {
-          "date": "2026-10-06",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        },
-        {
-          "date": "2026-10-09",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-09T17:07:09Z"
     },
     {
       "id": "user-select",
@@ -8995,9 +9012,23 @@
             "workaroundBurden": 0,
             "composite": 24.5
           }
+        },
+        {
+          "date": "2026-10-10",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-09T12:08:19Z"
+      "lastActivityAt": "2026-10-10T11:26:01Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -10762,6 +10793,68 @@
       "lastActivityAt": "2026-09-21T07:25:39Z"
     },
     {
+      "id": "fetch-request-streams",
+      "slug": "fetch-request-streams",
+      "title": "Fetch upload streams",
+      "summary": "The fetch() method and Request() constructor accept a ReadableStream object as the request's body option, to stream upload data to the server.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 83,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/83"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/fetch-request-streams/",
+      "categories": [
+        "Fetch"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:25Z"
+    },
+    {
       "id": "selection",
       "slug": "selection",
       "title": "::selection",
@@ -11246,68 +11339,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:58Z"
-    },
-    {
-      "id": "fetch-request-streams",
-      "slug": "fetch-request-streams",
-      "title": "Fetch upload streams",
-      "summary": "The fetch() method and Request() constructor accept a ReadableStream object as the request's body option, to stream upload data to the server.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 83,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/83"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/fetch-request-streams/",
-      "categories": [
-        "Fetch"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:25Z"
     },
     {
       "id": "periodic-background-sync",
@@ -11841,9 +11872,23 @@
             "workaroundBurden": 0,
             "composite": 21.2
           }
+        },
+        {
+          "date": "2026-10-10",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-09T12:08:21Z"
+      "lastActivityAt": "2026-10-10T11:26:03Z"
     },
     {
       "id": "background-clip-text",
@@ -15624,9 +15669,23 @@
             "workaroundBurden": 0,
             "composite": 16.7
           }
+        },
+        {
+          "date": "2026-10-10",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
         }
       ],
-      "lastActivityAt": "2026-10-09T12:08:23Z"
+      "lastActivityAt": "2026-10-10T11:26:05Z"
     },
     {
       "id": "page-lifecycle",
@@ -16015,6 +16074,100 @@
         }
       ],
       "lastActivityAt": "2026-10-07T21:57:50Z"
+    },
+    {
+      "id": "webgl-multi-draw",
+      "slug": "webgl-multi-draw",
+      "title": "WEBGL_multi_draw WebGL extension",
+      "summary": "The WEBGL_multi_draw extension for WebGL 1.0 and 2.0 contexts renders more than one primitive with a single function call.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 130,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/130"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webgl-multi-draw/",
+      "categories": [
+        "WebGL extensions"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 2,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 15.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.31,
+        "rationale": "1 distinct qualified author; 2 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 0,
+        "score7d": 15.8,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUlCxdg",
+          "author": "SocietyReboot",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/130#issuecomment-5675987318",
+          "createdAt": "2026-09-15T06:45:38Z",
+          "body": "## What I want to do with this feature\n\nI'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other chromium based browsers.\n\n## What I'm having to do in the meantime\n\nI have to make a limited - scaled down version for Firefox using another feature.\nAlso if the performance is low I might have to suggest using a different browser.\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\n\nWith this feature, instances of different geometries that share the same material can all be rendered with a single draw call.\nThis feature, is 1.5x faster on integrated GPUs and 2x on discrete GPUs vs the closest method three.js uses (BatchMesh).",
+          "parsedGoal": "I'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other chromium based browsers.",
+          "parsedWorkaround": "I have to make a limited - scaled down version for Firefox using another feature. Also if the performance is low I might have to suggest using a different browser. With this feature, instances of different geometries that share the same material can all be rendered with a single draw call. This feature, is 1.5x faster on integrated GPUs and 2x on discrete GPUs vs the closest method three.js uses (BatchMesh).",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "performance"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other …",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 2,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 15.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T14:58:50Z"
     },
     {
       "id": "beforeunload",
@@ -19370,100 +19523,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:18:15Z"
-    },
-    {
-      "id": "webgl-multi-draw",
-      "slug": "webgl-multi-draw",
-      "title": "WEBGL_multi_draw WebGL extension",
-      "summary": "The WEBGL_multi_draw extension for WebGL 1.0 and 2.0 contexts renders more than one primitive with a single function call.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 130,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/130"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webgl-multi-draw/",
-      "categories": [
-        "WebGL extensions"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 1,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 0,
-        "composite": 12.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.29,
-        "rationale": "1 distinct qualified author; 1 issue vote; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 0,
-        "score7d": 12.5,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABUlCxdg",
-          "author": "SocietyReboot",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/130#issuecomment-5675987318",
-          "createdAt": "2026-09-15T06:45:38Z",
-          "body": "## What I want to do with this feature\n\nI'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other chromium based browsers.\n\n## What I'm having to do in the meantime\n\nI have to make a limited - scaled down version for Firefox using another feature.\nAlso if the performance is low I might have to suggest using a different browser.\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\n\nWith this feature, instances of different geometries that share the same material can all be rendered with a single draw call.\nThis feature, is 1.5x faster on integrated GPUs and 2x on discrete GPUs vs the closest method three.js uses (BatchMesh).",
-          "parsedGoal": "I'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other chromium based browsers.",
-          "parsedWorkaround": "I have to make a limited - scaled down version for Firefox using another feature. Also if the performance is low I might have to suggest using a different browser. With this feature, instances of different geometries that share the same material can all be rendered with a single draw call. This feature, is 1.5x faster on integrated GPUs and 2x on discrete GPUs vs the closest method three.js uses (BatchMesh).",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "performance"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I'm building a high-poly interactive 3D website and this feature will make it run smoothly, as it does already in my testing on Edge, Opera, Chrome, Vivaldi, Brave, and all other …",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
-          "date": "2026-09-15",
-          "votes": 1,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 12.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T14:58:50Z"
     },
     {
       "id": "app-shortcuts",
@@ -25459,9 +25518,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-10",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-09T12:08:22Z"
+      "lastActivityAt": "2026-10-10T11:26:04Z"
     },
     {
       "id": "khr-parallel-shader-compile",

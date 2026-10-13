@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-12T12:14:30.142Z",
-    "staleAfter": "2026-10-14T12:14:30.142Z",
+    "generatedAt": "2026-10-13T11:58:58.559Z",
+    "staleAfter": "2026-10-15T11:58:58.559Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,220 +10,26 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-12T12:14:30.142Z"
+        "retrievedAt": "2026-10-13T11:58:58.559Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-12T12:14:30.142Z"
+        "retrievedAt": "2026-10-13T11:58:58.559Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-12T12:14:30.142Z"
+        "retrievedAt": "2026-10-13T11:58:58.559Z"
       }
     ],
     "warnings": [
-      "accent-color: feed votes 30 differed from GitHub 31; GitHub value used.",
-      "alignment-baseline: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "ambient-light: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "anchor-positioning: feed votes 277 differed from GitHub 278; GitHub value used.",
-      "anchor-positioning-animations: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "anchor-positioning-transforms: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "app-file-handlers: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "app-launch-handler: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "app-protocol-handlers: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "app-share-targets: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "attr: feed votes 128 differed from GitHub 129; GitHub value used.",
-      "autocapitalize: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "autofill: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "background-attachment: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "background-clip-border-area: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "background-clip-text: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "background-fetch: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "badging: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "barcode: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "beforeinstallprompt: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "beforeunload: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "bfcache-blocking-reasons: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "border-shape: feed votes 36 differed from GitHub 37; GitHub value used.",
-      "box-decoration-break: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "calc-size: feed votes 58 differed from GitHub 59; GitHub value used.",
-      "canvas-2d-color-management: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "canvas-html: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "capture-stream-audio-video: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "caret-shape: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "clear-site-data: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "clipboard-custom-format: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "closewatcher: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "column-breaks: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "column-pseudo: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "connection-allowlists: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "contact-picker: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "container-anchor-position-queries: feed votes 34 differed from GitHub 35; GitHub value used.",
-      "container-scroll-state-queries: feed votes 75 differed from GitHub 76; GitHub value used.",
-      "content-index: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "controls-list: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "cookie-store: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "corner-shape: feed votes 143 differed from GitHub 144; GitHub value used.",
-      "counter-reset-reversed: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "cross-document-view-transitions: feed votes 67 differed from GitHub 68; GitHub value used.",
-      "cross-fade: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "css-modules: feed votes 43 differed from GitHub 44; GitHub value used.",
-      "css-typed-om: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "cursor: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "custom-ellipses: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "custom-media-queries: feed votes 38 differed from GitHub 39; GitHub value used.",
-      "customizable-select: feed votes 258 differed from GitHub 259; GitHub value used.",
-      "datalist: feed votes 52 differed from GitHub 53; GitHub value used.",
-      "device-posture: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "devicepixelratio: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "dialog-closedby: feed votes 83 differed from GitHub 84; GitHub value used.",
-      "digital-goods: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "display-animation: feed votes 18 differed from GitHub 19; GitHub value used.",
-      "display-mode: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "document-picture-in-picture: feed votes 28 differed from GitHub 29; GitHub value used.",
-      "early-data: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "edit-context: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "element: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "eyedropper: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "fedcm: feed votes 47 differed from GitHub 48; GitHub value used.",
-      "fetch-formdata: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "filter-function: feed votes 45 differed from GitHub 46; GitHub value used.",
-      "fit-content-function: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "flexbox-flex-wrap-balance: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "focusgroup: feed votes 21 differed from GitHub 22; GitHub value used.",
-      "font-family-ui: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "frame-sizing: feed votes 25 differed from GitHub 26; GitHub value used.",
-      "fullscreen: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "gamut-mapping: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "gap-decorations: feed votes 49 differed from GitHub 50; GitHub value used.",
-      "geolocation-element: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "getallrecords: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "gpc: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "grid-lanes: feed votes 126 differed from GitHub 127; GitHub value used.",
-      "hanging-punctuation: feed votes 21 differed from GitHub 22; GitHub value used.",
-      "has-slotted: feed votes 45 differed from GitHub 46; GitHub value used.",
-      "heading-offset: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "heading-selectors: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "hidden-until-found: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "html-media-capture: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "html-processing-instructions: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "html-streaming-setters: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "iframe-credentialless: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "image-function: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "import-defer: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "initial-letter: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "ink: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "input-color: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "input-color-alpha: feed votes 18 differed from GitHub 19; GitHub value used.",
-      "input-date-time-month: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "input-date-time-week: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "install: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "interactivity: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "interest-invokers: feed votes 50 differed from GitHub 51; GitHub value used.",
-      "interpolate-size: feed votes 95 differed from GitHub 96; GitHub value used.",
-      "is-error: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "jpegxl: feed votes 515 differed from GitHub 517; GitHub value used.",
-      "justify-self-block: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "layout-instability: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "line-clamp: feed votes 57 differed from GitHub 58; GitHub value used.",
-      "link-rel-prefetch: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "loading-lazy-media: feed votes 47 differed from GitHub 48; GitHub value used.",
-      "local-fonts: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "long-animation-frames: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "longtasks: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "manifest: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "manifest-localization: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "margin-trim: feed votes 45 differed from GitHub 46; GitHub value used.",
-      "marker: feed votes 27 differed from GitHub 28; GitHub value used.",
-      "mask-border: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "media-pseudos: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "meta-application-title: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "meta-theme-color: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "mixin: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "move-before: feed votes 40 differed from GitHub 41; GitHub value used.",
-      "navigator-install: feed votes 30 differed from GitHub 31; GitHub value used.",
-      "notifications: feed votes 25 differed from GitHub 26; GitHub value used.",
-      "object-view-box: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "opaquerange: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "overflow-clip-margin: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "overlay: feed votes 25 differed from GitHub 26; GitHub value used.",
-      "overscroll-behavior: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "page-lifecycle: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "page-orientation: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "page-selectors: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "page-visibility-state: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "path-shape: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "payment-handler: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "payment-request: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "periodic-background-sync: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "permissions-policy: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "ping: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "popover-hint: feed votes 95 differed from GitHub 96; GitHub value used.",
-      "prefers-reduced-data: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "prefers-reduced-transparency: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "presentation-api: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "random-function: feed votes 20 differed from GitHub 21; GitHub value used.",
-      "reading-flow: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "referencetarget: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "registerprotocolhandler: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "reporting-crashes: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "reporting-crashes-storage: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "requestidlecallback: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "resize: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "sanitizer: feed votes 109 differed from GitHub 111; GitHub value used.",
-      "savedata: feed votes 5 differed from GitHub 7; GitHub value used.",
-      "scheduler: feed votes 24 differed from GitHub 25; GitHub value used.",
-      "scoped-custom-element-registries: feed votes 29 differed from GitHub 30; GitHub value used.",
-      "screen-capture: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "screen-orientation-lock: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "scroll-driven-animations: feed votes 79 differed from GitHub 80; GitHub value used.",
-      "scroll-initial-target: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "scroll-into-view-container: feed votes 31 differed from GitHub 32; GitHub value used.",
-      "scroll-marker-targets: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "scroll-markers: feed votes 26 differed from GitHub 27; GitHub value used.",
-      "scroll-snap-events: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "scroll-target-group: feed votes 28 differed from GitHub 29; GitHub value used.",
-      "secure-payment-confirmation: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "selection: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "serializable-errors: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "share: feed votes 32 differed from GitHub 34; GitHub value used.",
-      "show-picker-input: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "show-picker-select: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "sizes-auto: feed votes 38 differed from GitHub 39; GitHub value used.",
-      "speculation-rules: feed votes 31 differed from GitHub 32; GitHub value used.",
-      "speech-recognition: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "spelling-grammar-error: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "stretch: feed votes 34 differed from GitHub 35; GitHub value used.",
-      "style-query-range-syntax: feed votes 26 differed from GitHub 27; GitHub value used.",
-      "supports-at-rule: feed votes 18 differed from GitHub 19; GitHub value used.",
-      "template-for: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "temporal: feed votes 270 differed from GitHub 272; GitHub value used.",
-      "text-box: feed votes 88 differed from GitHub 89; GitHub value used.",
-      "text-fit: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "text-modules: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "text-size-adjust: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "text-spacing-trim: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "text-wrap-pretty: feed votes 33 differed from GitHub 34; GitHub value used.",
-      "touch-events: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "transformstream-transformer-cancel: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "url-integrity: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "url-referrer-policy: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "user-select: feed votes 22 differed from GitHub 23; GitHub value used.",
-      "usermedia: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "view-transitions-element-scoped: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "viewport-segments: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "virtual-keyboard: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "web-midi: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "webauthn-signals: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "webxr-depth-sensing: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "wheel-events: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "widows-orphans: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "window-controls-overlay: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "window-drag: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "window-management: feed votes 10 differed from GitHub 12; GitHub value used.",
-      "word-break-auto-phrase: feed votes 6 differed from GitHub 7; GitHub value used."
+      "frame-sizing: feed votes 26 differed from GitHub 29; GitHub value used.",
+      "if: feed votes 118 differed from GitHub 119; GitHub value used.",
+      "initial-letter: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "jpegxl: feed votes 517 differed from GitHub 518; GitHub value used.",
+      "layout-instability: feed votes 24 differed from GitHub 25; GitHub value used.",
+      "window-management: feed votes 12 differed from GitHub 13; GitHub value used."
     ]
   },
   "features": [
@@ -249,7 +55,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 517,
+      "votes": 518,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.88,
       "workaroundBurdenRaw": 0,
@@ -263,7 +69,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 517 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 518 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -868,7 +674,7 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 517,
+          "votes": 518,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.88,
           "workaroundBurdenRaw": 0,
@@ -921,9 +727,9 @@
       },
       "trend": {
         "votes7d": 22,
-        "votes30d": 49,
+        "votes30d": 46,
         "score7d": 0.7,
-        "score30d": 4.4
+        "score30d": 4.3
       },
       "comments": [
         {
@@ -1517,9 +1323,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.5
           }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 272,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.2,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-11T11:39:36Z"
+      "lastActivityAt": "2026-10-12T13:36:34Z"
     },
     {
       "id": "attr",
@@ -2593,13 +2413,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 118,
+      "votes": 119,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 76.9,
+        "voteDemand": 77,
         "useCaseEvidence": 20.9,
         "workaroundBurden": 0,
         "composite": 45.8
@@ -2607,7 +2427,7 @@
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 118 issue votes; 25% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 119 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2689,13 +2509,13 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 118,
+          "votes": 119,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 76.9,
+            "voteDemand": 77,
             "useCaseEvidence": 20.9,
             "workaroundBurden": 0,
             "composite": 45.8
@@ -3089,7 +2909,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/509#issuecomment-4418717336",
           "createdAt": "2026-05-11T08:11:02Z",
           "body": "I've been wanting this for years, I've even proposed it for [interop](https://github.com/web-platform-tests/interop/issues/717) - you can see there it had quite a few votes. And that post also shows a bunch of my use cases.\n\nSince that proposal, I've also written a few articles on how to get various effects whose code could be greatly simplified by having `filter()`.\n\nOne example would be [non-square image blur extensions](https://frontendmasters.com/blog/non-square-image-blur-extensions/) (note that the Safari-only solutions, both in the [no fade](https://codepen.io/thebabydino/pen/gbPZyKZ) and in the [extra fade](https://codepen.io/thebabydino/pen/NPNqdLM) case also make use of the `edgeMode` attribute for `feGaussianBlur`, which neither Firefox nor Chrome support).\n\n![Screenshot collage, showing the desired result in two stages. First, on the left we have the base case with the non-square images being padded with a blurred version of themselves up to a square along the axis of their shorter side. Second, on the right, we have an extra touch, the non-square images fade smoothly into their blurred copy on the sides.](https://github.com/user-attachments/assets/e4f0e97a-d3ef-41b6-a2bf-3136aa5488e7)\n\nAnother example would be [grainy gradients](https://frontendmasters.com/blog/grainy-gradients/) - we want just the background gradient of a card with text content to be grainy (adding grain fixes gradient banding in addition to just being a cool effect). Without the `filter()` function, we need to resort to [adding an extra pseudo-element](https://codepen.io/thebabydino/pen/VwBPygQ) that gets a `filter` property, as having a `filter` property on the whole card would affect the text as well (screenshot below), which is something we do not want.\n\n![A card with what's originally banded gradient, text and box-shadow. To fix the banding, the card has a filter applied on it. This has unpleasant side effects as described above.](https://github.com/user-attachments/assets/e34fec44-5fce-4e69-977e-d92482bb8e38)\n\nA similar example is that of applying a `filter` to turn a two end stops gradient into [a multi-step one](https://frontendmasters.com/blog/step-gradients-with-a-given-number-of-steps/#simplifying-the-technique-for-the-future). Just like in the case of grainy gradient, we currently need an extra pseudo to apply the `filter` on, as applying it on the actual element also affects text content, box-hadows, borders and so on...",
-          "positiveReactions": 13,
+          "positiveReactions": 14,
           "classification": "qualified",
           "themes": [
             "media"
@@ -3305,7 +3125,7 @@
           "body": "## What I want to do with this feature\n\nI need to reliably santize HTML content client side.\n\n## What I'm having to do in the meantime\n\nUse DOMPurify to get these features. DOMPurify works fine but it's not the lightest library, particularly when compared with something built into the platform.",
           "parsedGoal": "I need to reliably santize HTML content client side.",
           "parsedWorkaround": "Use DOMPurify to get these features. DOMPurify works fine but it's not the lightest library, particularly when compared with something built into the platform.",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -4364,6 +4184,177 @@
       "lastActivityAt": "2026-09-03T14:35:03Z"
     },
     {
+      "id": "frame-sizing",
+      "slug": "frame-sizing",
+      "title": "Responsive iframes",
+      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 914,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 29,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 54.7,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 34.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.33,
+        "rationale": "1 distinct qualified author; 29 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 17,
+        "votes30d": 26,
+        "score7d": 13.7,
+        "score30d": 23.2
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
+          "author": "crutchcorn",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
+          "createdAt": "2026-09-19T05:24:54Z",
+          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
+          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
+          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABarqSQg",
+          "author": "ahmadalfy",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-6085579330",
+          "createdAt": "2026-10-09T17:07:09Z",
+          "body": "@hatemhosny I think [Livecodes](https://github.com/live-codes/livecodes) would benefit from this feature.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbUsG6Q",
+          "author": "botic",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-6128600809",
+          "createdAt": "2026-10-12T16:45:03Z",
+          "body": "## What I want to do with this feature\n\nEmbedding an external player for e.g. podcasts requires an iFrame-based rendering with all the known workaround downsides. Or if you have user-generated content and you want to isolate it into an iFrame, e.g. for chart rendering with Apache ECharts. The iFrame is the only easy way, since ECharts is too powerful and relies on sane user-generated content.\n\n## What I'm having to do in the meantime\n\nAs explained earlier:\n\n> Having to use some JS hackery to resize the iframe after-the-fact.\n\nSince isolation of third party content inside an iFrame is the current state of the art (and will be for the foreseeable future), I really want to see the `postMessage()` workaround disappear.",
+          "parsedGoal": "Embedding an external player for e.g. podcasts requires an iFrame-based rendering with all the known workaround downsides. Or if you have user-generated content and you want to isolate it into an iFrame, e.g. for chart rendering with Apache ECharts. The iFrame is the only easy way, since ECharts is too powerful and relies on sane user-generated content.",
+          "parsedWorkaround": "As explained earlier: Having to use some JS hackery to resize the iframe after-the-fact. Since isolation of third party content inside an iFrame is the current state of the art (and will be for the foreseeable future), I really want to see the postMessage() workaround disappear.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "Embedding an external player for e.g. podcasts requires an iFrame-based rendering with all the known workaround downsides. Or if you have user-generated content and you want to is…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        },
+        {
+          "date": "2026-10-09",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 29,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.7,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 34.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-12T16:45:03Z"
+    },
+    {
       "id": "cross-document-view-transitions",
       "slug": "cross-document-view-transitions",
       "title": "Cross-document view transitions",
@@ -4695,6 +4686,70 @@
       "lastActivityAt": "2026-09-03T14:36:28Z"
     },
     {
+      "id": "gap-decorations",
+      "slug": "gap-decorations",
+      "title": "Gap decorations",
+      "summary": "The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 362,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/362"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gap-decorations/",
+      "categories": [
+        "Grid",
+        "Flexbox",
+        "Multi-column"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 51,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 63.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 31.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.26,
+        "rationale": "0 distinct qualified authors; 51 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 51,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 63.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:49Z"
+    },
+    {
       "id": "interest-invokers",
       "slug": "interest-invokers",
       "title": "Interest invokers",
@@ -4773,70 +4828,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:33Z"
-    },
-    {
-      "id": "gap-decorations",
-      "slug": "gap-decorations",
-      "title": "Gap decorations",
-      "summary": "The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 362,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/362"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gap-decorations/",
-      "categories": [
-        "Grid",
-        "Flexbox",
-        "Multi-column"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 50,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 63.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 31.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.26,
-        "rationale": "0 distinct qualified authors; 50 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 50,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 63.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 31.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:49Z"
     },
     {
       "id": "edit-context",
@@ -5261,6 +5252,135 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:05Z"
+    },
+    {
+      "id": "window-management",
+      "slug": "window-management",
+      "title": "Window management",
+      "summary": "The window.getScreenDetails() method gets information about the screens on a device, which you can use to place new windows on a specific screen with window.open().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 198,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/198"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-management/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 13,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0.5,
+      "workaroundAuthors": 1,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 20.4,
+        "workaroundBurden": 13.8,
+        "composite": 30.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.28,
+        "rationale": "1 distinct qualified author; 13 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 3,
+        "score7d": 11.1,
+        "score30d": 11.1
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABSRZB_Q",
+          "author": "paulkorir",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-5521162749",
+          "createdAt": "2026-09-03T05:49:56Z",
+          "body": "## What I want to do with this feature\n\nExam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.\n\n## What I'm having to do in the meantime\n\nI have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
+          "parsedGoal": "Exam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.",
+          "parsedWorkaround": "I have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbNpSpw",
+          "author": "Omid-Heydarzadeh",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6121214631",
+          "createdAt": "2026-10-12T09:11:14Z",
+          "body": "## What I want to do with this feature\n\nI need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation.\n\nThis requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.\n\n## What I'm having to do in the meantime\n\nWithout the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size.\n\nThis fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
+          "parsedGoal": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation. This requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.",
+          "parsedWorkaround": "Without the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size. This fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "moderate",
+          "generatedSummary": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a s…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbWbNQQ",
+          "author": "M68HC060",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6130421057",
+          "createdAt": "2026-10-12T18:42:21Z",
+          "body": "## What I want to do with this feature\n\nI want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform.\n\nFor this, I need to have a controlling window and a window that is shown on a projector.\nI want this window to be full-screen.\nMost of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\".\n\n(It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer.\n-AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory).\n\nI'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).\n\n## What I'm having to do in the meantime\n\nClick, click, click and click. Teach others what to click on and they think it's complicated, they forget what they had to do and they can't seem to learn it.\n-I can't use polyfill for this. Sometimes I have to hardcode coordinates and sizes, but it can't fix much.\nThere really aren't any alternatives, except from writing an application from scratch in C or C++. This approach will basically need a browser-view, thus I have to write my own web-browser, just to make this presentation stuff work.\n\nMy users (which are about 4-5 people in the same place), often start by pressing the \"Full Window\" button or resizes the window and that messes up the window-size, which the browser saved from last time. That makes things move around in such a way that they're inconvenien (many objects have fixed sizes, such as a DIV containing a preview of the thing to be displayed on the screen).\n\nCurrent solution for identifying screens: The position of the screen. I use \"leftmost\" and \"rightmost\" screens, found by traversing screen[n], and finding the highest and lowest values of 'left'. This won't always work if having 3 displays or more; then I'd have to be able to identify the displays by model, manufacturer, capabilities, possibly features, etc., save the identification in localStorage and hope that I can recognize the displays on the next run (avoiding users complaining \"It doesn't work - it never works!\").\n\nEdit: I sometimes need to hide my fullscreen-display (eg. the one on the projector), to reveal another presentation below my window (let's say it's a PowerPoint, but it's not).\nI cannot hide my \"popup-window\" (the fullscreen-window) so I can later unhide it, when the \"PowerPoint\" presentation is finished.",
+          "parsedGoal": "I want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform. For this, I need to have a controlling window and a window that is shown on a projector. I want this window to be full-screen. Most of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\". (It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer. -AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory). I'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).",
+          "parsedWorkaround": "Click, click, click and click. Teach others what to click on and they think it's complicated, they forget what they had to do and they can't seem to learn it. -I can't use polyfill for this. Sometimes I have to hardcode coordinates and sizes, but it can't fix much. There really aren't any alternatives, except from writing an application from scratch in C or C++. This approach will basically need a browser-view, thus I have to write my own web-browser, just to make this presentation stuff work. My users (which are about 4-5 people in the same place), often start by pressing the \"Full Window\" button or resizes the window and that messes up the window-size, which the browser saved from last time. That makes things move around in such a way that they're inconvenien (many objects have fixed sizes, such as a DIV containing a preview of the thing to be displayed on the screen). Current solution for identifying screens: The position of the screen. I use \"leftmost\" and \"rightmost\" screens, found by traversing screen[n], and finding the highest and lowest values of 'left'. This won't always work if having 3 displays or more; then I'd have to be able to identify the displays by model, manufacturer, capabilities, possibly features, etc., save the identification in localStorage and hope that I can recognize the displays on the next run (avoiding users complaining \"It doesn't work - it never works!\"). Edit: I sometimes need to hide my fullscreen-display (eg. the one on the projector), to reveal another presentation below my window (let's say it's a PowerPoint, but it's not). I cannot hide my \"popup-window\" (the fullscreen-window) so I can later unhide it, when the \"PowerPoint\" presentation is finished.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "security"
+          ],
+          "workaroundSeverity": "moderate"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 13,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 13.8,
+            "composite": 30.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-12T18:47:44Z"
     },
     {
       "id": "local-fonts",
@@ -5972,117 +6092,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:43Z"
-    },
-    {
-      "id": "window-management",
-      "slug": "window-management",
-      "title": "Window management",
-      "summary": "The window.getScreenDetails() method gets information about the screens on a device, which you can use to place new windows on a specific screen with window.open().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 198,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/198"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-management/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 12,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0.5,
-      "workaroundAuthors": 1,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 13.8,
-        "composite": 29.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.31,
-        "rationale": "1 distinct qualified author; 12 issue votes; 50% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 2,
-        "votes30d": 2,
-        "score7d": 10.3,
-        "score30d": 10.3
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABSRZB_Q",
-          "author": "paulkorir",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-5521162749",
-          "createdAt": "2026-09-03T05:49:56Z",
-          "body": "## What I want to do with this feature\n\nExam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.\n\n## What I'm having to do in the meantime\n\nI have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
-          "parsedGoal": "Exam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.",
-          "parsedWorkaround": "I have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABbNpSpw",
-          "author": "Omid-Heydarzadeh",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6121214631",
-          "createdAt": "2026-10-12T09:11:14Z",
-          "body": "**## What I want to do with this feature**  \n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\nI need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation.\n\nThis requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.\n\n**## What I'm having to do in the meantime**  \n<!-- Are you having to use another feature instead, a polyfill, or is it blocking you completely? Why are the alternatives worse than using this feature? -->\n\nWithout the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size.\n\nThis fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "layout & design",
-            "date & time"
-          ],
-          "workaroundSeverity": "moderate",
-          "generatedSummary": "## What I want to do with this feature I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use th…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-10-12",
-          "votes": 12,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0.5,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 13.8,
-            "composite": 29.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-12T09:11:14Z"
     },
     {
       "id": "show-picker-input",
@@ -7706,145 +7715,6 @@
       "lastActivityAt": "2026-09-03T14:35:35Z"
     },
     {
-      "id": "frame-sizing",
-      "slug": "frame-sizing",
-      "title": "Responsive iframes",
-      "summary": "The frame-sizing CSS property sets the size of an <iframe> element to that of it contents, to avoid scrolling in the iframe. Embedded documents allow this with the <meta name=\"responsive-embedded-sizing\"> element and request resizing in the embedding page by calling window.requestResize().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 914,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/914"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/frame-sizing/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 26,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 14,
-        "votes30d": 23,
-        "score7d": 5.9,
-        "score30d": 15.4
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVhv4Hg",
-          "author": "crutchcorn",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-5739640862",
-          "createdAt": "2026-09-19T05:24:54Z",
-          "body": "## What I want to do with this feature\n\nI help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.\n\n## What I'm having to do in the meantime\n\nHaving to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain:\n\n```html\n<iframe id=\"myIframe\" src=\"your-content.html\" onload=\"resizeIframe(this)\" style=\"width: 100%; border: none;\"></iframe>\n\n<script>\nfunction resizeIframe(iframe) {\n  // Reset height first to handle content shrinking\n  iframe.style.height = \"\"; \n  // Set new height based on the internal content's height\n  iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';\n}\n</script>\n```\n\nBut won't work once we move the iframe `src`'s to an `assets` domain later.",
-          "parsedGoal": "I help maintain a project called \"Playful Programming\", a dev-ed non-profit. We have a blog / CMS platform that we want to enable people to leave embeddable interactive examples to. Think \"A button that demos A11Y differences, encouraging users to try things with their screen-reader\" inside of an article that should look/feel like it's embedded in an article naturally.",
-          "parsedWorkaround": "Having to use some JS hackery to resize the iframe after-the-fact. This works for now since it's same-domain: code sample But won't work once we move the iframe src's to an assets domain later.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABarqSQg",
-          "author": "ahmadalfy",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-6085579330",
-          "createdAt": "2026-10-09T17:07:09Z",
-          "body": "@hatemhosny I think [Livecodes](https://github.com/live-codes/livecodes) would benefit from this feature.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        },
-        {
-          "date": "2026-10-06",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        },
-        {
-          "date": "2026-10-09",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-09T17:07:09Z"
-    },
-    {
       "id": "notifications",
       "slug": "notifications",
       "title": "Notifications",
@@ -8046,6 +7916,117 @@
       "lastActivityAt": "2026-08-25T16:53:32Z"
     },
     {
+      "id": "layout-instability",
+      "slug": "layout-instability",
+      "title": "Layout instability",
+      "summary": "The layout-shift performance entry and LayoutShift API measures the layout stability of web pages based on movements of the elements on the page. They're used to calculate Cumulative Layout Shift (CLS), a common metric for perceived stability.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 122,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/122"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/layout-instability/",
+      "categories": [
+        "Performance"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 25,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 52.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 5,
+        "votes30d": 0,
+        "score7d": 1.7,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFmDemg",
+          "author": "stormsson",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-4670414490",
+          "createdAt": "2026-06-10T12:55:10Z",
+          "body": "## What I want to do with this feature\n\nMeasure performance metrics on different browsers\n\n## What I'm having to do in the meantime\n\nRelying on external tools / solutions that involves a much more complex  workflow instead of just reading the data from the API",
+          "parsedGoal": "Measure performance metrics on different browsers",
+          "parsedWorkaround": "Relying on external tools / solutions that involves a much more complex workflow instead of just reading the data from the API",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "performance"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABShiYKg",
+          "author": "ryantownsend",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-5538093098",
+          "createdAt": "2026-09-04T08:54:17Z",
+          "body": "## What I want to do with this feature\n\nAccurately measure user experience across all browser engines.\n\n## What I'm having to do in the meantime\n\nReal User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently.\n\nThis isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
+          "parsedGoal": "Accurately measure user experience across all browser engines.",
+          "parsedWorkaround": "Real User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently. This isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-04",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 25,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 52.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:19Z"
+    },
+    {
       "id": "scheduler",
       "slug": "scheduler",
       "title": "Scheduler API",
@@ -8167,117 +8148,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:51Z"
-    },
-    {
-      "id": "layout-instability",
-      "slug": "layout-instability",
-      "title": "Layout instability",
-      "summary": "The layout-shift performance entry and LayoutShift API measures the layout stability of web pages based on movements of the elements on the page. They're used to calculate Cumulative Layout Shift (CLS), a common metric for perceived stability.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 122,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/122"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/layout-instability/",
-      "categories": [
-        "Performance"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 24,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 51.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 24 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 4,
-        "votes30d": 0,
-        "score7d": 1.4,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFmDemg",
-          "author": "stormsson",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-4670414490",
-          "createdAt": "2026-06-10T12:55:10Z",
-          "body": "## What I want to do with this feature\n\nMeasure performance metrics on different browsers\n\n## What I'm having to do in the meantime\n\nRelying on external tools / solutions that involves a much more complex  workflow instead of just reading the data from the API",
-          "parsedGoal": "Measure performance metrics on different browsers",
-          "parsedWorkaround": "Relying on external tools / solutions that involves a much more complex workflow instead of just reading the data from the API",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "performance"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABShiYKg",
-          "author": "ryantownsend",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-5538093098",
-          "createdAt": "2026-09-04T08:54:17Z",
-          "body": "## What I want to do with this feature\n\nAccurately measure user experience across all browser engines.\n\n## What I'm having to do in the meantime\n\nReal User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently.\n\nThis isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
-          "parsedGoal": "Accurately measure user experience across all browser engines.",
-          "parsedWorkaround": "Real User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently. This isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-04",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 24,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 51.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:19Z"
     },
     {
       "id": "reading-flow",
@@ -8734,20 +8604,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-08",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
-        {
           "date": "2026-09-09",
           "votes": 15,
           "qualifiedAuthors": 0,
@@ -9166,9 +9022,23 @@
             "workaroundBurden": 0,
             "composite": 24.9
           }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
         }
       ],
-      "lastActivityAt": "2026-10-11T11:39:35Z"
+      "lastActivityAt": "2026-10-12T13:36:33Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -10366,8 +10236,8 @@
       },
       "confidence": {
         "level": "low",
-        "score": 0.38,
-        "rationale": "1 distinct qualified author; 7 issue votes; 100% of reviewed comments qualified."
+        "score": 0.24,
+        "rationale": "1 distinct qualified author; 7 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -10394,6 +10264,38 @@
           "workaroundSeverity": "none",
           "generatedSummary": "I want Firefox to natively support shared tab/window/system audio capture through getDisplayMedia() so a web app can record meeting audio together with microphone input without re…",
           "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbX16SQ",
+          "author": "ianwill93",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6131907145",
+          "createdAt": "2026-10-12T20:17:52Z",
+          "body": "## What I want to do with this feature\n\nOn Android XR devices, inside of our webxr call application, there is no way to capture a portion of your screen to share with users. This is particularly an issue on Galaxy XR (Android XR). \n\nIt would be great if the user demonstrating something in the session were able to just share an open window (or their entire view) using the browser alone.\n\n## What I'm having to do in the meantime\n\nThis largely a complete blocker. If the user has a pc, they can log into the platform with a pc and share using the display attached to that device, but that means having two devices running just to temporarily share a screen. ",
+          "parsedGoal": "On Android XR devices, inside of our webxr call application, there is no way to capture a portion of your screen to share with users. This is particularly an issue on Galaxy XR (Android XR). It would be great if the user demonstrating something in the session were able to just share an open window (or their entire view) using the browser alone.",
+          "parsedWorkaround": "This largely a complete blocker. If the user has a pc, they can log into the platform with a pc and share using the display attached to that device, but that means having two devices running just to temporarily share a screen.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbZV53Q",
+          "author": "hhkcvvbb-spec",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6133479901",
+          "createdAt": "2026-10-12T22:06:12Z",
+          "body": "What is this and what are you doing?\r\n\r\n\r\nفي ‫اثنين، 12 أكتوبر، 2026 في 5:10 م‬‏، كتب ‪ianwill93 <\r\n***@***.***>‬‏:\r\n\r\n> *ianwill93* left a comment (web-platform-dx/developer-signals#47)\r\n> <https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6131907145>\r\n> What I want to do with this feature\r\n>\r\n> On Android XR devices, inside of our webxr call application, there is no\r\n> way to capture a portion of your screen to share with users. This is\r\n> particularly an issue on Galaxy XR (Android XR).\r\n>\r\n> It would be great if the user demonstrating something in the session were\r\n> able to just share an open window (or their entire view) using the browser\r\n> alone.\r\n> What I'm having to do in the meantime\r\n>\r\n> This largely a complete blocker. If the user has a pc, they can log into\r\n> the platform with a pc and share using the display attached to that device,\r\n> but that means having two devices running just to temporarily share a\r\n> screen.\r\n>\r\n> —\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/web-platform-dx/developer-signals/issues/47?email_source=notifications&email_token=CRHFSMKJBUNA35PH4U7ZMR35TU4AXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTMMJTGE4TANZRGQ22M4TFMFZW63VKON2WE43DOJUWEZLEUVSXMZLOOSWGM33PORSXEX3DNRUWG2Y#issuecomment-6131907145>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/CRHFSMP2RAFK3RTIU6MGEMD5TU4AXAVCNFSNUABFKJSXA33TNF2G64TZHM3TMNZVGE3TOOBUHNEXG43VMU5TGMRTGE3DONZQGU22C5QC>\r\n> .\r\n> Triage notifications, keep track of coding agent tasks and review pull\r\n> requests on the go with GitHub Mobile for iOS\r\n> <https://github.com/notifications/mobile/ios/CRHFSMPQ6DLUAJAUMCKI6CL5TU4AXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTMMJTGE4TANZRGQ22M4TFMFZW63VKON2WE43DOJUWEZLEUVSXMZLOOSVGM33PORSXEX3JN5ZQ>\r\n> and Android\r\n> <https://github.com/notifications/mobile/android/CRHFSMPU73SAGKG6EDTNLKT5TU4AXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTMMJTGE4TANZRGQ22M4TFMFZW63VKON2WE43DOJUWEZLEUVSXMZLOOSXGM33PORSXEX3BNZSHE33JMQ>.\r\n> Download it today!\r\n> You are receiving this because you are subscribed to this thread.Message\r\n> ID: ***@***.***>\r\n>\r\n",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -10410,9 +10312,23 @@
             "workaroundBurden": 0,
             "composite": 23.7
           }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 7,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 23.7
+          }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:45:17Z"
+      "lastActivityAt": "2026-10-12T22:26:12Z"
     },
     {
       "id": "template-for",
@@ -11495,6 +11411,68 @@
       "lastActivityAt": "2026-08-26T12:10:25Z"
     },
     {
+      "id": "initial-letter",
+      "slug": "initial-letter",
+      "title": "initial-letter",
+      "summary": "The initial-letter CSS property sets the number of lines the first letter of an element occupies. You can use the property to make a raised capital or drop cap.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 189,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/189"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/initial-letter/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:30Z"
+    },
+    {
       "id": "periodic-background-sync",
       "slug": "periodic-background-sync",
       "title": "Periodic background sync",
@@ -11615,26 +11593,12 @@
       },
       "trend": {
         "votes7d": 4,
-        "votes30d": 6,
+        "votes30d": 5,
         "score7d": 2.5,
-        "score30d": 4.1
+        "score30d": 3.3
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-08",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        },
         {
           "date": "2026-09-09",
           "votes": 8,
@@ -12054,9 +12018,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-11T11:39:37Z"
+      "lastActivityAt": "2026-10-12T13:36:35Z"
     },
     {
       "id": "font-metric-overrides",
@@ -12376,68 +12354,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:22Z"
-    },
-    {
-      "id": "initial-letter",
-      "slug": "initial-letter",
-      "title": "initial-letter",
-      "summary": "The initial-letter CSS property sets the number of lines the first letter of an element occupies. You can use the property to make a raised capital or drop cap.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 189,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/189"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/initial-letter/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:30Z"
     },
     {
       "id": "interactivity",
@@ -15420,26 +15336,12 @@
       },
       "trend": {
         "votes7d": 4,
-        "votes30d": 8,
+        "votes30d": 7,
         "score7d": 4.8,
-        "score30d": 17.7
+        "score30d": 12.1
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-08",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
         {
           "date": "2026-09-09",
           "votes": 0,
@@ -15859,9 +15761,23 @@
             "workaroundBurden": 0,
             "composite": 17.7
           }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
         }
       ],
-      "lastActivityAt": "2026-10-11T11:39:39Z"
+      "lastActivityAt": "2026-10-12T13:36:37Z"
     },
     {
       "id": "page-lifecycle",
@@ -26073,9 +25989,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-11T11:39:38Z"
+      "lastActivityAt": "2026-10-12T13:36:36Z"
     },
     {
       "id": "khr-parallel-shader-compile",

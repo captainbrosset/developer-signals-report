@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-14T09:37:30.805Z",
-    "staleAfter": "2026-10-16T09:37:30.805Z",
+    "generatedAt": "2026-10-15T09:15:26.429Z",
+    "staleAfter": "2026-10-17T09:15:26.429Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,20 +10,32 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-14T09:37:30.805Z"
+        "retrievedAt": "2026-10-15T09:15:26.429Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-14T09:37:30.805Z"
+        "retrievedAt": "2026-10-15T09:15:26.429Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-14T09:37:30.805Z"
+        "retrievedAt": "2026-10-15T09:15:26.429Z"
       }
     ],
-    "warnings": []
+    "warnings": [
+      "alternative-style-sheets: feed votes 8 differed from GitHub 9; GitHub value used.",
+      "customizable-select: feed votes 259 differed from GitHub 261; GitHub value used.",
+      "fedcm: feed votes 48 differed from GitHub 49; GitHub value used.",
+      "gap-decorations: feed votes 51 differed from GitHub 52; GitHub value used.",
+      "install: feed votes 18 differed from GitHub 19; GitHub value used.",
+      "iterator-includes: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "jpegxl: feed votes 519 differed from GitHub 520; GitHub value used.",
+      "link-parameters: feed votes 33 differed from GitHub 34; GitHub value used.",
+      "screen-capture: feed votes 7 differed from GitHub 8; GitHub value used.",
+      "speculation-rules: feed votes 33 differed from GitHub 35; GitHub value used.",
+      "temporal: feed votes 272 differed from GitHub 273; GitHub value used."
+    ]
   },
   "features": [
     {
@@ -48,7 +60,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 519,
+      "votes": 520,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.88,
       "workaroundBurdenRaw": 0,
@@ -62,11 +74,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 519 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 520 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
+        "votes7d": 2,
+        "votes30d": 2,
         "score7d": 0,
         "score30d": 0
       },
@@ -681,7 +693,7 @@
         },
         {
           "date": "2026-10-14",
-          "votes": 519,
+          "votes": 520,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.88,
           "workaroundBurdenRaw": 0,
@@ -716,27 +728,27 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 272,
+      "votes": 273,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 90.2,
+        "voteDemand": 90.3,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
-        "composite": 62.5
+        "composite": 62.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 272 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 273 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 5,
-        "votes30d": 45,
-        "score7d": 0.1,
-        "score30d": 4.3
+        "votes7d": 6,
+        "votes30d": 46,
+        "score7d": 0.2,
+        "score30d": 4.4
       },
       "comments": [
         {
@@ -1333,20 +1345,20 @@
         },
         {
           "date": "2026-10-14",
-          "votes": 272,
+          "votes": 273,
           "qualifiedAuthors": 3,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 1,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 90.2,
+            "voteDemand": 90.3,
             "useCaseEvidence": 39.6,
             "workaroundBurden": 23.5,
-            "composite": 62.5
+            "composite": 62.6
           }
         }
       ],
-      "lastActivityAt": "2026-10-14T07:56:03Z"
+      "lastActivityAt": "2026-10-14T10:40:56Z"
     },
     {
       "id": "attr",
@@ -1965,13 +1977,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 259,
+      "votes": 261,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 89.4,
+        "voteDemand": 89.6,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
         "composite": 51.7
@@ -1979,10 +1991,10 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 259 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 261 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 17,
+        "votes7d": 19,
         "votes30d": 0,
         "score7d": 7.5,
         "score30d": 0
@@ -2038,13 +2050,13 @@
         },
         {
           "date": "2026-09-30",
-          "votes": 259,
+          "votes": 261,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 89.4,
+            "voteDemand": 89.6,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
             "composite": 51.7
@@ -2753,6 +2765,154 @@
       "lastActivityAt": "2026-09-03T14:34:29Z"
     },
     {
+      "id": "speculation-rules",
+      "slug": "speculation-rules",
+      "title": "Speculation rules",
+      "summary": "Speculation rules are hints to the browser to proactively download pages in the background so they appear instantly when the user navigates to them.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 186,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/186"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/speculation-rules/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 35,
+      "qualifiedAuthors": 2,
+      "reactionBoost": 0.16,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 57.6,
+        "useCaseEvidence": 32.9,
+        "workaroundBurden": 0,
+        "composite": 40.3
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.42,
+        "rationale": "2 distinct qualified authors; 35 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 3,
+        "score7d": 4.8,
+        "score30d": 4.8
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7661Gk",
+          "author": "akgit18",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/186#issuecomment-4209725860",
+          "createdAt": "2026-04-08T21:18:18Z",
+          "body": "## What I want to do with this feature\n\nMy company has a web app in which users can create, edit, and save documents. The app's landing page is the documents list, from which users can open their documents in a proprietary editor in a new tab.\n\nThe editor has many features, so it loads and evaluates several megabytes of assets. Even with request & bytecode caching, loading and evaluating assets is pretty slow. \n\nWith the Speculation Rules API (specifically prerendering), I can start asset load and evaluation before a user opens their document, and then use the Broadcast Channel API to tell the prerendered page what document to open.\n\n## What I'm having to do in the meantime\n\nWe have tried to implement an SPA transition in which the documents list switches into the selected document (and the back button can switch back to the documents list). However, many users did not like losing their documents list tab.\n\nSo instead, we just have to let the users of non-Chromium browsers endure slower document loads.",
+          "parsedGoal": "My company has a web app in which users can create, edit, and save documents. The app's landing page is the documents list, from which users can open their documents in a proprietary editor in a new tab. The editor has many features, so it loads and evaluates several megabytes of assets. Even with request & bytecode caching, loading and evaluating assets is pretty slow. With the Speculation Rules API (specifically prerendering), I can start asset load and evaluation before a user opens their document, and then use the Broadcast Channel API to tell the prerendered page what document to open.",
+          "parsedWorkaround": "We have tried to implement an SPA transition in which the documents list switches into the selected document (and the back button can switch back to the documents list). However, many users did not like losing their documents list tab. So instead, we just have to let the users of non-Chromium browsers endure slower document loads.",
+          "positiveReactions": 2,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "My company has a web app in which users can create, edit, and save documents. The app's landing page is the documents list, from which users can open their documents in a propriet…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABPc-IIQ",
+          "author": "Maferep",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/186#issuecomment-5331978273",
+          "createdAt": "2026-08-18T17:50:06Z",
+          "body": "## What I want to do with this feature\n\nIntelligently prefetch pages using my existing, simple Rails-based stack without cumbersome SPA/ frontend framework dependencies. Unlike the existing prefetch it would be nice to not have to be careful around cache settings in order for this to work.\n\n## What I'm having to do in the meantime\n\nTraditional prefetch or javascript framework solutions.",
+          "parsedGoal": "Intelligently prefetch pages using my existing, simple Rails-based stack without cumbersome SPA/ frontend framework dependencies. Unlike the existing prefetch it would be nice to not have to be careful around cache settings in order for this to work.",
+          "parsedWorkaround": "Traditional prefetch or javascript framework solutions.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABSgHrRw",
+          "author": "TejasviReddyK",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/186#issuecomment-5536607047",
+          "createdAt": "2026-09-04T06:26:07Z",
+          "body": "## What I want to do with this feature\n\nImprove performance for my web apps without resorting to SPA frameworks. Service Workers and Cache API have come a long way towards making MPA apps comparable to SPAs. Speculation rules will close the gap further while providing an ergonomical API.\n\n## What I'm having to do in the meantime\n\nI am currently using [instant.page](https://instant.page/). Also evaluating [quicklink](https://getquick.link/). Anything to avoid build tool complexity and the inefficiencies of SPAs. A native solution would be great.",
+          "parsedGoal": "Improve performance for my web apps without resorting to SPA frameworks. Service Workers and Cache API have come a long way towards making MPA apps comparable to SPAs. Speculation rules will close the gap further while providing an ergonomical API.",
+          "parsedWorkaround": "I am currently using instant.page. Also evaluating quicklink. Anything to avoid build tool complexity and the inefficiencies of SPAs. A native solution would be great.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "performance"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABb7iu_w",
+          "author": "Waleed-abdullah",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/186#issuecomment-6169341695",
+          "createdAt": "2026-10-14T13:21:11Z",
+          "body": "## What I want to do with this feature\n\nMy company's website Imagine.art is made up of several independently deployed Next.js apps served from one origin using Next.js Multi-Zones: a host app rewrites routes for each zone. Inside a zone/Next.js app, `<Link>` prefetches the next page's RSC payload, so navigation is instant. Between zones that isn't possible. Every switch is a full document navigation that goes through the host proxy, the target zone's middleware and a server render.\n\nWe use the Speculation Rules API to close that gap:\n\n- **Document rules with `href_matches`** prefetch each zone's root page as soon as a page links to it (`immediate`), and deeper zone pages on hover (`moderate`).\n- **Dynamically inserted list rules** cover platform switchers that navigate with `window.location.assign`, where there's no `<a>` to match.\n- **`Sec-Purpose: prefetch`** lets our middleware refuse prefetches that would refresh a session or rotate a single-use refresh token, so prefetching has no side effects on an authenticated app.\n\nIn Chromium the difference is dramatic. In our dev environment, a cross-zone navigation served from the prefetch gets its first byte in a few milliseconds and reaches DOMContentLoaded in about 60 ms, versus 2–4 s for the same navigation without it.\n\n\n## What I'm having to do in the meantime\n\nSafari and Firefox users get the full, unprefetched navigation. The alternatives we evaluated don't fit:\n\n- **`<link rel=\"prefetch\">`**: our zone pages are personalized and dynamically rendered, so Next.js sends `Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate`. The prefetched document can't be stored in the HTTP cache and is discarded. Safari also doesn't support `rel=\"prefetch\"` by default.\n- **A service worker**: a worker scoped to `/` would sit in front of every request for all zones, which different teams own and deploy independently. Caching personalized HTML in it also means building our own invalidation for logout and account switches. That's a lot of risk to recreate what the browser's prefetch cache already does safely.\n\nThe Speculation Rules API fits this use case in the best way",
+          "parsedGoal": "My company's website Imagine.art is made up of several independently deployed Next.js apps served from one origin using Next.js Multi-Zones: a host app rewrites routes for each zone. Inside a zone/Next.js app, <Link> prefetches the next page's RSC payload, so navigation is instant. Between zones that isn't possible. Every switch is a full document navigation that goes through the host proxy, the target zone's middleware and a server render. We use the Speculation Rules API to close that gap: - Document rules with hrefmatches prefetch each zone's root page as soon as a page links to it (immediate), and deeper zone pages on hover (moderate). - Dynamically inserted list rules cover platform switchers that navigate with window.location.assign, where there's no <a> to match. - Sec-Purpose: prefetch lets our middleware refuse prefetches that would refresh a session or rotate a single-use refresh token, so prefetching has no side effects on an authenticated app. In Chromium the difference is dramatic. In our dev environment, a cross-zone navigation served from the prefetch gets its first byte in a few milliseconds and reaches DOMContentLoaded in about 60 ms, versus 2–4 s for the same navigation without it.",
+          "parsedWorkaround": "Safari and Firefox users get the full, unprefetched navigation. The alternatives we evaluated don't fit: - <link rel=\"prefetch\">: our zone pages are personalized and dynamically rendered, so Next.js sends Cache-Control: private, no-cache, no-store, max-age=0, must-revalidate. The prefetched document can't be stored in the HTTP cache and is discarded. Safari also doesn't support rel=\"prefetch\" by default. - A service worker: a worker scoped to / would sit in front of every request for all zones, which different teams own and deploy independently. Caching personalized HTML in it also means building our own invalidation for logout and account switches. That's a lot of risk to recreate what the browser's prefetch cache already does safely. The Speculation Rules API fits this use case in the best way",
+          "positiveReactions": 2,
+          "classification": "qualified",
+          "themes": [
+            "performance",
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "My company's website Imagine.art is made up of several independently deployed Next.js apps served from one origin using Next.js Multi-Zones: a host app rewrites routes for each zo…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-04",
+          "votes": 32,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.2,
+            "useCaseEvidence": 20.9,
+            "workaroundBurden": 0,
+            "composite": 35.5
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "votes": 35,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0.16,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 57.6,
+            "useCaseEvidence": 32.9,
+            "workaroundBurden": 0,
+            "composite": 40.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-14T13:26:33Z"
+    },
+    {
       "id": "calc-size",
       "slug": "calc-size",
       "title": "calc-size()",
@@ -3448,6 +3608,135 @@
       "lastActivityAt": "2026-09-08T16:07:56Z"
     },
     {
+      "id": "custom-media-queries",
+      "slug": "custom-media-queries",
+      "title": "Custom media queries",
+      "summary": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 445,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/445"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/custom-media-queries/",
+      "categories": [
+        "Media queries"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 39,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.08,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 59.3,
+        "useCaseEvidence": 20.9,
+        "workaroundBurden": 0,
+        "composite": 37
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.35,
+        "rationale": "1 distinct qualified author; 39 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 8,
+        "votes30d": 0,
+        "score7d": 9.1,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFrw1og",
+          "author": "jklue",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546",
+          "createdAt": "2026-06-11T01:40:15Z",
+          "body": "## What I want to do with this feature\n\nWrite simpler media queries saving time, bandwidth, energy, and complexity.\n\n## What I'm having to do in the meantime\n\nWrite out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
+          "parsedGoal": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
+          "parsedWorkaround": "Write out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
+          "positiveReactions": 3,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABLYWBKg",
+          "author": "TheJaredWilcurt",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5058691370",
+          "createdAt": "2026-07-23T13:02:30Z",
+          "body": "In Firefox 148+ you can enable support for this feature to start testing it out.\n\n* Go to `about:config`\n* Search for `layout.css.custom-media.enabled`\n* Set to `true`\n\nSuch a great feature, excited for wide adoption.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUtG6Aw",
+          "author": "ramiy",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5684443651",
+          "createdAt": "2026-09-15T16:57:04Z",
+          "body": "**[Open Props](https://open-props.style/)** v1.6.0 (by Adam Argyle) [implemented this feature](https://github.com/argyleink/open-props/blob/main/src/props.media.css) in September 2023, supporting custom-media over 3 years.\n\nAt Elementor, we [implemented this feature](https://github.com/elementor/hello-theme/pull/659) (May 2026) on our \"Hello Theme\" which is used by **over 3 million websites**. Currently, we only expose all the available `@custom-media`, not using them in `@media` as this feature is not yet supported by browsers.\n\nI'm hoping browsers will adopt this feature soon. This will help us control all the breakpoint using a few simple variables.",
+          "positiveReactions": 2,
+          "classification": "qualified",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "Open Props v1.6.0 (by Adam Argyle) implemented this feature in September 2023, supporting custom-media over 3 years. At Elementor, we implemented this feature (May 2026) on our \"H…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 39,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 59.3,
+            "useCaseEvidence": 20.9,
+            "workaroundBurden": 0,
+            "composite": 37
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T16:57:05Z"
+    },
+    {
       "id": "popover-hint",
       "slug": "popover-hint",
       "title": "popover=\"hint\"",
@@ -3507,135 +3796,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:58Z"
-    },
-    {
-      "id": "custom-media-queries",
-      "slug": "custom-media-queries",
-      "title": "Custom media queries",
-      "summary": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 445,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/445"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/custom-media-queries/",
-      "categories": [
-        "Media queries"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 39,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 59.3,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 0,
-        "composite": 36.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.35,
-        "rationale": "1 distinct qualified author; 39 issue votes; 33% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 8,
-        "votes30d": 0,
-        "score7d": 8.9,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFrw1og",
-          "author": "jklue",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546",
-          "createdAt": "2026-06-11T01:40:15Z",
-          "body": "## What I want to do with this feature\n\nWrite simpler media queries saving time, bandwidth, energy, and complexity.\n\n## What I'm having to do in the meantime\n\nWrite out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
-          "parsedGoal": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
-          "parsedWorkaround": "Write out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
-          "positiveReactions": 3,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABLYWBKg",
-          "author": "TheJaredWilcurt",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5058691370",
-          "createdAt": "2026-07-23T13:02:30Z",
-          "body": "In Firefox 148+ you can enable support for this feature to start testing it out.\n\n* Go to `about:config`\n* Search for `layout.css.custom-media.enabled`\n* Set to `true`\n\nSuch a great feature, excited for wide adoption.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABUtG6Aw",
-          "author": "ramiy",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5684443651",
-          "createdAt": "2026-09-15T16:57:04Z",
-          "body": "**[Open Props](https://open-props.style/)** v1.6.0 (by Adam Argyle) [implemented this feature](https://github.com/argyleink/open-props/blob/main/src/props.media.css) in September 2023, supporting custom-media over 3 years.\n\nAt Elementor, we [implemented this feature](https://github.com/elementor/hello-theme/pull/659) (May 2026) on our \"Hello Theme\" which is used by **over 3 million websites**. Currently, we only expose all the available `@custom-media`, not using them in `@media` as this feature is not yet supported by browsers.\n\nI'm hoping browsers will adopt this feature soon. This will help us control all the breakpoint using a few simple variables.",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "Open Props v1.6.0 (by Adam Argyle) implemented this feature in September 2023, supporting custom-media over 3 years. At Elementor, we implemented this feature (May 2026) on our \"H…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        },
-        {
-          "date": "2026-09-15",
-          "votes": 39,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 59.3,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 36.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T16:57:05Z"
     },
     {
       "id": "border-shape",
@@ -3899,121 +4059,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:07Z"
-    },
-    {
-      "id": "speculation-rules",
-      "slug": "speculation-rules",
-      "title": "Speculation rules",
-      "summary": "Speculation rules are hints to the browser to proactively download pages in the background so they appear instantly when the user navigates to them.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 186,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/186"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/speculation-rules/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 32,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.08,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 56.2,
-        "useCaseEvidence": 20.9,
-        "workaroundBurden": 0,
-        "composite": 35.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.34,
-        "rationale": "1 distinct qualified author; 32 issue votes; 33% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7661Gk",
-          "author": "akgit18",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/186#issuecomment-4209725860",
-          "createdAt": "2026-04-08T21:18:18Z",
-          "body": "## What I want to do with this feature\n\nMy company has a web app in which users can create, edit, and save documents. The app's landing page is the documents list, from which users can open their documents in a proprietary editor in a new tab.\n\nThe editor has many features, so it loads and evaluates several megabytes of assets. Even with request & bytecode caching, loading and evaluating assets is pretty slow. \n\nWith the Speculation Rules API (specifically prerendering), I can start asset load and evaluation before a user opens their document, and then use the Broadcast Channel API to tell the prerendered page what document to open.\n\n## What I'm having to do in the meantime\n\nWe have tried to implement an SPA transition in which the documents list switches into the selected document (and the back button can switch back to the documents list). However, many users did not like losing their documents list tab.\n\nSo instead, we just have to let the users of non-Chromium browsers endure slower document loads.",
-          "parsedGoal": "My company has a web app in which users can create, edit, and save documents. The app's landing page is the documents list, from which users can open their documents in a proprietary editor in a new tab. The editor has many features, so it loads and evaluates several megabytes of assets. Even with request & bytecode caching, loading and evaluating assets is pretty slow. With the Speculation Rules API (specifically prerendering), I can start asset load and evaluation before a user opens their document, and then use the Broadcast Channel API to tell the prerendered page what document to open.",
-          "parsedWorkaround": "We have tried to implement an SPA transition in which the documents list switches into the selected document (and the back button can switch back to the documents list). However, many users did not like losing their documents list tab. So instead, we just have to let the users of non-Chromium browsers endure slower document loads.",
-          "positiveReactions": 2,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "My company has a web app in which users can create, edit, and save documents. The app's landing page is the documents list, from which users can open their documents in a propriet…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABPc-IIQ",
-          "author": "Maferep",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/186#issuecomment-5331978273",
-          "createdAt": "2026-08-18T17:50:06Z",
-          "body": "## What I want to do with this feature\n\nIntelligently prefetch pages using my existing, simple Rails-based stack without cumbersome SPA/ frontend framework dependencies. Unlike the existing prefetch it would be nice to not have to be careful around cache settings in order for this to work.\n\n## What I'm having to do in the meantime\n\nTraditional prefetch or javascript framework solutions.",
-          "parsedGoal": "Intelligently prefetch pages using my existing, simple Rails-based stack without cumbersome SPA/ frontend framework dependencies. Unlike the existing prefetch it would be nice to not have to be careful around cache settings in order for this to work.",
-          "parsedWorkaround": "Traditional prefetch or javascript framework solutions.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABSgHrRw",
-          "author": "TejasviReddyK",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/186#issuecomment-5536607047",
-          "createdAt": "2026-09-04T06:26:07Z",
-          "body": "## What I want to do with this feature\n\nImprove performance for my web apps without resorting to SPA frameworks. Service Workers and Cache API have come a long way towards making MPA apps comparable to SPAs. Speculation rules will close the gap further while providing an ergonomical API.\n\n## What I'm having to do in the meantime\n\nI am currently using [instant.page](https://instant.page/). Also evaluating [quicklink](https://getquick.link/). Anything to avoid build tool complexity and the inefficiencies of SPAs. A native solution would be great.",
-          "parsedGoal": "Improve performance for my web apps without resorting to SPA frameworks. Service Workers and Cache API have come a long way towards making MPA apps comparable to SPAs. Speculation rules will close the gap further while providing an ergonomical API.",
-          "parsedWorkaround": "I am currently using instant.page. Also evaluating quicklink. Anything to avoid build tool complexity and the inefficiencies of SPAs. A native solution would be great.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "performance"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-04",
-          "votes": 32,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.08,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 56.2,
-            "useCaseEvidence": 20.9,
-            "workaroundBurden": 0,
-            "composite": 35.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-04T06:26:07Z"
     },
     {
       "id": "scroll-driven-animations",
@@ -4693,6 +4738,70 @@
       "lastActivityAt": "2026-09-03T14:36:28Z"
     },
     {
+      "id": "gap-decorations",
+      "slug": "gap-decorations",
+      "title": "Gap decorations",
+      "summary": "The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 362,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/362"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gap-decorations/",
+      "categories": [
+        "Grid",
+        "Flexbox",
+        "Multi-column"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 52,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 63.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 31.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.26,
+        "rationale": "0 distinct qualified authors; 52 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 52,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 63.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:49Z"
+    },
+    {
       "id": "edit-context",
       "slug": "edit-context",
       "title": "EditContext",
@@ -4805,70 +4914,6 @@
       "lastActivityAt": "2026-09-25T19:25:38Z"
     },
     {
-      "id": "gap-decorations",
-      "slug": "gap-decorations",
-      "title": "Gap decorations",
-      "summary": "The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 362,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/362"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gap-decorations/",
-      "categories": [
-        "Grid",
-        "Flexbox",
-        "Multi-column"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 51,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 63.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 31.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.26,
-        "rationale": "0 distinct qualified authors; 51 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 51,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 63.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 31.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:49Z"
-    },
-    {
       "id": "interest-invokers",
       "slug": "interest-invokers",
       "title": "Interest invokers",
@@ -4947,6 +4992,68 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:33Z"
+    },
+    {
+      "id": "fedcm",
+      "slug": "fedcm",
+      "title": "Federated credential management",
+      "summary": "The IdentityCredential API delegates authentication to a third-party identity provider, instead of using third-party cookies. Also known as FedCM.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 208,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/208"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/fedcm/",
+      "categories": [
+        "Credential management"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 49,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 62.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 31.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.25,
+        "rationale": "0 distinct qualified authors; 49 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 49,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 62.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:39Z"
     },
     {
       "id": "loading-lazy-media",
@@ -5055,68 +5162,6 @@
         }
       ],
       "lastActivityAt": "2026-10-03T08:54:25Z"
-    },
-    {
-      "id": "fedcm",
-      "slug": "fedcm",
-      "title": "Federated credential management",
-      "summary": "The IdentityCredential API delegates authentication to a third-party identity provider, instead of using third-party cookies. Also known as FedCM.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 208,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/208"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/fedcm/",
-      "categories": [
-        "Credential management"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 48,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 62.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 31.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.25,
-        "rationale": "0 distinct qualified authors; 48 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 48,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 62.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 31.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:39Z"
     },
     {
       "id": "margin-trim",
@@ -6040,6 +6085,163 @@
       "lastActivityAt": "2026-08-26T12:09:34Z"
     },
     {
+      "id": "screen-capture",
+      "slug": "screen-capture",
+      "title": "Screen capture",
+      "summary": "The navigator.mediaDevices.getDisplayMedia() method asks the user to choose a screen or portion of a screen (such as a window) to capture as a media stream.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 47,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/47"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/screen-capture/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 8,
+      "qualifiedAuthors": 2,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0.25,
+      "workaroundAuthors": 1,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 31.4,
+        "workaroundBurden": 7.6,
+        "composite": 29.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.33,
+        "rationale": "2 distinct qualified authors; 8 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 6.1,
+        "score30d": 6.1
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABG1EUwg",
+          "author": "Valtora",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-4753265858",
+          "createdAt": "2026-06-19T16:25:54Z",
+          "body": "## What I want to do with this feature\n\nI want Firefox to natively support shared tab/window/system audio capture through `getDisplayMedia()` so a web app can record meeting audio together with microphone input without requiring Chrome.\n\nMy use case is browser-based meeting capture and transcription. In my app, the browser records:\n- the meeting audio from a shared tab/window/screen\n- the local microphone input\n\nThat lets users capture both sides of a meeting directly from a web app, without installing a native helper or joining meetings with a bot.\n\nThis is important because I want to use Firefox as my primary browser and still have access to the same browser-native capture workflow that currently only works reliably in Chromium-based browsers.\n\n## What I'm having to do in the meantime\n\nRight now I have to tell users to switch to Chrome or another Chromium-based browser if they want this workflow.\n\nThat is worse because:\n- it forces users to change browsers for one feature\n- it makes Firefox a non-viable primary browser for this use case\n- it creates extra support and documentation overhead for browser-specific limitations\n- it undermines the goal of using standard web APIs for browser-native media capture\n\nThe alternatives are also poor:\n- microphone-only capture is not enough because it misses the remote participants unless audio is played out loud into the mic\n- building a native companion app or browser-specific workaround adds complexity and defeats the point of having a web-platform API for this\n- requiring Chrome creates an unnecessary ecosystem dependency when this should be possible through the web platform in Firefox directly",
+          "parsedGoal": "I want Firefox to natively support shared tab/window/system audio capture through getDisplayMedia() so a web app can record meeting audio together with microphone input without requiring Chrome. My use case is browser-based meeting capture and transcription. In my app, the browser records: - the meeting audio from a shared tab/window/screen - the local microphone input That lets users capture both sides of a meeting directly from a web app, without installing a native helper or joining meetings with a bot. This is important because I want to use Firefox as my primary browser and still have access to the same browser-native capture workflow that currently only works reliably in Chromium-based browsers.",
+          "parsedWorkaround": "Right now I have to tell users to switch to Chrome or another Chromium-based browser if they want this workflow. That is worse because: - it forces users to change browsers for one feature - it makes Firefox a non-viable primary browser for this use case - it creates extra support and documentation overhead for browser-specific limitations - it undermines the goal of using standard web APIs for browser-native media capture The alternatives are also poor: - microphone-only capture is not enough because it misses the remote participants unless audio is played out loud into the mic - building a native companion app or browser-specific workaround adds complexity and defeats the point of having a web-platform API for this - requiring Chrome creates an unnecessary ecosystem dependency when this should be possible through the web platform in Firefox directly",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "media",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I want Firefox to natively support shared tab/window/system audio capture through getDisplayMedia() so a web app can record meeting audio together with microphone input without re…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbX16SQ",
+          "author": "ianwill93",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6131907145",
+          "createdAt": "2026-10-12T20:17:52Z",
+          "body": "## What I want to do with this feature\n\nOn Android XR devices, inside of our webxr call application, there is no way to capture a portion of your screen to share with users. This is particularly an issue on Galaxy XR (Android XR). \n\nIt would be great if the user demonstrating something in the session were able to just share an open window (or their entire view) using the browser alone.\n\n## What I'm having to do in the meantime\n\nThis largely a complete blocker. If the user has a pc, they can log into the platform with a pc and share using the display attached to that device, but that means having two devices running just to temporarily share a screen. ",
+          "parsedGoal": "On Android XR devices, inside of our webxr call application, there is no way to capture a portion of your screen to share with users. This is particularly an issue on Galaxy XR (Android XR). It would be great if the user demonstrating something in the session were able to just share an open window (or their entire view) using the browser alone.",
+          "parsedWorkaround": "This largely a complete blocker. If the user has a pc, they can log into the platform with a pc and share using the display attached to that device, but that means having two devices running just to temporarily share a screen.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbZV53Q",
+          "author": "hhkcvvbb-spec",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6133479901",
+          "createdAt": "2026-10-12T22:06:12Z",
+          "body": "What is this and what are you doing?\r\n\r\n\r\nفي ‫اثنين، 12 أكتوبر، 2026 في 5:10 م‬‏، كتب ‪ianwill93 <\r\n***@***.***>‬‏:\r\n\r\n> *ianwill93* left a comment (web-platform-dx/developer-signals#47)\r\n> <https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6131907145>\r\n> What I want to do with this feature\r\n>\r\n> On Android XR devices, inside of our webxr call application, there is no\r\n> way to capture a portion of your screen to share with users. This is\r\n> particularly an issue on Galaxy XR (Android XR).\r\n>\r\n> It would be great if the user demonstrating something in the session were\r\n> able to just share an open window (or their entire view) using the browser\r\n> alone.\r\n> What I'm having to do in the meantime\r\n>\r\n> This largely a complete blocker. If the user has a pc, they can log into\r\n> the platform with a pc and share using the display attached to that device,\r\n> but that means having two devices running just to temporarily share a\r\n> screen.\r\n>\r\n> —\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/web-platform-dx/developer-signals/issues/47?email_source=notifications&email_token=CRHFSMKJBUNA35PH4U7ZMR35TU4AXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTMMJTGE4TANZRGQ22M4TFMFZW63VKON2WE43DOJUWEZLEUVSXMZLOOSWGM33PORSXEX3DNRUWG2Y#issuecomment-6131907145>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/CRHFSMP2RAFK3RTIU6MGEMD5TU4AXAVCNFSNUABFKJSXA33TNF2G64TZHM3TMNZVGE3TOOBUHNEXG43VMU5TGMRTGE3DONZQGU22C5QC>\r\n> .\r\n> Triage notifications, keep track of coding agent tasks and review pull\r\n> requests on the go with GitHub Mobile for iOS\r\n> <https://github.com/notifications/mobile/ios/CRHFSMPQ6DLUAJAUMCKI6CL5TU4AXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTMMJTGE4TANZRGQ22M4TFMFZW63VKON2WE43DOJUWEZLEUVSXMZLOOSVGM33PORSXEX3JN5ZQ>\r\n> and Android\r\n> <https://github.com/notifications/mobile/android/CRHFSMPU73SAGKG6EDTNLKT5TU4AXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTMMJTGE4TANZRGQ22M4TFMFZW63VKON2WE43DOJUWEZLEUVSXMZLOOSXGM33PORSXEX3BNZSHE33JMQ>.\r\n> Download it today!\r\n> You are receiving this because you are subscribed to this thread.Message\r\n> ID: ***@***.***>\r\n>\r\n",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABcC1jwA",
+          "author": "gsavchenko",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6176990144",
+          "createdAt": "2026-10-14T19:50:48Z",
+          "body": "## What I want to do with this feature\n\nUsers of our web app want to export a data table as a presentation-ready image they can drop into a slide or an email. Basically a screenshot of the table.\n\n`getDisplayMedia()` is the one browser-native route I can see. You grab a frame from the stream, draw it to a canvas and save it. The browser captures the real rendered page, so fonts, badges and colours come out as users see them. As far as I can tell, `preferCurrentTab` (the option that offers \"This Tab\" up front) is only in Chromium browsers right now, so I'd like to see it work in Firefox and Safari too.\n\n## What I'm having to do in the meantime\n\nDOM-to-image libraries like html2canvas are the usual fallback. Its README says it\n\n> does not make an actual screenshot, but builds the screenshot based on the information available on the page\n\nand its docs list CSS it doesn't support (box-shadow, filter, object-fit and more). Fonts, badges, sticky columns and tables wider than the viewport are the places I'd expect it to drift from what's on screen. It's also an extra dependency for a single menu item.\n\nRendering server-side with a headless browser is the other option, but that's a lot of infrastructure to photograph something the user is already looking at.\n\nScreen capture would be simpler than either, but the user has to go through the share picker and grant permission every time, it only captures what's visible, and it's Chromium only for now. A cross-browser way to capture the current page, or one element of it, without the picker would make this much easier.",
+          "parsedGoal": "Users of our web app want to export a data table as a presentation-ready image they can drop into a slide or an email. Basically a screenshot of the table. getDisplayMedia() is the one browser-native route I can see. You grab a frame from the stream, draw it to a canvas and save it. The browser captures the real rendered page, so fonts, badges and colours come out as users see them. As far as I can tell, preferCurrentTab (the option that offers \"This Tab\" up front) is only in Chromium browsers right now, so I'd like to see it work in Firefox and Safari too.",
+          "parsedWorkaround": "DOM-to-image libraries like html2canvas are the usual fallback. Its README says it does not make an actual screenshot, but builds the screenshot based on the information available on the page and its docs list CSS it doesn't support (box-shadow, filter, object-fit and more). Fonts, badges, sticky columns and tables wider than the viewport are the places I'd expect it to drift from what's on screen. It's also an extra dependency for a single menu item. Rendering server-side with a headless browser is the other option, but that's a lot of infrastructure to photograph something the user is already looking at. Screen capture would be simpler than either, but the user has to go through the share picker and grant permission every time, it only captures what's visible, and it's Chromium only for now. A cross-browser way to capture the current page, or one element of it, without the picker would make this much easier.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "light",
+          "generatedSummary": "Users of our web app want to export a data table as a presentation-ready image they can drop into a slide or an email. Basically a screenshot of the table. getDisplayMedia() is th…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 7,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 23.7
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 7,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 23.7
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "votes": 8,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0.25,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 31.4,
+            "workaroundBurden": 7.6,
+            "composite": 29.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-14T19:50:48Z"
+    },
+    {
       "id": "sizes-auto",
       "slug": "sizes-auto",
       "title": "<img sizes=\"auto\" loading=\"lazy\">",
@@ -6770,26 +6972,26 @@
       ],
       "supportState": "unknown",
       "missingBrowsers": [],
-      "votes": 33,
+      "votes": 34,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 56.7,
+        "voteDemand": 57.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 28.4
+        "composite": 28.6
       },
       "confidence": {
         "level": "low",
         "score": 0.23,
-        "rationale": "0 distinct qualified authors; 33 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 34 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 17,
+        "votes7d": 18,
         "votes30d": 0,
-        "score7d": 5.6,
+        "score7d": 5.8,
         "score30d": 0
       },
       "comments": [
@@ -6876,16 +7078,16 @@
         },
         {
           "date": "2026-10-06",
-          "votes": 33,
+          "votes": 34,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 56.7,
+            "voteDemand": 57.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 28.4
+            "composite": 28.6
           }
         }
       ],
@@ -9045,7 +9247,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-10-14T07:56:02Z"
+      "lastActivityAt": "2026-10-14T10:40:55Z"
     },
     {
       "id": "manifest",
@@ -9695,6 +9897,84 @@
       "lastActivityAt": "2026-09-03T14:35:11Z"
     },
     {
+      "id": "install",
+      "slug": "install",
+      "title": "<install>",
+      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 522,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 19,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 48.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 9,
+        "votes30d": 0,
+        "score7d": 4.8,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 19,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 48.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:18:14Z"
+    },
+    {
       "id": "justify-self-block",
       "slug": "justify-self-block",
       "title": "justify-self in block layouts",
@@ -10133,209 +10413,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:45Z"
-    },
-    {
-      "id": "install",
-      "slug": "install",
-      "title": "<install>",
-      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 522,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 18,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 47.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 23.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 8,
-        "votes30d": 0,
-        "score7d": 4.4,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 18,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 47.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 23.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:18:14Z"
-    },
-    {
-      "id": "screen-capture",
-      "slug": "screen-capture",
-      "title": "Screen capture",
-      "summary": "The navigator.mediaDevices.getDisplayMedia() method asks the user to choose a screen or portion of a screen (such as a window) to capture as a media stream.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 47,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/47"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/screen-capture/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 7,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 0,
-        "composite": 23.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.24,
-        "rationale": "1 distinct qualified author; 7 issue votes; 33% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABG1EUwg",
-          "author": "Valtora",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-4753265858",
-          "createdAt": "2026-06-19T16:25:54Z",
-          "body": "## What I want to do with this feature\n\nI want Firefox to natively support shared tab/window/system audio capture through `getDisplayMedia()` so a web app can record meeting audio together with microphone input without requiring Chrome.\n\nMy use case is browser-based meeting capture and transcription. In my app, the browser records:\n- the meeting audio from a shared tab/window/screen\n- the local microphone input\n\nThat lets users capture both sides of a meeting directly from a web app, without installing a native helper or joining meetings with a bot.\n\nThis is important because I want to use Firefox as my primary browser and still have access to the same browser-native capture workflow that currently only works reliably in Chromium-based browsers.\n\n## What I'm having to do in the meantime\n\nRight now I have to tell users to switch to Chrome or another Chromium-based browser if they want this workflow.\n\nThat is worse because:\n- it forces users to change browsers for one feature\n- it makes Firefox a non-viable primary browser for this use case\n- it creates extra support and documentation overhead for browser-specific limitations\n- it undermines the goal of using standard web APIs for browser-native media capture\n\nThe alternatives are also poor:\n- microphone-only capture is not enough because it misses the remote participants unless audio is played out loud into the mic\n- building a native companion app or browser-specific workaround adds complexity and defeats the point of having a web-platform API for this\n- requiring Chrome creates an unnecessary ecosystem dependency when this should be possible through the web platform in Firefox directly",
-          "parsedGoal": "I want Firefox to natively support shared tab/window/system audio capture through getDisplayMedia() so a web app can record meeting audio together with microphone input without requiring Chrome. My use case is browser-based meeting capture and transcription. In my app, the browser records: - the meeting audio from a shared tab/window/screen - the local microphone input That lets users capture both sides of a meeting directly from a web app, without installing a native helper or joining meetings with a bot. This is important because I want to use Firefox as my primary browser and still have access to the same browser-native capture workflow that currently only works reliably in Chromium-based browsers.",
-          "parsedWorkaround": "Right now I have to tell users to switch to Chrome or another Chromium-based browser if they want this workflow. That is worse because: - it forces users to change browsers for one feature - it makes Firefox a non-viable primary browser for this use case - it creates extra support and documentation overhead for browser-specific limitations - it undermines the goal of using standard web APIs for browser-native media capture The alternatives are also poor: - microphone-only capture is not enough because it misses the remote participants unless audio is played out loud into the mic - building a native companion app or browser-specific workaround adds complexity and defeats the point of having a web-platform API for this - requiring Chrome creates an unnecessary ecosystem dependency when this should be possible through the web platform in Firefox directly",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "media",
-            "installed apps"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I want Firefox to natively support shared tab/window/system audio capture through getDisplayMedia() so a web app can record meeting audio together with microphone input without re…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABbX16SQ",
-          "author": "ianwill93",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6131907145",
-          "createdAt": "2026-10-12T20:17:52Z",
-          "body": "## What I want to do with this feature\n\nOn Android XR devices, inside of our webxr call application, there is no way to capture a portion of your screen to share with users. This is particularly an issue on Galaxy XR (Android XR). \n\nIt would be great if the user demonstrating something in the session were able to just share an open window (or their entire view) using the browser alone.\n\n## What I'm having to do in the meantime\n\nThis largely a complete blocker. If the user has a pc, they can log into the platform with a pc and share using the display attached to that device, but that means having two devices running just to temporarily share a screen. ",
-          "parsedGoal": "On Android XR devices, inside of our webxr call application, there is no way to capture a portion of your screen to share with users. This is particularly an issue on Galaxy XR (Android XR). It would be great if the user demonstrating something in the session were able to just share an open window (or their entire view) using the browser alone.",
-          "parsedWorkaround": "This largely a complete blocker. If the user has a pc, they can log into the platform with a pc and share using the display attached to that device, but that means having two devices running just to temporarily share a screen.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABbZV53Q",
-          "author": "hhkcvvbb-spec",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6133479901",
-          "createdAt": "2026-10-12T22:06:12Z",
-          "body": "What is this and what are you doing?\r\n\r\n\r\nفي ‫اثنين، 12 أكتوبر، 2026 في 5:10 م‬‏، كتب ‪ianwill93 <\r\n***@***.***>‬‏:\r\n\r\n> *ianwill93* left a comment (web-platform-dx/developer-signals#47)\r\n> <https://github.com/web-platform-dx/developer-signals/issues/47#issuecomment-6131907145>\r\n> What I want to do with this feature\r\n>\r\n> On Android XR devices, inside of our webxr call application, there is no\r\n> way to capture a portion of your screen to share with users. This is\r\n> particularly an issue on Galaxy XR (Android XR).\r\n>\r\n> It would be great if the user demonstrating something in the session were\r\n> able to just share an open window (or their entire view) using the browser\r\n> alone.\r\n> What I'm having to do in the meantime\r\n>\r\n> This largely a complete blocker. If the user has a pc, they can log into\r\n> the platform with a pc and share using the display attached to that device,\r\n> but that means having two devices running just to temporarily share a\r\n> screen.\r\n>\r\n> —\r\n> Reply to this email directly, view it on GitHub\r\n> <https://github.com/web-platform-dx/developer-signals/issues/47?email_source=notifications&email_token=CRHFSMKJBUNA35PH4U7ZMR35TU4AXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTMMJTGE4TANZRGQ22M4TFMFZW63VKON2WE43DOJUWEZLEUVSXMZLOOSWGM33PORSXEX3DNRUWG2Y#issuecomment-6131907145>,\r\n> or unsubscribe\r\n> <https://github.com/notifications/unsubscribe-auth/CRHFSMP2RAFK3RTIU6MGEMD5TU4AXAVCNFSNUABFKJSXA33TNF2G64TZHM3TMNZVGE3TOOBUHNEXG43VMU5TGMRTGE3DONZQGU22C5QC>\r\n> .\r\n> Triage notifications, keep track of coding agent tasks and review pull\r\n> requests on the go with GitHub Mobile for iOS\r\n> <https://github.com/notifications/mobile/ios/CRHFSMPQ6DLUAJAUMCKI6CL5TU4AXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTMMJTGE4TANZRGQ22M4TFMFZW63VKON2WE43DOJUWEZLEUVSXMZLOOSVGM33PORSXEX3JN5ZQ>\r\n> and Android\r\n> <https://github.com/notifications/mobile/android/CRHFSMPU73SAGKG6EDTNLKT5TU4AXA5CNFSNUABFM5UWIORPF5TWS5BNNB2WEL2JONZXKZKDN5WW2ZLOOQXTMMJTGE4TANZRGQ22M4TFMFZW63VKON2WE43DOJUWEZLEUVSXMZLOOSXGM33PORSXEX3BNZSHE33JMQ>.\r\n> Download it today!\r\n> You are receiving this because you are subscribed to this thread.Message\r\n> ID: ***@***.***>\r\n>\r\n",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "minimized",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 7,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 23.7
-          }
-        },
-        {
-          "date": "2026-10-12",
-          "votes": 7,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 23.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-12T22:26:12Z"
     },
     {
       "id": "template-for",
@@ -12102,7 +12179,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-10-14T07:56:04Z"
+      "lastActivityAt": "2026-10-14T10:40:58Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14041,6 +14118,69 @@
       "lastActivityAt": "2026-08-14T14:47:26Z"
     },
     {
+      "id": "alternative-style-sheets",
+      "slug": "alternative-style-sheets",
+      "title": "Alternative style sheets",
+      "summary": "The rel=\"alternate stylesheet\" attribute for the <link> HTML element offers an alternative style option to users.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 13,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/13"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/alternative-style-sheets/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "safari"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:08:40Z"
+    },
+    {
       "id": "autocapitalize",
       "slug": "autocapitalize",
       "title": "autocapitalize",
@@ -14703,7 +14843,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-10-14T07:56:08Z"
+      "lastActivityAt": "2026-10-14T10:41:01Z"
     },
     {
       "id": "picture-in-picture",
@@ -15120,69 +15260,6 @@
         }
       ],
       "lastActivityAt": "2026-10-07T21:57:50Z"
-    },
-    {
-      "id": "alternative-style-sheets",
-      "slug": "alternative-style-sheets",
-      "title": "Alternative style sheets",
-      "summary": "The rel=\"alternate stylesheet\" attribute for the <link> HTML element offers an alternative style option to users.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 13,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/13"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/alternative-style-sheets/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "safari"
-      ],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:08:40Z"
     },
     {
       "id": "column-pseudo",
@@ -25872,6 +25949,65 @@
       "lastActivityAt": "2026-08-26T12:09:02Z"
     },
     {
+      "id": "iterator-includes",
+      "slug": "iterator-includes",
+      "title": "Iterator includes()",
+      "summary": "Developer demand and implementation evidence for Iterator Includes.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 953,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/953"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/iterator-includes/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-10-14",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-14T10:41:00Z"
+    },
+    {
       "id": "iterator-join",
       "slug": "iterator-join",
       "title": "Iterator join()",
@@ -26026,7 +26162,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-10-14T07:56:06Z"
+      "lastActivityAt": "2026-10-14T10:40:59Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -28278,65 +28414,6 @@
       "lastActivityAt": "2026-10-14T07:24:19Z"
     },
     {
-      "id": "iterator-includes",
-      "slug": "iterator-includes",
-      "title": "Iterator includes()",
-      "summary": "Developer demand and implementation evidence for Iterator Includes.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 953,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/953"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/iterator-includes/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-10-14",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-14T07:56:07Z"
-    },
-    {
       "id": "iterator-zip-zipkeyed",
       "slug": "iterator-zip-zipkeyed",
       "title": "Iterator.zip() and Iterator.zipKeyed()",
@@ -28393,7 +28470,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-10-14T07:56:04Z"
+      "lastActivityAt": "2026-10-14T10:40:57Z"
     },
     {
       "id": "retriable-module-loading",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-15T09:15:26.429Z",
-    "staleAfter": "2026-10-17T09:15:26.429Z",
+    "generatedAt": "2026-10-16T09:08:50.249Z",
+    "staleAfter": "2026-10-18T09:08:50.249Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,31 +10,27 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-15T09:15:26.429Z"
+        "retrievedAt": "2026-10-16T09:08:50.249Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-15T09:15:26.429Z"
+        "retrievedAt": "2026-10-16T09:08:50.249Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-15T09:15:26.429Z"
+        "retrievedAt": "2026-10-16T09:08:50.249Z"
       }
     ],
     "warnings": [
-      "alternative-style-sheets: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "customizable-select: feed votes 259 differed from GitHub 261; GitHub value used.",
-      "fedcm: feed votes 48 differed from GitHub 49; GitHub value used.",
-      "gap-decorations: feed votes 51 differed from GitHub 52; GitHub value used.",
-      "install: feed votes 18 differed from GitHub 19; GitHub value used.",
-      "iterator-includes: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "jpegxl: feed votes 519 differed from GitHub 520; GitHub value used.",
-      "link-parameters: feed votes 33 differed from GitHub 34; GitHub value used.",
-      "screen-capture: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "speculation-rules: feed votes 33 differed from GitHub 35; GitHub value used.",
-      "temporal: feed votes 272 differed from GitHub 273; GitHub value used."
+      "corner-shape: feed votes 144 differed from GitHub 145; GitHub value used.",
+      "cross-document-view-transitions: feed votes 68 differed from GitHub 69; GitHub value used.",
+      "document-picture-in-picture: feed votes 29 differed from GitHub 30; GitHub value used.",
+      "frame-sizing: feed votes 31 differed from GitHub 32; GitHub value used.",
+      "gamut-mapping: feed votes 3 differed from GitHub 6; GitHub value used.",
+      "grid-lanes: feed votes 127 differed from GitHub 128; GitHub value used.",
+      "jpegxl: feed votes 520 differed from GitHub 521; GitHub value used."
     ]
   },
   "features": [
@@ -60,7 +56,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 520,
+      "votes": 521,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.88,
       "workaroundBurdenRaw": 0,
@@ -74,11 +70,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 520 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 521 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
-        "votes30d": 2,
+        "votes7d": 3,
+        "votes30d": 3,
         "score7d": 0,
         "score30d": 0
       },
@@ -693,7 +689,7 @@
         },
         {
           "date": "2026-10-14",
-          "votes": 520,
+          "votes": 521,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.88,
           "workaroundBurdenRaw": 0,
@@ -745,10 +741,10 @@
         "rationale": "3 distinct qualified authors; 273 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 6,
-        "votes30d": 46,
-        "score7d": 0.2,
-        "score30d": 4.4
+        "votes7d": 3,
+        "votes30d": 44,
+        "score7d": 0.1,
+        "score30d": 4.3
       },
       "comments": [
         {
@@ -923,20 +919,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-09",
-          "votes": 211,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0.5,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 86.2,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 13.8,
-            "composite": 52.1
-          }
-        },
         {
           "date": "2026-09-11",
           "votes": 223,
@@ -1356,9 +1338,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-15",
+          "votes": 273,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.3,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-14T10:40:56Z"
+      "lastActivityAt": "2026-10-15T10:24:20Z"
     },
     {
       "id": "attr",
@@ -1642,13 +1638,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 127,
+      "votes": 128,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 1.25,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 78,
+        "voteDemand": 78.2,
         "useCaseEvidence": 32.9,
         "workaroundBurden": 27.5,
         "composite": 54.7
@@ -1656,7 +1652,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.48,
-        "rationale": "2 distinct qualified authors; 127 issue votes; 50% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 128 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1737,13 +1733,13 @@
       "snapshots": [
         {
           "date": "2026-09-18",
-          "votes": 127,
+          "votes": 128,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 1.25,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78,
+            "voteDemand": 78.2,
             "useCaseEvidence": 32.9,
             "workaroundBurden": 27.5,
             "composite": 54.7
@@ -1773,27 +1769,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 144,
+      "votes": 145,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 80.1,
+        "voteDemand": 80.2,
         "useCaseEvidence": 40.8,
         "workaroundBurden": 0,
-        "composite": 54.3
+        "composite": 54.4
       },
       "confidence": {
         "level": "medium",
         "score": 0.53,
-        "rationale": "3 distinct qualified authors; 144 issue votes; 50% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 145 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 10,
-        "votes30d": 15,
-        "score7d": 3.3,
-        "score30d": 15.2
+        "votes7d": 11,
+        "votes30d": 16,
+        "score7d": 3.4,
+        "score30d": 15.3
       },
       "comments": [
         {
@@ -1940,16 +1936,16 @@
         },
         {
           "date": "2026-10-04",
-          "votes": 144,
+          "votes": 145,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 80.1,
+            "voteDemand": 80.2,
             "useCaseEvidence": 40.8,
             "workaroundBurden": 0,
-            "composite": 54.3
+            "composite": 54.4
           }
         }
       ],
@@ -2118,7 +2114,7 @@
           "body": "## What I want to do with this feature\n\nI'd like an easy way to make a color partially transparent, like `background-color: translucent(var(--m3c-on-background) / 0.08)`. I could literally define a `--translucent` function with `@function`.\n\n## What I'm having to do in the meantime\n\nMy two options are to write all colors as their RGB values (so I have to do `rgb(var(--m3c-background))` and `rgb(var(--m3c-on-background) / 0.08)`) or to manually write `rgb(from var(--m3c-on-background) r g b / 0.5)`. Both are so verbose I'm using a [custom Vite plugin](https://github.com/kTibow/vite-plugin-functions-mixins) instead.",
           "parsedGoal": "I'd like an easy way to make a color partially transparent, like background-color: translucent(var(--m3c-on-background) / 0.08). I could literally define a --translucent function with @function.",
           "parsedWorkaround": "My two options are to write all colors as their RGB values (so I have to do rgb(var(--m3c-background)) and rgb(var(--m3c-on-background) / 0.08)) or to manually write rgb(from var(--m3c-on-background) r g b / 0.5). Both are so verbose I'm using a custom Vite plugin instead.",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -2135,7 +2131,7 @@
           "body": "## What I'm having to do in the meantime\n\nIn my design system, I have plenty of functions fr color palettes and sizing-scales, which use custom properties, and calc() and pow(). Without being able to inject parameters into these calculations, I currently have to redeclare *each* function for *each* property on *every* element with the `*` selector, e.g. `--border-left-width: ...`, `--border-bottom-width: ...`, `--padding-inline: ...` or `--bg-color: ...`, `--ft-color: ...`, etc. \n\n## What I want to do with this feature\n\nWith CSS functions, I could simply declare a single parametrized function once (instead of 30+ times the exact same function for each property), and reuse it whereever I need it.",
           "parsedGoal": "With CSS functions, I could simply declare a single parametrized function once (instead of 30+ times the exact same function for each property), and reuse it whereever I need it.",
           "parsedWorkaround": "In my design system, I have plenty of functions fr color palettes and sizing-scales, which use custom properties, and calc() and pow(). Without being able to inject parameters into these calculations, I currently have to redeclare each function for each property on every element with the selector, e.g. --border-left-width: ..., --border-bottom-width: ..., --padding-inline: ... or --bg-color: ..., --ft-color: ..., etc. What I want to do with this feature With CSS functions, I could simply declare a single parametrized function once (instead of 30+ times the exact same function for each property), and reuse it whereever I need it.",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -2150,7 +2146,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/300#issuecomment-4194459090",
           "createdAt": "2026-04-06T19:16:36Z",
           "body": "Trying to keep CSS DRY and semantically valuable inevitably leads to use CSS variables to hold theme colors. Now components should respect their context and adapt, and functions would allow me to centralize the implementation detail of how I propagate my color instead of at every usage site. (Splitting currentColor and the text-color would help a lot, too)",
-          "positiveReactions": 3,
+          "positiveReactions": 4,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -4139,103 +4135,6 @@
       "lastActivityAt": "2026-08-29T07:58:42Z"
     },
     {
-      "id": "container-scroll-state-queries",
-      "slug": "container-scroll-state-queries",
-      "title": "Container scroll-state queries",
-      "summary": "Container scroll-state queries with the @container scroll-state(...) at-rule apply styles to an element based on the sticky positioning, snapped, and scrollable state of the container.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 272,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/272"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-scroll-state-queries/",
-      "categories": [
-        "Container queries"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 76,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 69.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 34.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.28,
-        "rationale": "0 distinct qualified authors; 76 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABHrAB_w",
-          "author": "slyrat",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4809818623",
-          "createdAt": "2026-06-26T13:00:55Z",
-          "body": "## What I want to do with this feature\n\nBeing able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.\n\n## What I'm having to do in the meantime\nUse js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such. ",
-          "parsedGoal": "Being able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.",
-          "parsedWorkaround": "Use js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABI5WLGA",
-          "author": "simison",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4891970328",
-          "createdAt": "2026-07-06T10:55:07Z",
-          "body": "## What I want to do with this feature\n\nShow fade indicator when a list of tabs in the [WordPress Tabs component](https://wordpress.github.io/gutenberg/?path=/docs/design-system-components-tabs--docs#size-and-overflow-playground) does not fit within the container:\n\n<img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />\n\n## What I'm having to do in the meantime\n\nComplicated `ResizeObserver` or `IntersectionObserver` tracking and `scrollWidth` calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
-          "parsedGoal": "Show fade indicator when a list of tabs in the WordPress Tabs component does not fit within the container: <img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />",
-          "parsedWorkaround": "Complicated ResizeObserver or IntersectionObserver tracking and scrollWidth calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 76,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 69.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 34.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:03Z"
-    },
-    {
       "id": "frame-sizing",
       "slug": "frame-sizing",
       "title": "Responsive iframes",
@@ -4258,27 +4157,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 30,
+      "votes": 32,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 55.2,
+        "voteDemand": 56.2,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 34.6
+        "composite": 35.1
       },
       "confidence": {
         "level": "low",
-        "score": 0.33,
-        "rationale": "1 distinct qualified author; 30 issue votes; 33% of reviewed comments qualified."
+        "score": 0.34,
+        "rationale": "1 distinct qualified author; 32 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 18,
-        "votes30d": 27,
-        "score7d": 14,
-        "score30d": 23.5
+        "votes7d": 20,
+        "votes30d": 29,
+        "score7d": 14.5,
+        "score30d": 24
       },
       "comments": [
         {
@@ -4391,20 +4290,117 @@
         },
         {
           "date": "2026-10-12",
-          "votes": 30,
+          "votes": 32,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 55.2,
+            "voteDemand": 56.2,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 34.6
+            "composite": 35.1
           }
         }
       ],
       "lastActivityAt": "2026-10-12T16:45:03Z"
+    },
+    {
+      "id": "container-scroll-state-queries",
+      "slug": "container-scroll-state-queries",
+      "title": "Container scroll-state queries",
+      "summary": "Container scroll-state queries with the @container scroll-state(...) at-rule apply styles to an element based on the sticky positioning, snapped, and scrollable state of the container.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 272,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/272"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-scroll-state-queries/",
+      "categories": [
+        "Container queries"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 76,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 69.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 34.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.28,
+        "rationale": "0 distinct qualified authors; 76 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABHrAB_w",
+          "author": "slyrat",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4809818623",
+          "createdAt": "2026-06-26T13:00:55Z",
+          "body": "## What I want to do with this feature\n\nBeing able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.\n\n## What I'm having to do in the meantime\nUse js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such. ",
+          "parsedGoal": "Being able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.",
+          "parsedWorkaround": "Use js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABI5WLGA",
+          "author": "simison",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4891970328",
+          "createdAt": "2026-07-06T10:55:07Z",
+          "body": "## What I want to do with this feature\n\nShow fade indicator when a list of tabs in the [WordPress Tabs component](https://wordpress.github.io/gutenberg/?path=/docs/design-system-components-tabs--docs#size-and-overflow-playground) does not fit within the container:\n\n<img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />\n\n## What I'm having to do in the meantime\n\nComplicated `ResizeObserver` or `IntersectionObserver` tracking and `scrollWidth` calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
+          "parsedGoal": "Show fade indicator when a list of tabs in the WordPress Tabs component does not fit within the container: <img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />",
+          "parsedWorkaround": "Complicated ResizeObserver or IntersectionObserver tracking and scrollWidth calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 76,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 69.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 34.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:03Z"
     },
     {
       "id": "cross-document-view-transitions",
@@ -4426,26 +4422,26 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 68,
+      "votes": 69,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 68.1,
+        "voteDemand": 68.3,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 34.1
+        "composite": 34.2
       },
       "confidence": {
         "level": "low",
         "score": 0.28,
-        "rationale": "0 distinct qualified authors; 68 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 69 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 8,
+        "votes7d": 9,
         "votes30d": 0,
-        "score7d": 1,
+        "score7d": 1.1,
         "score30d": 0
       },
       "comments": [
@@ -4501,16 +4497,16 @@
         },
         {
           "date": "2026-09-15",
-          "votes": 68,
+          "votes": 69,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 68.1,
+            "voteDemand": 68.3,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 34.1
+            "composite": 34.2
           }
         }
       ],
@@ -7357,6 +7353,102 @@
       "lastActivityAt": "2026-09-18T16:17:43Z"
     },
     {
+      "id": "document-picture-in-picture",
+      "slug": "document-picture-in-picture",
+      "title": "Document picture-in-picture",
+      "summary": "The document picture-in-picture API creates an always-on-top window from arbitrary HTML content.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 260,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/260"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/document-picture-in-picture/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 30,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 55.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 30 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABF9eZtg",
+          "author": "cafehaine",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/260#issuecomment-4694972854",
+          "createdAt": "2026-06-12T20:14:45Z",
+          "body": "## What I want to do with this feature\n\nI'm implementing a simple countdown timer, and I would love for it to be moved outside of the main browser window in a custom PiP window.\n\n## What I'm having to do in the meantime\n\nNothing, the timer is only shown when the tab is in the foreground.",
+          "parsedGoal": "I'm implementing a simple countdown timer, and I would love for it to be moved outside of the main browser window in a custom PiP window.",
+          "parsedWorkaround": "Nothing, the timer is only shown when the tab is in the foreground.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABKQLnSg",
+          "author": "Barbu-Razvan",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/260#issuecomment-4983023434",
+          "createdAt": "2026-07-15T16:38:04Z",
+          "body": "## What I want to do with this feature\n\nCreate a music player that allows pop-out playback controls so it's easy to access over other apps\n\n## What I'm having to do in the meantime\n\nInstead of serving an audio file, i have to serve a much larger video file with the audio and a static picture, just so the pop-out works as a video, so the user can still get playback controls",
+          "parsedGoal": "Create a music player that allows pop-out playback controls so it's easy to access over other apps",
+          "parsedWorkaround": "Instead of serving an audio file, i have to serve a much larger video file with the audio and a static picture, just so the pop-out works as a video, so the user can still get playback controls",
+          "positiveReactions": 4,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 30,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:48:26Z"
+    },
+    {
       "id": "scoped-custom-element-registries",
       "slug": "scoped-custom-element-registries",
       "title": "Scoped custom element registries",
@@ -7528,102 +7620,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:29Z"
-    },
-    {
-      "id": "document-picture-in-picture",
-      "slug": "document-picture-in-picture",
-      "title": "Document picture-in-picture",
-      "summary": "The document picture-in-picture API creates an always-on-top window from arbitrary HTML content.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 260,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/260"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/document-picture-in-picture/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 29,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 54.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 29 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABF9eZtg",
-          "author": "cafehaine",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/260#issuecomment-4694972854",
-          "createdAt": "2026-06-12T20:14:45Z",
-          "body": "## What I want to do with this feature\n\nI'm implementing a simple countdown timer, and I would love for it to be moved outside of the main browser window in a custom PiP window.\n\n## What I'm having to do in the meantime\n\nNothing, the timer is only shown when the tab is in the foreground.",
-          "parsedGoal": "I'm implementing a simple countdown timer, and I would love for it to be moved outside of the main browser window in a custom PiP window.",
-          "parsedWorkaround": "Nothing, the timer is only shown when the tab is in the foreground.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABKQLnSg",
-          "author": "Barbu-Razvan",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/260#issuecomment-4983023434",
-          "createdAt": "2026-07-15T16:38:04Z",
-          "body": "## What I want to do with this feature\n\nCreate a music player that allows pop-out playback controls so it's easy to access over other apps\n\n## What I'm having to do in the meantime\n\nInstead of serving an audio file, i have to serve a much larger video file with the audio and a static picture, just so the pop-out works as a video, so the user can still get playback controls",
-          "parsedGoal": "Create a music player that allows pop-out playback controls so it's easy to access over other apps",
-          "parsedWorkaround": "Instead of serving an audio file, i have to serve a much larger video file with the audio and a static picture, just so the pop-out works as a video, so the user can still get playback controls",
-          "positiveReactions": 3,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 29,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 54.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:48:26Z"
     },
     {
       "id": "opaquerange",
@@ -8805,27 +8801,13 @@
         "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
+        "votes7d": 2,
         "votes30d": 7,
-        "score7d": 1.1,
+        "score7d": 0.7,
         "score30d": 2.9
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-11",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-09-12",
           "votes": 15,
@@ -9245,9 +9227,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-15",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-14T10:40:55Z"
+      "lastActivityAt": "2026-10-15T10:24:19Z"
     },
     {
       "id": "manifest",
@@ -11098,6 +11094,115 @@
       "lastActivityAt": "2026-09-21T15:10:30Z"
     },
     {
+      "id": "gamut-mapping",
+      "slug": "gamut-mapping",
+      "title": "Gamut mapping",
+      "summary": "Developer demand and implementation evidence for Gamut Mapping.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 945,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/945"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gamut-mapping/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 6,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 22.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.27,
+        "rationale": "1 distinct qualified author; 6 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 0,
+        "score7d": 11.5,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABca5cMQ",
+          "author": "LeaVerou",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/945#issuecomment-6202219569",
+          "createdAt": "2026-10-15T21:03:04Z",
+          "body": "## What I want to do with this feature\n\nCreate dynamic color scales from a single accent color\n\n## What I'm having to do in the meantime\n\nHardcode all tints\n\n-----\n\n## More details\n\nCSS currently provides several ways to define and manipulate colors, that are independent of any particular RGB gamut, such as `oklch()` or `lab()`.\n\nWhile this makes it easier to define and manipulate colors in ways that are closer to human perception, it also makes it much easier to define colors that fall **outside of the display gamut of any output device**, especially when **modifying existing colors** (that are in gamut to begin with!), such as when creating color ramps from a dynamic accent color.\n\nFor example, pick _any_ non-neutral accent color (e.g. `#0075ff`, Chrome’s default `AccentColor` value), and adjust its OKLCh lightness to 97% to produce a tinted background color. The result (`oklch(from #0075ff 97% c h)` or `oklch(0.97 0.2235 258.41)`) is **outside the display gamut of any conceivable display device**. Without gamut mapping (i.e. currently in most UAs), this is displayed via converting to RGB, and **clipping red, green, blue coordinates**. This produces colors **dramatically** different than the specified color, losing all guarantees that these color spaces were supposed to provide.\n\nThis carries **accessibility implications** as well, since RGB clipping can significantly affect contrast characteristics, making color pairs inaccessible. See [here a particularly egregious example](https://codepen.io/leaverou/pen/VYpvwwg) where **white is displayed as blue in non-GM browsers** ([bsky post](https://bsky.app/profile/lea.verou.me/post/3mufb5daups24)).\n\nTo display these colors correctly they need to be **mapped to the closest in-gamut color**, typically by reducing chroma (≈ saturation) while preserving hue and lightness. Here is a visual of the example above, with each color as a dot shown relative to the P3 gamut:\n\n<table>\n<thead><tr>\n<th></th>\n<th><a href=\"https://apps.colorjs.io/gamut/?color=%230075ff\"><code>#0075ff</code></a></th>\n<th><a href=\"https://apps.colorjs.io/gamut/?color=oklch(97%%200.2235%20258.41)\"><code>oklch(from #0075ff 97% c h)</code></a></th>\n<th><a href=\"https://apps.colorjs.io/gamut/?color=oklch(97%%200.015%20258.41)\"><code>oklch(from #0075ff 97% c h)</code>, gamut mapped to P3</a></th>\n</tr></thead>\n<tr><th>Color</th><td>\n\n<img width=\"442\" height=\"209\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/594680e4-150b-4591-a582-ae406552d8c3\" />\n\n</td><td>\n\n<img width=\"442\" height=\"209\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4d1804fa-bddf-45da-85e1-a3fc6c4119f9\" />\n\n</td><td>\n\n<img width=\"442\" height=\"209\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/dab1f040-ddfe-41f3-86cd-4342b948b66f\" />\n\n</td></tr>\n<tr><th>Color relative to P3 gamut</th><td>\n\n<img width=\"472\" height=\"456\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4c00090a-e2b1-4b29-bd26-484be3307244\" />\n\n</td><td>\n<img width=\"472\" height=\"447\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d730345f-db2a-4537-864e-2c2779d00ba9\" />\n</td><td>\n<img width=\"468\" height=\"452\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e5afd9a0-fc36-4a99-a69d-4af3ede7bf35\" />\n\n</td></tr>\n</table>\n\nNotice how **the gamut shrinks dramatically as we get towards white** (100%) or black (0%), so a color that was perfectly in-gamut for midtones, can be _wildly_ out of gamut for lighter tints. We promised authors that color spaces like `oklch()` + relative colors would let them create dynamic color ramps, but that promise was never realized due to the lack of GM.\n",
+          "parsedGoal": "Create dynamic color scales from a single accent color",
+          "parsedWorkaround": "Hardcode all tints ----- More details CSS currently provides several ways to define and manipulate colors, that are independent of any particular RGB gamut, such as oklch() or lab(). While this makes it easier to define and manipulate colors in ways that are closer to human perception, it also makes it much easier to define colors that fall outside of the display gamut of any output device, especially when modifying existing colors (that are in gamut to begin with!), such as when creating color ramps from a dynamic accent color. For example, pick any non-neutral accent color (e.g. #0075ff, Chrome’s default AccentColor value), and adjust its OKLCh lightness to 97% to produce a tinted background color. The result (oklch(from #0075ff 97% c h) or oklch(0.97 0.2235 258.41)) is outside the display gamut of any conceivable display device. Without gamut mapping (i.e. currently in most UAs), this is displayed via converting to RGB, and clipping red, green, blue coordinates. This produces colors dramatically different than the specified color, losing all guarantees that these color spaces were supposed to provide. This carries accessibility implications as well, since RGB clipping can significantly affect contrast characteristics, making color pairs inaccessible. See here a particularly egregious example where white is displayed as blue in non-GM browsers (bsky post). To display these colors correctly they need to be mapped to the closest in-gamut color, typically by reducing chroma (≈ saturation) while preserving hue and lightness. Here is a visual of the example above, with each color as a dot shown relative to the P3 gamut: <table> <thead><tr> <th></th> <th><a href=\"https://apps.colorjs.io/gamut/?color=%230075ff\"><code>#0075ff</code></a></th> <th><a href=\"https://apps.colorjs.io/gamut/?color=oklch(97%%200.2235%20258.41)\"><code>oklch(from #0075ff 97% c h)</code></a></th> <th><a href=\"https://apps.colorjs.io/gamut/?color=oklch(97%%200.015%20258.41)\"><code>oklch(from #0075ff 97% c h)</code>, gamut mapped to P3</a></th> </tr></thead> <tr><th>Color</th><td> <img width=\"442\" height=\"209\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/594680e4-150b-4591-a582-ae406552d8c3\" /> </td><td> <img width=\"442\" height=\"209\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4d1804fa-bddf-45da-85e1-a3fc6c4119f9\" /> </td><td> <img width=\"442\" height=\"209\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/dab1f040-ddfe-41f3-86cd-4342b948b66f\" /> </td></tr> <tr><th>Color relative to P3 gamut</th><td> <img width=\"472\" height=\"456\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4c00090a-e2b1-4b29-bd26-484be3307244\" /> </td><td> <img width=\"472\" height=\"447\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d730345f-db2a-4537-864e-2c2779d00ba9\" /> </td><td> <img width=\"468\" height=\"452\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/e5afd9a0-fc36-4a99-a69d-4af3ede7bf35\" /> </td></tr> </table> Notice how the gamut shrinks dramatically as we get towards white (100%) or black (0%), so a color that was perfectly in-gamut for midtones, can be wildly out of gamut for lighter tints. We promised authors that color spaces like oklch() + relative colors would let them create dynamic color ramps, but that promise was never realized due to the lack of GM.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABccD0Rw",
+          "author": "wavebeem",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/945#issuecomment-6203438151",
+          "createdAt": "2026-10-15T22:18:26Z",
+          "body": "## What I want to do with this feature\n\n1. I wanted to build a theme editor from two hue inputs, for my CSS library [candy.css](https://candy.wavebeem.com/theme-editor/), that would output a full OKLCH color palette for UI\n\n2. I also wanted to use the OKLCH colors directly in my CSS to make defining [my website's theme](https://www.wavebeem.com/past-designs/) more logical (again, focusing more on hue and possibly allowing a theme selector later) back in 2024.\n## What I'm having to do in the meantime\n\n1. I abandoned that approach entirely, and just made direct CSS color text fields for each color (a huge DX downgrade)\n\n2. I actually got all the way to a production release before realizing that the gamut mapping was both inconsistent between browsers AND even inconsistent within parts of the same browser. As I recall, `scrollbar-color` actually performed different gamut mapping than `background-image` with `linear-gradient`, which really puzzled me for a long time. The next step I took was an obnoxious build system that converted OKLCH colors in JS to hex codes, so that the gamut mapping would be done correctly. As of 2026 I ended up moving to Google's HCT system with their Material 3 color palette library instead.",
+          "parsedGoal": "1. I wanted to build a theme editor from two hue inputs, for my CSS library candy.css, that would output a full OKLCH color palette for UI 2. I also wanted to use the OKLCH colors directly in my CSS to make defining my website's theme more logical (again, focusing more on hue and possibly allowing a theme selector later) back in 2024.",
+          "parsedWorkaround": "1. I abandoned that approach entirely, and just made direct CSS color text fields for each color (a huge DX downgrade) 2. I actually got all the way to a production release before realizing that the gamut mapping was both inconsistent between browsers AND even inconsistent within parts of the same browser. As I recall, scrollbar-color actually performed different gamut mapping than background-image with linear-gradient, which really puzzled me for a long time. The next step I took was an obnoxious build system that converted OKLCH colors in JS to hex codes, so that the gamut mapping would be done correctly. As of 2026 I ended up moving to Google's HCT system with their Material 3 color palette library instead.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "1. I wanted to build a theme editor from two hue inputs, for my CSS library candy.css, that would output a full OKLCH color palette for UI 2. I also wanted to use the OKLCH colors…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-10-06",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-10-15",
+          "votes": 6,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 22.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-15T22:18:26Z"
+    },
+    {
       "id": "app-share-targets",
       "slug": "app-share-targets",
       "title": "Share targets",
@@ -11745,20 +11850,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-11",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        },
-        {
           "date": "2026-09-12",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -12177,9 +12268,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-15",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-14T10:40:58Z"
+      "lastActivityAt": "2026-10-15T10:24:22Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14401,27 +14506,13 @@
         "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
+        "votes7d": 2,
         "votes30d": 8,
-        "score7d": 2.8,
+        "score7d": 1.8,
         "score30d": 12.9
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-11",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
         {
           "date": "2026-09-12",
           "votes": 1,
@@ -14841,9 +14932,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-15",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-14T10:41:01Z"
+      "lastActivityAt": "2026-10-15T10:24:25Z"
     },
     {
       "id": "picture-in-picture",
@@ -21474,65 +21579,6 @@
       "lastActivityAt": "2026-09-03T14:35:10Z"
     },
     {
-      "id": "gamut-mapping",
-      "slug": "gamut-mapping",
-      "title": "Gamut mapping",
-      "summary": "Developer demand and implementation evidence for Gamut Mapping.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 945,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/945"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gamut-mapping/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-10-06",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-06T08:20:07Z"
-    },
-    {
       "id": "html-streaming-setters",
       "slug": "html-streaming-setters",
       "title": "HTML streaming setters",
@@ -26003,9 +26049,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-15",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-14T10:41:00Z"
+      "lastActivityAt": "2026-10-15T10:24:24Z"
     },
     {
       "id": "iterator-join",
@@ -26160,9 +26220,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-15",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-14T10:40:59Z"
+      "lastActivityAt": "2026-10-15T10:24:23Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -28468,9 +28542,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-15",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-14T10:40:57Z"
+      "lastActivityAt": "2026-10-15T10:24:21Z"
     },
     {
       "id": "retriable-module-loading",

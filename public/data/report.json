@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-16T09:08:50.249Z",
-    "staleAfter": "2026-10-18T09:08:50.249Z",
+    "generatedAt": "2026-10-17T08:40:43.481Z",
+    "staleAfter": "2026-10-19T08:40:43.481Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,27 +10,28 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-16T09:08:50.249Z"
+        "retrievedAt": "2026-10-17T08:40:43.481Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-16T09:08:50.249Z"
+        "retrievedAt": "2026-10-17T08:40:43.481Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-16T09:08:50.249Z"
+        "retrievedAt": "2026-10-17T08:40:43.481Z"
       }
     ],
     "warnings": [
-      "corner-shape: feed votes 144 differed from GitHub 145; GitHub value used.",
-      "cross-document-view-transitions: feed votes 68 differed from GitHub 69; GitHub value used.",
-      "document-picture-in-picture: feed votes 29 differed from GitHub 30; GitHub value used.",
-      "frame-sizing: feed votes 31 differed from GitHub 32; GitHub value used.",
-      "gamut-mapping: feed votes 3 differed from GitHub 6; GitHub value used.",
-      "grid-lanes: feed votes 127 differed from GitHub 128; GitHub value used.",
-      "jpegxl: feed votes 520 differed from GitHub 521; GitHub value used."
+      "beforeunload: feed votes 7 differed from GitHub 8; GitHub value used.",
+      "clipboard-svg: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "frame-sizing: feed votes 32 differed from GitHub 33; GitHub value used.",
+      "interactivity: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "jpegxl: feed votes 521 differed from GitHub 523; GitHub value used.",
+      "loading-lazy-media: feed votes 49 differed from GitHub 50; GitHub value used.",
+      "referencetarget: feed votes 17 differed from GitHub 18; GitHub value used.",
+      "related-apps: feed votes 1 differed from GitHub 2; GitHub value used."
     ]
   },
   "features": [
@@ -56,27 +57,27 @@
         "edge",
         "firefox"
       ],
-      "votes": 521,
+      "votes": 523,
       "qualifiedAuthors": 6,
-      "reactionBoost": 0.88,
+      "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
         "voteDemand": 100,
-        "useCaseEvidence": 59,
+        "useCaseEvidence": 59.3,
         "workaroundBurden": 0,
-        "composite": 70.7
+        "composite": 70.8
       },
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 521 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 523 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
-        "votes30d": 3,
-        "score7d": 0,
-        "score30d": 0
+        "votes7d": 5,
+        "votes30d": 5,
+        "score7d": 0.1,
+        "score30d": 0.1
       },
       "comments": [
         {
@@ -243,7 +244,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3631218619",
           "createdAt": "2025-12-09T09:28:18Z",
           "body": "@PELock you wrote\n\n> Why is it even a question? This is the best possible data format for **lossless** compressed images.\n\nMaybe you meant lossy?",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -273,7 +274,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3632769355",
           "createdAt": "2025-12-09T15:09:54Z",
           "body": "@PELock \n\n> I'm not sure why [jakearchibald](https://github.com/jakearchibald) talks about lossless compression, when in fact JPEG XL will be used primarily as a lossy codec... Jake, what is your point?\n\nI was asking a clarifying question based on [your post](https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3174271737)\n\n> This is the best possible data format for **lossless compressed images**.\n\nWe have a template for providing feedback, which is included in the OP. You didn't use it, so I was asking you to expand on your point. It wasn't nitpicking at all, I was simply asking for more detail. The only reason I mentioned lossless compression is because you suggested it was a major use-case for you.",
-          "positiveReactions": 5,
+          "positiveReactions": 6,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -288,7 +289,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3632781263",
           "createdAt": "2025-12-09T15:12:07Z",
           "body": "@jonsneyers and @jyrkialakuijala: I appreciate the use-cases you provided, but please don't speak for others. The goal of this repo is to gather use-cases from individual developers.",
-          "positiveReactions": 4,
+          "positiveReactions": 5,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -304,7 +305,7 @@
           "createdAt": "2025-12-09T15:16:44Z",
           "body": "Hey folks, the goal of this repo is to gather use-cases from individual developers. A template is provided in the OP to make this easier:\n\n```md\n## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\n```\n\nThis isn't a venue for self-promotion, technical debate, or throwing insults. Posts which do this will be hidden.",
           "parsedWorkaround": "This isn't a venue for self-promotion, technical debate, or throwing insults. Posts which do this will be hidden.",
-          "positiveReactions": 5,
+          "positiveReactions": 6,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -321,7 +322,7 @@
           "body": "## What I want to do with this feature\n\n### LSB encoding, there cannot be any data loss in RGBA\n\nI want JPEG XL because it provides loseless compression and its helpful for my [Steganography Online Codec](https://www.pelock.com/products/steganography-online-codec), it's widly used by journalists and in hostile environments (war) to transfer secret messages within images, the problem is its based on LSB coding and I cannot use error correction to store the secret and encrypted content in losssy, output images like JPG because the LSB coding would be damaged & lost. Right now I can only use PNG as the output format file because I can extract the data from LSB bits without any data loss. JPEG XL would provide me with an additional format and output images would take even less space,\n\n### Image optimization plugin for Yii2 framework\n\nI would love to add JPEG XL to my auto-image optimization plugin for Yii2 PHP framework [yii2-imgopt](https://www.yiiframework.com/extension/pelock/yii2-imgopt), currently I can only output WebP and AVIF and AVIF in 90% cases is not even installed within PHP GD library, so the only working option is WebP. JPEG XL would provide a vital alternative for WebP and AVIF with even more options like lossless compression and smaller sizes. Smaller sizes = faster websites.\n\n## What I'm having to do in the meantime\n\nI need to use other lossless formats and PNG is the only sensible option right now.",
           "parsedGoal": "LSB encoding, there cannot be any data loss in RGBA I want JPEG XL because it provides loseless compression and its helpful for my Steganography Online Codec, it's widly used by journalists and in hostile environments (war) to transfer secret messages within images, the problem is its based on LSB coding and I cannot use error correction to store the secret and encrypted content in losssy, output images like JPG because the LSB coding would be damaged & lost. Right now I can only use PNG as the output format file because I can extract the data from LSB bits without any data loss. JPEG XL would provide me with an additional format and output images would take even less space, Image optimization plugin for Yii2 framework I would love to add JPEG XL to my auto-image optimization plugin for Yii2 PHP framework yii2-imgopt, currently I can only output WebP and AVIF and AVIF in 90% cases is not even installed within PHP GD library, so the only working option is WebP. JPEG XL would provide a vital alternative for WebP and AVIF with even more options like lossless compression and smaller sizes. Smaller sizes = faster websites.",
           "parsedWorkaround": "I need to use other lossless formats and PNG is the only sensible option right now.",
-          "positiveReactions": 15,
+          "positiveReactions": 16,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -374,7 +375,7 @@
           "body": "## What I want to do with this feature\n\nI want to use JPEG XL on the web to deliver high-dynamic-range (HDR) images and to store and serve high-quality images in a truly lossless way.\nJPEG XL is especially important for workflows that require wide color gamuts, higher bit depths (10-bit / 12-bit), and accurate tone reproduction, which are not well supported by traditional web image formats.\n\n- My use case includes:\n- Preserving HDR content without tone-mapping it down to SDR\n- Archiving and publishing images with lossless compression while keeping file sizes reasonable\n- Avoiding quality loss from repeated re-encoding during editing and delivery\n- Using a single modern image format instead of maintaining multiple fallback formats\n\nFor content creators, photographers, and developers working with HDR displays and modern color pipelines, JPEG XL would significantly improve both image quality and efficiency on the web.\n\n## What I'm having to do in the meantime\n\n\nIn the meantime, I have to rely on formats like PNG, JPEG, or WebP, none of which fully meet these needs:\n\n- PNG is lossless but results in very large file sizes and has no practical HDR support\n- JPEG does not support HDR or modern color requirements and introduces visible compression artifacts\n- WebP has limitations in HDR support and lossless efficiency compared to JPEG XL\n\nAs a result, I either have to downgrade HDR images to SDR, accept unnecessary quality loss, or store separate master files in other formats for archiving. This increases complexity, storage requirements, and processing time, and prevents delivering the best possible image quality to users with capable displays.\n\nNative JPEG XL support in all browsers would remove these compromises and enable modern, future-proof image workflows on the web.\n",
           "parsedGoal": "I want to use JPEG XL on the web to deliver high-dynamic-range (HDR) images and to store and serve high-quality images in a truly lossless way. JPEG XL is especially important for workflows that require wide color gamuts, higher bit depths (10-bit / 12-bit), and accurate tone reproduction, which are not well supported by traditional web image formats. - My use case includes: - Preserving HDR content without tone-mapping it down to SDR - Archiving and publishing images with lossless compression while keeping file sizes reasonable - Avoiding quality loss from repeated re-encoding during editing and delivery - Using a single modern image format instead of maintaining multiple fallback formats For content creators, photographers, and developers working with HDR displays and modern color pipelines, JPEG XL would significantly improve both image quality and efficiency on the web.",
           "parsedWorkaround": "In the meantime, I have to rely on formats like PNG, JPEG, or WebP, none of which fully meet these needs: - PNG is lossless but results in very large file sizes and has no practical HDR support - JPEG does not support HDR or modern color requirements and introduces visible compression artifacts - WebP has limitations in HDR support and lossless efficiency compared to JPEG XL As a result, I either have to downgrade HDR images to SDR, accept unnecessary quality loss, or store separate master files in other formats for archiving. This increases complexity, storage requirements, and processing time, and prevents delivering the best possible image quality to users with capable displays. Native JPEG XL support in all browsers would remove these compromises and enable modern, future-proof image workflows on the web.",
-          "positiveReactions": 15,
+          "positiveReactions": 16,
           "classification": "qualified",
           "themes": [
             "media"
@@ -410,7 +411,7 @@
           "body": "# What I want to do with this feature\n\nServe medical data compressed in JPEG XL without conversion loss or shipping a slow wasm shim.\n\nJPEG XL is now an official part of the DICOM standard: https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect_8.2.15.html\n\n# What I'm having to do in the meantime\n\nWe have to either down-convert to JPEG, which introduces artifacts and may obscure findings, or PNG which is slow to encode and creates much larger payloads. WebP is not an option, as that is 8bit only.",
           "parsedGoal": "Serve medical data compressed in JPEG XL without conversion loss or shipping a slow wasm shim. JPEG XL is now an official part of the DICOM standard: https://dicom.nema.org/medical/dicom/current/output/chtml/part05/sect8.2.15.html",
           "parsedWorkaround": "We have to either down-convert to JPEG, which introduces artifacts and may obscure findings, or PNG which is slow to encode and creates much larger payloads. WebP is not an option, as that is 8bit only.",
-          "positiveReactions": 19,
+          "positiveReactions": 20,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -425,7 +426,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3860413967",
           "createdAt": "2026-02-06T13:20:38Z",
           "body": "> [@jyrkialakuijala](https://github.com/jyrkialakuijala), where else has JPEG XL already been adopted?\n\nThe gentle push for JPEG XL on the web is no longer just a pure web developer request; it is a need arising from broader cross-industry interoperability. When global digital standards, like DICOM, PDF, PDF/A, EPUB, DNG, TWAIN, IIIF, and others converge on JPEG XL, web's lack of native support creates a bottleneck for data exchange.\n\n### The Interoperability Gap\nThe following sectors have already integrated JPEG XL, leaving the web stack as the _missing link_ in their workflows:\n\n**Medical Imaging (DICOM)**: In digital pathology, where preserving fine detail is critical, the medical community is calling for JPEG XL to enable high-fidelity, browser-based telemedicine.\n\n**Professional Photography**: The industry’s heavy hitters -- Adobe (DNG 1.7), Apple (ProRAW), and Samsung (ExpertRAW) -- have transitioned to JPEG XL. For modern flagship smartphones, JPEG XL based formats are now the standard for high-performance raw photography.\n\n**Digital Documents (PDF & EPUB)**: Both the PDF and EPUB standards have adopted JPEG XL to ensure the next generation of digital books and documents offers high-fidelity imagery at low bandwidth.\n\n**Geospatial & Archival (GDAL, COG, TIFF)**: Mapping and archival standards use JPEG XL to handle massive datasets and lossless or high-quality preservation efficiently.\n\n### The Cost of Non-Adoption\nWithout native web support, these industries are forced into lossy conversions when moving content for example between HTML, PDF, and EPUB. This not only degrades image quality but also creates a burden of manual verification to ensure that critical data -- whether a medical scan, cultural heritage scan, or a legal document -- remains intact during the transition.",
-          "positiveReactions": 24,
+          "positiveReactions": 25,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -615,7 +616,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4925170971",
           "createdAt": "2026-07-09T12:41:57Z",
           "body": "> what's the point of this group\n\nThis repository is meant to collect votes and use cases from web developers, for web features that aren't yet implemented in all [the browsers which Baseline currently considers](https://web-platform-dx.github.io/baseline/#the-core-browser-set).\nThis repository is not meant to _implement_ said features.",
-          "positiveReactions": 6,
+          "positiveReactions": 8,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -645,7 +646,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4933134278",
           "createdAt": "2026-07-10T07:43:38Z",
           "body": "> simple decision\n\nThere is nothing simple about adding new media type support in browser engines.\n\n> ONE YEAR of debates\n\nThe web platform takes years to acquire new features and mature them in a way that works for as many end-users and developers as possible.\n\n> stupid questions\n\nThere are no stupid questions in this thread. Everyone is allowed to question use cases in an effort to learn more and understand the needs better.\n\n> Why are you racist against minority developers like me?\n\nThere have been no racist statements made by participants in the thread.\nThis is a technical discussion about the merits of a given image format on the web. No one made racial remarks, stereotypes, insults, or discriminatory statements. You are making an accusation that other participants are racist without any visible evidence in the thread supporting this.\n\nI am sorry that you feel unwelcome in this community. However, as our code of conduct says, we expect everyone to contribute use cases constructively. Your comment is not a use case, not developer feedback, and not an attempt to strengthen a signal. It's a personal accusation directed at another member of our community. Your comment is, at best, out of scope, and at worst a personal attack and unsupported accusation.\n\nYou have already been asked to calm down and stay on topic. You did not. I will now block you from participating in this community.",
-          "positiveReactions": 7,
+          "positiveReactions": 8,
           "classification": "excluded",
           "exclusionReason": "minimized",
           "themes": [
@@ -660,7 +661,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4935032653",
           "createdAt": "2026-07-10T11:58:43Z",
           "body": "@jakearchibald AVIF is definitely working well for us! From [my research](https://wagtail.org/blog/40-smaller-images-same-quality/) it’s the best image format for the majority of our users right now. That said, I haven’t done a comparison of JXL vs. AVIF myself but I trust the [10 to 15% improvement reported by Cloudinary](https://cloudinary.com/blog/the-case-for-jpeg-xl) on their [CID22 dataset](https://cloudinary.com/labs/cid22). And from what I read the improvements should be bigger for higher-res images, that are relevant to a subset of our users in the GLAM sector. I expect JPEG XL’s recompression feature is also great in the CMS world, as it’s one less thing for our users to worry about, though here as well I haven’t actually measured the exact improvement in our use cases.\n\n> Are you concerned about how the small reduction in file size you get from converting JPEG to JXL is wiped out by much higher decoding time?\n\nDefinitely, though it’s more the [decoding power consumption](https://fershad.com/writing/power-consumption-jpeg-webp-and-avif/) that I’m worried about than time. I’ve found it hard to find good information on this tbh. Not just theoretical decoder performance but something more about real-world usage in browsers. Haven’t had the chance to do measurements myself.\n\n---\n\nI think it’s also worth acknowledging that for us compatibility is a goal in its own right. We support HEIC/HEIF uploads for compatibility with the Apple ecosystem, and just on that basis at this point it’d make sense for us to support JXL _uploads_ too since iPhones now save files in this format. But the format is promising for other reasons, so if our users upload images in that format I’d rather we also supported it when generating optimized images.",
-          "positiveReactions": 3,
+          "positiveReactions": 5,
           "classification": "qualified",
           "themes": [
             "performance",
@@ -689,16 +690,16 @@
         },
         {
           "date": "2026-10-14",
-          "votes": 521,
+          "votes": 523,
           "qualifiedAuthors": 6,
-          "reactionBoost": 0.88,
+          "reactionBoost": 0.96,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
             "voteDemand": 100,
-            "useCaseEvidence": 59,
+            "useCaseEvidence": 59.3,
             "workaroundBurden": 0,
-            "composite": 70.7
+            "composite": 70.8
           }
         }
       ],
@@ -919,20 +920,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-11",
-          "votes": 223,
-          "qualifiedAuthors": 2,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 87.1,
-            "useCaseEvidence": 31.4,
-            "workaroundBurden": 23.5,
-            "composite": 58.1
-          }
-        },
         {
           "date": "2026-09-12",
           "votes": 226,
@@ -1352,9 +1339,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-16",
+          "votes": 273,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.3,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-15T10:24:20Z"
+      "lastActivityAt": "2026-10-16T10:11:45Z"
     },
     {
       "id": "attr",
@@ -1638,21 +1639,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 128,
+      "votes": 130,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 1.25,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 78.2,
+        "voteDemand": 78.4,
         "useCaseEvidence": 32.9,
         "workaroundBurden": 27.5,
-        "composite": 54.7
+        "composite": 54.9
       },
       "confidence": {
         "level": "medium",
         "score": 0.48,
-        "rationale": "2 distinct qualified authors; 128 issue votes; 50% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 130 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -1733,16 +1734,16 @@
       "snapshots": [
         {
           "date": "2026-09-18",
-          "votes": 128,
+          "votes": 130,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 1.25,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.2,
+            "voteDemand": 78.4,
             "useCaseEvidence": 32.9,
             "workaroundBurden": 27.5,
-            "composite": 54.7
+            "composite": 54.9
           }
         }
       ],
@@ -3344,6 +3345,138 @@
       "lastActivityAt": "2026-09-18T16:17:54Z"
     },
     {
+      "id": "referencetarget",
+      "slug": "referencetarget",
+      "title": "Reference target",
+      "summary": "The referenceTarget property of a ShadowRoot object forwards attributes such as for and aria-labelledby to elements inside a shadow DOM. You can use this to, for example, link a <label> to its <input> even if the <input> is in the shadow DOM of a web component.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 446,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/446"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/referencetarget/",
+      "categories": [
+        "Web components"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 18,
+      "qualifiedAuthors": 3,
+      "reactionBoost": 0.08,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 47.4,
+        "useCaseEvidence": 40.2,
+        "workaroundBurden": 0,
+        "composite": 37.8
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.52,
+        "rationale": "3 distinct qualified authors; 18 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7V9GXg",
+          "author": "Westbrook",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3589563872",
+          "createdAt": "2025-11-28T14:36:38Z",
+          "body": "## What I want to do with the feature\n\nReduce the amount of code required to deliver my company's custom element design library accessibly so that the applications and features built with it can be smaller and more performant; making them more accessible not just for the screen reader users this API supports directly but for all users who need less bandwidth, CPU, et al to run the code we deliver to them.\n\n## What I'm having to do in the meantime\n\n- use custom API (instead of native `aria-*`) to pass accessible values through shadow boundaries to ensure they are applied to the right element\n- leverage bulky element resolving JS to capture the accessible/functional DOM relationships that would otherwise be made via these attribute references and manage them in the JS space\n\nEach of these, and other smaller work arounds, are all fragile and complicated in ways that will thankfully no longer be required once Reference Target lands.",
+          "parsedWorkaround": "- use custom API (instead of native aria-) to pass accessible values through shadow boundaries to ensure they are applied to the right element - leverage bulky element resolving JS to capture the accessible/functional DOM relationships that would otherwise be made via these attribute references and manage them in the JS space Each of these, and other smaller work arounds, are all fragile and complicated in ways that will thankfully no longer be required once Reference Target lands.",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "accessibility",
+            "date & time"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "What I want to do with the feature Reduce the amount of code required to deliver my company's custom element design library accessibly so that the applications and features built …",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7V_xj1",
+          "author": "justinfagnani",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3590265077",
+          "createdAt": "2025-11-28T19:58:34Z",
+          "body": "## What I want to do with this feature\n\nI want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on the server without a DOM.\n\n## What I'm having to do in the meantime\n\nSome people may manage to make some of their code work in SSR, but in general this requires a client page to wait for JS and hydration.",
+          "parsedGoal": "I want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on the server without a DOM.",
+          "parsedWorkaround": "Some people may manage to make some of their code work in SSR, but in general this requires a client page to wait for JS and hydration.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "accessibility"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on th…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7WFdQL",
+          "author": "bennypowers",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3591754763",
+          "createdAt": "2025-11-29T15:32:43Z",
+          "body": "## What I want to do with this feature\n\nAt Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this:\n\n```\n<rh-select>\n  <rh-option>...</rh-option>\n```\n\nIn which case rh-select's shadow root has a combobox input, button, and listbox.\n\n## What I'm having to do in the meantime\n\nWe need to make complex compromises, and some cases are simply impossible for us. Reference targets is a hard requirement for us.",
+          "parsedGoal": "At Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this: code sample In which case rh-select's shadow root has a combobox input, button, and listbox.",
+          "parsedWorkaround": "We need to make complex compromises, and some cases are simply impossible for us. Reference targets is a hard requirement for us.",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "At Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this: code sample In which case rh-select's shadow root has a combobox input,…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 14,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 40.2,
+            "workaroundBurden": 0,
+            "composite": 35.9
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "votes": 18,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 40.2,
+            "workaroundBurden": 0,
+            "composite": 37.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-08T16:07:56Z"
+    },
+    {
       "id": "fullscreen",
       "slug": "fullscreen",
       "title": "Fullscreen API",
@@ -3470,138 +3603,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:01Z"
-    },
-    {
-      "id": "referencetarget",
-      "slug": "referencetarget",
-      "title": "Reference target",
-      "summary": "The referenceTarget property of a ShadowRoot object forwards attributes such as for and aria-labelledby to elements inside a shadow DOM. You can use this to, for example, link a <label> to its <input> even if the <input> is in the shadow DOM of a web component.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 446,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/446"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/referencetarget/",
-      "categories": [
-        "Web components"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 17,
-      "qualifiedAuthors": 3,
-      "reactionBoost": 0.08,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 46.5,
-        "useCaseEvidence": 40.2,
-        "workaroundBurden": 0,
-        "composite": 37.3
-      },
-      "confidence": {
-        "level": "medium",
-        "score": 0.51,
-        "rationale": "3 distinct qualified authors; 17 issue votes; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7V9GXg",
-          "author": "Westbrook",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3589563872",
-          "createdAt": "2025-11-28T14:36:38Z",
-          "body": "## What I want to do with the feature\n\nReduce the amount of code required to deliver my company's custom element design library accessibly so that the applications and features built with it can be smaller and more performant; making them more accessible not just for the screen reader users this API supports directly but for all users who need less bandwidth, CPU, et al to run the code we deliver to them.\n\n## What I'm having to do in the meantime\n\n- use custom API (instead of native `aria-*`) to pass accessible values through shadow boundaries to ensure they are applied to the right element\n- leverage bulky element resolving JS to capture the accessible/functional DOM relationships that would otherwise be made via these attribute references and manage them in the JS space\n\nEach of these, and other smaller work arounds, are all fragile and complicated in ways that will thankfully no longer be required once Reference Target lands.",
-          "parsedWorkaround": "- use custom API (instead of native aria-) to pass accessible values through shadow boundaries to ensure they are applied to the right element - leverage bulky element resolving JS to capture the accessible/functional DOM relationships that would otherwise be made via these attribute references and manage them in the JS space Each of these, and other smaller work arounds, are all fragile and complicated in ways that will thankfully no longer be required once Reference Target lands.",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "accessibility",
-            "date & time"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "What I want to do with the feature Reduce the amount of code required to deliver my company's custom element design library accessibly so that the applications and features built …",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7V_xj1",
-          "author": "justinfagnani",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3590265077",
-          "createdAt": "2025-11-28T19:58:34Z",
-          "body": "## What I want to do with this feature\n\nI want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on the server without a DOM.\n\n## What I'm having to do in the meantime\n\nSome people may manage to make some of their code work in SSR, but in general this requires a client page to wait for JS and hydration.",
-          "parsedGoal": "I want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on the server without a DOM.",
-          "parsedWorkaround": "Some people may manage to make some of their code work in SSR, but in general this requires a client page to wait for JS and hydration.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "accessibility"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on th…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7WFdQL",
-          "author": "bennypowers",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3591754763",
-          "createdAt": "2025-11-29T15:32:43Z",
-          "body": "## What I want to do with this feature\n\nAt Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this:\n\n```\n<rh-select>\n  <rh-option>...</rh-option>\n```\n\nIn which case rh-select's shadow root has a combobox input, button, and listbox.\n\n## What I'm having to do in the meantime\n\nWe need to make complex compromises, and some cases are simply impossible for us. Reference targets is a hard requirement for us.",
-          "parsedGoal": "At Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this: code sample In which case rh-select's shadow root has a combobox input, button, and listbox.",
-          "parsedWorkaround": "We need to make complex compromises, and some cases are simply impossible for us. Reference targets is a hard requirement for us.",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "At Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this: code sample In which case rh-select's shadow root has a combobox input,…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 14,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0.08,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 40.2,
-            "workaroundBurden": 0,
-            "composite": 35.9
-          }
-        },
-        {
-          "date": "2026-09-08",
-          "votes": 17,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0.08,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 46.5,
-            "useCaseEvidence": 40.2,
-            "workaroundBurden": 0,
-            "composite": 37.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-08T16:07:56Z"
     },
     {
       "id": "custom-media-queries",
@@ -4057,84 +4058,6 @@
       "lastActivityAt": "2026-09-03T14:35:07Z"
     },
     {
-      "id": "scroll-driven-animations",
-      "slug": "scroll-driven-animations",
-      "title": "Scroll-driven animations",
-      "summary": "The animation-timeline, scroll-timeline, and view-timeline CSS properties advance animations based on the user's scroll position.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 207,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/207"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-driven-animations/",
-      "categories": [
-        "Scrolling",
-        "Animation"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 80,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 70.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 35.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.29,
-        "rationale": "0 distinct qualified authors; 80 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABRYL-JQ",
-          "author": "ahmed-adel2",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/207#issuecomment-5461179941",
-          "createdAt": "2026-08-29T07:58:42Z",
-          "body": "I'm using brave browser and it did not work. I used it in another test project and it worked. So, I think maybe heavy projects do not work\n",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-29",
-          "votes": 80,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 70.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 35.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-29T07:58:42Z"
-    },
-    {
       "id": "frame-sizing",
       "slug": "frame-sizing",
       "title": "Responsive iframes",
@@ -4157,27 +4080,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 32,
+      "votes": 33,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 56.2,
+        "voteDemand": 56.7,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 35.1
+        "composite": 35.3
       },
       "confidence": {
         "level": "low",
         "score": 0.34,
-        "rationale": "1 distinct qualified author; 32 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 33 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 20,
-        "votes30d": 29,
-        "score7d": 14.5,
-        "score30d": 24
+        "votes7d": 21,
+        "votes30d": 30,
+        "score7d": 14.7,
+        "score30d": 24.2
       },
       "comments": [
         {
@@ -4290,20 +4213,98 @@
         },
         {
           "date": "2026-10-12",
-          "votes": 32,
+          "votes": 33,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 56.2,
+            "voteDemand": 56.7,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 35.1
+            "composite": 35.3
           }
         }
       ],
       "lastActivityAt": "2026-10-12T16:45:03Z"
+    },
+    {
+      "id": "scroll-driven-animations",
+      "slug": "scroll-driven-animations",
+      "title": "Scroll-driven animations",
+      "summary": "The animation-timeline, scroll-timeline, and view-timeline CSS properties advance animations based on the user's scroll position.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 207,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/207"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-driven-animations/",
+      "categories": [
+        "Scrolling",
+        "Animation"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 80,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 70.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 35.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.29,
+        "rationale": "0 distinct qualified authors; 80 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABRYL-JQ",
+          "author": "ahmed-adel2",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/207#issuecomment-5461179941",
+          "createdAt": "2026-08-29T07:58:42Z",
+          "body": "I'm using brave browser and it did not work. I used it in another test project and it worked. So, I think maybe heavy projects do not work\n",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-29",
+          "votes": 80,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 70.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 35.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-29T07:58:42Z"
     },
     {
       "id": "container-scroll-state-queries",
@@ -4990,6 +4991,114 @@
       "lastActivityAt": "2026-09-03T14:35:33Z"
     },
     {
+      "id": "loading-lazy-media",
+      "slug": "loading-lazy-media",
+      "title": "Lazy-loading media",
+      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 534,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
+      "categories": [
+        "Media elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 50,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 63.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 31.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.26,
+        "rationale": "0 distinct qualified authors; 50 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 13,
+        "votes30d": 19,
+        "score7d": 2.3,
+        "score30d": 3.7
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
+          "author": "robole",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
+          "createdAt": "2026-07-02T09:28:45Z",
+          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It is blank if you unless you provide an image in the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
+          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
+          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It is blank if you unless you provide an image in the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 37,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 58.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29.3
+          }
+        },
+        {
+          "date": "2026-10-03",
+          "votes": 50,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 63.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-03T08:54:25Z"
+    },
+    {
       "id": "fedcm",
       "slug": "fedcm",
       "title": "Federated credential management",
@@ -5050,114 +5159,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:39Z"
-    },
-    {
-      "id": "loading-lazy-media",
-      "slug": "loading-lazy-media",
-      "title": "Lazy-loading media",
-      "summary": "The loading=\"lazy\" attribute for <video> and <audio> elements defers loading the media resource until the element is near the viewport. This matches the lazy-loading behavior for <img> and <iframe> elements.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 534,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/534"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/loading-lazy-media/",
-      "categories": [
-        "Media elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 49,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 62.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 31.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.25,
-        "rationale": "0 distinct qualified authors; 49 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 12,
-        "votes30d": 18,
-        "score7d": 2.2,
-        "score30d": 3.6
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABIe5gIw",
-          "author": "robole",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/534#issuecomment-4864237603",
-          "createdAt": "2026-07-02T09:28:45Z",
-          "body": "## What I want to do with this feature\n\nLazy load videos that are not in the initial viewport.\n\n## What I'm having to do in the meantime\n\nUse `preload=\"none\"` when you want to allow an user to initiate playback. It is blank if you unless you provide an image in the `poster` attribute. Manually creating an image for the poster is cumbersome.\n\n```html\n<!-- do not load video  -->\n<video preload=\"none\" poster=\"img/screen-recording-poster.jpg\" controls>\n  <source src=\"screen-recording.webm\" type=\"video/webm\">\n  <source src=\"screen-recording.mp4\" type=\"video/mp4\">\n</video>\n```",
-          "parsedGoal": "Lazy load videos that are not in the initial viewport.",
-          "parsedWorkaround": "Use preload=\"none\" when you want to allow an user to initiate playback. It is blank if you unless you provide an image in the poster attribute. Manually creating an image for the poster is cumbersome. code sample",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 37,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 58.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 29.3
-          }
-        },
-        {
-          "date": "2026-10-03",
-          "votes": 49,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 62.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 31.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-03T08:54:25Z"
     },
     {
       "id": "margin-trim",
@@ -8809,20 +8810,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-12",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
-        {
           "date": "2026-09-13",
           "votes": 15,
           "qualifiedAuthors": 0,
@@ -9241,9 +9228,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-16",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-15T10:24:19Z"
+      "lastActivityAt": "2026-10-16T10:11:43Z"
     },
     {
       "id": "manifest",
@@ -11723,6 +11724,68 @@
       "lastActivityAt": "2026-08-26T12:10:25Z"
     },
     {
+      "id": "interactivity",
+      "slug": "interactivity",
+      "title": "interactivity",
+      "summary": "The interactivity: inert CSS declaration makes an element and its descendants inert, like when using the inert HTML attribute. Inert elements can't be focused or clicked, their text can't be selected or found using the browser's find-in-page feature.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 305,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/305"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/interactivity/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:48:48Z"
+    },
+    {
       "id": "periodic-background-sync",
       "slug": "periodic-background-sync",
       "title": "Periodic background sync",
@@ -11849,20 +11912,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-12",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
         {
           "date": "2026-09-13",
           "votes": 9,
@@ -12282,9 +12331,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-16",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-15T10:24:22Z"
+      "lastActivityAt": "2026-10-16T10:11:46Z"
     },
     {
       "id": "font-metric-overrides",
@@ -12667,68 +12730,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:40Z"
-    },
-    {
-      "id": "interactivity",
-      "slug": "interactivity",
-      "title": "interactivity",
-      "summary": "The interactivity: inert CSS declaration makes an element and its descendants inert, like when using the inert HTML attribute. Inert elements can't be focused or clicked, their text can't be selected or found using the browser's find-in-page feature.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 305,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/305"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/interactivity/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:48:48Z"
     },
     {
       "id": "object-view-box",
@@ -14514,20 +14515,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-12",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-09-13",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -14946,9 +14933,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-16",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-15T10:24:25Z"
+      "lastActivityAt": "2026-10-16T10:11:49Z"
     },
     {
       "id": "picture-in-picture",
@@ -15365,6 +15366,110 @@
         }
       ],
       "lastActivityAt": "2026-10-07T21:57:50Z"
+    },
+    {
+      "id": "beforeunload",
+      "slug": "beforeunload",
+      "title": "beforeunload",
+      "summary": "The beforeunload event is fired when the current window is about to be unloaded. Typically this is used to display a dialog to confirm if users really want to leave the page when there is unsaved data that would be lost.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 10,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/10"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/beforeunload/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 8,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 17.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 1,
+        "score30d": 1
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABc0nTKQ",
+          "author": "lanai1986v-netizen",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/10#issuecomment-6229185321",
+          "createdAt": "2026-10-17T03:42:59Z",
+          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "template-only",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABc0oZtg",
+          "author": "lanai1986v-netizen",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/10#issuecomment-6229203382",
+          "createdAt": "2026-10-17T03:44:35Z",
+          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "template-only",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-17T03:44:35Z"
     },
     {
       "id": "column-pseudo",
@@ -16257,65 +16362,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:15Z"
-    },
-    {
-      "id": "beforeunload",
-      "slug": "beforeunload",
-      "title": "beforeunload",
-      "summary": "The beforeunload event is fired when the current window is about to be unloaded. Typically this is used to display a dialog to confirm if users really want to leave the page when there is unsaved data that would be lost.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 10,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/10"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/beforeunload/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 7,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 16.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:44:45Z"
     },
     {
       "id": "color-mix-variadic",
@@ -20939,6 +20985,68 @@
       "lastActivityAt": "2026-08-26T12:10:22Z"
     },
     {
+      "id": "clipboard-svg",
+      "slug": "clipboard-svg",
+      "title": "SVG clipboard items",
+      "summary": "The image/svg+xml data type (also known as the MIME type) for ClipboardItem objects represents SVG data written to or read from the clipboard.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 239,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/239"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/clipboard-svg/",
+      "categories": [
+        "Clipboard"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:34:38Z"
+    },
+    {
       "id": "clipboardchange",
       "slug": "clipboardchange",
       "title": "clipboardchange",
@@ -22829,68 +22937,6 @@
       "lastActivityAt": "2026-08-14T14:47:47Z"
     },
     {
-      "id": "clipboard-svg",
-      "slug": "clipboard-svg",
-      "title": "SVG clipboard items",
-      "summary": "The image/svg+xml data type (also known as the MIME type) for ClipboardItem objects represents SVG data written to or read from the clipboard.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 239,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/239"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/clipboard-svg/",
-      "categories": [
-        "Clipboard"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:38Z"
-    },
-    {
       "id": "clipboard-unsanitized-formats",
       "slug": "clipboard-unsanitized-formats",
       "title": "Read unsanitized clipboard data",
@@ -24101,6 +24147,69 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:47:21Z"
+    },
+    {
+      "id": "related-apps",
+      "slug": "related-apps",
+      "title": "Related apps",
+      "summary": "The related_applications web app manifest member lists operating system-specific applications that are related to the current web app, such as an Android app that provides similar functionality. The getInstalledRelatedApps() method lists which of those are installed on the current device.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 493,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/493"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/related-apps/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "firefox",
+        "safari"
+      ],
+      "votes": 2,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 8.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.07,
+        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:44Z"
     },
     {
       "id": "reporting-crashes",
@@ -26063,9 +26172,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-16",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-15T10:24:24Z"
+      "lastActivityAt": "2026-10-16T10:11:49Z"
     },
     {
       "id": "iterator-join",
@@ -26234,9 +26357,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-16",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-15T10:24:23Z"
+      "lastActivityAt": "2026-10-16T10:11:48Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -26776,69 +26913,6 @@
         }
       ],
       "lastActivityAt": "2026-09-22T14:22:33Z"
-    },
-    {
-      "id": "related-apps",
-      "slug": "related-apps",
-      "title": "Related apps",
-      "summary": "The related_applications web app manifest member lists operating system-specific applications that are related to the current web app, such as an Android app that provides similar functionality. The getInstalledRelatedApps() method lists which of those are installed on the current device.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 493,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/493"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/related-apps/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "firefox",
-        "safari"
-      ],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:44Z"
     },
     {
       "id": "reporting-coep-violations",
@@ -28556,9 +28630,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-16",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-15T10:24:21Z"
+      "lastActivityAt": "2026-10-16T10:11:45Z"
     },
     {
       "id": "retriable-module-loading",

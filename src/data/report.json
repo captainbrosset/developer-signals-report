@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-17T08:40:43.481Z",
-    "staleAfter": "2026-10-19T08:40:43.481Z",
+    "generatedAt": "2026-10-18T08:57:24.122Z",
+    "staleAfter": "2026-10-20T08:57:24.122Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,28 +10,25 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-17T08:40:43.481Z"
+        "retrievedAt": "2026-10-18T08:57:24.122Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-17T08:40:43.481Z"
+        "retrievedAt": "2026-10-18T08:57:24.122Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-17T08:40:43.481Z"
+        "retrievedAt": "2026-10-18T08:57:24.122Z"
       }
     ],
     "warnings": [
-      "beforeunload: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "clipboard-svg: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "frame-sizing: feed votes 32 differed from GitHub 33; GitHub value used.",
-      "interactivity: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "jpegxl: feed votes 521 differed from GitHub 523; GitHub value used.",
-      "loading-lazy-media: feed votes 49 differed from GitHub 50; GitHub value used.",
-      "referencetarget: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "related-apps: feed votes 1 differed from GitHub 2; GitHub value used."
+      "dialog-closedby: feed votes 84 differed from GitHub 85; GitHub value used.",
+      "jpegxl: feed votes 523 differed from GitHub 525; GitHub value used.",
+      "layout-instability: feed votes 25 differed from GitHub 26; GitHub value used.",
+      "notifications: feed votes 26 differed from GitHub 27; GitHub value used.",
+      "temporal: feed votes 273 differed from GitHub 274; GitHub value used."
     ]
   },
   "features": [
@@ -57,7 +54,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 523,
+      "votes": 525,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
@@ -71,11 +68,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 523 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 525 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 5,
-        "votes30d": 5,
+        "votes7d": 7,
+        "votes30d": 7,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -87,7 +84,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3174271737",
           "createdAt": "2025-08-11T11:10:51Z",
           "body": "Why is it even a question? This is the best possible data format for lossless compressed images.",
-          "positiveReactions": 47,
+          "positiveReactions": 48,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -119,7 +116,7 @@
           "body": "## What I want to do with this feature\n\n1. My website generator automatically creates previews of photos and other images (with the help of ImageMagick). These previews are saved as JXL due to its high quality, low file size and acceptable encoding speed. I look forward to saving them progressively as well, which JXL can, but that doesn't work with ImageMagick yet. I want visitors of the webpage to be able to view these previews in their browsers.\n2. I also want to save full-size photos that get developed from my camera's raw files as JXL and link to them on my webpage. I want visitors of my webpage to be able to view these images in their browser.\n3. I'd like to convert old full-size JPEG files without any quality loss to smaller JXL files in order to reduce traffic and for quicker loading in the web browser. I want visitors of my webpage to be able to view these images.\n\n## What I'm having to do in the meantime\n\n1. My website generator creates traditional JPEG previews only or as a fallback for JXL. In the latter case, both JXLs and JPEGs get included via an HTML `<picture>` element. Generating two previews makes preview generation slower than it should be. That's okay though for a transitional period. What's unfortunate is that the majority of users can't profit from the smaller, yet better JXLs due to the limited browser support. That means more traffic and less quality for everyone.\n(I don't see AVIF as a worthwhile alternative due to its tendency to smooth details away on the one hand and due to slower encoding speed on the other hand, which would be a problem when many previews need to be generated quickly on shared webhosting where my software is used. AVIF also doesn't support real progressive encoding, which traditional JPEGs do. Finally, I'd like to avoid transitioning between image formats repeatedly.)\n2. I generate traditional JPEGs instead.\n3. I'm definitely going to keep the old JPEG files until JXL browser support is ubiquitous. A lossy conversion to another format is not an option and a lossless conversion that doesn't decrease the fill size wouldn't make any sense.",
           "parsedGoal": "1. My website generator automatically creates previews of photos and other images (with the help of ImageMagick). These previews are saved as JXL due to its high quality, low file size and acceptable encoding speed. I look forward to saving them progressively as well, which JXL can, but that doesn't work with ImageMagick yet. I want visitors of the webpage to be able to view these previews in their browsers. 2. I also want to save full-size photos that get developed from my camera's raw files as JXL and link to them on my webpage. I want visitors of my webpage to be able to view these images in their browser. 3. I'd like to convert old full-size JPEG files without any quality loss to smaller JXL files in order to reduce traffic and for quicker loading in the web browser. I want visitors of my webpage to be able to view these images.",
           "parsedWorkaround": "1. My website generator creates traditional JPEG previews only or as a fallback for JXL. In the latter case, both JXLs and JPEGs get included via an HTML <picture> element. Generating two previews makes preview generation slower than it should be. That's okay though for a transitional period. What's unfortunate is that the majority of users can't profit from the smaller, yet better JXLs due to the limited browser support. That means more traffic and less quality for everyone. (I don't see AVIF as a worthwhile alternative due to its tendency to smooth details away on the one hand and due to slower encoding speed on the other hand, which would be a problem when many previews need to be generated quickly on shared webhosting where my software is used. AVIF also doesn't support real progressive encoding, which traditional JPEGs do. Finally, I'd like to avoid transitioning between image formats repeatedly.) 2. I generate traditional JPEGs instead. 3. I'm definitely going to keep the old JPEG files until JXL browser support is ubiquitous. A lossy conversion to another format is not an option and a lossless conversion that doesn't decrease the fill size wouldn't make any sense.",
-          "positiveReactions": 19,
+          "positiveReactions": 20,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -151,7 +148,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3627548811",
           "createdAt": "2025-12-08T15:39:26Z",
           "body": "> [@PELock](https://github.com/PELock) can you provide a bit more detail on your use-case for lossless images on the web?\n\nSome use cases for lossless images on the web platform include:\n\n- Medical imaging\n- Some scientific applications\n- Any application where images are used for representing not-quite-visual 2D data\n- Image quality experiments or visual comparisons\n- Pixel art or any other usage of images where it is common to view images NN-upscaled a lot\n\nThen there are of course also use cases where images are used in an authoring flow and the purpose is not just to view the image in the browser, but also to edit them. In many of these cases the best practice is to use lossy previews, but this is not necessarily always a usable approach. For example, consider browser-based image editors.\n\nIn particular, considering that the web platform is in some circumstances basically an OS platform (e.g. Chromebooks, web apps, etc), it can be argued that any use case for lossless images is also a use case for lossless images on the web platform.",
-          "positiveReactions": 31,
+          "positiveReactions": 32,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -166,7 +163,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3628174928",
           "createdAt": "2025-12-08T17:28:15Z",
           "body": "I'm not sure why [jakearchibald](https://github.com/jakearchibald) talks about lossless compression, when in fact JPEG XL will be used primarily as a lossy codec... Jake, what is your point? Why not focus on the primary function and be glad it offers lossless compression as well?\n\n@jyrkialakuijala, where else has JPEG XL already been adopted?",
-          "positiveReactions": 2,
+          "positiveReactions": 3,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -183,7 +180,7 @@
           "body": "## What I want to do with this feature\nAs a web developer, I need to deliver the best looking/smallest size for items like logos (that aren't in SVG) & screen shots. The extra savings from JXL would be significant, as we often have hundreds of those per site.\n\n## What I'm having to do in the meantime\nWe currently use lossless webp for these items, as it’s the best option outside of JXL.",
           "parsedGoal": "As a web developer, I need to deliver the best looking/smallest size for items like logos (that aren't in SVG) & screen shots. The extra savings from JXL would be significant, as we often have hundreds of those per site.",
           "parsedWorkaround": "We currently use lossless webp for these items, as it’s the best option outside of JXL.",
-          "positiveReactions": 8,
+          "positiveReactions": 9,
           "classification": "qualified",
           "themes": [
             "developer experience"
@@ -199,7 +196,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3629140986",
           "createdAt": "2025-12-08T21:48:20Z",
           "body": "@PELock please be mindful of https://github.com/web-platform-dx/developer-signals/blob/main/CODE_OF_CONDUCT.md, in particular that this is not a forum for technical debate.",
-          "positiveReactions": 3,
+          "positiveReactions": 4,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -229,7 +226,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3630933744",
           "createdAt": "2025-12-09T08:17:15Z",
           "body": "Samsung and Apple have started using JPEG-XL on their phones. It's necessary for HDR and other features. It's a much more useful format than JPEG XR and AVIF. Firefox Nightly uses the jxl-rs library (the long-developed Rust library). JPEG-XL is officially designated for PDF (for HDR). Google has also decided to bring JPEG-XL to Chromium (again). Starting with Fedora 42, all wallpapers are JPEG-XL. In short, JPEG-XL wins, and AVIF and WebP lose.",
-          "positiveReactions": 5,
+          "positiveReactions": 6,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -274,7 +271,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3632769355",
           "createdAt": "2025-12-09T15:09:54Z",
           "body": "@PELock \n\n> I'm not sure why [jakearchibald](https://github.com/jakearchibald) talks about lossless compression, when in fact JPEG XL will be used primarily as a lossy codec... Jake, what is your point?\n\nI was asking a clarifying question based on [your post](https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3174271737)\n\n> This is the best possible data format for **lossless compressed images**.\n\nWe have a template for providing feedback, which is included in the OP. You didn't use it, so I was asking you to expand on your point. It wasn't nitpicking at all, I was simply asking for more detail. The only reason I mentioned lossless compression is because you suggested it was a major use-case for you.",
-          "positiveReactions": 6,
+          "positiveReactions": 7,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -616,7 +613,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4925170971",
           "createdAt": "2026-07-09T12:41:57Z",
           "body": "> what's the point of this group\n\nThis repository is meant to collect votes and use cases from web developers, for web features that aren't yet implemented in all [the browsers which Baseline currently considers](https://web-platform-dx.github.io/baseline/#the-core-browser-set).\nThis repository is not meant to _implement_ said features.",
-          "positiveReactions": 8,
+          "positiveReactions": 9,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -646,7 +643,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4933134278",
           "createdAt": "2026-07-10T07:43:38Z",
           "body": "> simple decision\n\nThere is nothing simple about adding new media type support in browser engines.\n\n> ONE YEAR of debates\n\nThe web platform takes years to acquire new features and mature them in a way that works for as many end-users and developers as possible.\n\n> stupid questions\n\nThere are no stupid questions in this thread. Everyone is allowed to question use cases in an effort to learn more and understand the needs better.\n\n> Why are you racist against minority developers like me?\n\nThere have been no racist statements made by participants in the thread.\nThis is a technical discussion about the merits of a given image format on the web. No one made racial remarks, stereotypes, insults, or discriminatory statements. You are making an accusation that other participants are racist without any visible evidence in the thread supporting this.\n\nI am sorry that you feel unwelcome in this community. However, as our code of conduct says, we expect everyone to contribute use cases constructively. Your comment is not a use case, not developer feedback, and not an attempt to strengthen a signal. It's a personal accusation directed at another member of our community. Your comment is, at best, out of scope, and at worst a personal attack and unsupported accusation.\n\nYou have already been asked to calm down and stay on topic. You did not. I will now block you from participating in this community.",
-          "positiveReactions": 8,
+          "positiveReactions": 9,
           "classification": "excluded",
           "exclusionReason": "minimized",
           "themes": [
@@ -701,9 +698,23 @@
             "workaroundBurden": 0,
             "composite": 70.8
           }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 525,
+          "qualifiedAuthors": 6,
+          "reactionBoost": 0.96,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 100,
+            "useCaseEvidence": 59.3,
+            "workaroundBurden": 0,
+            "composite": 70.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-14T07:24:14Z"
+      "lastActivityAt": "2026-10-17T09:45:31Z"
     },
     {
       "id": "temporal",
@@ -725,13 +736,13 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 273,
+      "votes": 274,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 90.3,
+        "voteDemand": 90.4,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
         "composite": 62.6
@@ -739,13 +750,13 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 273 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 274 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
-        "votes30d": 44,
+        "votes7d": 4,
+        "votes30d": 43,
         "score7d": 0.1,
-        "score30d": 4.3
+        "score30d": 1.4
       },
       "comments": [
         {
@@ -920,20 +931,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-12",
-          "votes": 226,
-          "qualifiedAuthors": 2,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 87.3,
-            "useCaseEvidence": 31.4,
-            "workaroundBurden": 23.5,
-            "composite": 58.2
-          }
-        },
         {
           "date": "2026-09-13",
           "votes": 227,
@@ -1353,9 +1350,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 274,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.4,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-16T10:11:45Z"
+      "lastActivityAt": "2026-10-17T09:45:33Z"
     },
     {
       "id": "attr",
@@ -3997,6 +4008,149 @@
       "lastActivityAt": "2026-09-03T14:34:57Z"
     },
     {
+      "id": "layout-instability",
+      "slug": "layout-instability",
+      "title": "Layout instability",
+      "summary": "The layout-shift performance entry and LayoutShift API measures the layout stability of web pages based on movements of the elements on the page. They're used to calculate Cumulative Layout Shift (CLS), a common metric for perceived stability.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 122,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/122"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/layout-instability/",
+      "categories": [
+        "Performance"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 26,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.08,
+      "workaroundBurdenRaw": 0.5,
+      "workaroundAuthors": 1,
+      "score": {
+        "voteDemand": 53,
+        "useCaseEvidence": 20.9,
+        "workaroundBurden": 13.8,
+        "composite": 35.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.32,
+        "rationale": "1 distinct qualified author; 26 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 6,
+        "score7d": 9.7,
+        "score30d": 11.4
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFmDemg",
+          "author": "stormsson",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-4670414490",
+          "createdAt": "2026-06-10T12:55:10Z",
+          "body": "## What I want to do with this feature\n\nMeasure performance metrics on different browsers\n\n## What I'm having to do in the meantime\n\nRelying on external tools / solutions that involves a much more complex  workflow instead of just reading the data from the API",
+          "parsedGoal": "Measure performance metrics on different browsers",
+          "parsedWorkaround": "Relying on external tools / solutions that involves a much more complex workflow instead of just reading the data from the API",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "performance"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABShiYKg",
+          "author": "ryantownsend",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-5538093098",
+          "createdAt": "2026-09-04T08:54:17Z",
+          "body": "## What I want to do with this feature\n\nAccurately measure user experience across all browser engines.\n\n## What I'm having to do in the meantime\n\nReal User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently.\n\nThis isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
+          "parsedGoal": "Accurately measure user experience across all browser engines.",
+          "parsedWorkaround": "Real User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently. This isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABc4_v6w",
+          "author": "anediaz",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-6233780203",
+          "createdAt": "2026-10-17T12:17:08Z",
+          "body": "## What I want to do with this feature\n\nDetect and troubleshoot layout shift issues across all browsers.\n\nRUM platforms (I work on Datadog RUM, but Cloudflare, New Relic, and others face the same problem) use `layout-shift` entries not just to compute CLS scores, but to pinpoint *which* element shifted and *why* — that's what turns a metric into an actionable diagnostic.\n\n## What I'm having to do in the meantime\n\nLayout shift data is Chromium-only — no polyfill, nothing in WebKit or Gecko. ~20% of real user traffic produces zero layout shift data: no CLS scores, no shifted-element attribution, no way to debug.\n\nDevelopers optimizing CLS can't even verify their fixes work outside Chromium. The API exists and works well — it just needs to ship everywhere.",
+          "parsedGoal": "Detect and troubleshoot layout shift issues across all browsers. RUM platforms (I work on Datadog RUM, but Cloudflare, New Relic, and others face the same problem) use layout-shift entries not just to compute CLS scores, but to pinpoint which element shifted and why — that's what turns a metric into an actionable diagnostic.",
+          "parsedWorkaround": "Layout shift data is Chromium-only — no polyfill, nothing in WebKit or Gecko. ~20% of real user traffic produces zero layout shift data: no CLS scores, no shifted-element attribution, no way to debug. Developers optimizing CLS can't even verify their fixes work outside Chromium. The API exists and works well — it just needs to ship everywhere.",
+          "positiveReactions": 2,
+          "classification": "qualified",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "moderate",
+          "generatedSummary": "Detect and troubleshoot layout shift issues across all browsers. RUM platforms (I work on Datadog RUM, but Cloudflare, New Relic, and others face the same problem) use layout-shif…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-04",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 25,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 52.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 26,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 20.9,
+            "workaroundBurden": 13.8,
+            "composite": 35.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-17T12:17:08Z"
+    },
+    {
       "id": "dialog-closedby",
       "slug": "dialog-closedby",
       "title": "<dialog closedby>",
@@ -4016,21 +4170,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 84,
+      "votes": 85,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 71.5,
+        "voteDemand": 71.7,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 35.7
+        "composite": 35.8
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 84 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 85 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4042,16 +4196,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 84,
+          "votes": 85,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 71.5,
+            "voteDemand": 71.7,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 35.7
+            "composite": 35.8
           }
         }
       ],
@@ -7797,6 +7951,65 @@
       "lastActivityAt": "2026-08-26T12:09:50Z"
     },
     {
+      "id": "notifications",
+      "slug": "notifications",
+      "title": "Notifications",
+      "summary": "The Notification() constructor shows a message to the user, typically using the notification system of the host operating system.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 23,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/23"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/notifications/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 27,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 27,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:44:59Z"
+    },
+    {
       "id": "scroll-markers",
       "slug": "scroll-markers",
       "title": "Scroll markers",
@@ -7919,65 +8132,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:35Z"
-    },
-    {
-      "id": "notifications",
-      "slug": "notifications",
-      "title": "Notifications",
-      "summary": "The Notification() constructor shows a message to the user, typically using the notification system of the host operating system.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 23,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/23"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/notifications/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 26,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:44:59Z"
     },
     {
       "id": "scheduler",
@@ -8243,117 +8397,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:51Z"
-    },
-    {
-      "id": "layout-instability",
-      "slug": "layout-instability",
-      "title": "Layout instability",
-      "summary": "The layout-shift performance entry and LayoutShift API measures the layout stability of web pages based on movements of the elements on the page. They're used to calculate Cumulative Layout Shift (CLS), a common metric for perceived stability.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 122,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/122"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/layout-instability/",
-      "categories": [
-        "Performance"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 25,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 52.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 5,
-        "votes30d": 0,
-        "score7d": 1.7,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFmDemg",
-          "author": "stormsson",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-4670414490",
-          "createdAt": "2026-06-10T12:55:10Z",
-          "body": "## What I want to do with this feature\n\nMeasure performance metrics on different browsers\n\n## What I'm having to do in the meantime\n\nRelying on external tools / solutions that involves a much more complex  workflow instead of just reading the data from the API",
-          "parsedGoal": "Measure performance metrics on different browsers",
-          "parsedWorkaround": "Relying on external tools / solutions that involves a much more complex workflow instead of just reading the data from the API",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "performance"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABShiYKg",
-          "author": "ryantownsend",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-5538093098",
-          "createdAt": "2026-09-04T08:54:17Z",
-          "body": "## What I want to do with this feature\n\nAccurately measure user experience across all browser engines.\n\n## What I'm having to do in the meantime\n\nReal User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently.\n\nThis isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
-          "parsedGoal": "Accurately measure user experience across all browser engines.",
-          "parsedWorkaround": "Real User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently. This isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-04",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 25,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 52.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:19Z"
     },
     {
       "id": "reading-flow",
@@ -8810,20 +8853,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-13",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
-        {
           "date": "2026-09-15",
           "votes": 15,
           "qualifiedAuthors": 0,
@@ -9242,9 +9271,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-16T10:11:43Z"
+      "lastActivityAt": "2026-10-17T09:45:32Z"
     },
     {
       "id": "manifest",
@@ -11913,20 +11956,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-13",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-09-15",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -12345,9 +12374,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-16T10:11:46Z"
+      "lastActivityAt": "2026-10-17T09:45:35Z"
     },
     {
       "id": "font-metric-overrides",
@@ -12936,6 +12979,96 @@
       "lastActivityAt": "2026-08-14T14:46:58Z"
     },
     {
+      "id": "anchor-positioning-transforms",
+      "slug": "anchor-positioning-transforms",
+      "title": "Anchor positioning transforms",
+      "summary": "Anchor positioned elements take CSS transforms on their anchor elements into account.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 860,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/860"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/anchor-positioning-transforms/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 7,
+        "votes30d": 8,
+        "score7d": 6.2,
+        "score30d": 7.7
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-06T08:19:58Z"
+    },
+    {
       "id": "autofill",
       "slug": "autofill",
       "title": ":autofill",
@@ -13131,96 +13264,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:56Z"
-    },
-    {
-      "id": "anchor-positioning-transforms",
-      "slug": "anchor-positioning-transforms",
-      "title": "Anchor positioning transforms",
-      "summary": "Anchor positioned elements take CSS transforms on their anchor elements into account.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 860,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/860"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/anchor-positioning-transforms/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 11,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 6,
-        "votes30d": 7,
-        "score7d": 5.6,
-        "score30d": 7.1
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        },
-        {
-          "date": "2026-10-06",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-06T08:19:58Z"
     },
     {
       "id": "context-fill-stroke",
@@ -14515,20 +14558,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-13",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-09-15",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -14947,9 +14976,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-16T10:11:49Z"
+      "lastActivityAt": "2026-10-17T09:45:38Z"
     },
     {
       "id": "picture-in-picture",
@@ -26186,9 +26229,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-16T10:11:49Z"
+      "lastActivityAt": "2026-10-17T09:45:37Z"
     },
     {
       "id": "iterator-join",
@@ -26371,9 +26428,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-16T10:11:48Z"
+      "lastActivityAt": "2026-10-17T09:45:36Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -28644,9 +28715,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-16T10:11:45Z"
+      "lastActivityAt": "2026-10-17T09:45:34Z"
     },
     {
       "id": "retriable-module-loading",

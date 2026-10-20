@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-19T10:05:55.834Z",
-    "staleAfter": "2026-10-21T10:05:55.834Z",
+    "generatedAt": "2026-10-20T09:31:50.937Z",
+    "staleAfter": "2026-10-22T09:31:50.937Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,20 +10,30 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-19T10:05:55.834Z"
+        "retrievedAt": "2026-10-20T09:31:50.937Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-19T10:05:55.834Z"
+        "retrievedAt": "2026-10-20T09:31:50.937Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-19T10:05:55.834Z"
+        "retrievedAt": "2026-10-20T09:31:50.937Z"
       }
     ],
-    "warnings": []
+    "warnings": [
+      "display-animation: feed votes 19 differed from GitHub 20; GitHub value used.",
+      "frame-sizing: feed votes 34 differed from GitHub 35; GitHub value used.",
+      "jpegxl: feed votes 525 differed from GitHub 527; GitHub value used.",
+      "layout-instability: feed votes 26 differed from GitHub 27; GitHub value used.",
+      "line-clamp: feed votes 59 differed from GitHub 60; GitHub value used.",
+      "random-function: feed votes 21 differed from GitHub 23; GitHub value used.",
+      "scroll-buttons: feed votes 31 differed from GitHub 32; GitHub value used.",
+      "scroll-driven-animations: feed votes 81 differed from GitHub 82; GitHub value used.",
+      "usermedia: feed votes 5 differed from GitHub 6; GitHub value used."
+    ]
   },
   "features": [
     {
@@ -48,7 +58,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 525,
+      "votes": 527,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
@@ -62,11 +72,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 525 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 527 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 7,
-        "votes30d": 7,
+        "votes7d": 9,
+        "votes30d": 9,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -637,7 +647,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4933134278",
           "createdAt": "2026-07-10T07:43:38Z",
           "body": "> simple decision\n\nThere is nothing simple about adding new media type support in browser engines.\n\n> ONE YEAR of debates\n\nThe web platform takes years to acquire new features and mature them in a way that works for as many end-users and developers as possible.\n\n> stupid questions\n\nThere are no stupid questions in this thread. Everyone is allowed to question use cases in an effort to learn more and understand the needs better.\n\n> Why are you racist against minority developers like me?\n\nThere have been no racist statements made by participants in the thread.\nThis is a technical discussion about the merits of a given image format on the web. No one made racial remarks, stereotypes, insults, or discriminatory statements. You are making an accusation that other participants are racist without any visible evidence in the thread supporting this.\n\nI am sorry that you feel unwelcome in this community. However, as our code of conduct says, we expect everyone to contribute use cases constructively. Your comment is not a use case, not developer feedback, and not an attempt to strengthen a signal. It's a personal accusation directed at another member of our community. Your comment is, at best, out of scope, and at worst a personal attack and unsupported accusation.\n\nYou have already been asked to calm down and stay on topic. You did not. I will now block you from participating in this community.",
-          "positiveReactions": 9,
+          "positiveReactions": 10,
           "classification": "excluded",
           "exclusionReason": "minimized",
           "themes": [
@@ -695,7 +705,7 @@
         },
         {
           "date": "2026-10-17",
-          "votes": 525,
+          "votes": 527,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.96,
           "workaroundBurdenRaw": 0,
@@ -925,20 +935,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-15",
-          "votes": 229,
-          "qualifiedAuthors": 2,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 87.5,
-            "useCaseEvidence": 31.4,
-            "workaroundBurden": 23.5,
-            "composite": 58.3
-          }
-        },
         {
           "date": "2026-09-16",
           "votes": 229,
@@ -1358,9 +1354,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-19",
+          "votes": 274,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.4,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-18T09:58:20Z"
+      "lastActivityAt": "2026-10-19T11:20:25Z"
     },
     {
       "id": "attr",
@@ -3895,6 +3905,149 @@
       "lastActivityAt": "2026-09-14T11:59:20Z"
     },
     {
+      "id": "layout-instability",
+      "slug": "layout-instability",
+      "title": "Layout instability",
+      "summary": "The layout-shift performance entry and LayoutShift API measures the layout stability of web pages based on movements of the elements on the page. They're used to calculate Cumulative Layout Shift (CLS), a common metric for perceived stability.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 122,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/122"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/layout-instability/",
+      "categories": [
+        "Performance"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 27,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.08,
+      "workaroundBurdenRaw": 0.5,
+      "workaroundAuthors": 1,
+      "score": {
+        "voteDemand": 53.6,
+        "useCaseEvidence": 20.9,
+        "workaroundBurden": 13.8,
+        "composite": 36.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.32,
+        "rationale": "1 distinct qualified author; 27 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 7,
+        "score7d": 10,
+        "score30d": 11.7
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFmDemg",
+          "author": "stormsson",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-4670414490",
+          "createdAt": "2026-06-10T12:55:10Z",
+          "body": "## What I want to do with this feature\n\nMeasure performance metrics on different browsers\n\n## What I'm having to do in the meantime\n\nRelying on external tools / solutions that involves a much more complex  workflow instead of just reading the data from the API",
+          "parsedGoal": "Measure performance metrics on different browsers",
+          "parsedWorkaround": "Relying on external tools / solutions that involves a much more complex workflow instead of just reading the data from the API",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "performance"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABShiYKg",
+          "author": "ryantownsend",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-5538093098",
+          "createdAt": "2026-09-04T08:54:17Z",
+          "body": "## What I want to do with this feature\n\nAccurately measure user experience across all browser engines.\n\n## What I'm having to do in the meantime\n\nReal User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently.\n\nThis isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
+          "parsedGoal": "Accurately measure user experience across all browser engines.",
+          "parsedWorkaround": "Real User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently. This isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABc4_v6w",
+          "author": "anediaz",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-6233780203",
+          "createdAt": "2026-10-17T12:17:08Z",
+          "body": "## What I want to do with this feature\n\nDetect and troubleshoot layout shift issues across all browsers.\n\nRUM platforms (I work on Datadog RUM, but Cloudflare, New Relic, and others face the same problem) use `layout-shift` entries not just to compute CLS scores, but to pinpoint *which* element shifted and *why* — that's what turns a metric into an actionable diagnostic.\n\n## What I'm having to do in the meantime\n\nLayout shift data is Chromium-only — no polyfill, nothing in WebKit or Gecko. ~20% of real user traffic produces zero layout shift data: no CLS scores, no shifted-element attribution, no way to debug.\n\nDevelopers optimizing CLS can't even verify their fixes work outside Chromium. The API exists and works well — it just needs to ship everywhere.",
+          "parsedGoal": "Detect and troubleshoot layout shift issues across all browsers. RUM platforms (I work on Datadog RUM, but Cloudflare, New Relic, and others face the same problem) use layout-shift entries not just to compute CLS scores, but to pinpoint which element shifted and why — that's what turns a metric into an actionable diagnostic.",
+          "parsedWorkaround": "Layout shift data is Chromium-only — no polyfill, nothing in WebKit or Gecko. ~20% of real user traffic produces zero layout shift data: no CLS scores, no shifted-element attribution, no way to debug. Developers optimizing CLS can't even verify their fixes work outside Chromium. The API exists and works well — it just needs to ship everywhere.",
+          "positiveReactions": 2,
+          "classification": "qualified",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "moderate",
+          "generatedSummary": "Detect and troubleshoot layout shift issues across all browsers. RUM platforms (I work on Datadog RUM, but Cloudflare, New Relic, and others face the same problem) use layout-shif…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-04",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 25,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 52.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 27,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 20.9,
+            "workaroundBurden": 13.8,
+            "composite": 36.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-17T12:17:08Z"
+    },
+    {
       "id": "text-box",
       "slug": "text-box",
       "title": "text-box",
@@ -4002,149 +4155,6 @@
       "lastActivityAt": "2026-09-03T14:34:57Z"
     },
     {
-      "id": "layout-instability",
-      "slug": "layout-instability",
-      "title": "Layout instability",
-      "summary": "The layout-shift performance entry and LayoutShift API measures the layout stability of web pages based on movements of the elements on the page. They're used to calculate Cumulative Layout Shift (CLS), a common metric for perceived stability.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 122,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/122"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/layout-instability/",
-      "categories": [
-        "Performance"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 26,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.08,
-      "workaroundBurdenRaw": 0.5,
-      "workaroundAuthors": 1,
-      "score": {
-        "voteDemand": 53,
-        "useCaseEvidence": 20.9,
-        "workaroundBurden": 13.8,
-        "composite": 35.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.32,
-        "rationale": "1 distinct qualified author; 26 issue votes; 33% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 6,
-        "score7d": 9.7,
-        "score30d": 11.4
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFmDemg",
-          "author": "stormsson",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-4670414490",
-          "createdAt": "2026-06-10T12:55:10Z",
-          "body": "## What I want to do with this feature\n\nMeasure performance metrics on different browsers\n\n## What I'm having to do in the meantime\n\nRelying on external tools / solutions that involves a much more complex  workflow instead of just reading the data from the API",
-          "parsedGoal": "Measure performance metrics on different browsers",
-          "parsedWorkaround": "Relying on external tools / solutions that involves a much more complex workflow instead of just reading the data from the API",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "performance"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABShiYKg",
-          "author": "ryantownsend",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-5538093098",
-          "createdAt": "2026-09-04T08:54:17Z",
-          "body": "## What I want to do with this feature\n\nAccurately measure user experience across all browser engines.\n\n## What I'm having to do in the meantime\n\nReal User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently.\n\nThis isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
-          "parsedGoal": "Accurately measure user experience across all browser engines.",
-          "parsedWorkaround": "Real User Monitoring platforms (like Cloudflare RUM, which I’m responsible for) have to live with the blind spot of WebKit (Safari) and Gecko (Firefox) not reporting layout shifts. We can only rely on data from Chromium which regularly performs differently. This isn’t just a performance concern: unexpected layout shifts are an accessibility concern.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABc4_v6w",
-          "author": "anediaz",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/122#issuecomment-6233780203",
-          "createdAt": "2026-10-17T12:17:08Z",
-          "body": "## What I want to do with this feature\n\nDetect and troubleshoot layout shift issues across all browsers.\n\nRUM platforms (I work on Datadog RUM, but Cloudflare, New Relic, and others face the same problem) use `layout-shift` entries not just to compute CLS scores, but to pinpoint *which* element shifted and *why* — that's what turns a metric into an actionable diagnostic.\n\n## What I'm having to do in the meantime\n\nLayout shift data is Chromium-only — no polyfill, nothing in WebKit or Gecko. ~20% of real user traffic produces zero layout shift data: no CLS scores, no shifted-element attribution, no way to debug.\n\nDevelopers optimizing CLS can't even verify their fixes work outside Chromium. The API exists and works well — it just needs to ship everywhere.",
-          "parsedGoal": "Detect and troubleshoot layout shift issues across all browsers. RUM platforms (I work on Datadog RUM, but Cloudflare, New Relic, and others face the same problem) use layout-shift entries not just to compute CLS scores, but to pinpoint which element shifted and why — that's what turns a metric into an actionable diagnostic.",
-          "parsedWorkaround": "Layout shift data is Chromium-only — no polyfill, nothing in WebKit or Gecko. ~20% of real user traffic produces zero layout shift data: no CLS scores, no shifted-element attribution, no way to debug. Developers optimizing CLS can't even verify their fixes work outside Chromium. The API exists and works well — it just needs to ship everywhere.",
-          "positiveReactions": 2,
-          "classification": "qualified",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "moderate",
-          "generatedSummary": "Detect and troubleshoot layout shift issues across all browsers. RUM platforms (I work on Datadog RUM, but Cloudflare, New Relic, and others face the same problem) use layout-shif…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-04",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 25,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 52.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        },
-        {
-          "date": "2026-10-17",
-          "votes": 26,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.08,
-          "workaroundBurdenRaw": 0.5,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 20.9,
-            "workaroundBurden": 13.8,
-            "composite": 35.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-17T12:17:08Z"
-    },
-    {
       "id": "dialog-closedby",
       "slug": "dialog-closedby",
       "title": "<dialog closedby>",
@@ -4228,27 +4238,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 34,
+      "votes": 35,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 57.2,
+        "voteDemand": 57.6,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 35.5
+        "composite": 35.8
       },
       "confidence": {
         "level": "low",
         "score": 0.34,
-        "rationale": "1 distinct qualified author; 34 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 35 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 22,
-        "votes30d": 31,
-        "score7d": 14.9,
-        "score30d": 24.4
+        "votes7d": 23,
+        "votes30d": 32,
+        "score7d": 15.2,
+        "score30d": 24.7
       },
       "comments": [
         {
@@ -4361,16 +4371,16 @@
         },
         {
           "date": "2026-10-12",
-          "votes": 34,
+          "votes": 35,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 57.2,
+            "voteDemand": 57.6,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 35.5
+            "composite": 35.8
           }
         }
       ],
@@ -4397,21 +4407,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 81,
+      "votes": 82,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 70.9,
+        "voteDemand": 71.1,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 35.4
+        "composite": 35.5
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 81 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 82 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4439,16 +4449,16 @@
       "snapshots": [
         {
           "date": "2026-08-29",
-          "votes": 81,
+          "votes": 82,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 70.9,
+            "voteDemand": 71.1,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 35.4
+            "composite": 35.5
           }
         }
       ],
@@ -4780,21 +4790,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 59,
+      "votes": 60,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 65.9,
+        "voteDemand": 66.1,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 32.9
+        "composite": 33.1
       },
       "confidence": {
         "level": "low",
         "score": 0.27,
-        "rationale": "0 distinct qualified authors; 59 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 60 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4867,16 +4877,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 59,
+          "votes": 60,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 65.9,
+            "voteDemand": 66.1,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 32.9
+            "composite": 33.1
           }
         }
       ],
@@ -7239,6 +7249,84 @@
       "lastActivityAt": "2026-10-06T18:52:29Z"
     },
     {
+      "id": "scroll-buttons",
+      "slug": "scroll-buttons",
+      "title": "::scroll-button",
+      "summary": "The ::scroll-button(<dir>) CSS pseudo-element is a focusable button which scrolls its originating scroll container element in the specified direction.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 316,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/316"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-buttons/",
+      "categories": [
+        "Scrolling"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 32,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 56.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 28.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 32 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 6,
+        "votes30d": 0,
+        "score7d": 1.6,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 32,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:43Z"
+    },
+    {
       "id": "scroll-into-view-container",
       "slug": "scroll-into-view-container",
       "title": "scrollIntoView() container",
@@ -7422,84 +7510,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:34Z"
-    },
-    {
-      "id": "scroll-buttons",
-      "slug": "scroll-buttons",
-      "title": "::scroll-button",
-      "summary": "The ::scroll-button(<dir>) CSS pseudo-element is a focusable button which scrolls its originating scroll container element in the specified direction.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 316,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/316"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-buttons/",
-      "categories": [
-        "Scrolling"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 31,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 55.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 31 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 5,
-        "votes30d": 0,
-        "score7d": 1.4,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:43Z"
     },
     {
       "id": "document-picture-in-picture",
@@ -8742,6 +8752,118 @@
       "lastActivityAt": "2026-08-14T14:49:40Z"
     },
     {
+      "id": "random-function",
+      "slug": "random-function",
+      "title": "random()",
+      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 514,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 23,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 0.7,
+        "score30d": 0.7
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABdpuo1w",
+          "author": "casparfairhall",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6284880087",
+          "createdAt": "2026-10-20T06:28:59Z",
+          "body": "## What I want to do with this feature\n\nCSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.\n\n## What I'm having to do in the meantime\n\nI'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
+          "parsedGoal": "CSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.",
+          "parsedWorkaround": "I'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "moderate"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABdq3jZQ",
+          "author": "kizu",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6286074725",
+          "createdAt": "2026-10-20T07:48:07Z",
+          "body": "## What I want to do with this feature\n\nFor improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.\n\n## What I'm having to do in the meantime\n\nAside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
+          "parsedGoal": "For improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.",
+          "parsedWorkaround": "Aside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 23,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-20T07:48:07Z"
+    },
+    {
       "id": "user-select",
       "slug": "user-select",
       "title": "user-select",
@@ -8846,20 +8968,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-16",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-09-17",
           "votes": 15,
@@ -9279,9 +9387,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-19",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-18T09:58:19Z"
+      "lastActivityAt": "2026-10-19T11:20:24Z"
     },
     {
       "id": "manifest",
@@ -9566,69 +9688,6 @@
       "lastActivityAt": "2026-09-03T14:36:33Z"
     },
     {
-      "id": "random-function",
-      "slug": "random-function",
-      "title": "random()",
-      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 514,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 21,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:36Z"
-    },
-    {
       "id": "translator",
       "slug": "translator",
       "title": "Translator",
@@ -9825,21 +9884,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 19,
+      "votes": 20,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 48.2,
+        "voteDemand": 49,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 24.1
+        "composite": 24.5
       },
       "confidence": {
         "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -9851,16 +9910,16 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 19,
+          "votes": 20,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 48.2,
+            "voteDemand": 49,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 24.1
+            "composite": 24.5
           }
         }
       ],
@@ -11950,20 +12009,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-16",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-09-17",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -12382,9 +12427,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-19",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-18T09:58:22Z"
+      "lastActivityAt": "2026-10-19T11:20:27Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14552,20 +14611,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-16",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-09-17",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -14984,9 +15029,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-19",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-18T09:58:25Z"
+      "lastActivityAt": "2026-10-19T11:20:30Z"
     },
     {
       "id": "picture-in-picture",
@@ -18177,6 +18236,84 @@
       "lastActivityAt": "2026-08-14T14:45:33Z"
     },
     {
+      "id": "usermedia",
+      "slug": "usermedia",
+      "title": "<usermedia>",
+      "summary": "The <usermedia> HTML element represents a button that, upon activation, toggles camera or microphone streams. If needed, it may prompt the user to choose whether to grant the page access to the camera and microphone.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 581,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/581"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/usermedia/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 3,
+        "score7d": 4.6,
+        "score30d": 4.6
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:18:15Z"
+    },
+    {
       "id": "web-otp",
       "slug": "web-otp",
       "title": "WebOTP",
@@ -19414,84 +19551,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:45Z"
-    },
-    {
-      "id": "usermedia",
-      "slug": "usermedia",
-      "title": "<usermedia>",
-      "summary": "The <usermedia> HTML element represents a button that, upon activation, toggles camera or microphone streams. If needed, it may prompt the user to choose whether to grant the page access to the camera and microphone.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 581,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/581"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/usermedia/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 2,
-        "votes30d": 2,
-        "score7d": 3.3,
-        "score30d": 3.3
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:18:15Z"
     },
     {
       "id": "webgpu-subgroups",
@@ -26251,9 +26310,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-19",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-18T09:58:24Z"
+      "lastActivityAt": "2026-10-19T11:20:29Z"
     },
     {
       "id": "iterator-join",
@@ -26464,9 +26537,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-19",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-18T09:58:23Z"
+      "lastActivityAt": "2026-10-19T11:20:28Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -28765,9 +28852,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-19",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-18T09:58:21Z"
+      "lastActivityAt": "2026-10-19T11:20:26Z"
     },
     {
       "id": "retriable-module-loading",

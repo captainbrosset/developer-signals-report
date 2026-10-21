@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-20T09:31:50.937Z",
-    "staleAfter": "2026-10-22T09:31:50.937Z",
+    "generatedAt": "2026-10-21T09:28:00.603Z",
+    "staleAfter": "2026-10-23T09:28:00.603Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,29 +10,26 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-20T09:31:50.937Z"
+        "retrievedAt": "2026-10-21T09:28:00.603Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-20T09:31:50.937Z"
+        "retrievedAt": "2026-10-21T09:28:00.603Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-20T09:31:50.937Z"
+        "retrievedAt": "2026-10-21T09:28:00.603Z"
       }
     ],
     "warnings": [
-      "display-animation: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "frame-sizing: feed votes 34 differed from GitHub 35; GitHub value used.",
-      "jpegxl: feed votes 525 differed from GitHub 527; GitHub value used.",
-      "layout-instability: feed votes 26 differed from GitHub 27; GitHub value used.",
-      "line-clamp: feed votes 59 differed from GitHub 60; GitHub value used.",
-      "random-function: feed votes 21 differed from GitHub 23; GitHub value used.",
-      "scroll-buttons: feed votes 31 differed from GitHub 32; GitHub value used.",
-      "scroll-driven-animations: feed votes 81 differed from GitHub 82; GitHub value used.",
-      "usermedia: feed votes 5 differed from GitHub 6; GitHub value used."
+      "corner-shape: feed votes 145 differed from GitHub 146; GitHub value used.",
+      "function: feed votes 121 differed from GitHub 122; GitHub value used.",
+      "gap-decorations: feed votes 52 differed from GitHub 53; GitHub value used.",
+      "input-date-time-month: feed votes 7 differed from GitHub 8; GitHub value used.",
+      "insertable-streams: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "random-function: feed votes 23 differed from GitHub 24; GitHub value used."
     ]
   },
   "features": [
@@ -936,20 +933,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-16",
-          "votes": 229,
-          "qualifiedAuthors": 2,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 87.5,
-            "useCaseEvidence": 31.4,
-            "workaroundBurden": 23.5,
-            "composite": 58.3
-          }
-        },
-        {
           "date": "2026-09-17",
           "votes": 231,
           "qualifiedAuthors": 3,
@@ -1368,9 +1351,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 274,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.4,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-19T11:20:25Z"
+      "lastActivityAt": "2026-10-20T10:28:29Z"
     },
     {
       "id": "attr",
@@ -1785,13 +1782,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 145,
+      "votes": 146,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 80.2,
+        "voteDemand": 80.3,
         "useCaseEvidence": 40.8,
         "workaroundBurden": 0,
         "composite": 54.4
@@ -1799,11 +1796,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.53,
-        "rationale": "3 distinct qualified authors; 145 issue votes; 50% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 146 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 11,
-        "votes30d": 16,
+        "votes7d": 12,
+        "votes30d": 17,
         "score7d": 3.4,
         "score30d": 15.3
       },
@@ -1817,7 +1814,7 @@
           "body": "## What I want to do with this feature\n\nBetter HUD-style UI elements.\n\n## What I'm having to do in the meantime\n\nSVG shapes for containers.",
           "parsedGoal": "Better HUD-style UI elements.",
           "parsedWorkaround": "SVG shapes for containers.",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -1952,13 +1949,13 @@
         },
         {
           "date": "2026-10-04",
-          "votes": 145,
+          "votes": 146,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 80.2,
+            "voteDemand": 80.3,
             "useCaseEvidence": 40.8,
             "workaroundBurden": 0,
             "composite": 54.4
@@ -2098,21 +2095,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 121,
+      "votes": 122,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 77.3,
+        "voteDemand": 77.4,
         "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
-        "composite": 49.9
+        "composite": 50
       },
       "confidence": {
         "level": "medium",
         "score": 0.43,
-        "rationale": "2 distinct qualified authors; 121 issue votes; 22% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 122 issue votes; 22% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2294,16 +2291,16 @@
         },
         {
           "date": "2026-09-09",
-          "votes": 121,
+          "votes": 122,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 77.3,
+            "voteDemand": 77.4,
             "useCaseEvidence": 32.2,
             "workaroundBurden": 0,
-            "composite": 49.9
+            "composite": 50
           }
         }
       ],
@@ -4915,29 +4912,49 @@
         "firefox",
         "safari"
       ],
-      "votes": 52,
+      "votes": 53,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 63.9,
+        "voteDemand": 64.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 31.9
+        "composite": 32.1
       },
       "confidence": {
         "level": "low",
         "score": 0.26,
-        "rationale": "0 distinct qualified authors; 52 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 53 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.2,
+        "score30d": 0.2
       },
-      "comments": [],
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABd1fqyw",
+          "author": "scardusty",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/362#issuecomment-6297217739",
+          "createdAt": "2026-10-20T17:39:50Z",
+          "body": "## What I want to do with this feature\n\nImmediately I think of `grid` and `table` inner borders.\n- Add inner borders to tables that have `border-radius` (since they cannot have `border-collapse: collapsed`). \n- And grids that look like border-collapsed tables, such as a calendar's borders.\n- Gap color! \n- The potential for attractive plaid CSS. \n\n## What I'm having to do in the meantime\n\nFor grids and tables, I have been using a background color on the parent, in combo with differently colored cells/child elements to simulate a gap-decoration kind of thing.\n\n**The problem:** If there's not a perfect number of child elements to fill the grid/table, the leftover space has the parent `background`. A blank area exposing the background workaround. The other thing I _could_ do (possibly? if the stars are aligned) is manually assign borders to sides of the child elements with lots of `:last-child` etc. and content-dependent conditions, or something with pseudo elements. I think everyone hates doing that, and it's not reasonable on a large scale.\n\nI read about `rule` on mdn docs and it's the most excited I've been about a new CSS feature in awhile. It would be a great solution.\nIdeally, the `rule` would not continue through the empty space. \n\nI think it's a great idea and I have no complaints about the syntax. I like the `repeat()` function involvement.\nBut yeah, when styling what is essentially a rule or gap, it would be great to be able to target it instead of using a background hack.",
+          "parsedGoal": "Immediately I think of grid and table inner borders. - Add inner borders to tables that have border-radius (since they cannot have border-collapse: collapsed). - And grids that look like border-collapsed tables, such as a calendar's borders. - Gap color! - The potential for attractive plaid CSS.",
+          "parsedWorkaround": "For grids and tables, I have been using a background color on the parent, in combo with differently colored cells/child elements to simulate a gap-decoration kind of thing. The problem: If there's not a perfect number of child elements to fill the grid/table, the leftover space has the parent background. A blank area exposing the background workaround. The other thing I could do (possibly? if the stars are aligned) is manually assign borders to sides of the child elements with lots of :last-child etc. and content-dependent conditions, or something with pseudo elements. I think everyone hates doing that, and it's not reasonable on a large scale. I read about rule on mdn docs and it's the most excited I've been about a new CSS feature in awhile. It would be a great solution. Ideally, the rule would not continue through the empty space. I think it's a great idea and I have no complaints about the syntax. I like the repeat() function involvement. But yeah, when styling what is essentially a rule or gap, it would be great to be able to target it instead of using a background hack.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design",
+            "date & time",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
       "snapshots": [
         {
           "date": "2026-09-03",
@@ -4952,9 +4969,23 @@
             "workaroundBurden": 0,
             "composite": 31.9
           }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 53,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 64.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 32.1
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:35:49Z"
+      "lastActivityAt": "2026-10-20T17:39:50Z"
     },
     {
       "id": "edit-context",
@@ -6015,9 +6046,9 @@
         "composite": 29.9
       },
       "confidence": {
-        "level": "medium",
-        "score": 0.43,
-        "rationale": "1 distinct qualified author; 16 issue votes; 100% of reviewed comments qualified."
+        "level": "low",
+        "score": 0.33,
+        "rationale": "1 distinct qualified author; 16 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -6041,6 +6072,23 @@
           "workaroundSeverity": "none",
           "generatedSummary": "I needed this when trying to build a collaborative game via WebRTC using QR codes for signaling. The flow needed two QR codes, but using the phone camera to scan each meant a whol…",
           "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABeDXERw",
+          "author": "MrCheatEugene",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-6311756871",
+          "createdAt": "2026-10-21T08:38:57Z",
+          "body": "## What I want to do with this feature\n\nI'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. \nI want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. \nOr, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. \n\nOn mobile systems, it would make a great api.\nOn desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox. \n\n## What I'm having to do in the meantime\n\nI have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively \nWithout it, I have to import additional dependencies, which work really slow. \n\nI have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow. \n",
+          "parsedGoal": "I'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. I want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. Or, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. On mobile systems, it would make a great api. On desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox.",
+          "parsedWorkaround": "I have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively Without it, I have to import additional dependencies, which work really slow. I have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -6057,9 +6105,23 @@
             "workaroundBurden": 0,
             "composite": 29.9
           }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 16,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 29.9
+          }
         }
       ],
-      "lastActivityAt": "2026-08-27T13:13:33Z"
+      "lastActivityAt": "2026-10-21T08:38:57Z"
     },
     {
       "id": "meta-theme-color",
@@ -8527,6 +8589,118 @@
       "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
+      "id": "random-function",
+      "slug": "random-function",
+      "title": "random()",
+      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 514,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 24,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 24 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 3,
+        "score7d": 1,
+        "score30d": 1
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABdpuo1w",
+          "author": "casparfairhall",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6284880087",
+          "createdAt": "2026-10-20T06:28:59Z",
+          "body": "## What I want to do with this feature\n\nCSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.\n\n## What I'm having to do in the meantime\n\nI'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
+          "parsedGoal": "CSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.",
+          "parsedWorkaround": "I'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "moderate"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABdq3jZQ",
+          "author": "kizu",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6286074725",
+          "createdAt": "2026-10-20T07:48:07Z",
+          "body": "## What I want to do with this feature\n\nFor improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.\n\n## What I'm having to do in the meantime\n\nAside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
+          "parsedGoal": "For improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.",
+          "parsedWorkaround": "Aside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 24,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-20T07:48:07Z"
+    },
+    {
       "id": "speech-recognition",
       "slug": "speech-recognition",
       "title": "Speech recognition",
@@ -8752,118 +8926,6 @@
       "lastActivityAt": "2026-08-14T14:49:40Z"
     },
     {
-      "id": "random-function",
-      "slug": "random-function",
-      "title": "random()",
-      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 514,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 23,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 51.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 2,
-        "votes30d": 2,
-        "score7d": 0.7,
-        "score30d": 0.7
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABdpuo1w",
-          "author": "casparfairhall",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6284880087",
-          "createdAt": "2026-10-20T06:28:59Z",
-          "body": "## What I want to do with this feature\n\nCSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.\n\n## What I'm having to do in the meantime\n\nI'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
-          "parsedGoal": "CSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.",
-          "parsedWorkaround": "I'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "moderate"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABdq3jZQ",
-          "author": "kizu",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6286074725",
-          "createdAt": "2026-10-20T07:48:07Z",
-          "body": "## What I want to do with this feature\n\nFor improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.\n\n## What I'm having to do in the meantime\n\nAside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
-          "parsedGoal": "For improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.",
-          "parsedWorkaround": "Aside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        },
-        {
-          "date": "2026-10-20",
-          "votes": 23,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 51.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-20T07:48:07Z"
-    },
-    {
       "id": "user-select",
       "slug": "user-select",
       "title": "user-select",
@@ -8968,20 +9030,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-17",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-09-18",
           "votes": 15,
@@ -9401,9 +9449,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-19T11:20:24Z"
+      "lastActivityAt": "2026-10-20T10:28:28Z"
     },
     {
       "id": "manifest",
@@ -12009,20 +12071,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-17",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-09-18",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12441,9 +12489,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-19T11:20:27Z"
+      "lastActivityAt": "2026-10-20T10:28:31Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14608,22 +14670,24 @@
         "score7d": 0.8,
         "score30d": 7.4
       },
-      "comments": [],
-      "snapshots": [
+      "comments": [
         {
-          "date": "2026-09-17",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
+          "id": "IC_kwDOLb9kWM8AAAABduE-0g",
+          "author": "lanai1986v-netizen",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/919#issuecomment-6289440466",
+          "createdAt": "2026-10-20T11:05:19Z",
+          "body": "https://github.com/web-platform-dx/developer-signals/issues/919#issue-5389112553",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
         {
           "date": "2026-09-18",
           "votes": 3,
@@ -15043,9 +15107,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-19T11:20:30Z"
+      "lastActivityAt": "2026-10-20T13:29:23Z"
     },
     {
       "id": "picture-in-picture",
@@ -16170,6 +16248,65 @@
       "lastActivityAt": "2026-08-14T14:45:02Z"
     },
     {
+      "id": "input-date-time-month",
+      "slug": "input-date-time-month",
+      "title": "<input type=\"month\">",
+      "summary": "Developer demand and implementation evidence for Input Date Time Month.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 925,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/925"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-month/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 8,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 17.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:08Z"
+    },
+    {
       "id": "page-lifecycle",
       "slug": "page-lifecycle",
       "title": "Page lifecycle",
@@ -16780,65 +16917,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:47:52Z"
-    },
-    {
-      "id": "input-date-time-month",
-      "slug": "input-date-time-month",
-      "title": "<input type=\"month\">",
-      "summary": "Developer demand and implementation evidence for Input Date Time Month.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 925,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/925"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-month/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 7,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 16.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:08Z"
     },
     {
       "id": "mask-border",
@@ -21918,6 +21996,69 @@
       "lastActivityAt": "2026-08-14T14:46:54Z"
     },
     {
+      "id": "insertable-streams",
+      "slug": "insertable-streams",
+      "title": "Insertable streams for MediaStreamTrack",
+      "summary": "The MediaStreamTrackProcessor and MediaStreamTrackGenerator APIs modify the contents of a media track for merging streams, applying real-time effects like funny hats, and content overlays.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 251,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/251"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/insertable-streams/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:48:17Z"
+    },
+    {
       "id": "media-session",
       "slug": "media-session",
       "title": "Media session",
@@ -23730,69 +23871,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:17Z"
-    },
-    {
-      "id": "insertable-streams",
-      "slug": "insertable-streams",
-      "title": "Insertable streams for MediaStreamTrack",
-      "summary": "The MediaStreamTrackProcessor and MediaStreamTrackGenerator APIs modify the contents of a media track for merging streams, applying real-time effects like funny hats, and content overlays.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 251,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/251"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/insertable-streams/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:48:17Z"
     },
     {
       "id": "link-rel-expect",
@@ -26324,9 +26402,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-19T11:20:29Z"
+      "lastActivityAt": "2026-10-20T10:28:33Z"
     },
     {
       "id": "iterator-join",
@@ -26551,9 +26643,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-19T11:20:28Z"
+      "lastActivityAt": "2026-10-20T10:28:32Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -28866,9 +28972,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-19T11:20:26Z"
+      "lastActivityAt": "2026-10-20T10:28:30Z"
     },
     {
       "id": "retriable-module-loading",

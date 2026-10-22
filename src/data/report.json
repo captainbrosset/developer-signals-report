@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-21T09:28:00.603Z",
-    "staleAfter": "2026-10-23T09:28:00.603Z",
+    "generatedAt": "2026-10-22T09:31:02.337Z",
+    "staleAfter": "2026-10-24T09:31:02.337Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,26 +10,26 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-21T09:28:00.603Z"
+        "retrievedAt": "2026-10-22T09:31:02.337Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-21T09:28:00.603Z"
+        "retrievedAt": "2026-10-22T09:31:02.337Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-21T09:28:00.603Z"
+        "retrievedAt": "2026-10-22T09:31:02.337Z"
       }
     ],
     "warnings": [
-      "corner-shape: feed votes 145 differed from GitHub 146; GitHub value used.",
-      "function: feed votes 121 differed from GitHub 122; GitHub value used.",
-      "gap-decorations: feed votes 52 differed from GitHub 53; GitHub value used.",
-      "input-date-time-month: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "insertable-streams: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "random-function: feed votes 23 differed from GitHub 24; GitHub value used."
+      "app-protocol-handlers: feed votes 6 differed from GitHub 7; GitHub value used.",
+      "calc-size: feed votes 61 differed from GitHub 62; GitHub value used.",
+      "corner-shape: feed votes 146 differed from GitHub 147; GitHub value used.",
+      "device-posture: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "jpegxl: feed votes 527 differed from GitHub 528; GitHub value used.",
+      "temporal: feed votes 274 differed from GitHub 275; GitHub value used."
     ]
   },
   "features": [
@@ -55,7 +55,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 527,
+      "votes": 528,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
@@ -69,11 +69,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 527 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 528 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 9,
-        "votes30d": 9,
+        "votes7d": 10,
+        "votes30d": 10,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -702,7 +702,7 @@
         },
         {
           "date": "2026-10-17",
-          "votes": 527,
+          "votes": 528,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.96,
           "workaroundBurdenRaw": 0,
@@ -737,7 +737,7 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 274,
+      "votes": 275,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
@@ -751,13 +751,13 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 274 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 275 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 2,
-        "votes30d": 41,
-        "score7d": 0.1,
-        "score30d": 1.3
+        "votes30d": 38,
+        "score7d": 0,
+        "score30d": 1.2
       },
       "comments": [
         {
@@ -932,20 +932,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-17",
-          "votes": 231,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 87.6,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.2
-          }
-        },
         {
           "date": "2026-09-18",
           "votes": 233,
@@ -1365,9 +1351,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 275,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.4,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-20T10:28:29Z"
+      "lastActivityAt": "2026-10-21T10:39:59Z"
     },
     {
       "id": "attr",
@@ -1782,27 +1782,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 146,
+      "votes": 147,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 80.3,
+        "voteDemand": 80.4,
         "useCaseEvidence": 40.8,
         "workaroundBurden": 0,
-        "composite": 54.4
+        "composite": 54.5
       },
       "confidence": {
         "level": "medium",
         "score": 0.53,
-        "rationale": "3 distinct qualified authors; 146 issue votes; 50% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 147 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 12,
-        "votes30d": 17,
-        "score7d": 3.4,
-        "score30d": 15.3
+        "votes7d": 13,
+        "votes30d": 18,
+        "score7d": 3.5,
+        "score30d": 15.4
       },
       "comments": [
         {
@@ -1949,16 +1949,16 @@
         },
         {
           "date": "2026-10-04",
-          "votes": 146,
+          "votes": 147,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 80.3,
+            "voteDemand": 80.4,
             "useCaseEvidence": 40.8,
             "workaroundBurden": 0,
-            "composite": 54.4
+            "composite": 54.5
           }
         }
       ],
@@ -2774,6 +2774,118 @@
       "lastActivityAt": "2026-09-03T14:34:29Z"
     },
     {
+      "id": "calc-size",
+      "slug": "calc-size",
+      "title": "calc-size()",
+      "summary": "The calc-size() CSS function computes mathematical expressions that include height and width keyword values, for example calc-size(fit-content, size / 2). Not to be confused with the calc() CSS function, which cannot use keyword values.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 252,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/252"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/calc-size/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 62,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 66.6,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 40.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.41,
+        "rationale": "1 distinct qualified author; 62 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 15,
+        "votes30d": 0,
+        "score7d": 2.2,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7o3z9Q",
+          "author": "aarfing",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-3906944848",
+          "createdAt": "2026-02-16T07:51:23Z",
+          "body": "## What I want to do with this feature\n\nI want to be able to animate a `<details>` being opened, not knowing the height of the content in it.\n\n## What I'm having to do in the meantime\n\nIt's not a blocker, but I have to use a fair amount of javascript and animate `max-height` to do something pretty basic.",
+          "parsedGoal": "I want to be able to animate a <details> being opened, not knowing the height of the content in it.",
+          "parsedWorkaround": "It's not a blocker, but I have to use a fair amount of javascript and animate max-height to do something pretty basic.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I want to be able to animate a <details> being opened, not knowing the height of the content in it.",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUxO9Jw",
+          "author": "davewhitley",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-5688769831",
+          "createdAt": "2026-09-15T22:09:27Z",
+          "body": "## What I want to do with this feature\n\nAccordion height opening with animation, with just css.\n\n## What I'm having to do in the meantime\n\nI don't want to use JS for this.",
+          "parsedGoal": "Accordion height opening with animation, with just css.",
+          "parsedWorkaround": "I don't want to use JS for this.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 47,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 62.3,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 38.1
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 62,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 66.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 40.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T22:09:27Z"
+    },
+    {
       "id": "speculation-rules",
       "slug": "speculation-rules",
       "title": "Speculation rules",
@@ -2920,118 +3032,6 @@
         }
       ],
       "lastActivityAt": "2026-10-14T13:26:33Z"
-    },
-    {
-      "id": "calc-size",
-      "slug": "calc-size",
-      "title": "calc-size()",
-      "summary": "The calc-size() CSS function computes mathematical expressions that include height and width keyword values, for example calc-size(fit-content, size / 2). Not to be confused with the calc() CSS function, which cannot use keyword values.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 252,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/252"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/calc-size/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 61,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 66.4,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 0,
-        "composite": 40.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.41,
-        "rationale": "1 distinct qualified author; 61 issue votes; 50% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 14,
-        "votes30d": 0,
-        "score7d": 2,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7o3z9Q",
-          "author": "aarfing",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-3906944848",
-          "createdAt": "2026-02-16T07:51:23Z",
-          "body": "## What I want to do with this feature\n\nI want to be able to animate a `<details>` being opened, not knowing the height of the content in it.\n\n## What I'm having to do in the meantime\n\nIt's not a blocker, but I have to use a fair amount of javascript and animate `max-height` to do something pretty basic.",
-          "parsedGoal": "I want to be able to animate a <details> being opened, not knowing the height of the content in it.",
-          "parsedWorkaround": "It's not a blocker, but I have to use a fair amount of javascript and animate max-height to do something pretty basic.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I want to be able to animate a <details> being opened, not knowing the height of the content in it.",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABUxO9Jw",
-          "author": "davewhitley",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/252#issuecomment-5688769831",
-          "createdAt": "2026-09-15T22:09:27Z",
-          "body": "## What I want to do with this feature\n\nAccordion height opening with animation, with just css.\n\n## What I'm having to do in the meantime\n\nI don't want to use JS for this.",
-          "parsedGoal": "Accordion height opening with animation, with just css.",
-          "parsedWorkaround": "I don't want to use JS for this.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 47,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 62.3,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 38.1
-          }
-        },
-        {
-          "date": "2026-09-15",
-          "votes": 61,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 66.4,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 40.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T22:09:27Z"
     },
     {
       "id": "filter-function",
@@ -6082,7 +6082,7 @@
           "body": "## What I want to do with this feature\n\nI'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. \nI want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. \nOr, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. \n\nOn mobile systems, it would make a great api.\nOn desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox. \n\n## What I'm having to do in the meantime\n\nI have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively \nWithout it, I have to import additional dependencies, which work really slow. \n\nI have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow. \n",
           "parsedGoal": "I'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. I want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. Or, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. On mobile systems, it would make a great api. On desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox.",
           "parsedWorkaround": "I have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively Without it, I have to import additional dependencies, which work really slow. I have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow.",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -9023,27 +9023,13 @@
         "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
+        "votes7d": 0,
         "votes30d": 7,
-        "score7d": 0.3,
+        "score7d": 0,
         "score30d": 2.9
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-09-19",
           "votes": 15,
@@ -9463,9 +9449,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-20T10:28:28Z"
+      "lastActivityAt": "2026-10-21T10:39:58Z"
     },
     {
       "id": "manifest",
@@ -12071,20 +12071,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-18",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-09-19",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12503,9 +12489,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-20T10:28:31Z"
+      "lastActivityAt": "2026-10-21T10:40:01Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14665,9 +14665,9 @@
         "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
+        "votes7d": 0,
         "votes30d": 6,
-        "score7d": 0.8,
+        "score7d": 0,
         "score30d": 7.4
       },
       "comments": [
@@ -14688,20 +14688,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
         {
           "date": "2026-09-19",
           "votes": 3,
@@ -15121,9 +15107,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-20T13:29:23Z"
+      "lastActivityAt": "2026-10-21T10:40:04Z"
     },
     {
       "id": "picture-in-picture",
@@ -16535,6 +16535,68 @@
       "lastActivityAt": "2026-09-21T05:18:25Z"
     },
     {
+      "id": "app-protocol-handlers",
+      "slug": "app-protocol-handlers",
+      "title": "Protocol handlers",
+      "summary": "The protocol_handlers web app manifest member registers an installed web app as a handler for a specific protocol. When a user follows a link with the specified protocol, the installed app opens the link.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 157,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/157"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-protocol-handlers/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 7,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 33.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 16.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:11Z"
+    },
+    {
       "id": "battery",
       "slug": "battery",
       "title": "Battery status",
@@ -17462,68 +17524,6 @@
         }
       ],
       "lastActivityAt": "2026-09-15T14:58:50Z"
-    },
-    {
-      "id": "app-protocol-handlers",
-      "slug": "app-protocol-handlers",
-      "title": "Protocol handlers",
-      "summary": "The protocol_handlers web app manifest member registers an installed web app as a handler for a specific protocol. When a user follows a link with the specified protocol, the installed app opens the link.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 157,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/157"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-protocol-handlers/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 6,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 31.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 15.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.13,
-        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 6,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 15.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:11Z"
     },
     {
       "id": "blocking-render",
@@ -21487,6 +21487,68 @@
       "lastActivityAt": "2026-08-26T12:09:03Z"
     },
     {
+      "id": "device-posture",
+      "slug": "device-posture",
+      "title": "Device posture",
+      "summary": "The device posture API and the device-posture CSS media feature reflect the physical posture of a device, such as whether a foldable device is folded or unfolded.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 270,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/270"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/device-posture/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:48:34Z"
+    },
+    {
       "id": "display-ruby",
       "slug": "display-ruby",
       "title": "display: ruby",
@@ -23483,68 +23545,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:44:56Z"
-    },
-    {
-      "id": "device-posture",
-      "slug": "device-posture",
-      "title": "Device posture",
-      "summary": "The device posture API and the device-posture CSS media feature reflect the physical posture of a device, such as whether a foldable device is folded or unfolded.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 270,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/270"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/device-posture/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:48:34Z"
     },
     {
       "id": "early-data",
@@ -26416,9 +26416,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-20T10:28:33Z"
+      "lastActivityAt": "2026-10-21T10:40:03Z"
     },
     {
       "id": "iterator-join",
@@ -26657,9 +26671,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-20T10:28:32Z"
+      "lastActivityAt": "2026-10-21T10:40:02Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -28986,9 +29014,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-20T10:28:30Z"
+      "lastActivityAt": "2026-10-21T10:40:00Z"
     },
     {
       "id": "retriable-module-loading",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-23T09:26:54.186Z",
-    "staleAfter": "2026-10-25T09:26:54.186Z",
+    "generatedAt": "2026-10-24T08:58:33.296Z",
+    "staleAfter": "2026-10-26T08:58:33.296Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,24 +10,26 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-23T09:26:54.186Z"
+        "retrievedAt": "2026-10-24T08:58:33.296Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-23T09:26:54.186Z"
+        "retrievedAt": "2026-10-24T08:58:33.296Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-23T09:26:54.186Z"
+        "retrievedAt": "2026-10-24T08:58:33.296Z"
       }
     ],
     "warnings": [
-      "customizable-select: feed votes 262 differed from GitHub 263; GitHub value used.",
-      "loading-lazy-media: feed votes 51 differed from GitHub 52; GitHub value used.",
-      "temporal: feed votes 275 differed from GitHub 276; GitHub value used.",
-      "web-midi: feed votes 15 differed from GitHub 16; GitHub value used."
+      "audiolistener: feed votes 3 differed from GitHub 4; GitHub value used.",
+      "calc-size: feed votes 62 differed from GitHub 63; GitHub value used.",
+      "html-streaming-setters: feed votes 3 differed from GitHub 2; GitHub value used.",
+      "jpegxl: feed votes 528 differed from GitHub 529; GitHub value used.",
+      "supports-named-feature: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "web-midi: feed votes 16 differed from GitHub 17; GitHub value used."
     ]
   },
   "features": [
@@ -53,7 +55,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 528,
+      "votes": 529,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
@@ -67,11 +69,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 528 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 529 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 10,
-        "votes30d": 10,
+        "votes7d": 11,
+        "votes30d": 11,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -700,7 +702,7 @@
         },
         {
           "date": "2026-10-17",
-          "votes": 528,
+          "votes": 529,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.96,
           "workaroundBurdenRaw": 0,
@@ -930,20 +932,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-19",
-          "votes": 233,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 87.8,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.3
-          }
-        },
         {
           "date": "2026-09-20",
           "votes": 233,
@@ -1363,9 +1351,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 276,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.5,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-22T10:42:27Z"
+      "lastActivityAt": "2026-10-23T10:34:33Z"
     },
     {
       "id": "attr",
@@ -2792,27 +2794,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 62,
+      "votes": 63,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 66.6,
+        "voteDemand": 66.9,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 40.3
+        "composite": 40.4
       },
       "confidence": {
         "level": "low",
         "score": 0.38,
-        "rationale": "1 distinct qualified author; 62 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 63 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.1,
+        "score30d": 0.1
       },
       "comments": [
         {
@@ -2897,16 +2899,16 @@
         },
         {
           "date": "2026-10-23",
-          "votes": 62,
+          "votes": 63,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 66.6,
+            "voteDemand": 66.9,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 40.3
+            "composite": 40.4
           }
         }
       ],
@@ -5843,6 +5845,146 @@
       "lastActivityAt": "2026-09-19T15:49:25Z"
     },
     {
+      "id": "web-midi",
+      "slug": "web-midi",
+      "title": "Web MIDI",
+      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 50,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 17,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 46.5,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 30.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.3,
+        "rationale": "1 distinct qualified author; 17 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 6,
+        "score7d": 0.5,
+        "score30d": 10.2
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
+          "author": "pitrackster",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
+          "createdAt": "2026-08-25T07:16:48Z",
+          "body": "## What I want to do with this feature\n\nFirefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "parsedGoal": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. I want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABWtCQ9A",
+          "author": "Jaefae",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332",
+          "createdAt": "2026-09-24T17:04:21Z",
+          "body": "## What I want to do with this feature\nI'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.\n## What I'm having to do in the meantime\nAs of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
+          "parsedGoal": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
+          "parsedWorkaround": "As of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the app…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABe6qRcw",
+          "author": "dalingux",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6369743219",
+          "createdAt": "2026-10-23T16:32:35Z",
+          "body": "## What I want to do with this feature\n\nAs a Linux user it's a nonsense to use another browser than firefox, now more and more synth can  be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI)\nThanks.",
+          "parsedGoal": "As a Linux user it's a nonsense to use another browser than firefox, now more and more synth can be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI) Thanks.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-25",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 16,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 29.7
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 17,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 46.5,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 30.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-23T16:32:36Z"
+    },
+    {
       "id": "heading-selectors",
       "slug": "heading-selectors",
       "title": "Heading pseudo-classes",
@@ -6545,116 +6687,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:43Z"
-    },
-    {
-      "id": "web-midi",
-      "slug": "web-midi",
-      "title": "Web MIDI",
-      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 50,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 16,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 45.6,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 0,
-        "composite": 29.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.33,
-        "rationale": "1 distinct qualified author; 16 issue votes; 50% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 5,
-        "votes30d": 5,
-        "score7d": 9.7,
-        "score30d": 9.7
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
-          "author": "pitrackster",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
-          "createdAt": "2026-08-25T07:16:48Z",
-          "body": "## What I want to do with this feature\n\nFirefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
-          "parsedGoal": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. I want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABWtCQ9A",
-          "author": "Jaefae",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332",
-          "createdAt": "2026-09-24T17:04:21Z",
-          "body": "## What I want to do with this feature\nI'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.\n## What I'm having to do in the meantime\nAs of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
-          "parsedGoal": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
-          "parsedWorkaround": "As of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the app…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-25",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        },
-        {
-          "date": "2026-09-25",
-          "votes": 16,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 29.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-25T07:04:27Z"
     },
     {
       "id": "show-picker-input",
@@ -9058,20 +9090,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-20",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
-        {
           "date": "2026-09-21",
           "votes": 15,
           "qualifiedAuthors": 0,
@@ -9490,9 +9508,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-22T10:42:26Z"
+      "lastActivityAt": "2026-10-23T10:34:32Z"
     },
     {
       "id": "manifest",
@@ -12098,20 +12130,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-20",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-09-21",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12530,9 +12548,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-22T10:42:29Z"
+      "lastActivityAt": "2026-10-23T10:34:35Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14716,20 +14748,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-20",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-09-21",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15148,9 +15166,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-22T10:42:32Z"
+      "lastActivityAt": "2026-10-23T10:34:38Z"
     },
     {
       "id": "picture-in-picture",
@@ -19784,6 +19816,67 @@
       "lastActivityAt": "2026-08-14T14:50:20Z"
     },
     {
+      "id": "audiolistener",
+      "slug": "audiolistener",
+      "title": "AudioListener",
+      "summary": "An AudioListener object represents the virtual position and orientation of a person relative to sound sources, to spatialize audio in a Web Audio context.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 499,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/499"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/audiolistener/",
+      "categories": [
+        "Web audio"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 4,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 12.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.1,
+        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:05Z"
+    },
+    {
       "id": "capture-stream-audio-video",
       "slug": "capture-stream-audio-video",
       "title": "captureStream() for <audio> and <video>",
@@ -20816,67 +20909,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:46Z"
-    },
-    {
-      "id": "audiolistener",
-      "slug": "audiolistener",
-      "title": "AudioListener",
-      "summary": "An AudioListener object represents the virtual position and orientation of a person relative to sound sources, to spatialize audio in a Web Audio context.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 499,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/499"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/audiolistener/",
-      "categories": [
-        "Web audio"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:05Z"
     },
     {
       "id": "baseline-source",
@@ -21948,79 +21980,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:10Z"
-    },
-    {
-      "id": "html-streaming-setters",
-      "slug": "html-streaming-setters",
-      "title": "HTML streaming setters",
-      "summary": "Developer demand and implementation evidence for Html Streaming Setters.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 931,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/931"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/html-streaming-setters/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 2,
-        "votes30d": 0,
-        "score7d": 5.5,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
-          "date": "2026-09-26",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-26T10:21:00Z"
     },
     {
       "id": "ink",
@@ -23898,6 +23857,79 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:17Z"
+    },
+    {
+      "id": "html-streaming-setters",
+      "slug": "html-streaming-setters",
+      "title": "HTML streaming setters",
+      "summary": "Developer demand and implementation evidence for Html Streaming Setters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 931,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/931"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/html-streaming-setters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 2,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 8.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.07,
+        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 3.2,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        },
+        {
+          "date": "2026-09-26",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-26T10:21:00Z"
     },
     {
       "id": "link-rel-expect",
@@ -26471,9 +26503,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-22T10:42:31Z"
+      "lastActivityAt": "2026-10-23T10:34:37Z"
     },
     {
       "id": "iterator-join",
@@ -26740,9 +26786,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-22T10:42:30Z"
+      "lastActivityAt": "2026-10-23T10:34:36Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -27805,6 +27865,65 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:31Z"
+    },
+    {
+      "id": "supports-named-feature",
+      "slug": "supports-named-feature",
+      "title": "named-feature()",
+      "summary": "Developer demand and implementation evidence for Supports Named Feature.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 943,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/943"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/supports-named-feature/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-10-06",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-06T08:20:01Z"
     },
     {
       "id": "text-autospace",
@@ -29097,9 +29216,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-22T10:42:28Z"
+      "lastActivityAt": "2026-10-23T10:34:34Z"
     },
     {
       "id": "retriable-module-loading",
@@ -29218,65 +29351,6 @@
         }
       ],
       "lastActivityAt": "2026-10-14T07:24:31Z"
-    },
-    {
-      "id": "supports-named-feature",
-      "slug": "supports-named-feature",
-      "title": "named-feature()",
-      "summary": "Developer demand and implementation evidence for Supports Named Feature.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 943,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/943"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/supports-named-feature/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-10-06",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-06T08:20:01Z"
     },
     {
       "id": "symbols-function",

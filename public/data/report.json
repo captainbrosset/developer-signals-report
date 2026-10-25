@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-24T08:58:33.296Z",
-    "staleAfter": "2026-10-26T08:58:33.296Z",
+    "generatedAt": "2026-10-25T09:15:14.632Z",
+    "staleAfter": "2026-10-27T09:15:14.632Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,26 +10,29 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-24T08:58:33.296Z"
+        "retrievedAt": "2026-10-25T09:15:14.632Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-24T08:58:33.296Z"
+        "retrievedAt": "2026-10-25T09:15:14.632Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-24T08:58:33.296Z"
+        "retrievedAt": "2026-10-25T09:15:14.632Z"
       }
     ],
     "warnings": [
-      "audiolistener: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "calc-size: feed votes 62 differed from GitHub 63; GitHub value used.",
-      "html-streaming-setters: feed votes 3 differed from GitHub 2; GitHub value used.",
-      "jpegxl: feed votes 528 differed from GitHub 529; GitHub value used.",
-      "supports-named-feature: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "web-midi: feed votes 16 differed from GitHub 17; GitHub value used."
+      "alignment-baseline: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "calc-size: feed votes 63 differed from GitHub 64; GitHub value used.",
+      "customizable-select: feed votes 263 differed from GitHub 264; GitHub value used.",
+      "jpegxl: feed votes 530 differed from GitHub 531; GitHub value used.",
+      "random-function: feed votes 24 differed from GitHub 25; GitHub value used.",
+      "reading-flow: feed votes 25 differed from GitHub 26; GitHub value used.",
+      "viewport-segments: feed votes 4 differed from GitHub 5; GitHub value used.",
+      "web-otp: feed votes 6 differed from GitHub 7; GitHub value used.",
+      "webgpu: feed votes 71 differed from GitHub 72; GitHub value used."
     ]
   },
   "features": [
@@ -55,7 +58,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 529,
+      "votes": 531,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
@@ -69,11 +72,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 529 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 531 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 11,
-        "votes30d": 11,
+        "votes7d": 13,
+        "votes30d": 13,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -85,7 +88,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3174271737",
           "createdAt": "2025-08-11T11:10:51Z",
           "body": "Why is it even a question? This is the best possible data format for lossless compressed images.",
-          "positiveReactions": 48,
+          "positiveReactions": 49,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -659,7 +662,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4935032653",
           "createdAt": "2026-07-10T11:58:43Z",
           "body": "@jakearchibald AVIF is definitely working well for us! From [my research](https://wagtail.org/blog/40-smaller-images-same-quality/) it’s the best image format for the majority of our users right now. That said, I haven’t done a comparison of JXL vs. AVIF myself but I trust the [10 to 15% improvement reported by Cloudinary](https://cloudinary.com/blog/the-case-for-jpeg-xl) on their [CID22 dataset](https://cloudinary.com/labs/cid22). And from what I read the improvements should be bigger for higher-res images, that are relevant to a subset of our users in the GLAM sector. I expect JPEG XL’s recompression feature is also great in the CMS world, as it’s one less thing for our users to worry about, though here as well I haven’t actually measured the exact improvement in our use cases.\n\n> Are you concerned about how the small reduction in file size you get from converting JPEG to JXL is wiped out by much higher decoding time?\n\nDefinitely, though it’s more the [decoding power consumption](https://fershad.com/writing/power-consumption-jpeg-webp-and-avif/) that I’m worried about than time. I’ve found it hard to find good information on this tbh. Not just theoretical decoder performance but something more about real-world usage in browsers. Haven’t had the chance to do measurements myself.\n\n---\n\nI think it’s also worth acknowledging that for us compatibility is a goal in its own right. We support HEIC/HEIF uploads for compatibility with the Apple ecosystem, and just on that basis at this point it’d make sense for us to support JXL _uploads_ too since iPhones now save files in this format. But the format is promising for other reasons, so if our users upload images in that format I’d rather we also supported it when generating optimized images.",
-          "positiveReactions": 5,
+          "positiveReactions": 7,
           "classification": "qualified",
           "themes": [
             "performance",
@@ -702,7 +705,7 @@
         },
         {
           "date": "2026-10-17",
-          "votes": 529,
+          "votes": 531,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.96,
           "workaroundBurdenRaw": 0,
@@ -754,7 +757,7 @@
         "rationale": "3 distinct qualified authors; 276 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
+        "votes7d": 2,
         "votes30d": 39,
         "score7d": 0,
         "score30d": 1.2
@@ -932,20 +935,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-20",
-          "votes": 233,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 87.8,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.3
-          }
-        },
         {
           "date": "2026-09-21",
           "votes": 237,
@@ -1365,9 +1354,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-24",
+          "votes": 276,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.5,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-23T10:34:33Z"
+      "lastActivityAt": "2026-10-24T09:52:34Z"
     },
     {
       "id": "attr",
@@ -1986,13 +1989,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 263,
+      "votes": 264,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 89.7,
+        "voteDemand": 89.8,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
         "composite": 51.8
@@ -2000,10 +2003,10 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 263 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 264 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 21,
+        "votes7d": 22,
         "votes30d": 0,
         "score7d": 7.6,
         "score30d": 0
@@ -2059,13 +2062,13 @@
         },
         {
           "date": "2026-09-30",
-          "votes": 263,
+          "votes": 264,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 89.7,
+            "voteDemand": 89.8,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
             "composite": 51.8
@@ -2685,21 +2688,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 71,
+      "votes": 72,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 68.8,
+        "voteDemand": 69,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 41.3
+        "composite": 41.4
       },
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 71 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 72 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2758,16 +2761,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 71,
+          "votes": 72,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 68.8,
+            "voteDemand": 69,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 41.3
+            "composite": 41.4
           }
         }
       ],
@@ -2794,27 +2797,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 63,
+      "votes": 64,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 66.9,
+        "voteDemand": 67.1,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 40.4
+        "composite": 40.5
       },
       "confidence": {
         "level": "low",
         "score": 0.38,
-        "rationale": "1 distinct qualified author; 63 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 64 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 0.1,
-        "score30d": 0.1
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 0.2,
+        "score30d": 0.2
       },
       "comments": [
         {
@@ -2899,16 +2902,16 @@
         },
         {
           "date": "2026-10-23",
-          "votes": 63,
+          "votes": 64,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 66.9,
+            "voteDemand": 67.1,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 40.4
+            "composite": 40.5
           }
         }
       ],
@@ -8259,6 +8262,69 @@
       "lastActivityAt": "2026-09-03T14:35:35Z"
     },
     {
+      "id": "reading-flow",
+      "slug": "reading-flow",
+      "title": "reading-flow",
+      "summary": "The reading-flow CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation. The reading-order property overrides this order.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 290,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/290"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/reading-flow/",
+      "categories": [
+        "CSS",
+        "Reading order"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 26,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:21Z"
+    },
+    {
       "id": "scheduler",
       "slug": "scheduler",
       "title": "Scheduler API",
@@ -8524,26 +8590,26 @@
       "lastActivityAt": "2026-09-03T14:35:51Z"
     },
     {
-      "id": "reading-flow",
-      "slug": "reading-flow",
-      "title": "reading-flow",
-      "summary": "The reading-flow CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation. The reading-order property overrides this order.",
+      "id": "random-function",
+      "slug": "random-function",
+      "title": "random()",
+      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 290,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/290"
+        "number": 514,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/reading-flow/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
       "categories": [
-        "CSS",
-        "Reading order"
+        "CSS"
       ],
       "supportState": "limited",
       "missingBrowsers": [
-        "firefox",
-        "safari"
+        "chrome",
+        "edge",
+        "firefox"
       ],
       "votes": 25,
       "qualifiedAuthors": 0,
@@ -8562,15 +8628,64 @@
         "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
+        "votes7d": 4,
+        "votes30d": 4,
+        "score7d": 1.3,
+        "score30d": 1.3
       },
-      "comments": [],
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABdpuo1w",
+          "author": "casparfairhall",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6284880087",
+          "createdAt": "2026-10-20T06:28:59Z",
+          "body": "## What I want to do with this feature\n\nCSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.\n\n## What I'm having to do in the meantime\n\nI'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
+          "parsedGoal": "CSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.",
+          "parsedWorkaround": "I'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "moderate"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABdq3jZQ",
+          "author": "kizu",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6286074725",
+          "createdAt": "2026-10-20T07:48:07Z",
+          "body": "## What I want to do with this feature\n\nFor improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.\n\n## What I'm having to do in the meantime\n\nAside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
+          "parsedGoal": "For improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.",
+          "parsedWorkaround": "Aside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
       "snapshots": [
         {
           "date": "2026-09-03",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        },
+        {
+          "date": "2026-10-20",
           "votes": 25,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -8584,7 +8699,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:35:21Z"
+      "lastActivityAt": "2026-10-20T07:48:07Z"
     },
     {
       "id": "requestidlecallback",
@@ -8646,118 +8761,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:23Z"
-    },
-    {
-      "id": "random-function",
-      "slug": "random-function",
-      "title": "random()",
-      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 514,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 24,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 51.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 24 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 3,
-        "votes30d": 3,
-        "score7d": 1,
-        "score30d": 1
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABdpuo1w",
-          "author": "casparfairhall",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6284880087",
-          "createdAt": "2026-10-20T06:28:59Z",
-          "body": "## What I want to do with this feature\n\nCSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.\n\n## What I'm having to do in the meantime\n\nI'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
-          "parsedGoal": "CSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.",
-          "parsedWorkaround": "I'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "moderate"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABdq3jZQ",
-          "author": "kizu",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6286074725",
-          "createdAt": "2026-10-20T07:48:07Z",
-          "body": "## What I want to do with this feature\n\nFor improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.\n\n## What I'm having to do in the meantime\n\nAside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
-          "parsedGoal": "For improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.",
-          "parsedWorkaround": "Aside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        },
-        {
-          "date": "2026-10-20",
-          "votes": 24,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 51.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-20T07:48:07Z"
     },
     {
       "id": "speech-recognition",
@@ -9089,20 +9092,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-21",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-09-22",
           "votes": 15,
@@ -9522,9 +9511,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-24",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-23T10:34:32Z"
+      "lastActivityAt": "2026-10-24T09:52:33Z"
     },
     {
       "id": "manifest",
@@ -12130,20 +12133,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-21",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-09-22",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12562,9 +12551,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-24",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-23T10:34:35Z"
+      "lastActivityAt": "2026-10-24T09:52:36Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14748,20 +14751,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-21",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-09-22",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15180,9 +15169,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-24",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-23T10:34:38Z"
+      "lastActivityAt": "2026-10-24T09:52:39Z"
     },
     {
       "id": "picture-in-picture",
@@ -17370,6 +17373,82 @@
       "lastActivityAt": "2026-09-03T14:34:36Z"
     },
     {
+      "id": "web-otp",
+      "slug": "web-otp",
+      "title": "WebOTP",
+      "summary": "The OTPCredential API represents a one-time-password (OTP).",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 123,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/123"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-otp/",
+      "categories": [
+        "Credential management"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 7,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 33.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 16.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 6,
+        "votes30d": 0,
+        "score7d": 11.1,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:20Z"
+    },
+    {
       "id": "wheel-events",
       "slug": "wheel-events",
       "title": "Wheel events",
@@ -17583,6 +17662,67 @@
         }
       ],
       "lastActivityAt": "2026-09-15T14:58:50Z"
+    },
+    {
+      "id": "alignment-baseline",
+      "slug": "alignment-baseline",
+      "title": "alignment-baseline",
+      "summary": "The alignment-baseline CSS property sets which baseline of an element is aligned with the corresponding baseline of its parent.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 15,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/15"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/alignment-baseline/",
+      "categories": [
+        "Text"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:08:41Z"
     },
     {
       "id": "blocking-render",
@@ -18449,143 +18589,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:18:15Z"
-    },
-    {
-      "id": "web-otp",
-      "slug": "web-otp",
-      "title": "WebOTP",
-      "summary": "The OTPCredential API represents a one-time-password (OTP).",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 123,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/123"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-otp/",
-      "categories": [
-        "Credential management"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 6,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 31.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 15.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.13,
-        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 5,
-        "votes30d": 0,
-        "score7d": 10.1,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 6,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 15.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:20Z"
-    },
-    {
-      "id": "alignment-baseline",
-      "slug": "alignment-baseline",
-      "title": "alignment-baseline",
-      "summary": "The alignment-baseline CSS property sets which baseline of an element is aligned with the corresponding baseline of its parent.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 15,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/15"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/alignment-baseline/",
-      "categories": [
-        "Text"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:08:41Z"
     },
     {
       "id": "ambient-light",
@@ -19690,6 +19693,68 @@
       "lastActivityAt": "2026-08-14T14:49:45Z"
     },
     {
+      "id": "viewport-segments",
+      "slug": "viewport-segments",
+      "title": "Viewport segments",
+      "summary": "The viewport segment CSS environment variables and media features, and the viewport.segments API, allow you to adapt your layout to devices where the display is split, such as on foldable devices.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 382,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/382"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/viewport-segments/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 5,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 28.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 14.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.12,
+        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:48:58Z"
+    },
+    {
       "id": "webgpu-subgroups",
       "slug": "webgpu-subgroups",
       "title": "WebGPU subgroups",
@@ -20711,68 +20776,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:20Z"
-    },
-    {
-      "id": "viewport-segments",
-      "slug": "viewport-segments",
-      "title": "Viewport segments",
-      "summary": "The viewport segment CSS environment variables and media features, and the viewport.segments API, allow you to adapt your layout to devices where the display is split, such as on foldable devices.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 382,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/382"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/viewport-segments/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 4,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 25.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 12.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.1,
-        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:48:58Z"
     },
     {
       "id": "anchor-positioning-animations",
@@ -26517,9 +26520,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-24",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-23T10:34:37Z"
+      "lastActivityAt": "2026-10-24T09:52:38Z"
     },
     {
       "id": "iterator-join",
@@ -26800,9 +26817,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-24",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-23T10:34:36Z"
+      "lastActivityAt": "2026-10-24T09:52:37Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -29230,9 +29261,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-24",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-23T10:34:34Z"
+      "lastActivityAt": "2026-10-24T09:52:35Z"
     },
     {
       "id": "retriable-module-loading",

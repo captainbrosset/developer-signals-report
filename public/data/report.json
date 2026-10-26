@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-25T09:15:14.632Z",
-    "staleAfter": "2026-10-27T09:15:14.632Z",
+    "generatedAt": "2026-10-26T10:20:18.891Z",
+    "staleAfter": "2026-10-28T10:20:18.891Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,29 +10,27 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-25T09:15:14.632Z"
+        "retrievedAt": "2026-10-26T10:20:18.891Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-25T09:15:14.632Z"
+        "retrievedAt": "2026-10-26T10:20:18.891Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-25T09:15:14.632Z"
+        "retrievedAt": "2026-10-26T10:20:18.891Z"
       }
     ],
     "warnings": [
-      "alignment-baseline: feed votes 5 differed from GitHub 6; GitHub value used.",
-      "calc-size: feed votes 63 differed from GitHub 64; GitHub value used.",
-      "customizable-select: feed votes 263 differed from GitHub 264; GitHub value used.",
-      "jpegxl: feed votes 530 differed from GitHub 531; GitHub value used.",
-      "random-function: feed votes 24 differed from GitHub 25; GitHub value used.",
-      "reading-flow: feed votes 25 differed from GitHub 26; GitHub value used.",
-      "viewport-segments: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "web-otp: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "webgpu: feed votes 71 differed from GitHub 72; GitHub value used."
+      "border-shape: feed votes 38 differed from GitHub 39; GitHub value used.",
+      "corner-shape: feed votes 147 differed from GitHub 148; GitHub value used.",
+      "explicit-resource-management: feed votes 21 differed from GitHub 22; GitHub value used.",
+      "import-maps-multiple: feed votes 1 differed from GitHub 2; GitHub value used.",
+      "input-date-time-month: feed votes 8 differed from GitHub 9; GitHub value used.",
+      "input-date-time-week: feed votes 6 differed from GitHub 7; GitHub value used.",
+      "window-management: feed votes 13 differed from GitHub 14; GitHub value used."
     ]
   },
   "features": [
@@ -758,9 +756,9 @@
       },
       "trend": {
         "votes7d": 2,
-        "votes30d": 39,
+        "votes30d": 38,
         "score7d": 0,
-        "score30d": 1.2
+        "score30d": 1.1
       },
       "comments": [
         {
@@ -935,20 +933,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-21",
-          "votes": 237,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.4
-          }
-        },
         {
           "date": "2026-09-22",
           "votes": 237,
@@ -1368,9 +1352,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-25",
+          "votes": 276,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.5,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-24T09:52:34Z"
+      "lastActivityAt": "2026-10-25T10:13:13Z"
     },
     {
       "id": "attr",
@@ -1785,13 +1783,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 147,
+      "votes": 148,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 80.4,
+        "voteDemand": 80.5,
         "useCaseEvidence": 40.8,
         "workaroundBurden": 0,
         "composite": 54.5
@@ -1799,11 +1797,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.53,
-        "rationale": "3 distinct qualified authors; 147 issue votes; 50% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 148 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 13,
-        "votes30d": 18,
+        "votes7d": 14,
+        "votes30d": 19,
         "score7d": 3.5,
         "score30d": 15.4
       },
@@ -1952,13 +1950,13 @@
         },
         {
           "date": "2026-10-04",
-          "votes": 147,
+          "votes": 148,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 80.4,
+            "voteDemand": 80.5,
             "useCaseEvidence": 40.8,
             "workaroundBurden": 0,
             "composite": 54.5
@@ -3859,27 +3857,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 38,
+      "votes": 39,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 58.9,
+        "voteDemand": 59.3,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 36.4
+        "composite": 36.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.48,
-        "rationale": "1 distinct qualified author; 38 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 39 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 10,
-        "votes30d": 10,
-        "score7d": 9.3,
-        "score30d": 9.3
+        "votes7d": 11,
+        "votes30d": 11,
+        "score7d": 9.5,
+        "score30d": 9.5
       },
       "comments": [
         {
@@ -3918,16 +3916,16 @@
         },
         {
           "date": "2026-09-14",
-          "votes": 38,
+          "votes": 39,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 58.9,
+            "voteDemand": 59.3,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 36.4
+            "composite": 36.6
           }
         }
       ],
@@ -5463,6 +5461,166 @@
       "lastActivityAt": "2026-08-26T12:10:34Z"
     },
     {
+      "id": "window-management",
+      "slug": "window-management",
+      "title": "Window management",
+      "summary": "The window.getScreenDetails() method gets information about the screens on a device, which you can use to place new windows on a specific screen with window.open().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 198,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/198"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-management/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0.5,
+      "workaroundAuthors": 1,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 20.4,
+        "workaroundBurden": 13.8,
+        "composite": 31
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.27,
+        "rationale": "1 distinct qualified author; 14 issue votes; 25% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 4,
+        "score7d": 0.6,
+        "score30d": 11.7
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABSRZB_Q",
+          "author": "paulkorir",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-5521162749",
+          "createdAt": "2026-09-03T05:49:56Z",
+          "body": "## What I want to do with this feature\n\nExam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.\n\n## What I'm having to do in the meantime\n\nI have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
+          "parsedGoal": "Exam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.",
+          "parsedWorkaround": "I have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbNpSpw",
+          "author": "Omid-Heydarzadeh",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6121214631",
+          "createdAt": "2026-10-12T09:11:14Z",
+          "body": "## What I want to do with this feature\n\nI need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation.\n\nThis requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.\n\n## What I'm having to do in the meantime\n\nWithout the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size.\n\nThis fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
+          "parsedGoal": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation. This requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.",
+          "parsedWorkaround": "Without the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size. This fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "moderate",
+          "generatedSummary": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a s…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbWbNQQ",
+          "author": "M68HC060",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6130421057",
+          "createdAt": "2026-10-12T18:42:21Z",
+          "body": "## What I want to do with this feature\n\nI want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform.\n\nFor this, I need to have a controlling window and a window that is shown on a projector.\nI want this window to be full-screen.\nMost of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\".\n\n(It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer.\n-AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory).\n\nI'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).\n\n## What I'm having to do in the meantime\n\nClick, click, click and click. Teach others what to click on and they think it's complicated, they forget what they had to do and they can't seem to learn it.\n-I can't use polyfill for this. Sometimes I have to hardcode coordinates and sizes, but it can't fix much.\nThere really aren't any alternatives, except from writing an application from scratch in C or C++. This approach will basically need a browser-view, thus I have to write my own web-browser, just to make this presentation stuff work.\n\nMy users (which are about 4-5 people in the same place), often start by pressing the \"Full Window\" button or resizes the window and that messes up the window-size, which the browser saved from last time. That makes things move around in such a way that they're inconvenien (many objects have fixed sizes, such as a DIV containing a preview of the thing to be displayed on the screen).\n\nCurrent solution for identifying screens: The position of the screen. I use \"leftmost\" and \"rightmost\" screens, found by traversing screen[n], and finding the highest and lowest values of 'left'. This won't always work if having 3 displays or more; then I'd have to be able to identify the displays by model, manufacturer, capabilities, possibly features, etc., save the identification in localStorage and hope that I can recognize the displays on the next run (avoiding users complaining \"It doesn't work - it never works!\").\n\nEdit: I sometimes need to hide my fullscreen-display (eg. the one on the projector), to reveal another presentation below my window (let's say it's a PowerPoint, but it's not).\nI cannot hide my \"popup-window\" (the fullscreen-window) so I can later unhide it, when the \"PowerPoint\" presentation is finished.",
+          "parsedGoal": "I want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform. For this, I need to have a controlling window and a window that is shown on a projector. I want this window to be full-screen. Most of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\". (It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer. -AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory). I'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).",
+          "parsedWorkaround": "Click, click, click and click. Teach others what to click on and they think it's complicated, they forget what they had to do and they can't seem to learn it. -I can't use polyfill for this. Sometimes I have to hardcode coordinates and sizes, but it can't fix much. There really aren't any alternatives, except from writing an application from scratch in C or C++. This approach will basically need a browser-view, thus I have to write my own web-browser, just to make this presentation stuff work. My users (which are about 4-5 people in the same place), often start by pressing the \"Full Window\" button or resizes the window and that messes up the window-size, which the browser saved from last time. That makes things move around in such a way that they're inconvenien (many objects have fixed sizes, such as a DIV containing a preview of the thing to be displayed on the screen). Current solution for identifying screens: The position of the screen. I use \"leftmost\" and \"rightmost\" screens, found by traversing screen[n], and finding the highest and lowest values of 'left'. This won't always work if having 3 displays or more; then I'd have to be able to identify the displays by model, manufacturer, capabilities, possibly features, etc., save the identification in localStorage and hope that I can recognize the displays on the next run (avoiding users complaining \"It doesn't work - it never works!\"). Edit: I sometimes need to hide my fullscreen-display (eg. the one on the projector), to reveal another presentation below my window (let's say it's a PowerPoint, but it's not). I cannot hide my \"popup-window\" (the fullscreen-window) so I can later unhide it, when the \"PowerPoint\" presentation is finished.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "security"
+          ],
+          "workaroundSeverity": "moderate"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABfjzGGw",
+          "author": "wstaelens",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6412879387",
+          "createdAt": "2026-10-26T09:40:32Z",
+          "body": "## What I want to do with this feature\nAlways show payment popups on the second screen (cash registers in shops).\n\n## What I'm having to do in the meantime\n\nSwitching customers to Chrome and Edge where this is supported. Adding a limitation to FireFox because of this.",
+          "parsedGoal": "Always show payment popups on the second screen (cash registers in shops).",
+          "parsedWorkaround": "Switching customers to Chrome and Edge where this is supported. Adding a limitation to FireFox because of this.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 13,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 13.8,
+            "composite": 30.4
+          }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 14,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 13.8,
+            "composite": 31
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-26T09:40:32Z"
+    },
+    {
       "id": "css-modules",
       "slug": "css-modules",
       "title": "CSS import attributes",
@@ -5522,135 +5680,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:05Z"
-    },
-    {
-      "id": "window-management",
-      "slug": "window-management",
-      "title": "Window management",
-      "summary": "The window.getScreenDetails() method gets information about the screens on a device, which you can use to place new windows on a specific screen with window.open().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 198,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/198"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-management/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0.5,
-      "workaroundAuthors": 1,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 13.8,
-        "composite": 30.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.28,
-        "rationale": "1 distinct qualified author; 13 issue votes; 33% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 3,
-        "votes30d": 3,
-        "score7d": 11.1,
-        "score30d": 11.1
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABSRZB_Q",
-          "author": "paulkorir",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-5521162749",
-          "createdAt": "2026-09-03T05:49:56Z",
-          "body": "## What I want to do with this feature\n\nExam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.\n\n## What I'm having to do in the meantime\n\nI have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
-          "parsedGoal": "Exam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.",
-          "parsedWorkaround": "I have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABbNpSpw",
-          "author": "Omid-Heydarzadeh",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6121214631",
-          "createdAt": "2026-10-12T09:11:14Z",
-          "body": "## What I want to do with this feature\n\nI need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation.\n\nThis requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.\n\n## What I'm having to do in the meantime\n\nWithout the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size.\n\nThis fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
-          "parsedGoal": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation. This requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.",
-          "parsedWorkaround": "Without the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size. This fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "moderate",
-          "generatedSummary": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a s…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABbWbNQQ",
-          "author": "M68HC060",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6130421057",
-          "createdAt": "2026-10-12T18:42:21Z",
-          "body": "## What I want to do with this feature\n\nI want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform.\n\nFor this, I need to have a controlling window and a window that is shown on a projector.\nI want this window to be full-screen.\nMost of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\".\n\n(It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer.\n-AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory).\n\nI'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).\n\n## What I'm having to do in the meantime\n\nClick, click, click and click. Teach others what to click on and they think it's complicated, they forget what they had to do and they can't seem to learn it.\n-I can't use polyfill for this. Sometimes I have to hardcode coordinates and sizes, but it can't fix much.\nThere really aren't any alternatives, except from writing an application from scratch in C or C++. This approach will basically need a browser-view, thus I have to write my own web-browser, just to make this presentation stuff work.\n\nMy users (which are about 4-5 people in the same place), often start by pressing the \"Full Window\" button or resizes the window and that messes up the window-size, which the browser saved from last time. That makes things move around in such a way that they're inconvenien (many objects have fixed sizes, such as a DIV containing a preview of the thing to be displayed on the screen).\n\nCurrent solution for identifying screens: The position of the screen. I use \"leftmost\" and \"rightmost\" screens, found by traversing screen[n], and finding the highest and lowest values of 'left'. This won't always work if having 3 displays or more; then I'd have to be able to identify the displays by model, manufacturer, capabilities, possibly features, etc., save the identification in localStorage and hope that I can recognize the displays on the next run (avoiding users complaining \"It doesn't work - it never works!\").\n\nEdit: I sometimes need to hide my fullscreen-display (eg. the one on the projector), to reveal another presentation below my window (let's say it's a PowerPoint, but it's not).\nI cannot hide my \"popup-window\" (the fullscreen-window) so I can later unhide it, when the \"PowerPoint\" presentation is finished.",
-          "parsedGoal": "I want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform. For this, I need to have a controlling window and a window that is shown on a projector. I want this window to be full-screen. Most of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\". (It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer. -AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory). I'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).",
-          "parsedWorkaround": "Click, click, click and click. Teach others what to click on and they think it's complicated, they forget what they had to do and they can't seem to learn it. -I can't use polyfill for this. Sometimes I have to hardcode coordinates and sizes, but it can't fix much. There really aren't any alternatives, except from writing an application from scratch in C or C++. This approach will basically need a browser-view, thus I have to write my own web-browser, just to make this presentation stuff work. My users (which are about 4-5 people in the same place), often start by pressing the \"Full Window\" button or resizes the window and that messes up the window-size, which the browser saved from last time. That makes things move around in such a way that they're inconvenien (many objects have fixed sizes, such as a DIV containing a preview of the thing to be displayed on the screen). Current solution for identifying screens: The position of the screen. I use \"leftmost\" and \"rightmost\" screens, found by traversing screen[n], and finding the highest and lowest values of 'left'. This won't always work if having 3 displays or more; then I'd have to be able to identify the displays by model, manufacturer, capabilities, possibly features, etc., save the identification in localStorage and hope that I can recognize the displays on the next run (avoiding users complaining \"It doesn't work - it never works!\"). Edit: I sometimes need to hide my fullscreen-display (eg. the one on the projector), to reveal another presentation below my window (let's say it's a PowerPoint, but it's not). I cannot hide my \"popup-window\" (the fullscreen-window) so I can later unhide it, when the \"PowerPoint\" presentation is finished.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "security"
-          ],
-          "workaroundSeverity": "moderate"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-10-12",
-          "votes": 13,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0.5,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 13.8,
-            "composite": 30.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-12T18:47:44Z"
     },
     {
       "id": "local-fonts",
@@ -9049,6 +9078,102 @@
       "lastActivityAt": "2026-08-26T12:09:08Z"
     },
     {
+      "id": "explicit-resource-management",
+      "slug": "explicit-resource-management",
+      "title": "Explicit resource management",
+      "summary": "The using and await using declarations and the dispose and asyncDispose symbols manage the lifecycle of resources such as file handles and streams. The DisposableStack and AsyncDisposableStack objects can group, dispose, and coordinate dependencies between multiple disposable resources.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 366,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/366"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/explicit-resource-management/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 22,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 50.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7Zgypq",
+          "author": "akaltar",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3649251946",
+          "createdAt": "2025-12-13T11:51:09Z",
+          "body": "## What I want to do with this feature\n\nLots of resources on the web end up being stateful, from the DOM itself, to WebAudio components and WebGL components. It'd make managing them much more developer-friendly\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\nI'm manually managing this in different ways depending on the context, but it's more error-prone, and more diverse across different frameworks and systems. It's hard to always make sure to clean things up, it's very difficult to know what even is stateful. I think this proposal could pave the way to a much more robust web",
+          "parsedGoal": "Lots of resources on the web end up being stateful, from the DOM itself, to WebAudio components and WebGL components. It'd make managing them much more developer-friendly",
+          "parsedWorkaround": "I'm manually managing this in different ways depending on the context, but it's more error-prone, and more diverse across different frameworks and systems. It's hard to always make sure to clean things up, it's very difficult to know what even is stateful. I think this proposal could pave the way to a much more robust web",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7g4yIo",
+          "author": "1valdis",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3772981800",
+          "createdAt": "2026-01-20T13:49:13Z",
+          "body": "## What I want to do with this feature\n\nAs part of development for the Satellite.js library, I'm creating a WebAssembly option to propagate orbits of satellites, instead of just pure JS one. For this I make use of unmanaged memory in C++. I expose the results of propagation as views into WASM memory. To use orbit propagation in WASM, user needs to instantiate a class; in its constructor the class allocates unmanaged memory to work with it on hot path later. This memory needs to be `free`d when the user is done. In the future major version of the library, as part of the WASM API, the objects that work with unmanaged memory will use Explicit Resource Management to clean up the unmanaged memory after themselves when they leave the scope, and users will be encouraged to declare such objects with `using`.\n\n## What I'm having to do in the meantime\n\nAs an alternative, I expose the explicit `.dispose()` method that the users will have to call in `try...finally`.",
+          "parsedGoal": "As part of development for the Satellite.js library, I'm creating a WebAssembly option to propagate orbits of satellites, instead of just pure JS one. For this I make use of unmanaged memory in C++. I expose the results of propagation as views into WASM memory. To use orbit propagation in WASM, user needs to instantiate a class; in its constructor the class allocates unmanaged memory to work with it on hot path later. This memory needs to be freed when the user is done. In the future major version of the library, as part of the WASM API, the objects that work with unmanaged memory will use Explicit Resource Management to clean up the unmanaged memory after themselves when they leave the scope, and users will be encouraged to declare such objects with using.",
+          "parsedWorkaround": "As an alternative, I expose the explicit .dispose() method that the users will have to call in try...finally.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:48:40Z"
+    },
+    {
       "id": "is-error",
       "slug": "is-error",
       "title": "Error.isError()",
@@ -9092,20 +9217,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-22",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-09-23",
           "votes": 15,
@@ -9525,9 +9636,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-25",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-24T09:52:33Z"
+      "lastActivityAt": "2026-10-25T10:13:12Z"
     },
     {
       "id": "manifest",
@@ -9589,102 +9714,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:06Z"
-    },
-    {
-      "id": "explicit-resource-management",
-      "slug": "explicit-resource-management",
-      "title": "Explicit resource management",
-      "summary": "The using and await using declarations and the dispose and asyncDispose symbols manage the lifecycle of resources such as file handles and streams. The DisposableStack and AsyncDisposableStack objects can group, dispose, and coordinate dependencies between multiple disposable resources.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 366,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/366"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/explicit-resource-management/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 21,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7Zgypq",
-          "author": "akaltar",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3649251946",
-          "createdAt": "2025-12-13T11:51:09Z",
-          "body": "## What I want to do with this feature\n\nLots of resources on the web end up being stateful, from the DOM itself, to WebAudio components and WebGL components. It'd make managing them much more developer-friendly\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\nI'm manually managing this in different ways depending on the context, but it's more error-prone, and more diverse across different frameworks and systems. It's hard to always make sure to clean things up, it's very difficult to know what even is stateful. I think this proposal could pave the way to a much more robust web",
-          "parsedGoal": "Lots of resources on the web end up being stateful, from the DOM itself, to WebAudio components and WebGL components. It'd make managing them much more developer-friendly",
-          "parsedWorkaround": "I'm manually managing this in different ways depending on the context, but it's more error-prone, and more diverse across different frameworks and systems. It's hard to always make sure to clean things up, it's very difficult to know what even is stateful. I think this proposal could pave the way to a much more robust web",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7g4yIo",
-          "author": "1valdis",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/366#issuecomment-3772981800",
-          "createdAt": "2026-01-20T13:49:13Z",
-          "body": "## What I want to do with this feature\n\nAs part of development for the Satellite.js library, I'm creating a WebAssembly option to propagate orbits of satellites, instead of just pure JS one. For this I make use of unmanaged memory in C++. I expose the results of propagation as views into WASM memory. To use orbit propagation in WASM, user needs to instantiate a class; in its constructor the class allocates unmanaged memory to work with it on hot path later. This memory needs to be `free`d when the user is done. In the future major version of the library, as part of the WASM API, the objects that work with unmanaged memory will use Explicit Resource Management to clean up the unmanaged memory after themselves when they leave the scope, and users will be encouraged to declare such objects with `using`.\n\n## What I'm having to do in the meantime\n\nAs an alternative, I expose the explicit `.dispose()` method that the users will have to call in `try...finally`.",
-          "parsedGoal": "As part of development for the Satellite.js library, I'm creating a WebAssembly option to propagate orbits of satellites, instead of just pure JS one. For this I make use of unmanaged memory in C++. I expose the results of propagation as views into WASM memory. To use orbit propagation in WASM, user needs to instantiate a class; in its constructor the class allocates unmanaged memory to work with it on hot path later. This memory needs to be freed when the user is done. In the future major version of the library, as part of the WASM API, the objects that work with unmanaged memory will use Explicit Resource Management to clean up the unmanaged memory after themselves when they leave the scope, and users will be encouraged to declare such objects with using.",
-          "parsedWorkaround": "As an alternative, I expose the explicit .dispose() method that the users will have to call in try...finally.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:48:40Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -12133,20 +12162,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-22",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-09-23",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12565,9 +12580,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-25",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-24T09:52:36Z"
+      "lastActivityAt": "2026-10-25T10:13:15Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14751,20 +14780,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-22",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-09-23",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15183,9 +15198,82 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-25",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-24T09:52:39Z"
+      "lastActivityAt": "2026-10-25T10:13:18Z"
+    },
+    {
+      "id": "input-date-time-month",
+      "slug": "input-date-time-month",
+      "title": "<input type=\"month\">",
+      "summary": "Developer demand and implementation evidence for Input Date Time Month.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 925,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/925"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-month/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:08Z"
     },
     {
       "id": "picture-in-picture",
@@ -16310,65 +16398,6 @@
       "lastActivityAt": "2026-08-14T14:45:02Z"
     },
     {
-      "id": "input-date-time-month",
-      "slug": "input-date-time-month",
-      "title": "<input type=\"month\">",
-      "summary": "Developer demand and implementation evidence for Input Date Time Month.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 925,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/925"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-month/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:08Z"
-    },
-    {
       "id": "page-lifecycle",
       "slug": "page-lifecycle",
       "title": "Page lifecycle",
@@ -17041,6 +17070,65 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:47:52Z"
+    },
+    {
+      "id": "input-date-time-week",
+      "slug": "input-date-time-week",
+      "title": "<input type=\"week\">",
+      "summary": "Developer demand and implementation evidence for Input Date Time Week.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 926,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/926"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-week/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 7,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 33.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 16.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:11Z"
     },
     {
       "id": "mask-border",
@@ -18047,65 +18135,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:16Z"
-    },
-    {
-      "id": "input-date-time-week",
-      "slug": "input-date-time-week",
-      "title": "<input type=\"week\">",
-      "summary": "Developer demand and implementation evidence for Input Date Time Week.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 926,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/926"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-week/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 6,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 31.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 15.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.13,
-        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 6,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 15.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:11Z"
     },
     {
       "id": "local-network-access",
@@ -23935,6 +23964,65 @@
       "lastActivityAt": "2026-09-26T10:21:00Z"
     },
     {
+      "id": "import-maps-multiple",
+      "slug": "import-maps-multiple",
+      "title": "Multiple import maps",
+      "summary": "Developer demand and implementation evidence for Import Maps Multiple.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 928,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/928"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/import-maps-multiple/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 2,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 17.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 8.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.07,
+        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:40Z"
+    },
+    {
       "id": "link-rel-expect",
       "slug": "link-rel-expect",
       "title": "<link rel=\"expect\">",
@@ -26080,65 +26168,6 @@
       "lastActivityAt": "2026-08-26T12:09:55Z"
     },
     {
-      "id": "import-maps-multiple",
-      "slug": "import-maps-multiple",
-      "title": "Multiple import maps",
-      "summary": "Developer demand and implementation evidence for Import Maps Multiple.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 928,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/928"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/import-maps-multiple/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:40Z"
-    },
-    {
       "id": "interaction-contentful-paint",
       "slug": "interaction-contentful-paint",
       "title": "Interaction contentful paint",
@@ -26534,9 +26563,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-25",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-24T09:52:38Z"
+      "lastActivityAt": "2026-10-25T10:13:17Z"
     },
     {
       "id": "iterator-join",
@@ -26831,9 +26874,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-25",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-24T09:52:37Z"
+      "lastActivityAt": "2026-10-25T10:13:16Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -29275,9 +29332,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-25",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-24T09:52:35Z"
+      "lastActivityAt": "2026-10-25T10:13:14Z"
     },
     {
       "id": "retriable-module-loading",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-26T10:20:18.891Z",
-    "staleAfter": "2026-10-28T10:20:18.891Z",
+    "generatedAt": "2026-10-27T09:55:16.227Z",
+    "staleAfter": "2026-10-29T09:55:16.227Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,27 +10,35 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-26T10:20:18.891Z"
+        "retrievedAt": "2026-10-27T09:55:16.227Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-26T10:20:18.891Z"
+        "retrievedAt": "2026-10-27T09:55:16.227Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-26T10:20:18.891Z"
+        "retrievedAt": "2026-10-27T09:55:16.227Z"
       }
     ],
     "warnings": [
-      "border-shape: feed votes 38 differed from GitHub 39; GitHub value used.",
-      "corner-shape: feed votes 147 differed from GitHub 148; GitHub value used.",
-      "explicit-resource-management: feed votes 21 differed from GitHub 22; GitHub value used.",
-      "import-maps-multiple: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "input-date-time-month: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "input-date-time-week: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "window-management: feed votes 13 differed from GitHub 14; GitHub value used."
+      "app-file-handlers: feed votes 16 differed from GitHub 17; GitHub value used.",
+      "app-launch-handler: feed votes 8 differed from GitHub 9; GitHub value used.",
+      "app-share-targets: feed votes 15 differed from GitHub 16; GitHub value used.",
+      "app-shortcuts: feed votes 3 differed from GitHub 4; GitHub value used.",
+      "attr: feed votes 130 differed from GitHub 129; GitHub value used.",
+      "barcode: feed votes 16 differed from GitHub 17; GitHub value used.",
+      "beforeinstallprompt: feed votes 12 differed from GitHub 13; GitHub value used.",
+      "function: feed votes 122 differed from GitHub 123; GitHub value used.",
+      "if: feed votes 120 differed from GitHub 121; GitHub value used.",
+      "install: feed votes 19 differed from GitHub 20; GitHub value used.",
+      "manifest: feed votes 22 differed from GitHub 23; GitHub value used.",
+      "manifest-localization: feed votes 4 differed from GitHub 5; GitHub value used.",
+      "navigator-install: feed votes 31 differed from GitHub 32; GitHub value used.",
+      "notifications: feed votes 27 differed from GitHub 28; GitHub value used.",
+      "webgpu: feed votes 72 differed from GitHub 73; GitHub value used."
     ]
   },
   "features": [
@@ -934,20 +942,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-22",
-          "votes": 237,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.4
-          }
-        },
-        {
           "date": "2026-09-23",
           "votes": 237,
           "qualifiedAuthors": 3,
@@ -1366,9 +1360,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 276,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.5,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-25T10:13:13Z"
+      "lastActivityAt": "2026-10-26T11:36:52Z"
     },
     {
       "id": "attr",
@@ -1393,26 +1401,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 130,
+      "votes": 129,
       "qualifiedAuthors": 4,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 78.4,
+        "voteDemand": 78.3,
         "useCaseEvidence": 46,
         "workaroundBurden": 13.8,
-        "composite": 57.4
+        "composite": 57.3
       },
       "confidence": {
         "level": "medium",
         "score": 0.63,
-        "rationale": "4 distinct qualified authors; 130 issue votes; 80% of reviewed comments qualified."
+        "rationale": "4 distinct qualified authors; 129 issue votes; 80% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 16,
+        "votes7d": 15,
         "votes30d": 0,
-        "score7d": 1.1,
+        "score7d": 1,
         "score30d": 0
       },
       "comments": [
@@ -1519,16 +1527,16 @@
         },
         {
           "date": "2026-09-15",
-          "votes": 130,
+          "votes": 129,
           "qualifiedAuthors": 4,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.4,
+            "voteDemand": 78.3,
             "useCaseEvidence": 46,
             "workaroundBurden": 13.8,
-            "composite": 57.4
+            "composite": 57.3
           }
         }
       ],
@@ -2096,13 +2104,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 122,
+      "votes": 123,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 77.4,
+        "voteDemand": 77.5,
         "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
         "composite": 50
@@ -2110,7 +2118,7 @@
       "confidence": {
         "level": "medium",
         "score": 0.43,
-        "rationale": "2 distinct qualified authors; 122 issue votes; 22% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 123 issue votes; 22% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2292,13 +2300,13 @@
         },
         {
           "date": "2026-09-09",
-          "votes": 122,
+          "votes": 123,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 77.4,
+            "voteDemand": 77.5,
             "useCaseEvidence": 32.2,
             "workaroundBurden": 0,
             "composite": 50
@@ -2442,21 +2450,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 120,
+      "votes": 121,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 77.1,
+        "voteDemand": 77.3,
         "useCaseEvidence": 20.9,
         "workaroundBurden": 0,
-        "composite": 45.9
+        "composite": 46
       },
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 120 issue votes; 25% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 121 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2538,16 +2546,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 120,
+          "votes": 121,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 77.1,
+            "voteDemand": 77.3,
             "useCaseEvidence": 20.9,
             "workaroundBurden": 0,
-            "composite": 45.9
+            "composite": 46
           }
         }
       ],
@@ -2686,21 +2694,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 72,
+      "votes": 73,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 69,
+        "voteDemand": 69.2,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 41.4
+        "composite": 41.6
       },
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 72 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 73 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2759,16 +2767,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 72,
+          "votes": 73,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 69,
+            "voteDemand": 69.2,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 41.4
+            "composite": 41.6
           }
         }
       ],
@@ -4312,7 +4320,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/914#issuecomment-6085579330",
           "createdAt": "2026-10-09T17:07:09Z",
           "body": "@hatemhosny I think [Livecodes](https://github.com/live-codes/livecodes) would benefit from this feature.",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -5621,6 +5629,87 @@
       "lastActivityAt": "2026-10-26T09:40:32Z"
     },
     {
+      "id": "beforeinstallprompt",
+      "slug": "beforeinstallprompt",
+      "title": "beforeinstallprompt",
+      "summary": "The beforeinstallprompt event fires when a Progressive Web App (PWA) is installable. You can cancel the event and later call event.prompt() to control when the installation prompt is shown. The appinstalled event fires when the PWA is successfully installed.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 106,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/106"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/beforeinstallprompt/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 13,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.08,
+      "workaroundBurdenRaw": 0.5,
+      "workaroundAuthors": 1,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 20.9,
+        "workaroundBurden": 13.8,
+        "composite": 30.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.41,
+        "rationale": "1 distinct qualified author; 13 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABL0BFSw",
+          "author": "celly-rocely",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/106#issuecomment-5087708491",
+          "createdAt": "2026-07-27T05:47:16Z",
+          "body": "## What I want to do with this feature\n\nWe run [Rocely](https://www.rocely.com/en), a recipe and meal-planning PWA. Users\nwho install it to their home screen come back far more often than users who\njust bookmark it, so a reliable install step matters for retention.\n\nWe want one install flow that works the same way regardless of browser,\ninstead of branching our UI based on what the browser supports.\n\n## What I'm having to do in the meantime\n\n`beforeinstallprompt` works on Chrome and Edge. On Safari and Firefox we\nfall back to static, browser-specific \"Add to Home Screen\" instructions.\n\nI tried the community polyfill at\nhttps://github.com/easy-pwa/beforeinstallprompt-polyfill to see if it would\nclose the gap. It doesn't. On browsers without a real install API, it fires\na synthetic `beforeinstallprompt` event, then shows the same manual\ninstructions we already have. It changes the code, not the outcome.\n\nAt least three separate npm packages exist to paper over this gap:\n- [@khmyznikov/pwa-install](https://www.npmjs.com/package/@khmyznikov/pwa-install) (~48k weekly downloads)\n- [pwa-install-handler](https://www.npmjs.com/package/pwa-install-handler) (~29k weekly downloads)\n- [react-pwa-install](https://www.npmjs.com/package/react-pwa-install)\n\nThat's nearly 80,000 weekly installs of workarounds for one missing browser\nfeature.\n\nThe manual flow costs us installs. On iOS, that's:\n- Open in your main browser\n- Press More if no Share icon\n- Press Share in the navigation bar\n- Scroll down to \"Add to Home Screen\"\n\nFour steps loses people at every stage, compared to a single native prompt.",
+          "parsedGoal": "We run Rocely, a recipe and meal-planning PWA. Users who install it to their home screen come back far more often than users who just bookmark it, so a reliable install step matters for retention. We want one install flow that works the same way regardless of browser, instead of branching our UI based on what the browser supports.",
+          "parsedWorkaround": "beforeinstallprompt works on Chrome and Edge. On Safari and Firefox we fall back to static, browser-specific \"Add to Home Screen\" instructions. I tried the community polyfill at https://github.com/easy-pwa/beforeinstallprompt-polyfill to see if it would close the gap. It doesn't. On browsers without a real install API, it fires a synthetic beforeinstallprompt event, then shows the same manual instructions we already have. It changes the code, not the outcome. At least three separate npm packages exist to paper over this gap: - @khmyznikov/pwa-install (~48k weekly downloads) - pwa-install-handler (~29k weekly downloads) - react-pwa-install That's nearly 80,000 weekly installs of workarounds for one missing browser feature. The manual flow costs us installs. On iOS, that's: - Open in your main browser - Press More if no Share icon - Press Share in the navigation bar - Scroll down to \"Add to Home Screen\" Four steps loses people at every stage, compared to a single native prompt.",
+          "positiveReactions": 2,
+          "classification": "qualified",
+          "themes": [
+            "installed apps"
+          ],
+          "workaroundSeverity": "moderate",
+          "generatedSummary": "We run Rocely, a recipe and meal-planning PWA. Users who install it to their home screen come back far more often than users who just bookmark it, so a reliable install step matte…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 13,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 20.9,
+            "workaroundBurden": 13.8,
+            "composite": 30.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:34Z"
+    },
+    {
       "id": "css-modules",
       "slug": "css-modules",
       "title": "CSS import attributes",
@@ -5680,6 +5769,149 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:05Z"
+    },
+    {
+      "id": "barcode",
+      "slug": "barcode",
+      "title": "Barcode detector",
+      "summary": "The BarcodeDetector API recognizes various barcode formats in images.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 121,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/121"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/barcode/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 17,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 46.5,
+        "useCaseEvidence": 20.4,
+        "workaroundBurden": 0,
+        "composite": 30.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.3,
+        "rationale": "1 distinct qualified author; 17 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.5,
+        "score30d": 0.5
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABRDpzbQ",
+          "author": "LeaVerou",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-5439648621",
+          "createdAt": "2026-08-27T13:13:32Z",
+          "body": "I needed this when trying to build a collaborative game via WebRTC using QR codes for signaling. The flow needed two QR codes, but using the phone camera to scan each meant a whole new page, which was poor UX. This would allow using the app itself to scan the second QR code. ",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I needed this when trying to build a collaborative game via WebRTC using QR codes for signaling. The flow needed two QR codes, but using the phone camera to scan each meant a whol…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABeDXERw",
+          "author": "MrCheatEugene",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-6311756871",
+          "createdAt": "2026-10-21T08:38:57Z",
+          "body": "## What I want to do with this feature\n\nI'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. \nI want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. \nOr, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. \n\nOn mobile systems, it would make a great api.\nOn desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox. \n\n## What I'm having to do in the meantime\n\nI have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively \nWithout it, I have to import additional dependencies, which work really slow. \n\nI have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow. \n",
+          "parsedGoal": "I'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. I want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. Or, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. On mobile systems, it would make a great api. On desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox.",
+          "parsedWorkaround": "I have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively Without it, I have to import additional dependencies, which work really slow. I have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABfx8KSA",
+          "author": "frimp73",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-6427707976",
+          "createdAt": "2026-10-26T21:25:37Z",
+          "body": "## What I want to do with this feature\nWe place QR Codes on several places on our assembly lines, that contain parameterized links to our Smartphone PWA.\nThese help our maintenance staff to identify the assembly units very easily.\n\n## What I'm having to do in the meantime\nTo interpret the QR Codes we need a 3rd-party library.\n\nAs we usually use Android phones, this works fine without additional libs - but with the risk, that this feature is removed one day.\nIn China we can't use Android for political reasons and use iPhones instead - as Safari is the default Browser, it would help when all Browsers support it. As soon as this feature gets out of the \"experimental\" state we can rely on,that the Barcode Detection API  stays and we can remove the additional dependency.\n",
+          "parsedGoal": "We place QR Codes on several places on our assembly lines, that contain parameterized links to our Smartphone PWA. These help our maintenance staff to identify the assembly units very easily.",
+          "parsedWorkaround": "To interpret the QR Codes we need a 3rd-party library. As we usually use Android phones, this works fine without additional libs - but with the risk, that this feature is removed one day. In China we can't use Android for political reasons and use iPhones instead - as Safari is the default Browser, it would help when all Browsers support it. As soon as this feature gets out of the \"experimental\" state we can rely on,that the Barcode Detection API stays and we can remove the additional dependency.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-27",
+          "votes": 16,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 29.9
+          }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 16,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 29.9
+          }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 17,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 46.5,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 30.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-26T21:25:37Z"
     },
     {
       "id": "local-fonts",
@@ -6213,118 +6445,6 @@
       "lastActivityAt": "2026-09-03T14:36:36Z"
     },
     {
-      "id": "barcode",
-      "slug": "barcode",
-      "title": "Barcode detector",
-      "summary": "The BarcodeDetector API recognizes various barcode formats in images.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 121,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/121"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/barcode/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 16,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 45.6,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 0,
-        "composite": 29.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.33,
-        "rationale": "1 distinct qualified author; 16 issue votes; 50% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABRDpzbQ",
-          "author": "LeaVerou",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-5439648621",
-          "createdAt": "2026-08-27T13:13:32Z",
-          "body": "I needed this when trying to build a collaborative game via WebRTC using QR codes for signaling. The flow needed two QR codes, but using the phone camera to scan each meant a whole new page, which was poor UX. This would allow using the app itself to scan the second QR code. ",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I needed this when trying to build a collaborative game via WebRTC using QR codes for signaling. The flow needed two QR codes, but using the phone camera to scan each meant a whol…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABeDXERw",
-          "author": "MrCheatEugene",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-6311756871",
-          "createdAt": "2026-10-21T08:38:57Z",
-          "body": "## What I want to do with this feature\n\nI'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. \nI want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. \nOr, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. \n\nOn mobile systems, it would make a great api.\nOn desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox. \n\n## What I'm having to do in the meantime\n\nI have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively \nWithout it, I have to import additional dependencies, which work really slow. \n\nI have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow. \n",
-          "parsedGoal": "I'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. I want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. Or, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. On mobile systems, it would make a great api. On desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox.",
-          "parsedWorkaround": "I have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively Without it, I have to import additional dependencies, which work really slow. I have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-27",
-          "votes": 16,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 29.9
-          }
-        },
-        {
-          "date": "2026-10-21",
-          "votes": 16,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 29.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-21T08:38:57Z"
-    },
-    {
       "id": "meta-theme-color",
       "slug": "meta-theme-color",
       "title": "<meta name=\"theme-color\">",
@@ -6420,87 +6540,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:04Z"
-    },
-    {
-      "id": "beforeinstallprompt",
-      "slug": "beforeinstallprompt",
-      "title": "beforeinstallprompt",
-      "summary": "The beforeinstallprompt event fires when a Progressive Web App (PWA) is installable. You can cancel the event and later call event.prompt() to control when the installation prompt is shown. The appinstalled event fires when the PWA is successfully installed.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 106,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/106"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/beforeinstallprompt/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 12,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0.5,
-      "workaroundAuthors": 1,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 13.8,
-        "composite": 29.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.41,
-        "rationale": "1 distinct qualified author; 12 issue votes; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABL0BFSw",
-          "author": "celly-rocely",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/106#issuecomment-5087708491",
-          "createdAt": "2026-07-27T05:47:16Z",
-          "body": "## What I want to do with this feature\n\nWe run [Rocely](https://www.rocely.com/en), a recipe and meal-planning PWA. Users\nwho install it to their home screen come back far more often than users who\njust bookmark it, so a reliable install step matters for retention.\n\nWe want one install flow that works the same way regardless of browser,\ninstead of branching our UI based on what the browser supports.\n\n## What I'm having to do in the meantime\n\n`beforeinstallprompt` works on Chrome and Edge. On Safari and Firefox we\nfall back to static, browser-specific \"Add to Home Screen\" instructions.\n\nI tried the community polyfill at\nhttps://github.com/easy-pwa/beforeinstallprompt-polyfill to see if it would\nclose the gap. It doesn't. On browsers without a real install API, it fires\na synthetic `beforeinstallprompt` event, then shows the same manual\ninstructions we already have. It changes the code, not the outcome.\n\nAt least three separate npm packages exist to paper over this gap:\n- [@khmyznikov/pwa-install](https://www.npmjs.com/package/@khmyznikov/pwa-install) (~48k weekly downloads)\n- [pwa-install-handler](https://www.npmjs.com/package/pwa-install-handler) (~29k weekly downloads)\n- [react-pwa-install](https://www.npmjs.com/package/react-pwa-install)\n\nThat's nearly 80,000 weekly installs of workarounds for one missing browser\nfeature.\n\nThe manual flow costs us installs. On iOS, that's:\n- Open in your main browser\n- Press More if no Share icon\n- Press Share in the navigation bar\n- Scroll down to \"Add to Home Screen\"\n\nFour steps loses people at every stage, compared to a single native prompt.",
-          "parsedGoal": "We run Rocely, a recipe and meal-planning PWA. Users who install it to their home screen come back far more often than users who just bookmark it, so a reliable install step matters for retention. We want one install flow that works the same way regardless of browser, instead of branching our UI based on what the browser supports.",
-          "parsedWorkaround": "beforeinstallprompt works on Chrome and Edge. On Safari and Firefox we fall back to static, browser-specific \"Add to Home Screen\" instructions. I tried the community polyfill at https://github.com/easy-pwa/beforeinstallprompt-polyfill to see if it would close the gap. It doesn't. On browsers without a real install API, it fires a synthetic beforeinstallprompt event, then shows the same manual instructions we already have. It changes the code, not the outcome. At least three separate npm packages exist to paper over this gap: - @khmyznikov/pwa-install (~48k weekly downloads) - pwa-install-handler (~29k weekly downloads) - react-pwa-install That's nearly 80,000 weekly installs of workarounds for one missing browser feature. The manual flow costs us installs. On iOS, that's: - Open in your main browser - Press More if no Share icon - Press Share in the navigation bar - Scroll down to \"Add to Home Screen\" Four steps loses people at every stage, compared to a single native prompt.",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "installed apps"
-          ],
-          "workaroundSeverity": "moderate",
-          "generatedSummary": "We run Rocely, a recipe and meal-planning PWA. Users who install it to their home screen come back far more often than users who just bookmark it, so a reliable install step matte…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 12,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0.5,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 13.8,
-            "composite": 29.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:34Z"
     },
     {
       "id": "screen-capture",
@@ -7402,6 +7441,70 @@
       "lastActivityAt": "2026-10-06T18:52:29Z"
     },
     {
+      "id": "navigator-install",
+      "slug": "navigator-install",
+      "title": "navigator.install()",
+      "summary": "The navigator.install() method triggers a request to install a progressive web app.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 467,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/467"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/navigator-install/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 32,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 56.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 28.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 32 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 32,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:34Z"
+    },
+    {
       "id": "scroll-buttons",
       "slug": "scroll-buttons",
       "title": "::scroll-button",
@@ -7599,70 +7702,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:05Z"
-    },
-    {
-      "id": "navigator-install",
-      "slug": "navigator-install",
-      "title": "navigator.install()",
-      "summary": "The navigator.install() method triggers a request to install a progressive web app.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 467,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/467"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/navigator-install/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 31,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 55.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 31 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:34Z"
     },
     {
       "id": "document-picture-in-picture",
@@ -8125,21 +8164,21 @@
       ],
       "supportState": "limited",
       "missingBrowsers": [],
-      "votes": 27,
+      "votes": 28,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 53.6,
+        "voteDemand": 54.2,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 26.8
+        "composite": 27.1
       },
       "confidence": {
         "level": "low",
         "score": 0.22,
-        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 28 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -8151,16 +8190,16 @@
       "snapshots": [
         {
           "date": "2026-08-14",
-          "votes": 27,
+          "votes": 28,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 53.6,
+            "voteDemand": 54.2,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 26.8
+            "composite": 27.1
           }
         }
       ],
@@ -9017,6 +9056,67 @@
       "lastActivityAt": "2026-08-14T14:49:40Z"
     },
     {
+      "id": "manifest",
+      "slug": "manifest",
+      "title": "Web app manifest",
+      "summary": "A web app manifest file provides metadata about the site. The browser can use the metadata to install the site as a standalone application on the user's device. The metadata usually includes the app's name, icon, description, and ways in which the app wishes to integrate with the device.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 57,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/57"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/manifest/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 23,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 23,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:06Z"
+    },
+    {
       "id": "user-select",
       "slug": "user-select",
       "title": "user-select",
@@ -9076,6 +9176,87 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:08Z"
+    },
+    {
+      "id": "app-launch-handler",
+      "slug": "app-launch-handler",
+      "title": "Launch handler",
+      "summary": "The launch_handler web app manifest member, with the client_mode property, configure how web app launches behave when an instance of the app is already open. For example, you can choose to focus the existing app instance instead of launching a new one.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 190,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/190"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-launch-handler/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 25.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.39,
+        "rationale": "1 distinct qualified author; 9 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABNx18sQ",
+          "author": "GurusoftHub",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/190#issuecomment-5219646641",
+          "createdAt": "2026-08-07T16:37:58Z",
+          "body": "## What I want to do with this feature\n\nMy best use case is when I want to have my users authenticated. If they are already authenticated in another regular app windows, for sharing files, they need to authenticate again in a new window without this feature. Some of the apps have single login and auto log off on new login. When they use Web share API, the sign in toggles and app goes through lot of processing to manage logins which is unnecessary.\n\n## What I'm having to do in the meantime\n Currently, suggesting users to use more modern browsers: Chrome /Edge. ",
+          "parsedGoal": "My best use case is when I want to have my users authenticated. If they are already authenticated in another regular app windows, for sharing files, they need to authenticate again in a new window without this feature. Some of the apps have single login and auto log off on new login. When they use Web share API, the sign in toggles and app goes through lot of processing to manage logins which is unnecessary.",
+          "parsedWorkaround": "Currently, suggesting users to use more modern browsers: Chrome /Edge.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "My best use case is when I want to have my users authenticated. If they are already authenticated in another regular app windows, for sharing files, they need to authenticate agai…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 9,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 25.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:31Z"
     },
     {
       "id": "explicit-resource-management",
@@ -9217,20 +9398,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-23",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-09-24",
           "votes": 15,
@@ -9650,56 +9817,9 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
-        }
-      ],
-      "lastActivityAt": "2026-10-25T10:13:12Z"
-    },
-    {
-      "id": "manifest",
-      "slug": "manifest",
-      "title": "Web app manifest",
-      "summary": "A web app manifest file provides metadata about the site. The browser can use the metadata to install the site as a standalone application on the user's device. The metadata usually includes the app's name, icon, description, and ways in which the app wishes to integrate with the device.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 57,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/57"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/manifest/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 22,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 50.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
+        },
         {
-          "date": "2026-08-26",
+          "date": "2026-10-26",
           "votes": 22,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -9713,7 +9833,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:09:06Z"
+      "lastActivityAt": "2026-10-26T11:36:51Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -9937,87 +10057,6 @@
       "lastActivityAt": "2026-09-04T15:52:09Z"
     },
     {
-      "id": "app-launch-handler",
-      "slug": "app-launch-handler",
-      "title": "Launch handler",
-      "summary": "The launch_handler web app manifest member, with the client_mode property, configure how web app launches behave when an instance of the app is already open. For example, you can choose to focus the existing app instance instead of launching a new one.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 190,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/190"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-launch-handler/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 8,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 0,
-        "composite": 24.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.38,
-        "rationale": "1 distinct qualified author; 8 issue votes; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABNx18sQ",
-          "author": "GurusoftHub",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/190#issuecomment-5219646641",
-          "createdAt": "2026-08-07T16:37:58Z",
-          "body": "## What I want to do with this feature\n\nMy best use case is when I want to have my users authenticated. If they are already authenticated in another regular app windows, for sharing files, they need to authenticate again in a new window without this feature. Some of the apps have single login and auto log off on new login. When they use Web share API, the sign in toggles and app goes through lot of processing to manage logins which is unnecessary.\n\n## What I'm having to do in the meantime\n Currently, suggesting users to use more modern browsers: Chrome /Edge. ",
-          "parsedGoal": "My best use case is when I want to have my users authenticated. If they are already authenticated in another regular app windows, for sharing files, they need to authenticate again in a new window without this feature. Some of the apps have single login and auto log off on new login. When they use Web share API, the sign in toggles and app goes through lot of processing to manage logins which is unnecessary.",
-          "parsedWorkaround": "Currently, suggesting users to use more modern browsers: Chrome /Edge.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "My best use case is when I want to have my users authenticated. If they are already authenticated in another regular app windows, for sharing files, they need to authenticate agai…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 8,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 24.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:31Z"
-    },
-    {
       "id": "display-animation",
       "slug": "display-animation",
       "title": "display animation",
@@ -10077,6 +10116,84 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:41Z"
+    },
+    {
+      "id": "install",
+      "slug": "install",
+      "title": "<install>",
+      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 522,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 20,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 10,
+        "votes30d": 0,
+        "score7d": 5.2,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:18:14Z"
     },
     {
       "id": "input-color-alpha",
@@ -10141,84 +10258,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:11Z"
-    },
-    {
-      "id": "install",
-      "slug": "install",
-      "title": "<install>",
-      "summary": "The <install> HTML element represents a button that, upon activation, prompts the user to choose whether to install a progressive web app.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 522,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/522"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/install/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 19,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 48.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 9,
-        "votes30d": 0,
-        "score7d": 4.8,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 19,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 48.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:18:14Z"
     },
     {
       "id": "justify-self-block",
@@ -10723,6 +10762,68 @@
       "lastActivityAt": "2026-09-05T09:30:22Z"
     },
     {
+      "id": "app-file-handlers",
+      "slug": "app-file-handlers",
+      "title": "File handlers",
+      "summary": "The file_handlers web app manifest member registers an installed web app as a handler for files with specific file extensions or MIME types.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 173,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/173"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-file-handlers/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 17,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 46.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 17,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 46.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:20Z"
+    },
+    {
       "id": "cookie-store",
       "slug": "cookie-store",
       "title": "Cookie store",
@@ -10955,18 +11056,18 @@
       "lastActivityAt": "2026-08-26T12:08:44Z"
     },
     {
-      "id": "app-file-handlers",
-      "slug": "app-file-handlers",
-      "title": "File handlers",
-      "summary": "The file_handlers web app manifest member registers an installed web app as a handler for files with specific file extensions or MIME types.",
+      "id": "app-share-targets",
+      "slug": "app-share-targets",
+      "title": "Share targets",
+      "summary": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 173,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/173"
+        "number": 107,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/107"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-file-handlers/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-share-targets/",
       "categories": [
         "Progressive web app"
       ],
@@ -10992,15 +11093,48 @@
         "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
+        "votes7d": 6,
         "votes30d": 0,
-        "score7d": 0,
+        "score7d": 3.5,
         "score30d": 0
       },
-      "comments": [],
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVyNBfQ",
+          "author": "mlantin",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/107#issuecomment-5756895613",
+          "createdAt": "2026-09-21T07:25:39Z",
+          "body": "## What I want to do with this feature\n\nI have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.\n\n## What I'm having to do in the meantime\n\nThe only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media.\n\nI could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
+          "parsedGoal": "I have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.",
+          "parsedWorkaround": "The only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media. I could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
       "snapshots": [
         {
           "date": "2026-08-26",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-21",
           "votes": 16,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -11014,7 +11148,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:10:20Z"
+      "lastActivityAt": "2026-09-21T07:25:39Z"
     },
     {
       "id": "eyedropper",
@@ -11451,101 +11585,6 @@
         }
       ],
       "lastActivityAt": "2026-10-15T22:18:26Z"
-    },
-    {
-      "id": "app-share-targets",
-      "slug": "app-share-targets",
-      "title": "Share targets",
-      "summary": "The share_target web app manifest member registers an installed web app as a handler for shared content. When a user shares content by using the device share dialog, the installed app can be listed as an option for handling the shared content.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 107,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/107"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-share-targets/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 15,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 44.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 5,
-        "votes30d": 0,
-        "score7d": 3,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVyNBfQ",
-          "author": "mlantin",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/107#issuecomment-5756895613",
-          "createdAt": "2026-09-21T07:25:39Z",
-          "body": "## What I want to do with this feature\n\nI have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.\n\n## What I'm having to do in the meantime\n\nThe only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media.\n\nI could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
-          "parsedGoal": "I have a PWA that has several places where I could add a media contribution. If I'm already logged in I would like to be able to, say, take a picture and share it with the app. It would pop up a dialog asking where to share it and then post.",
-          "parsedWorkaround": "The only alternative I could think of would be to add a global contribute button on the app's home screen or burger menu and provide a quicker way to add media that way. It's just not in keeping with a clean UI and it is not in keeping with the spontaneity I want when capturing media. I could also build an iOS native companion app that takes care of the sharing as a middle man. Seems a bit over the top but that might be an option.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media",
-            "installed apps"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-21",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-21T07:25:39Z"
     },
     {
       "id": "display-contents",
@@ -12162,20 +12201,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-23",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-09-24",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12594,9 +12619,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-25T10:13:15Z"
+      "lastActivityAt": "2026-10-26T11:36:54Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14780,20 +14819,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-23",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-09-24",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15212,9 +15237,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-25T10:13:18Z"
+      "lastActivityAt": "2026-10-26T11:36:57Z"
     },
     {
       "id": "input-date-time-month",
@@ -19181,6 +19220,70 @@
       "lastActivityAt": "2026-09-18T16:17:38Z"
     },
     {
+      "id": "manifest-localization",
+      "slug": "manifest-localization",
+      "title": "Web app manifest localization",
+      "summary": "The _localized suffixed members of the web app manifest set translated names, descriptions, icons, and shortcuts. The browser automatically selects resources based on the user's language and region settings.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 516,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/516"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/manifest-localization/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 5,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 28.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 14.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.12,
+        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:30Z"
+    },
+    {
       "id": "partitioned-cookies",
       "slug": "partitioned-cookies",
       "title": "Partitioned cookies",
@@ -19910,6 +20013,67 @@
       "lastActivityAt": "2026-08-14T14:50:20Z"
     },
     {
+      "id": "app-shortcuts",
+      "slug": "app-shortcuts",
+      "title": "Application shortcuts",
+      "summary": "The shortcuts web app manifest member registers common actions of an installed web app with the device. The device can present these actions to the user in contextually appropriate locations, such as jump lists on Windows or the app launcher on Android.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 124,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/124"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-shortcuts/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 4,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 12.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.1,
+        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:46Z"
+    },
+    {
       "id": "audiolistener",
       "slug": "audiolistener",
       "title": "AudioListener",
@@ -20354,70 +20518,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:17:16Z"
-    },
-    {
-      "id": "manifest-localization",
-      "slug": "manifest-localization",
-      "title": "Web app manifest localization",
-      "summary": "The _localized suffixed members of the web app manifest set translated names, descriptions, icons, and shortcuts. The browser automatically selects resources based on the user's language and region settings.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 516,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/516"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/manifest-localization/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 4,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 25.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 12.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.1,
-        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:30Z"
     },
     {
       "id": "page-visibility-state",
@@ -20880,67 +20980,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:17:39Z"
-    },
-    {
-      "id": "app-shortcuts",
-      "slug": "app-shortcuts",
-      "title": "Application shortcuts",
-      "summary": "The shortcuts web app manifest member registers common actions of an installed web app with the device. The device can present these actions to the user in contextually appropriate locations, such as jump lists on Windows or the app launcher on Android.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 124,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/124"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-shortcuts/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:46Z"
     },
     {
       "id": "baseline-source",
@@ -26577,9 +26616,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-25T10:13:17Z"
+      "lastActivityAt": "2026-10-26T11:36:56Z"
     },
     {
       "id": "iterator-join",
@@ -26888,9 +26941,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-25T10:13:16Z"
+      "lastActivityAt": "2026-10-26T11:36:55Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -29346,9 +29413,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-25T10:13:14Z"
+      "lastActivityAt": "2026-10-26T11:36:53Z"
     },
     {
       "id": "retriable-module-loading",

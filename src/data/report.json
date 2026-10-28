@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-27T09:55:16.227Z",
-    "staleAfter": "2026-10-29T09:55:16.227Z",
+    "generatedAt": "2026-10-28T10:42:04.113Z",
+    "staleAfter": "2026-10-30T10:42:04.113Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,35 +10,34 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-27T09:55:16.227Z"
+        "retrievedAt": "2026-10-28T10:42:04.113Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-27T09:55:16.227Z"
+        "retrievedAt": "2026-10-28T10:42:04.113Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-27T09:55:16.227Z"
+        "retrievedAt": "2026-10-28T10:42:04.113Z"
       }
     ],
     "warnings": [
-      "app-file-handlers: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "app-launch-handler: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "app-share-targets: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "app-shortcuts: feed votes 3 differed from GitHub 4; GitHub value used.",
-      "attr: feed votes 130 differed from GitHub 129; GitHub value used.",
-      "barcode: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "beforeinstallprompt: feed votes 12 differed from GitHub 13; GitHub value used.",
-      "function: feed votes 122 differed from GitHub 123; GitHub value used.",
-      "if: feed votes 120 differed from GitHub 121; GitHub value used.",
-      "install: feed votes 19 differed from GitHub 20; GitHub value used.",
-      "manifest: feed votes 22 differed from GitHub 23; GitHub value used.",
-      "manifest-localization: feed votes 4 differed from GitHub 5; GitHub value used.",
-      "navigator-install: feed votes 31 differed from GitHub 32; GitHub value used.",
-      "notifications: feed votes 27 differed from GitHub 28; GitHub value used.",
-      "webgpu: feed votes 72 differed from GitHub 73; GitHub value used."
+      "attr: feed votes 129 differed from GitHub 130; GitHub value used.",
+      "customizable-select: feed votes 264 differed from GitHub 268; GitHub value used.",
+      "early-data: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "function: feed votes 123 differed from GitHub 124; GitHub value used.",
+      "if: feed votes 121 differed from GitHub 122; GitHub value used.",
+      "initial-letter: feed votes 15 differed from GitHub 16; GitHub value used.",
+      "interest-invokers: feed votes 51 differed from GitHub 52; GitHub value used.",
+      "jpegxl: feed votes 531 differed from GitHub 532; GitHub value used.",
+      "move-before: feed votes 42 differed from GitHub 43; GitHub value used.",
+      "stretch: feed votes 35 differed from GitHub 36; GitHub value used.",
+      "style-query-range-syntax: feed votes 27 differed from GitHub 28; GitHub value used.",
+      "symbols-function: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "text-box: feed votes 89 differed from GitHub 90; GitHub value used.",
+      "webauthn-signals: feed votes 11 differed from GitHub 12; GitHub value used."
     ]
   },
   "features": [
@@ -64,7 +63,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 531,
+      "votes": 532,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
@@ -78,11 +77,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 531 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 532 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 13,
-        "votes30d": 13,
+        "votes7d": 14,
+        "votes30d": 14,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -711,7 +710,7 @@
         },
         {
           "date": "2026-10-17",
-          "votes": 531,
+          "votes": 532,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.96,
           "workaroundBurdenRaw": 0,
@@ -764,7 +763,7 @@
       },
       "trend": {
         "votes7d": 2,
-        "votes30d": 38,
+        "votes30d": 37,
         "score7d": 0,
         "score30d": 1.1
       },
@@ -941,20 +940,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-23",
-          "votes": 237,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.4
-          }
-        },
         {
           "date": "2026-09-24",
           "votes": 237,
@@ -1374,9 +1359,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-27",
+          "votes": 276,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.5,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-26T11:36:52Z"
+      "lastActivityAt": "2026-10-27T11:06:48Z"
     },
     {
       "id": "attr",
@@ -1401,26 +1400,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 129,
+      "votes": 130,
       "qualifiedAuthors": 4,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 78.3,
+        "voteDemand": 78.4,
         "useCaseEvidence": 46,
         "workaroundBurden": 13.8,
-        "composite": 57.3
+        "composite": 57.4
       },
       "confidence": {
         "level": "medium",
         "score": 0.63,
-        "rationale": "4 distinct qualified authors; 129 issue votes; 80% of reviewed comments qualified."
+        "rationale": "4 distinct qualified authors; 130 issue votes; 80% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 15,
+        "votes7d": 16,
         "votes30d": 0,
-        "score7d": 1,
+        "score7d": 1.1,
         "score30d": 0
       },
       "comments": [
@@ -1527,16 +1526,16 @@
         },
         {
           "date": "2026-09-15",
-          "votes": 129,
+          "votes": 130,
           "qualifiedAuthors": 4,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.3,
+            "voteDemand": 78.4,
             "useCaseEvidence": 46,
             "workaroundBurden": 13.8,
-            "composite": 57.3
+            "composite": 57.4
           }
         }
       ],
@@ -1995,26 +1994,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 264,
+      "votes": 268,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 89.8,
+        "voteDemand": 90,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 51.8
+        "composite": 51.9
       },
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 264 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 268 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 22,
+        "votes7d": 26,
         "votes30d": 0,
-        "score7d": 7.6,
+        "score7d": 7.7,
         "score30d": 0
       },
       "comments": [
@@ -2068,16 +2067,16 @@
         },
         {
           "date": "2026-09-30",
-          "votes": 264,
+          "votes": 268,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 89.8,
+            "voteDemand": 90,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 51.8
+            "composite": 51.9
           }
         }
       ],
@@ -2104,21 +2103,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 123,
+      "votes": 124,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 77.5,
+        "voteDemand": 77.7,
         "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
-        "composite": 50
+        "composite": 50.1
       },
       "confidence": {
         "level": "medium",
         "score": 0.43,
-        "rationale": "2 distinct qualified authors; 123 issue votes; 22% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 124 issue votes; 22% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2300,16 +2299,16 @@
         },
         {
           "date": "2026-09-09",
-          "votes": 123,
+          "votes": 124,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 77.5,
+            "voteDemand": 77.7,
             "useCaseEvidence": 32.2,
             "workaroundBurden": 0,
-            "composite": 50
+            "composite": 50.1
           }
         }
       ],
@@ -2450,13 +2449,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 121,
+      "votes": 122,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 77.3,
+        "voteDemand": 77.4,
         "useCaseEvidence": 20.9,
         "workaroundBurden": 0,
         "composite": 46
@@ -2464,7 +2463,7 @@
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 121 issue votes; 25% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 122 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2546,13 +2545,13 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 121,
+          "votes": 122,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 77.3,
+            "voteDemand": 77.4,
             "useCaseEvidence": 20.9,
             "workaroundBurden": 0,
             "composite": 46
@@ -3940,6 +3939,113 @@
       "lastActivityAt": "2026-09-14T11:59:20Z"
     },
     {
+      "id": "text-box",
+      "slug": "text-box",
+      "title": "text-box",
+      "summary": "The text-box CSS property sets the spacing above and below text based on a font's typographic features. For example, text-box: trim-both ex alphabetic trims the top to the top of the letter x and the bottom to the bottom of most letters, without descenders.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 265,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/265"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-box/",
+      "categories": [
+        "Text"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 90,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 72.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 36.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.29,
+        "rationale": "0 distinct qualified authors; 90 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABHA_G0w",
+          "author": "spartanatreyu",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/265#issuecomment-4765763283",
+          "createdAt": "2026-06-22T07:07:49Z",
+          "body": "Everyone's seen this (in)famous article, but I'll share it here for posterity: https://tonsky.me/blog/centering/",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABHza8hw",
+          "author": "vextrogen",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/265#issuecomment-4818648199",
+          "createdAt": "2026-06-27T15:11:19Z",
+          "body": "God, Firefox needs this implemented ASAP.",
+          "positiveReactions": 3,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABIPLOOA",
+          "author": "kbhomes",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/265#issuecomment-4847750712",
+          "createdAt": "2026-06-30T20:42:58Z",
+          "body": "> God, Firefox needs this implemented ASAP.\n\nFirefox is currently working on its implementation, with most of it already being available in Nightly — I have some more details in the [\"Intent to Prototype\"](https://groups.google.com/a/mozilla.org/g/dev-platform/c/Ys0yVWrjo_E/m/PnyiWNqxAQAJ), and the main tracking bug is [Bug 1816038](https://bugzilla.mozilla.org/show_bug.cgi?id=1816038). Hopefully won't be too long before it's available in the release channel!",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 90,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 72.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 36.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:34:57Z"
+    },
+    {
       "id": "layout-instability",
       "slug": "layout-instability",
       "title": "Layout instability",
@@ -4081,113 +4187,6 @@
         }
       ],
       "lastActivityAt": "2026-10-17T12:17:08Z"
-    },
-    {
-      "id": "text-box",
-      "slug": "text-box",
-      "title": "text-box",
-      "summary": "The text-box CSS property sets the spacing above and below text based on a font's typographic features. For example, text-box: trim-both ex alphabetic trims the top to the top of the letter x and the bottom to the bottom of most letters, without descenders.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 265,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/265"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-box/",
-      "categories": [
-        "Text"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 89,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 72.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 36.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.29,
-        "rationale": "0 distinct qualified authors; 89 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABHA_G0w",
-          "author": "spartanatreyu",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/265#issuecomment-4765763283",
-          "createdAt": "2026-06-22T07:07:49Z",
-          "body": "Everyone's seen this (in)famous article, but I'll share it here for posterity: https://tonsky.me/blog/centering/",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABHza8hw",
-          "author": "vextrogen",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/265#issuecomment-4818648199",
-          "createdAt": "2026-06-27T15:11:19Z",
-          "body": "God, Firefox needs this implemented ASAP.",
-          "positiveReactions": 3,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABIPLOOA",
-          "author": "kbhomes",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/265#issuecomment-4847750712",
-          "createdAt": "2026-06-30T20:42:58Z",
-          "body": "> God, Firefox needs this implemented ASAP.\n\nFirefox is currently working on its implementation, with most of it already being available in Nightly — I have some more details in the [\"Intent to Prototype\"](https://groups.google.com/a/mozilla.org/g/dev-platform/c/Ys0yVWrjo_E/m/PnyiWNqxAQAJ), and the main tracking bug is [Bug 1816038](https://bugzilla.mozilla.org/show_bug.cgi?id=1816038). Hopefully won't be too long before it's available in the release channel!",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 89,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 72.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 36.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:34:57Z"
     },
     {
       "id": "dialog-closedby",
@@ -5026,6 +5025,86 @@
       "lastActivityAt": "2026-10-20T17:39:50Z"
     },
     {
+      "id": "interest-invokers",
+      "slug": "interest-invokers",
+      "title": "Interest invokers",
+      "summary": "Interest invokers, registered by the interestfor HTML attribute, trigger events and actions on a target element when a user shows interest in the element, through behaviors such as hover, focus, or long-press. Pseudo-elements apply styles to sources and targets of interest.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 464,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/464"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/interest-invokers/",
+      "categories": [
+        "HTML"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 52,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 63.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 31.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.26,
+        "rationale": "0 distinct qualified authors; 52 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7a_uDR",
+          "author": "jamesmstone",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/464#issuecomment-3674136785",
+          "createdAt": "2025-12-19T08:46:25Z",
+          "body": "## What I want to do with this feature\ntooltips\n\n## What I'm having to do in the meantime\n\n I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS ",
+          "parsedGoal": "tooltips",
+          "parsedWorkaround": "I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS",
+          "positiveReactions": 4,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 52,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 63.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:33Z"
+    },
+    {
       "id": "loading-lazy-media",
       "slug": "loading-lazy-media",
       "title": "Lazy-loading media",
@@ -5244,86 +5323,6 @@
         }
       ],
       "lastActivityAt": "2026-09-25T19:25:38Z"
-    },
-    {
-      "id": "interest-invokers",
-      "slug": "interest-invokers",
-      "title": "Interest invokers",
-      "summary": "Interest invokers, registered by the interestfor HTML attribute, trigger events and actions on a target element when a user shows interest in the element, through behaviors such as hover, focus, or long-press. Pseudo-elements apply styles to sources and targets of interest.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 464,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/464"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/interest-invokers/",
-      "categories": [
-        "HTML"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 51,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 63.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 31.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.26,
-        "rationale": "0 distinct qualified authors; 51 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7a_uDR",
-          "author": "jamesmstone",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/464#issuecomment-3674136785",
-          "createdAt": "2025-12-19T08:46:25Z",
-          "body": "## What I want to do with this feature\ntooltips\n\n## What I'm having to do in the meantime\n\n I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS ",
-          "parsedGoal": "tooltips",
-          "parsedWorkaround": "I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS",
-          "positiveReactions": 4,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 51,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 63.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 31.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:33Z"
     },
     {
       "id": "fedcm",
@@ -5914,6 +5913,99 @@
       "lastActivityAt": "2026-10-26T21:25:37Z"
     },
     {
+      "id": "move-before",
+      "slug": "move-before",
+      "title": "moveBefore()",
+      "summary": "The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 273,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/273"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/move-before/",
+      "categories": [
+        "DOM"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 43,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 60.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 30.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.25,
+        "rationale": "0 distinct qualified authors; 43 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 11,
+        "votes30d": 0,
+        "score7d": 2.3,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVlJsxA",
+          "author": "KavyanshKhaitan2",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/273#issuecomment-5743209668",
+          "createdAt": "2026-09-19T15:47:25Z",
+          "body": "## What I want to do with this feature\nI am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\nI am currently using a polyfill that re-renders everything every time `moveBefore` is supposed to be called.\n```js\n<script>\n    // MoveBefore polyfill for Safari (suggested by @Luke / U0BFDHWUSPM)\n    (function () {\n        // 1. Check if the native method is already supported\n        if (typeof Element.prototype.moveBefore === 'function') return;\n\n        // 2. Define the fallback function matching the moveBefore signature\n        const moveBeforeFallback = function (nodeToMove, referenceNode) {\n            if (!nodeToMove) {\n            throw new TypeError(\"Failed to execute 'moveBefore': 1 argument required, but only 0 present.\");\n            }\n            // Element.insertBefore(node, null) behaves exactly like appendChild\n            return this.insertBefore(nodeToMove, referenceNode);\n        };\n\n        // 3. Apply the fallback across all valid ParentNode prototypes\n        if (typeof Element !== 'undefined') {\n            Element.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof Document !== 'undefined') {\n            Document.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof DocumentFragment !== 'undefined') {\n            DocumentFragment.prototype.moveBefore = moveBeforeFallback;\n        }\n    })();\n</script>\n```\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
+          "parsedGoal": "I am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.",
+          "parsedWorkaround": "I am currently using a polyfill that re-renders everything every time moveBefore is supposed to be called. code sample",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "moderate"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 32,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.1
+          }
+        },
+        {
+          "date": "2026-09-19",
+          "votes": 43,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 60.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 30.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-19T15:49:25Z"
+    },
+    {
       "id": "local-fonts",
       "slug": "local-fonts",
       "title": "Local fonts",
@@ -6014,99 +6106,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:47:17Z"
-    },
-    {
-      "id": "move-before",
-      "slug": "move-before",
-      "title": "moveBefore()",
-      "summary": "The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 273,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/273"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/move-before/",
-      "categories": [
-        "DOM"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 42,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 60.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 30.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.24,
-        "rationale": "0 distinct qualified authors; 42 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 10,
-        "votes30d": 0,
-        "score7d": 2.2,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVlJsxA",
-          "author": "KavyanshKhaitan2",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/273#issuecomment-5743209668",
-          "createdAt": "2026-09-19T15:47:25Z",
-          "body": "## What I want to do with this feature\nI am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\nI am currently using a polyfill that re-renders everything every time `moveBefore` is supposed to be called.\n```js\n<script>\n    // MoveBefore polyfill for Safari (suggested by @Luke / U0BFDHWUSPM)\n    (function () {\n        // 1. Check if the native method is already supported\n        if (typeof Element.prototype.moveBefore === 'function') return;\n\n        // 2. Define the fallback function matching the moveBefore signature\n        const moveBeforeFallback = function (nodeToMove, referenceNode) {\n            if (!nodeToMove) {\n            throw new TypeError(\"Failed to execute 'moveBefore': 1 argument required, but only 0 present.\");\n            }\n            // Element.insertBefore(node, null) behaves exactly like appendChild\n            return this.insertBefore(nodeToMove, referenceNode);\n        };\n\n        // 3. Apply the fallback across all valid ParentNode prototypes\n        if (typeof Element !== 'undefined') {\n            Element.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof Document !== 'undefined') {\n            Document.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof DocumentFragment !== 'undefined') {\n            DocumentFragment.prototype.moveBefore = moveBeforeFallback;\n        }\n    })();\n</script>\n```\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
-          "parsedGoal": "I am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.",
-          "parsedWorkaround": "I am currently using a polyfill that re-renders everything every time moveBefore is supposed to be called. code sample",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "moderate"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 32,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 56.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 42,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 60.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 30.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-19T15:49:25Z"
     },
     {
       "id": "web-midi",
@@ -6982,6 +6981,82 @@
       "lastActivityAt": "2026-08-14T14:49:54Z"
     },
     {
+      "id": "stretch",
+      "slug": "stretch",
+      "title": "stretch",
+      "summary": "The stretch CSS keyword expands a box as needed to fit its contents until the maximum size is reached, without preserving the content's preferred aspect ratio.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 319,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/319"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/stretch/",
+      "categories": [
+        "Layout"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 36,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 58.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 29
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 36 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 10,
+        "votes30d": 0,
+        "score7d": 2.5,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 36,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 58.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:48Z"
+    },
+    {
       "id": "container-anchor-position-queries",
       "slug": "container-anchor-position-queries",
       "title": "Anchor position container queries",
@@ -7163,82 +7238,6 @@
         }
       ],
       "lastActivityAt": "2026-10-08T20:22:30Z"
-    },
-    {
-      "id": "stretch",
-      "slug": "stretch",
-      "title": "stretch",
-      "summary": "The stretch CSS keyword expands a box as needed to fit its contents until the maximum size is reached, without preserving the content's preferred aspect ratio.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 319,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/319"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/stretch/",
-      "categories": [
-        "Layout"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 35,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 57.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 28.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 35 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 9,
-        "votes30d": 0,
-        "score7d": 2.3,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 35,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 57.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:48Z"
     },
     {
       "id": "text-wrap-pretty",
@@ -8206,6 +8205,68 @@
       "lastActivityAt": "2026-08-14T14:44:59Z"
     },
     {
+      "id": "style-query-range-syntax",
+      "slug": "style-query-range-syntax",
+      "title": "Range syntax for style queries",
+      "summary": "The @container style() CSS at-rule and if(style()) CSS function queries accept a range syntax, such as >, <, >=, <=, to query for inexact values.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 465,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/465"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/style-query-range-syntax/",
+      "categories": [
+        "Container queries"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 28,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 54.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 28 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 28,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:35Z"
+    },
+    {
       "id": "scroll-markers",
       "slug": "scroll-markers",
       "title": "Scroll markers",
@@ -8266,68 +8327,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:17Z"
-    },
-    {
-      "id": "style-query-range-syntax",
-      "slug": "style-query-range-syntax",
-      "title": "Range syntax for style queries",
-      "summary": "The @container style() CSS at-rule and if(style()) CSS function queries accept a range syntax, such as >, <, >=, <=, to query for inexact values.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 465,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/465"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/style-query-range-syntax/",
-      "categories": [
-        "Container queries"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 27,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 27,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:35Z"
     },
     {
       "id": "reading-flow",
@@ -9399,20 +9398,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-24",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
-        {
           "date": "2026-09-25",
           "votes": 15,
           "qualifiedAuthors": 0,
@@ -9831,9 +9816,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-27",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-26T11:36:51Z"
+      "lastActivityAt": "2026-10-27T11:06:48Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -11311,6 +11310,68 @@
       "lastActivityAt": "2026-09-03T14:36:26Z"
     },
     {
+      "id": "initial-letter",
+      "slug": "initial-letter",
+      "title": "initial-letter",
+      "summary": "The initial-letter CSS property sets the number of lines the first letter of an element occupies. You can use the property to make a raised capital or drop cap.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 189,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/189"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/initial-letter/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 16,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 45.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 16,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:30Z"
+    },
+    {
       "id": "selection",
       "slug": "selection",
       "title": "::selection",
@@ -11649,68 +11710,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:18Z"
-    },
-    {
-      "id": "initial-letter",
-      "slug": "initial-letter",
-      "title": "initial-letter",
-      "summary": "The initial-letter CSS property sets the number of lines the first letter of an element occupies. You can use the property to make a raised capital or drop cap.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 189,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/189"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/initial-letter/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 15,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 44.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:30Z"
     },
     {
       "id": "getboxquads",
@@ -12201,20 +12200,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-24",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-09-25",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12633,9 +12618,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-27",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-26T11:36:54Z"
+      "lastActivityAt": "2026-10-27T11:06:50Z"
     },
     {
       "id": "font-metric-overrides",
@@ -13436,6 +13435,99 @@
       "lastActivityAt": "2026-09-03T14:34:25Z"
     },
     {
+      "id": "webauthn-signals",
+      "slug": "webauthn-signals",
+      "title": "Web authentication signal methods",
+      "summary": "The signalUnknownCredential(), signalAllAcceptedCredentials(), and signalCurrentUserDetails() methods of PublicKeyCredential inform authenticators of the state of public key credentials, so that incorrect or revoked credentials may be updated, removed, or hidden.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 381,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/381"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webauthn-signals/",
+      "categories": [
+        "WebAuthn"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.6,
+        "score30d": 0.6
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABgVrXXg",
+          "author": "phil9909",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/381#issuecomment-6465181534",
+          "createdAt": "2026-10-28T09:17:13Z",
+          "body": "## What I want to do with this feature\n\nAfter a successful [key creation](https://developer.mozilla.org/en-US/docs/Web/API/CredentialsContainer/create) storing the key on the server might fail for a number of reasons:\n\n- Client-side network issues\n- Server-side downtime\n- The key does not meet the requirements and is rejected\n- Session timed out\n\nIn these cases, I would like to use the [`signalUnknownCredential`](https://developer.mozilla.org/en-US/docs/Web/API/PublicKeyCredential/signalUnknownCredential_static) to make sure the end-user does not end up with non-accepted Passkeys in their Credential Manager.\n\n## What I'm having to do in the meantime\n\nTell the user: \"Please delete the Passkey manually\"",
+          "parsedGoal": "After a successful key creation storing the key on the server might fail for a number of reasons: - Client-side network issues - Server-side downtime - The key does not meet the requirements and is rejected - Session timed out In these cases, I would like to use the signalUnknownCredential to make sure the end-user does not end up with non-accepted Passkeys in their Credential Manager.",
+          "parsedWorkaround": "Tell the user: \"Please delete the Passkey manually\"",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        },
+        {
+          "date": "2026-10-28",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-28T09:17:13Z"
+    },
+    {
       "id": "webcodecs",
       "slug": "webcodecs",
       "title": "WebCodecs",
@@ -14104,67 +14196,6 @@
       "lastActivityAt": "2026-09-03T14:35:46Z"
     },
     {
-      "id": "webauthn-signals",
-      "slug": "webauthn-signals",
-      "title": "Web authentication signal methods",
-      "summary": "The signalUnknownCredential(), signalAllAcceptedCredentials(), and signalCurrentUserDetails() methods of PublicKeyCredential inform authenticators of the state of public key credentials, so that incorrect or revoked credentials may be updated, removed, or hidden.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 381,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/381"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webauthn-signals/",
-      "categories": [
-        "WebAuthn"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 11,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:01Z"
-    },
-    {
       "id": "background-fetch",
       "slug": "background-fetch",
       "title": "Background fetch",
@@ -14819,20 +14850,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-24",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-09-25",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15251,9 +15268,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-27",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-26T11:36:57Z"
+      "lastActivityAt": "2026-10-27T11:06:53Z"
     },
     {
       "id": "input-date-time-month",
@@ -21743,6 +21774,69 @@
       "lastActivityAt": "2026-08-26T12:10:02Z"
     },
     {
+      "id": "early-data",
+      "slug": "early-data",
+      "title": "Early data",
+      "summary": "TLS 1.3 sessions may be resumed more quickly by sending so-called early data to servers before the TLS handshake has finished. Also known as zero round-trip time resumption or 0-RTT.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 78,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/78"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/early-data/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:49Z"
+    },
+    {
       "id": "fast-seek",
       "slug": "fast-seek",
       "title": "fastSeek()",
@@ -23602,69 +23696,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:44:56Z"
-    },
-    {
-      "id": "early-data",
-      "slug": "early-data",
-      "title": "Early data",
-      "summary": "TLS 1.3 sessions may be resumed more quickly by sending so-called early data to servers before the TLS handshake has finished. Also known as zero round-trip time resumption or 0-RTT.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 78,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/78"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/early-data/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:49Z"
     },
     {
       "id": "element-timing",
@@ -26630,9 +26661,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-27",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-26T11:36:56Z"
+      "lastActivityAt": "2026-10-27T11:06:52Z"
     },
     {
       "id": "iterator-join",
@@ -26955,9 +27000,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-27",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-26T11:36:55Z"
+      "lastActivityAt": "2026-10-27T11:06:51Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -28079,6 +28138,79 @@
         }
       ],
       "lastActivityAt": "2026-10-06T08:20:01Z"
+    },
+    {
+      "id": "symbols-function",
+      "slug": "symbols-function",
+      "title": "symbols()",
+      "summary": "Developer demand and implementation evidence for Symbols Function.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 942,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/942"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/symbols-function/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 0,
+        "score7d": 5.6,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-10-06",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-14T07:24:13Z"
     },
     {
       "id": "text-autospace",
@@ -29427,9 +29559,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-27",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-26T11:36:53Z"
+      "lastActivityAt": "2026-10-27T11:06:49Z"
     },
     {
       "id": "retriable-module-loading",
@@ -29548,79 +29694,6 @@
         }
       ],
       "lastActivityAt": "2026-10-14T07:24:31Z"
-    },
-    {
-      "id": "symbols-function",
-      "slug": "symbols-function",
-      "title": "symbols()",
-      "summary": "Developer demand and implementation evidence for Symbols Function.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 942,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/942"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/symbols-function/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-10-06",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
-          "date": "2026-10-14",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-14T07:24:13Z"
     },
     {
       "id": "text-decoration-skip-spaces",

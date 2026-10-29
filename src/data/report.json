@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-28T10:42:04.113Z",
-    "staleAfter": "2026-10-30T10:42:04.113Z",
+    "generatedAt": "2026-10-29T10:59:36.135Z",
+    "staleAfter": "2026-10-31T10:59:36.135Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,34 +10,28 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-28T10:42:04.113Z"
+        "retrievedAt": "2026-10-29T10:59:36.135Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-28T10:42:04.113Z"
+        "retrievedAt": "2026-10-29T10:59:36.135Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-28T10:42:04.113Z"
+        "retrievedAt": "2026-10-29T10:59:36.135Z"
       }
     ],
     "warnings": [
-      "attr: feed votes 129 differed from GitHub 130; GitHub value used.",
-      "customizable-select: feed votes 264 differed from GitHub 268; GitHub value used.",
-      "early-data: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "function: feed votes 123 differed from GitHub 124; GitHub value used.",
-      "if: feed votes 121 differed from GitHub 122; GitHub value used.",
-      "initial-letter: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "interest-invokers: feed votes 51 differed from GitHub 52; GitHub value used.",
-      "jpegxl: feed votes 531 differed from GitHub 532; GitHub value used.",
-      "move-before: feed votes 42 differed from GitHub 43; GitHub value used.",
-      "stretch: feed votes 35 differed from GitHub 36; GitHub value used.",
-      "style-query-range-syntax: feed votes 27 differed from GitHub 28; GitHub value used.",
-      "symbols-function: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "text-box: feed votes 89 differed from GitHub 90; GitHub value used.",
-      "webauthn-signals: feed votes 11 differed from GitHub 12; GitHub value used."
+      "anchor-positioning-animations: feed votes 3 differed from GitHub 4; GitHub value used.",
+      "attr: feed votes 130 differed from GitHub 131; GitHub value used.",
+      "input-date-time-month: feed votes 9 differed from GitHub 10; GitHub value used.",
+      "interpolate-size: feed votes 97 differed from GitHub 99; GitHub value used.",
+      "jpegxl: feed votes 532 differed from GitHub 533; GitHub value used.",
+      "sanitizer: feed votes 111 differed from GitHub 112; GitHub value used.",
+      "scroll-initial-target: feed votes 6 differed from GitHub 7; GitHub value used.",
+      "temporal: feed votes 276 differed from GitHub 277; GitHub value used."
     ]
   },
   "features": [
@@ -63,7 +57,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 532,
+      "votes": 533,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
@@ -77,11 +71,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 532 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 533 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 14,
-        "votes30d": 14,
+        "votes7d": 15,
+        "votes30d": 15,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -667,7 +661,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4935032653",
           "createdAt": "2026-07-10T11:58:43Z",
           "body": "@jakearchibald AVIF is definitely working well for us! From [my research](https://wagtail.org/blog/40-smaller-images-same-quality/) it’s the best image format for the majority of our users right now. That said, I haven’t done a comparison of JXL vs. AVIF myself but I trust the [10 to 15% improvement reported by Cloudinary](https://cloudinary.com/blog/the-case-for-jpeg-xl) on their [CID22 dataset](https://cloudinary.com/labs/cid22). And from what I read the improvements should be bigger for higher-res images, that are relevant to a subset of our users in the GLAM sector. I expect JPEG XL’s recompression feature is also great in the CMS world, as it’s one less thing for our users to worry about, though here as well I haven’t actually measured the exact improvement in our use cases.\n\n> Are you concerned about how the small reduction in file size you get from converting JPEG to JXL is wiped out by much higher decoding time?\n\nDefinitely, though it’s more the [decoding power consumption](https://fershad.com/writing/power-consumption-jpeg-webp-and-avif/) that I’m worried about than time. I’ve found it hard to find good information on this tbh. Not just theoretical decoder performance but something more about real-world usage in browsers. Haven’t had the chance to do measurements myself.\n\n---\n\nI think it’s also worth acknowledging that for us compatibility is a goal in its own right. We support HEIC/HEIF uploads for compatibility with the Apple ecosystem, and just on that basis at this point it’d make sense for us to support JXL _uploads_ too since iPhones now save files in this format. But the format is promising for other reasons, so if our users upload images in that format I’d rather we also supported it when generating optimized images.",
-          "positiveReactions": 7,
+          "positiveReactions": 8,
           "classification": "qualified",
           "themes": [
             "performance",
@@ -710,7 +704,7 @@
         },
         {
           "date": "2026-10-17",
-          "votes": 532,
+          "votes": 533,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.96,
           "workaroundBurdenRaw": 0,
@@ -745,7 +739,7 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 276,
+      "votes": 277,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
@@ -754,18 +748,18 @@
         "voteDemand": 90.5,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
-        "composite": 62.6
+        "composite": 62.7
       },
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 276 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 277 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 2,
         "votes30d": 37,
-        "score7d": 0,
-        "score30d": 1.1
+        "score7d": 0.1,
+        "score30d": 1.2
       },
       "comments": [
         {
@@ -940,20 +934,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-24",
-          "votes": 237,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.4
-          }
-        },
         {
           "date": "2026-09-25",
           "votes": 238,
@@ -1373,9 +1353,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.6
           }
+        },
+        {
+          "date": "2026-10-28",
+          "votes": 277,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.5,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.7
+          }
         }
       ],
-      "lastActivityAt": "2026-10-27T11:06:48Z"
+      "lastActivityAt": "2026-10-28T11:42:16Z"
     },
     {
       "id": "attr",
@@ -1400,13 +1394,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 130,
+      "votes": 131,
       "qualifiedAuthors": 4,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 78.4,
+        "voteDemand": 78.5,
         "useCaseEvidence": 46,
         "workaroundBurden": 13.8,
         "composite": 57.4
@@ -1414,10 +1408,10 @@
       "confidence": {
         "level": "medium",
         "score": 0.63,
-        "rationale": "4 distinct qualified authors; 130 issue votes; 80% of reviewed comments qualified."
+        "rationale": "4 distinct qualified authors; 131 issue votes; 80% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 16,
+        "votes7d": 17,
         "votes30d": 0,
         "score7d": 1.1,
         "score30d": 0
@@ -1526,13 +1520,13 @@
         },
         {
           "date": "2026-09-15",
-          "votes": 130,
+          "votes": 131,
           "qualifiedAuthors": 4,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.4,
+            "voteDemand": 78.5,
             "useCaseEvidence": 46,
             "workaroundBurden": 13.8,
             "composite": 57.4
@@ -2582,26 +2576,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 97,
+      "votes": 99,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 73.8,
+        "voteDemand": 74.1,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 44.8
+        "composite": 44.9
       },
       "confidence": {
         "level": "medium",
         "score": 0.44,
-        "rationale": "1 distinct qualified author; 97 issue votes; 50% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 99 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 13,
+        "votes7d": 15,
         "votes30d": 0,
-        "score7d": 1.2,
+        "score7d": 1.3,
         "score30d": 0
       },
       "comments": [
@@ -2614,7 +2608,7 @@
           "body": "## What I want to do with this feature\n\nThe ability to animate size from 0 to \"auto\" in CSS has been sorely missing pretty much since transition existed. I could immediately use it in several types of menus/navigations and other open/closable modules. Probably most notably \"interpolate-size: allow-keywords\" is the last feature missing from completely JS-free animated Accordions (with details+summary). I seriously can't wait to use it and throw out lots of legacy tricks and javascript, but unanimated modules in some bosses iPhones prevent it.\n\n## What I'm having to do in the meantime\n\nI animate to some set \"max-height\" and similar tricks, which are also somewhat flexible, but don't animate as well and can have drawbacks, like even bigger content then anticipated. Or (if even possible) I use otherwise unnecessary (and restricting) fixed size. Or I measure with Javascript (and re-measure after viewport-changes). Or I use fully Javascript animation (like jQuery slideToggle).\n",
           "parsedGoal": "The ability to animate size from 0 to \"auto\" in CSS has been sorely missing pretty much since transition existed. I could immediately use it in several types of menus/navigations and other open/closable modules. Probably most notably \"interpolate-size: allow-keywords\" is the last feature missing from completely JS-free animated Accordions (with details+summary). I seriously can't wait to use it and throw out lots of legacy tricks and javascript, but unanimated modules in some bosses iPhones prevent it.",
           "parsedWorkaround": "I animate to some set \"max-height\" and similar tricks, which are also somewhat flexible, but don't animate as well and can have drawbacks, like even bigger content then anticipated. Or (if even possible) I use otherwise unnecessary (and restricting) fixed size. Or I measure with Javascript (and re-measure after viewport-changes). Or I use fully Javascript animation (like jQuery slideToggle).",
-          "positiveReactions": 13,
+          "positiveReactions": 14,
           "classification": "qualified",
           "themes": [
             "media"
@@ -2658,16 +2652,16 @@
         },
         {
           "date": "2026-09-29",
-          "votes": 97,
+          "votes": 99,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 73.8,
+            "voteDemand": 74.1,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 44.8
+            "composite": 44.9
           }
         }
       ],
@@ -3289,13 +3283,13 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 111,
+      "votes": 112,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 75.9,
+        "voteDemand": 76,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
         "composite": 38
@@ -3303,11 +3297,11 @@
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 111 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 112 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 23,
-        "votes30d": 32,
+        "votes7d": 24,
+        "votes30d": 33,
         "score7d": 1.9,
         "score30d": 2.8
       },
@@ -3378,13 +3372,13 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 111,
+          "votes": 112,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 75.9,
+            "voteDemand": 76,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
             "composite": 38
@@ -9398,20 +9392,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-25",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
-        {
           "date": "2026-09-26",
           "votes": 15,
           "qualifiedAuthors": 0,
@@ -9830,9 +9810,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-28",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-27T11:06:48Z"
+      "lastActivityAt": "2026-10-28T11:42:15Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -12200,20 +12194,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-25",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-09-26",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12632,9 +12612,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-28",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-27T11:06:50Z"
+      "lastActivityAt": "2026-10-28T11:42:18Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14340,6 +14334,97 @@
       "lastActivityAt": "2026-08-26T12:10:29Z"
     },
     {
+      "id": "input-date-time-month",
+      "slug": "input-date-time-month",
+      "title": "<input type=\"month\">",
+      "summary": "Developer demand and implementation evidence for Input Date Time Month.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 925,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/925"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-month/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 10,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 38.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 19.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.8,
+        "score30d": 0.8
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABgvw2Jg",
+          "author": "cleveHEX",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/925#issuecomment-6492534310",
+          "createdAt": "2026-10-29T09:06:48Z",
+          "body": "## What I want to do with this feature\n\nWe use this feature in our internal systems for billing purposes - whole month only and does not make sense to pick a day.\n\n## What I'm having to do in the meantime\n\nI have moved our sales department from Firefox to Chrome for this reason, but I personally still use Firefox and would be glad if such basic feature was standard and was reliant on Chrome or creating a custom field entirely.",
+          "parsedGoal": "We use this feature in our internal systems for billing purposes - whole month only and does not make sense to pick a day.",
+          "parsedWorkaround": "I have moved our sales department from Firefox to Chrome for this reason, but I personally still use Firefox and would be glad if such basic feature was standard and was reliant on Chrome or creating a custom field entirely.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-29",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-29T09:06:48Z"
+    },
+    {
       "id": "meta-text-scale",
       "slug": "meta-text-scale",
       "title": "<meta name=\"text-scale\">",
@@ -14850,20 +14935,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-25",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-09-26",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15282,54 +15353,9 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
-        }
-      ],
-      "lastActivityAt": "2026-10-27T11:06:53Z"
-    },
-    {
-      "id": "input-date-time-month",
-      "slug": "input-date-time-month",
-      "title": "<input type=\"month\">",
-      "summary": "Developer demand and implementation evidence for Input Date Time Month.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 925,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/925"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-month/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
+        },
         {
-          "date": "2026-09-18",
+          "date": "2026-10-28",
           "votes": 9,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -15343,7 +15369,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-18T16:17:08Z"
+      "lastActivityAt": "2026-10-28T11:42:21Z"
     },
     {
       "id": "picture-in-picture",
@@ -17469,6 +17495,68 @@
       "lastActivityAt": "2026-08-14T14:45:51Z"
     },
     {
+      "id": "scroll-initial-target",
+      "slug": "scroll-initial-target",
+      "title": "scroll-initial-target",
+      "summary": "The scroll-initial-target: nearest CSS declaration sets the initial scroll position of its scroll container to the top of the element, much like scrolling to a URL fragment.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 275,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/275"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-initial-target/",
+      "categories": [
+        "Scrolling"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 7,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 33.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 16.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:04Z"
+    },
+    {
       "id": "text-spacing-trim",
       "slug": "text-spacing-trim",
       "title": "text-spacing-trim",
@@ -18407,68 +18495,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:16Z"
-    },
-    {
-      "id": "scroll-initial-target",
-      "slug": "scroll-initial-target",
-      "title": "scroll-initial-target",
-      "summary": "The scroll-initial-target: nearest CSS declaration sets the initial scroll position of its scroll container to the top of the element, much like scrolling to a URL fragment.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 275,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/275"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-initial-target/",
-      "categories": [
-        "Scrolling"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 6,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 31.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 15.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.13,
-        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 6,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 15.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:04Z"
     },
     {
       "id": "spelling-grammar-error",
@@ -20044,6 +20070,81 @@
       "lastActivityAt": "2026-08-14T14:50:20Z"
     },
     {
+      "id": "anchor-positioning-animations",
+      "slug": "anchor-positioning-animations",
+      "title": "Anchor positioning animations and transitions",
+      "summary": "The anchor() and anchor-size() CSS functions animate or transition on changes such as the anchor box moving or the anchor element changing.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 905,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/905"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/anchor-positioning-animations/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 4,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 12.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.1,
+        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 0,
+        "score7d": 7.3,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:39Z"
+    },
+    {
       "id": "app-shortcuts",
       "slug": "app-shortcuts",
       "title": "Application shortcuts",
@@ -20936,81 +21037,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:20Z"
-    },
-    {
-      "id": "anchor-positioning-animations",
-      "slug": "anchor-positioning-animations",
-      "title": "Anchor positioning animations and transitions",
-      "summary": "The anchor() and anchor-size() CSS functions animate or transition on changes such as the anchor box moving or the anchor element changing.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 905,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/905"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/anchor-positioning-animations/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 2,
-        "votes30d": 0,
-        "score7d": 5.5,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:39Z"
     },
     {
       "id": "baseline-source",
@@ -26675,9 +26701,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-28",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-27T11:06:52Z"
+      "lastActivityAt": "2026-10-28T11:42:20Z"
     },
     {
       "id": "iterator-join",
@@ -27014,9 +27054,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-28",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-27T11:06:51Z"
+      "lastActivityAt": "2026-10-28T11:42:19Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -29573,9 +29627,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-28",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-27T11:06:49Z"
+      "lastActivityAt": "2026-10-28T11:42:17Z"
     },
     {
       "id": "retriable-module-loading",

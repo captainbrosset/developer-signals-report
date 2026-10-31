@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-30T10:56:56.646Z",
-    "staleAfter": "2026-11-01T10:56:56.646Z",
+    "generatedAt": "2026-10-31T10:29:19.030Z",
+    "staleAfter": "2026-11-02T10:29:19.030Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,24 +10,25 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-30T10:56:56.646Z"
+        "retrievedAt": "2026-10-31T10:29:19.030Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-30T10:56:56.646Z"
+        "retrievedAt": "2026-10-31T10:29:19.030Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-30T10:56:56.646Z"
+        "retrievedAt": "2026-10-31T10:29:19.030Z"
       }
     ],
     "warnings": [
-      "corner-shape: feed votes 148 differed from GitHub 149; GitHub value used.",
-      "custom-media-queries: feed votes 39 differed from GitHub 40; GitHub value used.",
-      "input-date-time-month: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "random-function: feed votes 25 differed from GitHub 26; GitHub value used."
+      "datalist: feed votes 53 differed from GitHub 54; GitHub value used.",
+      "input-date-time-week: feed votes 7 differed from GitHub 8; GitHub value used.",
+      "manifest: feed votes 23 differed from GitHub 22; GitHub value used.",
+      "temporal: feed votes 277 differed from GitHub 278; GitHub value used.",
+      "webgpu: feed votes 73 differed from GitHub 74; GitHub value used."
     ]
   },
   "features": [
@@ -735,13 +736,13 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 277,
+      "votes": 278,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 90.5,
+        "voteDemand": 90.6,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
         "composite": 62.7
@@ -749,11 +750,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 277 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 278 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
-        "votes30d": 37,
+        "votes7d": 2,
+        "votes30d": 38,
         "score7d": 0.1,
         "score30d": 1.2
       },
@@ -930,20 +931,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-26",
-          "votes": 238,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88.1,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.5
-          }
-        },
         {
           "date": "2026-09-27",
           "votes": 239,
@@ -1363,9 +1350,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.7
           }
+        },
+        {
+          "date": "2026-10-30",
+          "votes": 278,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.6,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.7
+          }
         }
       ],
-      "lastActivityAt": "2026-10-29T11:49:56Z"
+      "lastActivityAt": "2026-10-30T11:42:54Z"
     },
     {
       "id": "attr",
@@ -2322,21 +2323,21 @@
       ],
       "supportState": "limited",
       "missingBrowsers": [],
-      "votes": 53,
+      "votes": 54,
       "qualifiedAuthors": 3,
-      "reactionBoost": 0.36,
+      "reactionBoost": 0.4,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 64.2,
-        "useCaseEvidence": 42.1,
+        "voteDemand": 64.5,
+        "useCaseEvidence": 42.4,
         "workaroundBurden": 0,
-        "composite": 46.8
+        "composite": 47.1
       },
       "confidence": {
         "level": "medium",
-        "score": 0.58,
-        "rationale": "3 distinct qualified authors; 53 issue votes; 100% of reviewed comments qualified."
+        "score": 0.59,
+        "rationale": "3 distinct qualified authors; 54 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2390,7 +2391,7 @@
           "body": "## What I want to do with this feature\n\nHave a standard, WCGA proof, HTML based combobox with the option to enter new values, for things like labels, categories or other user defined data. \nThe list must have options to style the look to match rest of the site.\n\n## What I'm having to do in the meantime\n\nCreate or use custom JS based comboboxes with these problems:\n* HTML cannot express the GUI\n* can be incompatible with submitted form data, what is passed?\n* not WCAG proof, like lacking keyboard navigation, proper focus management and speech output\n* layout problems, like list is cut off by page length or long values not fitting the available space causing horizontal scrolling or worse, not being able to see the complete value",
           "parsedGoal": "Have a standard, WCGA proof, HTML based combobox with the option to enter new values, for things like labels, categories or other user defined data. The list must have options to style the look to match rest of the site.",
           "parsedWorkaround": "Create or use custom JS based comboboxes with these problems: HTML cannot express the GUI can be incompatible with submitted form data, what is passed? not WCAG proof, like lacking keyboard navigation, proper focus management and speech output layout problems, like list is cut off by page length or long values not fitting the available space causing horizontal scrolling or worse, not being able to see the complete value",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "qualified",
           "themes": [
             "layout & design"
@@ -2403,16 +2404,16 @@
       "snapshots": [
         {
           "date": "2026-08-26",
-          "votes": 53,
+          "votes": 54,
           "qualifiedAuthors": 3,
-          "reactionBoost": 0.36,
+          "reactionBoost": 0.4,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 64.2,
-            "useCaseEvidence": 42.1,
+            "voteDemand": 64.5,
+            "useCaseEvidence": 42.4,
             "workaroundBurden": 0,
-            "composite": 46.8
+            "composite": 47.1
           }
         }
       ],
@@ -2683,21 +2684,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 73,
+      "votes": 74,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 69.2,
+        "voteDemand": 69.5,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 41.6
+        "composite": 41.7
       },
       "confidence": {
         "level": "low",
         "score": 0.39,
-        "rationale": "1 distinct qualified author; 73 issue votes; 33% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 74 issue votes; 33% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2756,16 +2757,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 73,
+          "votes": 74,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 69.2,
+            "voteDemand": 69.5,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 41.6
+            "composite": 41.7
           }
         }
       ],
@@ -9108,67 +9109,6 @@
       "lastActivityAt": "2026-08-14T14:49:40Z"
     },
     {
-      "id": "manifest",
-      "slug": "manifest",
-      "title": "Web app manifest",
-      "summary": "A web app manifest file provides metadata about the site. The browser can use the metadata to install the site as a standalone application on the user's device. The metadata usually includes the app's name, icon, description, and ways in which the app wishes to integrate with the device.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 57,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/57"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/manifest/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 23,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 51.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 23,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 51.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:06Z"
-    },
-    {
       "id": "user-select",
       "slug": "user-select",
       "title": "user-select",
@@ -9450,20 +9390,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-27",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-09-28",
           "votes": 15,
@@ -9883,9 +9809,84 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-30",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-29T11:49:55Z"
+      "lastActivityAt": "2026-10-30T11:42:53Z"
+    },
+    {
+      "id": "manifest",
+      "slug": "manifest",
+      "title": "Web app manifest",
+      "summary": "A web app manifest file provides metadata about the site. The browser can use the metadata to install the site as a standalone application on the user's device. The metadata usually includes the app's name, icon, description, and ways in which the app wishes to integrate with the device.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 57,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/57"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/manifest/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 22,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 50.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:06Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -12253,20 +12254,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-27",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-09-28",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12685,9 +12672,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-30",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-29T11:49:58Z"
+      "lastActivityAt": "2026-10-30T11:42:56Z"
     },
     {
       "id": "font-metric-overrides",
@@ -14994,20 +14995,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-27",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-09-28",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15426,9 +15413,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-30",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-29T11:50:01Z"
+      "lastActivityAt": "2026-10-30T11:42:59Z"
     },
     {
       "id": "picture-in-picture",
@@ -16553,6 +16554,65 @@
       "lastActivityAt": "2026-08-14T14:45:02Z"
     },
     {
+      "id": "input-date-time-week",
+      "slug": "input-date-time-week",
+      "title": "<input type=\"week\">",
+      "summary": "Developer demand and implementation evidence for Input Date Time Week.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 926,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/926"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-week/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 8,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 17.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:11Z"
+    },
+    {
       "id": "page-lifecycle",
       "slug": "page-lifecycle",
       "title": "Page lifecycle",
@@ -17225,65 +17285,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:47:52Z"
-    },
-    {
-      "id": "input-date-time-week",
-      "slug": "input-date-time-week",
-      "title": "<input type=\"week\">",
-      "summary": "Developer demand and implementation evidence for Input Date Time Week.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 926,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/926"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-week/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 7,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 16.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:11Z"
     },
     {
       "id": "mask-border",
@@ -26788,9 +26789,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-30",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-29T11:50:00Z"
+      "lastActivityAt": "2026-10-30T11:42:58Z"
     },
     {
       "id": "iterator-join",
@@ -27155,9 +27170,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-30",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-29T11:49:59Z"
+      "lastActivityAt": "2026-10-30T11:42:57Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -29742,9 +29771,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-30",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-29T11:49:57Z"
+      "lastActivityAt": "2026-10-30T11:42:55Z"
     },
     {
       "id": "retriable-module-loading",

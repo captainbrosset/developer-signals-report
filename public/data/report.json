@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-10-31T10:29:19.030Z",
-    "staleAfter": "2026-11-02T10:29:19.030Z",
+    "generatedAt": "2026-11-01T11:23:51.569Z",
+    "staleAfter": "2026-11-03T11:23:51.569Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,25 +10,25 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-10-31T10:29:19.030Z"
+        "retrievedAt": "2026-11-01T11:23:51.569Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-10-31T10:29:19.030Z"
+        "retrievedAt": "2026-11-01T11:23:51.569Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-10-31T10:29:19.030Z"
+        "retrievedAt": "2026-11-01T11:23:51.569Z"
       }
     ],
     "warnings": [
-      "datalist: feed votes 53 differed from GitHub 54; GitHub value used.",
-      "input-date-time-week: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "manifest: feed votes 23 differed from GitHub 22; GitHub value used.",
-      "temporal: feed votes 277 differed from GitHub 278; GitHub value used.",
-      "webgpu: feed votes 73 differed from GitHub 74; GitHub value used."
+      "background-fetch: feed votes 10 differed from GitHub 11; GitHub value used.",
+      "focusgroup: feed votes 23 differed from GitHub 24; GitHub value used.",
+      "input-date-time-week: feed votes 8 differed from GitHub 9; GitHub value used.",
+      "interpolate-size: feed votes 99 differed from GitHub 100; GitHub value used.",
+      "link-parameters: feed votes 34 differed from GitHub 35; GitHub value used."
     ]
   },
   "features": [
@@ -754,9 +754,9 @@
       },
       "trend": {
         "votes7d": 2,
-        "votes30d": 38,
+        "votes30d": 36,
         "score7d": 0.1,
-        "score30d": 1.2
+        "score30d": 1.1
       },
       "comments": [
         {
@@ -931,20 +931,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-27",
-          "votes": 239,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88.2,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.5
-          }
-        },
         {
           "date": "2026-09-28",
           "votes": 240,
@@ -1364,9 +1350,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.7
           }
+        },
+        {
+          "date": "2026-10-31",
+          "votes": 278,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.6,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.7
+          }
         }
       ],
-      "lastActivityAt": "2026-10-30T11:42:54Z"
+      "lastActivityAt": "2026-10-31T11:16:34Z"
     },
     {
       "id": "attr",
@@ -2573,26 +2573,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 99,
+      "votes": 100,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 74.1,
+        "voteDemand": 74.2,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 44.9
+        "composite": 45
       },
       "confidence": {
         "level": "medium",
         "score": 0.44,
-        "rationale": "1 distinct qualified author; 99 issue votes; 50% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 100 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 15,
+        "votes7d": 16,
         "votes30d": 0,
-        "score7d": 1.3,
+        "score7d": 1.4,
         "score30d": 0
       },
       "comments": [
@@ -2649,16 +2649,16 @@
         },
         {
           "date": "2026-09-29",
-          "votes": 99,
+          "votes": 100,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 74.1,
+            "voteDemand": 74.2,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 44.9
+            "composite": 45
           }
         }
       ],
@@ -7156,6 +7156,145 @@
       "lastActivityAt": "2026-09-18T16:17:50Z"
     },
     {
+      "id": "link-parameters",
+      "slug": "link-parameters",
+      "title": "Link parameters",
+      "summary": "Developer demand and implementation evidence for Link Parameters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 923,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 35,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 57.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 28.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 35 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 19,
+        "votes30d": 0,
+        "score7d": 6,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
+          "author": "tylersticka",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
+          "createdAt": "2026-09-15T17:38:35Z",
+          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
+          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABXkEX2w",
+          "author": "kizu",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5876291547",
+          "createdAt": "2026-09-28T18:43:17Z",
+          "body": "## What I want to do with this feature\n\nCreate reusable and parametrized SVG images that could have a CSS-based API to adjust various parameters inside, not just colors.\n\n## What I'm having to do in the meantime\n\nFor anything non-color related, right now the only way is to hack around the dimensions of the used element and apply media queries/css math conditions: https://kizu.dev/svg-linked-parameters-workaround/ (the examples are _mostly_ using colors, but I have many use cases where I want to adjust something like stroke width, presence of markers, etc.)",
+          "parsedGoal": "Create reusable and parametrized SVG images that could have a CSS-based API to adjust various parameters inside, not just colors.",
+          "parsedWorkaround": "For anything non-color related, right now the only way is to hack around the dimensions of the used element and apply media queries/css math conditions: https://kizu.dev/svg-linked-parameters-workaround/ (the examples are mostly using colors, but I have many use cases where I want to adjust something like stroke width, presence of markers, etc.)",
+          "positiveReactions": 3,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABZwMvUw",
+          "author": "fpapado",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-6023229267",
+          "createdAt": "2026-10-06T18:52:29Z",
+          "body": "## What I want to do with this feature\n\nTo have reusable SVG components that support multiple colour systems (not just monochrome, but duochrome or even [rendering modes similar to SF symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols#Rendering-modes)), while also being performant, portable and easy to consume in different projects.\n\n## What I'm having to do in the meantime\n\nI maintain a set of tools to make `<use>`-based SVG components more ergonomic (especially compared to inlining SVGs, which works but is not great for performance!) While that has worked well enough, it is still more toolchain components to maintain. Also `<use>` is not easy to consume from central locations like CDNs, due to CORS limitations. \n\nA few years ago, [I wrote an analysis of current approaches and my estimate of what pain points they solve](https://fotis.xyz/posts/introducing-svg-use/); [link parameters in particular were my favourite](https://fotis.xyz/posts/introducing-svg-use/#:~:text=CSS%20Linked%20Parameters) (based on an earlier iteration, but I think it holds up 😌)",
+          "parsedGoal": "To have reusable SVG components that support multiple colour systems (not just monochrome, but duochrome or even rendering modes similar to SF symbols), while also being performant, portable and easy to consume in different projects.",
+          "parsedWorkaround": "I maintain a set of tools to make <use>-based SVG components more ergonomic (especially compared to inlining SVGs, which works but is not great for performance!) While that has worked well enough, it is still more toolchain components to maintain. Also <use> is not easy to consume from central locations like CDNs, due to CORS limitations. A few years ago, I wrote an analysis of current approaches and my estimate of what pain points they solve; link parameters in particular were my favourite (based on an earlier iteration, but I think it holds up 😌)",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-15",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        },
+        {
+          "date": "2026-09-28",
+          "votes": 16,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.8
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "votes": 35,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 57.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-06T18:52:29Z"
+    },
+    {
       "id": "share",
       "slug": "share",
       "title": "navigator.share()",
@@ -7324,143 +7463,98 @@
       "lastActivityAt": "2026-08-26T12:10:42Z"
     },
     {
-      "id": "link-parameters",
-      "slug": "link-parameters",
-      "title": "Link parameters",
-      "summary": "Developer demand and implementation evidence for Link Parameters.",
-      "summaryKind": "editorial",
+      "id": "font-family-ui",
+      "slug": "font-family-ui",
+      "title": "UI fonts",
+      "summary": "The ui-serif, ui-sans-serif, ui-monospace and ui-rounded values for the font-family CSS property use device-default user interface fonts for text.",
+      "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 923,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
+        "number": 115,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/115"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/font-family-ui/",
       "categories": [
-        "Other"
+        "Fonts"
       ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 34,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 13,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 57.2,
-        "useCaseEvidence": 0,
+        "voteDemand": 42.5,
+        "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
-        "composite": 28.6
+        "composite": 28.4
       },
       "confidence": {
         "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 34 issue votes; 0% of reviewed comments qualified."
+        "score": 0.41,
+        "rationale": "1 distinct qualified author; 13 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 18,
+        "votes7d": 0,
         "votes30d": 0,
-        "score7d": 5.8,
-        "score30d": 0
+        "score7d": 7.2,
+        "score30d": 7.2
       },
       "comments": [
         {
-          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
-          "author": "tylersticka",
+          "id": "IC_kwDOLb9kWM8AAAABhqQ4nw",
+          "author": "vivodi",
           "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
-          "createdAt": "2026-09-15T17:38:35Z",
-          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
-          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
-          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/115#issuecomment-6553876639",
+          "createdAt": "2026-11-01T05:22:34Z",
+          "body": "I strongly oppose supporting `ui-monospace` on non-Apple platforms.\n\nDue to licensing and design restrictions, Apple blocks web pages from referencing `SF Mono` directly via standard font-family names (e.g., `font-family: \"SF Mono\"`). Because `ui-monospace` is the only way to invoke `SF Mono`, many websites place it as the very first option in their font stacks (e.g., `ui-monospace, \"Cascadia Mono\", Consolas, monospace`). On Apple platforms, this works well even in Chinese system locales, as `SF Mono` is still used to render Latin characters and digits cleanly rather than falling back to a localized CJK font.\n\nOn Simplified Chinese versions of Windows, however, the generic `monospace` keyword resolves to `NSimSun`—a font designed for Simplified Chinese that renders Latin characters and numbers poorly. If non-Apple platforms implement `ui-monospace` with the same locale-dependent behavior as `monospace`, it would not only be redundant, but also actively harmful: since developers must place `ui-monospace` first in the font stack to target `SF Mono` on Apple devices, supporting `ui-monospace` on non-Apple platforms means non-English Windows systems would immediately match it at the start of the stack and render suboptimal localized fonts like `NSimSun`, completely bypassing explicit Windows monospace fonts (such as `Cascadia Mono` or `Consolas`) declared later in the stack.\n\nWe have already seen this exact failure mode with `system-ui`. When developers placed `system-ui` at the beginning of their sans-serif font stacks, browsers on Simplified Chinese Windows resolved it directly to localized CJK UI fonts (such as `Microsoft YaHei UI`), which feature subpar Latin glyphs and have historically suffered from font-weight and rendering issues—effectively hijacking the font stack before it could ever reach `\"Segoe UI\"`. Repeating this mistake with `ui-monospace` would break monospace typography across the web in the exact same way.\n\nTherefore, the best approach is to keep `ui-monospace` exclusive to Apple platforms.\n",
           "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABXkEX2w",
-          "author": "kizu",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5876291547",
-          "createdAt": "2026-09-28T18:43:17Z",
-          "body": "## What I want to do with this feature\n\nCreate reusable and parametrized SVG images that could have a CSS-based API to adjust various parameters inside, not just colors.\n\n## What I'm having to do in the meantime\n\nFor anything non-color related, right now the only way is to hack around the dimensions of the used element and apply media queries/css math conditions: https://kizu.dev/svg-linked-parameters-workaround/ (the examples are _mostly_ using colors, but I have many use cases where I want to adjust something like stroke width, presence of markers, etc.)",
-          "parsedGoal": "Create reusable and parametrized SVG images that could have a CSS-based API to adjust various parameters inside, not just colors.",
-          "parsedWorkaround": "For anything non-color related, right now the only way is to hack around the dimensions of the used element and apply media queries/css math conditions: https://kizu.dev/svg-linked-parameters-workaround/ (the examples are mostly using colors, but I have many use cases where I want to adjust something like stroke width, presence of markers, etc.)",
-          "positiveReactions": 3,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
+          "classification": "qualified",
           "themes": [
             "media"
           ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABZwMvUw",
-          "author": "fpapado",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-6023229267",
-          "createdAt": "2026-10-06T18:52:29Z",
-          "body": "## What I want to do with this feature\n\nTo have reusable SVG components that support multiple colour systems (not just monochrome, but duochrome or even [rendering modes similar to SF symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols#Rendering-modes)), while also being performant, portable and easy to consume in different projects.\n\n## What I'm having to do in the meantime\n\nI maintain a set of tools to make `<use>`-based SVG components more ergonomic (especially compared to inlining SVGs, which works but is not great for performance!) While that has worked well enough, it is still more toolchain components to maintain. Also `<use>` is not easy to consume from central locations like CDNs, due to CORS limitations. \n\nA few years ago, [I wrote an analysis of current approaches and my estimate of what pain points they solve](https://fotis.xyz/posts/introducing-svg-use/); [link parameters in particular were my favourite](https://fotis.xyz/posts/introducing-svg-use/#:~:text=CSS%20Linked%20Parameters) (based on an earlier iteration, but I think it holds up 😌)",
-          "parsedGoal": "To have reusable SVG components that support multiple colour systems (not just monochrome, but duochrome or even rendering modes similar to SF symbols), while also being performant, portable and easy to consume in different projects.",
-          "parsedWorkaround": "I maintain a set of tools to make <use>-based SVG components more ergonomic (especially compared to inlining SVGs, which works but is not great for performance!) While that has worked well enough, it is still more toolchain components to maintain. Also <use> is not easy to consume from central locations like CDNs, due to CORS limitations. A few years ago, I wrote an analysis of current approaches and my estimate of what pain points they solve; link parameters in particular were my favourite (based on an earlier iteration, but I think it holds up 😌)",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
+          "workaroundSeverity": "none",
+          "generatedSummary": "I strongly oppose supporting ui-monospace on non-Apple platforms. Due to licensing and design restrictions, Apple blocks web pages from referencing SF Mono directly via standard f…",
+          "summaryKind": "source-excerpt"
         }
       ],
       "snapshots": [
         {
-          "date": "2026-09-15",
-          "votes": 12,
+          "date": "2026-08-26",
+          "votes": 13,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 41.3,
+            "voteDemand": 42.5,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 20.6
+            "composite": 21.2
           }
         },
         {
-          "date": "2026-09-28",
-          "votes": 16,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
+          "date": "2026-11-01",
+          "votes": 13,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 0,
+            "voteDemand": 42.5,
+            "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        },
-        {
-          "date": "2026-10-06",
-          "votes": 34,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 57.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.6
+            "composite": 28.4
           }
         }
       ],
-      "lastActivityAt": "2026-10-06T18:52:29Z"
+      "lastActivityAt": "2026-11-01T05:22:39Z"
     },
     {
       "id": "navigator-install",
@@ -8884,6 +8978,71 @@
       "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
+      "id": "focusgroup",
+      "slug": "focusgroup",
+      "title": "focusgroup",
+      "summary": "The focusgroup global HTML attribute combines descendant elements into a single tab stop, with arrow-key navigation between them, for toolbars, tabs, menus, radio groups, and other composite controls. It's an alternative to the sequential navigation of tabindex.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 546,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/546"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/focusgroup/",
+      "categories": [
+        "HTML",
+        "Reading order"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 24,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 24 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 24,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:22Z"
+    },
+    {
       "id": "speech-recognition",
       "slug": "speech-recognition",
       "title": "Speech recognition",
@@ -8979,71 +9138,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:27Z"
-    },
-    {
-      "id": "focusgroup",
-      "slug": "focusgroup",
-      "title": "focusgroup",
-      "summary": "The focusgroup global HTML attribute combines descendant elements into a single tab stop, with arrow-key navigation between them, for toolbars, tabs, menus, radio groups, and other composite controls. It's an alternative to the sequential navigation of tabindex.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 546,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/546"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/focusgroup/",
-      "categories": [
-        "HTML",
-        "Reading order"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 23,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 51.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 23,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 51.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:22Z"
     },
     {
       "id": "hanging-punctuation",
@@ -9390,20 +9484,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-09-28",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-09-29",
           "votes": 15,
@@ -9823,9 +9903,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-10-31",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-30T11:42:53Z"
+      "lastActivityAt": "2026-10-31T11:16:33Z"
     },
     {
       "id": "manifest",
@@ -12254,20 +12348,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-28",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-09-29",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12686,9 +12766,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-10-31",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-30T11:42:56Z"
+      "lastActivityAt": "2026-10-31T11:16:36Z"
     },
     {
       "id": "font-metric-overrides",
@@ -13008,69 +13102,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:22Z"
-    },
-    {
-      "id": "font-family-ui",
-      "slug": "font-family-ui",
-      "title": "UI fonts",
-      "summary": "The ui-serif, ui-sans-serif, ui-monospace and ui-rounded values for the font-family CSS property use device-default user interface fonts for text.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 115,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/115"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/font-family-ui/",
-      "categories": [
-        "Fonts"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:40Z"
     },
     {
       "id": "object-view-box",
@@ -13655,6 +13686,88 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:56Z"
+    },
+    {
+      "id": "background-fetch",
+      "slug": "background-fetch",
+      "title": "Background fetch",
+      "summary": "Background fetch downloads data in the background even when the web page is closed.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 97,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/97"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/background-fetch/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 11,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 40,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABNrelfw",
+          "author": "shane-smith",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/97#issuecomment-5212972415",
+          "createdAt": "2026-08-07T05:49:29Z",
+          "body": "## What I want to do with this feature\n\nOur PWA has several documents and images that need to be available offline. When a user opts-in to download the manifest, I'd like that download to continue even if they close the application. Similarly, when they revisit the app and an update to those documents and images is detected, I want that update to be able to continue even after they close the application again.\n\n## What I'm having to do in the meantime\n\nI am required to download everything while they have the PWA open, using a wake lock to prevent the screen from going to sleep, and if they interrupt the download I need to then try to recover next time the app is opened to resume from where it was last interrupted.\n\nThis would be a lot more seamless if I could allow them to download everything in the background, and perhaps have a persistent notification displayed while that is taking place so they can override and cancel it if they want to - or perhaps pause it, so they can resume later.",
+          "parsedGoal": "Our PWA has several documents and images that need to be available offline. When a user opts-in to download the manifest, I'd like that download to continue even if they close the application. Similarly, when they revisit the app and an update to those documents and images is detected, I want that update to be able to continue even after they close the application again.",
+          "parsedWorkaround": "I am required to download everything while they have the PWA open, using a wake lock to prevent the screen from going to sleep, and if they interrupt the download I need to then try to recover next time the app is opened to resume from where it was last interrupted. This would be a lot more seamless if I could allow them to download everything in the background, and perhaps have a persistent notification displayed while that is taking place so they can override and cancel it if they want to - or perhaps pause it, so they can resume later.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time",
+            "media",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:46:05Z"
     },
     {
       "id": "context-fill-stroke",
@@ -14341,88 +14454,6 @@
       "lastActivityAt": "2026-09-03T14:35:46Z"
     },
     {
-      "id": "background-fetch",
-      "slug": "background-fetch",
-      "title": "Background fetch",
-      "summary": "Background fetch downloads data in the background even when the web page is closed.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 97,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/97"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/background-fetch/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 10,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 19.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABNrelfw",
-          "author": "shane-smith",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/97#issuecomment-5212972415",
-          "createdAt": "2026-08-07T05:49:29Z",
-          "body": "## What I want to do with this feature\n\nOur PWA has several documents and images that need to be available offline. When a user opts-in to download the manifest, I'd like that download to continue even if they close the application. Similarly, when they revisit the app and an update to those documents and images is detected, I want that update to be able to continue even after they close the application again.\n\n## What I'm having to do in the meantime\n\nI am required to download everything while they have the PWA open, using a wake lock to prevent the screen from going to sleep, and if they interrupt the download I need to then try to recover next time the app is opened to resume from where it was last interrupted.\n\nThis would be a lot more seamless if I could allow them to download everything in the background, and perhaps have a persistent notification displayed while that is taking place so they can override and cancel it if they want to - or perhaps pause it, so they can resume later.",
-          "parsedGoal": "Our PWA has several documents and images that need to be available offline. When a user opts-in to download the manifest, I'd like that download to continue even if they close the application. Similarly, when they revisit the app and an update to those documents and images is detected, I want that update to be able to continue even after they close the application again.",
-          "parsedWorkaround": "I am required to download everything while they have the PWA open, using a wake lock to prevent the screen from going to sleep, and if they interrupt the download I need to then try to recover next time the app is opened to resume from where it was last interrupted. This would be a lot more seamless if I could allow them to download everything in the background, and perhaps have a persistent notification displayed while that is taking place so they can override and cancel it if they want to - or perhaps pause it, so they can resume later.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time",
-            "media",
-            "installed apps"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:46:05Z"
-    },
-    {
       "id": "iframe-credentialless",
       "slug": "iframe-credentialless",
       "title": "Credentialless iframes",
@@ -14995,20 +15026,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-28",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-09-29",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15427,9 +15444,82 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-10-31",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-30T11:42:59Z"
+      "lastActivityAt": "2026-10-31T11:16:39Z"
+    },
+    {
+      "id": "input-date-time-week",
+      "slug": "input-date-time-week",
+      "title": "<input type=\"week\">",
+      "summary": "Developer demand and implementation evidence for Input Date Time Week.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 926,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/926"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-week/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:11Z"
     },
     {
       "id": "picture-in-picture",
@@ -16552,65 +16642,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:02Z"
-    },
-    {
-      "id": "input-date-time-week",
-      "slug": "input-date-time-week",
-      "title": "<input type=\"week\">",
-      "summary": "Developer demand and implementation evidence for Input Date Time Week.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 926,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/926"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/input-date-time-week/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:11Z"
     },
     {
       "id": "page-lifecycle",
@@ -26803,9 +26834,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-31",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-30T11:42:58Z"
+      "lastActivityAt": "2026-10-31T11:16:38Z"
     },
     {
       "id": "iterator-join",
@@ -27184,9 +27229,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-10-31",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-30T11:42:57Z"
+      "lastActivityAt": "2026-10-31T11:16:37Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -29785,9 +29844,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-10-31",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-30T11:42:55Z"
+      "lastActivityAt": "2026-10-31T11:16:35Z"
     },
     {
       "id": "retriable-module-loading",

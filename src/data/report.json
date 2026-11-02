@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-01T11:23:51.569Z",
-    "staleAfter": "2026-11-03T11:23:51.569Z",
+    "generatedAt": "2026-11-02T12:41:57.917Z",
+    "staleAfter": "2026-11-04T12:41:57.917Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,25 +10,27 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-01T11:23:51.569Z"
+        "retrievedAt": "2026-11-02T12:41:57.917Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-01T11:23:51.569Z"
+        "retrievedAt": "2026-11-02T12:41:57.917Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-01T11:23:51.569Z"
+        "retrievedAt": "2026-11-02T12:41:57.917Z"
       }
     ],
     "warnings": [
-      "background-fetch: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "focusgroup: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "input-date-time-week: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "interpolate-size: feed votes 99 differed from GitHub 100; GitHub value used.",
-      "link-parameters: feed votes 34 differed from GitHub 35; GitHub value used."
+      "container-scroll-state-queries: feed votes 76 differed from GitHub 77; GitHub value used.",
+      "customizable-select: feed votes 268 differed from GitHub 269; GitHub value used.",
+      "font-family-ui: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "jpegxl: feed votes 533 differed from GitHub 534; GitHub value used.",
+      "line-clamp: feed votes 60 differed from GitHub 61; GitHub value used.",
+      "reading-flow: feed votes 26 differed from GitHub 27; GitHub value used.",
+      "text-fit: feed votes 17 differed from GitHub 18; GitHub value used."
     ]
   },
   "features": [
@@ -54,7 +56,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 533,
+      "votes": 534,
       "qualifiedAuthors": 6,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
@@ -68,11 +70,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.58,
-        "rationale": "6 distinct qualified authors; 533 issue votes; 16% of reviewed comments qualified."
+        "rationale": "6 distinct qualified authors; 534 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 15,
-        "votes30d": 15,
+        "votes7d": 16,
+        "votes30d": 16,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -701,7 +703,7 @@
         },
         {
           "date": "2026-10-17",
-          "votes": 533,
+          "votes": 534,
           "qualifiedAuthors": 6,
           "reactionBoost": 0.96,
           "workaroundBurdenRaw": 0,
@@ -931,20 +933,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-28",
-          "votes": 240,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88.2,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.5
-          }
-        },
         {
           "date": "2026-09-29",
           "votes": 240,
@@ -1364,9 +1352,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.7
           }
+        },
+        {
+          "date": "2026-11-01",
+          "votes": 278,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.6,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.7
+          }
         }
       ],
-      "lastActivityAt": "2026-10-31T11:16:34Z"
+      "lastActivityAt": "2026-11-01T12:05:32Z"
     },
     {
       "id": "attr",
@@ -1985,26 +1987,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 268,
+      "votes": 269,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 90,
+        "voteDemand": 90.1,
         "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
-        "composite": 52.1
+        "composite": 52.2
       },
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 268 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 269 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 26,
+        "votes7d": 27,
         "votes30d": 0,
-        "score7d": 7.9,
+        "score7d": 8,
         "score30d": 0
       },
       "comments": [
@@ -2058,16 +2060,16 @@
         },
         {
           "date": "2026-09-30",
-          "votes": 268,
+          "votes": 269,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 90,
+            "voteDemand": 90.1,
             "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
-            "composite": 52.1
+            "composite": 52.2
           }
         }
       ],
@@ -4510,21 +4512,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 76,
+      "votes": 77,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 69.9,
+        "voteDemand": 70.1,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 34.9
+        "composite": 35
       },
       "confidence": {
         "level": "low",
         "score": 0.28,
-        "rationale": "0 distinct qualified authors; 76 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 77 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4571,16 +4573,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 76,
+          "votes": 77,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 69.9,
+            "voteDemand": 70.1,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 34.9
+            "composite": 35
           }
         }
       ],
@@ -4815,21 +4817,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 60,
+      "votes": 61,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 66.1,
+        "voteDemand": 66.4,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 33.1
+        "composite": 33.2
       },
       "confidence": {
         "level": "low",
         "score": 0.27,
-        "rationale": "0 distinct qualified authors; 60 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 61 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4902,16 +4904,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 60,
+          "votes": 61,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 66.1,
+            "voteDemand": 66.4,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 33.1
+            "composite": 33.2
           }
         }
       ],
@@ -7080,6 +7082,100 @@
       "lastActivityAt": "2026-09-18T16:17:48Z"
     },
     {
+      "id": "font-family-ui",
+      "slug": "font-family-ui",
+      "title": "UI fonts",
+      "summary": "The ui-serif, ui-sans-serif, ui-monospace and ui-rounded values for the font-family CSS property use device-default user interface fonts for text.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 115,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/115"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/font-family-ui/",
+      "categories": [
+        "Fonts"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 20.4,
+        "workaroundBurden": 0,
+        "composite": 28.9
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.42,
+        "rationale": "1 distinct qualified author; 14 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 7.7,
+        "score30d": 7.7
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABhqQ4nw",
+          "author": "vivodi",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/115#issuecomment-6553876639",
+          "createdAt": "2026-11-01T05:22:34Z",
+          "body": "I strongly oppose supporting `ui-monospace` on non-Apple platforms.\n\nDue to licensing and design restrictions, Apple blocks web pages from referencing `SF Mono` directly via standard font-family names (e.g., `font-family: \"SF Mono\"`). Because `ui-monospace` is the only way to invoke `SF Mono`, many websites place it as the very first option in their font stacks (e.g., `ui-monospace, \"Cascadia Mono\", Consolas, monospace`). On Apple platforms, this works well even in Chinese system locales, as `SF Mono` is still used to render Latin characters and digits cleanly rather than falling back to a localized CJK font.\n\nOn Simplified Chinese versions of Windows, however, the generic `monospace` keyword resolves to `NSimSun`—a font designed for Simplified Chinese that renders Latin characters and numbers poorly. If non-Apple platforms implement `ui-monospace` with the same locale-dependent behavior as `monospace`, it would not only be redundant, but also actively harmful: since developers must place `ui-monospace` first in the font stack to target `SF Mono` on Apple devices, supporting `ui-monospace` on non-Apple platforms means non-English Windows systems would immediately match it at the start of the stack and render suboptimal localized fonts like `NSimSun`, completely bypassing explicit Windows monospace fonts (such as `Cascadia Mono` or `Consolas`) declared later in the stack.\n\nWe have already seen this exact failure mode with `system-ui`. When developers placed `system-ui` at the beginning of their sans-serif font stacks, browsers on Simplified Chinese Windows resolved it directly to localized CJK UI fonts (such as `Microsoft YaHei UI`), which feature subpar Latin glyphs and have historically suffered from font-weight and rendering issues—effectively hijacking the font stack before it could ever reach `\"Segoe UI\"`. Repeating this mistake with `ui-monospace` would break monospace typography across the web in the exact same way.\n\nTherefore, the best approach is to keep `ui-monospace` exclusive to Apple platforms.\n",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I strongly oppose supporting ui-monospace on non-Apple platforms. Due to licensing and design restrictions, Apple blocks web pages from referencing SF Mono directly via standard f…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        },
+        {
+          "date": "2026-11-01",
+          "votes": 14,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 28.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-01T05:22:39Z"
+    },
+    {
       "id": "container-anchor-position-queries",
       "slug": "container-anchor-position-queries",
       "title": "Anchor position container queries",
@@ -7461,100 +7557,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:42Z"
-    },
-    {
-      "id": "font-family-ui",
-      "slug": "font-family-ui",
-      "title": "UI fonts",
-      "summary": "The ui-serif, ui-sans-serif, ui-monospace and ui-rounded values for the font-family CSS property use device-default user interface fonts for text.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 115,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/115"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/font-family-ui/",
-      "categories": [
-        "Fonts"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 0,
-        "composite": 28.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.41,
-        "rationale": "1 distinct qualified author; 13 issue votes; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 7.2,
-        "score30d": 7.2
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABhqQ4nw",
-          "author": "vivodi",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/115#issuecomment-6553876639",
-          "createdAt": "2026-11-01T05:22:34Z",
-          "body": "I strongly oppose supporting `ui-monospace` on non-Apple platforms.\n\nDue to licensing and design restrictions, Apple blocks web pages from referencing `SF Mono` directly via standard font-family names (e.g., `font-family: \"SF Mono\"`). Because `ui-monospace` is the only way to invoke `SF Mono`, many websites place it as the very first option in their font stacks (e.g., `ui-monospace, \"Cascadia Mono\", Consolas, monospace`). On Apple platforms, this works well even in Chinese system locales, as `SF Mono` is still used to render Latin characters and digits cleanly rather than falling back to a localized CJK font.\n\nOn Simplified Chinese versions of Windows, however, the generic `monospace` keyword resolves to `NSimSun`—a font designed for Simplified Chinese that renders Latin characters and numbers poorly. If non-Apple platforms implement `ui-monospace` with the same locale-dependent behavior as `monospace`, it would not only be redundant, but also actively harmful: since developers must place `ui-monospace` first in the font stack to target `SF Mono` on Apple devices, supporting `ui-monospace` on non-Apple platforms means non-English Windows systems would immediately match it at the start of the stack and render suboptimal localized fonts like `NSimSun`, completely bypassing explicit Windows monospace fonts (such as `Cascadia Mono` or `Consolas`) declared later in the stack.\n\nWe have already seen this exact failure mode with `system-ui`. When developers placed `system-ui` at the beginning of their sans-serif font stacks, browsers on Simplified Chinese Windows resolved it directly to localized CJK UI fonts (such as `Microsoft YaHei UI`), which feature subpar Latin glyphs and have historically suffered from font-weight and rendering issues—effectively hijacking the font stack before it could ever reach `\"Segoe UI\"`. Repeating this mistake with `ui-monospace` would break monospace typography across the web in the exact same way.\n\nTherefore, the best approach is to keep `ui-monospace` exclusive to Apple platforms.\n",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I strongly oppose supporting ui-monospace on non-Apple platforms. Due to licensing and design restrictions, Apple blocks web pages from referencing SF Mono directly via standard f…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        },
-        {
-          "date": "2026-11-01",
-          "votes": 13,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 28.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-01T05:22:39Z"
     },
     {
       "id": "navigator-install",
@@ -8384,6 +8386,69 @@
       "lastActivityAt": "2026-09-03T14:35:35Z"
     },
     {
+      "id": "reading-flow",
+      "slug": "reading-flow",
+      "title": "reading-flow",
+      "summary": "The reading-flow CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation. The reading-order property overrides this order.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 290,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/290"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/reading-flow/",
+      "categories": [
+        "CSS",
+        "Reading order"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 27,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 27,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:21Z"
+    },
+    {
       "id": "scroll-markers",
       "slug": "scroll-markers",
       "title": "Scroll markers",
@@ -8587,69 +8652,6 @@
         }
       ],
       "lastActivityAt": "2026-10-29T16:46:40Z"
-    },
-    {
-      "id": "reading-flow",
-      "slug": "reading-flow",
-      "title": "reading-flow",
-      "summary": "The reading-flow CSS property sets the order in which flex or grid elements are rendered to speech or reached via focus navigation. The reading-order property overrides this order.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 290,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/290"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/reading-flow/",
-      "categories": [
-        "CSS",
-        "Reading order"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 26,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:21Z"
     },
     {
       "id": "scheduler",
@@ -9485,20 +9487,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-29",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
-        {
           "date": "2026-09-30",
           "votes": 15,
           "qualifiedAuthors": 0,
@@ -9917,9 +9905,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-01",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-10-31T11:16:33Z"
+      "lastActivityAt": "2026-11-01T12:05:31Z"
     },
     {
       "id": "manifest",
@@ -10909,6 +10911,82 @@
       "lastActivityAt": "2026-09-05T09:30:22Z"
     },
     {
+      "id": "text-fit",
+      "slug": "text-fit",
+      "title": "text-fit",
+      "summary": "The text-fit CSS property scales text to fill the inline size of its container. You can use this to grow or shrink headlines, captions, or pull quotes to fit a container.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 846,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/846"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-fit/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 18,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 47.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 8,
+        "votes30d": 8,
+        "score7d": 4.4,
+        "score30d": 4.4
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 18,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T10:06:28Z"
+    },
+    {
       "id": "app-file-handlers",
       "slug": "app-file-handlers",
       "title": "File handlers",
@@ -11105,82 +11183,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:36Z"
-    },
-    {
-      "id": "text-fit",
-      "slug": "text-fit",
-      "title": "text-fit",
-      "summary": "The text-fit CSS property scales text to fill the inline size of its container. You can use this to grow or shrink headlines, captions, or pull quotes to fit a container.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 846,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/846"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-fit/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 17,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 46.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 23.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 7,
-        "votes30d": 7,
-        "score7d": 3.9,
-        "score30d": 3.9
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 17,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 46.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 23.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T10:06:28Z"
     },
     {
       "id": "page-selectors",
@@ -12348,20 +12350,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-29",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-09-30",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12780,9 +12768,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-11-01",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-31T11:16:36Z"
+      "lastActivityAt": "2026-11-01T12:05:34Z"
     },
     {
       "id": "font-metric-overrides",
@@ -15026,20 +15028,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-29",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-09-30",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15458,9 +15446,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-11-01",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-31T11:16:39Z"
+      "lastActivityAt": "2026-11-01T12:05:37Z"
     },
     {
       "id": "input-date-time-week",
@@ -26848,9 +26850,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-01",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-31T11:16:38Z"
+      "lastActivityAt": "2026-11-01T12:05:36Z"
     },
     {
       "id": "iterator-join",
@@ -27243,9 +27259,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-01",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-31T11:16:37Z"
+      "lastActivityAt": "2026-11-01T12:05:35Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -29858,9 +29888,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-01",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-31T11:16:35Z"
+      "lastActivityAt": "2026-11-01T12:05:33Z"
     },
     {
       "id": "retriable-module-loading",

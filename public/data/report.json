@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-02T12:41:57.917Z",
-    "staleAfter": "2026-11-04T12:41:57.917Z",
+    "generatedAt": "2026-11-03T12:07:58.778Z",
+    "staleAfter": "2026-11-05T12:07:58.778Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,27 +10,24 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-02T12:41:57.917Z"
+        "retrievedAt": "2026-11-03T12:07:58.778Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-02T12:41:57.917Z"
+        "retrievedAt": "2026-11-03T12:07:58.778Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-02T12:41:57.917Z"
+        "retrievedAt": "2026-11-03T12:07:58.778Z"
       }
     ],
     "warnings": [
-      "container-scroll-state-queries: feed votes 76 differed from GitHub 77; GitHub value used.",
-      "customizable-select: feed votes 268 differed from GitHub 269; GitHub value used.",
-      "font-family-ui: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "jpegxl: feed votes 533 differed from GitHub 534; GitHub value used.",
-      "line-clamp: feed votes 60 differed from GitHub 61; GitHub value used.",
-      "reading-flow: feed votes 26 differed from GitHub 27; GitHub value used.",
-      "text-fit: feed votes 17 differed from GitHub 18; GitHub value used."
+      "customizable-select: feed votes 269 differed from GitHub 271; GitHub value used.",
+      "interpolate-size: feed votes 100 differed from GitHub 101; GitHub value used.",
+      "scroll-triggered-animations: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "temporal: feed votes 278 differed from GitHub 279; GitHub value used."
     ]
   },
   "features": [
@@ -73,9 +70,9 @@
         "rationale": "6 distinct qualified authors; 534 issue votes; 16% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 16,
+        "votes7d": 0,
         "votes30d": 16,
-        "score7d": 0.1,
+        "score7d": 0,
         "score30d": 0.1
       },
       "comments": [
@@ -714,9 +711,23 @@
             "workaroundBurden": 0,
             "composite": 70.8
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 534,
+          "qualifiedAuthors": 6,
+          "reactionBoost": 0.96,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 100,
+            "useCaseEvidence": 59.3,
+            "workaroundBurden": 0,
+            "composite": 70.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-17T09:45:31Z"
+      "lastActivityAt": "2026-11-02T13:41:22Z"
     },
     {
       "id": "temporal",
@@ -738,7 +749,7 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 278,
+      "votes": 279,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
@@ -752,10 +763,10 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 278 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 279 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
+        "votes7d": 3,
         "votes30d": 36,
         "score7d": 0.1,
         "score30d": 1.1
@@ -933,20 +944,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-09-29",
-          "votes": 240,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88.2,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.5
-          }
-        },
         {
           "date": "2026-10-01",
           "votes": 242,
@@ -1366,9 +1363,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.7
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 279,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.6,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.7
+          }
         }
       ],
-      "lastActivityAt": "2026-11-01T12:05:32Z"
+      "lastActivityAt": "2026-11-02T13:55:16Z"
     },
     {
       "id": "attr",
@@ -1758,9 +1769,23 @@
             "workaroundBurden": 27.5,
             "composite": 54.9
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 130,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0.16,
+          "workaroundBurdenRaw": 1.25,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 78.4,
+            "useCaseEvidence": 32.9,
+            "workaroundBurden": 27.5,
+            "composite": 54.9
+          }
         }
       ],
-      "lastActivityAt": "2026-09-18T16:17:55Z"
+      "lastActivityAt": "2026-11-02T13:41:40Z"
     },
     {
       "id": "corner-shape",
@@ -1987,13 +2012,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 269,
+      "votes": 271,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 90.1,
+        "voteDemand": 90.2,
         "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
         "composite": 52.2
@@ -2001,10 +2026,10 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 269 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 271 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 27,
+        "votes7d": 29,
         "votes30d": 0,
         "score7d": 8,
         "score30d": 0
@@ -2060,13 +2085,13 @@
         },
         {
           "date": "2026-09-30",
-          "votes": 269,
+          "votes": 271,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 90.1,
+            "voteDemand": 90.2,
             "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
             "composite": 52.2
@@ -2575,26 +2600,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 100,
+      "votes": 101,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 74.2,
+        "voteDemand": 74.4,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 45
+        "composite": 45.1
       },
       "confidence": {
         "level": "medium",
         "score": 0.44,
-        "rationale": "1 distinct qualified author; 100 issue votes; 50% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 101 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 16,
+        "votes7d": 17,
         "votes30d": 0,
-        "score7d": 1.4,
+        "score7d": 1.5,
         "score30d": 0
       },
       "comments": [
@@ -2651,16 +2676,16 @@
         },
         {
           "date": "2026-09-29",
-          "votes": 100,
+          "votes": 101,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 74.2,
+            "voteDemand": 74.4,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 45
+            "composite": 45.1
           }
         }
       ],
@@ -5375,9 +5400,23 @@
             "workaroundBurden": 0,
             "composite": 31.5
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 49,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 62.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.5
+          }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:10:39Z"
+      "lastActivityAt": "2026-11-02T13:41:26Z"
     },
     {
       "id": "margin-trim",
@@ -6718,9 +6757,23 @@
             "workaroundBurden": 7.6,
             "composite": 29.8
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 8,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0.25,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 31.4,
+            "workaroundBurden": 7.6,
+            "composite": 29.8
+          }
         }
       ],
-      "lastActivityAt": "2026-10-29T18:09:31Z"
+      "lastActivityAt": "2026-11-02T13:41:18Z"
     },
     {
       "id": "sizes-auto",
@@ -8649,9 +8702,23 @@
             "workaroundBurden": 0,
             "composite": 26.5
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-29T16:46:40Z"
+      "lastActivityAt": "2026-11-02T13:41:27Z"
     },
     {
       "id": "scheduler",
@@ -9487,20 +9554,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-30",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
-        {
           "date": "2026-10-01",
           "votes": 15,
           "qualifiedAuthors": 0,
@@ -9919,9 +9972,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-01T12:05:31Z"
+      "lastActivityAt": "2026-11-02T13:55:16Z"
     },
     {
       "id": "manifest",
@@ -12350,20 +12417,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-30",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-10-01",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12782,9 +12835,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-01T12:05:34Z"
+      "lastActivityAt": "2026-11-02T13:55:19Z"
     },
     {
       "id": "font-metric-overrides",
@@ -15028,20 +15095,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-09-30",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-10-01",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15460,9 +15513,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-11-01T12:05:37Z"
+      "lastActivityAt": "2026-11-02T13:55:21Z"
     },
     {
       "id": "input-date-time-week",
@@ -18445,9 +18512,23 @@
             "workaroundBurden": 0,
             "composite": 15.7
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:49:13Z"
+      "lastActivityAt": "2026-11-02T13:41:29Z"
     },
     {
       "id": "pointer-lock",
@@ -19193,9 +19274,23 @@
             "workaroundBurden": 0,
             "composite": 14.4
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
         }
       ],
-      "lastActivityAt": "2026-09-18T16:18:09Z"
+      "lastActivityAt": "2026-11-02T13:41:41Z"
     },
     {
       "id": "languagedetector",
@@ -21951,9 +22046,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:45:49Z"
+      "lastActivityAt": "2026-11-02T13:41:20Z"
     },
     {
       "id": "fast-seek",
@@ -23622,9 +23731,23 @@
             "workaroundBurden": 0,
             "composite": 8.8
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
         }
       ],
-      "lastActivityAt": "2026-09-08T16:07:58Z"
+      "lastActivityAt": "2026-11-02T13:41:39Z"
     },
     {
       "id": "content-index",
@@ -24114,9 +24237,9 @@
         "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
+        "votes7d": 0,
         "votes30d": 0,
-        "score7d": 3.2,
+        "score7d": 0,
         "score30d": 0
       },
       "comments": [],
@@ -24148,9 +24271,23 @@
             "workaroundBurden": 0,
             "composite": 8.8
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
         }
       ],
-      "lastActivityAt": "2026-09-26T10:21:00Z"
+      "lastActivityAt": "2026-11-02T13:41:42Z"
     },
     {
       "id": "import-maps-multiple",
@@ -24906,9 +25043,23 @@
             "workaroundBurden": 0,
             "composite": 8.8
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:34:59Z"
+      "lastActivityAt": "2026-11-02T13:41:23Z"
     },
     {
       "id": "service-workers-static-routes",
@@ -26864,9 +27015,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-01T12:05:36Z"
+      "lastActivityAt": "2026-11-02T13:55:21Z"
     },
     {
       "id": "iterator-join",
@@ -27273,9 +27438,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-01T12:05:35Z"
+      "lastActivityAt": "2026-11-02T13:55:19Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -28081,6 +28260,65 @@
       "lastActivityAt": "2026-08-26T12:10:50Z"
     },
     {
+      "id": "scroll-triggered-animations",
+      "slug": "scroll-triggered-animations",
+      "title": "Scroll-triggered animations",
+      "summary": "Developer demand and implementation evidence for Scroll Triggered Animations.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 961,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/961"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-triggered-animations/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-02",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-02T13:41:31Z"
+    },
+    {
       "id": "shared-workers-extended-lifetime",
       "slug": "shared-workers-extended-lifetime",
       "title": "Shared worker extended lifetime",
@@ -28433,9 +28671,9 @@
         "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
+        "votes7d": 0,
         "votes30d": 0,
-        "score7d": 5.6,
+        "score7d": 0,
         "score30d": 0
       },
       "comments": [],
@@ -28467,9 +28705,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-10-14T07:24:13Z"
+      "lastActivityAt": "2026-11-02T13:41:19Z"
     },
     {
       "id": "text-autospace",
@@ -29537,6 +29789,65 @@
       "lastActivityAt": "2026-09-03T14:34:37Z"
     },
     {
+      "id": "column-wrap",
+      "slug": "column-wrap",
+      "title": "column-wrap",
+      "summary": "Developer demand and implementation evidence for Column Wrap.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 960,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/960"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/column-wrap/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-02",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-02T13:41:28Z"
+    },
+    {
       "id": "css-object-model-csspseudoelement",
       "slug": "css-object-model-csspseudoelement",
       "title": "CSSPseudoElement",
@@ -29902,9 +30213,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-01T12:05:33Z"
+      "lastActivityAt": "2026-11-02T13:55:18Z"
     },
     {
       "id": "retriable-module-loading",
@@ -29961,9 +30286,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-10-14T07:24:29Z"
+      "lastActivityAt": "2026-11-02T13:41:39Z"
     },
     {
       "id": "scroll-axis-lock",
@@ -30023,6 +30362,65 @@
         }
       ],
       "lastActivityAt": "2026-10-14T07:24:31Z"
+    },
+    {
+      "id": "system-color-accentcolor",
+      "slug": "system-color-accentcolor",
+      "title": "AccentColor and AccentColorText",
+      "summary": "Developer demand and implementation evidence for System Color Accentcolor.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 959,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/959"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/system-color-accentcolor/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-02",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-02T13:41:21Z"
     },
     {
       "id": "text-decoration-skip-spaces",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-03T12:07:58.778Z",
-    "staleAfter": "2026-11-05T12:07:58.778Z",
+    "generatedAt": "2026-11-04T12:20:52.144Z",
+    "staleAfter": "2026-11-06T12:20:52.144Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,24 +10,25 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-03T12:07:58.778Z"
+        "retrievedAt": "2026-11-04T12:20:52.144Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-03T12:07:58.778Z"
+        "retrievedAt": "2026-11-04T12:20:52.144Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-03T12:07:58.778Z"
+        "retrievedAt": "2026-11-04T12:20:52.144Z"
       }
     ],
     "warnings": [
-      "customizable-select: feed votes 269 differed from GitHub 271; GitHub value used.",
-      "interpolate-size: feed votes 100 differed from GitHub 101; GitHub value used.",
-      "scroll-triggered-animations: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "temporal: feed votes 278 differed from GitHub 279; GitHub value used."
+      "gap-decorations: feed votes 53 differed from GitHub 54; GitHub value used.",
+      "line-clamp: feed votes 61 differed from GitHub 62; GitHub value used.",
+      "requestidlecallback: feed votes 25 differed from GitHub 26; GitHub value used.",
+      "virtual-keyboard: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "wasm-memory64: feed votes 9 differed from GitHub 10; GitHub value used."
     ]
   },
   "features": [
@@ -767,9 +768,9 @@
       },
       "trend": {
         "votes7d": 3,
-        "votes30d": 36,
+        "votes30d": 29,
         "score7d": 0.1,
-        "score30d": 1.1
+        "score30d": 0.9
       },
       "comments": [
         {
@@ -944,20 +945,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-01",
-          "votes": 242,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88.4,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.6
-          }
-        },
         {
           "date": "2026-10-02",
           "votes": 242,
@@ -1377,9 +1364,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.7
           }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 279,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.6,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.7
+          }
         }
       ],
-      "lastActivityAt": "2026-11-02T13:55:16Z"
+      "lastActivityAt": "2026-11-03T13:03:13Z"
     },
     {
       "id": "attr",
@@ -4842,21 +4843,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 61,
+      "votes": 62,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 66.4,
+        "voteDemand": 66.6,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 33.2
+        "composite": 33.3
       },
       "confidence": {
         "level": "low",
         "score": 0.27,
-        "rationale": "0 distinct qualified authors; 61 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 62 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4929,16 +4930,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 61,
+          "votes": 62,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 66.4,
+            "voteDemand": 66.6,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 33.2
+            "composite": 33.3
           }
         }
       ],
@@ -4967,27 +4968,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 53,
+      "votes": 54,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 64.2,
+        "voteDemand": 64.5,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 32.1
+        "composite": 32.2
       },
       "confidence": {
         "level": "low",
         "score": 0.26,
-        "rationale": "0 distinct qualified authors; 53 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 54 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 0.2,
-        "score30d": 0.2
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 0.3,
+        "score30d": 0.3
       },
       "comments": [
         {
@@ -5027,16 +5028,16 @@
         },
         {
           "date": "2026-10-20",
-          "votes": 53,
+          "votes": 54,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 64.2,
+            "voteDemand": 64.5,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 32.1
+            "composite": 32.2
           }
         }
       ],
@@ -8721,6 +8722,67 @@
       "lastActivityAt": "2026-11-02T13:41:27Z"
     },
     {
+      "id": "requestidlecallback",
+      "slug": "requestidlecallback",
+      "title": "requestIdleCallback()",
+      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 52,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 26,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:23Z"
+    },
+    {
       "id": "scheduler",
       "slug": "scheduler",
       "title": "Scheduler API",
@@ -8984,67 +9046,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:51Z"
-    },
-    {
-      "id": "requestidlecallback",
-      "slug": "requestidlecallback",
-      "title": "requestIdleCallback()",
-      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 52,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 25,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 52.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 25,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 52.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
       "id": "focusgroup",
@@ -9547,26 +9548,12 @@
       },
       "trend": {
         "votes7d": 0,
-        "votes30d": 7,
+        "votes30d": 6,
         "score7d": 0,
-        "score30d": 2.9
+        "score30d": 2.4
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-01",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-10-02",
           "votes": 15,
@@ -9986,9 +9973,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-02T13:55:16Z"
+      "lastActivityAt": "2026-11-03T13:03:12Z"
     },
     {
       "id": "manifest",
@@ -12417,20 +12418,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-01",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-10-02",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12849,9 +12836,85 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-02T13:55:19Z"
+      "lastActivityAt": "2026-11-03T13:03:15Z"
+    },
+    {
+      "id": "virtual-keyboard",
+      "slug": "virtual-keyboard",
+      "title": "Virtual keyboard",
+      "summary": "The navigator.virtualKeyboard API inspects and controls on-screen virtual keyboards. You can use it to programmatically hide or show a virtual keyboard or respond to the keyboard disappearing or appearing.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 153,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/153"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/virtual-keyboard/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:46:58Z"
     },
     {
       "id": "font-metric-overrides",
@@ -13313,68 +13376,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:34Z"
-    },
-    {
-      "id": "virtual-keyboard",
-      "slug": "virtual-keyboard",
-      "title": "Virtual keyboard",
-      "summary": "The navigator.virtualKeyboard API inspects and controls on-screen virtual keyboards. You can use it to programmatically hide or show a virtual keyboard or respond to the keyboard disappearing or appearing.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 153,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/153"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/virtual-keyboard/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:46:58Z"
     },
     {
       "id": "anchor-positioning-transforms",
@@ -14441,7 +14442,23 @@
         "score7d": 0,
         "score30d": 0
       },
-      "comments": [],
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABiaUEfA",
+          "author": "almhmwdans86-wq",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/242#issuecomment-6604260476",
+          "createdAt": "2026-11-03T12:52:02Z",
+          "body": "> _This GitHub issue is for collecting web developer signals for User agent client hints._\n> \n> The `Sec-CH-UA` HTTP request header and the `navigator.userAgentData` API expose browser and platform information used to vary responses and application logic. User agent client hints are similar to user agent strings but more privacy-preserving and safer to parse.\n> \n> ## Browser support\n> ![chrome](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/chrome.svg)![available](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/available.svg) ![edge](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/edge.svg)![available](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/available.svg) ![firefox](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/firefox.svg)![unavailable](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/unavailable.svg) ![safari](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/safari.svg)![unavailable](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/unavailable.svg)\n> ## Give us feedback\n> If you're pressed for time, but you want this feature to be available in all browsers, please give this issue a thumbs up 👍 reaction.\n> \n> However, a much better guide for us is to know how you'd use this feature, and what you're having to do in the meantime. This helps us judge the priority versus other features.\n> \n> Copy the template below in a comment, and add the details that matter to _you_.\n> \n> ## What I want to do with this feature\n> \n> <!-- Add your specific use-cases, even if they seem obvious to you. -->\n> \n> ## What I'm having to do in the meantime\n> \n> <!--\n> Are you having to use another feature instead, a polyfill, or is it blocking you completely?\n> Why are the alternatives worse than using this feature?\n> -->\n> All comments are expected to adhere to the [Code of Conduct](https://github.com/web-platform-dx/developer-signals/blob/main/CODE_OF_CONDUCT.md).\n> \n> ## Learn more\n> You can learn more about this feature here:\n> \n> * [MDN](https://developer.mozilla.org/docs/Web/API/User-Agent_Client_Hints_API)\n> * [web features explorer](https://web-platform-dx.github.io/web-features-explorer/features/ua-client-hints)\n> * [webstatus.dev](https://webstatus.dev/features/ua-client-hints)\n> * [Specification](https://wicg.github.io/ua-client-hints/)\n\n",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
       "snapshots": [
         {
           "date": "2026-08-14",
@@ -14456,9 +14473,23 @@
             "workaroundBurden": 0,
             "composite": 20
           }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:46:45Z"
+      "lastActivityAt": "2026-11-03T13:30:04Z"
     },
     {
       "id": "view-transitions-element-scoped",
@@ -14788,6 +14819,81 @@
       "lastActivityAt": "2026-08-14T14:47:26Z"
     },
     {
+      "id": "wasm-memory64",
+      "slug": "wasm-memory64",
+      "title": "Memory64 (WebAssembly)",
+      "summary": "Instructions accept 64-bit memory indexes.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 269,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/269"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/wasm-memory64/",
+      "categories": [
+        "WebAssembly"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 10,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 38.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 19.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 1.6,
+        "score30d": 1.6
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-06T08:19:52Z"
+    },
+    {
       "id": "alternative-style-sheets",
       "slug": "alternative-style-sheets",
       "title": "Alternative style sheets",
@@ -15072,9 +15178,9 @@
       },
       "trend": {
         "votes7d": 0,
-        "votes30d": 6,
+        "votes30d": 5,
         "score7d": 0,
-        "score30d": 7.4
+        "score30d": 5.6
       },
       "comments": [
         {
@@ -15094,20 +15200,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-01",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
         {
           "date": "2026-10-02",
           "votes": 3,
@@ -15527,9 +15619,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-11-02T13:55:21Z"
+      "lastActivityAt": "2026-11-03T13:03:18Z"
     },
     {
       "id": "input-date-time-week",
@@ -15833,81 +15939,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:44:54Z"
-    },
-    {
-      "id": "wasm-memory64",
-      "slug": "wasm-memory64",
-      "title": "Memory64 (WebAssembly)",
-      "summary": "Instructions accept 64-bit memory indexes.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 269,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/269"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/wasm-memory64/",
-      "categories": [
-        "WebAssembly"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 0.8,
-        "score30d": 0.8
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        },
-        {
-          "date": "2026-10-06",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-06T08:19:52Z"
     },
     {
       "id": "transformstream-transformer-cancel",
@@ -27029,9 +27060,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-02T13:55:21Z"
+      "lastActivityAt": "2026-11-03T13:03:17Z"
     },
     {
       "id": "iterator-join",
@@ -27452,9 +27497,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-02T13:55:19Z"
+      "lastActivityAt": "2026-11-03T13:03:16Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30227,9 +30286,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-02T13:55:18Z"
+      "lastActivityAt": "2026-11-03T13:03:14Z"
     },
     {
       "id": "retriable-module-loading",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-04T12:20:52.144Z",
-    "staleAfter": "2026-11-06T12:20:52.144Z",
+    "generatedAt": "2026-11-05T12:35:06.007Z",
+    "staleAfter": "2026-11-07T12:35:06.007Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,25 +10,29 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-04T12:20:52.144Z"
+        "retrievedAt": "2026-11-05T12:35:06.007Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-04T12:20:52.144Z"
+        "retrievedAt": "2026-11-05T12:35:06.007Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-04T12:20:52.144Z"
+        "retrievedAt": "2026-11-05T12:35:06.007Z"
       }
     ],
     "warnings": [
-      "gap-decorations: feed votes 53 differed from GitHub 54; GitHub value used.",
-      "line-clamp: feed votes 61 differed from GitHub 62; GitHub value used.",
-      "requestidlecallback: feed votes 25 differed from GitHub 26; GitHub value used.",
-      "virtual-keyboard: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "wasm-memory64: feed votes 9 differed from GitHub 10; GitHub value used."
+      "border-shape: feed votes 39 differed from GitHub 40; GitHub value used.",
+      "corner-shape: feed votes 149 differed from GitHub 150; GitHub value used.",
+      "custom-media-queries: feed votes 40 differed from GitHub 41; GitHub value used.",
+      "interpolate-size: feed votes 101 differed from GitHub 102; GitHub value used.",
+      "scroll-buttons: feed votes 32 differed from GitHub 33; GitHub value used.",
+      "scroll-markers: feed votes 27 differed from GitHub 28; GitHub value used.",
+      "scroll-target-group: feed votes 30 differed from GitHub 31; GitHub value used.",
+      "temporal: feed votes 279 differed from GitHub 280; GitHub value used.",
+      "webauthn-signals: feed votes 12 differed from GitHub 13; GitHub value used."
     ]
   },
   "features": [
@@ -750,27 +754,27 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 279,
+      "votes": 280,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 90.6,
+        "voteDemand": 90.7,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
-        "composite": 62.7
+        "composite": 62.8
       },
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 279 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 280 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 3,
-        "votes30d": 29,
+        "votes30d": 30,
         "score7d": 0.1,
-        "score30d": 0.9
+        "score30d": 1
       },
       "comments": [
         {
@@ -945,20 +949,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-02",
-          "votes": 242,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88.4,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.6
-          }
-        },
         {
           "date": "2026-10-03",
           "votes": 243,
@@ -1378,9 +1368,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.7
           }
+        },
+        {
+          "date": "2026-11-04",
+          "votes": 280,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.7,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-03T13:03:13Z"
+      "lastActivityAt": "2026-11-04T13:19:55Z"
     },
     {
       "id": "attr",
@@ -1809,13 +1813,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 149,
+      "votes": 150,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 80.6,
+        "voteDemand": 80.7,
         "useCaseEvidence": 40.8,
         "workaroundBurden": 0,
         "composite": 54.6
@@ -1823,11 +1827,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.53,
-        "rationale": "3 distinct qualified authors; 149 issue votes; 50% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 150 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 15,
-        "votes30d": 20,
+        "votes7d": 16,
+        "votes30d": 21,
         "score7d": 3.6,
         "score30d": 15.5
       },
@@ -1976,13 +1980,13 @@
         },
         {
           "date": "2026-10-04",
-          "votes": 149,
+          "votes": 150,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 80.6,
+            "voteDemand": 80.7,
             "useCaseEvidence": 40.8,
             "workaroundBurden": 0,
             "composite": 54.6
@@ -2601,26 +2605,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 101,
+      "votes": 102,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 74.4,
+        "voteDemand": 74.6,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 45.1
+        "composite": 45.2
       },
       "confidence": {
         "level": "medium",
         "score": 0.44,
-        "rationale": "1 distinct qualified author; 101 issue votes; 50% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 102 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 17,
+        "votes7d": 18,
         "votes30d": 0,
-        "score7d": 1.5,
+        "score7d": 1.6,
         "score30d": 0
       },
       "comments": [
@@ -2633,7 +2637,7 @@
           "body": "## What I want to do with this feature\n\nThe ability to animate size from 0 to \"auto\" in CSS has been sorely missing pretty much since transition existed. I could immediately use it in several types of menus/navigations and other open/closable modules. Probably most notably \"interpolate-size: allow-keywords\" is the last feature missing from completely JS-free animated Accordions (with details+summary). I seriously can't wait to use it and throw out lots of legacy tricks and javascript, but unanimated modules in some bosses iPhones prevent it.\n\n## What I'm having to do in the meantime\n\nI animate to some set \"max-height\" and similar tricks, which are also somewhat flexible, but don't animate as well and can have drawbacks, like even bigger content then anticipated. Or (if even possible) I use otherwise unnecessary (and restricting) fixed size. Or I measure with Javascript (and re-measure after viewport-changes). Or I use fully Javascript animation (like jQuery slideToggle).\n",
           "parsedGoal": "The ability to animate size from 0 to \"auto\" in CSS has been sorely missing pretty much since transition existed. I could immediately use it in several types of menus/navigations and other open/closable modules. Probably most notably \"interpolate-size: allow-keywords\" is the last feature missing from completely JS-free animated Accordions (with details+summary). I seriously can't wait to use it and throw out lots of legacy tricks and javascript, but unanimated modules in some bosses iPhones prevent it.",
           "parsedWorkaround": "I animate to some set \"max-height\" and similar tricks, which are also somewhat flexible, but don't animate as well and can have drawbacks, like even bigger content then anticipated. Or (if even possible) I use otherwise unnecessary (and restricting) fixed size. Or I measure with Javascript (and re-measure after viewport-changes). Or I use fully Javascript animation (like jQuery slideToggle).",
-          "positiveReactions": 14,
+          "positiveReactions": 15,
           "classification": "qualified",
           "themes": [
             "media"
@@ -2677,16 +2681,16 @@
         },
         {
           "date": "2026-09-29",
-          "votes": 101,
+          "votes": 102,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 74.4,
+            "voteDemand": 74.6,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 45.1
+            "composite": 45.2
           }
         }
       ],
@@ -3545,6 +3549,135 @@
       "lastActivityAt": "2026-09-08T16:07:56Z"
     },
     {
+      "id": "custom-media-queries",
+      "slug": "custom-media-queries",
+      "title": "Custom media queries",
+      "summary": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 445,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/445"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/custom-media-queries/",
+      "categories": [
+        "Media queries"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 41,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.08,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 60.1,
+        "useCaseEvidence": 20.9,
+        "workaroundBurden": 0,
+        "composite": 37.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.35,
+        "rationale": "1 distinct qualified author; 41 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 10,
+        "votes30d": 0,
+        "score7d": 9.5,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABFrw1og",
+          "author": "jklue",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546",
+          "createdAt": "2026-06-11T01:40:15Z",
+          "body": "## What I want to do with this feature\n\nWrite simpler media queries saving time, bandwidth, energy, and complexity.\n\n## What I'm having to do in the meantime\n\nWrite out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
+          "parsedGoal": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
+          "parsedWorkaround": "Write out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
+          "positiveReactions": 3,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABLYWBKg",
+          "author": "TheJaredWilcurt",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5058691370",
+          "createdAt": "2026-07-23T13:02:30Z",
+          "body": "In Firefox 148+ you can enable support for this feature to start testing it out.\n\n* Go to `about:config`\n* Search for `layout.css.custom-media.enabled`\n* Set to `true`\n\nSuch a great feature, excited for wide adoption.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUtG6Aw",
+          "author": "ramiy",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5684443651",
+          "createdAt": "2026-09-15T16:57:04Z",
+          "body": "**[Open Props](https://open-props.style/)** v1.6.0 (by Adam Argyle) [implemented this feature](https://github.com/argyleink/open-props/blob/main/src/props.media.css) in September 2023, supporting custom-media over 3 years.\n\nAt Elementor, we [implemented this feature](https://github.com/elementor/hello-theme/pull/659) (May 2026) on our \"Hello Theme\" which is used by **over 3 million websites**. Currently, we only expose all the available `@custom-media`, not using them in `@media` as this feature is not yet supported by browsers.\n\nI'm hoping browsers will adopt this feature soon. This will help us control all the breakpoint using a few simple variables.",
+          "positiveReactions": 2,
+          "classification": "qualified",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "Open Props v1.6.0 (by Adam Argyle) implemented this feature in September 2023, supporting custom-media over 3 years. At Elementor, we implemented this feature (May 2026) on our \"H…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 31,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.9
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 41,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 60.1,
+            "useCaseEvidence": 20.9,
+            "workaroundBurden": 0,
+            "composite": 37.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T16:57:05Z"
+    },
+    {
       "id": "fullscreen",
       "slug": "fullscreen",
       "title": "Fullscreen API",
@@ -3673,135 +3806,6 @@
       "lastActivityAt": "2026-08-14T14:46:01Z"
     },
     {
-      "id": "custom-media-queries",
-      "slug": "custom-media-queries",
-      "title": "Custom media queries",
-      "summary": "The @custom-media CSS at-rule names a media query, which you can reuse in multiple @media rules.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 445,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/445"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/custom-media-queries/",
-      "categories": [
-        "Media queries"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 40,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.08,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 59.7,
-        "useCaseEvidence": 20.9,
-        "workaroundBurden": 0,
-        "composite": 37.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.35,
-        "rationale": "1 distinct qualified author; 40 issue votes; 33% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 9,
-        "votes30d": 0,
-        "score7d": 9.3,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABFrw1og",
-          "author": "jklue",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-4676400546",
-          "createdAt": "2026-06-11T01:40:15Z",
-          "body": "## What I want to do with this feature\n\nWrite simpler media queries saving time, bandwidth, energy, and complexity.\n\n## What I'm having to do in the meantime\n\nWrite out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
-          "parsedGoal": "Write simpler media queries saving time, bandwidth, energy, and complexity.",
-          "parsedWorkaround": "Write out media queries the old fashioned way, possibly searching-replacing hundreds of values if the team wants to move the break.",
-          "positiveReactions": 3,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABLYWBKg",
-          "author": "TheJaredWilcurt",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5058691370",
-          "createdAt": "2026-07-23T13:02:30Z",
-          "body": "In Firefox 148+ you can enable support for this feature to start testing it out.\n\n* Go to `about:config`\n* Search for `layout.css.custom-media.enabled`\n* Set to `true`\n\nSuch a great feature, excited for wide adoption.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABUtG6Aw",
-          "author": "ramiy",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/445#issuecomment-5684443651",
-          "createdAt": "2026-09-15T16:57:04Z",
-          "body": "**[Open Props](https://open-props.style/)** v1.6.0 (by Adam Argyle) [implemented this feature](https://github.com/argyleink/open-props/blob/main/src/props.media.css) in September 2023, supporting custom-media over 3 years.\n\nAt Elementor, we [implemented this feature](https://github.com/elementor/hello-theme/pull/659) (May 2026) on our \"Hello Theme\" which is used by **over 3 million websites**. Currently, we only expose all the available `@custom-media`, not using them in `@media` as this feature is not yet supported by browsers.\n\nI'm hoping browsers will adopt this feature soon. This will help us control all the breakpoint using a few simple variables.",
-          "positiveReactions": 2,
-          "classification": "qualified",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "Open Props v1.6.0 (by Adam Argyle) implemented this feature in September 2023, supporting custom-media over 3 years. At Elementor, we implemented this feature (May 2026) on our \"H…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 31,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.9
-          }
-        },
-        {
-          "date": "2026-09-15",
-          "votes": 40,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.08,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 59.7,
-            "useCaseEvidence": 20.9,
-            "workaroundBurden": 0,
-            "composite": 37.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T16:57:05Z"
-    },
-    {
       "id": "popover-hint",
       "slug": "popover-hint",
       "title": "popover=\"hint\"",
@@ -3883,27 +3887,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 39,
+      "votes": 40,
       "qualifiedAuthors": 1,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 59.3,
+        "voteDemand": 59.7,
         "useCaseEvidence": 19.8,
         "workaroundBurden": 0,
-        "composite": 36.6
+        "composite": 36.8
       },
       "confidence": {
         "level": "medium",
         "score": 0.48,
-        "rationale": "1 distinct qualified author; 39 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 40 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 11,
-        "votes30d": 11,
-        "score7d": 9.5,
-        "score30d": 9.5
+        "votes7d": 12,
+        "votes30d": 12,
+        "score7d": 9.7,
+        "score30d": 9.7
       },
       "comments": [
         {
@@ -3942,16 +3946,16 @@
         },
         {
           "date": "2026-09-14",
-          "votes": 39,
+          "votes": 40,
           "qualifiedAuthors": 1,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 59.3,
+            "voteDemand": 59.7,
             "useCaseEvidence": 19.8,
             "workaroundBurden": 0,
-            "composite": 36.6
+            "composite": 36.8
           }
         }
       ],
@@ -4613,6 +4617,101 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:03Z"
+    },
+    {
+      "id": "scroll-target-group",
+      "slug": "scroll-target-group",
+      "title": "scroll-target-group",
+      "summary": "The scroll-target-group CSS property sets the container where anchor links act as scroll markers. Using selectors such as :target-current, you can style elements when a target has scrolled into view. It's an alternative to the ::scroll-marker-group pseudo-element, which generates scroll markers.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 475,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/475"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-target-group/",
+      "categories": [
+        "Scroll markers"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 31,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 55.7,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 34.8
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.47,
+        "rationale": "1 distinct qualified author; 31 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 7.2,
+        "score30d": 7.2
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABjMArXA",
+          "author": "Lisa-F19",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/475#issuecomment-6656371548",
+          "createdAt": "2026-11-05T11:04:17Z",
+          "body": "## What I want to do with this feature\n\nUsing it in a long data document that has a side menu to navigate. This allows the user to see where they are in the document while scrolling and also keeping an 'active' state with `:target-current` if the focus is removed from the `<a>` tag when they click away to something else.\n\n## What I'm having to do in the meantime\n\nBlocking. No alternative can be used, since I cannot use JavaScript in XHTML/iXBRL packages. It works in Chrome, but as a big Firefox fan/supporter, I would love to see it being supported here as well.",
+          "parsedGoal": "Using it in a long data document that has a side menu to navigate. This allows the user to see where they are in the document while scrolling and also keeping an 'active' state with :target-current if the focus is removed from the <a> tag when they click away to something else.",
+          "parsedWorkaround": "Blocking. No alternative can be used, since I cannot use JavaScript in XHTML/iXBRL packages. It works in Chrome, but as a big Firefox fan/supporter, I would love to see it being supported here as well.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "Using it in a long data document that has a side menu to navigate. This allows the user to see where they are in the document while scrolling and also keeping an 'active' state wi…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 30,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.6
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 31,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 55.7,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 34.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-05T11:04:17Z"
     },
     {
       "id": "cross-document-view-transitions",
@@ -6642,7 +6741,7 @@
           "body": "## What I want to do with this feature\n\nOn Android XR devices, inside of our webxr call application, there is no way to capture a portion of your screen to share with users. This is particularly an issue on Galaxy XR (Android XR). \n\nIt would be great if the user demonstrating something in the session were able to just share an open window (or their entire view) using the browser alone.\n\n## What I'm having to do in the meantime\n\nThis largely a complete blocker. If the user has a pc, they can log into the platform with a pc and share using the display attached to that device, but that means having two devices running just to temporarily share a screen. ",
           "parsedGoal": "On Android XR devices, inside of our webxr call application, there is no way to capture a portion of your screen to share with users. This is particularly an issue on Galaxy XR (Android XR). It would be great if the user demonstrating something in the session were able to just share an open window (or their entire view) using the browser alone.",
           "parsedWorkaround": "This largely a complete blocker. If the user has a pc, they can log into the platform with a pc and share using the display attached to that device, but that means having two devices running just to temporarily share a screen.",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -7613,6 +7712,84 @@
       "lastActivityAt": "2026-08-26T12:10:42Z"
     },
     {
+      "id": "scroll-buttons",
+      "slug": "scroll-buttons",
+      "title": "::scroll-button",
+      "summary": "The ::scroll-button(<dir>) CSS pseudo-element is a focusable button which scrolls its originating scroll container element in the specified direction.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 316,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/316"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-buttons/",
+      "categories": [
+        "Scrolling"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 33,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 56.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 28.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 33 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 7,
+        "votes30d": 0,
+        "score7d": 1.9,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 33,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:43Z"
+    },
+    {
       "id": "navigator-install",
       "slug": "navigator-install",
       "title": "navigator.install()",
@@ -7675,84 +7852,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:34Z"
-    },
-    {
-      "id": "scroll-buttons",
-      "slug": "scroll-buttons",
-      "title": "::scroll-button",
-      "summary": "The ::scroll-button(<dir>) CSS pseudo-element is a focusable button which scrolls its originating scroll container element in the specified direction.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 316,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/316"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-buttons/",
-      "categories": [
-        "Scrolling"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 32,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 56.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 28.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 32 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 6,
-        "votes30d": 0,
-        "score7d": 1.6,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 32,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 56.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:43Z"
     },
     {
       "id": "scroll-into-view-container",
@@ -8083,68 +8182,6 @@
       "lastActivityAt": "2026-09-03T14:35:30Z"
     },
     {
-      "id": "scroll-target-group",
-      "slug": "scroll-target-group",
-      "title": "scroll-target-group",
-      "summary": "The scroll-target-group CSS property sets the container where anchor links act as scroll markers. Using selectors such as :target-current, you can style elements when a target has scrolled into view. It's an alternative to the ::scroll-marker-group pseudo-element, which generates scroll markers.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 475,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/475"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-target-group/",
-      "categories": [
-        "Scroll markers"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 30,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 55.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 30 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 30,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:29Z"
-    },
-    {
       "id": "opaquerange",
       "slug": "opaquerange",
       "title": "OpaqueRange",
@@ -8378,6 +8415,68 @@
       "lastActivityAt": "2026-08-14T14:44:59Z"
     },
     {
+      "id": "scroll-markers",
+      "slug": "scroll-markers",
+      "title": "Scroll markers",
+      "summary": "A scroll marker scrolls a container to a scroll target. The ::scroll-marker CSS pseudo-element selects a scroll marker in a ::scroll-marker-group pseudo-element, generated before or after the scroll container. You can use them to navigate and style tables of contents, tab panels, and carousels.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 289,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/289"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-markers/",
+      "categories": [
+        "Scroll markers"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 28,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 54.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 27.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 28 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 28,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:17Z"
+    },
+    {
       "id": "style-query-range-syntax",
       "slug": "style-query-range-syntax",
       "title": "Range syntax for style queries",
@@ -8501,68 +8600,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:21Z"
-    },
-    {
-      "id": "scroll-markers",
-      "slug": "scroll-markers",
-      "title": "Scroll markers",
-      "summary": "A scroll marker scrolls a container to a scroll target. The ::scroll-marker CSS pseudo-element selects a scroll marker in a ::scroll-marker-group pseudo-element, generated before or after the scroll container. You can use them to navigate and style tables of contents, tab panels, and carousels.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 289,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/289"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-markers/",
-      "categories": [
-        "Scroll markers"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 27,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 27,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:17Z"
     },
     {
       "id": "random-function",
@@ -9555,20 +9592,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-02",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
-        {
           "date": "2026-10-03",
           "votes": 15,
           "qualifiedAuthors": 0,
@@ -9987,9 +10010,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-04",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-03T13:03:12Z"
+      "lastActivityAt": "2026-11-04T13:19:54Z"
     },
     {
       "id": "manifest",
@@ -12418,20 +12455,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-02",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
           "date": "2026-10-03",
           "votes": 10,
           "qualifiedAuthors": 0,
@@ -12850,9 +12873,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-11-04",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-03T13:03:15Z"
+      "lastActivityAt": "2026-11-04T13:19:57Z"
     },
     {
       "id": "virtual-keyboard",
@@ -13378,6 +13415,99 @@
       "lastActivityAt": "2026-09-03T14:35:34Z"
     },
     {
+      "id": "webauthn-signals",
+      "slug": "webauthn-signals",
+      "title": "Web authentication signal methods",
+      "summary": "The signalUnknownCredential(), signalAllAcceptedCredentials(), and signalCurrentUserDetails() methods of PublicKeyCredential inform authenticators of the state of public key credentials, so that incorrect or revoked credentials may be updated, removed, or hidden.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 381,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/381"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webauthn-signals/",
+      "categories": [
+        "WebAuthn"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 13,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 1.2,
+        "score30d": 1.2
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABgVrXXg",
+          "author": "phil9909",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/381#issuecomment-6465181534",
+          "createdAt": "2026-10-28T09:17:13Z",
+          "body": "## What I want to do with this feature\n\nAfter a successful [key creation](https://developer.mozilla.org/en-US/docs/Web/API/CredentialsContainer/create) storing the key on the server might fail for a number of reasons:\n\n- Client-side network issues\n- Server-side downtime\n- The key does not meet the requirements and is rejected\n- Session timed out\n\nIn these cases, I would like to use the [`signalUnknownCredential`](https://developer.mozilla.org/en-US/docs/Web/API/PublicKeyCredential/signalUnknownCredential_static) to make sure the end-user does not end up with non-accepted Passkeys in their Credential Manager.\n\n## What I'm having to do in the meantime\n\nTell the user: \"Please delete the Passkey manually\"",
+          "parsedGoal": "After a successful key creation storing the key on the server might fail for a number of reasons: - Client-side network issues - Server-side downtime - The key does not meet the requirements and is rejected - Session timed out In these cases, I would like to use the signalUnknownCredential to make sure the end-user does not end up with non-accepted Passkeys in their Credential Manager.",
+          "parsedWorkaround": "Tell the user: \"Please delete the Passkey manually\"",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        },
+        {
+          "date": "2026-10-28",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-28T09:17:13Z"
+    },
+    {
       "id": "anchor-positioning-transforms",
       "slug": "anchor-positioning-transforms",
       "title": "Anchor positioning transforms",
@@ -13588,99 +13718,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:25Z"
-    },
-    {
-      "id": "webauthn-signals",
-      "slug": "webauthn-signals",
-      "title": "Web authentication signal methods",
-      "summary": "The signalUnknownCredential(), signalAllAcceptedCredentials(), and signalCurrentUserDetails() methods of PublicKeyCredential inform authenticators of the state of public key credentials, so that incorrect or revoked credentials may be updated, removed, or hidden.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 381,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/381"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webauthn-signals/",
-      "categories": [
-        "WebAuthn"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 12,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 0.6,
-        "score30d": 0.6
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABgVrXXg",
-          "author": "phil9909",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/381#issuecomment-6465181534",
-          "createdAt": "2026-10-28T09:17:13Z",
-          "body": "## What I want to do with this feature\n\nAfter a successful [key creation](https://developer.mozilla.org/en-US/docs/Web/API/CredentialsContainer/create) storing the key on the server might fail for a number of reasons:\n\n- Client-side network issues\n- Server-side downtime\n- The key does not meet the requirements and is rejected\n- Session timed out\n\nIn these cases, I would like to use the [`signalUnknownCredential`](https://developer.mozilla.org/en-US/docs/Web/API/PublicKeyCredential/signalUnknownCredential_static) to make sure the end-user does not end up with non-accepted Passkeys in their Credential Manager.\n\n## What I'm having to do in the meantime\n\nTell the user: \"Please delete the Passkey manually\"",
-          "parsedGoal": "After a successful key creation storing the key on the server might fail for a number of reasons: - Client-side network issues - Server-side downtime - The key does not meet the requirements and is rejected - Session timed out In these cases, I would like to use the signalUnknownCredential to make sure the end-user does not end up with non-accepted Passkeys in their Credential Manager.",
-          "parsedWorkaround": "Tell the user: \"Please delete the Passkey manually\"",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        },
-        {
-          "date": "2026-10-28",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-28T09:17:13Z"
     },
     {
       "id": "webcodecs",
@@ -15201,20 +15238,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-02",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
-        {
           "date": "2026-10-03",
           "votes": 3,
           "qualifiedAuthors": 0,
@@ -15633,9 +15656,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-11-04",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-11-03T13:03:18Z"
+      "lastActivityAt": "2026-11-04T13:20:00Z"
     },
     {
       "id": "input-date-time-week",
@@ -27074,9 +27111,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-04",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-03T13:03:17Z"
+      "lastActivityAt": "2026-11-04T13:19:59Z"
     },
     {
       "id": "iterator-join",
@@ -27511,9 +27562,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-04",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-03T13:03:16Z"
+      "lastActivityAt": "2026-11-04T13:19:58Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30300,9 +30365,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-04",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-03T13:03:14Z"
+      "lastActivityAt": "2026-11-04T13:19:56Z"
     },
     {
       "id": "retriable-module-loading",

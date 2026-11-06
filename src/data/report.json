@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-05T12:35:06.007Z",
-    "staleAfter": "2026-11-07T12:35:06.007Z",
+    "generatedAt": "2026-11-06T12:17:34.857Z",
+    "staleAfter": "2026-11-08T12:17:34.857Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,29 +10,24 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-05T12:35:06.007Z"
+        "retrievedAt": "2026-11-06T12:17:34.857Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-05T12:35:06.007Z"
+        "retrievedAt": "2026-11-06T12:17:34.857Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-05T12:35:06.007Z"
+        "retrievedAt": "2026-11-06T12:17:34.857Z"
       }
     ],
     "warnings": [
-      "border-shape: feed votes 39 differed from GitHub 40; GitHub value used.",
-      "corner-shape: feed votes 149 differed from GitHub 150; GitHub value used.",
-      "custom-media-queries: feed votes 40 differed from GitHub 41; GitHub value used.",
-      "interpolate-size: feed votes 101 differed from GitHub 102; GitHub value used.",
-      "scroll-buttons: feed votes 32 differed from GitHub 33; GitHub value used.",
-      "scroll-markers: feed votes 27 differed from GitHub 28; GitHub value used.",
-      "scroll-target-group: feed votes 30 differed from GitHub 31; GitHub value used.",
-      "temporal: feed votes 279 differed from GitHub 280; GitHub value used.",
-      "webauthn-signals: feed votes 12 differed from GitHub 13; GitHub value used."
+      "attr: feed votes 131 differed from GitHub 132; GitHub value used.",
+      "html-setters: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "requestidlecallback: feed votes 26 differed from GitHub 27; GitHub value used.",
+      "widows-orphans: feed votes 16 differed from GitHub 15; GitHub value used."
     ]
   },
   "features": [
@@ -772,9 +767,9 @@
       },
       "trend": {
         "votes7d": 3,
-        "votes30d": 30,
+        "votes30d": 13,
         "score7d": 0.1,
-        "score30d": 1
+        "score30d": 0.4
       },
       "comments": [
         {
@@ -949,20 +944,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-03",
-          "votes": 243,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88.4,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 61.6
-          }
-        },
         {
           "date": "2026-10-04",
           "votes": 250,
@@ -1382,9 +1363,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 280,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.7,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-04T13:19:55Z"
+      "lastActivityAt": "2026-11-05T21:41:22Z"
     },
     {
       "id": "attr",
@@ -1409,26 +1404,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 131,
+      "votes": 132,
       "qualifiedAuthors": 4,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 78.5,
+        "voteDemand": 78.7,
         "useCaseEvidence": 46,
         "workaroundBurden": 13.8,
-        "composite": 57.4
+        "composite": 57.5
       },
       "confidence": {
         "level": "medium",
         "score": 0.63,
-        "rationale": "4 distinct qualified authors; 131 issue votes; 80% of reviewed comments qualified."
+        "rationale": "4 distinct qualified authors; 132 issue votes; 80% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 17,
+        "votes7d": 18,
         "votes30d": 0,
-        "score7d": 1.1,
+        "score7d": 1.2,
         "score30d": 0
       },
       "comments": [
@@ -1535,16 +1530,16 @@
         },
         {
           "date": "2026-09-15",
-          "votes": 131,
+          "votes": 132,
           "qualifiedAuthors": 4,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.5,
+            "voteDemand": 78.7,
             "useCaseEvidence": 46,
             "workaroundBurden": 13.8,
-            "composite": 57.4
+            "composite": 57.5
           }
         }
       ],
@@ -4444,84 +4439,6 @@
       "lastActivityAt": "2026-10-12T16:45:03Z"
     },
     {
-      "id": "scroll-driven-animations",
-      "slug": "scroll-driven-animations",
-      "title": "Scroll-driven animations",
-      "summary": "The animation-timeline, scroll-timeline, and view-timeline CSS properties advance animations based on the user's scroll position.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 207,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/207"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-driven-animations/",
-      "categories": [
-        "Scrolling",
-        "Animation"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 82,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 71.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 35.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.29,
-        "rationale": "0 distinct qualified authors; 82 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABRYL-JQ",
-          "author": "ahmed-adel2",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/207#issuecomment-5461179941",
-          "createdAt": "2026-08-29T07:58:42Z",
-          "body": "I'm using brave browser and it did not work. I used it in another test project and it worked. So, I think maybe heavy projects do not work\n",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-29",
-          "votes": 82,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 71.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 35.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-29T07:58:42Z"
-    },
-    {
       "id": "container-scroll-state-queries",
       "slug": "container-scroll-state-queries",
       "title": "Container scroll-state queries",
@@ -4614,9 +4531,23 @@
             "workaroundBurden": 0,
             "composite": 35
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 77,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 70.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 35
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:35:03Z"
+      "lastActivityAt": "2026-11-05T21:41:28Z"
     },
     {
       "id": "scroll-target-group",
@@ -5218,9 +5149,23 @@
             "workaroundBurden": 0,
             "composite": 31.9
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 52,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 63.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.9
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:35:33Z"
+      "lastActivityAt": "2026-11-05T21:41:30Z"
     },
     {
       "id": "loading-lazy-media",
@@ -5637,9 +5582,9 @@
         "rationale": "1 distinct qualified author; 14 issue votes; 25% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
+        "votes7d": 0,
         "votes30d": 4,
-        "score7d": 0.6,
+        "score7d": 0,
         "score30d": 11.7
       },
       "comments": [
@@ -5755,9 +5700,23 @@
             "workaroundBurden": 13.8,
             "composite": 31
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 14,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 13.8,
+            "composite": 31
+          }
         }
       ],
-      "lastActivityAt": "2026-10-26T09:40:32Z"
+      "lastActivityAt": "2026-11-05T21:41:17Z"
     },
     {
       "id": "beforeinstallprompt",
@@ -8071,117 +8030,6 @@
       "lastActivityAt": "2026-08-14T14:48:26Z"
     },
     {
-      "id": "scoped-custom-element-registries",
-      "slug": "scoped-custom-element-registries",
-      "title": "Scoped custom element registries",
-      "summary": "The CustomElementRegistry() constructor creates a new custom element registry that's separate from the global window.customElements registry. Creating more than one registry is useful for multiple custom elements that have the same tag name to coexist.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 364,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/364"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scoped-custom-element-registries/",
-      "categories": [
-        "Custom elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 30,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 55.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 27.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 30 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7ZU_xS",
-          "author": "wkillerud",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3646159954",
-          "createdAt": "2025-12-12T11:47:06Z",
-          "body": "## What I want to do with this feature\n\nWe're running a micro frontend architecture with parts of the page composed from different teams' apps at runtime. The parts are independently deployed, and isolated today using a declarative shadow DOM boundary.\n\nWe also have a shared design system with a web components base. Since every part of the micro frontend shares the global custom element registry, to update the design system when there are breaking changes requires a huge coordination effort that scoped custom element registries would solve.\n\n## What I'm having to do in the meantime\n\nWe try our best to avoid breaking changes, and so far have taken the coordination cost the few times we do have breaking changes.\n\nWe have considered versioning through different custom element names (`my-component-2`).",
-          "parsedGoal": "We're running a micro frontend architecture with parts of the page composed from different teams' apps at runtime. The parts are independently deployed, and isolated today using a declarative shadow DOM boundary. We also have a shared design system with a web components base. Since every part of the micro frontend shares the global custom element registry, to update the design system when there are breaking changes requires a huge coordination effort that scoped custom element registries would solve.",
-          "parsedWorkaround": "We try our best to avoid breaking changes, and so far have taken the coordination cost the few times we do have breaking changes. We have considered versioning through different custom element names (my-component-2).",
-          "positiveReactions": 4,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7rmANr",
-          "author": "benjamind",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-3952608107",
-          "createdAt": "2026-02-24T14:55:53Z",
-          "body": "## What I want to do with this feature\n\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\nI have the same use case as above at a cross organizational level at Adobe. It's a major headache not having Scoped Custom Element Registries.\n\nBut also another use case within a single application that can create dependencies in multiple different versions of a design system within the same app for reasons of reproducibility (consistent reproduction of an old ux even though a new version is available).\n\n## What I'm having to do in the meantime\n\nIt's blocking us completely in the cross org context in some cases. We do have some janky workarounds for limited subsets of components where we rewrite tag names at registration time, but due to transitive dependencies this limits the possible component usage in the micro frontends being vended by teams.",
-          "parsedGoal": "I have the same use case as above at a cross organizational level at Adobe. It's a major headache not having Scoped Custom Element Registries. But also another use case within a single application that can create dependencies in multiple different versions of a design system within the same app for reasons of reproducibility (consistent reproduction of an old ux even though a new version is available).",
-          "parsedWorkaround": "It's blocking us completely in the cross org context in some cases. We do have some janky workarounds for limited subsets of components where we rewrite tag names at registration time, but due to transitive dependencies this limits the possible component usage in the micro frontends being vended by teams.",
-          "positiveReactions": 4,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM767Fel",
-          "author": "Kai-Richardson",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/364#issuecomment-4209792933",
-          "createdAt": "2026-04-08T21:29:12Z",
-          "body": "This is shipping as experimental in Firefox 150: https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/150",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 30,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 55.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:30Z"
-    },
-    {
       "id": "opaquerange",
       "slug": "opaquerange",
       "title": "OpaqueRange",
@@ -8602,6 +8450,67 @@
       "lastActivityAt": "2026-09-03T14:35:21Z"
     },
     {
+      "id": "requestidlecallback",
+      "slug": "requestidlecallback",
+      "title": "requestIdleCallback()",
+      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 52,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 27,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 27,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:45:23Z"
+    },
+    {
       "id": "random-function",
       "slug": "random-function",
       "title": "random()",
@@ -8640,9 +8549,9 @@
         "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
+        "votes7d": 0,
         "votes30d": 5,
-        "score7d": 0.3,
+        "score7d": 0,
         "score30d": 1.6
       },
       "comments": [
@@ -8754,56 +8663,9 @@
             "workaroundBurden": 0,
             "composite": 26.5
           }
-        }
-      ],
-      "lastActivityAt": "2026-11-02T13:41:27Z"
-    },
-    {
-      "id": "requestidlecallback",
-      "slug": "requestidlecallback",
-      "title": "requestIdleCallback()",
-      "summary": "The requestIdleCallback() API queues a function that runs in idle browser time, either at the end of a frame or when the user is inactive. Also known as the background tasks API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 52,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/52"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/requestidlecallback/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 26,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
+        },
         {
-          "date": "2026-08-14",
+          "date": "2026-11-05",
           "votes": 26,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -8817,7 +8679,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:45:23Z"
+      "lastActivityAt": "2026-11-05T21:41:42Z"
     },
     {
       "id": "scheduler",
@@ -9145,9 +9007,23 @@
             "workaroundBurden": 0,
             "composite": 25.9
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 24,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.9
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:22Z"
+      "lastActivityAt": "2026-11-05T21:41:31Z"
     },
     {
       "id": "speech-recognition",
@@ -9585,26 +9461,12 @@
       },
       "trend": {
         "votes7d": 0,
-        "votes30d": 6,
+        "votes30d": 3,
         "score7d": 0,
-        "score30d": 2.4
+        "score30d": 1.1
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-03",
-          "votes": 15,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 44.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.3
-          }
-        },
         {
           "date": "2026-10-04",
           "votes": 16,
@@ -10024,9 +9886,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-04T13:19:54Z"
+      "lastActivityAt": "2026-11-05T21:41:21Z"
     },
     {
       "id": "manifest",
@@ -10684,6 +10560,68 @@
       "lastActivityAt": "2026-10-06T08:20:00Z"
     },
     {
+      "id": "app-file-handlers",
+      "slug": "app-file-handlers",
+      "title": "File handlers",
+      "summary": "The file_handlers web app manifest member registers an installed web app as a handler for files with specific file extensions or MIME types.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 173,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/173"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-file-handlers/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 18,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 47.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 18,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:20Z"
+    },
+    {
       "id": "canvas-html",
       "slug": "canvas-html",
       "title": "HTML in canvas",
@@ -10746,9 +10684,23 @@
             "workaroundBurden": 0,
             "composite": 23.7
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 18,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.7
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:16Z"
+      "lastActivityAt": "2026-11-05T21:41:37Z"
     },
     {
       "id": "closewatcher",
@@ -11090,68 +11042,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T10:06:28Z"
-    },
-    {
-      "id": "app-file-handlers",
-      "slug": "app-file-handlers",
-      "title": "File handlers",
-      "summary": "The file_handlers web app manifest member registers an installed web app as a handler for files with specific file extensions or MIME types.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 173,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/173"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/app-file-handlers/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 17,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 46.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 23.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 17,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 46.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 23.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:20Z"
     },
     {
       "id": "cookie-store",
@@ -11687,113 +11577,6 @@
       "lastActivityAt": "2026-08-26T12:10:30Z"
     },
     {
-      "id": "widows-orphans",
-      "slug": "widows-orphans",
-      "title": "Widows and orphans",
-      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 11,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
-      "categories": [
-        "Layout"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 16,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 45.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 7,
-        "votes30d": 0,
-        "score7d": 4.3,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVqrhWA",
-          "author": "saschaleib",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/11#issuecomment-5749006680",
-          "createdAt": "2026-09-20T09:40:06Z",
-          "body": "## What I want to do with this feature\n\nLet me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established _best practices_.\n\nWhile more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.\n\n## What I'm having to do in the meantime\n\nAs someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible `::before` and `::after` blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if `orphans` and `widows` would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
-          "parsedGoal": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established best practices. While more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.",
-          "parsedWorkaround": "As someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible ::before and ::after blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if orphans and widows would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "installed apps"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-09-20",
-          "votes": 10,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        },
-        {
-          "date": "2026-09-21",
-          "votes": 16,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-21T15:10:30Z"
-    },
-    {
       "id": "gamut-mapping",
       "slug": "gamut-mapping",
       "title": "Gamut mapping",
@@ -11965,6 +11748,113 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:18Z"
+    },
+    {
+      "id": "widows-orphans",
+      "slug": "widows-orphans",
+      "title": "Widows and orphans",
+      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 11,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
+      "categories": [
+        "Layout"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 15,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 44.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 6,
+        "votes30d": 0,
+        "score7d": 3.8,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVqrhWA",
+          "author": "saschaleib",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/11#issuecomment-5749006680",
+          "createdAt": "2026-09-20T09:40:06Z",
+          "body": "## What I want to do with this feature\n\nLet me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established _best practices_.\n\nWhile more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.\n\n## What I'm having to do in the meantime\n\nAs someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible `::before` and `::after` blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if `orphans` and `widows` would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
+          "parsedGoal": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established best practices. While more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.",
+          "parsedWorkaround": "As someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible ::before and ::after blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if orphans and widows would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "votes": 10,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-21T15:10:30Z"
     },
     {
       "id": "getboxquads",
@@ -12448,26 +12338,12 @@
       },
       "trend": {
         "votes7d": 0,
-        "votes30d": 4,
+        "votes30d": 1,
         "score7d": 0,
-        "score30d": 2.5
+        "score30d": 0.6
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-03",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
         {
           "date": "2026-10-04",
           "votes": 10,
@@ -12887,9 +12763,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-04T13:19:57Z"
+      "lastActivityAt": "2026-11-05T21:41:33Z"
     },
     {
       "id": "virtual-keyboard",
@@ -15215,9 +15105,9 @@
       },
       "trend": {
         "votes7d": 0,
-        "votes30d": 5,
+        "votes30d": 3,
         "score7d": 0,
-        "score30d": 5.6
+        "score30d": 2.8
       },
       "comments": [
         {
@@ -15237,20 +15127,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-03",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        },
         {
           "date": "2026-10-04",
           "votes": 4,
@@ -15670,9 +15546,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-11-04T13:20:00Z"
+      "lastActivityAt": "2026-11-05T21:41:39Z"
     },
     {
       "id": "input-date-time-week",
@@ -18523,6 +18413,79 @@
       "lastActivityAt": "2026-09-03T14:35:16Z"
     },
     {
+      "id": "html-setters",
+      "slug": "html-setters",
+      "title": "HTML setter methods",
+      "summary": "Developer demand and implementation evidence for Html Setters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 930,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/930"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/html-setters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 6,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 15.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.13,
+        "rationale": "0 distinct qualified authors; 6 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 1.3,
+        "score30d": 1.3
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-18",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 6,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 15.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-02T13:41:41Z"
+    },
+    {
       "id": "local-network-access",
       "slug": "local-network-access",
       "title": "Local network access",
@@ -19286,79 +19249,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:54Z"
-    },
-    {
-      "id": "html-setters",
-      "slug": "html-setters",
-      "title": "HTML setter methods",
-      "summary": "Developer demand and implementation evidence for Html Setters.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 930,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/930"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/html-setters/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-18",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        },
-        {
-          "date": "2026-11-02",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-02T13:41:41Z"
     },
     {
       "id": "languagedetector",
@@ -26515,67 +26405,6 @@
       "lastActivityAt": "2026-08-26T12:09:32Z"
     },
     {
-      "id": "ext-texture-norm16",
-      "slug": "ext-texture-norm16",
-      "title": "EXT_texture_norm16 WebGL extension",
-      "summary": "The EXT_texture_norm16 extension to WebGL 2.0 contexts adds 16 bit signed normalized and unsigned normalized fixed-point texture, renderbuffer, and texture buffer formats.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 134,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/134"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/ext-texture-norm16/",
-      "categories": [
-        "WebGL extensions"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 1,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 11.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 5.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.05,
-        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:55Z"
-    },
-    {
       "id": "interaction-contentful-paint",
       "slug": "interaction-contentful-paint",
       "title": "Interaction contentful paint",
@@ -27125,9 +26954,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-04T13:19:59Z"
+      "lastActivityAt": "2026-11-05T21:41:35Z"
     },
     {
       "id": "iterator-join",
@@ -27576,9 +27419,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-04T13:19:58Z"
+      "lastActivityAt": "2026-11-05T21:41:34Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30031,6 +29888,124 @@
       "lastActivityAt": "2026-10-14T07:24:19Z"
     },
     {
+      "id": "display-state",
+      "slug": "display-state",
+      "title": "display-state media query",
+      "summary": "Developer demand and implementation evidence for Display State.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 965,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/965"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-state/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-05",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-05T21:41:38Z"
+    },
+    {
+      "id": "document-isolation-policy",
+      "slug": "document-isolation-policy",
+      "title": "Document-Isolation-Policy",
+      "summary": "Developer demand and implementation evidence for Document Isolation Policy.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 964,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/964"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/document-isolation-policy/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-05",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-05T21:41:23Z"
+    },
+    {
       "id": "iterator-zip-zipkeyed",
       "slug": "iterator-zip-zipkeyed",
       "title": "Iterator.zip() and Iterator.zipKeyed()",
@@ -30379,9 +30354,141 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-04T13:19:56Z"
+      "lastActivityAt": "2026-11-05T21:41:29Z"
+    },
+    {
+      "id": "offline-audio-context-incremental-rendering",
+      "slug": "offline-audio-context-incremental-rendering",
+      "title": "OfflineAudioContext incremental rendering",
+      "summary": "Developer demand and implementation evidence for Offline Audio Context Incremental Rendering.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 966,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/966"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/offline-audio-context-incremental-rendering/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-05",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-05T21:41:41Z"
+    },
+    {
+      "id": "resizable",
+      "slug": "resizable",
+      "title": "resizable media query",
+      "summary": "Developer demand and implementation evidence for Resizable.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 967,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/967"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/resizable/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-05",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-05T21:41:44Z"
     },
     {
       "id": "retriable-module-loading",
@@ -30452,9 +30559,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-02T13:41:39Z"
+      "lastActivityAt": "2026-11-05T21:41:36Z"
     },
     {
       "id": "scroll-axis-lock",
@@ -30691,6 +30812,65 @@
         }
       ],
       "lastActivityAt": "2026-10-14T07:24:23Z"
+    },
+    {
+      "id": "window-management-resizing",
+      "slug": "window-management-resizing",
+      "title": "Window resizing",
+      "summary": "Developer demand and implementation evidence for Window Management Resizing.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 968,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/968"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-management-resizing/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-05",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-05T21:41:47Z"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-07T11:12:51.701Z",
-    "staleAfter": "2026-11-09T11:12:51.701Z",
+    "generatedAt": "2026-11-08T11:24:56.561Z",
+    "staleAfter": "2026-11-10T11:24:56.561Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,29 +10,23 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-07T11:12:51.701Z"
+        "retrievedAt": "2026-11-08T11:24:56.561Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-07T11:12:51.701Z"
+        "retrievedAt": "2026-11-08T11:24:56.561Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-07T11:12:51.701Z"
+        "retrievedAt": "2026-11-08T11:24:56.561Z"
       }
     ],
     "warnings": [
-      "calc-size: feed votes 64 differed from GitHub 65; GitHub value used.",
-      "grid-lanes: feed votes 130 differed from GitHub 132; GitHub value used.",
-      "heading-offset: feed votes 11 differed from GitHub 12; GitHub value used.",
-      "initial-letter: feed votes 16 differed from GitHub 18; GitHub value used.",
-      "interpolate-size: feed votes 102 differed from GitHub 103; GitHub value used.",
-      "jpegxl: feed votes 534 differed from GitHub 535; GitHub value used.",
-      "loading-lazy-media: feed votes 52 differed from GitHub 53; GitHub value used.",
-      "meta-theme-color: feed votes 16 differed from GitHub 17; GitHub value used.",
-      "sizes-auto: feed votes 39 differed from GitHub 40; GitHub value used."
+      "loading-lazy-media: feed votes 53 differed from GitHub 54; GitHub value used.",
+      "temporal: feed votes 280 differed from GitHub 281; GitHub value used.",
+      "ua-client-hints: feed votes 11 differed from GitHub 12; GitHub value used."
     ]
   },
   "features": [
@@ -754,13 +748,13 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 280,
+      "votes": 281,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 90.7,
+        "voteDemand": 90.8,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
         "composite": 62.8
@@ -768,13 +762,13 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 280 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 281 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
-        "votes30d": 13,
+        "votes7d": 3,
+        "votes30d": 11,
         "score7d": 0.1,
-        "score30d": 0.4
+        "score30d": 0.3
       },
       "comments": [
         {
@@ -949,20 +943,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-06",
-          "votes": 267,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 89.9,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.4
-          }
-        },
         {
           "date": "2026-10-07",
           "votes": 267,
@@ -1382,9 +1362,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-07",
+          "votes": 281,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.8,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-06T13:17:12Z"
+      "lastActivityAt": "2026-11-07T11:57:25Z"
     },
     {
       "id": "attr",
@@ -5099,27 +5093,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 53,
+      "votes": 54,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 64.2,
+        "voteDemand": 64.5,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 32.1
+        "composite": 32.2
       },
       "confidence": {
         "level": "low",
         "score": 0.26,
-        "rationale": "0 distinct qualified authors; 53 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 54 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 16,
-        "votes30d": 22,
-        "score7d": 2.8,
-        "score30d": 4.2
+        "votes7d": 17,
+        "votes30d": 23,
+        "score7d": 2.9,
+        "score30d": 4.3
       },
       "comments": [
         {
@@ -5171,16 +5165,16 @@
         },
         {
           "date": "2026-10-03",
-          "votes": 53,
+          "votes": 54,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 64.2,
+            "voteDemand": 64.5,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 32.1
+            "composite": 32.2
           }
         }
       ],
@@ -9466,26 +9460,12 @@
       },
       "trend": {
         "votes7d": 0,
-        "votes30d": 3,
+        "votes30d": 2,
         "score7d": 0,
-        "score30d": 1.1
+        "score30d": 0.7
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-06",
-          "votes": 19,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 48.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.1
-          }
-        },
         {
           "date": "2026-10-07",
           "votes": 19,
@@ -9905,9 +9885,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-07",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-06T13:17:11Z"
+      "lastActivityAt": "2026-11-07T11:57:24Z"
     },
     {
       "id": "manifest",
@@ -12350,20 +12344,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-06",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        },
-        {
           "date": "2026-10-07",
           "votes": 13,
           "qualifiedAuthors": 0,
@@ -12782,9 +12762,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-11-07",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-06T13:17:14Z"
+      "lastActivityAt": "2026-11-07T11:57:27Z"
     },
     {
       "id": "virtual-keyboard",
@@ -13679,6 +13673,98 @@
       "lastActivityAt": "2026-09-03T14:34:25Z"
     },
     {
+      "id": "ua-client-hints",
+      "slug": "ua-client-hints",
+      "title": "User agent client hints",
+      "summary": "The Sec-CH-UA HTTP request header and the navigator.userAgentData API expose browser and platform information used to vary responses and application logic. User agent client hints are similar to user agent strings but more privacy-preserving and safer to parse.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 242,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/242"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/ua-client-hints/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.6,
+        "score30d": 0.6
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABiaUEfA",
+          "author": "almhmwdans86-wq",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/242#issuecomment-6604260476",
+          "createdAt": "2026-11-03T12:52:02Z",
+          "body": "> _This GitHub issue is for collecting web developer signals for User agent client hints._\n> \n> The `Sec-CH-UA` HTTP request header and the `navigator.userAgentData` API expose browser and platform information used to vary responses and application logic. User agent client hints are similar to user agent strings but more privacy-preserving and safer to parse.\n> \n> ## Browser support\n> ![chrome](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/chrome.svg)![available](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/available.svg) ![edge](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/edge.svg)![available](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/available.svg) ![firefox](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/firefox.svg)![unavailable](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/unavailable.svg) ![safari](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/safari.svg)![unavailable](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/unavailable.svg)\n> ## Give us feedback\n> If you're pressed for time, but you want this feature to be available in all browsers, please give this issue a thumbs up 👍 reaction.\n> \n> However, a much better guide for us is to know how you'd use this feature, and what you're having to do in the meantime. This helps us judge the priority versus other features.\n> \n> Copy the template below in a comment, and add the details that matter to _you_.\n> \n> ## What I want to do with this feature\n> \n> <!-- Add your specific use-cases, even if they seem obvious to you. -->\n> \n> ## What I'm having to do in the meantime\n> \n> <!--\n> Are you having to use another feature instead, a polyfill, or is it blocking you completely?\n> Why are the alternatives worse than using this feature?\n> -->\n> All comments are expected to adhere to the [Code of Conduct](https://github.com/web-platform-dx/developer-signals/blob/main/CODE_OF_CONDUCT.md).\n> \n> ## Learn more\n> You can learn more about this feature here:\n> \n> * [MDN](https://developer.mozilla.org/docs/Web/API/User-Agent_Client_Hints_API)\n> * [web features explorer](https://web-platform-dx.github.io/web-features-explorer/features/ua-client-hints)\n> * [webstatus.dev](https://webstatus.dev/features/ua-client-hints)\n> * [Specification](https://wicg.github.io/ua-client-hints/)\n\n",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-03T13:30:04Z"
+    },
+    {
       "id": "webcodecs",
       "slug": "webcodecs",
       "title": "WebCodecs",
@@ -14330,98 +14416,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:07Z"
-    },
-    {
-      "id": "ua-client-hints",
-      "slug": "ua-client-hints",
-      "title": "User agent client hints",
-      "summary": "The Sec-CH-UA HTTP request header and the navigator.userAgentData API expose browser and platform information used to vary responses and application logic. User agent client hints are similar to user agent strings but more privacy-preserving and safer to parse.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 242,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/242"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/ua-client-hints/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 11,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABiaUEfA",
-          "author": "almhmwdans86-wq",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/242#issuecomment-6604260476",
-          "createdAt": "2026-11-03T12:52:02Z",
-          "body": "> _This GitHub issue is for collecting web developer signals for User agent client hints._\n> \n> The `Sec-CH-UA` HTTP request header and the `navigator.userAgentData` API expose browser and platform information used to vary responses and application logic. User agent client hints are similar to user agent strings but more privacy-preserving and safer to parse.\n> \n> ## Browser support\n> ![chrome](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/chrome.svg)![available](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/available.svg) ![edge](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/edge.svg)![available](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/available.svg) ![firefox](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/firefox.svg)![unavailable](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/unavailable.svg) ![safari](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/safari.svg)![unavailable](https://raw.githubusercontent.com/web-platform-dx/developer-signals/refs/heads/main/img/unavailable.svg)\n> ## Give us feedback\n> If you're pressed for time, but you want this feature to be available in all browsers, please give this issue a thumbs up 👍 reaction.\n> \n> However, a much better guide for us is to know how you'd use this feature, and what you're having to do in the meantime. This helps us judge the priority versus other features.\n> \n> Copy the template below in a comment, and add the details that matter to _you_.\n> \n> ## What I want to do with this feature\n> \n> <!-- Add your specific use-cases, even if they seem obvious to you. -->\n> \n> ## What I'm having to do in the meantime\n> \n> <!--\n> Are you having to use another feature instead, a polyfill, or is it blocking you completely?\n> Why are the alternatives worse than using this feature?\n> -->\n> All comments are expected to adhere to the [Code of Conduct](https://github.com/web-platform-dx/developer-signals/blob/main/CODE_OF_CONDUCT.md).\n> \n> ## Learn more\n> You can learn more about this feature here:\n> \n> * [MDN](https://developer.mozilla.org/docs/Web/API/User-Agent_Client_Hints_API)\n> * [web features explorer](https://web-platform-dx.github.io/web-features-explorer/features/ua-client-hints)\n> * [webstatus.dev](https://webstatus.dev/features/ua-client-hints)\n> * [Specification](https://wicg.github.io/ua-client-hints/)\n\n",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "minimized",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        },
-        {
-          "date": "2026-11-03",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-03T13:30:04Z"
     },
     {
       "id": "view-transitions-element-scoped",
@@ -15110,9 +15104,9 @@
       },
       "trend": {
         "votes7d": 0,
-        "votes30d": 3,
+        "votes30d": 2,
         "score7d": 0,
-        "score30d": 2.8
+        "score30d": 1.8
       },
       "comments": [
         {
@@ -15132,20 +15126,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-06",
-          "votes": 6,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 31.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 15.7
-          }
-        },
         {
           "date": "2026-10-07",
           "votes": 6,
@@ -15565,9 +15545,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-11-07",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-11-06T13:17:17Z"
+      "lastActivityAt": "2026-11-07T11:57:31Z"
     },
     {
       "id": "input-date-time-week",
@@ -26987,9 +26981,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-07",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-06T13:17:16Z"
+      "lastActivityAt": "2026-11-07T11:57:29Z"
     },
     {
       "id": "iterator-join",
@@ -27033,20 +27041,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-06",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
         {
           "date": "2026-10-07",
           "votes": 1,
@@ -27466,9 +27460,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-07",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-06T13:17:15Z"
+      "lastActivityAt": "2026-11-07T11:57:28Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30415,9 +30423,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-07",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-06T13:17:13Z"
+      "lastActivityAt": "2026-11-07T11:57:26Z"
     },
     {
       "id": "offline-audio-context-incremental-rendering",

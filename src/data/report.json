@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-09T13:08:02.106Z",
-    "staleAfter": "2026-11-11T13:08:02.106Z",
+    "generatedAt": "2026-11-10T12:49:32.345Z",
+    "staleAfter": "2026-11-12T12:49:32.345Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,27 +10,22 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-09T13:08:02.106Z"
+        "retrievedAt": "2026-11-10T12:49:32.345Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-09T13:08:02.106Z"
+        "retrievedAt": "2026-11-10T12:49:32.345Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-09T13:08:02.106Z"
+        "retrievedAt": "2026-11-10T12:49:32.345Z"
       }
     ],
     "warnings": [
-      "grid-lanes: feed votes 132 differed from GitHub 133; GitHub value used.",
-      "interest-invokers: feed votes 52 differed from GitHub 53; GitHub value used.",
-      "jpegxl: feed votes 535 differed from GitHub 536; GitHub value used.",
-      "local-network-access: feed votes 6 differed from GitHub 7; GitHub value used.",
-      "scroll-triggered-animations: feed votes 1 differed from GitHub 2; GitHub value used.",
-      "speech-recognition: feed votes 24 differed from GitHub 25; GitHub value used.",
-      "widows-orphans: feed votes 15 differed from GitHub 16; GitHub value used."
+      "attr: feed votes 132 differed from GitHub 133; GitHub value used.",
+      "grid-lanes: feed votes 133 differed from GitHub 134; GitHub value used."
     ]
   },
   "features": [
@@ -769,7 +764,7 @@
         "rationale": "3 distinct qualified authors; 281 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
+        "votes7d": 2,
         "votes30d": 11,
         "score7d": 0.1,
         "score30d": 0.3
@@ -947,20 +942,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-08",
-          "votes": 270,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.1,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.5
-          }
-        },
         {
           "date": "2026-10-09",
           "votes": 270,
@@ -1380,9 +1361,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-09",
+          "votes": 281,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.8,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-08T12:15:39Z"
+      "lastActivityAt": "2026-11-09T14:27:01Z"
     },
     {
       "id": "attr",
@@ -1407,26 +1402,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 132,
+      "votes": 133,
       "qualifiedAuthors": 4,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 78.7,
+        "voteDemand": 78.8,
         "useCaseEvidence": 46,
         "workaroundBurden": 13.8,
-        "composite": 57.5
+        "composite": 57.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.63,
-        "rationale": "4 distinct qualified authors; 132 issue votes; 80% of reviewed comments qualified."
+        "rationale": "4 distinct qualified authors; 133 issue votes; 80% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 18,
+        "votes7d": 19,
         "votes30d": 0,
-        "score7d": 1.2,
+        "score7d": 1.3,
         "score30d": 0
       },
       "comments": [
@@ -1533,16 +1528,16 @@
         },
         {
           "date": "2026-09-15",
-          "votes": 132,
+          "votes": 133,
           "qualifiedAuthors": 4,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.7,
+            "voteDemand": 78.8,
             "useCaseEvidence": 46,
             "workaroundBurden": 13.8,
-            "composite": 57.5
+            "composite": 57.6
           }
         }
       ],
@@ -1666,27 +1661,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 133,
+      "votes": 134,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 1.25,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 78.8,
+        "voteDemand": 78.9,
         "useCaseEvidence": 32.9,
         "workaroundBurden": 27.5,
-        "composite": 55
+        "composite": 55.1
       },
       "confidence": {
         "level": "medium",
         "score": 0.48,
-        "rationale": "2 distinct qualified authors; 133 issue votes; 50% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 134 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
-        "votes30d": 3,
-        "score7d": 0.1,
-        "score30d": 0.1
+        "votes7d": 4,
+        "votes30d": 4,
+        "score7d": 0.2,
+        "score30d": 0.2
       },
       "comments": [
         {
@@ -1775,16 +1770,16 @@
         },
         {
           "date": "2026-11-02",
-          "votes": 133,
+          "votes": 134,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 1.25,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.8,
+            "voteDemand": 78.9,
             "useCaseEvidence": 32.9,
             "workaroundBurden": 27.5,
-            "composite": 55
+            "composite": 55.1
           }
         }
       ],
@@ -9471,20 +9466,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-08",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        },
-        {
           "date": "2026-10-09",
           "votes": 20,
           "qualifiedAuthors": 0,
@@ -9903,9 +9884,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-09",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-08T12:15:38Z"
+      "lastActivityAt": "2026-11-09T14:27:01Z"
     },
     {
       "id": "manifest",
@@ -12457,20 +12452,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-08",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        },
-        {
           "date": "2026-10-09",
           "votes": 13,
           "qualifiedAuthors": 0,
@@ -12889,9 +12870,23 @@
             "workaroundBurden": 0,
             "composite": 21.8
           }
+        },
+        {
+          "date": "2026-11-09",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-08T12:15:41Z"
+      "lastActivityAt": "2026-11-09T14:27:04Z"
     },
     {
       "id": "virtual-keyboard",
@@ -15240,20 +15235,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-08",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        },
-        {
           "date": "2026-10-09",
           "votes": 7,
           "qualifiedAuthors": 0,
@@ -15672,9 +15653,23 @@
             "workaroundBurden": 0,
             "composite": 18.5
           }
+        },
+        {
+          "date": "2026-11-09",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
         }
       ],
-      "lastActivityAt": "2026-11-08T12:15:44Z"
+      "lastActivityAt": "2026-11-09T14:27:06Z"
     },
     {
       "id": "input-date-time-week",
@@ -27105,9 +27100,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-09",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-08T12:15:43Z"
+      "lastActivityAt": "2026-11-09T14:27:05Z"
     },
     {
       "id": "iterator-join",
@@ -27151,20 +27160,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-08",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
         {
           "date": "2026-10-09",
           "votes": 1,
@@ -27584,9 +27579,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-09",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-08T12:15:42Z"
+      "lastActivityAt": "2026-11-09T14:27:04Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30502,9 +30511,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-09",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-08T12:15:40Z"
+      "lastActivityAt": "2026-11-09T14:27:02Z"
     },
     {
       "id": "offline-audio-context-incremental-rendering",

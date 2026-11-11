@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-10T12:49:32.345Z",
-    "staleAfter": "2026-11-12T12:49:32.345Z",
+    "generatedAt": "2026-11-11T11:58:55.084Z",
+    "staleAfter": "2026-11-13T11:58:55.084Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,22 +10,32 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-10T12:49:32.345Z"
+        "retrievedAt": "2026-11-11T11:58:55.084Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-10T12:49:32.345Z"
+        "retrievedAt": "2026-11-11T11:58:55.084Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-10T12:49:32.345Z"
+        "retrievedAt": "2026-11-11T11:58:55.084Z"
       }
     ],
     "warnings": [
-      "attr: feed votes 132 differed from GitHub 133; GitHub value used.",
-      "grid-lanes: feed votes 133 differed from GitHub 134; GitHub value used."
+      "anchor-positioning: feed votes 279 differed from GitHub 280; GitHub value used.",
+      "css-modules: feed votes 44 differed from GitHub 45; GitHub value used.",
+      "display-contents: feed votes 15 differed from GitHub 16; GitHub value used.",
+      "import-defer: feed votes 9 differed from GitHub 10; GitHub value used.",
+      "link-rel-prefetch: feed votes 21 differed from GitHub 22; GitHub value used.",
+      "move-before: feed votes 43 differed from GitHub 44; GitHub value used.",
+      "popover-hint: feed votes 97 differed from GitHub 98; GitHub value used.",
+      "temporal: feed votes 281 differed from GitHub 282; GitHub value used.",
+      "text-modules: feed votes 14 differed from GitHub 15; GitHub value used.",
+      "web-midi: feed votes 17 differed from GitHub 18; GitHub value used.",
+      "web-otp: feed votes 7 differed from GitHub 8; GitHub value used.",
+      "widows-orphans: feed votes 16 differed from GitHub 15; GitHub value used."
     ]
   },
   "features": [
@@ -747,7 +757,7 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 281,
+      "votes": 282,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
@@ -761,11 +771,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 281 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 282 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
-        "votes30d": 11,
+        "votes7d": 3,
+        "votes30d": 10,
         "score7d": 0.1,
         "score30d": 0.3
       },
@@ -942,20 +952,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-09",
-          "votes": 270,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.1,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.5
-          }
-        },
         {
           "date": "2026-10-10",
           "votes": 270,
@@ -1375,9 +1371,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-10",
+          "votes": 282,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.8,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-09T14:27:01Z"
+      "lastActivityAt": "2026-11-10T13:49:26Z"
     },
     {
       "id": "attr",
@@ -1566,13 +1576,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 279,
+      "votes": 280,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 90.6,
+        "voteDemand": 90.7,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 13.8,
         "composite": 55.3
@@ -1580,11 +1590,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 279 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 280 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 24,
-        "votes30d": 24,
+        "votes7d": 25,
+        "votes30d": 25,
         "score7d": 0.7,
         "score30d": 0.7
       },
@@ -1623,13 +1633,13 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 279,
+          "votes": 280,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 90.6,
+            "voteDemand": 90.7,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 13.8,
             "composite": 55.3
@@ -3818,21 +3828,21 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 97,
+      "votes": 98,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 73.8,
+        "voteDemand": 73.9,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 36.9
+        "composite": 37
       },
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 97 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 98 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3844,16 +3854,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 97,
+          "votes": 98,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 73.8,
+            "voteDemand": 73.9,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 36.9
+            "composite": 37
           }
         }
       ],
@@ -5717,6 +5727,67 @@
       "lastActivityAt": "2026-11-05T21:41:17Z"
     },
     {
+      "id": "css-modules",
+      "slug": "css-modules",
+      "title": "CSS import attributes",
+      "summary": "Module import … with { type: \"css\" } statements load CSS modules as constructable stylesheets. Also known as CSS module scripts.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 233,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/233"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/css-modules/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 45,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 61.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 30.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.25,
+        "rationale": "0 distinct qualified authors; 45 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 45,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 61.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 30.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:48:05Z"
+    },
+    {
       "id": "beforeinstallprompt",
       "slug": "beforeinstallprompt",
       "title": "beforeinstallprompt",
@@ -5798,20 +5869,20 @@
       "lastActivityAt": "2026-08-26T12:09:34Z"
     },
     {
-      "id": "css-modules",
-      "slug": "css-modules",
-      "title": "CSS import attributes",
-      "summary": "Module import … with { type: \"css\" } statements load CSS modules as constructable stylesheets. Also known as CSS module scripts.",
+      "id": "move-before",
+      "slug": "move-before",
+      "title": "moveBefore()",
+      "summary": "The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 233,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/233"
+        "number": 273,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/273"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/css-modules/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/move-before/",
       "categories": [
-        "Other"
+        "DOM"
       ],
       "supportState": "limited",
       "missingBrowsers": [
@@ -5834,15 +5905,47 @@
         "rationale": "0 distinct qualified authors; 44 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
+        "votes7d": 12,
         "votes30d": 0,
-        "score7d": 0,
+        "score7d": 2.5,
         "score30d": 0
       },
-      "comments": [],
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVlJsxA",
+          "author": "KavyanshKhaitan2",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/273#issuecomment-5743209668",
+          "createdAt": "2026-09-19T15:47:25Z",
+          "body": "## What I want to do with this feature\nI am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\nI am currently using a polyfill that re-renders everything every time `moveBefore` is supposed to be called.\n```js\n<script>\n    // MoveBefore polyfill for Safari (suggested by @Luke / U0BFDHWUSPM)\n    (function () {\n        // 1. Check if the native method is already supported\n        if (typeof Element.prototype.moveBefore === 'function') return;\n\n        // 2. Define the fallback function matching the moveBefore signature\n        const moveBeforeFallback = function (nodeToMove, referenceNode) {\n            if (!nodeToMove) {\n            throw new TypeError(\"Failed to execute 'moveBefore': 1 argument required, but only 0 present.\");\n            }\n            // Element.insertBefore(node, null) behaves exactly like appendChild\n            return this.insertBefore(nodeToMove, referenceNode);\n        };\n\n        // 3. Apply the fallback across all valid ParentNode prototypes\n        if (typeof Element !== 'undefined') {\n            Element.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof Document !== 'undefined') {\n            Document.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof DocumentFragment !== 'undefined') {\n            DocumentFragment.prototype.moveBefore = moveBeforeFallback;\n        }\n    })();\n</script>\n```\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
+          "parsedGoal": "I am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.",
+          "parsedWorkaround": "I am currently using a polyfill that re-renders everything every time moveBefore is supposed to be called. code sample",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "moderate"
+        }
+      ],
       "snapshots": [
         {
-          "date": "2026-08-14",
+          "date": "2026-09-03",
+          "votes": 32,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 56.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.1
+          }
+        },
+        {
+          "date": "2026-09-19",
           "votes": 44,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -5856,7 +5959,147 @@
           }
         }
       ],
-      "lastActivityAt": "2026-08-14T14:48:05Z"
+      "lastActivityAt": "2026-09-19T15:49:25Z"
+    },
+    {
+      "id": "web-midi",
+      "slug": "web-midi",
+      "title": "Web MIDI",
+      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 50,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 18,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 47.4,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 30.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.3,
+        "rationale": "1 distinct qualified author; 18 issue votes; 33% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 7,
+        "score7d": 0.9,
+        "score30d": 10.6
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
+          "author": "pitrackster",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
+          "createdAt": "2026-08-25T07:16:48Z",
+          "body": "## What I want to do with this feature\n\nFirefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "parsedGoal": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. I want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABWtCQ9A",
+          "author": "Jaefae",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332",
+          "createdAt": "2026-09-24T17:04:21Z",
+          "body": "## What I want to do with this feature\nI'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.\n## What I'm having to do in the meantime\nAs of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
+          "parsedGoal": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
+          "parsedWorkaround": "As of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the app…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABe6qRcw",
+          "author": "dalingux",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6369743219",
+          "createdAt": "2026-10-23T16:32:35Z",
+          "body": "## What I want to do with this feature\n\nAs a Linux user it's a nonsense to use another browser than firefox, now more and more synth can  be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI)\nThanks.",
+          "parsedGoal": "As a Linux user it's a nonsense to use another browser than firefox, now more and more synth can be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI) Thanks.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-25",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 16,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 29.7
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 18,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 30.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-23T16:32:36Z"
     },
     {
       "id": "barcode",
@@ -6099,99 +6342,6 @@
       "lastActivityAt": "2026-08-26T12:10:04Z"
     },
     {
-      "id": "move-before",
-      "slug": "move-before",
-      "title": "moveBefore()",
-      "summary": "The moveBefore() DOM method relocates a node while preserving its state. For example, you can move the active element without losing focus, move an animated element without resetting the animation, or move an iframe without reloading its content.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 273,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/273"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/move-before/",
-      "categories": [
-        "DOM"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 43,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 60.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 30.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.25,
-        "rationale": "0 distinct qualified authors; 43 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 11,
-        "votes30d": 0,
-        "score7d": 2.3,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVlJsxA",
-          "author": "KavyanshKhaitan2",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/273#issuecomment-5743209668",
-          "createdAt": "2026-09-19T15:47:25Z",
-          "body": "## What I want to do with this feature\nI am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\nI am currently using a polyfill that re-renders everything every time `moveBefore` is supposed to be called.\n```js\n<script>\n    // MoveBefore polyfill for Safari (suggested by @Luke / U0BFDHWUSPM)\n    (function () {\n        // 1. Check if the native method is already supported\n        if (typeof Element.prototype.moveBefore === 'function') return;\n\n        // 2. Define the fallback function matching the moveBefore signature\n        const moveBeforeFallback = function (nodeToMove, referenceNode) {\n            if (!nodeToMove) {\n            throw new TypeError(\"Failed to execute 'moveBefore': 1 argument required, but only 0 present.\");\n            }\n            // Element.insertBefore(node, null) behaves exactly like appendChild\n            return this.insertBefore(nodeToMove, referenceNode);\n        };\n\n        // 3. Apply the fallback across all valid ParentNode prototypes\n        if (typeof Element !== 'undefined') {\n            Element.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof Document !== 'undefined') {\n            Document.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof DocumentFragment !== 'undefined') {\n            DocumentFragment.prototype.moveBefore = moveBeforeFallback;\n        }\n    })();\n</script>\n```\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
-          "parsedGoal": "I am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.",
-          "parsedWorkaround": "I am currently using a polyfill that re-renders everything every time moveBefore is supposed to be called. code sample",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "moderate"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 32,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 56.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.1
-          }
-        },
-        {
-          "date": "2026-09-19",
-          "votes": 43,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 60.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 30.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-19T15:49:25Z"
-    },
-    {
       "id": "local-fonts",
       "slug": "local-fonts",
       "title": "Local fonts",
@@ -6292,146 +6442,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:47:17Z"
-    },
-    {
-      "id": "web-midi",
-      "slug": "web-midi",
-      "title": "Web MIDI",
-      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 50,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 17,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 46.5,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 0,
-        "composite": 30.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.3,
-        "rationale": "1 distinct qualified author; 17 issue votes; 33% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 6,
-        "score7d": 0.5,
-        "score30d": 10.2
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
-          "author": "pitrackster",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
-          "createdAt": "2026-08-25T07:16:48Z",
-          "body": "## What I want to do with this feature\n\nFirefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
-          "parsedGoal": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. I want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABWtCQ9A",
-          "author": "Jaefae",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332",
-          "createdAt": "2026-09-24T17:04:21Z",
-          "body": "## What I want to do with this feature\nI'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.\n## What I'm having to do in the meantime\nAs of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
-          "parsedGoal": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
-          "parsedWorkaround": "As of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the app…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABe6qRcw",
-          "author": "dalingux",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6369743219",
-          "createdAt": "2026-10-23T16:32:35Z",
-          "body": "## What I want to do with this feature\n\nAs a Linux user it's a nonsense to use another browser than firefox, now more and more synth can  be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI)\nThanks.",
-          "parsedGoal": "As a Linux user it's a nonsense to use another browser than firefox, now more and more synth can be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI) Thanks.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-25",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        },
-        {
-          "date": "2026-09-25",
-          "votes": 16,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 29.7
-          }
-        },
-        {
-          "date": "2026-10-23",
-          "votes": 17,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 46.5,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 30.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-23T16:32:36Z"
     },
     {
       "id": "heading-selectors",
@@ -7116,6 +7126,113 @@
       "lastActivityAt": "2026-08-14T14:49:54Z"
     },
     {
+      "id": "share",
+      "slug": "share",
+      "title": "navigator.share()",
+      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 76,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 36,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 58.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 29
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 36 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 7,
+        "votes30d": 14,
+        "score7d": 1.6,
+        "score30d": 3.8
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABabPA3w",
+          "author": "gdebojyoti",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/76#issuecomment-6068355295",
+          "createdAt": "2026-10-08T20:22:30Z",
+          "body": "## What I want to do with this feature\n\nShare game result (\"view of the game board\") via a snapshot at the end of the game (a web app).\n\n## What I'm having to do in the meantime\n\nThe feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
+          "parsedGoal": "Share game result (\"view of the game board\") via a snapshot at the end of the game (a web app).",
+          "parsedWorkaround": "The feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 29,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.4
+          }
+        },
+        {
+          "date": "2026-10-08",
+          "votes": 36,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 58.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-08T20:22:30Z"
+    },
+    {
       "id": "stretch",
       "slug": "stretch",
       "title": "stretch",
@@ -7499,113 +7616,6 @@
         }
       ],
       "lastActivityAt": "2026-10-06T18:52:29Z"
-    },
-    {
-      "id": "share",
-      "slug": "share",
-      "title": "navigator.share()",
-      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 76,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 35,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 57.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 28.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 35 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 6,
-        "votes30d": 13,
-        "score7d": 1.4,
-        "score30d": 3.6
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABabPA3w",
-          "author": "gdebojyoti",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/76#issuecomment-6068355295",
-          "createdAt": "2026-10-08T20:22:30Z",
-          "body": "## What I want to do with this feature\n\nShare game result (\"view of the game board\") via a snapshot at the end of the game (a web app).\n\n## What I'm having to do in the meantime\n\nThe feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
-          "parsedGoal": "Share game result (\"view of the game board\") via a snapshot at the end of the game (a web app).",
-          "parsedWorkaround": "The feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 29,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 54.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.4
-          }
-        },
-        {
-          "date": "2026-10-08",
-          "votes": 35,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 57.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-08T20:22:30Z"
     },
     {
       "id": "text-wrap-pretty",
@@ -9459,26 +9469,12 @@
       },
       "trend": {
         "votes7d": 0,
-        "votes30d": 2,
+        "votes30d": 1,
         "score7d": 0,
-        "score30d": 0.7
+        "score30d": 0.3
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-09",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        },
         {
           "date": "2026-10-10",
           "votes": 20,
@@ -9898,9 +9894,84 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-10",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-09T14:27:01Z"
+      "lastActivityAt": "2026-11-10T13:49:25Z"
+    },
+    {
+      "id": "link-rel-prefetch",
+      "slug": "link-rel-prefetch",
+      "title": "<link rel=\"prefetch\">",
+      "summary": "The rel=\"prefetch\" attribute for the <link> HTML element is a hint to the browser that the user is likely to navigate to a resource, so the browser should preemptively fetch and cache the resource.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 306,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/306"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-rel-prefetch/",
+      "categories": [
+        "Resource hints"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 22,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 50.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:08:39Z"
     },
     {
       "id": "manifest",
@@ -9962,67 +10033,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:06Z"
-    },
-    {
-      "id": "link-rel-prefetch",
-      "slug": "link-rel-prefetch",
-      "title": "<link rel=\"prefetch\">",
-      "summary": "The rel=\"prefetch\" attribute for the <link> HTML element is a hint to the browser that the user is likely to navigate to a resource, so the browser should preemptively fetch and cache the resource.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 306,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/306"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-rel-prefetch/",
-      "categories": [
-        "Resource hints"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 21,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:08:39Z"
     },
     {
       "id": "mixin",
@@ -11524,6 +11534,70 @@
       "lastActivityAt": "2026-09-21T07:25:39Z"
     },
     {
+      "id": "display-contents",
+      "slug": "display-contents",
+      "title": "display: contents",
+      "summary": "The display: contents CSS declaration sets an element to display only its contents, not itself.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 296,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/296"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-contents/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 16,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 45.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 16,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:18Z"
+    },
+    {
       "id": "eyedropper",
       "slug": "eyedropper",
       "title": "Eyedropper",
@@ -11684,113 +11758,6 @@
       "lastActivityAt": "2026-09-03T14:36:26Z"
     },
     {
-      "id": "widows-orphans",
-      "slug": "widows-orphans",
-      "title": "Widows and orphans",
-      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 11,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
-      "categories": [
-        "Layout"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 16,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 45.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 7,
-        "votes30d": 0,
-        "score7d": 4.3,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVqrhWA",
-          "author": "saschaleib",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/11#issuecomment-5749006680",
-          "createdAt": "2026-09-20T09:40:06Z",
-          "body": "## What I want to do with this feature\n\nLet me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established _best practices_.\n\nWhile more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.\n\n## What I'm having to do in the meantime\n\nAs someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible `::before` and `::after` blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if `orphans` and `widows` would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
-          "parsedGoal": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established best practices. While more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.",
-          "parsedWorkaround": "As someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible ::before and ::after blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if orphans and widows would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "installed apps"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-09-20",
-          "votes": 10,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        },
-        {
-          "date": "2026-09-21",
-          "votes": 16,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-21T15:10:30Z"
-    },
-    {
       "id": "gamut-mapping",
       "slug": "gamut-mapping",
       "title": "Gamut mapping",
@@ -11900,26 +11867,25 @@
       "lastActivityAt": "2026-10-15T22:18:26Z"
     },
     {
-      "id": "display-contents",
-      "slug": "display-contents",
-      "title": "display: contents",
-      "summary": "The display: contents CSS declaration sets an element to display only its contents, not itself.",
+      "id": "text-modules",
+      "slug": "text-modules",
+      "title": "Text import attributes",
+      "summary": "Module import … with { type: \"text\" } statements load text data as a string value.",
       "summaryKind": "source",
       "issue": {
         "owner": "web-platform-dx",
         "repo": "developer-signals",
-        "number": 296,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/296"
+        "number": 899,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/899"
       },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-contents/",
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-modules/",
       "categories": [
-        "CSS"
+        "JavaScript modules"
       ],
       "supportState": "limited",
       "missingBrowsers": [
         "chrome",
         "edge",
-        "firefox",
         "safari"
       ],
       "votes": 15,
@@ -11939,15 +11905,435 @@
         "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.5,
+        "score30d": 0.5
       },
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-09-03",
+          "date": "2026-10-10",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        },
+        {
+          "date": "2026-10-11",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-15",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-16",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-18",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-19",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-22",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-25",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-27",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-28",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-29",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-30",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-10-31",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-11-01",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-11-04",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-11-06",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-11-07",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-11-08",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-11-09",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        },
+        {
+          "date": "2026-11-10",
           "votes": 15,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -11961,7 +12347,114 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:18Z"
+      "lastActivityAt": "2026-11-10T13:49:28Z"
+    },
+    {
+      "id": "widows-orphans",
+      "slug": "widows-orphans",
+      "title": "Widows and orphans",
+      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 11,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
+      "categories": [
+        "Layout"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 15,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 44.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 6,
+        "votes30d": 0,
+        "score7d": 3.8,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVqrhWA",
+          "author": "saschaleib",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/11#issuecomment-5749006680",
+          "createdAt": "2026-09-20T09:40:06Z",
+          "body": "## What I want to do with this feature\n\nLet me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established _best practices_.\n\nWhile more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.\n\n## What I'm having to do in the meantime\n\nAs someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible `::before` and `::after` blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if `orphans` and `widows` would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
+          "parsedGoal": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established best practices. While more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.",
+          "parsedWorkaround": "As someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible ::before and ::after blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if orphans and widows would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "votes": 10,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-21T15:10:30Z"
     },
     {
       "id": "getboxquads",
@@ -12404,489 +12897,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:46:20Z"
-    },
-    {
-      "id": "text-modules",
-      "slug": "text-modules",
-      "title": "Text import attributes",
-      "summary": "Module import … with { type: \"text\" } statements load text data as a string value.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 899,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/899"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-modules/",
-      "categories": [
-        "JavaScript modules"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "safari"
-      ],
-      "votes": 14,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 43.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 1,
-        "score7d": 0,
-        "score30d": 0.6
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-10-09",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        },
-        {
-          "date": "2026-10-10",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        },
-        {
-          "date": "2026-10-11",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-12",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-14",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-15",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-16",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-17",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-18",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-19",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-20",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-21",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-22",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-23",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-24",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-25",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-26",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-27",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-28",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-29",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-30",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-10-31",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-11-01",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-11-02",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-11-03",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-11-04",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-11-05",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-11-06",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-11-07",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-11-08",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
-          "date": "2026-11-09",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-09T14:27:04Z"
     },
     {
       "id": "virtual-keyboard",
@@ -14650,6 +14660,501 @@
       "lastActivityAt": "2026-08-26T12:10:29Z"
     },
     {
+      "id": "import-defer",
+      "slug": "import-defer",
+      "title": "import defer",
+      "summary": "Developer demand and implementation evidence for Import Defer.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 919,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/919"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/import-defer/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 10,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 38.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 19.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.16,
+        "rationale": "0 distinct qualified authors; 10 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 2,
+        "score7d": 0.8,
+        "score30d": 1.6
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABduE-0g",
+          "author": "lanai1986v-netizen",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/919#issuecomment-6289440466",
+          "createdAt": "2026-10-20T11:05:19Z",
+          "body": "https://github.com/web-platform-dx/developer-signals/issues/919#issue-5389112553",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "minimized",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-10-10",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
+        },
+        {
+          "date": "2026-10-11",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-15",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-16",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-18",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-19",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-22",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-25",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-27",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-28",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-29",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-30",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-10-31",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-11-01",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-11-03",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-11-04",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-11-06",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-11-07",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-11-08",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-11-09",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-11-10",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-10T13:49:31Z"
+    },
+    {
       "id": "meta-text-scale",
       "slug": "meta-text-scale",
       "title": "<meta name=\"text-scale\">",
@@ -15175,501 +15680,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:21Z"
-    },
-    {
-      "id": "import-defer",
-      "slug": "import-defer",
-      "title": "import defer",
-      "summary": "Developer demand and implementation evidence for Import Defer.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 919,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/919"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/import-defer/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 9,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 37,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 18.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.15,
-        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 2,
-        "score7d": 0,
-        "score30d": 1.8
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABduE-0g",
-          "author": "lanai1986v-netizen",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/919#issuecomment-6289440466",
-          "createdAt": "2026-10-20T11:05:19Z",
-          "body": "https://github.com/web-platform-dx/developer-signals/issues/919#issue-5389112553",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "minimized",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-10-09",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        },
-        {
-          "date": "2026-10-10",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        },
-        {
-          "date": "2026-10-11",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        },
-        {
-          "date": "2026-10-12",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        },
-        {
-          "date": "2026-10-14",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-15",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-16",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-17",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-18",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-19",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-20",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-21",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-22",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-23",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-24",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-25",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-26",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-27",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-28",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-29",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-30",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-10-31",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-11-01",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-11-02",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-11-03",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-11-04",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-11-05",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-11-06",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-11-07",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-11-08",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
-          "date": "2026-11-09",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-09T14:27:06Z"
     },
     {
       "id": "input-date-time-week",
@@ -16899,6 +16909,82 @@
       "lastActivityAt": "2026-08-26T12:08:43Z"
     },
     {
+      "id": "web-otp",
+      "slug": "web-otp",
+      "title": "WebOTP",
+      "summary": "The OTPCredential API represents a one-time-password (OTP).",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 123,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/123"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-otp/",
+      "categories": [
+        "Credential management"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 8,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 17.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 7,
+        "votes30d": 0,
+        "score7d": 12.1,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:20Z"
+    },
+    {
       "id": "window-controls-overlay",
       "slug": "window-controls-overlay",
       "title": "Window Controls Overlay",
@@ -17842,82 +17928,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:36Z"
-    },
-    {
-      "id": "web-otp",
-      "slug": "web-otp",
-      "title": "WebOTP",
-      "summary": "The OTPCredential API represents a one-time-password (OTP).",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 123,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/123"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-otp/",
-      "categories": [
-        "Credential management"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 7,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 16.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 6,
-        "votes30d": 0,
-        "score7d": 11.1,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:20Z"
     },
     {
       "id": "wheel-events",
@@ -27114,9 +27124,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-10",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-09T14:27:05Z"
+      "lastActivityAt": "2026-11-10T13:49:30Z"
     },
     {
       "id": "iterator-join",
@@ -27160,20 +27184,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-09",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
         {
           "date": "2026-10-10",
           "votes": 1,
@@ -27593,9 +27603,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-10",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-09T14:27:04Z"
+      "lastActivityAt": "2026-11-10T13:49:28Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30525,9 +30549,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-10",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-09T14:27:02Z"
+      "lastActivityAt": "2026-11-10T13:49:27Z"
     },
     {
       "id": "offline-audio-context-incremental-rendering",

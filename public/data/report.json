@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-11T11:58:55.084Z",
-    "staleAfter": "2026-11-13T11:58:55.084Z",
+    "generatedAt": "2026-11-12T12:59:37.938Z",
+    "staleAfter": "2026-11-14T12:59:37.938Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,32 +10,23 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-11T11:58:55.084Z"
+        "retrievedAt": "2026-11-12T12:59:37.938Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-11T11:58:55.084Z"
+        "retrievedAt": "2026-11-12T12:59:37.938Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-11T11:58:55.084Z"
+        "retrievedAt": "2026-11-12T12:59:37.938Z"
       }
     ],
     "warnings": [
-      "anchor-positioning: feed votes 279 differed from GitHub 280; GitHub value used.",
-      "css-modules: feed votes 44 differed from GitHub 45; GitHub value used.",
-      "display-contents: feed votes 15 differed from GitHub 16; GitHub value used.",
-      "import-defer: feed votes 9 differed from GitHub 10; GitHub value used.",
-      "link-rel-prefetch: feed votes 21 differed from GitHub 22; GitHub value used.",
-      "move-before: feed votes 43 differed from GitHub 44; GitHub value used.",
-      "popover-hint: feed votes 97 differed from GitHub 98; GitHub value used.",
-      "temporal: feed votes 281 differed from GitHub 282; GitHub value used.",
-      "text-modules: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "web-midi: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "web-otp: feed votes 7 differed from GitHub 8; GitHub value used.",
-      "widows-orphans: feed votes 16 differed from GitHub 15; GitHub value used."
+      "caret-shape: feed votes 13 differed from GitHub 14; GitHub value used.",
+      "share: feed votes 36 differed from GitHub 37; GitHub value used.",
+      "user-select: feed votes 23 differed from GitHub 24; GitHub value used."
     ]
   },
   "features": [
@@ -774,9 +765,9 @@
         "rationale": "3 distinct qualified authors; 282 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
+        "votes7d": 2,
         "votes30d": 10,
-        "score7d": 0.1,
+        "score7d": 0,
         "score30d": 0.3
       },
       "comments": [
@@ -952,20 +943,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-10",
-          "votes": 270,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.1,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.5
-          }
-        },
         {
           "date": "2026-10-11",
           "votes": 272,
@@ -1385,9 +1362,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-11",
+          "votes": 282,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.8,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-10T13:49:26Z"
+      "lastActivityAt": "2026-11-11T13:00:14Z"
     },
     {
       "id": "attr",
@@ -6904,6 +6895,113 @@
       "lastActivityAt": "2026-11-02T13:41:18Z"
     },
     {
+      "id": "share",
+      "slug": "share",
+      "title": "navigator.share()",
+      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 76,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 37,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 58.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 29.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.24,
+        "rationale": "0 distinct qualified authors; 37 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 8,
+        "votes30d": 15,
+        "score7d": 1.9,
+        "score30d": 4.1
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABabPA3w",
+          "author": "gdebojyoti",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/76#issuecomment-6068355295",
+          "createdAt": "2026-10-08T20:22:30Z",
+          "body": "## What I want to do with this feature\n\nShare game result (\"view of the game board\") via a snapshot at the end of the game (a web app).\n\n## What I'm having to do in the meantime\n\nThe feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
+          "parsedGoal": "Share game result (\"view of the game board\") via a snapshot at the end of the game (a web app).",
+          "parsedWorkaround": "The feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 29,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 54.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 27.4
+          }
+        },
+        {
+          "date": "2026-10-08",
+          "votes": 37,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 58.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-08T20:22:30Z"
+    },
+    {
       "id": "show-picker-input",
       "slug": "show-picker-input",
       "title": "showPicker() for <input>",
@@ -7124,113 +7222,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:54Z"
-    },
-    {
-      "id": "share",
-      "slug": "share",
-      "title": "navigator.share()",
-      "summary": "The navigator.share() method invokes the device's native sharing mechanism and passes text, links, files, and other content to share targets. Also known as the Web Share API.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 76,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/76"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/share/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 36,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 58.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 29
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 36 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 7,
-        "votes30d": 14,
-        "score7d": 1.6,
-        "score30d": 3.8
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABabPA3w",
-          "author": "gdebojyoti",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/76#issuecomment-6068355295",
-          "createdAt": "2026-10-08T20:22:30Z",
-          "body": "## What I want to do with this feature\n\nShare game result (\"view of the game board\") via a snapshot at the end of the game (a web app).\n\n## What I'm having to do in the meantime\n\nThe feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
-          "parsedGoal": "Share game result (\"view of the game board\") via a snapshot at the end of the game (a web app).",
-          "parsedWorkaround": "The feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 29,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 54.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 27.4
-          }
-        },
-        {
-          "date": "2026-10-08",
-          "votes": 36,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 58.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 29
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-08T20:22:30Z"
     },
     {
       "id": "stretch",
@@ -9131,6 +9122,67 @@
       "lastActivityAt": "2026-11-05T21:41:31Z"
     },
     {
+      "id": "user-select",
+      "slug": "user-select",
+      "title": "user-select",
+      "summary": "The user-select CSS property controls which elements can be selected by the user.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 59,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/59"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/user-select/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 24,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 24 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 24,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:08Z"
+    },
+    {
       "id": "hanging-punctuation",
       "slug": "hanging-punctuation",
       "title": "Hanging punctuation",
@@ -9192,67 +9244,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:49:40Z"
-    },
-    {
-      "id": "user-select",
-      "slug": "user-select",
-      "title": "user-select",
-      "summary": "The user-select CSS property controls which elements can be selected by the user.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 59,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/59"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/user-select/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 23,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 51.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 23,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 51.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:08Z"
     },
     {
       "id": "app-launch-handler",
@@ -9475,20 +9466,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-10",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        },
         {
           "date": "2026-10-11",
           "votes": 21,
@@ -9908,9 +9885,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-11",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-10T13:49:25Z"
+      "lastActivityAt": "2026-11-11T13:00:13Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -11913,20 +11904,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-10",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        },
-        {
           "date": "2026-10-11",
           "votes": 14,
           "qualifiedAuthors": 0,
@@ -12345,9 +12322,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-11",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-10T13:49:28Z"
+      "lastActivityAt": "2026-11-11T13:00:16Z"
     },
     {
       "id": "widows-orphans",
@@ -12692,6 +12683,86 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:50Z"
+    },
+    {
+      "id": "caret-shape",
+      "slug": "caret-shape",
+      "title": "caret-shape",
+      "summary": "The caret-shape CSS property sets the shape of the insertion caret, the symbol that shows where the next character is to be inserted or deleted.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 424,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/424"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/caret-shape/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABGEIDrg",
+          "author": "WiseNat",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/424#issuecomment-4701946798",
+          "createdAt": "2026-06-14T13:50:04Z",
+          "body": "## What I want to do with this feature\n\nUse block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/\n\n## What I'm having to do in the meantime\n\nRelying on the default caret - there's no obvious alternatives at the moment. [CSS Tricks](https://css-tricks.com/almanac/properties/c/caret-shape/) outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
+          "parsedGoal": "Use block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/",
+          "parsedWorkaround": "Relying on the default caret - there's no obvious alternatives at the moment. CSS Tricks outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
+          "positiveReactions": 2,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 14,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:49:22Z"
     },
     {
       "id": "fetch-request-streams",
@@ -13198,86 +13269,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:12Z"
-    },
-    {
-      "id": "caret-shape",
-      "slug": "caret-shape",
-      "title": "caret-shape",
-      "summary": "The caret-shape CSS property sets the shape of the insertion caret, the symbol that shows where the next character is to be inserted or deleted.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 424,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/424"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/caret-shape/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 13,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 42.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABGEIDrg",
-          "author": "WiseNat",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/424#issuecomment-4701946798",
-          "createdAt": "2026-06-14T13:50:04Z",
-          "body": "## What I want to do with this feature\n\nUse block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/\n\n## What I'm having to do in the meantime\n\nRelying on the default caret - there's no obvious alternatives at the moment. [CSS Tricks](https://css-tricks.com/almanac/properties/c/caret-shape/) outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
-          "parsedGoal": "Use block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/",
-          "parsedWorkaround": "Relying on the default caret - there's no obvious alternatives at the moment. CSS Tricks outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
-          "positiveReactions": 2,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 13,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:22Z"
     },
     {
       "id": "object-view-box",
@@ -14718,20 +14709,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-10",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        },
-        {
           "date": "2026-10-11",
           "votes": 8,
           "qualifiedAuthors": 0,
@@ -15150,9 +15127,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-11",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-10T13:49:31Z"
+      "lastActivityAt": "2026-11-11T13:00:19Z"
     },
     {
       "id": "meta-text-scale",
@@ -27138,9 +27129,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-11",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-10T13:49:30Z"
+      "lastActivityAt": "2026-11-11T13:00:18Z"
     },
     {
       "id": "iterator-join",
@@ -27184,20 +27189,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-10",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
         {
           "date": "2026-10-11",
           "votes": 1,
@@ -27617,9 +27608,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-11",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-10T13:49:28Z"
+      "lastActivityAt": "2026-11-11T13:00:17Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30563,9 +30568,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-11",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-10T13:49:27Z"
+      "lastActivityAt": "2026-11-11T13:00:15Z"
     },
     {
       "id": "offline-audio-context-incremental-rendering",

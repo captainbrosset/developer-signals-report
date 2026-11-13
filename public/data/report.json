@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-12T12:59:37.938Z",
-    "staleAfter": "2026-11-14T12:59:37.938Z",
+    "generatedAt": "2026-11-13T12:25:11.873Z",
+    "staleAfter": "2026-11-15T12:25:11.873Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,23 +10,22 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-12T12:59:37.938Z"
+        "retrievedAt": "2026-11-13T12:25:11.873Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-12T12:59:37.938Z"
+        "retrievedAt": "2026-11-13T12:25:11.873Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-12T12:59:37.938Z"
+        "retrievedAt": "2026-11-13T12:25:11.873Z"
       }
     ],
     "warnings": [
-      "caret-shape: feed votes 13 differed from GitHub 14; GitHub value used.",
-      "share: feed votes 36 differed from GitHub 37; GitHub value used.",
-      "user-select: feed votes 23 differed from GitHub 24; GitHub value used."
+      "manifest: feed votes 22 differed from GitHub 23; GitHub value used.",
+      "scroll-initial-target: feed votes 7 differed from GitHub 8; GitHub value used."
     ]
   },
   "features": [
@@ -944,20 +943,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-11",
-          "votes": 272,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.2,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.5
-          }
-        },
-        {
           "date": "2026-10-12",
           "votes": 272,
           "qualifiedAuthors": 3,
@@ -1376,9 +1361,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-12",
+          "votes": 282,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.8,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-11T13:00:14Z"
+      "lastActivityAt": "2026-11-12T14:01:33Z"
     },
     {
       "id": "attr",
@@ -9246,6 +9245,67 @@
       "lastActivityAt": "2026-08-14T14:49:40Z"
     },
     {
+      "id": "manifest",
+      "slug": "manifest",
+      "title": "Web app manifest",
+      "summary": "A web app manifest file provides metadata about the site. The browser can use the metadata to install the site as a standalone application on the user's device. The metadata usually includes the app's name, icon, description, and ways in which the app wishes to integrate with the device.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 57,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/57"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/manifest/",
+      "categories": [
+        "Progressive web app"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 23,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 23,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:06Z"
+    },
+    {
       "id": "app-launch-handler",
       "slug": "app-launch-handler",
       "title": "Launch handler",
@@ -9466,20 +9526,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-11",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        },
         {
           "date": "2026-10-12",
           "votes": 21,
@@ -9899,9 +9945,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-12",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-11T13:00:13Z"
+      "lastActivityAt": "2026-11-12T14:01:32Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -9963,67 +10023,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:39Z"
-    },
-    {
-      "id": "manifest",
-      "slug": "manifest",
-      "title": "Web app manifest",
-      "summary": "A web app manifest file provides metadata about the site. The browser can use the metadata to install the site as a standalone application on the user's device. The metadata usually includes the app's name, icon, description, and ways in which the app wishes to integrate with the device.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 57,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/57"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/manifest/",
-      "categories": [
-        "Progressive web app"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 22,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 50.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:06Z"
     },
     {
       "id": "mixin",
@@ -11904,20 +11903,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-11",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
           "date": "2026-10-12",
           "votes": 14,
           "qualifiedAuthors": 0,
@@ -12336,9 +12321,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-12",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-11T13:00:16Z"
+      "lastActivityAt": "2026-11-12T14:01:35Z"
     },
     {
       "id": "widows-orphans",
@@ -14709,20 +14708,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-11",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        },
-        {
           "date": "2026-10-12",
           "votes": 8,
           "qualifiedAuthors": 0,
@@ -15141,9 +15126,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-12",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-11T13:00:19Z"
+      "lastActivityAt": "2026-11-12T14:01:38Z"
     },
     {
       "id": "meta-text-scale",
@@ -16900,6 +16899,68 @@
       "lastActivityAt": "2026-08-26T12:08:43Z"
     },
     {
+      "id": "scroll-initial-target",
+      "slug": "scroll-initial-target",
+      "title": "scroll-initial-target",
+      "summary": "The scroll-initial-target: nearest CSS declaration sets the initial scroll position of its scroll container to the top of the element, much like scrolling to a URL fragment.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 275,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/275"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-initial-target/",
+      "categories": [
+        "Scrolling"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 8,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 35.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 17.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.14,
+        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 8,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 35.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 17.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:04Z"
+    },
+    {
       "id": "web-otp",
       "slug": "web-otp",
       "title": "WebOTP",
@@ -17795,68 +17856,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:51Z"
-    },
-    {
-      "id": "scroll-initial-target",
-      "slug": "scroll-initial-target",
-      "title": "scroll-initial-target",
-      "summary": "The scroll-initial-target: nearest CSS declaration sets the initial scroll position of its scroll container to the top of the element, much like scrolling to a URL fragment.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 275,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/275"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-initial-target/",
-      "categories": [
-        "Scrolling"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 7,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 33.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 16.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 7 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 7,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 33.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 16.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:04Z"
     },
     {
       "id": "text-spacing-trim",
@@ -27143,9 +27142,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-12",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-11T13:00:18Z"
+      "lastActivityAt": "2026-11-12T14:01:37Z"
     },
     {
       "id": "iterator-join",
@@ -27189,20 +27202,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-11",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
         {
           "date": "2026-10-12",
           "votes": 1,
@@ -27622,9 +27621,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-12",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-11T13:00:17Z"
+      "lastActivityAt": "2026-11-12T14:01:36Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30582,9 +30595,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-12",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-11T13:00:15Z"
+      "lastActivityAt": "2026-11-12T14:01:34Z"
     },
     {
       "id": "offline-audio-context-incremental-rendering",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-13T12:25:11.873Z",
-    "staleAfter": "2026-11-15T12:25:11.873Z",
+    "generatedAt": "2026-11-14T11:38:21.685Z",
+    "staleAfter": "2026-11-16T11:38:21.685Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,22 +10,24 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-13T12:25:11.873Z"
+        "retrievedAt": "2026-11-14T11:38:21.685Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-13T12:25:11.873Z"
+        "retrievedAt": "2026-11-14T11:38:21.685Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-13T12:25:11.873Z"
+        "retrievedAt": "2026-11-14T11:38:21.685Z"
       }
     ],
     "warnings": [
-      "manifest: feed votes 22 differed from GitHub 23; GitHub value used.",
-      "scroll-initial-target: feed votes 7 differed from GitHub 8; GitHub value used."
+      "interest-invokers: feed votes 53 differed from GitHub 54; GitHub value used.",
+      "jpegxl: feed votes 536 differed from GitHub 537; GitHub value used.",
+      "temporal: feed votes 282 differed from GitHub 283; GitHub value used.",
+      "widows-orphans: feed votes 15 differed from GitHub 16; GitHub value used."
     ]
   },
   "features": [
@@ -51,27 +53,27 @@
         "edge",
         "firefox"
       ],
-      "votes": 536,
-      "qualifiedAuthors": 6,
+      "votes": 537,
+      "qualifiedAuthors": 7,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
         "voteDemand": 100,
-        "useCaseEvidence": 59.3,
+        "useCaseEvidence": 62.7,
         "workaroundBurden": 0,
-        "composite": 70.8
+        "composite": 71.9
       },
       "confidence": {
         "level": "medium",
-        "score": 0.58,
-        "rationale": "6 distinct qualified authors; 536 issue votes; 16% of reviewed comments qualified."
+        "score": 0.63,
+        "rationale": "7 distinct qualified authors; 537 issue votes; 18% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
-        "votes30d": 18,
-        "score7d": 0,
-        "score30d": 0.1
+        "votes7d": 1,
+        "votes30d": 14,
+        "score7d": 1.1,
+        "score30d": 1.1
       },
       "comments": [
         {
@@ -238,7 +240,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3631218619",
           "createdAt": "2025-12-09T09:28:18Z",
           "body": "@PELock you wrote\n\n> Why is it even a question? This is the best possible data format for **lossless** compressed images.\n\nMaybe you meant lossy?",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -640,7 +642,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-4933134278",
           "createdAt": "2026-07-10T07:43:38Z",
           "body": "> simple decision\n\nThere is nothing simple about adding new media type support in browser engines.\n\n> ONE YEAR of debates\n\nThe web platform takes years to acquire new features and mature them in a way that works for as many end-users and developers as possible.\n\n> stupid questions\n\nThere are no stupid questions in this thread. Everyone is allowed to question use cases in an effort to learn more and understand the needs better.\n\n> Why are you racist against minority developers like me?\n\nThere have been no racist statements made by participants in the thread.\nThis is a technical discussion about the merits of a given image format on the web. No one made racial remarks, stereotypes, insults, or discriminatory statements. You are making an accusation that other participants are racist without any visible evidence in the thread supporting this.\n\nI am sorry that you feel unwelcome in this community. However, as our code of conduct says, we expect everyone to contribute use cases constructively. Your comment is not a use case, not developer feedback, and not an attempt to strengthen a signal. It's a personal accusation directed at another member of our community. Your comment is, at best, out of scope, and at worst a personal attack and unsupported accusation.\n\nYou have already been asked to calm down and stay on topic. You did not. I will now block you from participating in this community.",
-          "positiveReactions": 10,
+          "positiveReactions": 11,
           "classification": "excluded",
           "exclusionReason": "minimized",
           "themes": [
@@ -665,6 +667,37 @@
           "workaroundSeverity": "none",
           "generatedSummary": "@jakearchibald AVIF is definitely working well for us! From my research it’s the best image format for the majority of our users right now. That said, I haven’t done a comparison …",
           "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABmI_r3Q",
+          "author": "shleeable",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-6854536157",
+          "createdAt": "2026-11-13T13:37:19Z",
+          "body": "I am working with numerous fediverse developers to support JXL in the ActivityPub ecosystem. Pixelfed (an image sharing social network) is hoping to migrate to a modern image format soon.\n\nAVIF is definitely the best option today, but I feel like JXL tomorrow. When tomorrow comes is another question.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I am working with numerous fediverse developers to support JXL in the ActivityPub ecosystem. Pixelfed (an image sharing social network) is hoping to migrate to a modern image form…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABmKjx-g",
+          "author": "jakearchibald",
+          "authorAssociation": "COLLABORATOR",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-6856176122",
+          "createdAt": "2026-11-13T14:41:14Z",
+          "body": "Btw, I dug into JPEG XL performance compared to AVIF https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "performance"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -723,9 +756,23 @@
             "workaroundBurden": 0,
             "composite": 70.8
           }
+        },
+        {
+          "date": "2026-11-14",
+          "votes": 537,
+          "qualifiedAuthors": 7,
+          "reactionBoost": 0.96,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 100,
+            "useCaseEvidence": 62.7,
+            "workaroundBurden": 0,
+            "composite": 71.9
+          }
         }
       ],
-      "lastActivityAt": "2026-11-02T13:41:22Z"
+      "lastActivityAt": "2026-11-14T02:24:32Z"
     },
     {
       "id": "temporal",
@@ -747,13 +794,13 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 282,
+      "votes": 283,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 90.8,
+        "voteDemand": 90.9,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
         "composite": 62.8
@@ -761,13 +808,13 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 282 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 283 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
+        "votes7d": 3,
         "votes30d": 10,
         "score7d": 0,
-        "score30d": 0.3
+        "score30d": 0.2
       },
       "comments": [
         {
@@ -942,20 +989,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-12",
-          "votes": 272,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.2,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.5
-          }
-        },
         {
           "date": "2026-10-14",
           "votes": 273,
@@ -1375,9 +1408,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-13",
+          "votes": 283,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.9,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-12T14:01:33Z"
+      "lastActivityAt": "2026-11-13T13:28:42Z"
     },
     {
       "id": "attr",
@@ -5072,6 +5119,100 @@
       "lastActivityAt": "2026-10-20T17:39:50Z"
     },
     {
+      "id": "interest-invokers",
+      "slug": "interest-invokers",
+      "title": "Interest invokers",
+      "summary": "Interest invokers, registered by the interestfor HTML attribute, trigger events and actions on a target element when a user shows interest in the element, through behaviors such as hover, focus, or long-press. Pseudo-elements apply styles to sources and targets of interest.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 464,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/464"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/interest-invokers/",
+      "categories": [
+        "HTML"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 54,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 64.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 32.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.26,
+        "rationale": "0 distinct qualified authors; 54 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 0.3,
+        "score30d": 0.3
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7a_uDR",
+          "author": "jamesmstone",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/464#issuecomment-3674136785",
+          "createdAt": "2025-12-19T08:46:25Z",
+          "body": "## What I want to do with this feature\ntooltips\n\n## What I'm having to do in the meantime\n\n I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS ",
+          "parsedGoal": "tooltips",
+          "parsedWorkaround": "I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS",
+          "positiveReactions": 4,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 52,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 63.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.9
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 54,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 64.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 32.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-05T21:41:30Z"
+    },
+    {
       "id": "loading-lazy-media",
       "slug": "loading-lazy-media",
       "title": "Lazy-loading media",
@@ -5178,100 +5319,6 @@
         }
       ],
       "lastActivityAt": "2026-10-03T08:54:25Z"
-    },
-    {
-      "id": "interest-invokers",
-      "slug": "interest-invokers",
-      "title": "Interest invokers",
-      "summary": "Interest invokers, registered by the interestfor HTML attribute, trigger events and actions on a target element when a user shows interest in the element, through behaviors such as hover, focus, or long-press. Pseudo-elements apply styles to sources and targets of interest.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 464,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/464"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/interest-invokers/",
-      "categories": [
-        "HTML"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 53,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 64.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 32.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.26,
-        "rationale": "0 distinct qualified authors; 53 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 0.2,
-        "score30d": 0.2
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7a_uDR",
-          "author": "jamesmstone",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/464#issuecomment-3674136785",
-          "createdAt": "2025-12-19T08:46:25Z",
-          "body": "## What I want to do with this feature\ntooltips\n\n## What I'm having to do in the meantime\n\n I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS ",
-          "parsedGoal": "tooltips",
-          "parsedWorkaround": "I will use a pollyfil, probably https://github.com/mfreed7/interestfor but it is not possible to fully pollyfil this ( css ) . It will also be nice to not need JS",
-          "positiveReactions": 4,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 52,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 63.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 31.9
-          }
-        },
-        {
-          "date": "2026-11-05",
-          "votes": 53,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 64.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 32.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-05T21:41:30Z"
     },
     {
       "id": "edit-context",
@@ -9520,26 +9567,12 @@
       },
       "trend": {
         "votes7d": 0,
-        "votes30d": 1,
+        "votes30d": 0,
         "score7d": 0,
-        "score30d": 0.3
+        "score30d": 0
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-12",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        },
         {
           "date": "2026-10-14",
           "votes": 22,
@@ -9959,9 +9992,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-13",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-12T14:01:32Z"
+      "lastActivityAt": "2026-11-13T13:28:41Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -11748,6 +11795,113 @@
       "lastActivityAt": "2026-09-03T14:36:26Z"
     },
     {
+      "id": "widows-orphans",
+      "slug": "widows-orphans",
+      "title": "Widows and orphans",
+      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 11,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
+      "categories": [
+        "Layout"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 16,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 45.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 16 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 7,
+        "votes30d": 0,
+        "score7d": 4.3,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABVqrhWA",
+          "author": "saschaleib",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/11#issuecomment-5749006680",
+          "createdAt": "2026-09-20T09:40:06Z",
+          "body": "## What I want to do with this feature\n\nLet me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established _best practices_.\n\nWhile more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.\n\n## What I'm having to do in the meantime\n\nAs someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible `::before` and `::after` blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if `orphans` and `widows` would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
+          "parsedGoal": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established best practices. While more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.",
+          "parsedWorkaround": "As someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible ::before and ::after blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if orphans and widows would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        },
+        {
+          "date": "2026-09-20",
+          "votes": 10,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        },
+        {
+          "date": "2026-09-21",
+          "votes": 16,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-21T15:10:30Z"
+    },
+    {
       "id": "gamut-mapping",
       "slug": "gamut-mapping",
       "title": "Gamut mapping",
@@ -11902,20 +12056,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-12",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
         {
           "date": "2026-10-14",
           "votes": 14,
@@ -12335,102 +12475,9 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
-        }
-      ],
-      "lastActivityAt": "2026-11-12T14:01:35Z"
-    },
-    {
-      "id": "widows-orphans",
-      "slug": "widows-orphans",
-      "title": "Widows and orphans",
-      "summary": "The widows and orphans CSS properties set the minimum lines included in a text fragment created by page, column, or region breaks.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 11,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/11"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/widows-orphans/",
-      "categories": [
-        "Layout"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 15,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 44.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 22.3
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 6,
-        "votes30d": 0,
-        "score7d": 3.8,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABVqrhWA",
-          "author": "saschaleib",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/11#issuecomment-5749006680",
-          "createdAt": "2026-09-20T09:40:06Z",
-          "body": "## What I want to do with this feature\n\nLet me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established _best practices_.\n\nWhile more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.\n\n## What I'm having to do in the meantime\n\nAs someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible `::before` and `::after` blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if `orphans` and `widows` would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
-          "parsedGoal": "Let me first point out that typesetters and scribes have gathered many centuries – indeed even millenia – of experience how to keep legibility of a text at a high level. One of the aspects that they found is that having too little text of a paragraph on the end of a page – or at the beginning of a new page – makes the reader stumble over it, thus interrupting the flow of reading. In other words: these are established best practices. While more and more reading indeed happens on-screen (where there are no pages in the traditional sense), there are also a lot of readers who prefer to print out longer and more complex texts for \"offline\" reading. Not only to be independent of the network, but also because it is easier to read from paper, and also easier to actually remember later what has been read.",
-          "parsedWorkaround": "As someone who is aware of, and likes to cater to this audience, I currently have to use some rather clumsy workarounds (using invisible ::before and ::after blocks) to enforce this \"best practice\" on all common browsers. It would certainly make my life (and that of many fellow web designers) easier, if orphans and widows would become \"baseline supported\". And I'm sure a lot of \"offline readers\" would appreciate it, too.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "installed apps"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
         },
         {
-          "date": "2026-09-20",
-          "votes": 10,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        },
-        {
-          "date": "2026-09-21",
+          "date": "2026-11-13",
           "votes": 15,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -12444,7 +12491,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-09-21T15:10:30Z"
+      "lastActivityAt": "2026-11-13T13:28:45Z"
     },
     {
       "id": "getboxquads",
@@ -14685,9 +14732,9 @@
       },
       "trend": {
         "votes7d": 1,
-        "votes30d": 2,
+        "votes30d": 1,
         "score7d": 0.8,
-        "score30d": 1.6
+        "score30d": 0.8
       },
       "comments": [
         {
@@ -14707,20 +14754,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-12",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        },
         {
           "date": "2026-10-14",
           "votes": 9,
@@ -15140,9 +15173,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-13",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-12T14:01:38Z"
+      "lastActivityAt": "2026-11-13T13:28:47Z"
     },
     {
       "id": "meta-text-scale",
@@ -27156,9 +27203,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-13",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-12T14:01:37Z"
+      "lastActivityAt": "2026-11-13T13:28:47Z"
     },
     {
       "id": "iterator-join",
@@ -27202,20 +27263,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-12",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
         {
           "date": "2026-10-14",
           "votes": 1,
@@ -27635,9 +27682,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-13",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-12T14:01:36Z"
+      "lastActivityAt": "2026-11-13T13:28:46Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30609,9 +30670,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-13",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-12T14:01:34Z"
+      "lastActivityAt": "2026-11-13T13:28:44Z"
     },
     {
       "id": "offline-audio-context-incremental-rendering",

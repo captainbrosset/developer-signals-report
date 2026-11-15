@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-14T11:38:21.685Z",
-    "staleAfter": "2026-11-16T11:38:21.685Z",
+    "generatedAt": "2026-11-15T12:05:25.739Z",
+    "staleAfter": "2026-11-17T12:05:25.739Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,24 +10,25 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-14T11:38:21.685Z"
+        "retrievedAt": "2026-11-15T12:05:25.739Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-14T11:38:21.685Z"
+        "retrievedAt": "2026-11-15T12:05:25.739Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-14T11:38:21.685Z"
+        "retrievedAt": "2026-11-15T12:05:25.739Z"
       }
     ],
     "warnings": [
-      "interest-invokers: feed votes 53 differed from GitHub 54; GitHub value used.",
-      "jpegxl: feed votes 536 differed from GitHub 537; GitHub value used.",
-      "temporal: feed votes 282 differed from GitHub 283; GitHub value used.",
-      "widows-orphans: feed votes 15 differed from GitHub 16; GitHub value used."
+      "local-fonts: feed votes 10 differed from GitHub 11; GitHub value used.",
+      "random-function: feed votes 26 differed from GitHub 27; GitHub value used.",
+      "scroll-triggered-animations: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "speech-recognition: feed votes 25 differed from GitHub 26; GitHub value used.",
+      "system-color-accentcolor: feed votes 0 differed from GitHub 1; GitHub value used."
     ]
   },
   "features": [
@@ -811,7 +812,7 @@
         "rationale": "3 distinct qualified authors; 283 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
+        "votes7d": 2,
         "votes30d": 10,
         "score7d": 0,
         "score30d": 0.2
@@ -989,20 +990,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-14",
-          "votes": 273,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.3,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.6
-          }
-        },
         {
           "date": "2026-10-15",
           "votes": 273,
@@ -1422,9 +1409,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-14",
+          "votes": 283,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.9,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-13T13:28:42Z"
+      "lastActivityAt": "2026-11-14T12:33:45Z"
     },
     {
       "id": "attr",
@@ -5509,6 +5510,108 @@
       "lastActivityAt": "2026-11-02T13:41:26Z"
     },
     {
+      "id": "local-fonts",
+      "slug": "local-fonts",
+      "title": "Local fonts",
+      "summary": "The window.queryLocalFonts() method returns an array of locally-installed fonts, each represented by a FontData object.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 174,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/174"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/local-fonts/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 11,
+      "qualifiedAuthors": 2,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 40,
+        "useCaseEvidence": 31.8,
+        "workaroundBurden": 0,
+        "composite": 31.1
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.44,
+        "rationale": "2 distinct qualified authors; 11 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7aXJyv",
+          "author": "ApoloApps",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/174#issuecomment-3663502511",
+          "createdAt": "2025-12-17T03:40:24Z",
+          "body": "## What I want to do with this feature\nFor offline first apps, it is nice to have customization on the font based on the user’s local fonts.\nIt also avoids downloading a font file online which adds time-to-display. \nThe user might prefer fonts that they're more familiarized with\nIt is nice to have for better DX overall\n\n## What I'm having to do in the meantime\nThere is no other way of getting local fonts, unless you ask with input, but that is one more blocker that could be avoided for better UX, especially for general users",
+          "parsedGoal": "For offline first apps, it is nice to have customization on the font based on the user’s local fonts. It also avoids downloading a font file online which adds time-to-display. The user might prefer fonts that they're more familiarized with It is nice to have for better DX overall",
+          "parsedWorkaround": "There is no other way of getting local fonts, unless you ask with input, but that is one more blocker that could be avoided for better UX, especially for general users",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "date & time",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "For offline first apps, it is nice to have customization on the font based on the user’s local fonts. It also avoids downloading a font file online which adds time-to-display. The…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABIH5UeA",
+          "author": "AzuraHorizons",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/174#issuecomment-4840117368",
+          "createdAt": "2026-06-30T05:13:05Z",
+          "body": "## What I want to do with this feature\n\nI use image editing/design apps in my browser, like Photopea and Figma, and use locally-installed fonts all the time. Widespread browser-wide local font support would make my life far easier by making integrations seamless.\n\n## What I'm having to do in the meantime\n\nIn Photopea, I have to manually load each font every single time I need a new local font. In Figma, I have to run a program that acts as an intermediary, and does not work half the time. Local font support would make my life far easier.",
+          "parsedGoal": "I use image editing/design apps in my browser, like Photopea and Figma, and use locally-installed fonts all the time. Widespread browser-wide local font support would make my life far easier by making integrations seamless.",
+          "parsedWorkaround": "In Photopea, I have to manually load each font every single time I need a new local font. In Figma, I have to run a program that acts as an intermediary, and does not work half the time. Local font support would make my life far easier.",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "date & time",
+            "media",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I use image editing/design apps in my browser, like Photopea and Figma, and use locally-installed fonts all the time. Widespread browser-wide local font support would make my life…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 11,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 31.8,
+            "workaroundBurden": 0,
+            "composite": 31.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:47:17Z"
+    },
+    {
       "id": "margin-trim",
       "slug": "margin-trim",
       "title": "margin-trim",
@@ -6377,108 +6480,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:04Z"
-    },
-    {
-      "id": "local-fonts",
-      "slug": "local-fonts",
-      "title": "Local fonts",
-      "summary": "The window.queryLocalFonts() method returns an array of locally-installed fonts, each represented by a FontData object.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 174,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/174"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/local-fonts/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 10,
-      "qualifiedAuthors": 2,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 38.6,
-        "useCaseEvidence": 31.4,
-        "workaroundBurden": 0,
-        "composite": 30.3
-      },
-      "confidence": {
-        "level": "medium",
-        "score": 0.44,
-        "rationale": "2 distinct qualified authors; 10 issue votes; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7aXJyv",
-          "author": "ApoloApps",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/174#issuecomment-3663502511",
-          "createdAt": "2025-12-17T03:40:24Z",
-          "body": "## What I want to do with this feature\nFor offline first apps, it is nice to have customization on the font based on the user’s local fonts.\nIt also avoids downloading a font file online which adds time-to-display. \nThe user might prefer fonts that they're more familiarized with\nIt is nice to have for better DX overall\n\n## What I'm having to do in the meantime\nThere is no other way of getting local fonts, unless you ask with input, but that is one more blocker that could be avoided for better UX, especially for general users",
-          "parsedGoal": "For offline first apps, it is nice to have customization on the font based on the user’s local fonts. It also avoids downloading a font file online which adds time-to-display. The user might prefer fonts that they're more familiarized with It is nice to have for better DX overall",
-          "parsedWorkaround": "There is no other way of getting local fonts, unless you ask with input, but that is one more blocker that could be avoided for better UX, especially for general users",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "date & time",
-            "installed apps"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "For offline first apps, it is nice to have customization on the font based on the user’s local fonts. It also avoids downloading a font file online which adds time-to-display. The…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABIH5UeA",
-          "author": "AzuraHorizons",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/174#issuecomment-4840117368",
-          "createdAt": "2026-06-30T05:13:05Z",
-          "body": "## What I want to do with this feature\n\nI use image editing/design apps in my browser, like Photopea and Figma, and use locally-installed fonts all the time. Widespread browser-wide local font support would make my life far easier by making integrations seamless.\n\n## What I'm having to do in the meantime\n\nIn Photopea, I have to manually load each font every single time I need a new local font. In Figma, I have to run a program that acts as an intermediary, and does not work half the time. Local font support would make my life far easier.",
-          "parsedGoal": "I use image editing/design apps in my browser, like Photopea and Figma, and use locally-installed fonts all the time. Widespread browser-wide local font support would make my life far easier by making integrations seamless.",
-          "parsedWorkaround": "In Photopea, I have to manually load each font every single time I need a new local font. In Figma, I have to run a program that acts as an intermediary, and does not work half the time. Local font support would make my life far easier.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "date & time",
-            "media",
-            "installed apps"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I use image editing/design apps in my browser, like Photopea and Figma, and use locally-installed fonts all the time. Widespread browser-wide local font support would make my life…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 10,
-          "qualifiedAuthors": 2,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 31.4,
-            "workaroundBurden": 0,
-            "composite": 30.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:47:17Z"
     },
     {
       "id": "heading-selectors",
@@ -8432,6 +8433,177 @@
       "lastActivityAt": "2026-09-03T14:35:35Z"
     },
     {
+      "id": "random-function",
+      "slug": "random-function",
+      "title": "random()",
+      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 514,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 27,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.22,
+        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 6,
+        "score7d": 0.3,
+        "score30d": 1.9
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABdpuo1w",
+          "author": "casparfairhall",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6284880087",
+          "createdAt": "2026-10-20T06:28:59Z",
+          "body": "## What I want to do with this feature\n\nCSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.\n\n## What I'm having to do in the meantime\n\nI'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
+          "parsedGoal": "CSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.",
+          "parsedWorkaround": "I'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "moderate"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABdq3jZQ",
+          "author": "kizu",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6286074725",
+          "createdAt": "2026-10-20T07:48:07Z",
+          "body": "## What I want to do with this feature\n\nFor improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.\n\n## What I'm having to do in the meantime\n\nAside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
+          "parsedGoal": "For improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.",
+          "parsedWorkaround": "Aside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABg5jrvg",
+          "author": "lucascantor",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6502804414",
+          "createdAt": "2026-10-29T16:46:39Z",
+          "body": "## What I want to do with this feature\n\nA zero-JS \"slot machine\" animation effect on my homepage at [lucascantor.com](https://lucascantor.com): a reel of facts about me spins and lands on a random one, and a dice button spins again. Radio inputs, `:has()` and `@keyframes` already do everything except the actual randomness.\n\n## What I'm having to do in the meantime\n\nI pre-render 16 copies of the homepage and use a CDN edge script to serve one at random. That makes the homepage uncacheable, and each copy needs `noindex` plus a canonical link. Clicks within a visit follow a fixed cycle, so it's still not truly random. `random()` would replace all of this overhead with one CSS declaration per state.",
+          "parsedGoal": "A zero-JS \"slot machine\" animation effect on my homepage at lucascantor.com: a reel of facts about me spins and lands on a random one, and a dice button spins again. Radio inputs, :has() and @keyframes already do everything except the actual randomness.",
+          "parsedWorkaround": "I pre-render 16 copies of the homepage and use a CDN edge script to serve one at random. That makes the homepage uncacheable, and each copy needs noindex plus a canonical link. Clicks within a visit follow a fixed cycle, so it's still not truly random. random() would replace all of this overhead with one CSS declaration per state.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 25,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 52.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        },
+        {
+          "date": "2026-10-29",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 27,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-05T21:41:42Z"
+    },
+    {
       "id": "reading-flow",
       "slug": "reading-flow",
       "title": "reading-flow",
@@ -8556,177 +8728,6 @@
       "lastActivityAt": "2026-08-14T14:45:23Z"
     },
     {
-      "id": "random-function",
-      "slug": "random-function",
-      "title": "random()",
-      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 514,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 26,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 5,
-        "score7d": 0,
-        "score30d": 1.6
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABdpuo1w",
-          "author": "casparfairhall",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6284880087",
-          "createdAt": "2026-10-20T06:28:59Z",
-          "body": "## What I want to do with this feature\n\nCSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.\n\n## What I'm having to do in the meantime\n\nI'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
-          "parsedGoal": "CSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.",
-          "parsedWorkaround": "I'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "moderate"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABdq3jZQ",
-          "author": "kizu",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6286074725",
-          "createdAt": "2026-10-20T07:48:07Z",
-          "body": "## What I want to do with this feature\n\nFor improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.\n\n## What I'm having to do in the meantime\n\nAside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
-          "parsedGoal": "For improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.",
-          "parsedWorkaround": "Aside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABg5jrvg",
-          "author": "lucascantor",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6502804414",
-          "createdAt": "2026-10-29T16:46:39Z",
-          "body": "## What I want to do with this feature\n\nA zero-JS \"slot machine\" animation effect on my homepage at [lucascantor.com](https://lucascantor.com): a reel of facts about me spins and lands on a random one, and a dice button spins again. Radio inputs, `:has()` and `@keyframes` already do everything except the actual randomness.\n\n## What I'm having to do in the meantime\n\nI pre-render 16 copies of the homepage and use a CDN edge script to serve one at random. That makes the homepage uncacheable, and each copy needs `noindex` plus a canonical link. Clicks within a visit follow a fixed cycle, so it's still not truly random. `random()` would replace all of this overhead with one CSS declaration per state.",
-          "parsedGoal": "A zero-JS \"slot machine\" animation effect on my homepage at lucascantor.com: a reel of facts about me spins and lands on a random one, and a dice button spins again. Radio inputs, :has() and @keyframes already do everything except the actual randomness.",
-          "parsedWorkaround": "I pre-render 16 copies of the homepage and use a CDN edge script to serve one at random. That makes the homepage uncacheable, and each copy needs noindex plus a canonical link. Clicks within a visit follow a fixed cycle, so it's still not truly random. random() would replace all of this overhead with one CSS declaration per state.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        },
-        {
-          "date": "2026-10-20",
-          "votes": 25,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 52.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        },
-        {
-          "date": "2026-10-29",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        },
-        {
-          "date": "2026-11-02",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        },
-        {
-          "date": "2026-11-05",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-05T21:41:42Z"
-    },
-    {
       "id": "scheduler",
       "slug": "scheduler",
       "title": "Scheduler API",
@@ -8786,6 +8787,103 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:48:18Z"
+    },
+    {
+      "id": "speech-recognition",
+      "slug": "speech-recognition",
+      "title": "Speech recognition",
+      "summary": "The SpeechRecognition API converts audio into text using the device's speech recognition service.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 318,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/318"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/speech-recognition/",
+      "categories": [
+        "Speech"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 26,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 26.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 26 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABKk7J1g",
+          "author": "freierprogrammierer-de",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/318#issuecomment-5004773846",
+          "createdAt": "2026-07-17T15:22:51Z",
+          "body": "## What I want to do with this feature\n\nfor a chatbot web app, let the user speak his/her question into the input field\n\n## What I'm having to do in the meantime\n\nuse Chrome",
+          "parsedGoal": "for a chatbot web app, let the user speak his/her question into the input field",
+          "parsedWorkaround": "use Chrome",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABQ7e6XQ",
+          "author": "solonovamax",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/318#issuecomment-5431081565",
+          "createdAt": "2026-08-26T21:03:02Z",
+          "body": "## What I want to do with this feature\n\nAllow users to record notes without having to type, specifically useful for when assembling something which can be messy (i.e. uses grease on the components) and requiring the user to type significantly slows things down due to them needing to take off their gloves, clean their hands, etc.\n\n## What I'm having to do in the meantime\n\nundecided, possibly force the use of chrome, possibly do this client-side with js & wasm for the model (not as a polyfill but just with my own implementation), possibly do this server-side, or possibly just not implement the feature at all.",
+          "parsedGoal": "Allow users to record notes without having to type, specifically useful for when assembling something which can be messy (i.e. uses grease on the components) and requiring the user to type significantly slows things down due to them needing to take off their gloves, clean their hands, etc.",
+          "parsedWorkaround": "undecided, possibly force the use of chrome, possibly do this client-side with js & wasm for the model (not as a polyfill but just with my own implementation), possibly do this server-side, or possibly just not implement the feature at all.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "moderate"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:27Z"
     },
     {
       "id": "switch-control",
@@ -8990,103 +9088,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:51Z"
-    },
-    {
-      "id": "speech-recognition",
-      "slug": "speech-recognition",
-      "title": "Speech recognition",
-      "summary": "The SpeechRecognition API converts audio into text using the device's speech recognition service.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 318,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/318"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/speech-recognition/",
-      "categories": [
-        "Speech"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 25,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 52.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 25 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABKk7J1g",
-          "author": "freierprogrammierer-de",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/318#issuecomment-5004773846",
-          "createdAt": "2026-07-17T15:22:51Z",
-          "body": "## What I want to do with this feature\n\nfor a chatbot web app, let the user speak his/her question into the input field\n\n## What I'm having to do in the meantime\n\nuse Chrome",
-          "parsedGoal": "for a chatbot web app, let the user speak his/her question into the input field",
-          "parsedWorkaround": "use Chrome",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABQ7e6XQ",
-          "author": "solonovamax",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/318#issuecomment-5431081565",
-          "createdAt": "2026-08-26T21:03:02Z",
-          "body": "## What I want to do with this feature\n\nAllow users to record notes without having to type, specifically useful for when assembling something which can be messy (i.e. uses grease on the components) and requiring the user to type significantly slows things down due to them needing to take off their gloves, clean their hands, etc.\n\n## What I'm having to do in the meantime\n\nundecided, possibly force the use of chrome, possibly do this client-side with js & wasm for the model (not as a polyfill but just with my own implementation), possibly do this server-side, or possibly just not implement the feature at all.",
-          "parsedGoal": "Allow users to record notes without having to type, specifically useful for when assembling something which can be messy (i.e. uses grease on the components) and requiring the user to type significantly slows things down due to them needing to take off their gloves, clean their hands, etc.",
-          "parsedWorkaround": "undecided, possibly force the use of chrome, possibly do this client-side with js & wasm for the model (not as a polyfill but just with my own implementation), possibly do this server-side, or possibly just not implement the feature at all.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "moderate"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 25,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 52.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:27Z"
     },
     {
       "id": "focusgroup",
@@ -9574,20 +9575,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-14",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
           "date": "2026-10-15",
           "votes": 22,
           "qualifiedAuthors": 0,
@@ -10006,9 +9993,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-14",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-13T13:28:41Z"
+      "lastActivityAt": "2026-11-14T12:33:43Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -12057,20 +12058,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-14",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
           "date": "2026-10-15",
           "votes": 14,
           "qualifiedAuthors": 0,
@@ -12489,9 +12476,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-14",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-13T13:28:45Z"
+      "lastActivityAt": "2026-11-14T12:33:46Z"
     },
     {
       "id": "getboxquads",
@@ -14755,20 +14756,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-14",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-10-15",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -15187,9 +15174,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-14",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-13T13:28:47Z"
+      "lastActivityAt": "2026-11-14T12:33:50Z"
     },
     {
       "id": "meta-text-scale",
@@ -22841,6 +22842,65 @@
       "lastActivityAt": "2026-09-03T14:35:56Z"
     },
     {
+      "id": "scroll-triggered-animations",
+      "slug": "scroll-triggered-animations",
+      "title": "Scroll-triggered animations",
+      "summary": "Developer demand and implementation evidence for Scroll Triggered Animations.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 961,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/961"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-triggered-animations/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-02",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-02T13:41:31Z"
+    },
+    {
       "id": "speak",
       "slug": "speak",
       "title": "speak",
@@ -25098,65 +25158,6 @@
       "lastActivityAt": "2026-11-02T13:41:23Z"
     },
     {
-      "id": "scroll-triggered-animations",
-      "slug": "scroll-triggered-animations",
-      "title": "Scroll-triggered animations",
-      "summary": "Developer demand and implementation evidence for Scroll Triggered Animations.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 961,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/961"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-triggered-animations/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-11-02",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-02T13:41:31Z"
-    },
-    {
       "id": "service-workers-static-routes",
       "slug": "service-workers-static-routes",
       "title": "Service workers static routing",
@@ -26785,20 +26786,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-14",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-15",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27217,9 +27204,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-14",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-13T13:28:47Z"
+      "lastActivityAt": "2026-11-14T12:33:49Z"
     },
     {
       "id": "iterator-join",
@@ -27264,20 +27265,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-14",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-15",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27696,9 +27683,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-14",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-13T13:28:46Z"
+      "lastActivityAt": "2026-11-14T12:33:47Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -28907,6 +28908,65 @@
         }
       ],
       "lastActivityAt": "2026-11-02T13:41:19Z"
+    },
+    {
+      "id": "system-color-accentcolor",
+      "slug": "system-color-accentcolor",
+      "title": "AccentColor and AccentColorText",
+      "summary": "Developer demand and implementation evidence for System Color Accentcolor.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 959,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/959"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/system-color-accentcolor/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-02",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-02T13:41:21Z"
     },
     {
       "id": "text-autospace",
@@ -30252,20 +30312,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-14",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
           "date": "2026-10-15",
           "votes": 0,
           "qualifiedAuthors": 0,
@@ -30684,9 +30730,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-14",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-13T13:28:44Z"
+      "lastActivityAt": "2026-11-14T12:33:45Z"
     },
     {
       "id": "offline-audio-context-incremental-rendering",
@@ -30951,65 +31011,6 @@
         }
       ],
       "lastActivityAt": "2026-10-14T07:24:31Z"
-    },
-    {
-      "id": "system-color-accentcolor",
-      "slug": "system-color-accentcolor",
-      "title": "AccentColor and AccentColorText",
-      "summary": "Developer demand and implementation evidence for System Color Accentcolor.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 959,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/959"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/system-color-accentcolor/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-11-02",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-02T13:41:21Z"
     },
     {
       "id": "text-decoration-skip-spaces",

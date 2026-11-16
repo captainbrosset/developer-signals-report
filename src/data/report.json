@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-15T12:05:25.739Z",
-    "staleAfter": "2026-11-17T12:05:25.739Z",
+    "generatedAt": "2026-11-16T12:59:00.251Z",
+    "staleAfter": "2026-11-18T12:59:00.251Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,25 +10,27 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-15T12:05:25.739Z"
+        "retrievedAt": "2026-11-16T12:59:00.251Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-15T12:05:25.739Z"
+        "retrievedAt": "2026-11-16T12:59:00.251Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-15T12:05:25.739Z"
+        "retrievedAt": "2026-11-16T12:59:00.251Z"
       }
     ],
     "warnings": [
-      "local-fonts: feed votes 10 differed from GitHub 11; GitHub value used.",
-      "random-function: feed votes 26 differed from GitHub 27; GitHub value used.",
-      "scroll-triggered-animations: feed votes 2 differed from GitHub 3; GitHub value used.",
-      "speech-recognition: feed votes 25 differed from GitHub 26; GitHub value used.",
-      "system-color-accentcolor: feed votes 0 differed from GitHub 1; GitHub value used."
+      "audio-video-tracks: feed votes 5 differed from GitHub 6; GitHub value used.",
+      "cookie-store: feed votes 17 differed from GitHub 18; GitHub value used.",
+      "customizable-select: feed votes 271 differed from GitHub 272; GitHub value used.",
+      "function: feed votes 124 differed from GitHub 125; GitHub value used.",
+      "page-orientation: feed votes 2 differed from GitHub 3; GitHub value used.",
+      "share: feed votes 37 differed from GitHub 38; GitHub value used.",
+      "text-fit: feed votes 18 differed from GitHub 19; GitHub value used."
     ]
   },
   "features": [
@@ -991,20 +993,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-15",
-          "votes": 273,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.3,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.6
-          }
-        },
-        {
           "date": "2026-10-16",
           "votes": 273,
           "qualifiedAuthors": 3,
@@ -1423,9 +1411,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-15",
+          "votes": 283,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.9,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-14T12:33:45Z"
+      "lastActivityAt": "2026-11-15T12:59:39Z"
     },
     {
       "id": "attr",
@@ -2058,7 +2060,7 @@
         "firefox",
         "safari"
       ],
-      "votes": 271,
+      "votes": 272,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
@@ -2067,17 +2069,17 @@
         "voteDemand": 90.2,
         "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
-        "composite": 52.2
+        "composite": 52.3
       },
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 271 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 272 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 29,
+        "votes7d": 30,
         "votes30d": 0,
-        "score7d": 8,
+        "score7d": 8.1,
         "score30d": 0
       },
       "comments": [
@@ -2131,7 +2133,7 @@
         },
         {
           "date": "2026-09-30",
-          "votes": 271,
+          "votes": 272,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
@@ -2140,7 +2142,7 @@
             "voteDemand": 90.2,
             "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
-            "composite": 52.2
+            "composite": 52.3
           }
         }
       ],
@@ -2167,21 +2169,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 124,
+      "votes": 125,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 77.7,
+        "voteDemand": 77.8,
         "useCaseEvidence": 32.2,
         "workaroundBurden": 0,
-        "composite": 50.1
+        "composite": 50.2
       },
       "confidence": {
         "level": "medium",
         "score": 0.43,
-        "rationale": "2 distinct qualified authors; 124 issue votes; 22% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 125 issue votes; 22% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -2363,16 +2365,16 @@
         },
         {
           "date": "2026-09-09",
-          "votes": 124,
+          "votes": 125,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 77.7,
+            "voteDemand": 77.8,
             "useCaseEvidence": 32.2,
             "workaroundBurden": 0,
-            "composite": 50.1
+            "composite": 50.2
           }
         }
       ],
@@ -4618,14 +4620,14 @@
       ],
       "votes": 31,
       "qualifiedAuthors": 1,
-      "reactionBoost": 0,
+      "reactionBoost": 0.04,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
         "voteDemand": 55.7,
-        "useCaseEvidence": 19.8,
+        "useCaseEvidence": 20.4,
         "workaroundBurden": 0,
-        "composite": 34.8
+        "composite": 35
       },
       "confidence": {
         "level": "medium",
@@ -4635,8 +4637,8 @@
       "trend": {
         "votes7d": 1,
         "votes30d": 1,
-        "score7d": 7.2,
-        "score30d": 7.2
+        "score7d": 7.4,
+        "score30d": 7.4
       },
       "comments": [
         {
@@ -4648,7 +4650,7 @@
           "body": "## What I want to do with this feature\n\nUsing it in a long data document that has a side menu to navigate. This allows the user to see where they are in the document while scrolling and also keeping an 'active' state with `:target-current` if the focus is removed from the `<a>` tag when they click away to something else.\n\n## What I'm having to do in the meantime\n\nBlocking. No alternative can be used, since I cannot use JavaScript in XHTML/iXBRL packages. It works in Chrome, but as a big Firefox fan/supporter, I would love to see it being supported here as well.",
           "parsedGoal": "Using it in a long data document that has a side menu to navigate. This allows the user to see where they are in the document while scrolling and also keeping an 'active' state with :target-current if the focus is removed from the <a> tag when they click away to something else.",
           "parsedWorkaround": "Blocking. No alternative can be used, since I cannot use JavaScript in XHTML/iXBRL packages. It works in Chrome, but as a big Firefox fan/supporter, I would love to see it being supported here as well.",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "qualified",
           "themes": [
             "developer experience"
@@ -4677,14 +4679,14 @@
           "date": "2026-11-05",
           "votes": 31,
           "qualifiedAuthors": 1,
-          "reactionBoost": 0,
+          "reactionBoost": 0.04,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
             "voteDemand": 55.7,
-            "useCaseEvidence": 19.8,
+            "useCaseEvidence": 20.4,
             "workaroundBurden": 0,
-            "composite": 34.8
+            "composite": 35
           }
         }
       ],
@@ -6961,27 +6963,27 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 37,
+      "votes": 38,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 58.5,
+        "voteDemand": 58.9,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 29.3
+        "composite": 29.5
       },
       "confidence": {
         "level": "low",
         "score": 0.24,
-        "rationale": "0 distinct qualified authors; 37 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 38 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 8,
-        "votes30d": 15,
-        "score7d": 1.9,
-        "score30d": 4.1
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.2,
+        "score30d": 0.2
       },
       "comments": [
         {
@@ -6993,6 +6995,23 @@
           "body": "## What I want to do with this feature\n\nShare game result (\"view of the game board\") via a snapshot at the end of the game (a web app).\n\n## What I'm having to do in the meantime\n\nThe feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
           "parsedGoal": "Share game result (\"view of the game board\") via a snapshot at the end of the game (a web app).",
           "parsedWorkaround": "The feature won't be available on Firefox. I'm currently building it for other browsers. The game itself is available at tablehop.games/tactris.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABnD3sGQ",
+          "author": "VellivexHQ",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/76#issuecomment-6916271129",
+          "createdAt": "2026-11-16T12:21:35Z",
+          "body": "## What I want to do with this feature\n\nI’m with Vellivex. In VRelay, tapping **Share package** passes a text package to the device’s native share sheet via `navigator.share()`, so the user can choose the destination. Our first-use tests exercise this path with fictional inputs. [Share handler](https://github.com/Vellivex/v-security-suite/blob/main/web/app.js#L68)\n\n## What I'm having to do in the meantime\n\nWhere the API is absent, the UI offers copying the text or downloading a file. Copying means opening the destination and pasting, and downloading means finding the saved file before attaching it. Both paths take the user out of the handoff flow. For browser compatibility reports, would it help to distinguish absence of the API from a share-sheet handoff that opens but cannot reach the destination the user needs?",
+          "parsedGoal": "I’m with Vellivex. In VRelay, tapping Share package passes a text package to the device’s native share sheet via navigator.share(), so the user can choose the destination. Our first-use tests exercise this path with fictional inputs. Share handler",
+          "parsedWorkaround": "Where the API is absent, the UI offers copying the text or downloading a file. Copying means opening the destination and pasting, and downloading means finding the saved file before attaching it. Both paths take the user out of the handoff flow. For browser compatibility reports, would it help to distinguish absence of the API from a share-sheet handoff that opens but cannot reach the destination the user needs?",
           "positiveReactions": 0,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
@@ -7044,9 +7063,23 @@
             "workaroundBurden": 0,
             "composite": 29.3
           }
+        },
+        {
+          "date": "2026-11-16",
+          "votes": 38,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 58.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29.5
+          }
         }
       ],
-      "lastActivityAt": "2026-10-08T20:22:30Z"
+      "lastActivityAt": "2026-11-16T12:21:35Z"
     },
     {
       "id": "show-picker-input",
@@ -9575,20 +9608,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-15",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
           "date": "2026-10-16",
           "votes": 22,
           "qualifiedAuthors": 0,
@@ -10007,9 +10026,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-15",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-14T12:33:43Z"
+      "lastActivityAt": "2026-11-15T12:59:38Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -10606,6 +10639,82 @@
       "lastActivityAt": "2026-10-06T08:20:00Z"
     },
     {
+      "id": "text-fit",
+      "slug": "text-fit",
+      "title": "text-fit",
+      "summary": "The text-fit CSS property scales text to fill the inline size of its container. You can use this to grow or shrink headlines, captions, or pull quotes to fit a container.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 846,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/846"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-fit/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 19,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 48.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 9,
+        "votes30d": 9,
+        "score7d": 4.8,
+        "score30d": 4.8
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 19,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 48.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T10:06:28Z"
+    },
+    {
       "id": "app-file-handlers",
       "slug": "app-file-handlers",
       "title": "File handlers",
@@ -10890,6 +10999,82 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:19Z"
+    },
+    {
+      "id": "cookie-store",
+      "slug": "cookie-store",
+      "title": "Cookie store",
+      "summary": "The CookieStore API is an asynchronous and promise-based API for managing cookies. It does not rely on document and so is available to service workers as well.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 135,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/135"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/cookie-store/",
+      "categories": [
+        "Cookies"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 18,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 47.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 23.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 6,
+        "votes30d": 0,
+        "score7d": 3.1,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        },
+        {
+          "date": "2026-09-15",
+          "votes": 18,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-15T07:26:39Z"
     },
     {
       "id": "initial-letter",
@@ -11183,158 +11368,6 @@
         }
       ],
       "lastActivityAt": "2026-09-05T09:30:22Z"
-    },
-    {
-      "id": "text-fit",
-      "slug": "text-fit",
-      "title": "text-fit",
-      "summary": "The text-fit CSS property scales text to fill the inline size of its container. You can use this to grow or shrink headlines, captions, or pull quotes to fit a container.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 846,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/846"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-fit/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 18,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 47.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 23.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 8,
-        "votes30d": 8,
-        "score7d": 4.4,
-        "score30d": 4.4
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 18,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 47.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 23.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T10:06:28Z"
-    },
-    {
-      "id": "cookie-store",
-      "slug": "cookie-store",
-      "title": "Cookie store",
-      "summary": "The CookieStore API is an asynchronous and promise-based API for managing cookies. It does not rely on document and so is available to service workers as well.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 135,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/135"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/cookie-store/",
-      "categories": [
-        "Cookies"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 17,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 46.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 23.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 17 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 5,
-        "votes30d": 0,
-        "score7d": 2.6,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        },
-        {
-          "date": "2026-09-15",
-          "votes": 17,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 46.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 23.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-15T07:26:39Z"
     },
     {
       "id": "selection",
@@ -11903,6 +11936,103 @@
       "lastActivityAt": "2026-09-21T15:10:30Z"
     },
     {
+      "id": "audio-video-tracks",
+      "slug": "audio-video-tracks",
+      "title": "Audio and video tracks",
+      "summary": "The audioTracks and videoTracks APIs for media elements switch audio and video tracks during playback.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 43,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/43"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/audio-video-tracks/",
+      "categories": [
+        "Media elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 6,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 31.3,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 22.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.37,
+        "rationale": "1 distinct qualified author; 6 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 8.2,
+        "score30d": 8.2
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABm8g9dw",
+          "author": "Happyllama25",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/43#issuecomment-6908558711",
+          "createdAt": "2026-11-16T05:51:55Z",
+          "body": "## What I want to do with this feature\n\nI'd like to serve a single video resource containing multiple audio tracks, with each audio source encoded as an independent track within the media container.\n\nThis would allow the browser to expose the available audio tracks through the native API, so that users are able to independently select, enable, or disable audio sources during playback.\n\nA practical use case is playing back some video footage where multiple microphones or audio sources were recorded simultaneously, with each source stored in its own audio track inside the media container.\n\nIdeally, the browser would handle track selection and synchronisation natively, keeping all tracks aligned with the main video timeline and media buffer.\n\n\n## What I'm having to do in the meantime\n\nCurrently, I'm having to extract the audio tracks from the video server-side, and serve each one to the browser as a separate media resource.\n\nThen I have to mute the original video, and synchronise all the audio tracks to the video timeline, including each time it is paused, resumed, scrubbed, or buffered.\n\nThis also results in more server-side processing, more media requests, and more complex client-side playback logic, as well as more opportunities for audio and video to become desynchronised. \n\nNative multi audio track support via `HTMLMediaElement.audioTracks` would eliminate much of this complexity, allowing the browser to manage the additional tracks already received and transferred to client, but currently ignored.\n\n",
+          "parsedGoal": "I'd like to serve a single video resource containing multiple audio tracks, with each audio source encoded as an independent track within the media container. This would allow the browser to expose the available audio tracks through the native API, so that users are able to independently select, enable, or disable audio sources during playback. A practical use case is playing back some video footage where multiple microphones or audio sources were recorded simultaneously, with each source stored in its own audio track inside the media container. Ideally, the browser would handle track selection and synchronisation natively, keeping all tracks aligned with the main video timeline and media buffer.",
+          "parsedWorkaround": "Currently, I'm having to extract the audio tracks from the video server-side, and serve each one to the browser as a separate media resource. Then I have to mute the original video, and synchronise all the audio tracks to the video timeline, including each time it is paused, resumed, scrubbed, or buffered. This also results in more server-side processing, more media requests, and more complex client-side playback logic, as well as more opportunities for audio and video to become desynchronised. Native multi audio track support via HTMLMediaElement.audioTracks would eliminate much of this complexity, allowing the browser to manage the additional tracks already received and transferred to client, but currently ignored.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "date & time",
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I'd like to serve a single video resource containing multiple audio tracks, with each audio source encoded as an independent track within the media container. This would allow the…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        },
+        {
+          "date": "2026-11-16",
+          "votes": 6,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 31.3,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 22.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-16T05:51:55Z"
+    },
+    {
       "id": "gamut-mapping",
       "slug": "gamut-mapping",
       "title": "Gamut mapping",
@@ -12057,20 +12187,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-15",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
         {
           "date": "2026-10-16",
           "votes": 14,
@@ -12490,9 +12606,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-15",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-14T12:33:46Z"
+      "lastActivityAt": "2026-11-15T12:59:41Z"
     },
     {
       "id": "getboxquads",
@@ -14756,20 +14886,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-15",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-10-16",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -15188,9 +15304,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-15",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-14T12:33:50Z"
+      "lastActivityAt": "2026-11-15T12:59:44Z"
     },
     {
       "id": "meta-text-scale",
@@ -19082,69 +19212,6 @@
       "lastActivityAt": "2026-09-03T14:36:14Z"
     },
     {
-      "id": "audio-video-tracks",
-      "slug": "audio-video-tracks",
-      "title": "Audio and video tracks",
-      "summary": "The audioTracks and videoTracks APIs for media elements switch audio and video tracks during playback.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 43,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/43"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/audio-video-tracks/",
-      "categories": [
-        "Media elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 5,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 28.8,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 14.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.12,
-        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 5,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 28.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 14.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:08:54Z"
-    },
-    {
       "id": "dynamic-range-limit",
       "slug": "dynamic-range-limit",
       "title": "dynamic-range-limit",
@@ -22657,6 +22724,68 @@
       "lastActivityAt": "2026-08-14T14:49:29Z"
     },
     {
+      "id": "page-orientation",
+      "slug": "page-orientation",
+      "title": "page-orientation",
+      "summary": "The page-orientation CSS property sets the rotation of a page after pagination. This allows pages with the same size declaration to display with different orientations.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 126,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/126"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/page-orientation/",
+      "categories": [
+        "Layout",
+        "Print media"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 3,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 22.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 11.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.09,
+        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:47Z"
+    },
+    {
       "id": "password-credentials",
       "slug": "password-credentials",
       "title": "Password credentials",
@@ -24771,68 +24900,6 @@
       "lastActivityAt": "2026-08-26T12:09:23Z"
     },
     {
-      "id": "page-orientation",
-      "slug": "page-orientation",
-      "title": "page-orientation",
-      "summary": "The page-orientation CSS property sets the rotation of a page after pagination. This allows pages with the same size declaration to display with different orientations.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 126,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/126"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/page-orientation/",
-      "categories": [
-        "Layout",
-        "Print media"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:47Z"
-    },
-    {
       "id": "region-capture",
       "slug": "region-capture",
       "title": "Region capture",
@@ -26786,20 +26853,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-15",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-16",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27218,9 +27271,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-15",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-14T12:33:49Z"
+      "lastActivityAt": "2026-11-15T12:59:43Z"
     },
     {
       "id": "iterator-join",
@@ -27265,20 +27332,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-15",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-16",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27697,9 +27750,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-15",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-14T12:33:47Z"
+      "lastActivityAt": "2026-11-15T12:59:42Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30312,20 +30379,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-15",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
           "date": "2026-10-16",
           "votes": 0,
           "qualifiedAuthors": 0,
@@ -30744,9 +30797,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-15",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-14T12:33:45Z"
+      "lastActivityAt": "2026-11-15T12:59:40Z"
     },
     {
       "id": "offline-audio-context-incremental-rendering",

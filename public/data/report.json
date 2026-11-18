@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-17T13:40:50.817Z",
-    "staleAfter": "2026-11-19T13:40:50.817Z",
+    "generatedAt": "2026-11-18T13:15:33.183Z",
+    "staleAfter": "2026-11-20T13:15:33.183Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,21 +10,26 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-17T13:40:50.817Z"
+        "retrievedAt": "2026-11-18T13:15:33.183Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-17T13:40:50.817Z"
+        "retrievedAt": "2026-11-18T13:15:33.183Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-17T13:40:50.817Z"
+        "retrievedAt": "2026-11-18T13:15:33.183Z"
       }
     ],
     "warnings": [
-      "sanitizer: feed votes 112 differed from GitHub 113; GitHub value used."
+      "container-scroll-state-queries: feed votes 77 differed from GitHub 78; GitHub value used.",
+      "geolocation-element: feed votes 8 differed from GitHub 9; GitHub value used.",
+      "referencetarget: feed votes 18 differed from GitHub 19; GitHub value used.",
+      "sanitizer: feed votes 113 differed from GitHub 114; GitHub value used.",
+      "shapes-polygon-round: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "web-midi: feed votes 18 differed from GitHub 19; GitHub value used."
     ]
   },
   "features": [
@@ -1421,7 +1426,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-11-17T10:58:13Z"
+      "lastActivityAt": "2026-11-17T14:57:53Z"
     },
     {
       "id": "attr",
@@ -3239,6 +3244,262 @@
       "lastActivityAt": "2026-08-26T12:09:01Z"
     },
     {
+      "id": "referencetarget",
+      "slug": "referencetarget",
+      "title": "Reference target",
+      "summary": "The referenceTarget property of a ShadowRoot object forwards attributes such as for and aria-labelledby to elements inside a shadow DOM. You can use this to, for example, link a <label> to its <input> even if the <input> is in the shadow DOM of a web component.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 446,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/446"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/referencetarget/",
+      "categories": [
+        "Web components"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 19,
+      "qualifiedAuthors": 3,
+      "reactionBoost": 0.08,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 48.2,
+        "useCaseEvidence": 40.2,
+        "workaroundBurden": 0,
+        "composite": 38.2
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.52,
+        "rationale": "3 distinct qualified authors; 19 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7V9GXg",
+          "author": "Westbrook",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3589563872",
+          "createdAt": "2025-11-28T14:36:38Z",
+          "body": "## What I want to do with the feature\n\nReduce the amount of code required to deliver my company's custom element design library accessibly so that the applications and features built with it can be smaller and more performant; making them more accessible not just for the screen reader users this API supports directly but for all users who need less bandwidth, CPU, et al to run the code we deliver to them.\n\n## What I'm having to do in the meantime\n\n- use custom API (instead of native `aria-*`) to pass accessible values through shadow boundaries to ensure they are applied to the right element\n- leverage bulky element resolving JS to capture the accessible/functional DOM relationships that would otherwise be made via these attribute references and manage them in the JS space\n\nEach of these, and other smaller work arounds, are all fragile and complicated in ways that will thankfully no longer be required once Reference Target lands.",
+          "parsedWorkaround": "- use custom API (instead of native aria-) to pass accessible values through shadow boundaries to ensure they are applied to the right element - leverage bulky element resolving JS to capture the accessible/functional DOM relationships that would otherwise be made via these attribute references and manage them in the JS space Each of these, and other smaller work arounds, are all fragile and complicated in ways that will thankfully no longer be required once Reference Target lands.",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "accessibility",
+            "date & time"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "What I want to do with the feature Reduce the amount of code required to deliver my company's custom element design library accessibly so that the applications and features built …",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7V_xj1",
+          "author": "justinfagnani",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3590265077",
+          "createdAt": "2025-11-28T19:58:34Z",
+          "body": "## What I want to do with this feature\n\nI want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on the server without a DOM.\n\n## What I'm having to do in the meantime\n\nSome people may manage to make some of their code work in SSR, but in general this requires a client page to wait for JS and hydration.",
+          "parsedGoal": "I want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on the server without a DOM.",
+          "parsedWorkaround": "Some people may manage to make some of their code work in SSR, but in general this requires a client page to wait for JS and hydration.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "accessibility"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on th…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7WFdQL",
+          "author": "bennypowers",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3591754763",
+          "createdAt": "2025-11-29T15:32:43Z",
+          "body": "## What I want to do with this feature\n\nAt Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this:\n\n```\n<rh-select>\n  <rh-option>...</rh-option>\n```\n\nIn which case rh-select's shadow root has a combobox input, button, and listbox.\n\n## What I'm having to do in the meantime\n\nWe need to make complex compromises, and some cases are simply impossible for us. Reference targets is a hard requirement for us.",
+          "parsedGoal": "At Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this: code sample In which case rh-select's shadow root has a combobox input, button, and listbox.",
+          "parsedWorkaround": "We need to make complex compromises, and some cases are simply impossible for us. Reference targets is a hard requirement for us.",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "At Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this: code sample In which case rh-select's shadow root has a combobox input,…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 14,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 40.2,
+            "workaroundBurden": 0,
+            "composite": 35.9
+          }
+        },
+        {
+          "date": "2026-09-08",
+          "votes": 19,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0.08,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 48.2,
+            "useCaseEvidence": 40.2,
+            "workaroundBurden": 0,
+            "composite": 38.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-08T16:07:56Z"
+    },
+    {
+      "id": "sanitizer",
+      "slug": "sanitizer",
+      "title": "Sanitizer API",
+      "summary": "The Document.parseHTML() static method and the setHTML() method of Element and ShadowRoot objects parse and insert HTML into the DOM in a way that can prevent cross-site scripting attacks. The Sanitizer API can customize the sanitization process.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 363,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/363"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/sanitizer/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 114,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 76.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 38.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.3,
+        "rationale": "0 distinct qualified authors; 114 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 26,
+        "votes30d": 35,
+        "score7d": 2.1,
+        "score30d": 3
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABNvgAEw",
+          "author": "rugk",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/363#issuecomment-5217189907",
+          "createdAt": "2026-08-07T12:43:13Z",
+          "body": "## What I want to do with this feature\n\nSanitizing user HTML, e.g. for https://privatebin.net/\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\nEmbed and maintain (aka keep updated etc.)/integrate an external library aka DOMPurify: https://github.com/cure53/DOMPurify/",
+          "parsedGoal": "Sanitizing user HTML, e.g. for https://privatebin.net/",
+          "parsedWorkaround": "Embed and maintain (aka keep updated etc.)/integrate an external library aka DOMPurify: https://github.com/cure53/DOMPurify/",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABThfoTw",
+          "author": "spmonahan",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/363#issuecomment-5605156943",
+          "createdAt": "2026-09-09T16:22:44Z",
+          "body": "## What I want to do with this feature\n\nI need to reliably santize HTML content client side.\n\n## What I'm having to do in the meantime\n\nUse DOMPurify to get these features. DOMPurify works fine but it's not the lightest library, particularly when compared with something built into the platform.",
+          "parsedGoal": "I need to reliably santize HTML content client side.",
+          "parsedWorkaround": "Use DOMPurify to get these features. DOMPurify works fine but it's not the lightest library, particularly when compared with something built into the platform.",
+          "positiveReactions": 2,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 79,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 70.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 35.2
+          }
+        },
+        {
+          "date": "2026-09-09",
+          "votes": 88,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 72.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 36.1
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 114,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 76.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 38.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:54Z"
+    },
+    {
       "id": "has-slotted",
       "slug": "has-slotted",
       "title": ":has-slotted",
@@ -3356,262 +3617,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:09Z"
-    },
-    {
-      "id": "sanitizer",
-      "slug": "sanitizer",
-      "title": "Sanitizer API",
-      "summary": "The Document.parseHTML() static method and the setHTML() method of Element and ShadowRoot objects parse and insert HTML into the DOM in a way that can prevent cross-site scripting attacks. The Sanitizer API can customize the sanitization process.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 363,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/363"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/sanitizer/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 113,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 76.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 38.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.3,
-        "rationale": "0 distinct qualified authors; 113 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 25,
-        "votes30d": 34,
-        "score7d": 2,
-        "score30d": 2.9
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABNvgAEw",
-          "author": "rugk",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/363#issuecomment-5217189907",
-          "createdAt": "2026-08-07T12:43:13Z",
-          "body": "## What I want to do with this feature\n\nSanitizing user HTML, e.g. for https://privatebin.net/\n\n## What I'm having to do in the meantime\n\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->\nEmbed and maintain (aka keep updated etc.)/integrate an external library aka DOMPurify: https://github.com/cure53/DOMPurify/",
-          "parsedGoal": "Sanitizing user HTML, e.g. for https://privatebin.net/",
-          "parsedWorkaround": "Embed and maintain (aka keep updated etc.)/integrate an external library aka DOMPurify: https://github.com/cure53/DOMPurify/",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABThfoTw",
-          "author": "spmonahan",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/363#issuecomment-5605156943",
-          "createdAt": "2026-09-09T16:22:44Z",
-          "body": "## What I want to do with this feature\n\nI need to reliably santize HTML content client side.\n\n## What I'm having to do in the meantime\n\nUse DOMPurify to get these features. DOMPurify works fine but it's not the lightest library, particularly when compared with something built into the platform.",
-          "parsedGoal": "I need to reliably santize HTML content client side.",
-          "parsedWorkaround": "Use DOMPurify to get these features. DOMPurify works fine but it's not the lightest library, particularly when compared with something built into the platform.",
-          "positiveReactions": 2,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 79,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 70.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 35.2
-          }
-        },
-        {
-          "date": "2026-09-09",
-          "votes": 88,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 72.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 36.1
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 113,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 76.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 38.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:54Z"
-    },
-    {
-      "id": "referencetarget",
-      "slug": "referencetarget",
-      "title": "Reference target",
-      "summary": "The referenceTarget property of a ShadowRoot object forwards attributes such as for and aria-labelledby to elements inside a shadow DOM. You can use this to, for example, link a <label> to its <input> even if the <input> is in the shadow DOM of a web component.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 446,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/446"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/referencetarget/",
-      "categories": [
-        "Web components"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 18,
-      "qualifiedAuthors": 3,
-      "reactionBoost": 0.08,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 47.4,
-        "useCaseEvidence": 40.2,
-        "workaroundBurden": 0,
-        "composite": 37.8
-      },
-      "confidence": {
-        "level": "medium",
-        "score": 0.52,
-        "rationale": "3 distinct qualified authors; 18 issue votes; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7V9GXg",
-          "author": "Westbrook",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3589563872",
-          "createdAt": "2025-11-28T14:36:38Z",
-          "body": "## What I want to do with the feature\n\nReduce the amount of code required to deliver my company's custom element design library accessibly so that the applications and features built with it can be smaller and more performant; making them more accessible not just for the screen reader users this API supports directly but for all users who need less bandwidth, CPU, et al to run the code we deliver to them.\n\n## What I'm having to do in the meantime\n\n- use custom API (instead of native `aria-*`) to pass accessible values through shadow boundaries to ensure they are applied to the right element\n- leverage bulky element resolving JS to capture the accessible/functional DOM relationships that would otherwise be made via these attribute references and manage them in the JS space\n\nEach of these, and other smaller work arounds, are all fragile and complicated in ways that will thankfully no longer be required once Reference Target lands.",
-          "parsedWorkaround": "- use custom API (instead of native aria-) to pass accessible values through shadow boundaries to ensure they are applied to the right element - leverage bulky element resolving JS to capture the accessible/functional DOM relationships that would otherwise be made via these attribute references and manage them in the JS space Each of these, and other smaller work arounds, are all fragile and complicated in ways that will thankfully no longer be required once Reference Target lands.",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "accessibility",
-            "date & time"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "What I want to do with the feature Reduce the amount of code required to deliver my company's custom element design library accessibly so that the applications and features built …",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7V_xj1",
-          "author": "justinfagnani",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3590265077",
-          "createdAt": "2025-11-28T19:58:34Z",
-          "body": "## What I want to do with this feature\n\nI want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on the server without a DOM.\n\n## What I'm having to do in the meantime\n\nSome people may manage to make some of their code work in SSR, but in general this requires a client page to wait for JS and hydration.",
-          "parsedGoal": "I want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on the server without a DOM.",
-          "parsedWorkaround": "Some people may manage to make some of their code work in SSR, but in general this requires a client page to wait for JS and hydration.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "accessibility"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I want to support more accessible web components in our SSR library. The JS code that people use to emulate reference target like behavior isn't not something we can support on th…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7WFdQL",
-          "author": "bennypowers",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/446#issuecomment-3591754763",
-          "createdAt": "2025-11-29T15:32:43Z",
-          "body": "## What I want to do with this feature\n\nAt Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this:\n\n```\n<rh-select>\n  <rh-option>...</rh-option>\n```\n\nIn which case rh-select's shadow root has a combobox input, button, and listbox.\n\n## What I'm having to do in the meantime\n\nWe need to make complex compromises, and some cases are simply impossible for us. Reference targets is a hard requirement for us.",
-          "parsedGoal": "At Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this: code sample In which case rh-select's shadow root has a combobox input, button, and listbox.",
-          "parsedWorkaround": "We need to make complex compromises, and some cases are simply impossible for us. Reference targets is a hard requirement for us.",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "At Red Hat, we maintain a web-components design system. We need to run cross root aria for cases like this: code sample In which case rh-select's shadow root has a combobox input,…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 14,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0.08,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 40.2,
-            "workaroundBurden": 0,
-            "composite": 35.9
-          }
-        },
-        {
-          "date": "2026-09-08",
-          "votes": 18,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0.08,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 47.4,
-            "useCaseEvidence": 40.2,
-            "workaroundBurden": 0,
-            "composite": 37.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-08T16:07:56Z"
     },
     {
       "id": "custom-media-queries",
@@ -4529,27 +4534,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 77,
+      "votes": 78,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 70.1,
+        "voteDemand": 70.3,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 35
+        "composite": 35.1
       },
       "confidence": {
         "level": "low",
         "score": 0.28,
-        "rationale": "0 distinct qualified authors; 77 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 78 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.1,
+        "score30d": 0.1
       },
       "comments": [
         {
@@ -4604,20 +4609,194 @@
         },
         {
           "date": "2026-11-05",
-          "votes": 77,
+          "votes": 78,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 70.1,
+            "voteDemand": 70.3,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 35
+            "composite": 35.1
           }
         }
       ],
       "lastActivityAt": "2026-11-05T21:41:28Z"
+    },
+    {
+      "id": "web-midi",
+      "slug": "web-midi",
+      "title": "Web MIDI",
+      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 50,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 19,
+      "qualifiedAuthors": 2,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 48.2,
+        "useCaseEvidence": 31.4,
+        "workaroundBurden": 0,
+        "composite": 35.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.38,
+        "rationale": "2 distinct qualified authors; 19 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 3,
+        "score7d": 4.5,
+        "score30d": 5.4
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
+          "author": "pitrackster",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
+          "createdAt": "2026-08-25T07:16:48Z",
+          "body": "## What I want to do with this feature\n\nFirefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "parsedGoal": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. I want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABWtCQ9A",
+          "author": "Jaefae",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332",
+          "createdAt": "2026-09-24T17:04:21Z",
+          "body": "## What I want to do with this feature\nI'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.\n## What I'm having to do in the meantime\nAs of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
+          "parsedGoal": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
+          "parsedWorkaround": "As of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the app…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABe6qRcw",
+          "author": "dalingux",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6369743219",
+          "createdAt": "2026-10-23T16:32:35Z",
+          "body": "## What I want to do with this feature\n\nAs a Linux user it's a nonsense to use another browser than firefox, now more and more synth can  be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI)\nThanks.",
+          "parsedGoal": "As a Linux user it's a nonsense to use another browser than firefox, now more and more synth can be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI) Thanks.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABnuUOzw",
+          "author": "benkeia",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6960778959",
+          "createdAt": "2026-11-17T20:56:39Z",
+          "body": "## What I want to do with this feature\n\nI want to build interactive web audio, creative coding, and 3D experiences that connect directly to physical MIDI hardware (keyboards, pads, and controllers) with plug-and-play simplicity.\n\nThe web should be an open, zero-install platform for interactive music tools, live visuals, and digital instruments without requiring users to download native software. \n\nHaving this work reliably across all major browser engines—especially lightweight and privacy-focused alternatives like Firefox and Zen Browser is essential in my opinion.\n\n## What I'm having to do in the meantime\n\nRight now, the lack of universal Web MIDI support is a major blocker:\n\n- **Forcing users to switch to Chrome**: I have to tell users on Firefox, Zen, or Safari that the experience simply doesn't work and force them onto Chromium.\n- **Heavy workarounds**: The only workarounds require running local desktop bridge apps (WebSockets / Node) or bundling everything into Electron, which introduces latency, complex setup for users, and high memory usage.\n\nReliable Web MIDI across all browsers is the only clean way to make the web a viable platform for creative hardware.",
+          "parsedGoal": "I want to build interactive web audio, creative coding, and 3D experiences that connect directly to physical MIDI hardware (keyboards, pads, and controllers) with plug-and-play simplicity. The web should be an open, zero-install platform for interactive music tools, live visuals, and digital instruments without requiring users to download native software. Having this work reliably across all major browser engines—especially lightweight and privacy-focused alternatives like Firefox and Zen Browser is essential in my opinion.",
+          "parsedWorkaround": "Right now, the lack of universal Web MIDI support is a major blocker: - Forcing users to switch to Chrome: I have to tell users on Firefox, Zen, or Safari that the experience simply doesn't work and force them onto Chromium. - Heavy workarounds: The only workarounds require running local desktop bridge apps (WebSockets / Node) or bundling everything into Electron, which introduces latency, complex setup for users, and high memory usage. Reliable Web MIDI across all browsers is the only clean way to make the web a viable platform for creative hardware.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "accessibility",
+            "media",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I want to build interactive web audio, creative coding, and 3D experiences that connect directly to physical MIDI hardware (keyboards, pads, and controllers) with plug-and-play si…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-25",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 16,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 29.7
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 18,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 30.6
+          }
+        },
+        {
+          "date": "2026-11-17",
+          "votes": 19,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 48.2,
+            "useCaseEvidence": 31.4,
+            "workaroundBurden": 0,
+            "composite": 35.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-17T20:56:40Z"
     },
     {
       "id": "scroll-target-group",
@@ -4783,7 +4962,7 @@
           "body": "## What I want to do with this feature\n\nSmooth, animated transitions between pages\n\n## What I'm having to do in the meantime\n\nUse a system where the page contents are inside divs, scripts assigned to the page are loaded when it's selected, and using hashes to select the correct page, with an extra system to scroll to elements with specific `id`s since overriding the behavior of hashes breaks that feature.",
           "parsedGoal": "Smooth, animated transitions between pages",
           "parsedWorkaround": "Use a system where the page contents are inside divs, scripts assigned to the page are loaded when it's selected, and using hashes to select the correct page, with an extra system to scroll to elements with specific ids since overriding the behavior of hashes breaks that feature.",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -5302,7 +5481,7 @@
           "body": "## What I want to do with this feature\n\nImmediately I think of `grid` and `table` inner borders.\n- Add inner borders to tables that have `border-radius` (since they cannot have `border-collapse: collapsed`). \n- And grids that look like border-collapsed tables, such as a calendar's borders.\n- Gap color! \n- The potential for attractive plaid CSS. \n\n## What I'm having to do in the meantime\n\nFor grids and tables, I have been using a background color on the parent, in combo with differently colored cells/child elements to simulate a gap-decoration kind of thing.\n\n**The problem:** If there's not a perfect number of child elements to fill the grid/table, the leftover space has the parent `background`. A blank area exposing the background workaround. The other thing I _could_ do (possibly? if the stars are aligned) is manually assign borders to sides of the child elements with lots of `:last-child` etc. and content-dependent conditions, or something with pseudo elements. I think everyone hates doing that, and it's not reasonable on a large scale.\n\nI read about `rule` on mdn docs and it's the most excited I've been about a new CSS feature in awhile. It would be a great solution.\nIdeally, the `rule` would not continue through the empty space. \n\nI think it's a great idea and I have no complaints about the syntax. I like the `repeat()` function involvement.\nBut yeah, when styling what is essentially a rule or gap, it would be great to be able to target it instead of using a background hack.",
           "parsedGoal": "Immediately I think of grid and table inner borders. - Add inner borders to tables that have border-radius (since they cannot have border-collapse: collapsed). - And grids that look like border-collapsed tables, such as a calendar's borders. - Gap color! - The potential for attractive plaid CSS.",
           "parsedWorkaround": "For grids and tables, I have been using a background color on the parent, in combo with differently colored cells/child elements to simulate a gap-decoration kind of thing. The problem: If there's not a perfect number of child elements to fill the grid/table, the leftover space has the parent background. A blank area exposing the background workaround. The other thing I could do (possibly? if the stars are aligned) is manually assign borders to sides of the child elements with lots of :last-child etc. and content-dependent conditions, or something with pseudo elements. I think everyone hates doing that, and it's not reasonable on a large scale. I read about rule on mdn docs and it's the most excited I've been about a new CSS feature in awhile. It would be a great solution. Ideally, the rule would not continue through the empty space. I think it's a great idea and I have no complaints about the syntax. I like the repeat() function involvement. But yeah, when styling what is essentially a rule or gap, it would be great to be able to target it instead of using a background hack.",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -6124,146 +6303,6 @@
         }
       ],
       "lastActivityAt": "2026-09-19T15:49:25Z"
-    },
-    {
-      "id": "web-midi",
-      "slug": "web-midi",
-      "title": "Web MIDI",
-      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 50,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 18,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 47.4,
-        "useCaseEvidence": 19.8,
-        "workaroundBurden": 0,
-        "composite": 30.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.3,
-        "rationale": "1 distinct qualified author; 18 issue votes; 33% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 2,
-        "votes30d": 7,
-        "score7d": 0.9,
-        "score30d": 10.6
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
-          "author": "pitrackster",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
-          "createdAt": "2026-08-25T07:16:48Z",
-          "body": "## What I want to do with this feature\n\nFirefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
-          "parsedGoal": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. I want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABWtCQ9A",
-          "author": "Jaefae",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332",
-          "createdAt": "2026-09-24T17:04:21Z",
-          "body": "## What I want to do with this feature\nI'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.\n## What I'm having to do in the meantime\nAs of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
-          "parsedGoal": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
-          "parsedWorkaround": "As of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the app…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABe6qRcw",
-          "author": "dalingux",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6369743219",
-          "createdAt": "2026-10-23T16:32:35Z",
-          "body": "## What I want to do with this feature\n\nAs a Linux user it's a nonsense to use another browser than firefox, now more and more synth can  be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI)\nThanks.",
-          "parsedGoal": "As a Linux user it's a nonsense to use another browser than firefox, now more and more synth can be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI) Thanks.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-25",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        },
-        {
-          "date": "2026-09-25",
-          "votes": 16,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 29.7
-          }
-        },
-        {
-          "date": "2026-10-23",
-          "votes": 18,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 47.4,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 30.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-23T16:32:36Z"
     },
     {
       "id": "barcode",
@@ -10078,7 +10117,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-11-17T10:58:12Z"
+      "lastActivityAt": "2026-11-17T14:57:52Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -12753,7 +12792,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-11-17T10:58:15Z"
+      "lastActivityAt": "2026-11-17T14:57:56Z"
     },
     {
       "id": "virtual-keyboard",
@@ -15370,7 +15409,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-11-17T10:58:18Z"
+      "lastActivityAt": "2026-11-17T14:57:58Z"
     },
     {
       "id": "meta-text-scale",
@@ -15898,6 +15937,69 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:21Z"
+    },
+    {
+      "id": "geolocation-element",
+      "slug": "geolocation-element",
+      "title": "<geolocation>",
+      "summary": "The <geolocation> HTML element represents a button that, upon activation, prompts the user to choose whether to grant the page access to geolocation data.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 515,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/515"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/geolocation-element/",
+      "categories": [
+        "HTML elements",
+        "Geolocation"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:35:40Z"
     },
     {
       "id": "input-date-time-week",
@@ -16588,69 +16690,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:22Z"
-    },
-    {
-      "id": "geolocation-element",
-      "slug": "geolocation-element",
-      "title": "<geolocation>",
-      "summary": "The <geolocation> HTML element represents a button that, upon activation, prompts the user to choose whether to grant the page access to geolocation data.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 515,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/515"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/geolocation-element/",
-      "categories": [
-        "HTML elements",
-        "Geolocation"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:35:40Z"
     },
     {
       "id": "getallrecords",
@@ -27365,7 +27404,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-11-17T10:58:17Z"
+      "lastActivityAt": "2026-11-17T14:57:57Z"
     },
     {
       "id": "iterator-join",
@@ -27844,7 +27883,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-11-17T10:58:16Z"
+      "lastActivityAt": "2026-11-17T14:57:57Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -28662,6 +28701,65 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:50Z"
+    },
+    {
+      "id": "shapes-polygon-round",
+      "slug": "shapes-polygon-round",
+      "title": "polygon() round keyword",
+      "summary": "Developer demand and implementation evidence for Shapes Polygon Round.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 972,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/972"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/shapes-polygon-round/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-16",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-16T22:03:46Z"
     },
     {
       "id": "shared-workers-extended-lifetime",
@@ -30905,7 +31003,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-11-17T10:58:14Z"
+      "lastActivityAt": "2026-11-17T14:57:54Z"
     },
     {
       "id": "link-to",
@@ -31347,65 +31445,6 @@
         }
       ],
       "lastActivityAt": "2026-11-16T22:03:54Z"
-    },
-    {
-      "id": "shapes-polygon-round",
-      "slug": "shapes-polygon-round",
-      "title": "polygon() round keyword",
-      "summary": "Developer demand and implementation evidence for Shapes Polygon Round.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 972,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/972"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/shapes-polygon-round/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-11-16",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-16T22:03:46Z"
     },
     {
       "id": "text-decoration-skip-spaces",

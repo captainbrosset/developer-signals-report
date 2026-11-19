@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-18T13:15:33.183Z",
-    "staleAfter": "2026-11-20T13:15:33.183Z",
+    "generatedAt": "2026-11-19T13:37:48.795Z",
+    "staleAfter": "2026-11-21T13:37:48.795Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,26 +10,24 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-18T13:15:33.183Z"
+        "retrievedAt": "2026-11-19T13:37:48.795Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-18T13:15:33.183Z"
+        "retrievedAt": "2026-11-19T13:37:48.795Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-18T13:15:33.183Z"
+        "retrievedAt": "2026-11-19T13:37:48.795Z"
       }
     ],
     "warnings": [
-      "container-scroll-state-queries: feed votes 77 differed from GitHub 78; GitHub value used.",
-      "geolocation-element: feed votes 8 differed from GitHub 9; GitHub value used.",
-      "referencetarget: feed votes 18 differed from GitHub 19; GitHub value used.",
-      "sanitizer: feed votes 113 differed from GitHub 114; GitHub value used.",
-      "shapes-polygon-round: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "web-midi: feed votes 18 differed from GitHub 19; GitHub value used."
+      "caret-shape: feed votes 14 differed from GitHub 15; GitHub value used.",
+      "customizable-select: feed votes 273 differed from GitHub 274; GitHub value used.",
+      "link-to: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "payment-request: feed votes 11 differed from GitHub 12; GitHub value used."
     ]
   },
   "features": [
@@ -992,20 +990,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-17",
-          "votes": 274,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.4,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.6
-          }
-        },
-        {
           "date": "2026-10-18",
           "votes": 274,
           "qualifiedAuthors": 3,
@@ -1424,9 +1408,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-18",
+          "votes": 283,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.9,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-17T14:57:53Z"
+      "lastActivityAt": "2026-11-18T14:38:08Z"
     },
     {
       "id": "attr",
@@ -1591,6 +1589,148 @@
         }
       ],
       "lastActivityAt": "2026-09-15T07:26:42Z"
+    },
+    {
+      "id": "customizable-select",
+      "slug": "customizable-select",
+      "title": "Customizable <select>",
+      "summary": "The <select> element's appearance, including the button, selected option, picker dropdown, and options, can be customized using CSS.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 278,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/278"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/",
+      "categories": [
+        "Forms",
+        "HTML elements"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 274,
+      "qualifiedAuthors": 2,
+      "reactionBoost": 0.12,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 90.4,
+        "useCaseEvidence": 32.5,
+        "workaroundBurden": 0,
+        "composite": 56.6
+      },
+      "confidence": {
+        "level": "medium",
+        "score": 0.58,
+        "rationale": "2 distinct qualified authors; 274 issue votes; 100% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 4.3,
+        "score30d": 4.3
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABYNirzg",
+          "author": "Cipscis",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/278#issuecomment-5919779790",
+          "createdAt": "2026-09-30T21:10:00Z",
+          "body": "## What I want to do with this feature\n\nI have a personal tasks and notes management app I work on. In this app, I can select a new status for a task via a custom dropdown that displays status icons. Dozens of these selectors can appear on the page at once.\n\n## What I'm having to do in the meantime\n\nI'm having to create a custom JavaScript-driven component, using CSS anchor positioning to position it. It's been up to my to ensure all the relevant accessibility features of a native `<select>` element are implemented in this custom JavaScript.",
+          "parsedGoal": "I have a personal tasks and notes management app I work on. In this app, I can select a new status for a task via a custom dropdown that displays status icons. Dozens of these selectors can appear on the page at once.",
+          "parsedWorkaround": "I'm having to create a custom JavaScript-driven component, using CSS anchor positioning to position it. It's been up to my to ensure all the relevant accessibility features of a native <select> element are implemented in this custom JavaScript.",
+          "positiveReactions": 2,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I have a personal tasks and notes management app I work on. In this app, I can select a new status for a task via a custom dropdown that displays status icons. Dozens of these sel…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABoPsxoQ",
+          "author": "That-One-Bit",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/278#issuecomment-6995784097",
+          "createdAt": "2026-11-19T00:27:40Z",
+          "body": "# What I want to do with this feature\n\nI develop and maintain a newer version of Piskel, Piskel Sharp. I'm always up to using the latest CSS features for the app to modernize the UI, and this is one of the features I am interested in utilizing. It makes styling `<select>` elements much easier rather than having to use the default. Firefox is the main holdup, I'm not sure how many people would use it (as the app is packaged using NW.JS; an online hosted version is available on the Multi-Bit-Catalogue), but I don't want to ruin the page's formatting because of it.\n\n# What I'm having to do in the meantime\n\nA technique I've seen from other developers, creating their own selectors using inputs and lists. This is what I am currently using:\n\n```html\n<label style=\"display: block; text-align: center;\">\n  Color Format \n  <input type=\"checkbox\" id=\"color-format-toggle\" class=\"dropdown-toggle\"> \n  <label for=\"color-format-toggle\" class=\"dropdown-header\"> \n    <span id=\"current-color-format-display\" class=\"current-value\">Hex</span> \n    <span class=\"arrow\">▼</span> \n  </label> \n  <ul class=\"dropdown-options color-format-options\"> \n    <li><button type=\"button\" data-value=\"hex\">Hex</button></li> \n    <li><button type=\"button\" data-value=\"rgb\">RGB</button></li> \n  </ul> \n</label>\n```",
+          "parsedGoal": "I develop and maintain a newer version of Piskel, Piskel Sharp. I'm always up to using the latest CSS features for the app to modernize the UI, and this is one of the features I am interested in utilizing. It makes styling <select> elements much easier rather than having to use the default. Firefox is the main holdup, I'm not sure how many people would use it (as the app is packaged using NW.JS; an online hosted version is available on the Multi-Bit-Catalogue), but I don't want to ruin the page's formatting because of it.",
+          "parsedWorkaround": "A technique I've seen from other developers, creating their own selectors using inputs and lists. This is what I am currently using: code sample",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I develop and maintain a newer version of Piskel, Piskel Sharp. I'm always up to using the latest CSS features for the app to modernize the UI, and this is one of the features I a…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 233,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 87.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 43.9
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 242,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 88.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 44.2
+          }
+        },
+        {
+          "date": "2026-09-30",
+          "votes": 273,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.3,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 52.3
+          }
+        },
+        {
+          "date": "2026-11-19",
+          "votes": 274,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0.12,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.4,
+            "useCaseEvidence": 32.5,
+            "workaroundBurden": 0,
+            "composite": 56.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-19T00:27:40Z"
     },
     {
       "id": "anchor-positioning",
@@ -2064,116 +2204,6 @@
         }
       ],
       "lastActivityAt": "2026-10-04T05:45:57Z"
-    },
-    {
-      "id": "customizable-select",
-      "slug": "customizable-select",
-      "title": "Customizable <select>",
-      "summary": "The <select> element's appearance, including the button, selected option, picker dropdown, and options, can be customized using CSS.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 278,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/278"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/",
-      "categories": [
-        "Forms",
-        "HTML elements"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 273,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 90.3,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 0,
-        "composite": 52.3
-      },
-      "confidence": {
-        "level": "medium",
-        "score": 0.54,
-        "rationale": "1 distinct qualified author; 273 issue votes; 100% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 31,
-        "votes30d": 0,
-        "score7d": 8.1,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABYNirzg",
-          "author": "Cipscis",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/278#issuecomment-5919779790",
-          "createdAt": "2026-09-30T21:10:00Z",
-          "body": "## What I want to do with this feature\n\nI have a personal tasks and notes management app I work on. In this app, I can select a new status for a task via a custom dropdown that displays status icons. Dozens of these selectors can appear on the page at once.\n\n## What I'm having to do in the meantime\n\nI'm having to create a custom JavaScript-driven component, using CSS anchor positioning to position it. It's been up to my to ensure all the relevant accessibility features of a native `<select>` element are implemented in this custom JavaScript.",
-          "parsedGoal": "I have a personal tasks and notes management app I work on. In this app, I can select a new status for a task via a custom dropdown that displays status icons. Dozens of these selectors can appear on the page at once.",
-          "parsedWorkaround": "I'm having to create a custom JavaScript-driven component, using CSS anchor positioning to position it. It's been up to my to ensure all the relevant accessibility features of a native <select> element are implemented in this custom JavaScript.",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I have a personal tasks and notes management app I work on. In this app, I can select a new status for a task via a custom dropdown that displays status icons. Dozens of these sel…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 233,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 87.8,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 43.9
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 242,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 88.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 44.2
-          }
-        },
-        {
-          "date": "2026-09-30",
-          "votes": 273,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.3,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 52.3
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-30T21:10:00Z"
     },
     {
       "id": "function",
@@ -2870,9 +2900,23 @@
             "workaroundBurden": 0,
             "composite": 41.8
           }
+        },
+        {
+          "date": "2026-11-19",
+          "votes": 75,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 69.7,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 41.8
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:34:29Z"
+      "lastActivityAt": "2026-11-19T04:37:36Z"
     },
     {
       "id": "calc-size",
@@ -9683,20 +9727,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-17",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
           "date": "2026-10-18",
           "votes": 22,
           "qualifiedAuthors": 0,
@@ -10115,9 +10145,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-18",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-17T14:57:52Z"
+      "lastActivityAt": "2026-11-18T14:38:07Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -10179,6 +10223,67 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:08:39Z"
+    },
+    {
+      "id": "display-animation",
+      "slug": "display-animation",
+      "title": "display animation",
+      "summary": "You can animate elements between display: none and any other display value or animate between content-visibility: hidden and any other content-visibility value. This also applies to transitions.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 210,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/210"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-animation/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:41Z"
     },
     {
       "id": "mixin",
@@ -10339,67 +10444,6 @@
         }
       ],
       "lastActivityAt": "2026-09-04T15:52:09Z"
-    },
-    {
-      "id": "display-animation",
-      "slug": "display-animation",
-      "title": "display animation",
-      "summary": "You can animate elements between display: none and any other display value or animate between content-visibility: hidden and any other content-visibility value. This also applies to transitions.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 210,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/210"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/display-animation/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 20,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:41Z"
     },
     {
       "id": "install",
@@ -12231,6 +12275,86 @@
       "lastActivityAt": "2026-10-15T22:18:26Z"
     },
     {
+      "id": "caret-shape",
+      "slug": "caret-shape",
+      "title": "caret-shape",
+      "summary": "The caret-shape CSS property sets the shape of the insertion caret, the symbol that shows where the next character is to be inserted or deleted.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 424,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/424"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/caret-shape/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 15,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 44.6,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 22.3
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.18,
+        "rationale": "0 distinct qualified authors; 15 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABGEIDrg",
+          "author": "WiseNat",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/424#issuecomment-4701946798",
+          "createdAt": "2026-06-14T13:50:04Z",
+          "body": "## What I want to do with this feature\n\nUse block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/\n\n## What I'm having to do in the meantime\n\nRelying on the default caret - there's no obvious alternatives at the moment. [CSS Tricks](https://css-tricks.com/almanac/properties/c/caret-shape/) outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
+          "parsedGoal": "Use block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/",
+          "parsedWorkaround": "Relying on the default caret - there's no obvious alternatives at the moment. CSS Tricks outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
+          "positiveReactions": 2,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:49:22Z"
+    },
+    {
       "id": "periodic-background-sync",
       "slug": "periodic-background-sync",
       "title": "Periodic background sync",
@@ -12357,20 +12481,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-17",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
         {
           "date": "2026-10-18",
           "votes": 14,
@@ -12790,9 +12900,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-18",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-17T14:57:56Z"
+      "lastActivityAt": "2026-11-18T14:38:10Z"
     },
     {
       "id": "virtual-keyboard",
@@ -13092,86 +13216,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:50Z"
-    },
-    {
-      "id": "caret-shape",
-      "slug": "caret-shape",
-      "title": "caret-shape",
-      "summary": "The caret-shape CSS property sets the shape of the insertion caret, the symbol that shows where the next character is to be inserted or deleted.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 424,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/424"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/caret-shape/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 14,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 43.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 21.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.18,
-        "rationale": "0 distinct qualified authors; 14 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABGEIDrg",
-          "author": "WiseNat",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/424#issuecomment-4701946798",
-          "createdAt": "2026-06-14T13:50:04Z",
-          "body": "## What I want to do with this feature\n\nUse block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/\n\n## What I'm having to do in the meantime\n\nRelying on the default caret - there's no obvious alternatives at the moment. [CSS Tricks](https://css-tricks.com/almanac/properties/c/caret-shape/) outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
-          "parsedGoal": "Use block based carets for my terminal oriented site to improve the look and feel - https://nathanwise.software/",
-          "parsedWorkaround": "Relying on the default caret - there's no obvious alternatives at the moment. CSS Tricks outlines ways to fake the behaviour, though these examples do not work for user inputs, and making them functional would likely involve brittle JS workarounds.",
-          "positiveReactions": 2,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:22Z"
     },
     {
       "id": "fetch-request-streams",
@@ -13987,6 +14031,67 @@
       "lastActivityAt": "2026-09-05T09:30:24Z"
     },
     {
+      "id": "payment-request",
+      "slug": "payment-request",
+      "title": "Payment request",
+      "summary": "The PaymentRequest API prompts the user to make a payment through the browser's user interface.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 58,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/58"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/payment-request/",
+      "categories": [
+        "Payments"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 12,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 41.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 20.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:09:07Z"
+    },
+    {
       "id": "show-picker-select",
       "slug": "show-picker-select",
       "title": "showPicker() for <select>",
@@ -14732,67 +14837,6 @@
       "lastActivityAt": "2026-09-03T14:35:45Z"
     },
     {
-      "id": "payment-request",
-      "slug": "payment-request",
-      "title": "Payment request",
-      "summary": "The PaymentRequest API prompts the user to make a payment through the browser's user interface.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 58,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/58"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/payment-request/",
-      "categories": [
-        "Payments"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 11,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 40,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.16,
-        "rationale": "0 distinct qualified authors; 11 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:07Z"
-    },
-    {
       "id": "view-transitions-element-scoped",
       "slug": "view-transitions-element-scoped",
       "title": "Element-scoped view transitions",
@@ -14974,20 +15018,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-17",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
         {
           "date": "2026-10-18",
           "votes": 9,
@@ -15407,9 +15437,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-18",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-17T14:57:58Z"
+      "lastActivityAt": "2026-11-18T14:38:13Z"
     },
     {
       "id": "meta-text-scale",
@@ -26970,20 +27014,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-17",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-18",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27402,9 +27432,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-18",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-17T14:57:57Z"
+      "lastActivityAt": "2026-11-18T14:38:12Z"
     },
     {
       "id": "iterator-join",
@@ -27449,20 +27493,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-17",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-18",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27881,9 +27911,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-18",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-17T14:57:57Z"
+      "lastActivityAt": "2026-11-18T14:38:11Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -27945,6 +27989,65 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:33Z"
+    },
+    {
+      "id": "link-to",
+      "slug": "link-to",
+      "title": ":link-to()",
+      "summary": "Developer demand and implementation evidence for Link To.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 975,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/975"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-to/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-16",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-16T22:03:59Z"
     },
     {
       "id": "managed-media-source",
@@ -30569,20 +30672,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-17",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
           "date": "2026-10-18",
           "votes": 0,
           "qualifiedAuthors": 0,
@@ -31001,54 +31090,9 @@
             "workaroundBurden": 0,
             "composite": 0
           }
-        }
-      ],
-      "lastActivityAt": "2026-11-17T14:57:54Z"
-    },
-    {
-      "id": "link-to",
-      "slug": "link-to",
-      "title": ":link-to()",
-      "summary": "Developer demand and implementation evidence for Link To.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 975,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/975"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-to/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 0,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 0,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 0
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0,
-        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
+        },
         {
-          "date": "2026-11-16",
+          "date": "2026-11-18",
           "votes": 0,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
@@ -31062,7 +31106,7 @@
           }
         }
       ],
-      "lastActivityAt": "2026-11-16T22:03:59Z"
+      "lastActivityAt": "2026-11-18T14:38:09Z"
     },
     {
       "id": "navigation-source",

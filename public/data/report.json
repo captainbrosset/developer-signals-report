@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-19T13:37:48.795Z",
-    "staleAfter": "2026-11-21T13:37:48.795Z",
+    "generatedAt": "2026-11-20T13:18:48.306Z",
+    "staleAfter": "2026-11-22T13:18:48.306Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,24 +10,21 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-19T13:37:48.795Z"
+        "retrievedAt": "2026-11-20T13:18:48.306Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-19T13:37:48.795Z"
+        "retrievedAt": "2026-11-20T13:18:48.306Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-19T13:37:48.795Z"
+        "retrievedAt": "2026-11-20T13:18:48.306Z"
       }
     ],
     "warnings": [
-      "caret-shape: feed votes 14 differed from GitHub 15; GitHub value used.",
-      "customizable-select: feed votes 273 differed from GitHub 274; GitHub value used.",
-      "link-to: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "payment-request: feed votes 11 differed from GitHub 12; GitHub value used."
+      "hidden-until-found: feed votes 8 differed from GitHub 9; GitHub value used."
     ]
   },
   "features": [
@@ -990,20 +987,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-18",
-          "votes": 274,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.4,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.6
-          }
-        },
-        {
           "date": "2026-10-19",
           "votes": 274,
           "qualifiedAuthors": 3,
@@ -1422,9 +1405,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-19",
+          "votes": 283,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.9,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.8
+          }
         }
       ],
-      "lastActivityAt": "2026-11-18T14:38:08Z"
+      "lastActivityAt": "2026-11-19T14:44:28Z"
     },
     {
       "id": "attr",
@@ -4989,7 +4986,7 @@
           "body": "## What I want to do with this feature\n\nFancier transitions on my website.\n\n## What I'm having to do in the meantime\n\nWaiting for Firefox to support these so that my transitions show up there as well.",
           "parsedGoal": "Fancier transitions on my website.",
           "parsedWorkaround": "Waiting for Firefox to support these so that my transitions show up there as well.",
-          "positiveReactions": 2,
+          "positiveReactions": 3,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -5006,7 +5003,7 @@
           "body": "## What I want to do with this feature\n\nSmooth, animated transitions between pages\n\n## What I'm having to do in the meantime\n\nUse a system where the page contents are inside divs, scripts assigned to the page are loaded when it's selected, and using hashes to select the correct page, with an extra system to scroll to elements with specific `id`s since overriding the behavior of hashes breaks that feature.",
           "parsedGoal": "Smooth, animated transitions between pages",
           "parsedWorkaround": "Use a system where the page contents are inside divs, scripts assigned to the page are loaded when it's selected, and using hashes to select the correct page, with an extra system to scroll to elements with specific ids since overriding the behavior of hashes breaks that feature.",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -9727,20 +9724,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-18",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
           "date": "2026-10-19",
           "votes": 22,
           "qualifiedAuthors": 0,
@@ -10159,9 +10142,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-19",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-18T14:38:07Z"
+      "lastActivityAt": "2026-11-19T14:44:27Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -12482,20 +12479,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-18",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
           "date": "2026-10-19",
           "votes": 14,
           "qualifiedAuthors": 0,
@@ -12914,9 +12897,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-19",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-18T14:38:10Z"
+      "lastActivityAt": "2026-11-19T14:44:30Z"
     },
     {
       "id": "virtual-keyboard",
@@ -14365,7 +14362,7 @@
       "comments": [
         {
           "id": "IC_kwDOLb9kWM8AAAABNrelfw",
-          "author": "shane-smith",
+          "author": "shanesmithdev",
           "authorAssociation": "NONE",
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/97#issuecomment-5212972415",
           "createdAt": "2026-08-07T05:49:29Z",
@@ -15019,20 +15016,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-18",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-10-19",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -15451,9 +15434,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-19",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-18T14:38:13Z"
+      "lastActivityAt": "2026-11-19T14:44:33Z"
     },
     {
       "id": "meta-text-scale",
@@ -16044,6 +16041,173 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:40Z"
+    },
+    {
+      "id": "hidden-until-found",
+      "slug": "hidden-until-found",
+      "title": "hidden=\"until-found\"",
+      "summary": "The hidden=\"until-found\" attribute hides an element until it is found using the browser's find-in-page search or it is directly navigated to by following a URL fragment.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 170,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/170"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/hidden-until-found/",
+      "categories": [
+        "HTML"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 9,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 37,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 18.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.15,
+        "rationale": "0 distinct qualified authors; 9 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM7oGxfC",
+          "author": "freshp86",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-3894089666",
+          "createdAt": "2026-02-13T00:13:40Z",
+          "body": "Recently found out about this feature in the form of new TS compiler errors in the Chromium codebase, due to the following update in Typescript's `lib.dom.d.ts` file.\n\n```diff\n      *\n      * [MDN Reference](https://developer.mozilla.org/docs/Web/API/HTMLElement/hidden)\n      */\n-    hidden: boolean;\n+    hidden: boolean | \"until-found\";\n     /**\n```\n\n> If you're pressed for time, but you want this feature to be available in all browsers, please give this issue a thumbs up 👍 reaction.\n\nIMO this is a thumbs down instead. The general idea of the feature sounds reasonable, but I don't think it should be implemented via the `hidden` property. Instead a new dedicated boolean `reveal-on-search` property should be added.\n\nChanging the boolean `hidden` property of `HTMLElement` to not be a boolean anymore creates complications in TypeScript codebases to account for this field being a string. Specifically in Chromium tests with this change there are hundreds of the following errors:\n\n```\npath/to/some/folder/some_button_test.ts:102:17 - error TS2345: Argument of type 'string | boolean' is not assignable to parameter of type 'boolean'.\n  Type 'string' is not assignable to type 'boolean'.\n\n102     assertFalse(button.hidden);\n                    ~~~~~~~~~~~~~\n```\nIn order to fix these we would need to change all these occurrences to using a dedicated `assertHidden(...)` instead.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7oHOCL",
+          "author": "smaug----",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-3894206603",
+          "createdAt": "2026-02-13T00:52:35Z",
+          "body": "That is not a Chromium specific change. It was discussed in WhatWG, and it is shipping also in Gecko\nhttps://searchfox.org/firefox-main/rev/e7f79d7d80b01b4d4b4d961124ef960ba9ab30a7/dom/webidl/HTMLElement.webidl#36\nand Webkit\nhttps://searchfox.org/wubkat/rev/cdb7d30aa07cca86a79b18cf8bc0ab44fedd6c1c/Source/WebCore/html/HTMLElement.idl#42\n\nWPTs https://wpt.fyi/results/html/editing/the-hidden-attribute?label=experimental&label=master&aligned\n\nSee also https://github.com/whatwg/html/issues/6040",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7oHdVo",
+          "author": "freshp86",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-3894269288",
+          "createdAt": "2026-02-13T01:13:19Z",
+          "body": "Thanks for the links. I know this is not a Chromium-only change, I was just refering to Chromium's TS codebase which is affected by this as well.\n\n> See also https://github.com/whatwg/html/issues/6040\n\nEven after reading this, it's not clear if the **property** was meant to be kept as a boolean, while only the **attribute** would accept a 3rd value. I see both approaches being discussed (for example see [this comment](https://github.com/whatwg/html/issues/6040#issuecomment-1007800751)). The runtime behavior I observe is that the attribute is fully reflected so that the property has now 3 possible values, which is the disrupting part.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7oXyE5",
+          "author": "josepharhar",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-3898548537",
+          "createdAt": "2026-02-13T17:58:51Z",
+          "body": "Sorry to hear that this is causing issues, I admit that I didn't foresee this becoming a pain point.\n\nI think that replacing `assertFalse(button.hidden)` with `assertFalse(!!button.hidden)` would fix this, right?",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM7qNFG4",
+          "author": "freshp86",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-3929297336",
+          "createdAt": "2026-02-19T19:00:42Z",
+          "body": "> I think that replacing `assertFalse(button.hidden)` with `assertFalse(!!button.hidden)` would fix this, right?\n\nYes, I think it would fix the newly surfaced type errors.\nI still think though that this change will be disruptive for strongly typed codebases, and this will probably be more noticed once TS v6 is released (soon), assuming most people consume the `lib.dom.d.ts` distributed along with the TS compiler, instead of pulling it directly from https://www.npmjs.com/package/@types/web (NPM download numbers suggest that).\n",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABKzVcKg",
+          "author": "dougalg-js-tw",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-5019884586",
+          "createdAt": "2026-07-20T07:42:20Z",
+          "body": "How does this feature work for screen readers? Will this content be visible or hidden for them?",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "accessibility"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABKz2Tmg",
+          "author": "jakearchibald",
+          "authorAssociation": "COLLABORATOR",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-5020423066",
+          "createdAt": "2026-07-20T08:53:29Z",
+          "body": "@dougalg-js-tw same for visual users. The content is absent unless it's linked to, or find-in-page'd. To reveal the content otherwise, the page needs to provide some way to do that (and set up the roles accordingly). This is what `<details>` gives you for free.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 9,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 37,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 18.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:18Z"
     },
     {
       "id": "input-date-time-week",
@@ -16795,173 +16959,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:31Z"
-    },
-    {
-      "id": "hidden-until-found",
-      "slug": "hidden-until-found",
-      "title": "hidden=\"until-found\"",
-      "summary": "The hidden=\"until-found\" attribute hides an element until it is found using the browser's find-in-page search or it is directly navigated to by following a URL fragment.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 170,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/170"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/hidden-until-found/",
-      "categories": [
-        "HTML"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 8,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 35.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 17.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.14,
-        "rationale": "0 distinct qualified authors; 8 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM7oGxfC",
-          "author": "freshp86",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-3894089666",
-          "createdAt": "2026-02-13T00:13:40Z",
-          "body": "Recently found out about this feature in the form of new TS compiler errors in the Chromium codebase, due to the following update in Typescript's `lib.dom.d.ts` file.\n\n```diff\n      *\n      * [MDN Reference](https://developer.mozilla.org/docs/Web/API/HTMLElement/hidden)\n      */\n-    hidden: boolean;\n+    hidden: boolean | \"until-found\";\n     /**\n```\n\n> If you're pressed for time, but you want this feature to be available in all browsers, please give this issue a thumbs up 👍 reaction.\n\nIMO this is a thumbs down instead. The general idea of the feature sounds reasonable, but I don't think it should be implemented via the `hidden` property. Instead a new dedicated boolean `reveal-on-search` property should be added.\n\nChanging the boolean `hidden` property of `HTMLElement` to not be a boolean anymore creates complications in TypeScript codebases to account for this field being a string. Specifically in Chromium tests with this change there are hundreds of the following errors:\n\n```\npath/to/some/folder/some_button_test.ts:102:17 - error TS2345: Argument of type 'string | boolean' is not assignable to parameter of type 'boolean'.\n  Type 'string' is not assignable to type 'boolean'.\n\n102     assertFalse(button.hidden);\n                    ~~~~~~~~~~~~~\n```\nIn order to fix these we would need to change all these occurrences to using a dedicated `assertHidden(...)` instead.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7oHOCL",
-          "author": "smaug----",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-3894206603",
-          "createdAt": "2026-02-13T00:52:35Z",
-          "body": "That is not a Chromium specific change. It was discussed in WhatWG, and it is shipping also in Gecko\nhttps://searchfox.org/firefox-main/rev/e7f79d7d80b01b4d4b4d961124ef960ba9ab30a7/dom/webidl/HTMLElement.webidl#36\nand Webkit\nhttps://searchfox.org/wubkat/rev/cdb7d30aa07cca86a79b18cf8bc0ab44fedd6c1c/Source/WebCore/html/HTMLElement.idl#42\n\nWPTs https://wpt.fyi/results/html/editing/the-hidden-attribute?label=experimental&label=master&aligned\n\nSee also https://github.com/whatwg/html/issues/6040",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7oHdVo",
-          "author": "freshp86",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-3894269288",
-          "createdAt": "2026-02-13T01:13:19Z",
-          "body": "Thanks for the links. I know this is not a Chromium-only change, I was just refering to Chromium's TS codebase which is affected by this as well.\n\n> See also https://github.com/whatwg/html/issues/6040\n\nEven after reading this, it's not clear if the **property** was meant to be kept as a boolean, while only the **attribute** would accept a 3rd value. I see both approaches being discussed (for example see [this comment](https://github.com/whatwg/html/issues/6040#issuecomment-1007800751)). The runtime behavior I observe is that the attribute is fully reflected so that the property has now 3 possible values, which is the disrupting part.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "date & time"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7oXyE5",
-          "author": "josepharhar",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-3898548537",
-          "createdAt": "2026-02-13T17:58:51Z",
-          "body": "Sorry to hear that this is causing issues, I admit that I didn't foresee this becoming a pain point.\n\nI think that replacing `assertFalse(button.hidden)` with `assertFalse(!!button.hidden)` would fix this, right?",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM7qNFG4",
-          "author": "freshp86",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-3929297336",
-          "createdAt": "2026-02-19T19:00:42Z",
-          "body": "> I think that replacing `assertFalse(button.hidden)` with `assertFalse(!!button.hidden)` would fix this, right?\n\nYes, I think it would fix the newly surfaced type errors.\nI still think though that this change will be disruptive for strongly typed codebases, and this will probably be more noticed once TS v6 is released (soon), assuming most people consume the `lib.dom.d.ts` distributed along with the TS compiler, instead of pulling it directly from https://www.npmjs.com/package/@types/web (NPM download numbers suggest that).\n",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABKzVcKg",
-          "author": "dougalg-js-tw",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-5019884586",
-          "createdAt": "2026-07-20T07:42:20Z",
-          "body": "How does this feature work for screen readers? Will this content be visible or hidden for them?",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "accessibility"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABKz2Tmg",
-          "author": "jakearchibald",
-          "authorAssociation": "COLLABORATOR",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/170#issuecomment-5020423066",
-          "createdAt": "2026-07-20T08:53:29Z",
-          "body": "@dougalg-js-tw same for visual users. The content is absent unless it's linked to, or find-in-page'd. To reveal the content otherwise, the page needs to provide some way to do that (and set up the roles accordingly). This is what `<details>` gives you for free.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 8,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 35.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 17.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:18Z"
     },
     {
       "id": "highlightsfrompoint",
@@ -27014,20 +27011,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-18",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-19",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27446,9 +27429,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-19",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-18T14:38:12Z"
+      "lastActivityAt": "2026-11-19T14:44:32Z"
     },
     {
       "id": "iterator-join",
@@ -27493,20 +27490,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-18",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-19",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27925,9 +27908,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-19",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-18T14:38:11Z"
+      "lastActivityAt": "2026-11-19T14:44:31Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30672,20 +30669,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-18",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
           "date": "2026-10-19",
           "votes": 0,
           "qualifiedAuthors": 0,
@@ -31104,9 +31087,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-19",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-18T14:38:09Z"
+      "lastActivityAt": "2026-11-19T14:44:29Z"
     },
     {
       "id": "navigation-source",

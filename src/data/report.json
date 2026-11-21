@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-20T13:18:48.306Z",
-    "staleAfter": "2026-11-22T13:18:48.306Z",
+    "generatedAt": "2026-11-21T12:51:46.709Z",
+    "staleAfter": "2026-11-23T12:51:46.709Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,21 +10,22 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-20T13:18:48.306Z"
+        "retrievedAt": "2026-11-21T12:51:46.709Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-20T13:18:48.306Z"
+        "retrievedAt": "2026-11-21T12:51:46.709Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-20T13:18:48.306Z"
+        "retrievedAt": "2026-11-21T12:51:46.709Z"
       }
     ],
     "warnings": [
-      "hidden-until-found: feed votes 8 differed from GitHub 9; GitHub value used."
+      "grid-lanes: feed votes 134 differed from GitHub 135; GitHub value used.",
+      "temporal: feed votes 283 differed from GitHub 284; GitHub value used."
     ]
   },
   "features": [
@@ -791,7 +792,7 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 283,
+      "votes": 284,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
@@ -800,18 +801,18 @@
         "voteDemand": 90.9,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
-        "composite": 62.8
+        "composite": 62.9
       },
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 283 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 284 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 1,
         "votes30d": 9,
-        "score7d": 0,
-        "score30d": 0.2
+        "score7d": 0.1,
+        "score30d": 0.3
       },
       "comments": [
         {
@@ -986,20 +987,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-19",
-          "votes": 274,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.4,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.6
-          }
-        },
         {
           "date": "2026-10-20",
           "votes": 274,
@@ -1419,9 +1406,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.8
           }
+        },
+        {
+          "date": "2026-11-20",
+          "votes": 284,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.9,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.9
+          }
         }
       ],
-      "lastActivityAt": "2026-11-19T14:44:28Z"
+      "lastActivityAt": "2026-11-20T14:26:17Z"
     },
     {
       "id": "attr",
@@ -1861,27 +1862,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 134,
+      "votes": 135,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 1.25,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 78.9,
+        "voteDemand": 79,
         "useCaseEvidence": 32.9,
         "workaroundBurden": 27.5,
-        "composite": 55.1
+        "composite": 55.2
       },
       "confidence": {
         "level": "medium",
         "score": 0.48,
-        "rationale": "2 distinct qualified authors; 134 issue votes; 50% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 135 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
-        "votes30d": 4,
-        "score7d": 0,
-        "score30d": 0.2
+        "votes7d": 1,
+        "votes30d": 5,
+        "score7d": 0.1,
+        "score30d": 0.3
       },
       "comments": [
         {
@@ -1984,16 +1985,16 @@
         },
         {
           "date": "2026-11-16",
-          "votes": 134,
+          "votes": 135,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 1.25,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 78.9,
+            "voteDemand": 79,
             "useCaseEvidence": 32.9,
             "workaroundBurden": 27.5,
-            "composite": 55.1
+            "composite": 55.2
           }
         }
       ],
@@ -6304,7 +6305,7 @@
           "body": "## What I want to do with this feature\nI am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.\n<!-- Add your specific use-cases, even if they seem obvious to you. -->\n\n## What I'm having to do in the meantime\nI am currently using a polyfill that re-renders everything every time `moveBefore` is supposed to be called.\n```js\n<script>\n    // MoveBefore polyfill for Safari (suggested by @Luke / U0BFDHWUSPM)\n    (function () {\n        // 1. Check if the native method is already supported\n        if (typeof Element.prototype.moveBefore === 'function') return;\n\n        // 2. Define the fallback function matching the moveBefore signature\n        const moveBeforeFallback = function (nodeToMove, referenceNode) {\n            if (!nodeToMove) {\n            throw new TypeError(\"Failed to execute 'moveBefore': 1 argument required, but only 0 present.\");\n            }\n            // Element.insertBefore(node, null) behaves exactly like appendChild\n            return this.insertBefore(nodeToMove, referenceNode);\n        };\n\n        // 3. Apply the fallback across all valid ParentNode prototypes\n        if (typeof Element !== 'undefined') {\n            Element.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof Document !== 'undefined') {\n            Document.prototype.moveBefore = moveBeforeFallback;\n        }\n        if (typeof DocumentFragment !== 'undefined') {\n            DocumentFragment.prototype.moveBefore = moveBeforeFallback;\n        }\n    })();\n</script>\n```\n<!--\nAre you having to use another feature instead, a polyfill, or is it blocking you completely?\nWhy are the alternatives worse than using this feature?\n-->",
           "parsedGoal": "I am currently using this at https://github.com/hackclub/twisted to preserve iFrame loading states when you try moving a window. This makes it so the iFrame doesnt reload every time one of the smaller windows are moved.",
           "parsedWorkaround": "I am currently using a polyfill that re-renders everything every time moveBefore is supposed to be called. code sample",
-          "positiveReactions": 0,
+          "positiveReactions": 1,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -9724,20 +9725,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-19",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
           "date": "2026-10-20",
           "votes": 22,
           "qualifiedAuthors": 0,
@@ -10156,9 +10143,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-20",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-19T14:44:27Z"
+      "lastActivityAt": "2026-11-20T14:26:16Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -12479,20 +12480,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-19",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
           "date": "2026-10-20",
           "votes": 14,
           "qualifiedAuthors": 0,
@@ -12911,9 +12898,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-20",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-19T14:44:30Z"
+      "lastActivityAt": "2026-11-20T14:26:19Z"
     },
     {
       "id": "virtual-keyboard",
@@ -15016,20 +15017,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-19",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-10-20",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -15448,9 +15435,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-20",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-19T14:44:33Z"
+      "lastActivityAt": "2026-11-20T14:26:22Z"
     },
     {
       "id": "meta-text-scale",
@@ -27011,20 +27012,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-19",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-20",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27443,9 +27430,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-20",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-19T14:44:32Z"
+      "lastActivityAt": "2026-11-20T14:26:21Z"
     },
     {
       "id": "iterator-join",
@@ -27490,20 +27491,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-19",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-20",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27922,9 +27909,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-20",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-19T14:44:31Z"
+      "lastActivityAt": "2026-11-20T14:26:20Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30669,20 +30670,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-19",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
           "date": "2026-10-20",
           "votes": 0,
           "qualifiedAuthors": 0,
@@ -31101,9 +31088,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-20",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-19T14:44:29Z"
+      "lastActivityAt": "2026-11-20T14:26:18Z"
     },
     {
       "id": "navigation-source",

@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-21T12:51:46.709Z",
-    "staleAfter": "2026-11-23T12:51:46.709Z",
+    "generatedAt": "2026-11-22T12:43:55.369Z",
+    "staleAfter": "2026-11-24T12:43:55.369Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,22 +10,21 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-21T12:51:46.709Z"
+        "retrievedAt": "2026-11-22T12:43:55.369Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-21T12:51:46.709Z"
+        "retrievedAt": "2026-11-22T12:43:55.369Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-21T12:51:46.709Z"
+        "retrievedAt": "2026-11-22T12:43:55.369Z"
       }
     ],
     "warnings": [
-      "grid-lanes: feed votes 134 differed from GitHub 135; GitHub value used.",
-      "temporal: feed votes 283 differed from GitHub 284; GitHub value used."
+      "web-midi: feed votes 19 differed from GitHub 20; GitHub value used."
     ]
   },
   "features": [
@@ -65,12 +64,12 @@
       "confidence": {
         "level": "medium",
         "score": 0.63,
-        "rationale": "7 distinct qualified authors; 537 issue votes; 18% of reviewed comments qualified."
+        "rationale": "7 distinct qualified authors; 537 issue votes; 17% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
-        "votes30d": 14,
-        "score7d": 1.1,
+        "votes7d": 0,
+        "votes30d": 3,
+        "score7d": 0,
         "score30d": 1.1
       },
       "comments": [
@@ -696,6 +695,38 @@
             "performance"
           ],
           "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABpVXt6Q",
+          "author": "blue-j",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-7068839401",
+          "createdAt": "2026-11-21T20:33:32Z",
+          "body": "## What I want to do with this feature\n\nIts coverage of color models, bit depths, and compression - including lossless - is unrivaled.  It allows us to use a common format across use cases and not worry about support.\n\n## What I'm having to do in the meantime\n\nAs we've waited for browser support to return (Chrome took us for a ride!) we just simply didn't use it, even though we consider it the best format on planet earth.",
+          "parsedGoal": "Its coverage of color models, bit depths, and compression - including lossless - is unrivaled. It allows us to use a common format across use cases and not worry about support.",
+          "parsedWorkaround": "As we've waited for browser support to return (Chrome took us for a ride!) we just simply didn't use it, even though we consider it the best format on planet earth.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABpel9Nw",
+          "author": "jakearchibald",
+          "authorAssociation": "COLLABORATOR",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-7078509879",
+          "createdAt": "2026-11-22T11:32:31Z",
+          "body": "@blue-j Aside from lossless, it's compression is [definitely rivalled](https://jakearchibald.com/2026/jpeg-xl-vs-avif/).",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -768,9 +799,23 @@
             "workaroundBurden": 0,
             "composite": 71.9
           }
+        },
+        {
+          "date": "2026-11-22",
+          "votes": 537,
+          "qualifiedAuthors": 7,
+          "reactionBoost": 0.96,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 100,
+            "useCaseEvidence": 62.7,
+            "workaroundBurden": 0,
+            "composite": 71.9
+          }
         }
       ],
-      "lastActivityAt": "2026-11-14T02:24:32Z"
+      "lastActivityAt": "2026-11-22T11:32:57Z"
     },
     {
       "id": "temporal",
@@ -810,7 +855,7 @@
       },
       "trend": {
         "votes7d": 1,
-        "votes30d": 9,
+        "votes30d": 8,
         "score7d": 0.1,
         "score30d": 0.3
       },
@@ -987,20 +1032,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-20",
-          "votes": 274,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.4,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.6
-          }
-        },
         {
           "date": "2026-10-21",
           "votes": 275,
@@ -1420,9 +1451,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.9
           }
+        },
+        {
+          "date": "2026-11-21",
+          "votes": 284,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.9,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.9
+          }
         }
       ],
-      "lastActivityAt": "2026-11-20T14:26:17Z"
+      "lastActivityAt": "2026-11-21T13:45:29Z"
     },
     {
       "id": "attr",
@@ -4556,117 +4601,6 @@
       "lastActivityAt": "2026-10-12T16:45:03Z"
     },
     {
-      "id": "container-scroll-state-queries",
-      "slug": "container-scroll-state-queries",
-      "title": "Container scroll-state queries",
-      "summary": "Container scroll-state queries with the @container scroll-state(...) at-rule apply styles to an element based on the sticky positioning, snapped, and scrollable state of the container.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 272,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/272"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-scroll-state-queries/",
-      "categories": [
-        "Container queries"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 78,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 70.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 35.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.28,
-        "rationale": "0 distinct qualified authors; 78 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 0.1,
-        "score30d": 0.1
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABHrAB_w",
-          "author": "slyrat",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4809818623",
-          "createdAt": "2026-06-26T13:00:55Z",
-          "body": "## What I want to do with this feature\n\nBeing able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.\n\n## What I'm having to do in the meantime\nUse js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such. ",
-          "parsedGoal": "Being able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.",
-          "parsedWorkaround": "Use js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABI5WLGA",
-          "author": "simison",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4891970328",
-          "createdAt": "2026-07-06T10:55:07Z",
-          "body": "## What I want to do with this feature\n\nShow fade indicator when a list of tabs in the [WordPress Tabs component](https://wordpress.github.io/gutenberg/?path=/docs/design-system-components-tabs--docs#size-and-overflow-playground) does not fit within the container:\n\n<img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />\n\n## What I'm having to do in the meantime\n\nComplicated `ResizeObserver` or `IntersectionObserver` tracking and `scrollWidth` calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
-          "parsedGoal": "Show fade indicator when a list of tabs in the WordPress Tabs component does not fit within the container: <img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />",
-          "parsedWorkaround": "Complicated ResizeObserver or IntersectionObserver tracking and scrollWidth calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 77,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 70.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 35
-          }
-        },
-        {
-          "date": "2026-11-05",
-          "votes": 78,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 70.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 35.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-05T21:41:28Z"
-    },
-    {
       "id": "web-midi",
       "slug": "web-midi",
       "title": "Web MIDI",
@@ -4686,27 +4620,27 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 19,
+      "votes": 20,
       "qualifiedAuthors": 2,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 48.2,
+        "voteDemand": 49,
         "useCaseEvidence": 31.4,
         "workaroundBurden": 0,
-        "composite": 35.1
+        "composite": 35.5
       },
       "confidence": {
         "level": "low",
         "score": 0.38,
-        "rationale": "2 distinct qualified authors; 19 issue votes; 50% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 20 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
-        "votes30d": 3,
-        "score7d": 4.5,
-        "score30d": 5.4
+        "votes7d": 2,
+        "votes30d": 4,
+        "score7d": 4.9,
+        "score30d": 5.8
       },
       "comments": [
         {
@@ -4825,20 +4759,131 @@
         },
         {
           "date": "2026-11-17",
-          "votes": 19,
+          "votes": 20,
           "qualifiedAuthors": 2,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 48.2,
+            "voteDemand": 49,
             "useCaseEvidence": 31.4,
+            "workaroundBurden": 0,
+            "composite": 35.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-17T20:56:40Z"
+    },
+    {
+      "id": "container-scroll-state-queries",
+      "slug": "container-scroll-state-queries",
+      "title": "Container scroll-state queries",
+      "summary": "Container scroll-state queries with the @container scroll-state(...) at-rule apply styles to an element based on the sticky positioning, snapped, and scrollable state of the container.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 272,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/272"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/container-scroll-state-queries/",
+      "categories": [
+        "Container queries"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 78,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 70.3,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 35.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.28,
+        "rationale": "0 distinct qualified authors; 78 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.1,
+        "score30d": 0.1
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABHrAB_w",
+          "author": "slyrat",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4809818623",
+          "createdAt": "2026-06-26T13:00:55Z",
+          "body": "## What I want to do with this feature\n\nBeing able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.\n\n## What I'm having to do in the meantime\nUse js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such. ",
+          "parsedGoal": "Being able to adjust nav via this feature would avoid needing to use js to detect particular container scroll states.",
+          "parsedWorkaround": "Use js to detect scroll states for different containers. Starts to become fairly cumbersome with dynamic switching of containers and such.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABI5WLGA",
+          "author": "simison",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/272#issuecomment-4891970328",
+          "createdAt": "2026-07-06T10:55:07Z",
+          "body": "## What I want to do with this feature\n\nShow fade indicator when a list of tabs in the [WordPress Tabs component](https://wordpress.github.io/gutenberg/?path=/docs/design-system-components-tabs--docs#size-and-overflow-playground) does not fit within the container:\n\n<img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />\n\n## What I'm having to do in the meantime\n\nComplicated `ResizeObserver` or `IntersectionObserver` tracking and `scrollWidth` calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
+          "parsedGoal": "Show fade indicator when a list of tabs in the WordPress Tabs component does not fit within the container: <img width=\"660\" height=\"147\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/bc21465f-a163-4bf4-8f1e-907304087d15\" />",
+          "parsedWorkaround": "Complicated ResizeObserver or IntersectionObserver tracking and scrollWidth calculations to measure overflow, causing all sorts of bugs (fixing attempt example https://github.com/WordPress/gutenberg/pull/79856)",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 77,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 70.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 35
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 78,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 70.3,
+            "useCaseEvidence": 0,
             "workaroundBurden": 0,
             "composite": 35.1
           }
         }
       ],
-      "lastActivityAt": "2026-11-17T20:56:40Z"
+      "lastActivityAt": "2026-11-05T21:41:28Z"
     },
     {
       "id": "scroll-target-group",
@@ -9725,20 +9770,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-20",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
           "date": "2026-10-21",
           "votes": 22,
           "qualifiedAuthors": 0,
@@ -10157,9 +10188,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-21",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-20T14:26:16Z"
+      "lastActivityAt": "2026-11-21T13:45:28Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -12480,20 +12525,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-20",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
           "date": "2026-10-21",
           "votes": 14,
           "qualifiedAuthors": 0,
@@ -12912,9 +12943,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-21",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-20T14:26:19Z"
+      "lastActivityAt": "2026-11-21T13:45:31Z"
     },
     {
       "id": "virtual-keyboard",
@@ -15017,20 +15062,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-20",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-10-21",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -15449,9 +15480,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-21",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-20T14:26:22Z"
+      "lastActivityAt": "2026-11-21T13:45:34Z"
     },
     {
       "id": "meta-text-scale",
@@ -27012,20 +27057,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-20",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-21",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27444,9 +27475,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-21",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-20T14:26:21Z"
+      "lastActivityAt": "2026-11-21T13:45:33Z"
     },
     {
       "id": "iterator-join",
@@ -27491,20 +27536,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-20",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-21",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27923,9 +27954,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-21",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-20T14:26:20Z"
+      "lastActivityAt": "2026-11-21T13:45:32Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30670,20 +30715,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-20",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
           "date": "2026-10-21",
           "votes": 0,
           "qualifiedAuthors": 0,
@@ -31102,9 +31133,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-21",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-20T14:26:18Z"
+      "lastActivityAt": "2026-11-21T13:45:30Z"
     },
     {
       "id": "navigation-source",

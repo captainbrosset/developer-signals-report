@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-22T12:43:55.369Z",
-    "staleAfter": "2026-11-24T12:43:55.369Z",
+    "generatedAt": "2026-11-23T15:03:50.220Z",
+    "staleAfter": "2026-11-25T15:03:50.220Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,21 +10,23 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-22T12:43:55.369Z"
+        "retrievedAt": "2026-11-23T15:03:50.220Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-22T12:43:55.369Z"
+        "retrievedAt": "2026-11-23T15:03:50.220Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-22T12:43:55.369Z"
+        "retrievedAt": "2026-11-23T15:03:50.220Z"
       }
     ],
     "warnings": [
-      "web-midi: feed votes 19 differed from GitHub 20; GitHub value used."
+      "anchor-positioning: feed votes 281 differed from GitHub 282; GitHub value used.",
+      "interpolate-size: feed votes 103 differed from GitHub 104; GitHub value used.",
+      "scroll-triggered-animations: feed votes 3 differed from GitHub 4; GitHub value used."
     ]
   },
   "features": [
@@ -51,26 +53,26 @@
         "firefox"
       ],
       "votes": 537,
-      "qualifiedAuthors": 7,
+      "qualifiedAuthors": 8,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
         "voteDemand": 100,
-        "useCaseEvidence": 62.7,
+        "useCaseEvidence": 65.7,
         "workaroundBurden": 0,
-        "composite": 71.9
+        "composite": 73
       },
       "confidence": {
         "level": "medium",
-        "score": 0.63,
-        "rationale": "7 distinct qualified authors; 537 issue votes; 17% of reviewed comments qualified."
+        "score": 0.67,
+        "rationale": "8 distinct qualified authors; 537 issue votes; 19% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
         "votes30d": 3,
-        "score7d": 0,
-        "score30d": 1.1
+        "score7d": 1.1,
+        "score30d": 2.2
       },
       "comments": [
         {
@@ -720,13 +722,29 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-7078509879",
           "createdAt": "2026-11-22T11:32:31Z",
           "body": "@blue-j Aside from lossless, it's compression is [definitely rivalled](https://jakearchibald.com/2026/jpeg-xl-vs-avif/).",
-          "positiveReactions": 0,
+          "positiveReactions": 2,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
             "developer experience"
           ],
           "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABpkJH7A",
+          "author": "blue-j",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-7084328940",
+          "createdAt": "2026-11-22T19:21:32Z",
+          "body": "Thanks for sharing! It's interesting data. Your experiments sharpened my understanding of my perspective. We deal with pro imagery workflows, and it's the support for color models and bit depths and lossless compression that matter the most in that context.\n\nBringing pro imagery concerns to the browser like color management, lossless compression, color model breadth, and the like will make a big difference to further erode the distinction between the desktop and web. JPEG XL is presently the greatest opportunity for that.\n\nIn the world of evaluating compression, which I have not personally done much of, I've seen the use of special \"full reference\" IQA metrics which might be of interest to you if you are not already familiar. I'd be excited to see such stats in your data!",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "Thanks for sharing! It's interesting data. Your experiments sharpened my understanding of my perspective. We deal with pro imagery workflows, and it's the support for color models…",
+          "summaryKind": "source-excerpt"
         }
       ],
       "snapshots": [
@@ -803,19 +821,19 @@
         {
           "date": "2026-11-22",
           "votes": 537,
-          "qualifiedAuthors": 7,
+          "qualifiedAuthors": 8,
           "reactionBoost": 0.96,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
             "voteDemand": 100,
-            "useCaseEvidence": 62.7,
+            "useCaseEvidence": 65.7,
             "workaroundBurden": 0,
-            "composite": 71.9
+            "composite": 73
           }
         }
       ],
-      "lastActivityAt": "2026-11-22T11:32:57Z"
+      "lastActivityAt": "2026-11-22T19:21:32Z"
     },
     {
       "id": "temporal",
@@ -1032,20 +1050,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-21",
-          "votes": 275,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.4,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.6
-          }
-        },
         {
           "date": "2026-10-22",
           "votes": 276,
@@ -1465,9 +1469,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.9
           }
+        },
+        {
+          "date": "2026-11-22",
+          "votes": 284,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 90.9,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.9
+          }
         }
       ],
-      "lastActivityAt": "2026-11-21T13:45:29Z"
+      "lastActivityAt": "2026-11-22T13:39:14Z"
     },
     {
       "id": "attr",
@@ -1798,7 +1816,7 @@
         "firefox",
         "safari"
       ],
-      "votes": 281,
+      "votes": 282,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
@@ -1807,18 +1825,18 @@
         "voteDemand": 90.8,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 13.8,
-        "composite": 55.3
+        "composite": 55.4
       },
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 281 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 282 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 0,
-        "score30d": 0
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 0.1,
+        "score30d": 0.1
       },
       "comments": [
         {
@@ -1869,7 +1887,7 @@
         },
         {
           "date": "2026-11-16",
-          "votes": 281,
+          "votes": 282,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
@@ -1878,7 +1896,7 @@
             "voteDemand": 90.8,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 13.8,
-            "composite": 55.3
+            "composite": 55.4
           }
         }
       ],
@@ -2748,26 +2766,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 103,
+      "votes": 104,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 74.7,
+        "voteDemand": 74.9,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 45.2
+        "composite": 45.3
       },
       "confidence": {
         "level": "medium",
         "score": 0.44,
-        "rationale": "1 distinct qualified author; 103 issue votes; 50% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 104 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 19,
+        "votes7d": 20,
         "votes30d": 0,
-        "score7d": 1.6,
+        "score7d": 1.7,
         "score30d": 0
       },
       "comments": [
@@ -2824,16 +2842,16 @@
         },
         {
           "date": "2026-09-29",
-          "votes": 103,
+          "votes": 104,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 74.7,
+            "voteDemand": 74.9,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 45.2
+            "composite": 45.3
           }
         }
       ],
@@ -9770,20 +9788,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-21",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
           "date": "2026-10-22",
           "votes": 22,
           "qualifiedAuthors": 0,
@@ -10202,9 +10206,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-22",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-21T13:45:28Z"
+      "lastActivityAt": "2026-11-22T13:39:13Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -12525,20 +12543,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-21",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
           "date": "2026-10-22",
           "votes": 14,
           "qualifiedAuthors": 0,
@@ -12957,9 +12961,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-22",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-21T13:45:31Z"
+      "lastActivityAt": "2026-11-22T13:39:16Z"
     },
     {
       "id": "virtual-keyboard",
@@ -15062,20 +15080,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-21",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-10-22",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -15494,9 +15498,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-22",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-21T13:45:34Z"
+      "lastActivityAt": "2026-11-22T13:39:19Z"
     },
     {
       "id": "meta-text-scale",
@@ -21332,6 +21350,65 @@
       "lastActivityAt": "2026-08-14T14:45:35Z"
     },
     {
+      "id": "scroll-triggered-animations",
+      "slug": "scroll-triggered-animations",
+      "title": "Scroll-triggered animations",
+      "summary": "Developer demand and implementation evidence for Scroll Triggered Animations.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 961,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/961"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-triggered-animations/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 4,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 12.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.1,
+        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-02",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-02T13:41:31Z"
+    },
+    {
       "id": "secure-payment-confirmation",
       "slug": "secure-payment-confirmation",
       "title": "Secure payment confirmation",
@@ -23260,65 +23337,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:35:56Z"
-    },
-    {
-      "id": "scroll-triggered-animations",
-      "slug": "scroll-triggered-animations",
-      "title": "Scroll-triggered animations",
-      "summary": "Developer demand and implementation evidence for Scroll Triggered Animations.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 961,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/961"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-triggered-animations/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-11-02",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-02T13:41:31Z"
     },
     {
       "id": "speak",
@@ -27057,20 +27075,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-21",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-22",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27489,9 +27493,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-22",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-21T13:45:33Z"
+      "lastActivityAt": "2026-11-22T13:39:18Z"
     },
     {
       "id": "iterator-join",
@@ -27536,20 +27554,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-21",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-22",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27968,9 +27972,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-22",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-21T13:45:32Z"
+      "lastActivityAt": "2026-11-22T13:39:17Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -30715,20 +30733,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-21",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
           "date": "2026-10-22",
           "votes": 0,
           "qualifiedAuthors": 0,
@@ -31147,9 +31151,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-22",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-21T13:45:30Z"
+      "lastActivityAt": "2026-11-22T13:39:15Z"
     },
     {
       "id": "navigation-source",

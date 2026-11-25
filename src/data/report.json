@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-23T15:03:50.220Z",
-    "staleAfter": "2026-11-25T15:03:50.220Z",
+    "generatedAt": "2026-11-25T14:41:59.729Z",
+    "staleAfter": "2026-11-27T14:41:59.729Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,23 +10,28 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-23T15:03:50.220Z"
+        "retrievedAt": "2026-11-25T14:41:59.729Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-23T15:03:50.220Z"
+        "retrievedAt": "2026-11-25T14:41:59.729Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-23T15:03:50.220Z"
+        "retrievedAt": "2026-11-25T14:41:59.729Z"
       }
     ],
     "warnings": [
-      "anchor-positioning: feed votes 281 differed from GitHub 282; GitHub value used.",
-      "interpolate-size: feed votes 103 differed from GitHub 104; GitHub value used.",
-      "scroll-triggered-animations: feed votes 3 differed from GitHub 4; GitHub value used."
+      "anchor-positioning: feed votes 282 differed from GitHub 283; GitHub value used.",
+      "corner-shape: feed votes 150 differed from GitHub 151; GitHub value used.",
+      "field-content: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "gap-decorations: feed votes 54 differed from GitHub 55; GitHub value used.",
+      "hanging-punctuation: feed votes 23 differed from GitHub 24; GitHub value used.",
+      "text-box: feed votes 90 differed from GitHub 91; GitHub value used.",
+      "text-decoration-inset: feed votes 0 differed from GitHub 1; GitHub value used.",
+      "white-space-trim: feed votes 0 differed from GitHub 1; GitHub value used."
     ]
   },
   "features": [
@@ -855,13 +860,13 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 284,
+      "votes": 285,
       "qualifiedAuthors": 3,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 1,
       "workaroundAuthors": 2,
       "score": {
-        "voteDemand": 90.9,
+        "voteDemand": 91,
         "useCaseEvidence": 39.6,
         "workaroundBurden": 23.5,
         "composite": 62.9
@@ -869,11 +874,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.49,
-        "rationale": "3 distinct qualified authors; 284 issue votes; 30% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 285 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
-        "votes30d": 8,
+        "votes7d": 2,
+        "votes30d": 9,
         "score7d": 0.1,
         "score30d": 0.3
       },
@@ -1050,20 +1055,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-22",
-          "votes": 276,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.5,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.6
-          }
-        },
         {
           "date": "2026-10-23",
           "votes": 276,
@@ -1483,9 +1474,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.9
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 285,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 91,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.9
+          }
         }
       ],
-      "lastActivityAt": "2026-11-22T13:39:14Z"
+      "lastActivityAt": "2026-11-24T16:31:45Z"
     },
     {
       "id": "attr",
@@ -1816,13 +1821,13 @@
         "firefox",
         "safari"
       ],
-      "votes": 282,
+      "votes": 283,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0.5,
       "workaroundAuthors": 1,
       "score": {
-        "voteDemand": 90.8,
+        "voteDemand": 90.9,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 13.8,
         "composite": 55.4
@@ -1830,11 +1835,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.54,
-        "rationale": "1 distinct qualified author; 282 issue votes; 100% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 283 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
-        "votes30d": 2,
+        "votes7d": 3,
+        "votes30d": 3,
         "score7d": 0.1,
         "score30d": 0.1
       },
@@ -1887,13 +1892,13 @@
         },
         {
           "date": "2026-11-16",
-          "votes": 282,
+          "votes": 283,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0.5,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 90.8,
+            "voteDemand": 90.9,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 13.8,
             "composite": 55.4
@@ -2084,27 +2089,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 150,
+      "votes": 151,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 80.7,
+        "voteDemand": 80.8,
         "useCaseEvidence": 40.8,
         "workaroundBurden": 0,
-        "composite": 54.6
+        "composite": 54.7
       },
       "confidence": {
         "level": "medium",
         "score": 0.53,
-        "rationale": "3 distinct qualified authors; 150 issue votes; 50% of reviewed comments qualified."
+        "rationale": "3 distinct qualified authors; 151 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 16,
-        "votes30d": 21,
-        "score7d": 3.6,
-        "score30d": 15.5
+        "votes7d": 17,
+        "votes30d": 22,
+        "score7d": 3.7,
+        "score30d": 15.6
       },
       "comments": [
         {
@@ -2251,16 +2256,16 @@
         },
         {
           "date": "2026-10-04",
-          "votes": 150,
+          "votes": 151,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 80.7,
+            "voteDemand": 80.8,
             "useCaseEvidence": 40.8,
             "workaroundBurden": 0,
-            "composite": 54.6
+            "composite": 54.7
           }
         }
       ],
@@ -2766,26 +2771,26 @@
         "firefox",
         "safari"
       ],
-      "votes": 104,
+      "votes": 105,
       "qualifiedAuthors": 1,
       "reactionBoost": 0.2,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 74.9,
+        "voteDemand": 75,
         "useCaseEvidence": 22.5,
         "workaroundBurden": 0,
-        "composite": 45.3
+        "composite": 45.4
       },
       "confidence": {
         "level": "medium",
         "score": 0.44,
-        "rationale": "1 distinct qualified author; 104 issue votes; 50% of reviewed comments qualified."
+        "rationale": "1 distinct qualified author; 105 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 20,
+        "votes7d": 21,
         "votes30d": 0,
-        "score7d": 1.7,
+        "score7d": 1.8,
         "score30d": 0
       },
       "comments": [
@@ -2842,16 +2847,16 @@
         },
         {
           "date": "2026-09-29",
-          "votes": 104,
+          "votes": 105,
           "qualifiedAuthors": 1,
           "reactionBoost": 0.2,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 74.9,
+            "voteDemand": 75,
             "useCaseEvidence": 22.5,
             "workaroundBurden": 0,
-            "composite": 45.3
+            "composite": 45.4
           }
         }
       ],
@@ -3141,27 +3146,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 35,
+      "votes": 36,
       "qualifiedAuthors": 2,
       "reactionBoost": 0.16,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 57.6,
+        "voteDemand": 58.1,
         "useCaseEvidence": 32.9,
         "workaroundBurden": 0,
-        "composite": 40.3
+        "composite": 40.6
       },
       "confidence": {
         "level": "medium",
         "score": 0.42,
-        "rationale": "2 distinct qualified authors; 35 issue votes; 50% of reviewed comments qualified."
+        "rationale": "2 distinct qualified authors; 36 issue votes; 50% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 3,
-        "votes30d": 3,
-        "score7d": 4.8,
-        "score30d": 4.8
+        "votes7d": 4,
+        "votes30d": 4,
+        "score7d": 5.1,
+        "score30d": 5.1
       },
       "comments": [
         {
@@ -3253,16 +3258,16 @@
         },
         {
           "date": "2026-10-14",
-          "votes": 35,
+          "votes": 36,
           "qualifiedAuthors": 2,
           "reactionBoost": 0.16,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 57.6,
+            "voteDemand": 58.1,
             "useCaseEvidence": 32.9,
             "workaroundBurden": 0,
-            "composite": 40.3
+            "composite": 40.6
           }
         }
       ],
@@ -3500,13 +3505,13 @@
       "missingBrowsers": [
         "safari"
       ],
-      "votes": 114,
+      "votes": 115,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 76.3,
+        "voteDemand": 76.5,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
         "composite": 38.2
@@ -3514,11 +3519,11 @@
       "confidence": {
         "level": "low",
         "score": 0.3,
-        "rationale": "0 distinct qualified authors; 114 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 115 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 26,
-        "votes30d": 35,
+        "votes7d": 27,
+        "votes30d": 36,
         "score7d": 2.1,
         "score30d": 3
       },
@@ -3589,13 +3594,13 @@
         },
         {
           "date": "2026-09-18",
-          "votes": 114,
+          "votes": 115,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 76.3,
+            "voteDemand": 76.5,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
             "composite": 38.2
@@ -4156,21 +4161,21 @@
       "missingBrowsers": [
         "firefox"
       ],
-      "votes": 90,
+      "votes": 91,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 72.6,
+        "voteDemand": 72.7,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 36.3
+        "composite": 36.4
       },
       "confidence": {
         "level": "low",
         "score": 0.29,
-        "rationale": "0 distinct qualified authors; 90 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 91 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -4228,16 +4233,16 @@
       "snapshots": [
         {
           "date": "2026-09-03",
-          "votes": 90,
+          "votes": 91,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 72.6,
+            "voteDemand": 72.7,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 36.3
+            "composite": 36.4
           }
         }
       ],
@@ -4999,6 +5004,212 @@
       "lastActivityAt": "2026-11-05T11:04:17Z"
     },
     {
+      "id": "window-management",
+      "slug": "window-management",
+      "title": "Window management",
+      "summary": "The window.getScreenDetails() method gets information about the screens on a device, which you can use to place new windows on a specific screen with window.open().",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 198,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/198"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-management/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 14,
+      "qualifiedAuthors": 2,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0.5,
+      "workaroundAuthors": 1,
+      "score": {
+        "voteDemand": 43.6,
+        "useCaseEvidence": 31.8,
+        "workaroundBurden": 13.8,
+        "composite": 35
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.34,
+        "rationale": "2 distinct qualified authors; 14 issue votes; 40% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 1,
+        "score7d": 4,
+        "score30d": 4.6
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABSRZB_Q",
+          "author": "paulkorir",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-5521162749",
+          "createdAt": "2026-09-03T05:49:56Z",
+          "body": "## What I want to do with this feature\n\nExam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.\n\n## What I'm having to do in the meantime\n\nI have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
+          "parsedGoal": "Exam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.",
+          "parsedWorkaround": "I have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbNpSpw",
+          "author": "Omid-Heydarzadeh",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6121214631",
+          "createdAt": "2026-10-12T09:11:14Z",
+          "body": "## What I want to do with this feature\n\nI need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation.\n\nThis requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.\n\n## What I'm having to do in the meantime\n\nWithout the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size.\n\nThis fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
+          "parsedGoal": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation. This requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.",
+          "parsedWorkaround": "Without the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size. This fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "moderate",
+          "generatedSummary": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a s…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABbWbNQQ",
+          "author": "M68HC060",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6130421057",
+          "createdAt": "2026-10-12T18:42:21Z",
+          "body": "## What I want to do with this feature\n\nI want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform.\n\nFor this, I need to have a controlling window and a window that is shown on a projector.\nI want this window to be full-screen.\nMost of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\".\n\n(It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer.\n-AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory).\n\nI'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).\n\n## What I'm having to do in the meantime\n\nClick, click, click and click. Teach others what to click on and they think it's complicated, they forget what they had to do and they can't seem to learn it.\n-I can't use polyfill for this. Sometimes I have to hardcode coordinates and sizes, but it can't fix much.\nThere really aren't any alternatives, except from writing an application from scratch in C or C++. This approach will basically need a browser-view, thus I have to write my own web-browser, just to make this presentation stuff work.\n\nMy users (which are about 4-5 people in the same place), often start by pressing the \"Full Window\" button or resizes the window and that messes up the window-size, which the browser saved from last time. That makes things move around in such a way that they're inconvenien (many objects have fixed sizes, such as a DIV containing a preview of the thing to be displayed on the screen).\n\nCurrent solution for identifying screens: The position of the screen. I use \"leftmost\" and \"rightmost\" screens, found by traversing screen[n], and finding the highest and lowest values of 'left'. This won't always work if having 3 displays or more; then I'd have to be able to identify the displays by model, manufacturer, capabilities, possibly features, etc., save the identification in localStorage and hope that I can recognize the displays on the next run (avoiding users complaining \"It doesn't work - it never works!\").\n\nEdit: I sometimes need to hide my fullscreen-display (eg. the one on the projector), to reveal another presentation below my window (let's say it's a PowerPoint, but it's not).\nI cannot hide my \"popup-window\" (the fullscreen-window) so I can later unhide it, when the \"PowerPoint\" presentation is finished.",
+          "parsedGoal": "I want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform. For this, I need to have a controlling window and a window that is shown on a projector. I want this window to be full-screen. Most of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\". (It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer. -AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory). I'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).",
+          "parsedWorkaround": "Click, click, click and click. Teach others what to click on and they think it's complicated, they forget what they had to do and they can't seem to learn it. -I can't use polyfill for this. Sometimes I have to hardcode coordinates and sizes, but it can't fix much. There really aren't any alternatives, except from writing an application from scratch in C or C++. This approach will basically need a browser-view, thus I have to write my own web-browser, just to make this presentation stuff work. My users (which are about 4-5 people in the same place), often start by pressing the \"Full Window\" button or resizes the window and that messes up the window-size, which the browser saved from last time. That makes things move around in such a way that they're inconvenien (many objects have fixed sizes, such as a DIV containing a preview of the thing to be displayed on the screen). Current solution for identifying screens: The position of the screen. I use \"leftmost\" and \"rightmost\" screens, found by traversing screen[n], and finding the highest and lowest values of 'left'. This won't always work if having 3 displays or more; then I'd have to be able to identify the displays by model, manufacturer, capabilities, possibly features, etc., save the identification in localStorage and hope that I can recognize the displays on the next run (avoiding users complaining \"It doesn't work - it never works!\"). Edit: I sometimes need to hide my fullscreen-display (eg. the one on the projector), to reveal another presentation below my window (let's say it's a PowerPoint, but it's not). I cannot hide my \"popup-window\" (the fullscreen-window) so I can later unhide it, when the \"PowerPoint\" presentation is finished.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "security"
+          ],
+          "workaroundSeverity": "moderate"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABfjzGGw",
+          "author": "wstaelens",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6412879387",
+          "createdAt": "2026-10-26T09:40:32Z",
+          "body": "## What I want to do with this feature\nAlways show payment popups on the second screen (cash registers in shops).\n\n## What I'm having to do in the meantime\n\nSwitching customers to Chrome and Edge where this is supported. Adding a limitation to FireFox because of this.",
+          "parsedGoal": "Always show payment popups on the second screen (cash registers in shops).",
+          "parsedWorkaround": "Switching customers to Chrome and Edge where this is supported. Adding a limitation to FireFox because of this.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABqFSTtw",
+          "author": "3ynm",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-7119082423",
+          "createdAt": "2026-11-24T01:25:15Z",
+          "body": "## What I want to do with this feature\n\nTo display a message warning users to pick the screen where the browser is located.\n\n## What I'm having to do in the meantime\n\nI don't display the warning to Firefox users.",
+          "parsedGoal": "To display a message warning users to pick the screen where the browser is located.",
+          "parsedWorkaround": "I don't display the warning to Firefox users.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "To display a message warning users to pick the screen where the browser is located.",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "votes": 13,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 13.8,
+            "composite": 30.4
+          }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 14,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 13.8,
+            "composite": 31
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 14,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 13.8,
+            "composite": 31
+          }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 14,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0.5,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 43.6,
+            "useCaseEvidence": 31.8,
+            "workaroundBurden": 13.8,
+            "composite": 35
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-24T01:25:15Z"
+    },
+    {
       "id": "cross-document-view-transitions",
       "slug": "cross-document-view-transitions",
       "title": "Cross-document view transitions",
@@ -5205,6 +5416,207 @@
       "lastActivityAt": "2026-10-01T13:48:27Z"
     },
     {
+      "id": "random-function",
+      "slug": "random-function",
+      "title": "random()",
+      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 514,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 27,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 53.6,
+        "useCaseEvidence": 19.8,
+        "workaroundBurden": 0,
+        "composite": 33.7
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.31,
+        "rationale": "1 distinct qualified author; 27 issue votes; 25% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 2,
+        "score7d": 6.9,
+        "score30d": 7.5
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABdpuo1w",
+          "author": "casparfairhall",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6284880087",
+          "createdAt": "2026-10-20T06:28:59Z",
+          "body": "## What I want to do with this feature\n\nCSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.\n\n## What I'm having to do in the meantime\n\nI'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
+          "parsedGoal": "CSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.",
+          "parsedWorkaround": "I'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "moderate"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABdq3jZQ",
+          "author": "kizu",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6286074725",
+          "createdAt": "2026-10-20T07:48:07Z",
+          "body": "## What I want to do with this feature\n\nFor improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.\n\n## What I'm having to do in the meantime\n\nAside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
+          "parsedGoal": "For improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.",
+          "parsedWorkaround": "Aside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABg5jrvg",
+          "author": "lucascantor",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6502804414",
+          "createdAt": "2026-10-29T16:46:39Z",
+          "body": "## What I want to do with this feature\n\nA zero-JS \"slot machine\" animation effect on my homepage at [lucascantor.com](https://lucascantor.com): a reel of facts about me spins and lands on a random one, and a dice button spins again. Radio inputs, `:has()` and `@keyframes` already do everything except the actual randomness.\n\n## What I'm having to do in the meantime\n\nI pre-render 16 copies of the homepage and use a CDN edge script to serve one at random. That makes the homepage uncacheable, and each copy needs `noindex` plus a canonical link. Clicks within a visit follow a fixed cycle, so it's still not truly random. `random()` would replace all of this overhead with one CSS declaration per state.",
+          "parsedGoal": "A zero-JS \"slot machine\" animation effect on my homepage at lucascantor.com: a reel of facts about me spins and lands on a random one, and a dice button spins again. Radio inputs, :has() and @keyframes already do everything except the actual randomness.",
+          "parsedWorkaround": "I pre-render 16 copies of the homepage and use a CDN edge script to serve one at random. That makes the homepage uncacheable, and each copy needs noindex plus a canonical link. Clicks within a visit follow a fixed cycle, so it's still not truly random. random() would replace all of this overhead with one CSS declaration per state.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABqSodkw",
+          "author": "phantomxx29474",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-7133076883",
+          "createdAt": "2026-11-24T13:36:37Z",
+          "body": "> ## What I want to do with this feature\n> A zero-JS \"slot machine\" animation effect on my homepage at [lucascantor.com](https://lucascantor.com): a reel of facts about me spins and lands on a random one, and a dice button spins again. Radio inputs, `:has()` and `@keyframes` already do everything except the actual randomness.\n> \n> ## What I'm having to do in the meantime\n> I pre-render 16 copies of the homepage and use a CDN edge script to serve one at random. That makes the homepage uncacheable, and each copy needs `noindex` plus a canonical link. Clicks within a visit follow a fixed cycle, so it's still not truly random. `random()` would replace all of this overhead with one CSS declaration per state.\n\nIt's should be baseline, newly available this year with Firefox 161 released today.\n\nOne thing though. the official MDN page has not fully updated yet. Support for all caching keywords such as element-scoped, property-scoped, property-index-scoped, fixed (0 <= x <= 1) is in all major browsers especially on Chrome. \n\n\nhttps://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/161",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "date & time"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "## What I want to do with this feature A zero-JS \"slot machine\" animation effect on my homepage at lucascantor.com: a reel of facts about me spins and lands on a random one, and a…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 21,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.9
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 25,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 52.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.2
+          }
+        },
+        {
+          "date": "2026-10-29",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "votes": 26,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.5
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 27,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 26.8
+          }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 27,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 53.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 33.7
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-24T13:43:26Z"
+    },
+    {
       "id": "line-clamp",
       "slug": "line-clamp",
       "title": "line-clamp",
@@ -5328,6 +5740,104 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:36:28Z"
+    },
+    {
+      "id": "gap-decorations",
+      "slug": "gap-decorations",
+      "title": "Gap decorations",
+      "summary": "The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 362,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/362"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gap-decorations/",
+      "categories": [
+        "Grid",
+        "Flexbox",
+        "Multi-column"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 55,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 64.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 32.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.26,
+        "rationale": "0 distinct qualified authors; 55 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 3,
+        "score7d": 0.5,
+        "score30d": 0.5
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABd1fqyw",
+          "author": "scardusty",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/362#issuecomment-6297217739",
+          "createdAt": "2026-10-20T17:39:50Z",
+          "body": "## What I want to do with this feature\n\nImmediately I think of `grid` and `table` inner borders.\n- Add inner borders to tables that have `border-radius` (since they cannot have `border-collapse: collapsed`). \n- And grids that look like border-collapsed tables, such as a calendar's borders.\n- Gap color! \n- The potential for attractive plaid CSS. \n\n## What I'm having to do in the meantime\n\nFor grids and tables, I have been using a background color on the parent, in combo with differently colored cells/child elements to simulate a gap-decoration kind of thing.\n\n**The problem:** If there's not a perfect number of child elements to fill the grid/table, the leftover space has the parent `background`. A blank area exposing the background workaround. The other thing I _could_ do (possibly? if the stars are aligned) is manually assign borders to sides of the child elements with lots of `:last-child` etc. and content-dependent conditions, or something with pseudo elements. I think everyone hates doing that, and it's not reasonable on a large scale.\n\nI read about `rule` on mdn docs and it's the most excited I've been about a new CSS feature in awhile. It would be a great solution.\nIdeally, the `rule` would not continue through the empty space. \n\nI think it's a great idea and I have no complaints about the syntax. I like the `repeat()` function involvement.\nBut yeah, when styling what is essentially a rule or gap, it would be great to be able to target it instead of using a background hack.",
+          "parsedGoal": "Immediately I think of grid and table inner borders. - Add inner borders to tables that have border-radius (since they cannot have border-collapse: collapsed). - And grids that look like border-collapsed tables, such as a calendar's borders. - Gap color! - The potential for attractive plaid CSS.",
+          "parsedWorkaround": "For grids and tables, I have been using a background color on the parent, in combo with differently colored cells/child elements to simulate a gap-decoration kind of thing. The problem: If there's not a perfect number of child elements to fill the grid/table, the leftover space has the parent background. A blank area exposing the background workaround. The other thing I could do (possibly? if the stars are aligned) is manually assign borders to sides of the child elements with lots of :last-child etc. and content-dependent conditions, or something with pseudo elements. I think everyone hates doing that, and it's not reasonable on a large scale. I read about rule on mdn docs and it's the most excited I've been about a new CSS feature in awhile. It would be a great solution. Ideally, the rule would not continue through the empty space. I think it's a great idea and I have no complaints about the syntax. I like the repeat() function involvement. But yeah, when styling what is essentially a rule or gap, it would be great to be able to target it instead of using a background hack.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design",
+            "date & time",
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 52,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 63.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 31.9
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "votes": 55,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 64.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 32.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-20T17:39:50Z"
     },
     {
       "id": "interest-invokers",
@@ -5530,104 +6040,6 @@
         }
       ],
       "lastActivityAt": "2026-10-03T08:54:25Z"
-    },
-    {
-      "id": "gap-decorations",
-      "slug": "gap-decorations",
-      "title": "Gap decorations",
-      "summary": "The column-rule and row-rule CSS properties display decorative lines between columns and rows of a flex, grid, or multi-column layout. The rule-break, rule-outset, and rule-paint-order properties control the appearance of these lines.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 362,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/362"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gap-decorations/",
-      "categories": [
-        "Grid",
-        "Flexbox",
-        "Multi-column"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 54,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 64.5,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 32.2
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.26,
-        "rationale": "0 distinct qualified authors; 54 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 2,
-        "votes30d": 2,
-        "score7d": 0.3,
-        "score30d": 0.3
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABd1fqyw",
-          "author": "scardusty",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/362#issuecomment-6297217739",
-          "createdAt": "2026-10-20T17:39:50Z",
-          "body": "## What I want to do with this feature\n\nImmediately I think of `grid` and `table` inner borders.\n- Add inner borders to tables that have `border-radius` (since they cannot have `border-collapse: collapsed`). \n- And grids that look like border-collapsed tables, such as a calendar's borders.\n- Gap color! \n- The potential for attractive plaid CSS. \n\n## What I'm having to do in the meantime\n\nFor grids and tables, I have been using a background color on the parent, in combo with differently colored cells/child elements to simulate a gap-decoration kind of thing.\n\n**The problem:** If there's not a perfect number of child elements to fill the grid/table, the leftover space has the parent `background`. A blank area exposing the background workaround. The other thing I _could_ do (possibly? if the stars are aligned) is manually assign borders to sides of the child elements with lots of `:last-child` etc. and content-dependent conditions, or something with pseudo elements. I think everyone hates doing that, and it's not reasonable on a large scale.\n\nI read about `rule` on mdn docs and it's the most excited I've been about a new CSS feature in awhile. It would be a great solution.\nIdeally, the `rule` would not continue through the empty space. \n\nI think it's a great idea and I have no complaints about the syntax. I like the `repeat()` function involvement.\nBut yeah, when styling what is essentially a rule or gap, it would be great to be able to target it instead of using a background hack.",
-          "parsedGoal": "Immediately I think of grid and table inner borders. - Add inner borders to tables that have border-radius (since they cannot have border-collapse: collapsed). - And grids that look like border-collapsed tables, such as a calendar's borders. - Gap color! - The potential for attractive plaid CSS.",
-          "parsedWorkaround": "For grids and tables, I have been using a background color on the parent, in combo with differently colored cells/child elements to simulate a gap-decoration kind of thing. The problem: If there's not a perfect number of child elements to fill the grid/table, the leftover space has the parent background. A blank area exposing the background workaround. The other thing I could do (possibly? if the stars are aligned) is manually assign borders to sides of the child elements with lots of :last-child etc. and content-dependent conditions, or something with pseudo elements. I think everyone hates doing that, and it's not reasonable on a large scale. I read about rule on mdn docs and it's the most excited I've been about a new CSS feature in awhile. It would be a great solution. Ideally, the rule would not continue through the empty space. I think it's a great idea and I have no complaints about the syntax. I like the repeat() function involvement. But yeah, when styling what is essentially a rule or gap, it would be great to be able to target it instead of using a background hack.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design",
-            "date & time",
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 52,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 63.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 31.9
-          }
-        },
-        {
-          "date": "2026-10-20",
-          "votes": 54,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 64.5,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 32.2
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-20T17:39:50Z"
     },
     {
       "id": "edit-context",
@@ -5999,180 +6411,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:34Z"
-    },
-    {
-      "id": "window-management",
-      "slug": "window-management",
-      "title": "Window management",
-      "summary": "The window.getScreenDetails() method gets information about the screens on a device, which you can use to place new windows on a specific screen with window.open().",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 198,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/198"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/window-management/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 14,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0.5,
-      "workaroundAuthors": 1,
-      "score": {
-        "voteDemand": 43.6,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 13.8,
-        "composite": 31
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.27,
-        "rationale": "1 distinct qualified author; 14 issue votes; 25% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 4,
-        "score7d": 0,
-        "score30d": 11.7
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABSRZB_Q",
-          "author": "paulkorir",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-5521162749",
-          "createdAt": "2026-09-03T05:49:56Z",
-          "body": "## What I want to do with this feature\n\nExam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.\n\n## What I'm having to do in the meantime\n\nI have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
-          "parsedGoal": "Exam proctoring has grown in importance since the 2020 pandemic and it is far easier to effect this through a browser than through requiring download of additional client software. One of the core requirements of proctoring is the ability to detect the presence of external monitors. Therefore, this is a critical requirement in all browsers.",
-          "parsedWorkaround": "I have to disable using the web application on browsers that do not support this feature. Presently, I use Firefox which allows container tabs that allow me to have multiple independent user sessions on the same browser during development and testing but Firefox does not support the Window Management API. I would like to see this added to Firefox as well as part of the core supported API so that users––regardless of their browsers––can take remote exams using their browsers.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABbNpSpw",
-          "author": "Omid-Heydarzadeh",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6121214631",
-          "createdAt": "2026-10-12T09:11:14Z",
-          "body": "## What I want to do with this feature\n\nI need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation.\n\nThis requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.\n\n## What I'm having to do in the meantime\n\nWithout the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size.\n\nThis fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
-          "parsedGoal": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a single screen, it should use the opposite half of the current screen—horizontally in landscape orientation or vertically in portrait orientation. This requires access to the available screens, their positions and dimensions, and identification of the screen containing the current window.",
-          "parsedWorkaround": "Without the Window Management API, I only have limited information about the current screen. I can approximate side-by-side placement on a single display, but on multi-monitor systems I must guess the coordinates and use a fixed window size. This fallback is unreliable because monitor arrangements, resolutions, scaling factors, available work areas, and taskbar positions vary. The report window may therefore open on the wrong monitor, be partially off-screen, or have an unsuitable size. There is no dependable polyfill because ordinary web APIs do not expose the geometry of all connected displays.",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "moderate",
-          "generatedSummary": "I need to open a secondary report window next to the main application. On a multi-monitor setup, it should open on another screen and use that screen’s available workspace. On a s…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABbWbNQQ",
-          "author": "M68HC060",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6130421057",
-          "createdAt": "2026-10-12T18:42:21Z",
-          "body": "## What I want to do with this feature\n\nI want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform.\n\nFor this, I need to have a controlling window and a window that is shown on a projector.\nI want this window to be full-screen.\nMost of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\".\n\n(It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer.\n-AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory).\n\nI'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).\n\n## What I'm having to do in the meantime\n\nClick, click, click and click. Teach others what to click on and they think it's complicated, they forget what they had to do and they can't seem to learn it.\n-I can't use polyfill for this. Sometimes I have to hardcode coordinates and sizes, but it can't fix much.\nThere really aren't any alternatives, except from writing an application from scratch in C or C++. This approach will basically need a browser-view, thus I have to write my own web-browser, just to make this presentation stuff work.\n\nMy users (which are about 4-5 people in the same place), often start by pressing the \"Full Window\" button or resizes the window and that messes up the window-size, which the browser saved from last time. That makes things move around in such a way that they're inconvenien (many objects have fixed sizes, such as a DIV containing a preview of the thing to be displayed on the screen).\n\nCurrent solution for identifying screens: The position of the screen. I use \"leftmost\" and \"rightmost\" screens, found by traversing screen[n], and finding the highest and lowest values of 'left'. This won't always work if having 3 displays or more; then I'd have to be able to identify the displays by model, manufacturer, capabilities, possibly features, etc., save the identification in localStorage and hope that I can recognize the displays on the next run (avoiding users complaining \"It doesn't work - it never works!\").\n\nEdit: I sometimes need to hide my fullscreen-display (eg. the one on the projector), to reveal another presentation below my window (let's say it's a PowerPoint, but it's not).\nI cannot hide my \"popup-window\" (the fullscreen-window) so I can later unhide it, when the \"PowerPoint\" presentation is finished.",
-          "parsedGoal": "I want to make a presentation \"web-site\" (instead of making an application in C/C++), so that it works cross-platform. For this, I need to have a controlling window and a window that is shown on a projector. I want this window to be full-screen. Most of my presentation features are automatic, but I can't get sound to work automatically, \"for security reasons\". (It really annoys me that browsers have been crippled, featuers been disabled over the years, so we can't make things work well any longer. -AT LEAST, all features should be present when opening a file://.../index.html and all files inside the same directory / subdirectories of the same directory). I'd very much like to be able to identify screens by hardware (which connector they're connected to), by size (already possible, unless someone changed resolution - changing resolution on the main screen is also a problem, especially when having 3 screens and the main screen is changed to a different monitor).",
-          "parsedWorkaround": "Click, click, click and click. Teach others what to click on and they think it's complicated, they forget what they had to do and they can't seem to learn it. -I can't use polyfill for this. Sometimes I have to hardcode coordinates and sizes, but it can't fix much. There really aren't any alternatives, except from writing an application from scratch in C or C++. This approach will basically need a browser-view, thus I have to write my own web-browser, just to make this presentation stuff work. My users (which are about 4-5 people in the same place), often start by pressing the \"Full Window\" button or resizes the window and that messes up the window-size, which the browser saved from last time. That makes things move around in such a way that they're inconvenien (many objects have fixed sizes, such as a DIV containing a preview of the thing to be displayed on the screen). Current solution for identifying screens: The position of the screen. I use \"leftmost\" and \"rightmost\" screens, found by traversing screen[n], and finding the highest and lowest values of 'left'. This won't always work if having 3 displays or more; then I'd have to be able to identify the displays by model, manufacturer, capabilities, possibly features, etc., save the identification in localStorage and hope that I can recognize the displays on the next run (avoiding users complaining \"It doesn't work - it never works!\"). Edit: I sometimes need to hide my fullscreen-display (eg. the one on the projector), to reveal another presentation below my window (let's say it's a PowerPoint, but it's not). I cannot hide my \"popup-window\" (the fullscreen-window) so I can later unhide it, when the \"PowerPoint\" presentation is finished.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "security"
-          ],
-          "workaroundSeverity": "moderate"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABfjzGGw",
-          "author": "wstaelens",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/198#issuecomment-6412879387",
-          "createdAt": "2026-10-26T09:40:32Z",
-          "body": "## What I want to do with this feature\nAlways show payment popups on the second screen (cash registers in shops).\n\n## What I'm having to do in the meantime\n\nSwitching customers to Chrome and Edge where this is supported. Adding a limitation to FireFox because of this.",
-          "parsedGoal": "Always show payment popups on the second screen (cash registers in shops).",
-          "parsedWorkaround": "Switching customers to Chrome and Edge where this is supported. Adding a limitation to FireFox because of this.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 10,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 38.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 19.3
-          }
-        },
-        {
-          "date": "2026-10-12",
-          "votes": 13,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0.5,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 42.5,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 13.8,
-            "composite": 30.4
-          }
-        },
-        {
-          "date": "2026-10-26",
-          "votes": 14,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0.5,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 13.8,
-            "composite": 31
-          }
-        },
-        {
-          "date": "2026-11-05",
-          "votes": 14,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0.5,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 13.8,
-            "composite": 31
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-05T21:41:17Z"
     },
     {
       "id": "css-modules",
@@ -7470,6 +7708,145 @@
       "lastActivityAt": "2026-08-14T14:49:54Z"
     },
     {
+      "id": "link-parameters",
+      "slug": "link-parameters",
+      "title": "Link parameters",
+      "summary": "Developer demand and implementation evidence for Link Parameters.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 923,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 36,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 58.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 29
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 36 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 20,
+        "votes30d": 0,
+        "score7d": 6.2,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
+          "author": "tylersticka",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
+          "createdAt": "2026-09-15T17:38:35Z",
+          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
+          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "layout & design"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABXkEX2w",
+          "author": "kizu",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5876291547",
+          "createdAt": "2026-09-28T18:43:17Z",
+          "body": "## What I want to do with this feature\n\nCreate reusable and parametrized SVG images that could have a CSS-based API to adjust various parameters inside, not just colors.\n\n## What I'm having to do in the meantime\n\nFor anything non-color related, right now the only way is to hack around the dimensions of the used element and apply media queries/css math conditions: https://kizu.dev/svg-linked-parameters-workaround/ (the examples are _mostly_ using colors, but I have many use cases where I want to adjust something like stroke width, presence of markers, etc.)",
+          "parsedGoal": "Create reusable and parametrized SVG images that could have a CSS-based API to adjust various parameters inside, not just colors.",
+          "parsedWorkaround": "For anything non-color related, right now the only way is to hack around the dimensions of the used element and apply media queries/css math conditions: https://kizu.dev/svg-linked-parameters-workaround/ (the examples are mostly using colors, but I have many use cases where I want to adjust something like stroke width, presence of markers, etc.)",
+          "positiveReactions": 3,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABZwMvUw",
+          "author": "fpapado",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-6023229267",
+          "createdAt": "2026-10-06T18:52:29Z",
+          "body": "## What I want to do with this feature\n\nTo have reusable SVG components that support multiple colour systems (not just monochrome, but duochrome or even [rendering modes similar to SF symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols#Rendering-modes)), while also being performant, portable and easy to consume in different projects.\n\n## What I'm having to do in the meantime\n\nI maintain a set of tools to make `<use>`-based SVG components more ergonomic (especially compared to inlining SVGs, which works but is not great for performance!) While that has worked well enough, it is still more toolchain components to maintain. Also `<use>` is not easy to consume from central locations like CDNs, due to CORS limitations. \n\nA few years ago, [I wrote an analysis of current approaches and my estimate of what pain points they solve](https://fotis.xyz/posts/introducing-svg-use/); [link parameters in particular were my favourite](https://fotis.xyz/posts/introducing-svg-use/#:~:text=CSS%20Linked%20Parameters) (based on an earlier iteration, but I think it holds up 😌)",
+          "parsedGoal": "To have reusable SVG components that support multiple colour systems (not just monochrome, but duochrome or even rendering modes similar to SF symbols), while also being performant, portable and easy to consume in different projects.",
+          "parsedWorkaround": "I maintain a set of tools to make <use>-based SVG components more ergonomic (especially compared to inlining SVGs, which works but is not great for performance!) While that has worked well enough, it is still more toolchain components to maintain. Also <use> is not easy to consume from central locations like CDNs, due to CORS limitations. A few years ago, I wrote an analysis of current approaches and my estimate of what pain points they solve; link parameters in particular were my favourite (based on an earlier iteration, but I think it holds up 😌)",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-09-15",
+          "votes": 12,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 41.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20.6
+          }
+        },
+        {
+          "date": "2026-09-28",
+          "votes": 16,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.8
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "votes": 36,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 58.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29
+          }
+        }
+      ],
+      "lastActivityAt": "2026-10-06T18:52:29Z"
+    },
+    {
       "id": "stretch",
       "slug": "stretch",
       "title": "stretch",
@@ -7716,145 +8093,6 @@
       "lastActivityAt": "2026-09-18T16:17:50Z"
     },
     {
-      "id": "link-parameters",
-      "slug": "link-parameters",
-      "title": "Link parameters",
-      "summary": "Developer demand and implementation evidence for Link Parameters.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 923,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/923"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/link-parameters/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 35,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 57.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 28.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 35 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 19,
-        "votes30d": 0,
-        "score7d": 6,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABUtsGHw",
-          "author": "tylersticka",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5685052959",
-          "createdAt": "2026-09-15T17:38:35Z",
-          "body": "## What I want to do with this feature\n\nApply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.\n\n## What I'm having to do in the meantime\n\n- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors.\n- Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore).\n- Using the SVG as a mask. [Not very performant](https://cloudfour.com/thinks/svg-icon-stress-test/#mask-image).\n\nMost of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational.\n\nMany organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
-          "parsedGoal": "Apply styles (typically color) to SVG elements loaded via CSS. For example, an arrow affordance that adapts to the current color scheme.",
-          "parsedWorkaround": "- Prepare multiple SVG elements beforehand. Not dynamic, requires maintenance and prior knowledge of all desired colors. - Embed SVGs as data URIs, repeating as needed for different colors. Compresses well but not very ergonomic to author or maintain (escaping text is a chore). - Using the SVG as a mask. Not very performant. Most of the time, I end up just repeating the SVG inline in my markup, even when the element is entirely presentational. Many organizations I've worked with continue to rely on icon fonts or JavaScript to overcome these hurdles.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABXkEX2w",
-          "author": "kizu",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-5876291547",
-          "createdAt": "2026-09-28T18:43:17Z",
-          "body": "## What I want to do with this feature\n\nCreate reusable and parametrized SVG images that could have a CSS-based API to adjust various parameters inside, not just colors.\n\n## What I'm having to do in the meantime\n\nFor anything non-color related, right now the only way is to hack around the dimensions of the used element and apply media queries/css math conditions: https://kizu.dev/svg-linked-parameters-workaround/ (the examples are _mostly_ using colors, but I have many use cases where I want to adjust something like stroke width, presence of markers, etc.)",
-          "parsedGoal": "Create reusable and parametrized SVG images that could have a CSS-based API to adjust various parameters inside, not just colors.",
-          "parsedWorkaround": "For anything non-color related, right now the only way is to hack around the dimensions of the used element and apply media queries/css math conditions: https://kizu.dev/svg-linked-parameters-workaround/ (the examples are mostly using colors, but I have many use cases where I want to adjust something like stroke width, presence of markers, etc.)",
-          "positiveReactions": 3,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABZwMvUw",
-          "author": "fpapado",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/923#issuecomment-6023229267",
-          "createdAt": "2026-10-06T18:52:29Z",
-          "body": "## What I want to do with this feature\n\nTo have reusable SVG components that support multiple colour systems (not just monochrome, but duochrome or even [rendering modes similar to SF symbols](https://developer.apple.com/design/human-interface-guidelines/sf-symbols#Rendering-modes)), while also being performant, portable and easy to consume in different projects.\n\n## What I'm having to do in the meantime\n\nI maintain a set of tools to make `<use>`-based SVG components more ergonomic (especially compared to inlining SVGs, which works but is not great for performance!) While that has worked well enough, it is still more toolchain components to maintain. Also `<use>` is not easy to consume from central locations like CDNs, due to CORS limitations. \n\nA few years ago, [I wrote an analysis of current approaches and my estimate of what pain points they solve](https://fotis.xyz/posts/introducing-svg-use/); [link parameters in particular were my favourite](https://fotis.xyz/posts/introducing-svg-use/#:~:text=CSS%20Linked%20Parameters) (based on an earlier iteration, but I think it holds up 😌)",
-          "parsedGoal": "To have reusable SVG components that support multiple colour systems (not just monochrome, but duochrome or even rendering modes similar to SF symbols), while also being performant, portable and easy to consume in different projects.",
-          "parsedWorkaround": "I maintain a set of tools to make <use>-based SVG components more ergonomic (especially compared to inlining SVGs, which works but is not great for performance!) While that has worked well enough, it is still more toolchain components to maintain. Also <use> is not easy to consume from central locations like CDNs, due to CORS limitations. A few years ago, I wrote an analysis of current approaches and my estimate of what pain points they solve; link parameters in particular were my favourite (based on an earlier iteration, but I think it holds up 😌)",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-15",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        },
-        {
-          "date": "2026-09-28",
-          "votes": 16,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 22.8
-          }
-        },
-        {
-          "date": "2026-10-06",
-          "votes": 35,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 57.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-06T18:52:29Z"
-    },
-    {
       "id": "text-wrap-pretty",
       "slug": "text-wrap-pretty",
       "title": "text-wrap: pretty",
@@ -7911,9 +8149,23 @@
             "workaroundBurden": 0,
             "composite": 28.8
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 35,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 57.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.8
+          }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:10:42Z"
+      "lastActivityAt": "2026-11-24T10:09:49Z"
     },
     {
       "id": "navigator-install",
@@ -8632,177 +8884,6 @@
       "lastActivityAt": "2026-09-03T14:35:35Z"
     },
     {
-      "id": "random-function",
-      "slug": "random-function",
-      "title": "random()",
-      "summary": "The random() CSS function chooses a random numeric value within a specified range. This allows for dynamic, randomized styling using CSS.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 514,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/514"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-function/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 27,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 53.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 26.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.22,
-        "rationale": "0 distinct qualified authors; 27 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 6,
-        "score7d": 0.3,
-        "score30d": 1.9
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABdpuo1w",
-          "author": "casparfairhall",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6284880087",
-          "createdAt": "2026-10-20T06:28:59Z",
-          "body": "## What I want to do with this feature\n\nCSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.\n\n## What I'm having to do in the meantime\n\nI'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
-          "parsedGoal": "CSS random() is valuable for generating novel animations and layouts with a very low overhead. The broad trend in CSS for features such as this is obviating the need for JavaScript, especially when it comes to animations, is a very positive one.",
-          "parsedWorkaround": "I'm having to use a polyfill for now, since cross-browser support is lacking. The sooner random() can be considered a baseline feature, the better.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "layout & design"
-          ],
-          "workaroundSeverity": "moderate"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABdq3jZQ",
-          "author": "kizu",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6286074725",
-          "createdAt": "2026-10-20T07:48:07Z",
-          "body": "## What I want to do with this feature\n\nFor improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.\n\n## What I'm having to do in the meantime\n\nAside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
-          "parsedGoal": "For improving the visual design of web pages by making slight adjustments like choosing a random one to show, or transforming some elements to look more natural and less uniform.",
-          "parsedWorkaround": "Aside from JS, with regular CSS, we have to rely on some awkward math to achieve pseudo-random — either simpler techniques based on cicada principle, or something like what I describe in my article here: https://kizu.dev/tree-counting-and-random/",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABg5jrvg",
-          "author": "lucascantor",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/514#issuecomment-6502804414",
-          "createdAt": "2026-10-29T16:46:39Z",
-          "body": "## What I want to do with this feature\n\nA zero-JS \"slot machine\" animation effect on my homepage at [lucascantor.com](https://lucascantor.com): a reel of facts about me spins and lands on a random one, and a dice button spins again. Radio inputs, `:has()` and `@keyframes` already do everything except the actual randomness.\n\n## What I'm having to do in the meantime\n\nI pre-render 16 copies of the homepage and use a CDN edge script to serve one at random. That makes the homepage uncacheable, and each copy needs `noindex` plus a canonical link. Clicks within a visit follow a fixed cycle, so it's still not truly random. `random()` would replace all of this overhead with one CSS declaration per state.",
-          "parsedGoal": "A zero-JS \"slot machine\" animation effect on my homepage at lucascantor.com: a reel of facts about me spins and lands on a random one, and a dice button spins again. Radio inputs, :has() and @keyframes already do everything except the actual randomness.",
-          "parsedWorkaround": "I pre-render 16 copies of the homepage and use a CDN edge script to serve one at random. That makes the homepage uncacheable, and each copy needs noindex plus a canonical link. Clicks within a visit follow a fixed cycle, so it's still not truly random. random() would replace all of this overhead with one CSS declaration per state.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        },
-        {
-          "date": "2026-10-20",
-          "votes": 25,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 52.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.2
-          }
-        },
-        {
-          "date": "2026-10-29",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        },
-        {
-          "date": "2026-11-02",
-          "votes": 26,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.5
-          }
-        },
-        {
-          "date": "2026-11-05",
-          "votes": 27,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 53.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 26.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-05T21:41:42Z"
-    },
-    {
       "id": "reading-flow",
       "slug": "reading-flow",
       "title": "reading-flow",
@@ -9382,6 +9463,69 @@
       "lastActivityAt": "2026-09-03T14:35:51Z"
     },
     {
+      "id": "hanging-punctuation",
+      "slug": "hanging-punctuation",
+      "title": "Hanging punctuation",
+      "summary": "The hanging-punctuation CSS property puts punctuation characters outside of the box to align the text with the rest of the document.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 302,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/302"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/hanging-punctuation/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox"
+      ],
+      "votes": 24,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 51.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.21,
+        "rationale": "0 distinct qualified authors; 24 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 24,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 51.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:49:40Z"
+    },
+    {
       "id": "user-select",
       "slug": "user-select",
       "title": "user-select",
@@ -9441,69 +9585,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:08Z"
-    },
-    {
-      "id": "hanging-punctuation",
-      "slug": "hanging-punctuation",
-      "title": "Hanging punctuation",
-      "summary": "The hanging-punctuation CSS property puts punctuation characters outside of the box to align the text with the rest of the document.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 302,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/302"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/hanging-punctuation/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox"
-      ],
-      "votes": 23,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 51.1,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 25.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.21,
-        "rationale": "0 distinct qualified authors; 23 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 23,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 51.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:49:40Z"
     },
     {
       "id": "manifest",
@@ -9787,20 +9868,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-22",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
         {
           "date": "2026-10-23",
           "votes": 22,
@@ -10220,9 +10287,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-22T13:39:13Z"
+      "lastActivityAt": "2026-11-24T16:31:44Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -12543,20 +12624,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-22",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
           "date": "2026-10-23",
           "votes": 14,
           "qualifiedAuthors": 0,
@@ -12975,9 +13042,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-22T13:39:16Z"
+      "lastActivityAt": "2026-11-24T16:31:47Z"
     },
     {
       "id": "virtual-keyboard",
@@ -14812,9 +14893,23 @@
             "workaroundBurden": 0,
             "composite": 20
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
         }
       ],
-      "lastActivityAt": "2026-09-19T09:47:25Z"
+      "lastActivityAt": "2026-11-24T10:09:48Z"
     },
     {
       "id": "overflow-clip-margin",
@@ -15079,20 +15174,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-22",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
         {
           "date": "2026-10-23",
           "votes": 9,
@@ -15512,9 +15593,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-22T13:39:19Z"
+      "lastActivityAt": "2026-11-24T16:31:50Z"
     },
     {
       "id": "meta-text-scale",
@@ -18495,9 +18590,23 @@
             "workaroundBurden": 0,
             "composite": 16.7
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 7,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 33.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 16.7
+          }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:10:48Z"
+      "lastActivityAt": "2026-11-24T10:09:50Z"
     },
     {
       "id": "webgl-multi-draw",
@@ -21071,9 +21180,23 @@
             "workaroundBurden": 0,
             "composite": 12.9
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
         }
       ],
-      "lastActivityAt": "2026-08-26T12:10:28Z"
+      "lastActivityAt": "2026-11-24T10:09:49Z"
     },
     {
       "id": "longtasks",
@@ -21596,6 +21719,81 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:09:20Z"
+    },
+    {
+      "id": "webdriver-bidi",
+      "slug": "webdriver-bidi",
+      "title": "WebDriver BiDi",
+      "summary": "WebDriver BiDi is a bidirectional protocol that allows a WebDriver client and a browser to communicate with each other.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 175,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/175"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webdriver-bidi/",
+      "categories": [
+        "WebDriver"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 4,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 12.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.1,
+        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 0,
+        "score7d": 4.1,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 2,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 17.7,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 8.8
+          }
+        },
+        {
+          "date": "2026-09-18",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-18T16:17:35Z"
     },
     {
       "id": "baseline-source",
@@ -22780,9 +22978,9 @@
         "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
+        "votes7d": 0,
         "votes30d": 1,
-        "score7d": 2.3,
+        "score7d": 0,
         "score30d": 2.3
       },
       "comments": [],
@@ -22828,9 +23026,23 @@
             "workaroundBurden": 0,
             "composite": 11.1
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 3,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 22.3,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 11.1
+          }
         }
       ],
-      "lastActivityAt": "2026-11-02T13:41:42Z"
+      "lastActivityAt": "2026-11-24T10:10:03Z"
     },
     {
       "id": "ink",
@@ -23646,81 +23858,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:52Z"
-    },
-    {
-      "id": "webdriver-bidi",
-      "slug": "webdriver-bidi",
-      "title": "WebDriver BiDi",
-      "summary": "WebDriver BiDi is a bidirectional protocol that allows a WebDriver client and a browser to communicate with each other.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 175,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/175"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webdriver-bidi/",
-      "categories": [
-        "WebDriver"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 0,
-        "score7d": 2.3,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        },
-        {
-          "date": "2026-09-18",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-18T16:17:35Z"
     },
     {
       "id": "webgl-compressed-texture-s3tc",
@@ -24672,69 +24809,6 @@
         }
       ],
       "lastActivityAt": "2026-09-03T14:34:27Z"
-    },
-    {
-      "id": "gamepad-vr",
-      "slug": "gamepad-vr",
-      "title": "Gamepad VR hands and poses",
-      "summary": "The hand and pose properties of a Gamepad object represent the position in space and the hand that WebVR controllers are held in.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 74,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/74"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/gamepad-vr/",
-      "categories": [
-        "Gamepad"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "safari"
-      ],
-      "votes": 2,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 17.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 8.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.07,
-        "rationale": "0 distinct qualified authors; 2 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 2,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 17.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 8.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:09:17Z"
     },
     {
       "id": "import-maps-multiple",
@@ -26832,6 +26906,65 @@
       "lastActivityAt": "2026-08-26T12:09:32Z"
     },
     {
+      "id": "field-content",
+      "slug": "field-content",
+      "title": "::field-content",
+      "summary": "Developer demand and implementation evidence for Field Content.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 979,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/979"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/field-content/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-24",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-24T10:10:01Z"
+    },
+    {
       "id": "interaction-contentful-paint",
       "slug": "interaction-contentful-paint",
       "title": "Interaction contentful paint",
@@ -27075,20 +27208,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-22",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-23",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27507,9 +27626,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-22T13:39:18Z"
+      "lastActivityAt": "2026-11-24T16:31:49Z"
     },
     {
       "id": "iterator-join",
@@ -27554,20 +27687,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-22",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-23",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27986,9 +28105,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-22T13:39:17Z"
+      "lastActivityAt": "2026-11-24T16:31:48Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -29468,6 +29601,65 @@
       "lastActivityAt": "2026-09-18T16:17:49Z"
     },
     {
+      "id": "text-decoration-inset",
+      "slug": "text-decoration-inset",
+      "title": "text-decoration-inset",
+      "summary": "Developer demand and implementation evidence for Text Decoration Inset.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 977,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/977"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-decoration-inset/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-24",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-24T10:09:53Z"
+    },
+    {
       "id": "virtual-sensors",
       "slug": "virtual-sensors",
       "title": "Virtual sensors",
@@ -30394,6 +30586,65 @@
       "lastActivityAt": "2026-08-26T12:10:01Z"
     },
     {
+      "id": "white-space-trim",
+      "slug": "white-space-trim",
+      "title": "white-space-trim",
+      "summary": "Developer demand and implementation evidence for White Space Trim.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 982,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/982"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/white-space-trim/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 1,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 11.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 5.6
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.05,
+        "rationale": "0 distinct qualified authors; 1 issue vote; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-24",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-24T10:10:11Z"
+    },
+    {
       "id": "writingsuggestions",
       "slug": "writingsuggestions",
       "title": "writingsuggestions",
@@ -30691,6 +30942,65 @@
       "lastActivityAt": "2026-11-05T21:41:23Z"
     },
     {
+      "id": "hyphenate-limit-lines",
+      "slug": "hyphenate-limit-lines",
+      "title": "hyphenate-limit-lines",
+      "summary": "Developer demand and implementation evidence for Hyphenate Limit Lines.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 980,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/980"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/hyphenate-limit-lines/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-24",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-24T10:10:04Z"
+    },
+    {
       "id": "iterator-zip-zipkeyed",
       "slug": "iterator-zip-zipkeyed",
       "title": "Iterator.zip() and Iterator.zipKeyed()",
@@ -30732,20 +31042,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-22",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
         {
           "date": "2026-10-23",
           "votes": 0,
@@ -31165,9 +31461,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-22T13:39:15Z"
+      "lastActivityAt": "2026-11-24T16:31:46Z"
     },
     {
       "id": "navigation-source",
@@ -31283,9 +31593,82 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-05T21:41:41Z"
+      "lastActivityAt": "2026-11-24T10:10:04Z"
+    },
+    {
+      "id": "random-item",
+      "slug": "random-item",
+      "title": "random-item()",
+      "summary": "Developer demand and implementation evidence for Random Item.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 981,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/981"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/random-item/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-24",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-24T10:10:07Z"
     },
     {
       "id": "resizable",
@@ -31611,6 +31994,65 @@
       "lastActivityAt": "2026-10-14T07:24:35Z"
     },
     {
+      "id": "wasm-wide-arithmetic",
+      "slug": "wasm-wide-arithmetic",
+      "title": "Wide arithmetic (WebAssembly)",
+      "summary": "Developer demand and implementation evidence for Wasm Wide Arithmetic.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 978,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/978"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/wasm-wide-arithmetic/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-24",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-24T10:09:58Z"
+    },
+    {
       "id": "wheel-events-momentum",
       "slug": "wheel-events-momentum",
       "title": "Wheel events momentum",
@@ -31727,6 +32169,65 @@
         }
       ],
       "lastActivityAt": "2026-11-05T21:41:47Z"
+    },
+    {
+      "id": "wrap-inside",
+      "slug": "wrap-inside",
+      "title": "wrap-inside",
+      "summary": "Developer demand and implementation evidence for Wrap Inside.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 983,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/983"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/wrap-inside/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 0,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 0,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 0
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0,
+        "rationale": "0 distinct qualified authors; 0 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-24",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-24T10:10:13Z"
     }
   ]
 }

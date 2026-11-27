@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-25T14:41:59.729Z",
-    "staleAfter": "2026-11-27T14:41:59.729Z",
+    "generatedAt": "2026-11-27T14:03:59.506Z",
+    "staleAfter": "2026-11-29T14:03:59.506Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,28 +10,24 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-25T14:41:59.729Z"
+        "retrievedAt": "2026-11-27T14:03:59.506Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-25T14:41:59.729Z"
+        "retrievedAt": "2026-11-27T14:03:59.506Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-25T14:41:59.729Z"
+        "retrievedAt": "2026-11-27T14:03:59.506Z"
       }
     ],
     "warnings": [
-      "anchor-positioning: feed votes 282 differed from GitHub 283; GitHub value used.",
-      "corner-shape: feed votes 150 differed from GitHub 151; GitHub value used.",
-      "field-content: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "gap-decorations: feed votes 54 differed from GitHub 55; GitHub value used.",
-      "hanging-punctuation: feed votes 23 differed from GitHub 24; GitHub value used.",
-      "text-box: feed votes 90 differed from GitHub 91; GitHub value used.",
-      "text-decoration-inset: feed votes 0 differed from GitHub 1; GitHub value used.",
-      "white-space-trim: feed votes 0 differed from GitHub 1; GitHub value used."
+      "barcode: feed votes 17 differed from GitHub 18; GitHub value used.",
+      "line-clamp: feed votes 62 differed from GitHub 63; GitHub value used.",
+      "mixin: feed votes 21 differed from GitHub 22; GitHub value used.",
+      "referencetarget: feed votes 20 differed from GitHub 21; GitHub value used."
     ]
   },
   "features": [
@@ -57,7 +53,7 @@
         "edge",
         "firefox"
       ],
-      "votes": 537,
+      "votes": 538,
       "qualifiedAuthors": 8,
       "reactionBoost": 0.96,
       "workaroundBurdenRaw": 0,
@@ -71,11 +67,11 @@
       "confidence": {
         "level": "medium",
         "score": 0.67,
-        "rationale": "8 distinct qualified authors; 537 issue votes; 19% of reviewed comments qualified."
+        "rationale": "8 distinct qualified authors; 538 issue votes; 19% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
-        "votes30d": 3,
+        "votes7d": 1,
+        "votes30d": 4,
         "score7d": 1.1,
         "score30d": 2.2
       },
@@ -87,7 +83,7 @@
           "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/215#issuecomment-3174271737",
           "createdAt": "2025-08-11T11:10:51Z",
           "body": "Why is it even a question? This is the best possible data format for lossless compressed images.",
-          "positiveReactions": 49,
+          "positiveReactions": 50,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -825,7 +821,7 @@
         },
         {
           "date": "2026-11-22",
-          "votes": 537,
+          "votes": 538,
           "qualifiedAuthors": 8,
           "reactionBoost": 0.96,
           "workaroundBurdenRaw": 0,
@@ -1055,20 +1051,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-23",
-          "votes": 276,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.5,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.6
-          }
-        },
         {
           "date": "2026-10-24",
           "votes": 276,
@@ -1488,9 +1470,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.9
           }
+        },
+        {
+          "date": "2026-11-26",
+          "votes": 285,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 91,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.9
+          }
         }
       ],
-      "lastActivityAt": "2026-11-24T16:31:45Z"
+      "lastActivityAt": "2026-11-26T15:51:58Z"
     },
     {
       "id": "attr",
@@ -3375,21 +3371,21 @@
         "firefox",
         "safari"
       ],
-      "votes": 19,
+      "votes": 21,
       "qualifiedAuthors": 3,
       "reactionBoost": 0.08,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 48.2,
+        "voteDemand": 49.7,
         "useCaseEvidence": 40.2,
         "workaroundBurden": 0,
-        "composite": 38.2
+        "composite": 38.9
       },
       "confidence": {
         "level": "medium",
-        "score": 0.52,
-        "rationale": "3 distinct qualified authors; 19 issue votes; 100% of reviewed comments qualified."
+        "score": 0.53,
+        "rationale": "3 distinct qualified authors; 21 issue votes; 100% of reviewed comments qualified."
       },
       "trend": {
         "votes7d": 0,
@@ -3470,16 +3466,16 @@
         },
         {
           "date": "2026-09-08",
-          "votes": 19,
+          "votes": 21,
           "qualifiedAuthors": 3,
           "reactionBoost": 0.08,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 48.2,
+            "voteDemand": 49.7,
             "useCaseEvidence": 40.2,
             "workaroundBurden": 0,
-            "composite": 38.2
+            "composite": 38.9
           }
         }
       ],
@@ -4392,6 +4388,180 @@
       "lastActivityAt": "2026-10-17T12:17:08Z"
     },
     {
+      "id": "web-midi",
+      "slug": "web-midi",
+      "title": "Web MIDI",
+      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 50,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "safari"
+      ],
+      "votes": 21,
+      "qualifiedAuthors": 2,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49.7,
+        "useCaseEvidence": 31.4,
+        "workaroundBurden": 0,
+        "composite": 35.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.38,
+        "rationale": "2 distinct qualified authors; 21 issue votes; 50% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 3,
+        "votes30d": 5,
+        "score7d": 5.3,
+        "score30d": 6.2
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
+          "author": "pitrackster",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
+          "createdAt": "2026-08-25T07:16:48Z",
+          "body": "## What I want to do with this feature\n\nFirefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "parsedGoal": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. I want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABWtCQ9A",
+          "author": "Jaefae",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332",
+          "createdAt": "2026-09-24T17:04:21Z",
+          "body": "## What I want to do with this feature\nI'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.\n## What I'm having to do in the meantime\nAs of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
+          "parsedGoal": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
+          "parsedWorkaround": "As of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the app…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABe6qRcw",
+          "author": "dalingux",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6369743219",
+          "createdAt": "2026-10-23T16:32:35Z",
+          "body": "## What I want to do with this feature\n\nAs a Linux user it's a nonsense to use another browser than firefox, now more and more synth can  be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI)\nThanks.",
+          "parsedGoal": "As a Linux user it's a nonsense to use another browser than firefox, now more and more synth can be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI) Thanks.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABnuUOzw",
+          "author": "benkeia",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6960778959",
+          "createdAt": "2026-11-17T20:56:39Z",
+          "body": "## What I want to do with this feature\n\nI want to build interactive web audio, creative coding, and 3D experiences that connect directly to physical MIDI hardware (keyboards, pads, and controllers) with plug-and-play simplicity.\n\nThe web should be an open, zero-install platform for interactive music tools, live visuals, and digital instruments without requiring users to download native software. \n\nHaving this work reliably across all major browser engines—especially lightweight and privacy-focused alternatives like Firefox and Zen Browser is essential in my opinion.\n\n## What I'm having to do in the meantime\n\nRight now, the lack of universal Web MIDI support is a major blocker:\n\n- **Forcing users to switch to Chrome**: I have to tell users on Firefox, Zen, or Safari that the experience simply doesn't work and force them onto Chromium.\n- **Heavy workarounds**: The only workarounds require running local desktop bridge apps (WebSockets / Node) or bundling everything into Electron, which introduces latency, complex setup for users, and high memory usage.\n\nReliable Web MIDI across all browsers is the only clean way to make the web a viable platform for creative hardware.",
+          "parsedGoal": "I want to build interactive web audio, creative coding, and 3D experiences that connect directly to physical MIDI hardware (keyboards, pads, and controllers) with plug-and-play simplicity. The web should be an open, zero-install platform for interactive music tools, live visuals, and digital instruments without requiring users to download native software. Having this work reliably across all major browser engines—especially lightweight and privacy-focused alternatives like Firefox and Zen Browser is essential in my opinion.",
+          "parsedWorkaround": "Right now, the lack of universal Web MIDI support is a major blocker: - Forcing users to switch to Chrome: I have to tell users on Firefox, Zen, or Safari that the experience simply doesn't work and force them onto Chromium. - Heavy workarounds: The only workarounds require running local desktop bridge apps (WebSockets / Node) or bundling everything into Electron, which introduces latency, complex setup for users, and high memory usage. Reliable Web MIDI across all browsers is the only clean way to make the web a viable platform for creative hardware.",
+          "positiveReactions": 0,
+          "classification": "qualified",
+          "themes": [
+            "accessibility",
+            "media",
+            "installed apps"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I want to build interactive web audio, creative coding, and 3D experiences that connect directly to physical MIDI hardware (keyboards, pads, and controllers) with plug-and-play si…",
+          "summaryKind": "source-excerpt"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-25",
+          "votes": 11,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 40,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 20
+          }
+        },
+        {
+          "date": "2026-09-25",
+          "votes": 16,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 29.7
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "votes": 18,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 19.8,
+            "workaroundBurden": 0,
+            "composite": 30.6
+          }
+        },
+        {
+          "date": "2026-11-17",
+          "votes": 21,
+          "qualifiedAuthors": 2,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49.7,
+            "useCaseEvidence": 31.4,
+            "workaroundBurden": 0,
+            "composite": 35.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-17T20:56:40Z"
+    },
+    {
       "id": "dialog-closedby",
       "slug": "dialog-closedby",
       "title": "<dialog closedby>",
@@ -4622,180 +4792,6 @@
         }
       ],
       "lastActivityAt": "2026-10-12T16:45:03Z"
-    },
-    {
-      "id": "web-midi",
-      "slug": "web-midi",
-      "title": "Web MIDI",
-      "summary": "The Web MIDI API enables selecting MIDI input and output devices and sending and receiving MIDI messages.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 50,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/50"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/web-midi/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "safari"
-      ],
-      "votes": 20,
-      "qualifiedAuthors": 2,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49,
-        "useCaseEvidence": 31.4,
-        "workaroundBurden": 0,
-        "composite": 35.5
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.38,
-        "rationale": "2 distinct qualified authors; 20 issue votes; 50% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 2,
-        "votes30d": 4,
-        "score7d": 4.9,
-        "score30d": 5.8
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABQkZByw",
-          "author": "pitrackster",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5406867915",
-          "createdAt": "2026-08-25T07:16:48Z",
-          "body": "## What I want to do with this feature\n\nFirefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. \nI want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
-          "parsedGoal": "Firefox is my go to webrowser on all my devices (laptop / handled / android...) because it allows privacy and choices. I want to be able to create simple \"touchable\" applications to control midi instruments or DAWs and I want to make them fully working in any OS / device. This is why I choose HTML /JavaScript as \"technical stack\" and this is why I would like to be able to use this API with firefox Desktop / Android.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABWtCQ9A",
-          "author": "Jaefae",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-5818585332",
-          "createdAt": "2026-09-24T17:04:21Z",
-          "body": "## What I want to do with this feature\nI'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.\n## What I'm having to do in the meantime\nAs of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
-          "parsedGoal": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the application browser dependent.",
-          "parsedWorkaround": "As of now, users not on supported browsers are barred from midi support and suggested to use other browsers. This adds more friction to practice and discourages users from using my application.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I'm building a web application for sightreading/rythmn practice. Midi support allows users to practice with real instruments, but the lack of widespread availability makes the app…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABe6qRcw",
-          "author": "dalingux",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6369743219",
-          "createdAt": "2026-10-23T16:32:35Z",
-          "body": "## What I want to do with this feature\n\nAs a Linux user it's a nonsense to use another browser than firefox, now more and more synth can  be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI)\nThanks.",
-          "parsedGoal": "As a Linux user it's a nonsense to use another browser than firefox, now more and more synth can be controlled by the browser (like the tsunami FM-1 or the Volca FM). So have this feature maybe with a switch for activate (like you do for AI) Thanks.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABnuUOzw",
-          "author": "benkeia",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/50#issuecomment-6960778959",
-          "createdAt": "2026-11-17T20:56:39Z",
-          "body": "## What I want to do with this feature\n\nI want to build interactive web audio, creative coding, and 3D experiences that connect directly to physical MIDI hardware (keyboards, pads, and controllers) with plug-and-play simplicity.\n\nThe web should be an open, zero-install platform for interactive music tools, live visuals, and digital instruments without requiring users to download native software. \n\nHaving this work reliably across all major browser engines—especially lightweight and privacy-focused alternatives like Firefox and Zen Browser is essential in my opinion.\n\n## What I'm having to do in the meantime\n\nRight now, the lack of universal Web MIDI support is a major blocker:\n\n- **Forcing users to switch to Chrome**: I have to tell users on Firefox, Zen, or Safari that the experience simply doesn't work and force them onto Chromium.\n- **Heavy workarounds**: The only workarounds require running local desktop bridge apps (WebSockets / Node) or bundling everything into Electron, which introduces latency, complex setup for users, and high memory usage.\n\nReliable Web MIDI across all browsers is the only clean way to make the web a viable platform for creative hardware.",
-          "parsedGoal": "I want to build interactive web audio, creative coding, and 3D experiences that connect directly to physical MIDI hardware (keyboards, pads, and controllers) with plug-and-play simplicity. The web should be an open, zero-install platform for interactive music tools, live visuals, and digital instruments without requiring users to download native software. Having this work reliably across all major browser engines—especially lightweight and privacy-focused alternatives like Firefox and Zen Browser is essential in my opinion.",
-          "parsedWorkaround": "Right now, the lack of universal Web MIDI support is a major blocker: - Forcing users to switch to Chrome: I have to tell users on Firefox, Zen, or Safari that the experience simply doesn't work and force them onto Chromium. - Heavy workarounds: The only workarounds require running local desktop bridge apps (WebSockets / Node) or bundling everything into Electron, which introduces latency, complex setup for users, and high memory usage. Reliable Web MIDI across all browsers is the only clean way to make the web a viable platform for creative hardware.",
-          "positiveReactions": 0,
-          "classification": "qualified",
-          "themes": [
-            "accessibility",
-            "media",
-            "installed apps"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I want to build interactive web audio, creative coding, and 3D experiences that connect directly to physical MIDI hardware (keyboards, pads, and controllers) with plug-and-play si…",
-          "summaryKind": "source-excerpt"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-25",
-          "votes": 11,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 40,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20
-          }
-        },
-        {
-          "date": "2026-09-25",
-          "votes": 16,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 29.7
-          }
-        },
-        {
-          "date": "2026-10-23",
-          "votes": 18,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 47.4,
-            "useCaseEvidence": 19.8,
-            "workaroundBurden": 0,
-            "composite": 30.6
-          }
-        },
-        {
-          "date": "2026-11-17",
-          "votes": 20,
-          "qualifiedAuthors": 2,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49,
-            "useCaseEvidence": 31.4,
-            "workaroundBurden": 0,
-            "composite": 35.5
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-17T20:56:40Z"
     },
     {
       "id": "container-scroll-state-queries",
@@ -5639,27 +5635,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 62,
+      "votes": 63,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 66.6,
+        "voteDemand": 66.9,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 33.3
+        "composite": 33.4
       },
       "confidence": {
         "level": "low",
         "score": 0.27,
-        "rationale": "0 distinct qualified authors; 62 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 63 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.1,
+        "score30d": 0.1
       },
       "comments": [
         {
@@ -5721,6 +5717,23 @@
             "developer experience"
           ],
           "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABrVo8rA",
+          "author": "gsavchenko",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/267#issuecomment-7203339436",
+          "createdAt": "2026-11-26T21:03:16Z",
+          "body": "## What I want to do with this feature\n\nClamp user-entered text, in my case a page title, to a set number of lines with an ellipsis. The length can't be predicted or trimmed on the server, and the limit differs by viewport (two lines on desktop, three on phones).\n\n## What I'm having to do in the meantime\n\nI use `-webkit-line-clamp` with `display: -webkit-box` and `-webkit-box-orient: vertical`. It works in current browsers, but it depends on the old flexbox model. The alternatives are worse: `max-height` with `overflow: hidden` cuts the text with no ellipsis, and trimming in JavaScript adds code and can flicker on resize.",
+          "parsedGoal": "Clamp user-entered text, in my case a page title, to a set number of lines with an ellipsis. The length can't be predicted or trimmed on the server, and the limit differs by viewport (two lines on desktop, three on phones).",
+          "parsedWorkaround": "I use -webkit-line-clamp with display: -webkit-box and -webkit-box-orient: vertical. It works in current browsers, but it depends on the old flexbox model. The alternatives are worse: max-height with overflow: hidden cuts the text with no ellipsis, and trimming in JavaScript adds code and can flicker on resize.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
         }
       ],
       "snapshots": [
@@ -5737,9 +5750,23 @@
             "workaroundBurden": 0,
             "composite": 33.3
           }
+        },
+        {
+          "date": "2026-11-26",
+          "votes": 63,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 66.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 33.4
+          }
         }
       ],
-      "lastActivityAt": "2026-09-03T14:36:28Z"
+      "lastActivityAt": "2026-11-26T21:03:16Z"
     },
     {
       "id": "gap-decorations",
@@ -6413,6 +6440,180 @@
       "lastActivityAt": "2026-08-26T12:10:34Z"
     },
     {
+      "id": "barcode",
+      "slug": "barcode",
+      "title": "Barcode detector",
+      "summary": "The BarcodeDetector API recognizes various barcode formats in images.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 121,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/121"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/barcode/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 18,
+      "qualifiedAuthors": 1,
+      "reactionBoost": 0.04,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 47.4,
+        "useCaseEvidence": 20.4,
+        "workaroundBurden": 0,
+        "composite": 30.8
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.28,
+        "rationale": "1 distinct qualified author; 18 issue votes; 25% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.4,
+        "score30d": 0.4
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABRDpzbQ",
+          "author": "LeaVerou",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-5439648621",
+          "createdAt": "2026-08-27T13:13:32Z",
+          "body": "I needed this when trying to build a collaborative game via WebRTC using QR codes for signaling. The flow needed two QR codes, but using the phone camera to scan each meant a whole new page, which was poor UX. This would allow using the app itself to scan the second QR code. ",
+          "positiveReactions": 1,
+          "classification": "qualified",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none",
+          "generatedSummary": "I needed this when trying to build a collaborative game via WebRTC using QR codes for signaling. The flow needed two QR codes, but using the phone camera to scan each meant a whol…",
+          "summaryKind": "source-excerpt"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABeDXERw",
+          "author": "MrCheatEugene",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-6311756871",
+          "createdAt": "2026-10-21T08:38:57Z",
+          "body": "## What I want to do with this feature\n\nI'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. \nI want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. \nOr, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. \n\nOn mobile systems, it would make a great api.\nOn desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox. \n\n## What I'm having to do in the meantime\n\nI have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively \nWithout it, I have to import additional dependencies, which work really slow. \n\nI have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow. \n",
+          "parsedGoal": "I'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. I want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. Or, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. On mobile systems, it would make a great api. On desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox.",
+          "parsedWorkaround": "I have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively Without it, I have to import additional dependencies, which work really slow. I have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow.",
+          "positiveReactions": 1,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABfx8KSA",
+          "author": "frimp73",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-6427707976",
+          "createdAt": "2026-10-26T21:25:37Z",
+          "body": "## What I want to do with this feature\nWe place QR Codes on several places on our assembly lines, that contain parameterized links to our Smartphone PWA.\nThese help our maintenance staff to identify the assembly units very easily.\n\n## What I'm having to do in the meantime\nTo interpret the QR Codes we need a 3rd-party library.\n\nAs we usually use Android phones, this works fine without additional libs - but with the risk, that this feature is removed one day.\nIn China we can't use Android for political reasons and use iPhones instead - as Safari is the default Browser, it would help when all Browsers support it. As soon as this feature gets out of the \"experimental\" state we can rely on,that the Barcode Detection API  stays and we can remove the additional dependency.\n",
+          "parsedGoal": "We place QR Codes on several places on our assembly lines, that contain parameterized links to our Smartphone PWA. These help our maintenance staff to identify the assembly units very easily.",
+          "parsedWorkaround": "To interpret the QR Codes we need a 3rd-party library. As we usually use Android phones, this works fine without additional libs - but with the risk, that this feature is removed one day. In China we can't use Android for political reasons and use iPhones instead - as Safari is the default Browser, it would help when all Browsers support it. As soon as this feature gets out of the \"experimental\" state we can rely on,that the Barcode Detection API stays and we can remove the additional dependency.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "installed apps"
+          ],
+          "workaroundSeverity": "none"
+        },
+        {
+          "id": "IC_kwDOLb9kWM8AAAABrhR-9w",
+          "author": "radenwijaya",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-7215546103",
+          "createdAt": "2026-11-27T10:09:37Z",
+          "body": "## What I want to do with this feature\nOpening camera then reading barcode, if it become standard, it should make development a much less hassle.  Especially when its able to be directly fed as string in HTML form, or perhaps even better, as another html input type.  \n\nThat would be nice, I think.\n\n## What I'm having to do in the meantime\nUsing thrid party library to process the barcode as a string, and then dump it to a text field on a html form.",
+          "parsedGoal": "Opening camera then reading barcode, if it become standard, it should make development a much less hassle. Especially when its able to be directly fed as string in HTML form, or perhaps even better, as another html input type. That would be nice, I think.",
+          "parsedWorkaround": "Using thrid party library to process the barcode as a string, and then dump it to a text field on a html form.",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "developer experience"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-27",
+          "votes": 16,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 29.9
+          }
+        },
+        {
+          "date": "2026-10-21",
+          "votes": 16,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 45.6,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 29.9
+          }
+        },
+        {
+          "date": "2026-10-26",
+          "votes": 17,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 46.5,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 30.4
+          }
+        },
+        {
+          "date": "2026-11-27",
+          "votes": 18,
+          "qualifiedAuthors": 1,
+          "reactionBoost": 0.04,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 20.4,
+            "workaroundBurden": 0,
+            "composite": 30.8
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-27T10:12:40Z"
+    },
+    {
       "id": "css-modules",
       "slug": "css-modules",
       "title": "CSS import attributes",
@@ -6646,149 +6847,6 @@
         }
       ],
       "lastActivityAt": "2026-09-19T15:49:25Z"
-    },
-    {
-      "id": "barcode",
-      "slug": "barcode",
-      "title": "Barcode detector",
-      "summary": "The BarcodeDetector API recognizes various barcode formats in images.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 121,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/121"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/barcode/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 17,
-      "qualifiedAuthors": 1,
-      "reactionBoost": 0.04,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 46.5,
-        "useCaseEvidence": 20.4,
-        "workaroundBurden": 0,
-        "composite": 30.4
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.3,
-        "rationale": "1 distinct qualified author; 17 issue votes; 33% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 0.5,
-        "score30d": 0.5
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABRDpzbQ",
-          "author": "LeaVerou",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-5439648621",
-          "createdAt": "2026-08-27T13:13:32Z",
-          "body": "I needed this when trying to build a collaborative game via WebRTC using QR codes for signaling. The flow needed two QR codes, but using the phone camera to scan each meant a whole new page, which was poor UX. This would allow using the app itself to scan the second QR code. ",
-          "positiveReactions": 1,
-          "classification": "qualified",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none",
-          "generatedSummary": "I needed this when trying to build a collaborative game via WebRTC using QR codes for signaling. The flow needed two QR codes, but using the phone camera to scan each meant a whol…",
-          "summaryKind": "source-excerpt"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABeDXERw",
-          "author": "MrCheatEugene",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-6311756871",
-          "createdAt": "2026-10-21T08:38:57Z",
-          "body": "## What I want to do with this feature\n\nI'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. \nI want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. \nOr, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. \n\nOn mobile systems, it would make a great api.\nOn desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox. \n\n## What I'm having to do in the meantime\n\nI have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively \nWithout it, I have to import additional dependencies, which work really slow. \n\nI have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow. \n",
-          "parsedGoal": "I'm a seller on Ozon (Russian Amazon), and I develop some applications for inside usage. Like, forming supplies, etc. I've got sheets of barcodes stickers printed without labels, and to not confuse them, I have to scan them before applying. Not each, but at least one from every sheet. Same with supplies: supply sticker has a barcode, and absolutely no information about the supply contents. I want to make an application that'll at least tell me the barcode itself, the leftover stock, the supplies related with it, and if I scan a supply barcode - then the supply details. Or, for orders: order barcodes are just a label with a QR-code and a order number. It would be nice if I can scan and check it through my app/system. On mobile systems, it would make a great api. On desktop, it could help with developing a \"qr scanner\" extension, with UI like the screenshot feature in Firefox.",
-          "parsedWorkaround": "I have to use proprietary Ozon Seller software, which works, but makes me use multiple apps. It would be nice if by using this API I could make the application fully-web, without any JS/WASM dependencies, natively Without it, I have to import additional dependencies, which work really slow. I have to use extra websites when I need to scan QR's on desktop, and barely any support \"paste to upload\", so I have to save the screenshot & upload it, which's slow.",
-          "positiveReactions": 1,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "developer experience"
-          ],
-          "workaroundSeverity": "none"
-        },
-        {
-          "id": "IC_kwDOLb9kWM8AAAABfx8KSA",
-          "author": "frimp73",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/121#issuecomment-6427707976",
-          "createdAt": "2026-10-26T21:25:37Z",
-          "body": "## What I want to do with this feature\nWe place QR Codes on several places on our assembly lines, that contain parameterized links to our Smartphone PWA.\nThese help our maintenance staff to identify the assembly units very easily.\n\n## What I'm having to do in the meantime\nTo interpret the QR Codes we need a 3rd-party library.\n\nAs we usually use Android phones, this works fine without additional libs - but with the risk, that this feature is removed one day.\nIn China we can't use Android for political reasons and use iPhones instead - as Safari is the default Browser, it would help when all Browsers support it. As soon as this feature gets out of the \"experimental\" state we can rely on,that the Barcode Detection API  stays and we can remove the additional dependency.\n",
-          "parsedGoal": "We place QR Codes on several places on our assembly lines, that contain parameterized links to our Smartphone PWA. These help our maintenance staff to identify the assembly units very easily.",
-          "parsedWorkaround": "To interpret the QR Codes we need a 3rd-party library. As we usually use Android phones, this works fine without additional libs - but with the risk, that this feature is removed one day. In China we can't use Android for political reasons and use iPhones instead - as Safari is the default Browser, it would help when all Browsers support it. As soon as this feature gets out of the \"experimental\" state we can rely on,that the Barcode Detection API stays and we can remove the additional dependency.",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "installed apps"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-27",
-          "votes": 16,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 29.9
-          }
-        },
-        {
-          "date": "2026-10-21",
-          "votes": 16,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 45.6,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 29.9
-          }
-        },
-        {
-          "date": "2026-10-26",
-          "votes": 17,
-          "qualifiedAuthors": 1,
-          "reactionBoost": 0.04,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 46.5,
-            "useCaseEvidence": 20.4,
-            "workaroundBurden": 0,
-            "composite": 30.4
-          }
-        }
-      ],
-      "lastActivityAt": "2026-10-26T21:25:37Z"
     },
     {
       "id": "meta-theme-color",
@@ -9869,20 +9927,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-23",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
           "date": "2026-10-24",
           "votes": 22,
           "qualifiedAuthors": 0,
@@ -10301,9 +10345,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-26",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-24T16:31:44Z"
+      "lastActivityAt": "2026-11-26T15:51:57Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -10367,6 +10425,70 @@
       "lastActivityAt": "2026-08-26T12:08:39Z"
     },
     {
+      "id": "mixin",
+      "slug": "mixin",
+      "title": "@mixin",
+      "summary": "The @mixin and @apply CSS at-rules define reusable style declaration fragments and apply them inside rules, optionally passing arguments.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 877,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/877"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/mixin/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 22,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 50.4,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 25.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 22 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-09-03T14:36:33Z"
+    },
+    {
       "id": "display-animation",
       "slug": "display-animation",
       "title": "display animation",
@@ -10426,70 +10548,6 @@
         }
       ],
       "lastActivityAt": "2026-08-26T12:10:41Z"
-    },
-    {
-      "id": "mixin",
-      "slug": "mixin",
-      "title": "@mixin",
-      "summary": "The @mixin and @apply CSS at-rules define reusable style declaration fragments and apply them inside rules, optionally passing arguments.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 877,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/877"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/mixin/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 21,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 49.7,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.2,
-        "rationale": "0 distinct qualified authors; 21 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 21,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 49.7,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-09-03T14:36:33Z"
     },
     {
       "id": "translator",
@@ -10586,6 +10644,101 @@
         }
       ],
       "lastActivityAt": "2026-09-04T15:52:09Z"
+    },
+    {
+      "id": "canvas-html",
+      "slug": "canvas-html",
+      "title": "HTML in canvas",
+      "summary": "A <canvas> HTML element with the layoutsubtree attribute can draw descendant elements in its rendering context. You can use it to style and layout text in a canvas, expose canvas content to browser features (like accessibility, translate, or find-in-page), and apply 2D and 3D effects to HTML.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 569,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/569"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/canvas-html/",
+      "categories": [
+        "HTML elements",
+        "Canvas",
+        "WebGL",
+        "WebGPU"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 20,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 49,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.5
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.2,
+        "rationale": "0 distinct qualified authors; 20 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 0.8,
+        "score30d": 0.8
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-09-03",
+          "votes": 18,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.7
+          }
+        },
+        {
+          "date": "2026-11-05",
+          "votes": 18,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 47.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 23.7
+          }
+        },
+        {
+          "date": "2026-11-16",
+          "votes": 20,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 49,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.5
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-16T22:03:56Z"
     },
     {
       "id": "install",
@@ -10726,101 +10879,6 @@
         }
       ],
       "lastActivityAt": "2026-09-05T09:30:22Z"
-    },
-    {
-      "id": "canvas-html",
-      "slug": "canvas-html",
-      "title": "HTML in canvas",
-      "summary": "A <canvas> HTML element with the layoutsubtree attribute can draw descendant elements in its rendering context. You can use it to style and layout text in a canvas, expose canvas content to browser features (like accessibility, translate, or find-in-page), and apply 2D and 3D effects to HTML.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 569,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/569"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/canvas-html/",
-      "categories": [
-        "HTML elements",
-        "Canvas",
-        "WebGL",
-        "WebGPU"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 19,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 48.2,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 24.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 0.4,
-        "score30d": 0.4
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-09-03",
-          "votes": 18,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 47.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 23.7
-          }
-        },
-        {
-          "date": "2026-11-05",
-          "votes": 18,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 47.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 23.7
-          }
-        },
-        {
-          "date": "2026-11-16",
-          "votes": 19,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 48.2,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 24.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-16T22:03:56Z"
     },
     {
       "id": "input-color-alpha",
@@ -12624,20 +12682,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-23",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
           "date": "2026-10-24",
           "votes": 14,
           "qualifiedAuthors": 0,
@@ -13056,9 +13100,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-26",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-24T16:31:47Z"
+      "lastActivityAt": "2026-11-26T15:52:00Z"
     },
     {
       "id": "virtual-keyboard",
@@ -15175,20 +15233,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-23",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-10-24",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -15607,9 +15651,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-26",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-24T16:31:50Z"
+      "lastActivityAt": "2026-11-26T15:52:03Z"
     },
     {
       "id": "meta-text-scale",
@@ -20307,6 +20365,65 @@
       "lastActivityAt": "2026-09-18T16:17:36Z"
     },
     {
+      "id": "scroll-triggered-animations",
+      "slug": "scroll-triggered-animations",
+      "title": "Scroll-triggered animations",
+      "summary": "Developer demand and implementation evidence for Scroll Triggered Animations.",
+      "summaryKind": "editorial",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 961,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/961"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-triggered-animations/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "unknown",
+      "missingBrowsers": [],
+      "votes": 5,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 28.8,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 14.4
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.12,
+        "rationale": "0 distinct qualified authors; 5 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-11-02",
+          "votes": 5,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 28.8,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 14.4
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-02T13:41:31Z"
+    },
+    {
       "id": "serializable-errors",
       "slug": "serializable-errors",
       "title": "Serializable errors",
@@ -21471,65 +21588,6 @@
         }
       ],
       "lastActivityAt": "2026-08-14T14:45:35Z"
-    },
-    {
-      "id": "scroll-triggered-animations",
-      "slug": "scroll-triggered-animations",
-      "title": "Scroll-triggered animations",
-      "summary": "Developer demand and implementation evidence for Scroll Triggered Animations.",
-      "summaryKind": "editorial",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 961,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/961"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/scroll-triggered-animations/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "unknown",
-      "missingBrowsers": [],
-      "votes": 4,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 25.9,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 12.9
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.1,
-        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-11-02",
-          "votes": 4,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 25.9,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 12.9
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-02T13:41:31Z"
     },
     {
       "id": "secure-payment-confirmation",
@@ -27208,20 +27266,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-23",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-24",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27640,9 +27684,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-26",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-24T16:31:49Z"
+      "lastActivityAt": "2026-11-26T15:52:02Z"
     },
     {
       "id": "iterator-join",
@@ -27687,20 +27745,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-23",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-24",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -28119,9 +28163,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-26",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-24T16:31:48Z"
+      "lastActivityAt": "2026-11-26T15:52:01Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -31043,20 +31101,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-23",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
-        {
           "date": "2026-10-24",
           "votes": 0,
           "qualifiedAuthors": 0,
@@ -31475,9 +31519,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-26",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-24T16:31:46Z"
+      "lastActivityAt": "2026-11-26T15:51:59Z"
     },
     {
       "id": "navigation-source",

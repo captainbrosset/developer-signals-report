@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2026-11-27T14:03:59.506Z",
-    "staleAfter": "2026-11-29T14:03:59.506Z",
+    "generatedAt": "2026-11-28T13:21:35.312Z",
+    "staleAfter": "2026-11-30T13:21:35.312Z",
     "formulaVersion": "1.0.0",
     "qualificationVersion": "1.0.0",
     "fixture": false,
@@ -10,24 +10,26 @@
       {
         "name": "web-features developer signals",
         "url": "https://web-platform-dx.github.io/developer-signals/web-features-signals.json",
-        "retrievedAt": "2026-11-27T14:03:59.506Z"
+        "retrievedAt": "2026-11-28T13:21:35.312Z"
       },
       {
         "name": "GitHub issues and comments",
         "url": "https://github.com/web-platform-dx/developer-signals/issues",
-        "retrievedAt": "2026-11-27T14:03:59.506Z"
+        "retrievedAt": "2026-11-28T13:21:35.312Z"
       },
       {
         "name": "web-features",
         "url": "https://github.com/web-platform-dx/web-features",
-        "retrievedAt": "2026-11-27T14:03:59.506Z"
+        "retrievedAt": "2026-11-28T13:21:35.312Z"
       }
     ],
     "warnings": [
-      "barcode: feed votes 17 differed from GitHub 18; GitHub value used.",
-      "line-clamp: feed votes 62 differed from GitHub 63; GitHub value used.",
-      "mixin: feed votes 21 differed from GitHub 22; GitHub value used.",
-      "referencetarget: feed votes 20 differed from GitHub 21; GitHub value used."
+      "contact-picker: feed votes 3 differed from GitHub 4; GitHub value used.",
+      "initial-letter: feed votes 18 differed from GitHub 19; GitHub value used.",
+      "ink: feed votes 3 differed from GitHub 4; GitHub value used.",
+      "line-clamp: feed votes 63 differed from GitHub 64; GitHub value used.",
+      "text-wrap-pretty: feed votes 35 differed from GitHub 36; GitHub value used.",
+      "webcodecs: feed votes 12 differed from GitHub 13; GitHub value used."
     ]
   },
   "features": [
@@ -873,10 +875,10 @@
         "rationale": "3 distinct qualified authors; 285 issue votes; 30% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 2,
-        "votes30d": 9,
-        "score7d": 0.1,
-        "score30d": 0.3
+        "votes7d": 1,
+        "votes30d": 8,
+        "score7d": 0,
+        "score30d": 0.2
       },
       "comments": [
         {
@@ -1051,20 +1053,6 @@
         }
       ],
       "snapshots": [
-        {
-          "date": "2026-10-24",
-          "votes": 276,
-          "qualifiedAuthors": 3,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 1,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 90.5,
-            "useCaseEvidence": 39.6,
-            "workaroundBurden": 23.5,
-            "composite": 62.6
-          }
-        },
         {
           "date": "2026-10-25",
           "votes": 276,
@@ -1484,9 +1472,23 @@
             "workaroundBurden": 23.5,
             "composite": 62.9
           }
+        },
+        {
+          "date": "2026-11-27",
+          "votes": 285,
+          "qualifiedAuthors": 3,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 1,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 91,
+            "useCaseEvidence": 39.6,
+            "workaroundBurden": 23.5,
+            "composite": 62.9
+          }
         }
       ],
-      "lastActivityAt": "2026-11-26T15:51:58Z"
+      "lastActivityAt": "2026-11-27T15:40:07Z"
     },
     {
       "id": "attr",
@@ -2320,7 +2322,7 @@
           "body": "## What I want to do with this feature\n\nI'd like an easy way to make a color partially transparent, like `background-color: translucent(var(--m3c-on-background) / 0.08)`. I could literally define a `--translucent` function with `@function`.\n\n## What I'm having to do in the meantime\n\nMy two options are to write all colors as their RGB values (so I have to do `rgb(var(--m3c-background))` and `rgb(var(--m3c-on-background) / 0.08)`) or to manually write `rgb(from var(--m3c-on-background) r g b / 0.5)`. Both are so verbose I'm using a [custom Vite plugin](https://github.com/kTibow/vite-plugin-functions-mixins) instead.",
           "parsedGoal": "I'd like an easy way to make a color partially transparent, like background-color: translucent(var(--m3c-on-background) / 0.08). I could literally define a --translucent function with @function.",
           "parsedWorkaround": "My two options are to write all colors as their RGB values (so I have to do rgb(var(--m3c-background)) and rgb(var(--m3c-on-background) / 0.08)) or to manually write rgb(from var(--m3c-on-background) r g b / 0.5). Both are so verbose I'm using a custom Vite plugin instead.",
-          "positiveReactions": 1,
+          "positiveReactions": 2,
           "classification": "excluded",
           "exclusionReason": "insufficient-specificity",
           "themes": [
@@ -5635,27 +5637,27 @@
         "firefox",
         "safari"
       ],
-      "votes": 63,
+      "votes": 64,
       "qualifiedAuthors": 0,
       "reactionBoost": 0,
       "workaroundBurdenRaw": 0,
       "workaroundAuthors": 0,
       "score": {
-        "voteDemand": 66.9,
+        "voteDemand": 67.1,
         "useCaseEvidence": 0,
         "workaroundBurden": 0,
-        "composite": 33.4
+        "composite": 33.6
       },
       "confidence": {
         "level": "low",
         "score": 0.27,
-        "rationale": "0 distinct qualified authors; 63 issue votes; 0% of reviewed comments qualified."
+        "rationale": "0 distinct qualified authors; 64 issue votes; 0% of reviewed comments qualified."
       },
       "trend": {
-        "votes7d": 1,
-        "votes30d": 1,
-        "score7d": 0.1,
-        "score30d": 0.1
+        "votes7d": 2,
+        "votes30d": 2,
+        "score7d": 0.3,
+        "score30d": 0.3
       },
       "comments": [
         {
@@ -5753,16 +5755,16 @@
         },
         {
           "date": "2026-11-26",
-          "votes": 63,
+          "votes": 64,
           "qualifiedAuthors": 0,
           "reactionBoost": 0,
           "workaroundBurdenRaw": 0,
           "formulaVersion": "1.0.0",
           "components": {
-            "voteDemand": 66.9,
+            "voteDemand": 67.1,
             "useCaseEvidence": 0,
             "workaroundBurden": 0,
-            "composite": 33.4
+            "composite": 33.6
           }
         }
       ],
@@ -7981,6 +7983,81 @@
       "lastActivityAt": "2026-09-18T16:17:48Z"
     },
     {
+      "id": "text-wrap-pretty",
+      "slug": "text-wrap-pretty",
+      "title": "text-wrap: pretty",
+      "summary": "The text-wrap: pretty CSS declaration prioritizes better layout over speed when text is broken into multiple lines.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 212,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/212"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-wrap-pretty/",
+      "categories": [
+        "Text wrap"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox"
+      ],
+      "votes": 36,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 58.1,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 29
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.23,
+        "rationale": "0 distinct qualified authors; 36 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 1,
+        "votes30d": 1,
+        "score7d": 0.2,
+        "score30d": 0.2
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 35,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 57.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 28.8
+          }
+        },
+        {
+          "date": "2026-11-24",
+          "votes": 36,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 58.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 29
+          }
+        }
+      ],
+      "lastActivityAt": "2026-11-24T10:09:49Z"
+    },
+    {
       "id": "font-family-ui",
       "slug": "font-family-ui",
       "title": "UI fonts",
@@ -8149,81 +8226,6 @@
         }
       ],
       "lastActivityAt": "2026-09-18T16:17:50Z"
-    },
-    {
-      "id": "text-wrap-pretty",
-      "slug": "text-wrap-pretty",
-      "title": "text-wrap: pretty",
-      "summary": "The text-wrap: pretty CSS declaration prioritizes better layout over speed when text is broken into multiple lines.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 212,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/212"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/text-wrap-pretty/",
-      "categories": [
-        "Text wrap"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox"
-      ],
-      "votes": 35,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 57.6,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 28.8
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.23,
-        "rationale": "0 distinct qualified authors; 35 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 35,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 57.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.8
-          }
-        },
-        {
-          "date": "2026-11-24",
-          "votes": 35,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 57.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 28.8
-          }
-        }
-      ],
-      "lastActivityAt": "2026-11-24T10:09:49Z"
     },
     {
       "id": "navigator-install",
@@ -9927,20 +9929,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-24",
-          "votes": 22,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 50.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 25.2
-          }
-        },
-        {
           "date": "2026-10-25",
           "votes": 22,
           "qualifiedAuthors": 0,
@@ -10359,9 +10347,23 @@
             "workaroundBurden": 0,
             "composite": 25.2
           }
+        },
+        {
+          "date": "2026-11-27",
+          "votes": 22,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 50.4,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 25.2
+          }
         }
       ],
-      "lastActivityAt": "2026-11-26T15:51:57Z"
+      "lastActivityAt": "2026-11-27T15:40:06Z"
     },
     {
       "id": "link-rel-prefetch",
@@ -10879,6 +10881,68 @@
         }
       ],
       "lastActivityAt": "2026-09-05T09:30:22Z"
+    },
+    {
+      "id": "initial-letter",
+      "slug": "initial-letter",
+      "title": "initial-letter",
+      "summary": "The initial-letter CSS property sets the number of lines the first letter of an element occupies. You can use the property to make a raised capital or drop cap.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 189,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/189"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/initial-letter/",
+      "categories": [
+        "CSS"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 19,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 48.2,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 24.1
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.19,
+        "rationale": "0 distinct qualified authors; 19 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-26",
+          "votes": 19,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 48.2,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 24.1
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-26T12:10:30Z"
     },
     {
       "id": "input-color-alpha",
@@ -11470,68 +11534,6 @@
         }
       ],
       "lastActivityAt": "2026-09-15T07:26:39Z"
-    },
-    {
-      "id": "initial-letter",
-      "slug": "initial-letter",
-      "title": "initial-letter",
-      "summary": "The initial-letter CSS property sets the number of lines the first letter of an element occupies. You can use the property to make a raised capital or drop cap.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 189,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/189"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/initial-letter/",
-      "categories": [
-        "CSS"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 18,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 47.4,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 23.7
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.19,
-        "rationale": "0 distinct qualified authors; 18 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-26",
-          "votes": 18,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 47.4,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 23.7
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-26T12:10:30Z"
     },
     {
       "id": "input-color",
@@ -12682,20 +12684,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-24",
-          "votes": 14,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 43.6,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 21.8
-          }
-        },
-        {
           "date": "2026-10-25",
           "votes": 14,
           "qualifiedAuthors": 0,
@@ -13114,9 +13102,23 @@
             "workaroundBurden": 0,
             "composite": 22.3
           }
+        },
+        {
+          "date": "2026-11-27",
+          "votes": 15,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 44.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 22.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-26T15:52:00Z"
+      "lastActivityAt": "2026-11-27T15:40:09Z"
     },
     {
       "id": "virtual-keyboard",
@@ -14016,6 +14018,81 @@
       "lastActivityAt": "2026-10-28T09:17:13Z"
     },
     {
+      "id": "webcodecs",
+      "slug": "webcodecs",
+      "title": "WebCodecs",
+      "summary": "The WebCodecs API provides low-level access to individual video frames and chunks of audio samples, for full control over the way media is processed.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 151,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/151"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webcodecs/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [],
+      "votes": 13,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 42.5,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 21.2
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.17,
+        "rationale": "0 distinct qualified authors; 13 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [
+        {
+          "id": "IC_kwDOLb9kWM8AAAABLcpirA",
+          "author": "bivens-dev",
+          "authorAssociation": "NONE",
+          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/151#issuecomment-5063205548",
+          "createdAt": "2026-07-23T20:40:34Z",
+          "body": "Lack of ImageDecoder support in Safari is blocking the Flutter project from shipping their newest rendering engine to the web as outlined here https://github.com/flutter/flutter/issues/187212",
+          "positiveReactions": 0,
+          "classification": "excluded",
+          "exclusionReason": "insufficient-specificity",
+          "themes": [
+            "media"
+          ],
+          "workaroundSeverity": "none"
+        }
+      ],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 13,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 42.5,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 21.2
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:46:56Z"
+    },
+    {
       "id": "anchor-positioning-transforms",
       "slug": "anchor-positioning-transforms",
       "title": "Anchor positioning transforms",
@@ -14443,81 +14520,6 @@
         }
       ],
       "lastActivityAt": "2026-11-03T13:30:04Z"
-    },
-    {
-      "id": "webcodecs",
-      "slug": "webcodecs",
-      "title": "WebCodecs",
-      "summary": "The WebCodecs API provides low-level access to individual video frames and chunks of audio samples, for full control over the way media is processed.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 151,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/151"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/webcodecs/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [],
-      "votes": 12,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 41.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 20.6
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.17,
-        "rationale": "0 distinct qualified authors; 12 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [
-        {
-          "id": "IC_kwDOLb9kWM8AAAABLcpirA",
-          "author": "bivens-dev",
-          "authorAssociation": "NONE",
-          "sourceUrl": "https://github.com/web-platform-dx/developer-signals/issues/151#issuecomment-5063205548",
-          "createdAt": "2026-07-23T20:40:34Z",
-          "body": "Lack of ImageDecoder support in Safari is blocking the Flutter project from shipping their newest rendering engine to the web as outlined here https://github.com/flutter/flutter/issues/187212",
-          "positiveReactions": 0,
-          "classification": "excluded",
-          "exclusionReason": "insufficient-specificity",
-          "themes": [
-            "media"
-          ],
-          "workaroundSeverity": "none"
-        }
-      ],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 12,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 41.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 20.6
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:46:56Z"
     },
     {
       "id": "background-fetch",
@@ -15233,20 +15235,6 @@
       ],
       "snapshots": [
         {
-          "date": "2026-10-24",
-          "votes": 9,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 37,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 18.5
-          }
-        },
-        {
           "date": "2026-10-25",
           "votes": 9,
           "qualifiedAuthors": 0,
@@ -15665,9 +15653,23 @@
             "workaroundBurden": 0,
             "composite": 19.3
           }
+        },
+        {
+          "date": "2026-11-27",
+          "votes": 10,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 38.6,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 19.3
+          }
         }
       ],
-      "lastActivityAt": "2026-11-26T15:52:03Z"
+      "lastActivityAt": "2026-11-27T15:40:13Z"
     },
     {
       "id": "meta-text-scale",
@@ -21054,6 +21056,70 @@
       "lastActivityAt": "2026-08-26T12:09:18Z"
     },
     {
+      "id": "contact-picker",
+      "slug": "contact-picker",
+      "title": "Contact picker",
+      "summary": "The navigator.contacts API allows you to ask users to share limited details about entries in their contact list with your application.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 114,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/114"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/contact-picker/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "chrome",
+        "edge",
+        "firefox",
+        "safari"
+      ],
+      "votes": 4,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 12.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.1,
+        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:46:21Z"
+    },
+    {
       "id": "digital-goods",
       "slug": "digital-goods",
       "title": "Digital goods",
@@ -21314,6 +21380,68 @@
         }
       ],
       "lastActivityAt": "2026-11-24T10:09:49Z"
+    },
+    {
+      "id": "ink",
+      "slug": "ink",
+      "title": "Ink",
+      "summary": "The navigator.ink API uses the system compositor to draw to a <canvas> element ahead of pointer events, reducing the delay between moving a stylus or cursor and a pen stroke appearing on screen.",
+      "summaryKind": "source",
+      "issue": {
+        "owner": "web-platform-dx",
+        "repo": "developer-signals",
+        "number": 148,
+        "url": "https://github.com/web-platform-dx/developer-signals/issues/148"
+      },
+      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/ink/",
+      "categories": [
+        "Other"
+      ],
+      "supportState": "limited",
+      "missingBrowsers": [
+        "firefox",
+        "safari"
+      ],
+      "votes": 4,
+      "qualifiedAuthors": 0,
+      "reactionBoost": 0,
+      "workaroundBurdenRaw": 0,
+      "workaroundAuthors": 0,
+      "score": {
+        "voteDemand": 25.9,
+        "useCaseEvidence": 0,
+        "workaroundBurden": 0,
+        "composite": 12.9
+      },
+      "confidence": {
+        "level": "low",
+        "score": 0.1,
+        "rationale": "0 distinct qualified authors; 4 issue votes; 0% of reviewed comments qualified."
+      },
+      "trend": {
+        "votes7d": 0,
+        "votes30d": 0,
+        "score7d": 0,
+        "score30d": 0
+      },
+      "comments": [],
+      "snapshots": [
+        {
+          "date": "2026-08-14",
+          "votes": 4,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 25.9,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 12.9
+          }
+        }
+      ],
+      "lastActivityAt": "2026-08-14T14:46:54Z"
     },
     {
       "id": "longtasks",
@@ -22362,70 +22490,6 @@
       "lastActivityAt": "2026-09-08T16:07:55Z"
     },
     {
-      "id": "contact-picker",
-      "slug": "contact-picker",
-      "title": "Contact picker",
-      "summary": "The navigator.contacts API allows you to ask users to share limited details about entries in their contact list with your application.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 114,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/114"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/contact-picker/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "chrome",
-        "edge",
-        "firefox",
-        "safari"
-      ],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:46:21Z"
-    },
-    {
       "id": "cross-fade",
       "slug": "cross-fade",
       "title": "cross-fade()",
@@ -23101,68 +23165,6 @@
         }
       ],
       "lastActivityAt": "2026-11-24T10:10:03Z"
-    },
-    {
-      "id": "ink",
-      "slug": "ink",
-      "title": "Ink",
-      "summary": "The navigator.ink API uses the system compositor to draw to a <canvas> element ahead of pointer events, reducing the delay between moving a stylus or cursor and a pen stroke appearing on screen.",
-      "summaryKind": "source",
-      "issue": {
-        "owner": "web-platform-dx",
-        "repo": "developer-signals",
-        "number": 148,
-        "url": "https://github.com/web-platform-dx/developer-signals/issues/148"
-      },
-      "featureUrl": "https://web-platform-dx.github.io/web-features-explorer/features/ink/",
-      "categories": [
-        "Other"
-      ],
-      "supportState": "limited",
-      "missingBrowsers": [
-        "firefox",
-        "safari"
-      ],
-      "votes": 3,
-      "qualifiedAuthors": 0,
-      "reactionBoost": 0,
-      "workaroundBurdenRaw": 0,
-      "workaroundAuthors": 0,
-      "score": {
-        "voteDemand": 22.3,
-        "useCaseEvidence": 0,
-        "workaroundBurden": 0,
-        "composite": 11.1
-      },
-      "confidence": {
-        "level": "low",
-        "score": 0.09,
-        "rationale": "0 distinct qualified authors; 3 issue votes; 0% of reviewed comments qualified."
-      },
-      "trend": {
-        "votes7d": 0,
-        "votes30d": 0,
-        "score7d": 0,
-        "score30d": 0
-      },
-      "comments": [],
-      "snapshots": [
-        {
-          "date": "2026-08-14",
-          "votes": 3,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 22.3,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 11.1
-          }
-        }
-      ],
-      "lastActivityAt": "2026-08-14T14:46:54Z"
     },
     {
       "id": "insertable-streams",
@@ -27266,20 +27268,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-24",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-25",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -27698,9 +27686,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-27",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-26T15:52:02Z"
+      "lastActivityAt": "2026-11-27T15:40:11Z"
     },
     {
       "id": "iterator-join",
@@ -27745,20 +27747,6 @@
       "comments": [],
       "snapshots": [
         {
-          "date": "2026-10-24",
-          "votes": 1,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 11.1,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 5.6
-          }
-        },
-        {
           "date": "2026-10-25",
           "votes": 1,
           "qualifiedAuthors": 0,
@@ -28177,9 +28165,23 @@
             "workaroundBurden": 0,
             "composite": 5.6
           }
+        },
+        {
+          "date": "2026-11-27",
+          "votes": 1,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 11.1,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 5.6
+          }
         }
       ],
-      "lastActivityAt": "2026-11-26T15:52:01Z"
+      "lastActivityAt": "2026-11-27T15:40:10Z"
     },
     {
       "id": "khr-parallel-shader-compile",
@@ -31054,9 +31056,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-27",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-24T10:10:04Z"
+      "lastActivityAt": "2026-11-27T15:40:12Z"
     },
     {
       "id": "iterator-zip-zipkeyed",
@@ -31100,20 +31116,6 @@
       },
       "comments": [],
       "snapshots": [
-        {
-          "date": "2026-10-24",
-          "votes": 0,
-          "qualifiedAuthors": 0,
-          "reactionBoost": 0,
-          "workaroundBurdenRaw": 0,
-          "formulaVersion": "1.0.0",
-          "components": {
-            "voteDemand": 0,
-            "useCaseEvidence": 0,
-            "workaroundBurden": 0,
-            "composite": 0
-          }
-        },
         {
           "date": "2026-10-25",
           "votes": 0,
@@ -31533,9 +31535,23 @@
             "workaroundBurden": 0,
             "composite": 0
           }
+        },
+        {
+          "date": "2026-11-27",
+          "votes": 0,
+          "qualifiedAuthors": 0,
+          "reactionBoost": 0,
+          "workaroundBurdenRaw": 0,
+          "formulaVersion": "1.0.0",
+          "components": {
+            "voteDemand": 0,
+            "useCaseEvidence": 0,
+            "workaroundBurden": 0,
+            "composite": 0
+          }
         }
       ],
-      "lastActivityAt": "2026-11-26T15:51:59Z"
+      "lastActivityAt": "2026-11-27T15:40:08Z"
     },
     {
       "id": "navigation-source",
